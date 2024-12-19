@@ -6,7 +6,7 @@
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-# {template-vite-react}
+# Klima Dashboard Xhain
 
 ## TODO (after you generated the repo)
 
