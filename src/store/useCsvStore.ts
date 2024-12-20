@@ -2,13 +2,13 @@ import { create } from "zustand";
 import Papa from "papaparse";
 
 interface CsvData {
-	[key: string]: any[];
+	[key: string]: (number | string)[];
 }
 
 interface CsvStore {
 	data: CsvData;
 	loadCsv: (fileName: string, filePath: string) => Promise<void>;
-	getCsvData: (fileName: string) => any[] | undefined;
+	getCsvData: (fileName: string) => unknown[] | undefined;
 }
 
 export const useCsvStore = create<CsvStore>((set, get) => ({
@@ -24,7 +24,10 @@ export const useCsvStore = create<CsvStore>((set, get) => ({
 			skipEmptyLines: true,
 			complete: (result) => {
 				set((state) => ({
-					data: { ...state.data, [fileName]: result.data },
+					data: {
+						...state.data,
+						[fileName]: result.data as (string | number)[],
+					},
 				}));
 			},
 		});

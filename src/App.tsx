@@ -3,8 +3,6 @@ import { useCsvStore } from "./store/useCsvStore";
 import DataCard from "./components/data-card";
 
 const csvFiles = [
-	{ name: "02-eev-total-mwh", path: "/data/02-eev-total-mwh.csv" },
-	{ name: "02-eev-sector-2021-mwh", path: "/data/02-eev-sector-2021-mwh.csv" },
 	{ name: "02-thg-total-tons", path: "/data/02-thg-total-tons.csv" },
 	{
 		name: "02-thg-sector-2021-tons",
