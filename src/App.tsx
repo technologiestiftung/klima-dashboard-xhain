@@ -1,6 +1,7 @@
 import React from "react";
 import { useCsvStore } from "./store/useCsvStore";
 import DataCard from "./components/data-card";
+import { useI18nStore } from "./i18n/i18n-store";
 
 const csvFiles = [
 	{ name: "02-thg-total-tons", path: "/data/02-thg-total-tons.csv" },
@@ -59,9 +60,10 @@ csvFiles.forEach((file) => {
 });
 
 const App: React.FC = () => {
+	const i18n = useI18nStore().i18n();
 	return (
 		<main>
-			<h1 className="text-2xl font-semibold p-5">Klima Dashboard Xhain</h1>
+			<h1 className="text-2xl font-semibold p-5">{i18n["header.title"]}</h1>
 			<div className="flex flex-wrap justify-center">
 				{csvFiles.map((file) => (
 					<DataCard key={file.name} fileName={file.name} title={file.name} />
