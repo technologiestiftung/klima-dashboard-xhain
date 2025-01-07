@@ -1,18 +1,12 @@
 import React, { useMemo } from "react";
 import * as d3 from "d3";
-
-interface DataEntry {
-	year: string;
-	heating: string;
-	electricity: string;
-	fuels: string;
-}
+import { ThgTotalTons } from "../../../store/csvTypes";
 
 interface CircleAreaChartProps {
-	data: DataEntry[];
+	data: ThgTotalTons[];
 	width: number;
 	height: number;
-	year: string;
+	year: number;
 }
 
 const circleColors = {
@@ -31,6 +25,7 @@ export const CircleAreaChart: React.FC<CircleAreaChartProps> = ({
 		() => data.find((d) => d.year === year),
 		[data, year],
 	);
+
 	if (!dataSelectedYear) {
 		return <p>No data available for {year}</p>;
 	}
@@ -41,7 +36,7 @@ export const CircleAreaChart: React.FC<CircleAreaChartProps> = ({
 			.filter((key) => key !== "year")
 			.map((key) => ({
 				key: key.replace("_mwh", "").replace("_tons", "").replace(/_/g, " "),
-				value: +dataSelectedYear[key as keyof DataEntry],
+				value: +dataSelectedYear[key as keyof ThgTotalTons],
 			}));
 	}, [dataSelectedYear]);
 
@@ -89,13 +84,13 @@ export const CircleAreaChart: React.FC<CircleAreaChartProps> = ({
 			{circles.map((d, index) => (
 				<g key={index}>
 					<circle
-						cx={d.x}
+						cx={d.x + 20}
 						cy={d.y}
 						r={d.r}
 						fill={circleColors[d.key as keyof typeof circleColors]}
 					/>
 					<text
-						x={d.x}
+						x={d.x + 20}
 						y={d.y - 10}
 						textAnchor="middle"
 						fontSize="16px"
@@ -105,7 +100,7 @@ export const CircleAreaChart: React.FC<CircleAreaChartProps> = ({
 						{d.key}
 					</text>
 					<text
-						x={d.x}
+						x={d.x + 20}
 						y={d.y + 10}
 						textAnchor="middle"
 						fontSize="16px"

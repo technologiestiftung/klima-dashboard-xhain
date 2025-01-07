@@ -1,42 +1,43 @@
 import React, { useState } from "react";
 import { CircleAreaChart } from "./circle-area-chart";
-
-interface DataEntry {
-	year: string;
-	heating: string;
-	electricity: string;
-	fuels: string;
-}
+import { ThgTotalTons } from "../../../store/csvTypes";
 
 interface CircleAreaChartSliderProps {
-	data: DataEntry[];
+	data: ThgTotalTons[];
 }
 
 export const CircleAreaChartSlider: React.FC<CircleAreaChartSliderProps> = ({
 	data,
 }) => {
-	const minYear = Math.min(...data.map((d) => +d.year));
-	const maxYear = Math.max(...data.map((d) => +d.year));
+	if (!data || data.length === 0) {
+		return <div>Loading..</div>;
+	}
 
-	const [selectedYear, setSelectedYear] = useState<string>(maxYear.toString());
+	const minYear = data[0].year;
+	const maxYear = data[data.length - 1].year;
+
+	const [selectedYear, setSelectedYear] = useState<number>(maxYear);
+
+	// get width of current div element
+	const width = document.getElementById("chart-container")?.offsetWidth || 340;
 
 	return (
-		<>
+		<div id="chart-container">
 			<CircleAreaChart
 				data={data}
-				width={340}
+				width={width}
 				height={250}
-				year={selectedYear.toString()}
+				year={selectedYear}
 			/>
 			<input
 				type="range"
 				min={minYear}
 				max={maxYear}
 				value={selectedYear}
-				onChange={(e) => setSelectedYear(e.target.value)}
-				className="w-full"
+				onChange={(e) => setSelectedYear(Number(e.target.value))}
+				className="w-[340px]"
 			/>
-			<span>{selectedYear}</span>
-		</>
+			<div>{selectedYear}</div>
+		</div>
 	);
 };

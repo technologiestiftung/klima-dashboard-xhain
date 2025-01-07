@@ -17,13 +17,20 @@ const DataCard: React.FC<DataCardProps> = ({ fileName, title }) => {
 	}
 
 	return (
-		<div className="border border-gray-300 m-5 p-2.5">
+		<div className="m-5 bg-[#FFF9F5] rounded-3xl p-5">
 			<h2>{title}</h2>
 
-			{fileName === "02-thg-total-tons" && (
-				<CircleAreaChartSlider data={data} />
+			{data ? (
+				<div className="size-[360px] overflow-hidden">
+					{fileName === "02-thg-total-tons" ? (
+						<CircleAreaChartSlider data={data} />
+					) : (
+						<pre>{JSON.stringify(data, null, 2)}</pre>
+					)}
+				</div>
+			) : (
+				<p>Loading...</p>
 			)}
-			{data ? <pre>{JSON.stringify(data, null, 2)}</pre> : <p>Loading...</p>}
 		</div>
 	);
 };
