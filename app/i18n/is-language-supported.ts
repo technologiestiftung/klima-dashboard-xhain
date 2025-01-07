@@ -1,4 +1,4 @@
-import { AvailableLanguages, translations } from "./translations.ts";
+import { type AvailableLanguages, translations } from "./translations";
 
 export function isLanguageSupported(
 	language: string,

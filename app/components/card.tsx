@@ -1,8 +1,8 @@
 import React from "react";
 import { CircleAreaChartSlider } from "./visualizations/circle-area-chart/circle-area-chart-slider";
 import { Dialog } from "./dialog/dialog";
-import { useI18nStore } from "../i18n/i18n-store";
-import { data } from "../data/";
+import { i18n } from "~/i18n/i18n-utils";
+import { data } from "~/data";
 
 interface CardProps {
 	id: keyof typeof data;
@@ -76,10 +76,8 @@ const Card: React.FC<CardProps> = ({ id }) => {
 	const showDialog = () =>
 		(document.getElementById(dialogId) as HTMLDialogElement).showModal();
 
-	const i18n = useI18nStore((state) => state.i18n());
-
-	const title = i18n[`chart.${id}.title`];
-	const subTitle = i18n[`chart.${id}.subtitle`];
+	const title = i18n("chart.thgTotalTons.title");
+	const subTitle = i18n("chart.thgTotalTons.subtitle");
 
 	const { size, color, component: Chart } = charts[id];
 
@@ -92,7 +90,7 @@ const Card: React.FC<CardProps> = ({ id }) => {
 					onClick={showDialog}
 					className="px-2 py-1 text-xs w-fit bg-xhain-blue-70 text-white rounded-full my-3"
 				>
-					{i18n["button.moreInfo"]}
+					{i18n("button.moreInfo")}
 				</button>
 				<div className="w-full h-[300px] overflow-hidden">
 					{Chart && <Chart />}
