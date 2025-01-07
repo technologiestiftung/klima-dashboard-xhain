@@ -4,5 +4,6 @@
 			"source": "/:path*",
 			"destination": "/index.html"
 		}
-	]
+	],
+	"trailingSlash": true
 }
