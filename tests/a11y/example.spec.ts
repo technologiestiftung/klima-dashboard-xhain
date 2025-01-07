@@ -7,6 +7,7 @@ test.describe("homepage", () => {
 	}) => {
 		await page.goto("/");
 
+		// @ts-expect-error AxeBuilder is not typed
 		const accessibilityScanResults = await new AxeBuilder({ page }).analyze();
 
 		expect(accessibilityScanResults.violations).toEqual([]);

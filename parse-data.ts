@@ -1,4 +1,3 @@
-// @ts-expect-error typescript lies
 import Papa from "papaparse";
 import * as fs from "fs";
 import _ from "lodash";
@@ -51,7 +50,7 @@ const csvFiles = [
 	},
 ];
 
-const data = {};
+const data: Record<string, Record<string, string | number>[]> = {};
 
 csvFiles.forEach(async ({ name, path }) => {
 	const raw = fs.readFileSync(path).toString();
@@ -78,5 +77,5 @@ csvFiles.forEach(async ({ name, path }) => {
 	});
 
 	const json = JSON.stringify(data, null, 2);
-	fs.writeFileSync("./src/data/index.ts", `export const data = ${json};`);
+	fs.writeFileSync("./app/data/index.ts", `export const data = ${json};`);
 });

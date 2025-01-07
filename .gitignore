@@ -27,4 +27,7 @@ dist-ssr
 /playwright/.cache/
 
 # Data prone to change
-/src/data/*.ts
+/app/data/*.ts
+
+# build output
+build/

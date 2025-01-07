@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { CircleAreaChart } from "./circle-area-chart";
-import { data as allData } from "../../../data";
+import { data as allData } from "~/data";
 
 const data = allData.thgTotalTons;
 
@@ -10,8 +10,13 @@ export const CircleAreaChartSlider: React.FC = () => {
 
 	const [selectedYear, setSelectedYear] = useState<number>(maxYear);
 
-	// get width of current div element
-	const width = document.getElementById("chart-container")?.offsetWidth || 360;
+	const [width, setWidth] = useState(360);
+
+	useEffect(() => {
+		// get width of current div element
+		setWidth(document.getElementById("chart-container")?.offsetWidth || 360);
+	}, []);
+
 	return (
 		<div id="chart-container">
 			<CircleAreaChart
