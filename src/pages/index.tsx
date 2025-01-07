@@ -1,6 +1,8 @@
 import DataCard from "../components/data-card";
 import { useCsvStore } from "../store/useCsvStore";
 import { Link } from "react-router";
+import { useI18nStore } from "../i18n/i18n-store";
+import { LanguageToggle } from "../components/router/languageToggle";
 
 const csvFiles = [
 	{ name: "02-thg-total-tons", path: "/data/02-thg-total-tons.csv" },
@@ -59,10 +61,12 @@ csvFiles.forEach((file) => {
 });
 
 export default function Index() {
+	const i18n = useI18nStore((state) => state.i18n());
+
 	return (
 		<main>
-			<h1 className="text-2xl font-semibold p-5">Klima Dashboard Xhain</h1>
-
+			<LanguageToggle />
+			<h1 className="text-2xl font-semibold p-5">{i18n["header.title"]}</h1>
 			<br />
 
 			<Link to="/current-projects/" className="text-blue-500 underline p-5">
