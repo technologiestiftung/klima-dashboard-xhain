@@ -11,9 +11,9 @@ type WeatherCondition =
 
 interface WeatherData {
 	timestamp: string;
-	temperatureCelsius: number | null;
-	cloudCoverPercent: number | null;
-	condition: WeatherCondition | null;
+	temperatureCelsius: number;
+	cloudCoverPercent: number;
+	condition: WeatherCondition;
 }
 
 const useCurrentWeather = () => {
