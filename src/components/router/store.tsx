@@ -7,8 +7,6 @@ interface URLState {
 	addSearchParam: (key: string, value: string) => void;
 }
 
-let debounceTimeoutId: ReturnType<typeof setTimeout>;
-
 export const useUrlState = create<URLState>()((set, get) => ({
 	url: new URL(window.location.href),
 
@@ -17,12 +15,6 @@ export const useUrlState = create<URLState>()((set, get) => ({
 		url.search = searchParams.toString();
 
 		set({ url });
-
-		clearTimeout(debounceTimeoutId);
-
-		debounceTimeoutId = setTimeout(() => {
-			window.history.pushState({}, "", url);
-		}, 500);
 	},
 
 	addSearchParam: (key: string, value: string) => {
