@@ -1,4 +1,5 @@
 import DataCard from "../components/data-card";
+import WeatherCard from "../components/weather-card";
 import { useCsvStore } from "../store/useCsvStore";
 import { Link } from "react-router";
 
@@ -68,6 +69,8 @@ export default function Index() {
 			<Link to="/current-projects/" className="text-blue-500 underline p-5">
 				link aktuelle Projekte
 			</Link>
+
+			<WeatherCard></WeatherCard>
 
 			<br />
 
