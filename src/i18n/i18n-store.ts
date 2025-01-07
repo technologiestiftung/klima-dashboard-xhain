@@ -2,7 +2,7 @@ import { create } from "zustand";
 import { persist } from "zustand/middleware";
 import { AvailableLanguages, translations } from "./translations";
 import { isLanguageSupported } from "./is-language-supported";
-// import { useUrlState } from "../components/router/store";
+import { useUrlState } from "../components/router/store";
 
 interface I18NState {
 	language: string;
@@ -18,7 +18,7 @@ export const useI18nStore = create<I18NState>()(
 		(set, get) => ({
 			language: new URL(window.location.href).searchParams.get("lang") ?? "de",
 			setLanguage: (language: string) => {
-				// useUrlState.getState().addSearchParam("lang", language);
+				useUrlState.getState().addSearchParam("lang", language);
 				set({ language });
 			},
 			formatNumber: (number: number, round?: boolean) => {
