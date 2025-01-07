@@ -13,13 +13,13 @@ const WeatherCard: React.FC = () => {
 			<div className="text-2xl font-bold">{weather.temperatureCelsius}°C</div>
 			<div className="flex flex-col">
 				<p className="font-bold text-lg">Friedrichshain-Kreuzberg</p>
-				<p>
+				<p className="text-sm">
 					{new Date(weather.timestamp).toLocaleString(undefined, {
 						dateStyle: "full",
 						timeStyle: "short",
 					})}
 				</p>
-				<p>{weather.condition}</p>
+				<p className="text-sm">{weather.condition}</p>
 			</div>
 		</div>
 	);
