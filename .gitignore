@@ -25,3 +25,6 @@ dist-ssr
 **/test-results/
 /blob-report/
 /playwright/.cache/
+
+# Data prone to change
+/src/data/*.ts
