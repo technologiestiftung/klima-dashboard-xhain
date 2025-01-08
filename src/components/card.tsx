@@ -38,7 +38,7 @@ const Card: React.FC<CardProps> = ({ id }) => {
 
 	return (
 		<>
-			<div className="border border-gray-300 m-5 p-5 rounded-3xl">
+			<div className="border border-gray-300 m-5 p-5 rounded-4xl">
 				<h2>{title}</h2>
 				<h3>{subTitle}</h3>
 				<div className="size-[360px] overflow-hidden">
