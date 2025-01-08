@@ -23,7 +23,7 @@ const DataCard: React.FC<DataCardProps> = ({ fileName, title }) => {
 
 	return (
 		<>
-			<div className="border border-gray-300 m-5 p-5 rounded-3xl">
+			<div className="border border-gray-300 m-5 p-5 rounded-4xl">
 				<h2>{title}</h2>
 				{data ? (
 					<div className="size-[360px] overflow-hidden">

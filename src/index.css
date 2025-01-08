@@ -24,4 +24,8 @@
 		font-weight: 700;
 		src: url("../fonts/raleway-v34-latin-700.woff2") format("woff2");
 	}
+
+	body {
+		@apply text-xhain-blue-100;
+	}
 }
