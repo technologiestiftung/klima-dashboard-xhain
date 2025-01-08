@@ -1,9 +1,12 @@
 export const de = {
 	"header.title": "Klima Dashboard Xhain",
+
+	"charts.title": "Wie trägt XHain zum Klimawandel bei?",
 	"chart.thgTotalTons.title": "Treibhausgas-Emissionen",
 	"chart.thgTotalTons.subtitle": "in Tonnen",
 	"chart.thgSector2021Tons.title": "Treibhausgas-Emissionen",
 	"chart.thgSector2021Tons.subtitle": "nach Verbrauchssektoren",
+	"chart.consumptionEmissions.title": "Konsumbedingte indirekte Emissionen",
 	"chart.eevTotalMwh.title": "Endenergieverbrauch",
 	"chart.eevTotalMwh.subtitle": "in MWh",
 	"chart.eevSector2021Mwh.title": "Endenergieverbrauch",
@@ -16,9 +19,6 @@ export const de = {
 		"Klimaschutzszenario (1,75 Grad, 67 % Wahrscheinlichkeit)",
 	"chart.restBudgetThgUntilYear.title": "Restbudget-Eimer",
 	"chart.restBudgetThgUntilYear.subtitle": "des 1,75 Grad Klimaziels",
-	"chart.trendscenarioThgUntil2050.title": "Trendpfad",
-	"chart.trendscenarioThgUntil2050.subtitle":
-		"Treibhausgas-Emissionen bis 2050",
 	"chart.hotDays.title": "Heiße Tage",
 	"chart.mediumTemperature.title": "Mittlere Jahrestemperatur",
 	"chart.mediumTemperature.subtitle": "in Friedrichshain-Kreuzberg nach Phasen",

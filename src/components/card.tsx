@@ -9,35 +9,51 @@ interface CardProps {
 }
 
 const charts = {
-	thgTotalTons: CircleAreaChartSlider,
-	thgSector2021Tons: null,
 	eevTotalMwh: null,
 	eevSector2021Mwh: null,
 	heatingMix2021: null,
+	consumptionEmissions: null,
+	thgTotalTons: CircleAreaChartSlider,
+	thgSector2021Tons: null,
 	modalSplit2018: null,
 	traffic2022Summarized: null,
-	traffic2022: null,
-	reductionPathScenario175Thg: null,
+
 	restBudgetThgUntilYear: null,
-	trendscenarioThgUntil2050: null,
+	reductionPathScenario175Thg: null,
 	hotDays: null,
 	mediumTemperature: null,
 };
 
 const cardColors = {
-	thgTotalTons: "bg-xhain-orange-10",
-	thgSector2021Tons: "bg-xhain-orange-10",
 	eevTotalMwh: "bg-xhain-blue-10",
 	eevSector2021Mwh: "bg-xhain-blue-10",
 	heatingMix2021: "bg-xhain-green-30",
+	consumptionEmissions: "bg-xhain-orange-10",
+	thgTotalTons: "bg-xhain-orange-10",
+	thgSector2021Tons: "bg-xhain-orange-10",
 	modalSplit2018: "bg-xhain-blue-10",
+
 	traffic2022Summarized: "bg-xhain-green-30",
-	traffic2022: "bg-xhain-green-30",
-	reductionPathScenario175Thg: "bg-xhain-blue-10",
 	restBudgetThgUntilYear: "bg-xhain-blue-10",
-	trendscenarioThgUntil2050: "bg-xhain-blue-10",
+	reductionPathScenario175Thg: "bg-xhain-blue-10",
 	hotDays: "bg-xhain-orange-10",
 	mediumTemperature: "bg-xhain-green-30",
+};
+
+const cardSizes = {
+	eevTotalMwh: "col-span-1 lg:col-span-2 row-span-1",
+	eevSector2021Mwh: "col-span-1 row-span-1",
+	heatingMix2021: "col-span-1 row-span-2",
+	consumptionEmissions: "col-span-1 lg:col-span-2 row-span-1",
+	thgTotalTons: "col-span-1 row-span-1",
+	thgSector2021Tons: "col-span-1 row-span-1",
+	modalSplit2018: "col-span-1 lg:col-span-2 row-span-1",
+	traffic2022Summarized: "col-span-1 row-span-1",
+
+	restBudgetThgUntilYear: "col-span-1 row-span-2",
+	reductionPathScenario175Thg: "col-span-1 lg:col-span-2 row-span-2",
+	hotDays: "col-span-1 lg:col-span-2 row-span-1",
+	mediumTemperature: "col-span-1 row-span-2",
 };
 
 const Card: React.FC<CardProps> = ({ id }) => {
@@ -53,23 +69,25 @@ const Card: React.FC<CardProps> = ({ id }) => {
 	const Chart = charts[id];
 
 	return (
-		<>
-			<div className={`m-5 p-5 rounded-4xl ${cardColors[id]}`}>
+		<div className={`${cardSizes[id]}`}>
+			<div
+				className={`p-5 rounded-4xl w-full h-full row-span-1 ${cardColors[id]}`}
+			>
 				<h2 className="text-xl font-bold">{title}</h2>
 				<h3 className="text-xs">{subTitle}</h3>
 				<button
 					onClick={showDialog}
-					className="px-2 py-1 text-xs bg-xhain-blue-70 text-white rounded-full my-3"
+					className="px-2 py-1 text-xs w-fit bg-xhain-blue-70 text-white rounded-full my-3"
 				>
 					{i18n["button.moreInfo"]}
 				</button>
-				<div className="size-[360px] overflow-hidden">
+				<div className="w-full h-[300px] overflow-hidden">
 					{Chart && <Chart />}
 					{!Chart && (
 						<>
 							<p>Chart not found</p>
 							<br />
-							<pre>{JSON.stringify(data[id], null, 2)}</pre>
+							<pre>{JSON.stringify(data[id].slice(0, 2), null, 2)}</pre>
 						</>
 					)}
 				</div>
@@ -83,7 +101,7 @@ const Card: React.FC<CardProps> = ({ id }) => {
 					<p className="text-lg">This is a dialog about {title}</p>
 				</div>
 			</Dialog>
-		</>
+		</div>
 	);
 };
 

@@ -18,7 +18,8 @@ export default function Index() {
 
 			<br />
 
-			<div className="flex flex-wrap justify-center">
+			<h1 className="text-5xl font-semibold p-5">{i18n["charts.title"]}</h1>
+			<div className="grid grid-cols-1 lg:grid-cols-3 gap-5 p-5">
 				{chartIds.map((id) => (
 					<Card key={id.toString()} id={id} />
 				))}
