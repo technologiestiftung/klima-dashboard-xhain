@@ -24,6 +24,22 @@ const charts = {
 	mediumTemperature: null,
 };
 
+const cardColors = {
+	thgTotalTons: "bg-xhain-orange-10",
+	thgSector2021Tons: "bg-xhain-orange-10",
+	eevTotalMwh: "bg-xhain-blue-10",
+	eevSector2021Mwh: "bg-xhain-blue-10",
+	heatingMix2021: "bg-xhain-green-30",
+	modalSplit2018: "bg-xhain-blue-10",
+	traffic2022Summarized: "bg-xhain-green-30",
+	traffic2022: "bg-xhain-green-30",
+	reductionPathScenario175Thg: "bg-xhain-blue-10",
+	restBudgetThgUntilYear: "bg-xhain-blue-10",
+	trendscenarioThgUntil2050: "bg-xhain-blue-10",
+	hotDays: "bg-xhain-orange-10",
+	mediumTemperature: "bg-xhain-green-30",
+};
+
 const Card: React.FC<CardProps> = ({ id }) => {
 	const dialogId = `${id}-dialog`;
 	const showDialog = () =>
@@ -38,9 +54,15 @@ const Card: React.FC<CardProps> = ({ id }) => {
 
 	return (
 		<>
-			<div className="border border-gray-300 m-5 p-5 rounded-4xl">
-				<h2>{title}</h2>
-				<h3>{subTitle}</h3>
+			<div className={`m-5 p-5 rounded-4xl ${cardColors[id]}`}>
+				<h2 className="text-xl font-bold">{title}</h2>
+				<h3 className="text-xs">{subTitle}</h3>
+				<button
+					onClick={showDialog}
+					className="px-2 py-1 text-xs bg-xhain-blue-70 text-white rounded-full my-3"
+				>
+					{i18n["button.moreInfo"]}
+				</button>
 				<div className="size-[360px] overflow-hidden">
 					{Chart && <Chart />}
 					{!Chart && (
@@ -53,13 +75,6 @@ const Card: React.FC<CardProps> = ({ id }) => {
 				</div>
 
 				<br />
-
-				<button
-					onClick={showDialog}
-					className="p-2 rounded border bg-blue-100 shadow"
-				>
-					open dialog
-				</button>
 			</div>
 
 			<Dialog id={dialogId}>
