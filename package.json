@@ -4,8 +4,8 @@
 	"version": "0.0.0",
 	"type": "module",
 	"scripts": {
-		"dev": "vite",
-		"build": "tsc -b && vite build",
+		"dev": "tsx parse-data.ts && vite",
+		"build": "tsx parse-data.ts && tsc -b && vite build",
 		"lint": "ESLINT_USE_FLAT_CONFIG=true eslint \"src/**/*\"",
 		"prettier": "prettier --write src tests",
 		"prettier:ci": "prettier --check src tests",
@@ -16,7 +16,6 @@
 	},
 	"dependencies": {
 		"d3": "7.9.0",
-		"papaparse": "5.4.1",
 		"react": "18.3.1",
 		"react-dom": "18.3.1",
 		"react-router": "7.1.1",
@@ -39,9 +38,12 @@
 		"eslint-plugin-react-hooks": "5.1.0-rc.0",
 		"eslint-plugin-react-refresh": "0.4.12",
 		"globals": "15.10.0",
+		"lodash": "4.17.21",
+		"papaparse": "5.4.1",
 		"postcss": "8.4.47",
 		"prettier": "3.3.3",
 		"tailwindcss": "3.4.13",
+		"tsx": "4.19.2",
 		"typescript": "5.5.4",
 		"vite": "5.4.8",
 		"vitest": "2.1.1"

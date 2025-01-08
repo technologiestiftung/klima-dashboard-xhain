@@ -1,18 +1,10 @@
 import React, { useState } from "react";
 import { CircleAreaChart } from "./circle-area-chart";
-import { ThgTotalTons } from "../../../store/csvTypes";
+import { data as allData } from "../../../data";
 
-interface CircleAreaChartSliderProps {
-	data: ThgTotalTons[];
-}
+const data = allData.thgTotalTons;
 
-export const CircleAreaChartSlider: React.FC<CircleAreaChartSliderProps> = ({
-	data,
-}) => {
-	if (!data || data.length === 0) {
-		return <div>Loading..</div>;
-	}
-
+export const CircleAreaChartSlider: React.FC = () => {
 	const minYear = data[0].year;
 	const maxYear = data[data.length - 1].year;
 

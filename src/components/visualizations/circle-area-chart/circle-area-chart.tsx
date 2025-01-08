@@ -1,9 +1,9 @@
 import React, { useMemo } from "react";
 import * as d3 from "d3";
-import { ThgTotalTons } from "../../../store/csvTypes";
+import { data as allData } from "../../../data";
 
 interface CircleAreaChartProps {
-	data: ThgTotalTons[];
+	data: typeof allData.thgTotalTons;
 	width: number;
 	height: number;
 	year: number;
@@ -36,7 +36,7 @@ export const CircleAreaChart: React.FC<CircleAreaChartProps> = ({
 			.filter((key) => key !== "year")
 			.map((key) => ({
 				key: key.replace("_mwh", "").replace("_tons", "").replace(/_/g, " "),
-				value: +dataSelectedYear[key as keyof ThgTotalTons],
+				value: +dataSelectedYear[key as keyof typeof dataSelectedYear],
 			}));
 	}, [dataSelectedYear]);
 
