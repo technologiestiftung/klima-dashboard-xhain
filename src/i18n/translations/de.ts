@@ -1,6 +1,5 @@
 export const de = {
 	"header.title": "Klima Dashboard Xhain",
-
 	"charts.title": "Wie trägt XHain zum Klimawandel bei?",
 	"chart.thgTotalTons.title": "Treibhausgas-Emissionen",
 	"chart.thgTotalTons.subtitle": "in Tonnen",
