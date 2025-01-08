@@ -1,6 +1,7 @@
 // placeholder card
 import React from "react";
 import { useCsvStore } from "../store/useCsvStore";
+import { CircleAreaChartSlider } from "./visualizations/circle-area-chart/circle-area-chart-slider";
 import { Dialog } from "./dialog/dialog";
 
 interface DataCardProps {
@@ -9,7 +10,12 @@ interface DataCardProps {
 }
 
 const DataCard: React.FC<DataCardProps> = ({ fileName, title }) => {
-	const data = useCsvStore((state) => state.getCsvData(fileName));
+	// disabled only momentarily
+	// eslint-disable-next-line @typescript-eslint/no-explicit-any
+	let data = useCsvStore((state) => state.getCsvData(fileName)) as any[];
+	if (!data) {
+		data = [];
+	}
 
 	const dialogId = `${title}-dialog`;
 	const showDialog = () =>
@@ -17,10 +23,19 @@ const DataCard: React.FC<DataCardProps> = ({ fileName, title }) => {
 
 	return (
 		<>
-			<div className="border border-gray-300 m-5 p-2.5">
+			<div className="border border-gray-300 m-5 p-5 rounded-3xl">
 				<h2>{title}</h2>
-				{data ? <pre>{JSON.stringify(data, null, 2)}</pre> : <p>Loading...</p>}
-
+				{data ? (
+					<div className="size-[360px] overflow-hidden">
+						{fileName === "02-thg-total-tons" ? (
+							<CircleAreaChartSlider data={data} />
+						) : (
+							<pre>{JSON.stringify(data, null, 2)}</pre>
+						)}
+					</div>
+				) : (
+					<p>Loading...</p>
+				)}
 				<br />
 
 				<button
