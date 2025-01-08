@@ -23,6 +23,8 @@ export default [
 		rules: {
 			// suppress errors for missing 'import React' in files
 			"react/react-in-jsx-scope": "off",
+			// self-close components without children
+			"react/self-closing-comp": "error",
 		},
 	},
 ];
