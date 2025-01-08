@@ -3,6 +3,7 @@ import WeatherCard from "../components/weather-card";
 import { useI18nStore } from "../i18n/i18n-store";
 import Layout from "../layout/layout";
 import { data } from "../data";
+import { Carousel } from "../components/carousel/carousel";
 
 const chartIds = Object.keys(data) as Array<keyof typeof data>;
 
@@ -17,6 +18,8 @@ export default function Index() {
 			<WeatherCard />
 
 			<br />
+
+			<Carousel />
 
 			<div className="flex flex-wrap justify-center">
 				{chartIds.map((id) => (
