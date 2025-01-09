@@ -1,5 +1,9 @@
 import React, { useRef, useState } from "react";
 
+const mod = (n: number, m: number) => {
+	return ((n % m) + m) % m;
+};
+
 export const Carousel: React.FC = () => {
 	const card1 = useRef<HTMLDivElement | null>(null);
 	const card2 = useRef<HTMLDivElement | null>(null);
@@ -9,7 +13,7 @@ export const Carousel: React.FC = () => {
 	const [currentCardIndex, setCurrentCardIndex] = useState(0);
 
 	const goToNext = () => {
-		const nextCardIndex = (currentCardIndex + 1) % 3;
+		const nextCardIndex = mod(currentCardIndex + 1, cards.length);
 		cards[nextCardIndex]?.current?.scrollIntoView({
 			behavior: "smooth",
 			block: "nearest",
@@ -19,7 +23,7 @@ export const Carousel: React.FC = () => {
 	};
 
 	const goToPrevious = () => {
-		const previousCardIndex = Math.abs(currentCardIndex - 1) % 3;
+		const previousCardIndex = mod(currentCardIndex - 1, cards.length);
 		cards[previousCardIndex]?.current?.scrollIntoView({
 			behavior: "smooth",
 			block: "nearest",
