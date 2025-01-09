@@ -4,11 +4,6 @@ import * as fs from "fs";
 import _ from "lodash";
 
 const csvFiles = [
-	{ name: "02-thg-total-tons", path: "./data/02-thg-total-tons.csv" },
-	{
-		name: "02-thg-sector-2021-tons",
-		path: "./data/02-thg-sector-2021-tons.csv",
-	},
 	{
 		name: "02-eev-total-mwh",
 		path: "./data/02-eev-total-mwh.csv",
@@ -22,6 +17,15 @@ const csvFiles = [
 		path: "./data/02-heating-mix-2021.csv",
 	},
 	{
+		name: "02-consumption-emissions",
+		path: "./data/02-consumption-emissions.csv",
+	},
+	{ name: "02-thg-total-tons", path: "./data/02-thg-total-tons.csv" },
+	{
+		name: "02-thg-sector-2021-tons",
+		path: "./data/02-thg-sector-2021-tons.csv",
+	},
+	{
 		name: "02-modal-split-2018",
 		path: "./data/02-modal-split-2018.csv",
 	},
@@ -30,20 +34,12 @@ const csvFiles = [
 		path: "./data/02-traffic-2022-summarized.csv",
 	},
 	{
-		name: "02-traffic-2022",
-		path: "./data/02-traffic-2022.csv",
-	},
-	{
-		name: "03-reduction-path-scenario175-thg",
-		path: "./data/03-reduction-path-scenario175-thg.csv",
-	},
-	{
 		name: "03-rest-budget-thg-until-year",
 		path: "./data/03-rest-budget-thg-until-year.csv",
 	},
 	{
-		name: "03-trendscenario-thg-until2050",
-		path: "./data/03-trendscenario-thg-until2050.csv",
+		name: "03-reduction-path-scenario175-thg",
+		path: "./data/03-reduction-path-scenario175-thg.csv",
 	},
 	{
 		name: "04-hot-days",
