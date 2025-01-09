@@ -9,51 +9,66 @@ interface CardProps {
 }
 
 const charts = {
-	eevTotalMwh: null,
-	eevSector2021Mwh: null,
-	heatingMix2021: null,
-	consumptionEmissions: null,
-	thgTotalTons: CircleAreaChartSlider,
-	thgSector2021Tons: null,
-	modalSplit2018: null,
-	traffic2022Summarized: null,
-
-	restBudgetThgUntilYear: null,
-	reductionPathScenario175Thg: null,
-	hotDays: null,
-	mediumTemperature: null,
-};
-
-const cardColors = {
-	eevTotalMwh: "bg-xhain-blue-10",
-	eevSector2021Mwh: "bg-xhain-blue-10",
-	heatingMix2021: "bg-xhain-green-30",
-	consumptionEmissions: "bg-xhain-orange-10",
-	thgTotalTons: "bg-xhain-orange-10",
-	thgSector2021Tons: "bg-xhain-orange-10",
-	modalSplit2018: "bg-xhain-blue-10",
-
-	traffic2022Summarized: "bg-xhain-green-30",
-	restBudgetThgUntilYear: "bg-xhain-blue-10",
-	reductionPathScenario175Thg: "bg-xhain-blue-10",
-	hotDays: "bg-xhain-orange-10",
-	mediumTemperature: "bg-xhain-green-30",
-};
-
-const cardSizes = {
-	eevTotalMwh: "col-span-1 lg:col-span-2 row-span-1",
-	eevSector2021Mwh: "col-span-1 row-span-1",
-	heatingMix2021: "col-span-1 row-span-2",
-	consumptionEmissions: "col-span-1 lg:col-span-2 row-span-1",
-	thgTotalTons: "col-span-1 row-span-1",
-	thgSector2021Tons: "col-span-1 row-span-1",
-	modalSplit2018: "col-span-1 lg:col-span-2 row-span-1",
-	traffic2022Summarized: "col-span-1 row-span-1",
-
-	restBudgetThgUntilYear: "col-span-1 row-span-2",
-	reductionPathScenario175Thg: "col-span-1 lg:col-span-2 row-span-2",
-	hotDays: "col-span-1 lg:col-span-2 row-span-1",
-	mediumTemperature: "col-span-1 row-span-2",
+	eevTotalMwh: {
+		component: null,
+		color: "bg-xhain-blue-10",
+		size: "col-span-1 lg:col-span-2 row-span-1",
+	},
+	eevSector2021Mwh: {
+		component: null,
+		color: "bg-xhain-blue-10",
+		size: "col-span-1 row-span-1",
+	},
+	heatingMix2021: {
+		component: null,
+		color: "bg-xhain-green-30",
+		size: "col-span-1 row-span-2",
+	},
+	consumptionEmissions: {
+		component: null,
+		color: "bg-xhain-orange-10",
+		size: "col-span-1 lg:col-span-2 row-span-1",
+	},
+	thgTotalTons: {
+		component: CircleAreaChartSlider,
+		color: "bg-xhain-orange-10",
+		size: "col-span-1 row-span-1",
+	},
+	thgSector2021Tons: {
+		component: null,
+		color: "bg-xhain-orange-10",
+		size: "col-span-1 row-span-1",
+	},
+	modalSplit2018: {
+		component: null,
+		color: "bg-xhain-blue-10",
+		size: "col-span-1 lg:col-span-2 row-span-1",
+	},
+	traffic2022Summarized: {
+		component: null,
+		color: "bg-xhain-green-30",
+		size: "col-span-1 row-span-1",
+	},
+	restBudgetThgUntilYear: {
+		component: null,
+		color: "bg-xhain-blue-10",
+		size: "col-span-1 row-span-2",
+	},
+	reductionPathScenario175Thg: {
+		component: null,
+		color: "bg-xhain-blue-10",
+		size: "col-span-1 lg:col-span-2 row-span-2",
+	},
+	hotDays: {
+		component: null,
+		color: "bg-xhain-orange-10",
+		size: "col-span-1 lg:col-span-2 row-span-1",
+	},
+	mediumTemperature: {
+		component: null,
+		color: "bg-xhain-green-30",
+		size: "col-span-1 row-span-2",
+	},
 };
 
 const Card: React.FC<CardProps> = ({ id }) => {
@@ -66,13 +81,11 @@ const Card: React.FC<CardProps> = ({ id }) => {
 	const title = i18n[`chart.${id}.title`];
 	const subTitle = i18n[`chart.${id}.subtitle`];
 
-	const Chart = charts[id];
+	const { size, color, component: Chart } = charts[id];
 
 	return (
-		<div className={`${cardSizes[id]}`}>
-			<div
-				className={`p-5 rounded-4xl w-full h-full row-span-1 ${cardColors[id]}`}
-			>
+		<div className={`${size}`}>
+			<div className={`p-5 rounded-4xl w-full h-full row-span-1 ${color}`}>
 				<h2 className="text-xl font-bold">{title}</h2>
 				<h3 className="text-xs">{subTitle}</h3>
 				<button
