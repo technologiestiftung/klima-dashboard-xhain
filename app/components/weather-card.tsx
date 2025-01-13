@@ -2,6 +2,7 @@ import React from "react";
 import useCurrentWeather from "~/hooks/use-current-weather";
 import { formatDate, formatTemperature } from "~/i18n/i18n-utils";
 import { useLocation } from "react-router";
+import { Skeleton } from "~/components/skeleton/skeleton.tsx";
 
 const WeatherCard: React.FC = () => {
 	const { weather } = useCurrentWeather();
@@ -9,7 +10,16 @@ const WeatherCard: React.FC = () => {
 	const language = location.pathname.split("/")[1];
 
 	if (!weather) {
-		return null;
+		return (
+			<div className="max-w-5xl mx-auto w-full h-28 flex flex-row gap-2 items-center justify-between bg-[#F6F8FF]">
+				<Skeleton className="w-14 h-14 rounded-full mt-8 ml-3" />
+				<div className="flex flex-col mr-5">
+					<Skeleton className="w-56 h-4 my-2 rounded-lg" />
+					<Skeleton className="w-56 h-4 my-2 rounded-lg" />
+					<Skeleton className="w-56 h-4 my-2 rounded-lg" />
+				</div>
+			</div>
+		);
 	}
 
 	const { value, unit } = formatTemperature({
@@ -23,7 +33,7 @@ const WeatherCard: React.FC = () => {
 	});
 
 	return (
-		<div className="max-w-5xl mx-auto w-full flex flex-row gap-2 items-center justify-between p-5 bg-[#F6F8FF]">
+		<div className="max-w-5xl mx-auto w-full h-28 flex flex-row gap-2 items-center justify-between p-5 bg-[#F6F8FF]">
 			<div className="text-2xl font-bold">
 				{value}
 				{unit}

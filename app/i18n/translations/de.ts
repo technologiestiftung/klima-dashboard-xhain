@@ -22,4 +22,9 @@ export const de = {
 	"chart.mediumTemperature.title": "Mittlere Jahrestemperatur",
 	"chart.mediumTemperature.subtitle": "in Friedrichshain-Kreuzberg nach Phasen",
 	"button.moreInfo": "mehr Infos",
+
+	"howToReachGoals.title":
+		"Wie kann XHain die Klimaschutzziele zukünftig erreichen?",
+	"consequences.title": "Wie wirkt sich der Klimawandel auf XHain aus?",
+	"currentProjects.title": "Was passiert bereits in Xhain?",
 };

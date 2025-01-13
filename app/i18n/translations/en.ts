@@ -24,4 +24,9 @@ export const en: typeof de = {
 	"chart.mediumTemperature.title": "Average annual temperature",
 	"chart.mediumTemperature.subtitle": "in Friedrichshain-Kreuzberg by phases",
 	"button.moreInfo": "more info",
+
+	"howToReachGoals.title":
+		"How can XHain achieve its climate protection goals in the future?",
+	"consequences.title": "How does climate change affect XHain?",
+	"currentProjects.title": "What is already happening in XHain?",
 };
