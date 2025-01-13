@@ -24,6 +24,11 @@ export default {
 				"xhain-orange-30": "#FFE3D4",
 				"xhain-orange-10": "#FFF9F5",
 			},
+			keyframes: {
+				shimmer: {
+					"100%": { transform: "translateX(100%)" },
+				},
+			},
 		},
 	},
 	plugins: [

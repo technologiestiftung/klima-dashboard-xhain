@@ -16,9 +16,11 @@ interface WeatherData {
 	condition: WeatherCondition;
 }
 
+export const brightSkyApiEndpoint =
+	"https://api.brightsky.dev/current_weather?lat=52.50186298000907&lon=13.445670892452474";
+
 const useCurrentWeather = () => {
 	// See BrightSky API documentation for more information: https://brightsky.dev/docs/#/operations/getCurrentWeather
-	const brightSkyApiEndpoint = "https://api.brightsky.dev";
 
 	const [weather, setWeather] = useState<WeatherData | null>(null);
 	const [loading, setLoading] = useState<boolean>(true);
@@ -27,9 +29,7 @@ const useCurrentWeather = () => {
 	useEffect(() => {
 		const fetchWeather = async () => {
 			try {
-				const response = await fetch(
-					`${brightSkyApiEndpoint}/current_weather?lat=52.50186298000907&lon=13.445670892452474`,
-				);
+				const response = await fetch(brightSkyApiEndpoint);
 				if (!response.ok) {
 					throw new Error("Failed to fetch weather data");
 				}
