@@ -19,15 +19,10 @@ const charts = {
 		color: "bg-xhain-blue-10",
 		size: "col-span-1 row-span-1",
 	},
-	heatingMix2021: {
+	heatingMix2021Summarized: {
 		component: null,
 		color: "bg-xhain-green-30",
 		size: "col-span-1 row-span-2",
-	},
-	consumptionEmissions: {
-		component: null,
-		color: "bg-xhain-orange-10",
-		size: "col-span-1 lg:col-span-2 row-span-1",
 	},
 	thgTotalTons: {
 		component: CircleAreaChartSlider,
@@ -48,11 +43,6 @@ const charts = {
 		component: null,
 		color: "bg-xhain-green-30",
 		size: "col-span-1 row-span-1",
-	},
-	restBudgetThgUntilYear: {
-		component: null,
-		color: "bg-xhain-blue-10",
-		size: "col-span-1 row-span-2",
 	},
 	reductionPathScenario175Thg: {
 		component: null,
@@ -76,8 +66,8 @@ const Card: React.FC<CardProps> = ({ id }) => {
 	const showDialog = () =>
 		(document.getElementById(dialogId) as HTMLDialogElement).showModal();
 
-	const title = i18n("chart.thgTotalTons.title");
-	const subTitle = i18n("chart.thgTotalTons.subtitle");
+	const title = i18n(`chart.${id}.title`);
+	const subTitle = i18n(`chart.${id}.subtitle`);
 
 	const { size, color, component: Chart } = charts[id];
 
