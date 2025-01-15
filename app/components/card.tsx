@@ -3,6 +3,7 @@ import { CircleAreaChartSlider } from "./visualizations/circle-area-chart/circle
 import { Dialog } from "./dialog/dialog";
 import { i18n } from "~/i18n/i18n-utils";
 import { howXhainContributesData } from "~/data";
+import { LineChart } from "~/components/visualizations/line-chart/line-chart";
 
 interface CardProps {
 	id: keyof typeof howXhainContributesData;
@@ -10,7 +11,7 @@ interface CardProps {
 
 const charts = {
 	eevTotalMwh: {
-		component: null,
+		component: LineChart,
 		color: "bg-xhain-blue-10",
 		size: "col-span-1 lg:col-span-2 row-span-1",
 	},
@@ -65,11 +66,12 @@ const Card: React.FC<CardProps> = ({ id }) => {
 		<div className={`${size}`}>
 			<div className={`p-5 rounded-4xl w-full h-full row-span-1 ${color}`}>
 				<h2 className="text-xl font-bold">{title}</h2>
-				<h3 className="text-xs">{subTitle}</h3>
+				<h3 className="text-xl">{subTitle}</h3>
 				<button
 					onClick={showDialog}
-					className="px-2 py-1 text-xs w-fit bg-xhain-blue-70 text-white rounded-full my-3"
+					className="flex items-center px-3 py-0.5 gap-x-2 bg-xhain-blue-50 text-white rounded-full my-3 hover:bg-xhain-blue-60 focus:outline focus:outline-3 focus:outline-xhain-blue-80 focus:outline-offset-5"
 				>
+					<img src={"/images/i-icon.svg"} alt={""} />
 					{i18n("button.moreInfo")}
 				</button>
 				<div className="w-full h-[300px] overflow-hidden">
@@ -88,8 +90,6 @@ const Card: React.FC<CardProps> = ({ id }) => {
 						</>
 					)}
 				</div>
-
-				<br />
 			</div>
 
 			<Dialog id={dialogId}>

@@ -10,6 +10,8 @@ export default {
 			},
 			borderRadius: {
 				"4xl": "30px",
+				"5px": "5px",
+				xs: "1px",
 			},
 			outlineOffset: {
 				5: "5px",
@@ -21,22 +23,22 @@ export default {
 				lg: "1411px",
 			},
 			colors: {
-				"xhain-blue-100": "#041728",
 				"xhain-blue-80": "#070D24",
-				"xhain-blue-70": "#3155F3",
-				"xhain-blue-50": "#3054F3",
-				"xhain-blue-30": "#D6E0FF",
-				"xhain-blue-10": "#F6F8FF",
-				"xhain-green-70": "#99EE63",
-				"xhain-green-60": "#82C853",
-				"xhain-green-50": "#99EE63",
+				"xhain-blue-70": "#112057",
+				"xhain-blue-60": "#2645BF", // quatery
+				"xhain-blue-50": "#3054F3", // primary
+				"xhain-blue-40": "#6583FF", // tertiary
+				"xhain-blue-30": "#B2C5FF", // secondary
+				"xhain-blue-20": "#E5ECFF",
+				"xhain-blue-10": "#F5F8FF", // background
+				"xhain-green-80": "#395624",
+				"xhain-green-70": "#527C34", // quatery
+				"xhain-green-60": "#82C853", // tertiary
+				"xhain-green-50": "#99EE63", // primary
 				"xhain-green-40": "#BEF49B",
-				"xhain-green-30": "#D7F9C2",
-				"xhain-green-20": "#F2FDEA",
-				"xhain-orange-70": "#FF8552",
-				"xhain-orange-60": "#FFA67D",
-				"xhain-orange-30": "#FFE3D4",
-				"xhain-orange-10": "#FFF9F5",
+				"xhain-green-30": "#D7F9C2", // secondary
+				"xhain-green-20": "#F2FDEA", // background
+				"xhain-green-10": "#F9FFF5",
 			},
 			keyframes: {
 				shimmer: {
