@@ -2,59 +2,38 @@ import { type AvailableTranslations, translations } from "./translations";
 import { isLanguageSupported } from "./is-language-supported";
 import { useLocation } from "react-router";
 
-export function formatNumber({
-	language,
-	number,
-	round,
-}: {
-	language: string;
-	number: number;
-	round?: boolean;
-}) {
-	let finalLanguage = language;
+export function formatNumber(number: number, options?: { toFixed?: number }) {
+	const { toFixed } = options ? options : { toFixed: 0 };
 
-	if (!isLanguageSupported(language)) {
-		finalLanguage = "de";
+	const language = getLanguage();
+
+	if (toFixed === undefined) {
+		return new Intl.NumberFormat(language).format(number);
 	}
 
-	if (round) {
-		return new Intl.NumberFormat(finalLanguage).format(Math.round(number));
-	}
-
-	return new Intl.NumberFormat(finalLanguage).format(number);
+	return new Intl.NumberFormat(language).format(
+		Number(number.toFixed(toFixed)),
+	);
 }
 
-export function formatDate({
-	language,
-	date,
-}: {
-	language: string;
-	date: Date;
-}) {
-	if (!isLanguageSupported(language)) {
-		return date.toLocaleDateString("de", {
-			dateStyle: "full",
-		});
-	}
+export function formatDate(date: Date) {
+	const language = getLanguage();
 
 	return date.toLocaleDateString(language, {
 		dateStyle: "full",
 	});
 }
 
-export function formatTemperature({
-	language,
-	temperature,
-}: {
-	language: string;
-	temperature: number;
-}) {
+export function formatTemperature(temperature: number) {
+	const language = getLanguage();
+
 	if (language === "en") {
 		return {
 			value: Math.round(temperature * 1.8 + 32),
 			unit: "°F",
 		};
 	}
+
 	return {
 		value: Math.round(temperature),
 		unit: "°C",
@@ -62,12 +41,18 @@ export function formatTemperature({
 }
 
 export function i18n(key: AvailableTranslations) {
+	const language = getLanguage();
+
+	return translations[language][key];
+}
+
+export function getLanguage() {
 	const location = useLocation();
 	const language = location.pathname.split("/")[1];
 
 	if (isLanguageSupported(language)) {
-		return translations[language][key];
+		return language;
 	}
 
-	return translations["de"][key];
+	return "de";
 }
