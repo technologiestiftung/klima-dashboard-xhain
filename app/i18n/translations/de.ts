@@ -30,4 +30,17 @@ export const de = {
 		"Wie kann XHain die Klimaschutzziele zukünftig erreichen?",
 	"consequences.title": "Wie wirkt sich der Klimawandel auf XHain aus?",
 	"currentProjects.title": "Was passiert bereits in Xhain?",
+	"footer.cardHeading":
+		"Hast du Fragen zum Klimadashboard und den Klimakonzepten?",
+	"footer.cardSubHeading": "Schreib uns!",
+	"footer.cardCtaButtonText": "info@klimateam.de",
+	"footer.cardCtaEmail": "info@klimateam.de",
+	"footer.bezirkamtXhainAltText": "bezirkamt xhain logo",
+	"footer.imprint": "Impressum",
+	"footer.pricavyPolicy": "Datenschutz",
+	"footer.projectOwnerLabel": "Ein Project der",
+	"footer.projectExecutionerLabel": "Gefördert durch",
+	"footer.cityLABLogoAltText": "Logo vom CityLAB Berlin",
+	"footer.tSBLogoAltText": "Logo der Technologiestiftung Berlin",
+	"footer.footerSentatskanzleiLogoAltText": "Logo der Senatskanzlei Berlin",
 };

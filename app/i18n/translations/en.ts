@@ -32,4 +32,17 @@ export const en: typeof de = {
 		"How can XHain achieve its climate protection goals in the future?",
 	"consequences.title": "How does climate change affect XHain?",
 	"currentProjects.title": "What is already happening in XHain?",
+	"footer.cardHeading":
+		"Do you have any questions about the climate dashboard and the climate concepts?",
+	"footer.cardSubHeading": "write to us!",
+	"footer.cardCtaButtonText": "info@klimateam.de",
+	"footer.cardCtaEmail": "info@klimateam.de",
+	"footer.bezirkamtXhainAltText": "bezirkamt xhain logo",
+	"footer.imprint": "Imprint",
+	"footer.pricavyPolicy": "Privacy Policy",
+	"footer.projectOwnerLabel": "A project of",
+	"footer.projectExecutionerLabel": "Implemented by",
+	"footer.cityLABLogoAltText": "Logo of the CityLAB Berlin",
+	"footer.tSBLogoAltText": "Logo of the Technology Foundation Berlin",
+	"footer.footerSentatskanzleiLogoAltText": "Logo of Berlin Senate Chancellery",
 };

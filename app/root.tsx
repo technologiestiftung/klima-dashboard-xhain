@@ -10,6 +10,7 @@ import {
 } from "react-router";
 import stylesheet from "./index.css?url";
 import { LanguageToggle } from "~/components/router/language-toggle";
+import { Footer } from "~/components/footer/footer";
 
 export const links = () => [{ rel: "stylesheet", href: stylesheet }];
 
@@ -50,7 +51,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
 
 				<main>{children}</main>
 
-				<footer>footer</footer>
+				<Footer />
 
 				<ScrollRestoration />
 				<Scripts />
