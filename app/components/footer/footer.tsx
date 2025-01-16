@@ -15,18 +15,20 @@ export const Footer: React.FC = () => {
 							<br />
 							<p className="font-normal">{i18n("footer.cardSubHeading")}</p>
 						</div>
-						<div className="text-xl md:text-2xl leading-7 md:leading-8 font-bold">
-							<a
-								href={`mailto:${i18n("footer.cardCtaButtonText")}`}
-								className="rounded-full bg-xhain-green-50 px-3 py-2.5"
-							>
-								{i18n("footer.cardCtaButtonText")}
-							</a>
-						</div>
+						<a
+							href={`mailto:${i18n("footer.cardCtaButtonText")}`}
+							className="rounded-full bg-xhain-green-50 px-3 py-2.5 w-fit text-xl md:text-2xl leading-7 md:leading-8 font-bold"
+						>
+							{i18n("footer.cardCtaButtonText")}
+						</a>
 					</div>
 					{/* Left Section */}
-					<div className="flex flex-col gap-[60px] md:gap-20 items-center lg:items-start pt-32 lg:pt-0">
-						<img src={xhainLogo} alt={i18n("footer.bezirkamtXhainAltText")} />
+					<div className="flex flex-col gap-[60px] md:gap-20 items-center lg:items-start pt-40 lg:pt-0">
+						<img
+							src={xhainLogo}
+							alt={i18n("footer.bezirkamtXhainAltText")}
+							className="w-[150px] md:w-44 lg:w-52"
+						/>
 
 						{/* Left Links */}
 						<div className="flex flex-col gap-5 md:gap-4 text-white text-xl leading-7 font-semibold">
