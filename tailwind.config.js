@@ -14,6 +14,9 @@ export default {
 			ringWidth: {
 				3: "3px",
 			},
+			fontWeight: {
+				semibold: "500",
+			},
 			colors: {
 				"xhain-blue-100": "#041728",
 				"xhain-blue-80": "#070D24",
