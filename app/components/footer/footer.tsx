@@ -9,7 +9,7 @@ export const Footer: React.FC = () => {
 			<div className="bg-xhain-blue-50 px-20 py-10">
 				<div className="relative container h-max">
 					{/* Card Section */}
-					<div className="absolute lg:right-0 -top-1/2 lg:-top-2/3 rounded-4xl w-full lg:w-1/2 p-5 md:p-11 bg-xhain-blue-10 flex flex-col justify-center gap-12">
+					<div className="absolute lg:right-0 -top-1/2 lg:-top-2/3 rounded-4xl w-full lg:w-1/2 p-5 md:p-11 bg-xhain-blue-10 flex flex-col justify-center text-center items-center md:text-start md:items-start gap-12">
 						<div className="text-xl md:text-2xl lg:text-3xl leading-7 md:leading-8 lg:leading-9 text-xhain-blue-80">
 							<div className="font-bold">{i18n("footer.cardHeading")}</div>
 							<br />
