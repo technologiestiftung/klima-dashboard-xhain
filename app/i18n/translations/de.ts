@@ -38,7 +38,7 @@ export const de = {
 	"footer.bezirkamtXhainAltText": "bezirkamt xhain logo",
 	"footer.imprint": "Impressum",
 	"footer.pricavyPolicy": "Datenschutz",
-	"footer.projectOwnerLabel": "Ein Project der",
+	"footer.projectOwnerLabel": "Ein Projekt der",
 	"footer.projectExecutionerLabel": "Gefördert durch",
 	"footer.cityLABLogoAltText": "Logo vom CityLAB Berlin",
 	"footer.tSBLogoAltText": "Logo der Technologiestiftung Berlin",
