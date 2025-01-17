@@ -31,16 +31,16 @@ export const Footer: React.FC = () => {
 						/>
 
 						{/* Left Links */}
-						<div className="flex flex-col gap-5 md:gap-4 text-center lg:text-start text-white text-xl leading-7 md:text-2xl md:leading-8 lg:text-xl lg:leading-7 font-semibold">
+						<div className="flex flex-col gap-5 md:gap-4 items-center lg:items-start text-white text-xl leading-7 md:text-2xl md:leading-8 lg:text-xl lg:leading-7 font-semibold">
 							<a
 								href="https://www.technologiestiftung-berlin.de/impressum"
-								className="border-b-[1px] border-transparent hover:border-white focus:ring-2 focus:ring-white focus:px-2 focus:border-transparent"
+								className="w-fit border-b-[1px] border-transparent hover:border-white focus:ring-2 focus:ring-white focus:px-2 focus:border-transparent"
 							>
 								{i18n("footer.imprint")}
 							</a>
 							<a
 								href="https://www.technologiestiftung-berlin.de/datenschutz"
-								className="border-b-[1px] border-transparent hover:border-white focus:ring-2 focus:ring-white focus:px-2 focus:border-transparent"
+								className="w-fit border-b-[1px] border-transparent hover:border-white focus:ring-2 focus:ring-white focus:px-2 focus:border-transparent"
 							>
 								{i18n("footer.pricavyPolicy")}
 							</a>
