@@ -11,8 +11,14 @@ export default {
 			borderRadius: {
 				"4xl": "30px",
 			},
-			ringWidth: {
+			outlineOffset: {
+				5: "5px",
+			},
+			outlineWidth: {
 				3: "3px",
+			},
+			maxWidth: {
+				lg: "1411px",
 			},
 			colors: {
 				"xhain-blue-100": "#041728",
