@@ -2,10 +2,10 @@ import React from "react";
 import { CircleAreaChartSlider } from "./visualizations/circle-area-chart/circle-area-chart-slider";
 import { Dialog } from "./dialog/dialog";
 import { i18n } from "~/i18n/i18n-utils";
-import { data } from "~/data";
+import { howXhainContributesData } from "~/data";
 
 interface CardProps {
-	id: keyof typeof data;
+	id: keyof typeof howXhainContributesData;
 }
 
 const charts = {
@@ -24,12 +24,17 @@ const charts = {
 		color: "bg-xhain-green-30",
 		size: "col-span-1 row-span-2",
 	},
+	thgSector2021Tons: {
+		component: null,
+		color: "bg-xhain-orange-10",
+		size: "col-span-1 row-span-1",
+	},
 	thgTotalTons: {
 		component: CircleAreaChartSlider,
 		color: "bg-xhain-orange-10",
 		size: "col-span-1 row-span-1",
 	},
-	thgSector2021Tons: {
+	consumptionEmissionsTons: {
 		component: null,
 		color: "bg-xhain-orange-10",
 		size: "col-span-1 row-span-1",
@@ -43,21 +48,6 @@ const charts = {
 		component: null,
 		color: "bg-xhain-green-30",
 		size: "col-span-1 row-span-1",
-	},
-	reductionPathScenario175Thg: {
-		component: null,
-		color: "bg-xhain-blue-10",
-		size: "col-span-1 lg:col-span-2 row-span-2",
-	},
-	hotDays: {
-		component: null,
-		color: "bg-xhain-orange-10",
-		size: "col-span-1 lg:col-span-2 row-span-1",
-	},
-	mediumTemperature: {
-		component: null,
-		color: "bg-xhain-green-30",
-		size: "col-span-1 row-span-2",
 	},
 };
 
@@ -88,7 +78,13 @@ const Card: React.FC<CardProps> = ({ id }) => {
 						<>
 							<p>Chart not found</p>
 							<br />
-							<pre>{JSON.stringify(data[id].slice(0, 2), null, 2)}</pre>
+							<pre>
+								{JSON.stringify(
+									howXhainContributesData[id].slice(0, 2),
+									null,
+									2,
+								)}
+							</pre>
 						</>
 					)}
 				</div>

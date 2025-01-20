@@ -31,3 +31,6 @@ dist-ssr
 
 # build output
 build/
+
+
+.react-router/

@@ -7,7 +7,9 @@ export const en: typeof de = {
 	"chart.thgTotalTons.subtitle": "in tons of CO2 equivalent",
 	"chart.thgSector2021Tons.title": "Greenhouse gas emissions",
 	"chart.thgSector2021Tons.subtitle": "by consumption sectors",
-	"chart.consumptionEmissions.title": "Consumption-related indirect emissions",
+	"chart.consumptionEmissionsTons.title":
+		"Consumption and nutrition-related emissions",
+	"chart.consumptionEmissionsTons.subtitle": "in 2024",
 	"chart.eevTotalMwh.title": "Final energy consumption",
 	"chart.eevTotalMwh.subtitle": "in MWh",
 	"chart.eevSector2021Mwh.title": "Final energy consumption",
@@ -26,6 +28,8 @@ export const en: typeof de = {
 	"chart.hotDays.subtitle": "",
 	"chart.mediumTemperature.title": "Average annual temperature",
 	"chart.mediumTemperature.subtitle": "in Friedrichshain-Kreuzberg by phases",
+	"chart.precipitationMm.title": "Precipitation",
+	"chart.precipitationMm.subtitle": "in milliliters",
 	"button.moreInfo": "more info",
 
 	"howToReachGoals.title":
