@@ -2,77 +2,89 @@ import Papa from "papaparse";
 import * as fs from "fs";
 import _ from "lodash";
 
-const csvFiles = [
-	{
-		name: "02-eev-sector-2021-mwh",
-		path: "./data/02-eev-sector-2021-mwh.csv",
-	},
-	{
-		name: "02-eev-total-mwh",
-		path: "./data/02-eev-total-mwh.csv",
-	},
+const howXhainContributesFiles = [
+	{ name: "02-eev-total-mwh", path: "./data/02-eev-total-mwh.csv" },
+	{ name: "02-eev-sector-2021-mwh", path: "./data/02-eev-sector-2021-mwh.csv" },
 	{
 		name: "02-heating-mix-2021-summarized",
 		path: "./data/02-heating-mix-2021-summarized.csv",
-	},
-	{
-		name: "02-modal-split-2018",
-		path: "./data/02-modal-split-2018.csv",
 	},
 	{
 		name: "02-thg-sector-2021-tons",
 		path: "./data/02-thg-sector-2021-tons.csv",
 	},
 	{ name: "02-thg-total-tons", path: "./data/02-thg-total-tons.csv" },
-
+	{
+		name: "02-consumption-emissions-tons",
+		path: "./data/02-consumption-emissions-tons.csv",
+	},
+	{ name: "02-modal-split-2018", path: "./data/02-modal-split-2018.csv" },
 	{
 		name: "02-traffic-2022-summarized",
 		path: "./data/02-traffic-2022-summarized.csv",
+	},
+];
+
+const howToReachGoalsFiles = [
+	{
+		name: "03-rest-budget-thg-until-year",
+		path: "./data/03-rest-budget-thg-until-year.csv",
 	},
 	{
 		name: "03-reduction-path-scenario175-thg",
 		path: "./data/03-reduction-path-scenario175-thg.csv",
 	},
-	{
-		name: "04-hot-days",
-		path: "./data/04-hot-days.csv",
-	},
-	{
-		name: "04-medium-temperature",
-		path: "./data/04-medium-temperature.csv",
-	},
-	{
-		name: "04-precipitation-mm",
-		path: "./data/04-precipitation-mm.csv",
-	},
 ];
 
-const data: Record<string, Record<string, string | number>[]> = {};
+const consequencesFiles = [
+	{ name: "04-hot-days", path: "./data/04-hot-days.csv" },
+	{ name: "04-medium-temperature", path: "./data/04-medium-temperature.csv" },
+	{ name: "04-precipitation-mm", path: "./data/04-precipitation-mm.csv" },
+];
 
-csvFiles.forEach(async ({ name, path }) => {
-	const raw = fs.readFileSync(path).toString();
+const parseCsvFiles = async (
+	files: { name: string; path: string }[],
+): Promise<Record<string, Record<string, string | number>[]>> => {
+	const sectionData: Record<string, Record<string, string | number>[]> = {};
 
-	await new Promise<void>((resolve) => {
-		Papa.parse(raw, {
-			header: true,
-			delimiter: ";",
-			skipEmptyLines: true,
-			transform: (value) => {
-				// Attempt to parse the value as a number
-				const parsedValue = parseFloat(value);
-				return isNaN(parsedValue) ? value : parsedValue;
-			},
-			complete: (result: { data: Record<string, string | number>[] }) => {
-				const nameWithoutNumberPrefix = name.slice(3);
-				const nameInCamelCase = _.camelCase(nameWithoutNumberPrefix);
+	for (const { name, path } of files) {
+		const raw = fs.readFileSync(path).toString();
 
-				data[nameInCamelCase] = result.data;
+		await new Promise<void>((resolve) => {
+			Papa.parse(raw, {
+				header: true,
+				delimiter: ";",
+				skipEmptyLines: true,
+				transform: (value) => {
+					// Attempt to parse the value as a number
+					const parsedValue = parseFloat(value);
+					return isNaN(parsedValue) ? value : parsedValue;
+				},
+				complete: (result: { data: Record<string, string | number>[] }) => {
+					const nameWithoutNumberPrefix = name.slice(3);
+					const nameInCamelCase = _.camelCase(nameWithoutNumberPrefix);
 
-				resolve();
-			},
+					sectionData[nameInCamelCase] = result.data;
+
+					resolve();
+				},
+			});
 		});
-	});
+	}
 
-	const json = JSON.stringify(data, null, 2);
-	fs.writeFileSync("./app/data/index.ts", `export const data = ${json};`);
-});
+	return sectionData;
+};
+
+(async () => {
+	const howXhainContributesData = await parseCsvFiles(howXhainContributesFiles);
+	const howToReachGoalsData = await parseCsvFiles(howToReachGoalsFiles);
+	const consequencesData = await parseCsvFiles(consequencesFiles);
+
+	const output = `
+export const howXhainContributesData = ${JSON.stringify(howXhainContributesData, null, 2)};
+export const howToReachGoalsData = ${JSON.stringify(howToReachGoalsData, null, 2)};
+export const consequencesData = ${JSON.stringify(consequencesData, null, 2)};
+`;
+
+	fs.writeFileSync("./app/data/index.ts", output);
+})();

@@ -1,6 +1,6 @@
 import React, { useMemo } from "react";
 import * as d3 from "d3";
-import { data as allData } from "~/data";
+import { howXhainContributesData as allData } from "~/data";
 
 interface CircleAreaChartProps {
 	data: typeof allData.thgTotalTons;

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { CircleAreaChart } from "./circle-area-chart";
-import { data as allData } from "~/data";
+import { howXhainContributesData as allData } from "~/data";
 
 const data = allData.thgTotalTons;
 

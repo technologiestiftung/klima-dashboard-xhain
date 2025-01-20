@@ -5,7 +5,9 @@ export const de = {
 	"chart.thgTotalTons.subtitle": "in Tonnen",
 	"chart.thgSector2021Tons.title": "Treibhausgas-Emissionen",
 	"chart.thgSector2021Tons.subtitle": "nach Verbrauchssektoren",
-	"chart.consumptionEmissions.title": "Konsumbedingte indirekte Emissionen",
+	"chart.consumptionEmissionsTons.title":
+		"Konsum- und Ernährungsbedingte Emissionen",
+	"chart.consumptionEmissionsTons.subtitle": "in 2024",
 	"chart.eevTotalMwh.title": "Endenergieverbrauch",
 	"chart.eevTotalMwh.subtitle": "in MWh",
 	"chart.eevSector2021Mwh.title": "Endenergieverbrauch",
@@ -24,6 +26,8 @@ export const de = {
 	"chart.hotDays.subtitle": "",
 	"chart.mediumTemperature.title": "Mittlere Jahrestemperatur",
 	"chart.mediumTemperature.subtitle": "in Friedrichshain-Kreuzberg nach Phasen",
+	"chart.precipitationMm.title": "Niederschläge",
+	"chart.precipitationMm.subtitle": "in Milliliter",
 	"button.moreInfo": "mehr Infos",
 
 	"howToReachGoals.title":
