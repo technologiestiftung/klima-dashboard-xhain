@@ -41,6 +41,10 @@ const csvFiles = [
 		name: "04-medium-temperature",
 		path: "./data/04-medium-temperature.csv",
 	},
+	{
+		name: "04-precipitation-mm",
+		path: "./data/04-precipitation-mm.csv",
+	},
 ];
 
 const data: Record<string, Record<string, string | number>[]> = {};
