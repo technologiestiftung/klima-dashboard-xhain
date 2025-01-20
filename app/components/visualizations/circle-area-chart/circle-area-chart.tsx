@@ -3,7 +3,6 @@ import * as d3 from "d3";
 import { howXhainContributesData as allData } from "~/data";
 
 interface CircleAreaChartProps {
-	data: typeof allData.thgTotalTons;
 	width: number;
 	height: number;
 	year: number;
@@ -16,11 +15,12 @@ const circleColors = {
 } as const;
 
 export const CircleAreaChart: React.FC<CircleAreaChartProps> = ({
-	data,
 	width,
 	height,
 	year,
 }) => {
+	const data = allData.thgTotalTons;
+
 	const dataSelectedYear = useMemo(
 		() => data.find((d) => d.year === year),
 		[data, year],
