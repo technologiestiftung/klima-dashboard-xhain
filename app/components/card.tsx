@@ -1,5 +1,6 @@
 import React from "react";
 import { CircleAreaChartSlider } from "./visualizations/circle-area-chart/circle-area-chart-slider";
+import { DonutChart } from "./visualizations/donut-chart/donut-chart";
 import { Dialog } from "./dialog/dialog";
 import { i18n } from "~/i18n/i18n-utils";
 import { howXhainContributesData } from "~/data";
@@ -15,7 +16,7 @@ const charts = {
 		size: "col-span-1 lg:col-span-2 row-span-1",
 	},
 	eevSector2021Mwh: {
-		component: null,
+		component: DonutChart,
 		color: "bg-xhain-blue-10",
 		size: "col-span-1 row-span-1",
 	},
