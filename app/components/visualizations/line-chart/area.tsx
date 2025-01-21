@@ -7,6 +7,7 @@ import {
 	xhainBlue50,
 } from "~/components/visualizations/colors";
 import { setYear } from "date-fns";
+import { i18n } from "~/i18n/i18n-utils";
 
 const { eevTotalMwh } = howXhainContributesData;
 type eevPerYear = (typeof eevTotalMwh)[0];
@@ -67,7 +68,7 @@ export const Area: React.FC<AreaProps> = ({ xScale, yScale, sizes }) => {
 				fill="black"
 				fontWeight="700"
 			>
-				Wärme
+				{i18n("chart.eevTotalMwh.legend.heating")}
 			</text>
 
 			<path className="area" d={areaPathElectricity ?? ""} fill={xhainBlue40} />
@@ -77,7 +78,7 @@ export const Area: React.FC<AreaProps> = ({ xScale, yScale, sizes }) => {
 				fill="black"
 				fontWeight="700"
 			>
-				Strom
+				{i18n("chart.eevTotalMwh.legend.electricity")}
 			</text>
 
 			<path className="area" d={areaPathFuels ?? ""} fill={xhainBlue50} />
@@ -87,7 +88,7 @@ export const Area: React.FC<AreaProps> = ({ xScale, yScale, sizes }) => {
 				fill="white"
 				fontWeight="700"
 			>
-				Kraftstoffe
+				{i18n("chart.eevTotalMwh.legend.fuels")}
 			</text>
 		</>
 	);
