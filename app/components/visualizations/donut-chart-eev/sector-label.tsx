@@ -1,7 +1,6 @@
 import React from "react";
 import { howXhainContributesData } from "~/data";
-import { useRoundedPercentage } from "~/hooks/use-rounded-percentage";
-import { i18n } from "~/i18n/i18n-utils";
+import { i18n, formatPercentage } from "~/i18n/i18n-utils";
 
 type eevPerSector = (typeof howXhainContributesData.eevSector2021Mwh)[0];
 
@@ -18,7 +17,7 @@ export const SectorLabel: React.FC<SectorLabelProps> = ({ selectedSector }) => {
 				<div className="text-center flex flex-col justify-center items-center h-full">
 					<div className="">{label}</div>
 					<div className="font-semibold">
-						{useRoundedPercentage(selectedSector.percentage)}
+						{formatPercentage(selectedSector.percentage)}
 					</div>
 				</div>
 			</foreignObject>
