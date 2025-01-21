@@ -4,9 +4,9 @@ import { formatDate, formatTemperature } from "~/i18n/i18n-utils";
 import { Skeleton } from "~/components/skeleton/skeleton";
 
 const WeatherCard: React.FC = () => {
-	const { weather } = useCurrentWeather();
+	const { weather, loading } = useCurrentWeather();
 
-	if (!weather) {
+	if (loading || !weather) {
 		return (
 			<div className="max-w-5xl mx-auto w-full h-28 flex flex-row gap-2 items-center justify-between bg-[#F6F8FF]">
 				<Skeleton className="w-14 h-14 rounded-full mt-8 ml-3" />
