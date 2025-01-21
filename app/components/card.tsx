@@ -6,6 +6,8 @@ import { Dialog } from "./dialog/dialog";
 import { i18n } from "~/i18n/i18n-utils";
 import { howXhainContributesData } from "~/data";
 import { LineChart } from "~/components/visualizations/line-chart/line-chart";
+import { BarChartThg } from "~/components/visualizations/bar-chart-thg/bar-chart-thg";
+import { BarChartModalSplit } from "~/components/visualizations/bar-chart-modal-split/bar-chart-modal-split";
 
 interface CardProps {
 	id: keyof typeof howXhainContributesData;
@@ -28,8 +30,8 @@ const charts = {
 		size: "col-span-1 row-span-2",
 	},
 	thgSector2021Tons: {
-		component: null,
-		color: "bg-xhain-orange-10",
+		component: BarChartThg,
+		color: "bg-xhain-green-20",
 		size: "col-span-1 row-span-1",
 	},
 	thgTotalTons: {
@@ -43,7 +45,7 @@ const charts = {
 		size: "col-span-1 row-span-1",
 	},
 	modalSplit2018: {
-		component: null,
+		component: BarChartModalSplit,
 		color: "bg-xhain-blue-10",
 		size: "col-span-1 lg:col-span-2 row-span-1",
 	},
@@ -76,7 +78,10 @@ const Card: React.FC<CardProps> = ({ id }) => {
 					<h3 className="text-xl">{subTitle}</h3>
 					<button
 						onClick={showDialog}
-						className="flex items-center px-3 py-0.5 gap-x-2 bg-xhain-blue-50 text-white rounded-full my-3 hover:bg-xhain-blue-60 focus:outline focus:outline-3 focus:outline-xhain-blue-80 focus:outline-offset-5"
+						className={`
+							flex items-center px-3 py-0.5 gap-x-2 bg-xhain-blue-50 text-white rounded-full my-3 font-semibold 
+							hover:bg-xhain-blue-60 focus:outline focus:outline-3 focus:outline-xhain-blue-80 focus:outline-offset-5
+						`}
 					>
 						<img src={"/images/i-icon.svg"} alt={""} />
 						{i18n("button.moreInfo")}
@@ -103,7 +108,7 @@ const Card: React.FC<CardProps> = ({ id }) => {
 						</tbody>
 					</table>
 				</figcaption>
-				<div className="w-full h-[300px] overflow-hidden" role="img">
+				<div className="w-full overflow-hidden" role="img">
 					{Chart && <Chart />}
 					{!Chart && (
 						<>

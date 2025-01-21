@@ -10,7 +10,11 @@ export const de = {
 	"chart.thgTotalTons.keys.fuels_tons": "Summe in Tonnen",
 
 	"chart.thgSector2021Tons.title": "Treibhausgas-Emissionen",
-	"chart.thgSector2021Tons.subtitle": "nach Verbrauchssektoren",
+	"chart.thgSector2021Tons.subtitle": "nach Sektoren in Tonnen",
+	"chart.thgSector2021Tons.legend.privateHouseholds": "private Haushalte",
+	"chart.thgSector2021Tons.legend.districtBuildings": "bezirkliche Gebäude",
+	"chart.thgSector2021Tons.legend.economy": "Wirtschaft",
+	"chart.thgSector2021Tons.legend.traffic": "Verkehr",
 	"chart.thgSector2021Tons.keys.sector": "Sektor",
 	"chart.thgSector2021Tons.keys.total_tons": "Summe in Tonnen",
 	"chart.thgSector2021Tons.keys.percentage": "Prozent",
@@ -44,10 +48,17 @@ export const de = {
 	"chart.heatingMix2021Summarized.keys.source": "Quelle",
 	"chart.heatingMix2021Summarized.keys.total_mwh": "Summe in Megawattstunden",
 
-	"chart.modalSplit2018.title": "Modal Split",
-	"chart.modalSplit2018.subtitle": "Modal Split",
+	"chart.modalSplit2018.title": "Modalsplit",
+	"chart.modalSplit2018.subtitle":
+		"Anteile der einzelnen Verkehrsmittel an der gesamten Verkehrsleistung",
+	"chart.modalSplit2018.legend.miv": "Motorisierter Individualverkehr",
+	"chart.modalSplit2018.legend.oepnv": "ÖPNV",
+	"chart.modalSplit2018.legend.foot": "Fuß",
+	"chart.modalSplit2018.legend.bike": "Rad",
+	"chart.modalSplit2018.toggle.description":
+		"Vergleiche mit Berlins Modalsplit",
 	"chart.modalSplit2018.keys.area": "Fläche",
-	"chart.modalSplit2018.keys.miv": "Motorisierter Personenverkehr",
+	"chart.modalSplit2018.keys.miv": "Motorisierter Individualverkehr",
 	"chart.modalSplit2018.keys.oepnv": "Öffentlicher Personen-Nahverkehr",
 	"chart.modalSplit2018.keys.foot": "Fußgänger:innen",
 	"chart.modalSplit2018.keys.bike": "Fahradfahrende",
