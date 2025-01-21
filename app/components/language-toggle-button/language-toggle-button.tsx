@@ -29,7 +29,7 @@ export const LanguageToggleButton: React.FC<LanguageToggleButtonProps> = ({
 				{/* Slider */}
 				<div
 					className={`absolute w-[39px] h-7 bg-xhain-blue-50 rounded-full transition-transform ${currentLanguage === "de" ? "translate-x-0" : "translate-x-[43px]"}`}
-				></div>
+				/>
 			</div>
 			<input
 				type="checkbox"

@@ -36,10 +36,14 @@ function getHref({
 	language: string;
 }) {
 	const pathSegments = location.pathname.split("/").filter(Boolean);
-	if (isLanguageSupported(pathSegments[0])) pathSegments.shift(); // Remove current language prefix if it exists
+	if (isLanguageSupported(pathSegments[0])) {
+		pathSegments.shift();
+	} // Remove current language prefix if it exists
 
 	// Add "en" prefix if the target language is "en"
-	if (language === "en") pathSegments.unshift("en");
+	if (language === "en") {
+		pathSegments.unshift("en");
+	}
 
 	return `/${pathSegments.join("/")}`;
 }

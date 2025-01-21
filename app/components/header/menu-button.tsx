@@ -1,3 +1,4 @@
+import React from "react";
 const hamburgerMenuIcon = "/images/hamburger-menu.svg";
 
 interface MenuButtonProps {
