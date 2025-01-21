@@ -33,7 +33,7 @@ export const de = {
 	"chart.eevTotalMwh.keys.fuels_mwh": "Kraftstoffe in Megawattstunden",
 
 	"chart.eevSector2021Mwh.title": "Endenergieverbrauch",
-	"chart.eevSector2021Mwh.subtitle": "nach Verbrauchssektoren",
+	"chart.eevSector2021Mwh.subtitle": "nach Sektoren in 2021",
 	"chart.eevSector2021Mwh.keys.sector": "Sektor",
 	"chart.eevSector2021Mwh.keys.total_mwh": "Summe in Megawattstunden",
 	"chart.eevSector2021Mwh.keys.percentage": "Prozent",
@@ -69,6 +69,14 @@ export const de = {
 
 	"chart.precipitationMm.title": "Niederschläge",
 	"chart.precipitationMm.subtitle": "in Milliliter",
+
+	"chart.districtBuildings": "Bezirkliche Gebäude",
+	"chart.economy": "Wirtschaft",
+	"chart.traffic": "Verkehr",
+	"chart.privateHouseholds": "Private Haushalte",
+	"chart.miv": "motorisierter Individualverkehr",
+	"chart.freight": "Güterverkehr",
+	"chart.oepnv": "Personenverkehr",
 
 	"button.moreInfo": "mehr Infos",
 

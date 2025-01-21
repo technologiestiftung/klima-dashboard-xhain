@@ -35,7 +35,7 @@ export const en: typeof de = {
 	"chart.eevTotalMwh.keys.fuels_mwh": "Fuels in Megawatt Hours",
 
 	"chart.eevSector2021Mwh.title": "Final energy consumption",
-	"chart.eevSector2021Mwh.subtitle": "by consumption sectors",
+	"chart.eevSector2021Mwh.subtitle": "by sectors in 2021",
 	"chart.eevSector2021Mwh.keys.sector": "Sector",
 	"chart.eevSector2021Mwh.keys.total_mwh": "Sum in Megawatt Hours",
 	"chart.eevSector2021Mwh.keys.percentage": "Percentage",
@@ -73,6 +73,14 @@ export const en: typeof de = {
 
 	"chart.precipitationMm.title": "Precipitation",
 	"chart.precipitationMm.subtitle": "in milliliters",
+
+	"chart.districtBuildings": "district buildings",
+	"chart.economy": "economy",
+	"chart.traffic": "traffic",
+	"chart.privateHouseholds": "private households",
+	"chart.miv": "private transport",
+	"chart.freight": "freight traffic",
+	"chart.oepnv": "public transport",
 
 	"button.moreInfo": "more info",
 

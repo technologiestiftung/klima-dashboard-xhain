@@ -16,6 +16,15 @@ export function formatNumber(number: number, options?: { toFixed?: number }) {
 	);
 }
 
+export function formatPercentage(percentage: number) {
+	const language = getLanguage();
+
+	return new Intl.NumberFormat(language, {
+		style: "percent",
+		maximumFractionDigits: 0,
+	}).format(percentage);
+}
+
 export function formatDate(date: Date) {
 	const language = getLanguage();
 

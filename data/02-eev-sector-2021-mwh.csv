@@ -1,5 +1,5 @@
 sector;total_mwh;percentage
-bezirkliche Gebäude;75596;0,0191
-Wirtschaft;1427419;0,3606
-Private Haushalte;1996632;0,5045
-Verkehr;458305;0,1158
+districtBuildings;75596;0,0191
+economy;1427419;0,3606
+privateHouseholds;1996632;0,5045
+traffic;458305;0,1158

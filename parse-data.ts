@@ -56,8 +56,9 @@ const parseCsvFiles = async (
 				delimiter: ";",
 				skipEmptyLines: true,
 				transform: (value) => {
-					// Attempt to parse the value as a number
-					const parsedValue = parseFloat(value);
+					const normalizedValue = value.replace(",", ".");
+					// parse the value as a number
+					const parsedValue = parseFloat(normalizedValue);
 					return isNaN(parsedValue) ? value : parsedValue;
 				},
 				complete: (result: { data: Record<string, string | number>[] }) => {
@@ -81,10 +82,19 @@ const parseCsvFiles = async (
 	const consequencesData = await parseCsvFiles(consequencesFiles);
 
 	const output = `
-export const howXhainContributesData = ${JSON.stringify(howXhainContributesData, null, 2)};
-export const howToReachGoalsData = ${JSON.stringify(howToReachGoalsData, null, 2)};
-export const consequencesData = ${JSON.stringify(consequencesData, null, 2)};
-`;
+	export const howXhainContributesData = ${JSON.stringify(howXhainContributesData, null, 2)} as {
+	  eevTotalMwh: { year: number; heating_mwh: number; electricity_mwh: number; fuels_mwh: number }[];
+	  eevSector2021Mwh: { sector: "districtBuildings" | "economy" | "privateHouseholds" | "traffic"; total_mwh: number; percentage: number }[];
+	  heatingMix2021Summarized: { source: "gas" | "fossil" | "renewable" | "districtHeating" | "heatingCurrent"; percentage: number }[];
+	  thgSector2021Tons: { sector: "districtBuildings" | "economy" | "privateHouseholds" | "traffic"; total_tons: number; percentage: number }[];
+	  thgTotalTons: { year: number; heating_tons: number; electricity_tons: number; fuels_tons: number }[];
+	  consumptionEmissionsTons: { xhain: number; per_person: number }[];
+	  modalSplit2018: { area: "xhain" | "berlin"; miv: number; oepnv: number; foot: number; bike: number }[];
+	  traffic2022Summarized: { sector: "miv" | "freight"  | "oepnv"; percentage_thg: number }[];
+	};
+	export const howToReachGoalsData = ${JSON.stringify(howToReachGoalsData, null, 2)};
+	export const consequencesData = ${JSON.stringify(consequencesData, null, 2)};
+	`;
 
 	fs.writeFileSync("./app/data/index.ts", output);
 })();
