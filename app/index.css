@@ -33,7 +33,8 @@
 	}
 
 	body {
-		@apply text-xhain-blue-100;
+		@apply text-xhain-blue-80 lining-nums proportional-nums;
+		font-variant-ligatures: no-common-ligatures;
 	}
 
 	/* Mobile and Tablet Navigation Menu Styles */

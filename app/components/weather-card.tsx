@@ -1,15 +1,12 @@
 import React from "react";
 import useCurrentWeather from "~/hooks/use-current-weather";
 import { formatDate, formatTemperature } from "~/i18n/i18n-utils";
-import { useLocation } from "react-router";
-import { Skeleton } from "~/components/skeleton/skeleton.tsx";
+import { Skeleton } from "~/components/skeleton/skeleton";
 
 const WeatherCard: React.FC = () => {
-	const { weather } = useCurrentWeather();
-	const location = useLocation();
-	const language = location.pathname.split("/")[1];
+	const { weather, loading } = useCurrentWeather();
 
-	if (!weather) {
+	if (loading || !weather) {
 		return (
 			<div className="max-w-5xl mx-auto w-full h-28 flex flex-row gap-2 items-center justify-between bg-[#F6F8FF]">
 				<Skeleton className="w-14 h-14 rounded-full mt-8 ml-3" />
@@ -22,15 +19,8 @@ const WeatherCard: React.FC = () => {
 		);
 	}
 
-	const { value, unit } = formatTemperature({
-		language,
-		temperature: weather.temperatureCelsius,
-	});
-
-	const formattedDate = formatDate({
-		language,
-		date: new Date(weather.timestamp),
-	});
+	const { value, unit } = formatTemperature(weather.temperatureCelsius);
+	const formattedDate = formatDate(new Date(weather.timestamp));
 
 	return (
 		<div className="max-w-5xl mx-auto w-full h-28 flex flex-row gap-2 items-center justify-between p-5 bg-[#F6F8FF]">
