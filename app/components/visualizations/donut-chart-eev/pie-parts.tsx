@@ -50,7 +50,7 @@ export const PieParts: React.FC<PiePartsProps> = ({
 				return (
 					<path
 						key={index}
-						className="pie-part"
+						className="focus:outline-none"
 						d={arc(piePart) ?? ""}
 						tabIndex={0}
 						fill={sectorColors[index]}

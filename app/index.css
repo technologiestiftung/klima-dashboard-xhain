@@ -36,8 +36,4 @@
 		@apply text-xhain-blue-80 lining-nums proportional-nums;
 		font-variant-ligatures: no-common-ligatures;
 	}
-
-	.pie-part:focus {
-		@apply outline-none;
-	}
 }
