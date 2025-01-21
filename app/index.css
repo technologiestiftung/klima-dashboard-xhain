@@ -35,4 +35,11 @@
 	body {
 		@apply text-xhain-blue-100;
 	}
+
+	/* Mobile and Tablet Navigation Menu Styles */
+	@media (max-width: 1023px) {
+		#navbar-default {
+			height: calc(100vh - 121px);
+		}
+	}
 }

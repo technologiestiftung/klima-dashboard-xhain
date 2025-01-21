@@ -1,7 +1,6 @@
 import React from "react";
 import {
 	isRouteErrorResponse,
-	Link,
 	Links,
 	Meta,
 	Outlet,
@@ -9,7 +8,7 @@ import {
 	ScrollRestoration,
 } from "react-router";
 import stylesheet from "./index.css?url";
-import { LanguageToggle } from "~/components/router/language-toggle";
+import { Header } from "~/components/header/header";
 import { Footer } from "~/components/footer/footer";
 
 export const links = () => [{ rel: "stylesheet", href: stylesheet }];
@@ -25,29 +24,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
 				<Links />
 			</head>
 			<body>
-				<header>
-					<nav className="flex justify-between">
-						<div className="flex gap-4">
-							<div className="rounded border-2 p-2">logo</div>
-							<LanguageToggle />
-						</div>
-						<ul className="flex gap-4">
-							<li>
-								<Link to="/" className="text-blue-500 underline">
-									Home
-								</Link>
-							</li>
-							<li>
-								<Link
-									to="/current-projects/"
-									className="text-blue-500 underline"
-								>
-									Aktuelle Projekte
-								</Link>
-							</li>
-						</ul>
-					</nav>
-				</header>
+				<Header />
 
 				<main>{children}</main>
 

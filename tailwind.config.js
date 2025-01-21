@@ -25,7 +25,9 @@ export default {
 				"xhain-blue-80": "#070D24",
 				"xhain-blue-70": "#3155F3",
 				"xhain-blue-50": "#3054F3",
+				"xhain-blue-60": "#2645BF",
 				"xhain-blue-30": "#D6E0FF",
+				"xhain-blue-20": "#E5ECFF",
 				"xhain-blue-10": "#F6F8FF",
 				"xhain-green-70": "#99EE63",
 				"xhain-green-60": "#82C853",
@@ -46,7 +48,31 @@ export default {
 		},
 	},
 	plugins: [
-		plugin(function ({ addUtilities }) {
+		plugin(function ({ addUtilities, theme }) {
+			const allColors = theme("colors"); // Get all colors from the theme (default + custom)
+
+			// Define the focus utilities for each color
+			const focusOutlineUtilities = Object.keys(allColors).reduce(
+				(acc, color) => {
+					// Filter for valid color formats (e.g., hex, rgb, etc.)
+					const colorValue = allColors[color];
+					if (typeof colorValue === "string") {
+						acc[`.focus-${color}`] = {
+							"&:focus": {
+								outline: "3px solid",
+								outlineOffset: "5px",
+								outlineColor: colorValue,
+								textDecoration: "transparent",
+							},
+						};
+					}
+					return acc;
+				},
+				{},
+			);
+
+			// Add the generated utilities to Tailwind CSS
+			addUtilities(focusOutlineUtilities, ["responsive", "hover"]);
 			addUtilities({
 				/* Hide scrollbar for Chrome, Safari and Opera */
 				".no-scrollbar::-webkit-scrollbar": {
