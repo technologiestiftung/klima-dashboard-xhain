@@ -1,14 +1,22 @@
 import React, { useCallback, useMemo } from "react";
 import * as d3 from "d3";
 import { howXhainContributesData } from "~/data";
+import {
+	xhainBlue30,
+	xhainBlue50,
+	xhainBlue60,
+	xhainBlue80,
+} from "~/components/visualizations/colors";
 
-const { eevSector2021Mwh } = howXhainContributesData;
-type eevPerSector = (typeof eevSector2021Mwh)[0];
+const { traffic2022Summarized } = howXhainContributesData;
+type trafficPerSector = (typeof traffic2022Summarized)[0];
+
+const sectorColors = [xhainBlue60, xhainBlue50, xhainBlue30];
 
 interface PiePartsProps {
 	radius: number;
-	selectedSector: eevPerSector;
-	setSelectedSector: React.Dispatch<React.SetStateAction<eevPerSector>>;
+	selectedSector: trafficPerSector;
+	setSelectedSector: React.Dispatch<React.SetStateAction<trafficPerSector>>;
 }
 
 export const PieParts: React.FC<PiePartsProps> = ({
@@ -19,16 +27,19 @@ export const PieParts: React.FC<PiePartsProps> = ({
 	const innerRadius = radius * 0.58;
 
 	const pieParts = useMemo(
-		() => d3.pie<eevPerSector>().value((d) => d.total_mwh)(eevSector2021Mwh),
-		[eevSector2021Mwh],
+		() =>
+			d3
+				.pie<trafficPerSector>()
+				.value((d) => d.percentage_thg)
+				.padAngle(0.015)(traffic2022Summarized),
+		[traffic2022Summarized],
 	);
 
 	const arc = useCallback(
 		d3
-			.arc<d3.PieArcDatum<eevPerSector>>()
+			.arc<d3.PieArcDatum<trafficPerSector>>()
 			.innerRadius(innerRadius)
-			.outerRadius(radius)
-			.padAngle(0.015),
+			.outerRadius(radius),
 		[innerRadius, radius],
 	);
 
@@ -40,10 +51,10 @@ export const PieParts: React.FC<PiePartsProps> = ({
 						key={index}
 						className="pie-part"
 						d={arc(piePart) ?? ""}
-						fill="red"
+						fill={sectorColors[index]}
 						stroke={
 							selectedSector && selectedSector.sector === piePart.data.sector
-								? "black"
+								? xhainBlue80
 								: "none"
 						}
 						strokeWidth={3}

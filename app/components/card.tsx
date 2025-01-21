@@ -1,6 +1,7 @@
 import React from "react";
 import { CircleAreaChartSlider } from "./visualizations/circle-area-chart/circle-area-chart-slider";
-import { DonutChart } from "./visualizations/donut-chart/donut-chart";
+import { DonutChartEEV } from "./visualizations/donut-chart-eev/donut-chart-eev";
+import { DonutChartTraffic } from "./visualizations/donut-chart-traffic/donut-chart-traffic";
 import { Dialog } from "./dialog/dialog";
 import { i18n } from "~/i18n/i18n-utils";
 import { howXhainContributesData } from "~/data";
@@ -17,7 +18,7 @@ const charts = {
 		size: "col-span-1 lg:col-span-2 row-span-1",
 	},
 	eevSector2021Mwh: {
-		component: DonutChart,
+		component: DonutChartEEV,
 		color: "bg-xhain-blue-10",
 		size: "col-span-1 row-span-1",
 	},
@@ -47,8 +48,8 @@ const charts = {
 		size: "col-span-1 lg:col-span-2 row-span-1",
 	},
 	traffic2022Summarized: {
-		component: null,
-		color: "bg-xhain-green-30",
+		component: DonutChartTraffic,
+		color: "bg-xhain-blue-10",
 		size: "col-span-1 row-span-1",
 	},
 };

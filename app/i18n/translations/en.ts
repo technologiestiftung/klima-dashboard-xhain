@@ -13,7 +13,7 @@ export const en: typeof de = {
 	"chart.eevTotalMwh.title": "Final energy consumption",
 	"chart.eevTotalMwh.subtitle": "in MWh",
 	"chart.eevSector2021Mwh.title": "Final energy consumption",
-	"chart.eevSector2021Mwh.subtitle": "by consumption sectors",
+	"chart.eevSector2021Mwh.subtitle": "by sectors in 2021",
 	"chart.heatingMix2021Summarized.title": "Heating mix of households",
 	"chart.heatingMix2021Summarized.subtitle": "",
 	"chart.modalSplit2018.title": "Modal Split",
@@ -30,6 +30,15 @@ export const en: typeof de = {
 	"chart.mediumTemperature.subtitle": "in Friedrichshain-Kreuzberg by phases",
 	"chart.precipitationMm.title": "Precipitation",
 	"chart.precipitationMm.subtitle": "in milliliters",
+
+	"chart.districtBuildings": "district buildings",
+	"chart.economy": "economy",
+	"chart.traffic": "traffic",
+	"chart.privateHouseholds": "private households",
+	"chart.miv": "private transport",
+	"chart.freight": "freight traffic",
+	"chart.oepnv": "public transport",
+
 	"button.moreInfo": "more info",
 
 	"howToReachGoals.title":

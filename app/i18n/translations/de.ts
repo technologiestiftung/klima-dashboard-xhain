@@ -11,7 +11,7 @@ export const de = {
 	"chart.eevTotalMwh.title": "Endenergieverbrauch",
 	"chart.eevTotalMwh.subtitle": "in MWh",
 	"chart.eevSector2021Mwh.title": "Endenergieverbrauch",
-	"chart.eevSector2021Mwh.subtitle": "nach Verbrauchssektoren",
+	"chart.eevSector2021Mwh.subtitle": "nach Sektoren in 2021",
 	"chart.heatingMix2021Summarized.title": "Wärmemix der Haushalte",
 	"chart.heatingMix2021Summarized.subtitle":
 		" Anteile der einzelnen Verkehrsmittel an der gesamten ⁠Verkehrsleistung ",
@@ -28,6 +28,15 @@ export const de = {
 	"chart.mediumTemperature.subtitle": "in Friedrichshain-Kreuzberg nach Phasen",
 	"chart.precipitationMm.title": "Niederschläge",
 	"chart.precipitationMm.subtitle": "in Milliliter",
+
+	"chart.districtBuildings": "bezirkliche Gebäude",
+	"chart.economy": "Wirtschaft",
+	"chart.traffic": "Verkehr",
+	"chart.privateHouseholds": "private Haushalte",
+	"chart.miv": "motorisierter Individualverkehr",
+	"chart.freight": "Güterverkehr",
+	"chart.oepnv": "Personenverkehr",
+
 	"button.moreInfo": "mehr Infos",
 
 	"howToReachGoals.title":

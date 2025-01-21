@@ -5,15 +5,10 @@ import { howXhainContributesData } from "~/data";
 import { useContainerWidthHeight } from "~/hooks/use-container-width-height";
 
 const { eevSector2021Mwh } = howXhainContributesData;
+type eevPerSector = (typeof eevSector2021Mwh)[0];
 
-interface Sector {
-	sector: string;
-	total_mwh: number;
-	percentage: number;
-}
-
-export const DonutChart: React.FC = () => {
-	const [selectedSector, setSelectedSector] = useState<Sector>(
+export const DonutChartEEV: React.FC = () => {
+	const [selectedSector, setSelectedSector] = useState<eevPerSector>(
 		eevSector2021Mwh[0],
 	);
 
