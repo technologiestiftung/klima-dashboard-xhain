@@ -15,7 +15,7 @@ export const SectorLabel: React.FC<SectorLabelProps> = ({ selectedSector }) => {
 
 	return (
 		<>
-			<foreignObject transform={`translate(-50, -30)`} width="100" height="70">
+			<foreignObject transform={`translate(-70, -30)`} width="140" height="70">
 				<div className="text-center flex flex-col justify-center items-center h-full">
 					<div className="">{label}</div>
 					<div className="font-semibold">
