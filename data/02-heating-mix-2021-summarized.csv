@@ -1,5 +1,6 @@
-source;total_mwh
-fossil;1506049
-renewable;37175
-districtHeating;839474
-heatingCurrent;5252
+source;percentage
+gas;0,500987864
+districtHeating;0,351545939
+fossil;0,129699154
+renewable;0,015567651
+heatingCurrent;0,002199392

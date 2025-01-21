@@ -85,7 +85,7 @@ const parseCsvFiles = async (
 	export const howXhainContributesData = ${JSON.stringify(howXhainContributesData, null, 2)} as {
 	  eevTotalMwh: { year: number; heating_mwh: number; electricity_mwh: number; fuels_mwh: number }[];
 	  eevSector2021Mwh: { sector: "districtBuildings" | "economy" | "privateHouseholds" | "traffic"; total_mwh: number; percentage: number }[];
-	  heatingMix2021Summarized: { source: "fossil" | "renewable" | "districtHeating" | "heatingCurrent"; total_mwh: number }[];
+	  heatingMix2021Summarized: { source: "gas" | "fossil" | "renewable" | "districtHeating" | "heatingCurrent"; percentage: number }[];
 	  thgSector2021Tons: { sector: "districtBuildings" | "economy" | "privateHouseholds" | "traffic"; total_tons: number; percentage: number }[];
 	  thgTotalTons: { year: number; heating_tons: number; electricity_tons: number; fuels_tons: number }[];
 	  consumptionEmissionsTons: { xhain: number; per_person: number }[];
