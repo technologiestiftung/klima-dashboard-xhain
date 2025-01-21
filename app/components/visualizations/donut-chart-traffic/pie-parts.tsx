@@ -60,11 +60,6 @@ export const PieParts: React.FC<PiePartsProps> = ({
 						}
 						strokeWidth={3}
 						strokeDasharray={2}
-						style={
-							selectedSector && selectedSector.sector === piePart.data.sector
-								? { zIndex: 10 }
-								: { zIndex: 0 }
-						}
 						onMouseMove={() => setSelectedSector(piePart.data)}
 						onClick={() => setSelectedSector(piePart.data)}
 						onFocus={() => setSelectedSector(piePart.data)}

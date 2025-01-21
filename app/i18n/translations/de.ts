@@ -29,10 +29,10 @@ export const de = {
 	"chart.precipitationMm.title": "Niederschläge",
 	"chart.precipitationMm.subtitle": "in Milliliter",
 
-	"chart.districtBuildings": "bezirkliche Gebäude",
+	"chart.districtBuildings": "Bezirkliche Gebäude",
 	"chart.economy": "Wirtschaft",
 	"chart.traffic": "Verkehr",
-	"chart.privateHouseholds": "private Haushalte",
+	"chart.privateHouseholds": "Private Haushalte",
 	"chart.miv": "motorisierter Individualverkehr",
 	"chart.freight": "Güterverkehr",
 	"chart.oepnv": "Personenverkehr",
