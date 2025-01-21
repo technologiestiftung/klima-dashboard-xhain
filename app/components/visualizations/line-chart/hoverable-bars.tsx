@@ -1,9 +1,15 @@
-import React, { type MouseEvent, type RefObject, useState } from "react";
+import React, {
+	type FocusEvent,
+	type MouseEvent,
+	type RefObject,
+	useState,
+} from "react";
 import * as d3 from "d3";
 import { howXhainContributesData } from "~/data";
 import { setYear } from "date-fns";
 import { formatNumber } from "~/i18n/i18n-utils";
 import { useMouseLeave } from "~/hooks/use-mouse-leave";
+import { useFocusLeave } from "~/hooks/use-focus-leave";
 
 const { eevTotalMwh } = howXhainContributesData;
 
@@ -28,26 +34,23 @@ export const HoverableBars: React.FC<HoverableBarsProps> = ({
 		margin: { bottom, top },
 	} = sizes;
 
-	const [hoveredYear, setHoveredYear] = useState<string | undefined>(undefined);
+	const [visibleYear, setVisibleYear] = useState<string | undefined>(undefined);
 
-	const onMouseEnterHandler = (
-		e: MouseEvent<SVGRectElement, globalThis.MouseEvent>,
+	const visibleYearHandler = (
+		e:
+			| MouseEvent<SVGRectElement, globalThis.MouseEvent>
+			| FocusEvent<SVGRectElement, Element>,
 	) => {
 		const parentDiv = parentRef.current;
 		if (!parentDiv || !parentDiv.contains(e.currentTarget)) {
 			return;
 		}
 
-		setHoveredYear(e.currentTarget.dataset.year);
+		setVisibleYear(e.currentTarget.dataset.year);
 	};
 
-	const mouseClickHandler = (
-		e: MouseEvent<SVGRectElement, globalThis.MouseEvent>,
-	) => {
-		onMouseEnterHandler(e);
-	};
-
-	useMouseLeave(parentRef, () => setHoveredYear(undefined));
+	useMouseLeave(parentRef, () => setVisibleYear(undefined));
+	useFocusLeave(parentRef, () => setVisibleYear(undefined));
 
 	const legendColors = [
 		"bg-xhain-blue-30",
@@ -64,19 +67,21 @@ export const HoverableBars: React.FC<HoverableBarsProps> = ({
 						y={yScale(d.heating_mwh) - bottom + top}
 						width={1}
 						height={sizes.height - yScale(d.heating_mwh) - top}
-						fill={hoveredYear === d.year.toString() ? "black" : "transparent"}
+						fill={visibleYear === d.year.toString() ? "black" : "transparent"}
 						opacity={0.5}
 						data-year={d.year}
 						stroke="transparent"
+						tabIndex={0}
 						strokeWidth={70}
-						onMouseEnter={onMouseEnterHandler}
-						onClick={mouseClickHandler}
+						onMouseEnter={visibleYearHandler}
+						onClick={visibleYearHandler}
+						onFocus={visibleYearHandler}
 					/>
 					<foreignObject
 						transform={`translate(${getTranslateX({ xScale, d, sizes })}, 0)`}
 						width="100"
 						height="150"
-						className={`${hoveredYear === d.year.toString() ? "block" : "hidden"}`}
+						className={`${visibleYear === d.year.toString() ? "block" : "hidden"}`}
 					>
 						<div className="bg-white rounded-5px flex flex-col p-2">
 							<span className="font-semibold">{d.year}</span>
@@ -106,7 +111,7 @@ function getTranslateX({
 	const translateX = xScale(setYear(new Date(), d.year));
 
 	// if the tooltip is too close to the right border, move it a bit to the left
-	if (translateX < 0 || translateX >= sizes.width - 80) {
+	if (translateX >= sizes.width - 80) {
 		return translateX - 80;
 	}
 
