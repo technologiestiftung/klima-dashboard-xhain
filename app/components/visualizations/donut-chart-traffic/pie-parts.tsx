@@ -51,6 +51,7 @@ export const PieParts: React.FC<PiePartsProps> = ({
 						key={index}
 						className="pie-part"
 						d={arc(piePart) ?? ""}
+						tabIndex={0}
 						fill={sectorColors[index]}
 						stroke={
 							selectedSector && selectedSector.sector === piePart.data.sector
@@ -66,6 +67,7 @@ export const PieParts: React.FC<PiePartsProps> = ({
 						}
 						onMouseMove={() => setSelectedSector(piePart.data)}
 						onClick={() => setSelectedSector(piePart.data)}
+						onFocus={() => setSelectedSector(piePart.data)}
 					/>
 				);
 			})}
