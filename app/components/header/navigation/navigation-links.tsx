@@ -43,7 +43,7 @@ export const NavigationLinks: React.FC<NavigationLinksProps> = ({
 			))}
 
 			{/* cta button */}
-			<li className="w-fit flex items-center p-[10px] lg:py-7 lg:px-6 mt-9 lg:mt-0 bg-xhain-blue-70 text-white hover:bg-xhain-blue-60 focus-xhain-blue-80">
+			<li className="w-fit flex items-center p-[10px] lg:py-7 lg:px-6 mt-9 lg:mt-0 bg-xhain-blue-50 text-white hover:bg-xhain-blue-60 focus-xhain-blue-80">
 				<Link
 					to={buildLocalizedLink("/act-now", currentLanguage)}
 					onClick={closeMenu}
