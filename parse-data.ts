@@ -56,8 +56,9 @@ const parseCsvFiles = async (
 				delimiter: ";",
 				skipEmptyLines: true,
 				transform: (value) => {
-					// Attempt to parse the value as a number
-					const parsedValue = parseFloat(value);
+					const normalizedValue = value.replace(",", ".");
+					// parse the value as a number
+					const parsedValue = parseFloat(normalizedValue);
 					return isNaN(parsedValue) ? value : parsedValue;
 				},
 				complete: (result: { data: Record<string, string | number>[] }) => {
