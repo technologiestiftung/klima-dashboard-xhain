@@ -18,7 +18,7 @@ export const DonutChartEEV: React.FC = () => {
 	const radius = Math.min(width, height) / 2.5;
 
 	return (
-		<div className="relative" id="area-container" ref={containerRef}>
+		<div className="relative" ref={containerRef}>
 			<svg width={width} height={height}>
 				<g transform={`translate(${width / 2},${height / 2})`}>
 					<PieParts
