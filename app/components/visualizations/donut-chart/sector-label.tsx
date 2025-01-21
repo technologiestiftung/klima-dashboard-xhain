@@ -1,43 +1,49 @@
 import React from "react";
-import { speciesLabelColor } from "../chart-colors";
-import { Content } from "../../../../../i18n/content-types";
-import { TreeSpecies } from "../../../store/types";
-import { useStatsStore } from "../../../store/stats-store";
-import { useI18nStore } from "../../../../../i18n/i18n-store";
+import { howXhainContributesData } from "~/data";
+
+const { eevSector2021Mwh } = howXhainContributesData;
+type eevPerSector = (typeof eevSector2021Mwh)[0];
 
 interface SectorLabelProps {
-	selectedSpecies: TreeSpecies;
+	selectedSector: eevPerSector;
 }
 
-export const SectorLabel: React.FC<SectorLabelProps> = ({
-	selectedSpecies,
-}) => {
-	const { chartHeight: height } = useStatsStore();
-	const i18n = useI18nStore().i18n();
-
+export const SectorLabel: React.FC<SectorLabelProps> = ({ selectedSector }) => {
 	return (
 		<>
 			<text
 				x={0}
-				y={height / 2 - 10}
-				fill={speciesLabelColor}
+				y={0}
+				fill="black"
 				textAnchor="middle"
-				fontWeight="bold"
-				fontSize="20px"
-			>{`${getFormattedSpeciesName(selectedSpecies.speciesName, i18n)} ${Math.round(selectedSpecies.percentage)}%`}</text>
+				width={122}
+				fontSize="16px"
+			>
+				{selectedSector.sector}
+			</text>
+			<text
+				x={0}
+				y={20}
+				fill="black"
+				textAnchor="middle"
+				width={122}
+				fontSize="16px"
+			>
+				{selectedSector.percentage} %
+			</text>
 		</>
 	);
 };
 
-function getFormattedSpeciesName(
-	speciesName: string | undefined,
-	i18n: Content,
-): string {
-	if (!speciesName) {
-		return i18n.stats.treeSpeciesStat.other;
-	}
+// function getFormattedSpeciesName(
+// 	speciesName: string | undefined,
+// 	i18n: Content,
+// ): string {
+// 	if (!speciesName) {
+// 		return i18n.stats.treeSpeciesStat.other;
+// 	}
 
-	return (
-		speciesName.charAt(0).toUpperCase() + speciesName.slice(1).toLowerCase()
-	);
-}
+// 	return (
+// 		speciesName.charAt(0).toUpperCase() + speciesName.slice(1).toLowerCase()
+// 	);
+// }

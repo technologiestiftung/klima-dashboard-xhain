@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 import { PieParts } from "./pie-parts";
-// import { SectorLabel } from "./sector-label";
+import { SectorLabel } from "./sector-label";
 import { howXhainContributesData } from "~/data";
 import { useContainerWidthHeight } from "~/hooks/use-container-width-height";
 
@@ -31,7 +31,7 @@ export const DonutChart: React.FC = () => {
 						selectedSector={selectedSector}
 						setSelectedSector={setSelectedSector}
 					/>
-					{/* <SectorLabel selectedSector={selectedSector} /> */}
+					<SectorLabel selectedSector={selectedSector} />
 				</g>
 			</svg>
 		</div>
