@@ -36,11 +36,4 @@
 		@apply text-xhain-blue-80 lining-nums proportional-nums;
 		font-variant-ligatures: no-common-ligatures;
 	}
-
-	/* Mobile and Tablet Navigation Menu Styles */
-	@media (max-width: 1023px) {
-		#navbar-default {
-			height: calc(100vh - 121px);
-		}
-	}
 }

@@ -9,7 +9,7 @@ interface CloseButtonProps {
 export const CloseButton: React.FC<CloseButtonProps> = ({ onClick }) => {
 	return (
 		<button
-			className="flex items-end justify-self-end mb-16 mr-5 text-white lg:hidden"
+			className="absolute right-0 mr-5 text-white lg:hidden"
 			onClick={onClick}
 			aria-label="Close Menu"
 		>

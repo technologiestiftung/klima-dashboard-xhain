@@ -16,9 +16,24 @@ export const Navigation: React.FC = () => {
 			<LanguageToggle />
 			<MenuButton isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
 			<div
-				className={`absolute lg:static lg:block lg:h-auto top-full left-0 right-0 w-full ${isMenuOpen ? "block" : "hidden"} lg:w-auto bg-xhain-blue-20 lg:bg-transparent py-11 lg:py-0`}
+				className={`absolute lg:static lg:block top-full left-0 right-0 w-full lg:w-auto bg-xhain-blue-20 lg:bg-transparent py-11 lg:py-0 ${
+					isMenuOpen ? "block h-lvh lg:h-auto" : "hidden"
+				}`}
 				id="navbar-default"
 			>
+				{/* Disable body scroll when menu is open on mobile */}
+				{isMenuOpen && (
+					<style>
+						{`
+							@media (max-width: 1024px) {
+								body {
+									overflow: hidden;
+								}
+							}
+						`}
+					</style>
+				)}
+
 				{isMenuOpen && <CloseButton onClick={closeMenu} />}
 				<NavigationLinks closeMenu={closeMenu} />
 			</div>
