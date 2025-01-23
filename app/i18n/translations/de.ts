@@ -1,11 +1,17 @@
 export const de = {
 	"header.title": "Klima Dashboard Xhain",
-	"header.bezirksamtXhainAltText": "bezirksamt xhain logo",
+	"header.bezirksamtXhainAltText": "Zur Startseite",
+	"header.burgerMenuAltText": "Menü öffnen",
+	"header.closeButtonAltText": "Menü schließen",
 	"header.nav.dashboard": "Dashboard",
 	"header.nav.climateConcepts": "Klimakonzepte",
 	"header.nav.currentProjects": "Aktuelle Projekte",
 	"header.nav.about": "Über uns",
 	"header.cta": "Jetzt aktiv werden",
+
+	"languageToggleButton.ariaLabelDeLink": "Zu deutscher Sprache wechseln",
+	"languageToggleButton.ariaLabelEnLink": "Zu englischer Sprache wechseln",
+
 	"charts.title": "Wie trägt XHain zum Klimawandel bei?",
 
 	"chart.thgTotalTons.title": "Treibhausgas-Emissionen",

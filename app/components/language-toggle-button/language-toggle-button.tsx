@@ -1,42 +1,65 @@
 import React from "react";
+import { Link, useLocation } from "react-router";
+import { getLanguage, i18n } from "~/i18n/i18n-utils";
+import { isLanguageSupported } from "~/i18n/is-language-supported";
 
-interface LanguageToggleButtonProps {
-	currentLanguage: string;
-	onLanguageChange: () => void;
-}
+export const LanguageToggleButton: React.FC = ({}) => {
+	const currentLanguage = getLanguage();
+	const location = useLocation();
 
-export const LanguageToggleButton: React.FC<LanguageToggleButtonProps> = ({
-	currentLanguage,
-	onLanguageChange,
-}) => {
 	return (
-		<label className="flex cursor-pointer select-none items-center">
+		<div className="flex mr-5 lg:mr-20 my-2">
 			<div className="relative flex items-center h-8 w-[86px] rounded-full p-[2px] bg-xhain-blue-20">
-				<div className="flex gap-[3px] h-7 w-[82px] items-center justify-center">
+				<div className="flex gap-0.5 h-7 w-20 items-center justify-center">
 					{/* DE Button */}
-					<div
-						className={`absolute flex items-center justify-center left-0.5 w-[39px] h-7 rounded-full text-sm font-semibold leading-5 z-10 ${currentLanguage === "de" ? "text-white" : "text-xhain-blue-100 hover:bg-xhain-blue-30"}`}
+					<Link
+						to={getHref(location.pathname, "de")}
+						className={`absolute flex items-center justify-center left-0.5 w-10 h-7 rounded-full text-sm font-semibold leading-5 z-10 ${
+							currentLanguage === "de"
+								? "text-white"
+								: "text-xhain-blue-100 hover:bg-xhain-blue-30"
+						}`}
+						aria-label={i18n("languageToggleButton.ariaLabelDeLink")}
 					>
 						DE
-					</div>
+					</Link>
 					{/* EN Button */}
-					<div
-						className={`absolute flex items-center justify-center right-0.5 w-[39px] h-7 rounded-full text-sm font-semibold leading-5 z-10 ${currentLanguage === "en" ? "text-white" : "text-xhain-blue-100 hover:bg-xhain-blue-30"}`}
+					<Link
+						to={getHref(location.pathname, "en")}
+						className={`absolute flex items-center justify-center right-0.5 w-10 h-7 rounded-full text-sm font-semibold leading-5 z-10 ${
+							currentLanguage === "en"
+								? "text-white"
+								: "text-xhain-blue-100 hover:bg-xhain-blue-30"
+						}`}
+						aria-label={i18n("languageToggleButton.ariaLabelEnLink")}
 					>
 						EN
-					</div>
+					</Link>
 				</div>
 				{/* Slider */}
 				<div
-					className={`absolute w-[39px] h-7 bg-xhain-blue-50 rounded-full transition-transform ${currentLanguage === "de" ? "translate-x-0" : "translate-x-[43px]"}`}
+					className={`absolute w-[39px] h-7 bg-xhain-blue-50 rounded-full transition-transform ${
+						currentLanguage === "de" ? "translate-x-0" : "translate-x-[43px]"
+					}`}
 				/>
 			</div>
-			<input
-				type="checkbox"
-				checked={currentLanguage === "de"}
-				onChange={onLanguageChange}
-				className="sr-only"
-			/>
-		</label>
+		</div>
 	);
+};
+
+// Generates the href for a specific language based on the current path.
+const getHref = (pathname: string, language: string): string => {
+	const pathSegments = pathname.split("/").filter(Boolean);
+
+	// Remove current language prefix if it exists
+	if (isLanguageSupported(pathSegments[0])) {
+		pathSegments.shift();
+	}
+
+	// Add "en" prefix for English
+	if (language === "en") {
+		pathSegments.unshift("en");
+	}
+
+	return `/${pathSegments.join("/")}`;
 };

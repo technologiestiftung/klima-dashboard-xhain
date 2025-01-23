@@ -1,9 +1,11 @@
 import React from "react";
+import { i18n } from "~/i18n/i18n-utils";
+
 const hamburgerMenuIcon = "/images/hamburger-menu.svg";
 
 interface MenuButtonProps {
 	isMenuOpen: boolean;
-	setIsMenuOpen: React.Dispatch<React.SetStateAction<boolean>>;
+	setIsMenuOpen: (isOpen: boolean) => void;
 }
 
 export const MenuButton: React.FC<MenuButtonProps> = ({
@@ -23,7 +25,7 @@ export const MenuButton: React.FC<MenuButtonProps> = ({
 			aria-expanded={isMenuOpen ? "true" : "false"}
 			onClick={toggleMenu}
 		>
-			<img src={hamburgerMenuIcon} alt="Hamburger menu" />
+			<img src={hamburgerMenuIcon} alt={i18n("header.burgerMenuAltText")} />
 		</button>
 	);
 };

@@ -1,11 +1,12 @@
-import React, { useState } from "react";
-import { LanguageToggle } from "~/components/router/language-toggle";
+import React from "react";
+import { LanguageToggleButton } from "~/components/language-toggle-button/language-toggle-button";
 import { MenuButton } from "../menu-button";
 import { NavigationLinks } from "./navigation-links";
 import { CloseButton } from "../close-button";
+import { useMenuStore } from "./menu-store";
 
 export const Navigation: React.FC = () => {
-	const [isMenuOpen, setIsMenuOpen] = useState(false);
+	const { isMenuOpen, setIsMenuOpen } = useMenuStore();
 
 	const closeMenu = () => {
 		setIsMenuOpen(false);
@@ -13,27 +14,14 @@ export const Navigation: React.FC = () => {
 
 	return (
 		<nav className="flex flex-col items-end">
-			<LanguageToggle />
+			<LanguageToggleButton />
 			<MenuButton isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
 			<div
-				className={`absolute lg:static lg:block top-full left-0 right-0 w-full lg:w-auto bg-xhain-blue-20 lg:bg-transparent py-11 lg:py-0 ${
-					isMenuOpen ? "block h-lvh lg:h-auto" : "hidden"
+				className={`fixed top-0 left-0 lg:static lg:block w-full lg:w-auto bg-xhain-blue-20 lg:bg-transparent py-11 lg:py-0 ${
+					isMenuOpen ? "z-50 block h-lvh lg:h-auto" : "hidden"
 				}`}
 				id="navbar-default"
 			>
-				{/* Disable body scroll when menu is open on mobile */}
-				{isMenuOpen && (
-					<style>
-						{`
-							@media (max-width: 1024px) {
-								body {
-									overflow: hidden;
-								}
-							}
-						`}
-					</style>
-				)}
-
 				{isMenuOpen && <CloseButton onClick={closeMenu} />}
 				<NavigationLinks closeMenu={closeMenu} />
 			</div>

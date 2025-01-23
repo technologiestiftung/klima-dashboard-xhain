@@ -10,10 +10,12 @@ import {
 import stylesheet from "./index.css?url";
 import { Header } from "~/components/header/header";
 import { Footer } from "~/components/footer/footer";
-
+import { useMenuStore } from "~/components/header/navigation/menu-store";
 export const links = () => [{ rel: "stylesheet", href: stylesheet }];
 
 export function Layout({ children }: { children: React.ReactNode }) {
+	const { isMenuOpen } = useMenuStore();
+
 	return (
 		<html lang="de">
 			<head>
@@ -23,7 +25,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
 				<Meta />
 				<Links />
 			</head>
-			<body>
+			<body className={isMenuOpen ? "overflow-hidden lg:overflow-auto" : ""}>
 				<Header />
 
 				<main>{children}</main>

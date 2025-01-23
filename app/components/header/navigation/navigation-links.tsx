@@ -1,8 +1,6 @@
 import React from "react";
 import { Link } from "react-router";
-import { i18n } from "~/i18n/i18n-utils";
-import { useLanguage } from "~/hooks/use-language";
-import { buildLocalizedLink } from "~/utils/build-localized-link";
+import { i18n, buildLocalizedLink } from "~/i18n/i18n-utils";
 import type { AvailableTranslations } from "~/i18n/translations";
 
 interface NavigationLinksProps {
@@ -27,15 +25,13 @@ const navLinks: {
 export const NavigationLinks: React.FC<NavigationLinksProps> = ({
 	closeMenu,
 }) => {
-	const currentLanguage = useLanguage();
-
 	return (
 		<ul className="flex flex-col lg:flex-row gap-7 lg:gap-0 justify-center items-center h-full text-xhain-blue-100 font-bold text-2xl leading-8 lg:text-xl lg:leading-7">
 			{/* navigation links */}
 			{navLinks.map(({ path, labelKey, className }) => (
 				<li key={path}>
 					<Link
-						to={buildLocalizedLink(path, currentLanguage)}
+						to={buildLocalizedLink(path)}
 						onClick={closeMenu}
 						className={`inline-block lg:p-6 hover:underline hover:underline-offset-8 hover:decoration-1 lg:hover:no-underline lg:hover:bg-xhain-blue-20 lg:focus:bg-xhain-blue-20 focus-xhain-blue-80 ${className}`}
 					>
@@ -47,7 +43,7 @@ export const NavigationLinks: React.FC<NavigationLinksProps> = ({
 			{/* cta button */}
 			<li>
 				<Link
-					to={buildLocalizedLink("/act-now", currentLanguage)}
+					to={buildLocalizedLink("/act-now")}
 					onClick={closeMenu}
 					className="inline-block items-center p-2.5 lg:p-6 mt-9 lg:mt-0 bg-xhain-blue-50 text-white hover:bg-xhain-blue-60 focus-xhain-blue-80"
 				>
