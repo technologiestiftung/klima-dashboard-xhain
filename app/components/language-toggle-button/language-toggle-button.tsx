@@ -3,7 +3,7 @@ import { Link, useLocation } from "react-router";
 import { getLanguage, i18n } from "~/i18n/i18n-utils";
 import { isLanguageSupported } from "~/i18n/is-language-supported";
 
-export const LanguageToggleButton: React.FC = ({}) => {
+export const LanguageToggleButton: React.FC = () => {
 	const currentLanguage = getLanguage();
 	const location = useLocation();
 
