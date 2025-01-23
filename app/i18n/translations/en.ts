@@ -12,7 +12,11 @@ export const en: typeof de = {
 	"chart.thgTotalTons.keys.fuels_tons": "Sum in Tons",
 
 	"chart.thgSector2021Tons.title": "Greenhouse gas emissions",
-	"chart.thgSector2021Tons.subtitle": "by consumption sectors",
+	"chart.thgSector2021Tons.subtitle": "by sectors in tons",
+	"chart.thgSector2021Tons.legend.privateHouseholds": "private households",
+	"chart.thgSector2021Tons.legend.districtBuildings": "district buildings",
+	"chart.thgSector2021Tons.legend.economy": "economy",
+	"chart.thgSector2021Tons.legend.traffic": "traffic",
 	"chart.thgSector2021Tons.keys.sector": "Sector",
 	"chart.thgSector2021Tons.keys.total_tons": "Sum in Tons",
 	"chart.thgSector2021Tons.keys.percentage": "Percentage",
@@ -54,6 +58,12 @@ export const en: typeof de = {
 	"chart.modalSplit2018.title": "Modal Split",
 	"chart.modalSplit2018.subtitle":
 		"Shares of the individual means of transport in total transport performance",
+	"chart.modalSplit2018.legend.miv": "Motorized individual transport",
+	"chart.modalSplit2018.legend.oepnv": "Public Transport",
+	"chart.modalSplit2018.legend.foot": "Foot",
+	"chart.modalSplit2018.legend.bike": "Bike",
+	"chart.modalSplit2018.toggle.description":
+		"Comparison with Berlin's Modalsplit",
 	"chart.modalSplit2018.keys.area": "Area",
 	"chart.modalSplit2018.keys.miv": "Motorized individual transport",
 	"chart.modalSplit2018.keys.oepnv": "Public transport",
