@@ -40,6 +40,7 @@ export default {
 				"xhain-green-30": "#D7F9C2", // secondary
 				"xhain-green-20": "#F2FDEA", // background
 				"xhain-green-10": "#F9FFF5",
+				"xhain-red-80": "#E80862", // alert
 			},
 			keyframes: {
 				shimmer: {
