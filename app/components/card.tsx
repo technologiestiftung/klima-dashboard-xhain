@@ -6,6 +6,7 @@ import { Dialog } from "./dialog/dialog";
 import { i18n } from "~/i18n/i18n-utils";
 import { howXhainContributesData } from "~/data";
 import { LineChart } from "~/components/visualizations/line-chart/line-chart";
+import { StackedBarChart } from "~/components/visualizations/stacked-bar-chart/stacked-bar-chart";
 
 interface CardProps {
 	id: keyof typeof howXhainContributesData;
@@ -23,24 +24,24 @@ const charts = {
 		size: "col-span-1 row-span-1",
 	},
 	heatingMix2021Summarized: {
-		component: null,
-		color: "bg-xhain-green-30",
+		component: StackedBarChart,
+		color: "bg-xhain-green-20",
 		size: "col-span-1 row-span-2",
 	},
 	thgSector2021Tons: {
 		component: null,
-		color: "bg-xhain-orange-10",
+		color: "bg-xhain-green-20",
 		size: "col-span-1 row-span-1",
 	},
 	thgTotalTons: {
 		component: CircleAreaChartSlider,
-		color: "bg-xhain-orange-10",
+		color: "bg-xhain-green-20",
 		size: "col-span-1 row-span-1",
 	},
 	consumptionEmissionsTons: {
 		component: null,
-		color: "bg-xhain-orange-10",
-		size: "col-span-1 row-span-1",
+		color: "bg-xhain-blue-10",
+		size: "col-span-2 row-span-1",
 	},
 	modalSplit2018: {
 		component: null,
@@ -103,7 +104,7 @@ const Card: React.FC<CardProps> = ({ id }) => {
 						</tbody>
 					</table>
 				</figcaption>
-				<div className="w-full h-[300px] overflow-hidden" role="img">
+				<div className="w-full h-full overflow-hidden" role="img">
 					{Chart && <Chart />}
 					{!Chart && (
 						<>

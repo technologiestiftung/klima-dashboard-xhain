@@ -39,10 +39,15 @@ export const de = {
 	"chart.eevSector2021Mwh.keys.percentage": "Prozent",
 
 	"chart.heatingMix2021Summarized.title": "Wärmemix der Haushalte",
-	"chart.heatingMix2021Summarized.subtitle":
-		" Anteile der einzelnen Verkehrsmittel an der gesamten Verkehrsleistung",
+	"chart.heatingMix2021Summarized.subtitle": "in 2021",
 	"chart.heatingMix2021Summarized.keys.source": "Quelle",
 	"chart.heatingMix2021Summarized.keys.total_mwh": "Summe in Megawattstunden",
+	"chart.heatingMix2021Summarized.description":
+		"Neben dem wärmbedingten Energieverbrauch bestimmten die genutzten Energiequellen, wie im Wärmemix dargestellt, unsere Klimabilanz maßgeblich.",
+	"chart.heatingMix2021Summarized.gas": "Erdgas",
+	"chart.heatingMix2021Summarized.districtHeating": "Fernwärme",
+	"chart.heatingMix2021Summarized.fossil": "Sonstige fossile",
+	"chart.heatingMix2021Summarized.renewable": "Erneuerbare Energien",
 
 	"chart.modalSplit2018.title": "Modal Split",
 	"chart.modalSplit2018.subtitle": "Modal Split",
