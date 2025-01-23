@@ -1,17 +1,12 @@
 import React from "react";
 import { i18n } from "~/i18n/i18n-utils";
+import { useMenuStore } from "./navigation/menu-store";
 
 const hamburgerMenuIcon = "/images/hamburger-menu.svg";
 
-interface MenuButtonProps {
-	isMenuOpen: boolean;
-	setIsMenuOpen: (isOpen: boolean) => void;
-}
+export const MenuButton: React.FC = () => {
+	const { isMenuOpen, setIsMenuOpen } = useMenuStore();
 
-export const MenuButton: React.FC<MenuButtonProps> = ({
-	isMenuOpen,
-	setIsMenuOpen,
-}) => {
 	const toggleMenu = () => {
 		setIsMenuOpen(!isMenuOpen);
 	};

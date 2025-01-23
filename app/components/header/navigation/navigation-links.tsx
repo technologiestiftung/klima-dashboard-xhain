@@ -2,10 +2,7 @@ import React from "react";
 import { Link } from "react-router";
 import { i18n, buildLocalizedLink } from "~/i18n/i18n-utils";
 import type { AvailableTranslations } from "~/i18n/translations";
-
-interface NavigationLinksProps {
-	closeMenu: () => void;
-}
+import { useMenuStore } from "./menu-store";
 
 const navLinks: {
 	path: string;
@@ -22,9 +19,8 @@ const navLinks: {
 	{ path: "/about/", labelKey: "header.nav.about" },
 ];
 
-export const NavigationLinks: React.FC<NavigationLinksProps> = ({
-	closeMenu,
-}) => {
+export const NavigationLinks: React.FC = () => {
+	const { closeMenu } = useMenuStore();
 	return (
 		<ul className="flex flex-col lg:flex-row gap-7 lg:gap-0 justify-center items-center h-full text-xhain-blue-100 font-bold text-2xl leading-8 lg:text-xl lg:leading-7">
 			{/* navigation links */}
