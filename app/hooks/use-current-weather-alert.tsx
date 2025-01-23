@@ -6,7 +6,7 @@ interface AlertData {
 }
 
 export const brightSkyApiEndpoint =
-	"https://api.brightsky.dev/alerts?warn_cell_id=801051061"; // 711000201 Friedrichshain
+	"https://api.brightsky.dev/alerts?warn_cell_id=711000201"; // 711000201 Friedrichshain
 
 const useCurrentAlert = () => {
 	// See BrightSky API documentation for more information: https://brightsky.dev/docs/#/operations/getAlerts

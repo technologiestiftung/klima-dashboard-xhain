@@ -14,6 +14,7 @@ const WeatherCard: React.FC = () => {
 	const alertInCurrentLang =
 		language === "de" ? alert?.alertDE : alert?.alertEN;
 
+	// to do: adapt skeleton to new design
 	if (loading || loadingAlert || !weather) {
 		return (
 			<div className="w-full bg-xhain-blue-10">
@@ -31,7 +32,7 @@ const WeatherCard: React.FC = () => {
 
 	const { value, unit } = formatTemperature(weather.temperatureCelsius);
 
-	// this is only updated hourly
+	// this is only updated hourly - should we switch to new Date();?
 	const formattedTime = format(new Date(weather.timestamp), "HH:mm");
 
 	return (
