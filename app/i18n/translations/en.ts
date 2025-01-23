@@ -45,10 +45,15 @@ export const en: typeof de = {
 	"chart.eevSector2021Mwh.keys.percentage": "Percentage",
 
 	"chart.heatingMix2021Summarized.title": "Heating mix of households",
-	"chart.heatingMix2021Summarized.subtitle":
-		"Shares of the individual means of transport in total transport performance",
+	"chart.heatingMix2021Summarized.subtitle": "in 2021",
 	"chart.heatingMix2021Summarized.keys.source": "Source",
 	"chart.heatingMix2021Summarized.keys.total_mwh": "Sum in Megawatt hours",
+	"chart.heatingMix2021Summarized.description":
+		"In addition to the energy consumption caused by heating, the energy sources used, as shown in the heating mix, significantly determine our climate balance.",
+	"chart.heatingMix2021Summarized.gas": "Natural gas",
+	"chart.heatingMix2021Summarized.districtHeating": "District heating",
+	"chart.heatingMix2021Summarized.fossil": "Other fossil",
+	"chart.heatingMix2021Summarized.renewable": "Renewable energies",
 
 	"chart.modalSplit2018.title": "Modal Split",
 	"chart.modalSplit2018.subtitle":

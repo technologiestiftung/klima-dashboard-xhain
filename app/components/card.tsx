@@ -6,6 +6,7 @@ import { Dialog } from "./dialog/dialog";
 import { i18n } from "~/i18n/i18n-utils";
 import { howXhainContributesData } from "~/data";
 import { LineChart } from "~/components/visualizations/line-chart/line-chart";
+import { StackedBarChart } from "~/components/visualizations/stacked-bar-chart/stacked-bar-chart";
 import { BarChartThg } from "~/components/visualizations/bar-chart-thg/bar-chart-thg";
 import { BarChartModalSplit } from "~/components/visualizations/bar-chart-modal-split/bar-chart-modal-split";
 
@@ -25,8 +26,8 @@ const charts = {
 		size: "col-span-1 row-span-1",
 	},
 	heatingMix2021Summarized: {
-		component: null,
-		color: "bg-xhain-green-30",
+		component: StackedBarChart,
+		color: "bg-xhain-green-20",
 		size: "col-span-1 row-span-2",
 	},
 	thgSector2021Tons: {
@@ -36,13 +37,13 @@ const charts = {
 	},
 	thgTotalTons: {
 		component: CircleAreaChartSlider,
-		color: "bg-xhain-orange-10",
+		color: "bg-xhain-green-20",
 		size: "col-span-1 row-span-1",
 	},
 	consumptionEmissionsTons: {
 		component: null,
-		color: "bg-xhain-orange-10",
-		size: "col-span-1 row-span-1",
+		color: "bg-xhain-blue-10",
+		size: "col-span-2 row-span-1",
 	},
 	modalSplit2018: {
 		component: BarChartModalSplit,
