@@ -10,15 +10,15 @@ const styles = {
 	},
 	economy: {
 		icon: "/images/green-factory.svg",
-		width: "w-full",
+		width: "w-42/43",
 	},
 	traffic: {
 		icon: "/images/green-car.svg",
-		width: "w-3/12",
+		width: "w-14/43",
 	},
 	districtBuildings: {
 		icon: "/images/green-institution.svg",
-		width: "w-2",
+		width: "w-1/43",
 	},
 };
 

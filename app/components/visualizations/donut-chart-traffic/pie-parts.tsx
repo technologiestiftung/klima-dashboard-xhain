@@ -1,17 +1,21 @@
 import React, { useCallback, useMemo } from "react";
 import * as d3 from "d3";
 import { howXhainContributesData } from "~/data";
-import {
-	xhainBlue30,
-	xhainBlue50,
-	xhainBlue60,
-	xhainBlue80,
-} from "~/components/visualizations/colors";
+// import {
+// 	xhainBlue30,
+// 	xhainBlue50,
+// 	xhainBlue60,
+// 	xhainBlue80,
+// } from "~/components/visualizations/colors";
 
 const { traffic2022Summarized } = howXhainContributesData;
 type trafficPerSector = (typeof traffic2022Summarized)[0];
 
-const sectorColors = [xhainBlue60, xhainBlue50, xhainBlue30];
+const sectorColors = [
+	"--color-xhain-blue-60",
+	"--color-xhain-blue-50",
+	"--color-xhain-blue-30",
+];
 
 interface PiePartsProps {
 	radius: number;
@@ -49,15 +53,16 @@ export const PieParts: React.FC<PiePartsProps> = ({
 				return (
 					<path
 						key={index}
-						className="focus:outline-none"
+						className="focus:outline-hidden"
 						d={arc(piePart) ?? ""}
 						tabIndex={0}
-						fill={sectorColors[index]}
-						stroke={
-							selectedSector && selectedSector.sector === piePart.data.sector
-								? xhainBlue80
-								: "none"
-						}
+						style={{
+							fill: `var(${sectorColors[index]})`,
+							stroke:
+								selectedSector && selectedSector.sector === piePart.data.sector
+									? "var(--color-xhain-blue-80)"
+									: "none",
+						}}
 						strokeWidth={3}
 						strokeDasharray={2}
 						onMouseMove={() => setSelectedSector(piePart.data)}

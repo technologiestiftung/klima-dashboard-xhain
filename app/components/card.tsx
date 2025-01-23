@@ -71,7 +71,7 @@ const Card: React.FC<CardProps> = ({ id }) => {
 	return (
 		<figure className={`${size}`}>
 			<div
-				className={`p-5 rounded-2.5xl md:rounded-4xl w-full h-full row-span-1 ${color}`}
+				className={`p-5 rounded-20px md:rounded-4xl w-full h-full row-span-1 ${color}`}
 			>
 				<figcaption>
 					<h2 className="text-xl font-bold">{title}</h2>

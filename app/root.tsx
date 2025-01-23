@@ -28,7 +28,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
 				<header>
 					<nav className="flex justify-between">
 						<div className="flex gap-4">
-							<div className="rounded border-2 p-2">logo</div>
+							<div className="rounded-sm border-2 p-2">logo</div>
 							<LanguageToggle />
 						</div>
 						<ul className="flex gap-4">

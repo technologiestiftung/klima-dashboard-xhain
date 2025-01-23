@@ -1,6 +1,24 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@config '../tailwind.config.js';
+
+/*
+  The default border color has changed to `currentColor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+	*,
+	::after,
+	::before,
+	::backdrop,
+	::file-selector-button {
+		border-color: var(--color-gray-200, currentColor);
+	}
+}
 
 @layer base {
 	@font-face {
@@ -35,5 +53,42 @@
 	body {
 		@apply text-xhain-blue-80 lining-nums proportional-nums;
 		font-variant-ligatures: no-common-ligatures;
+	}
+}
+
+@theme {
+	--font-sans: "Raleway", "sans-serif";
+
+	--radius-4xl: 30px;
+	--radius-20px: 20px;
+	--radius-5px: 5px;
+	--radius-xs: 1px;
+
+	--spacing-5px: 5px;
+	--spacing-3px: 3px;
+
+	--breakpoint-lg: 1411px;
+
+	--color-xhain-blue-80: #070d24;
+	--color-xhain-blue-70: #112057;
+	--color-xhain-blue-60: #2645bf; /* quatery */
+	--color-xhain-blue-50: #3054f3; /* primary */
+	--color-xhain-blue-40: #6583ff; /* tertiary */
+	--color-xhain-blue-30: #b2c5ff; /* secondary */
+	--color-xhain-blue-20: #e5ecff;
+	--color-xhain-blue-10: #f5f8ff; /* background */
+	--color-xhain-green-80: #395624;
+	--color-xhain-green-70: #527c34; /* quatery */
+	--color-xhain-green-60: #82c853; /* tertiary */
+	--color-xhain-green-50: #99ee63; /* primary */
+	--color-xhain-green-40: #bef49b;
+	--color-xhain-green-30: #d7f9c2; /* secondary */
+	--color-xhain-green-20: #f2fdea; /* background */
+	--color-xhain-green-10: #f9fff5;
+
+	@keyframes shimmer {
+		100% {
+			transform: translateX(100%);
+		}
 	}
 }

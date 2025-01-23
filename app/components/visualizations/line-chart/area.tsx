@@ -1,11 +1,6 @@
 import React, { useMemo } from "react";
 import * as d3 from "d3";
 import { howXhainContributesData } from "~/data";
-import {
-	xhainBlue30,
-	xhainBlue40,
-	xhainBlue50,
-} from "~/components/visualizations/colors";
 import { setYear } from "date-fns";
 import { i18n } from "~/i18n/i18n-utils";
 
@@ -61,7 +56,11 @@ export const Area: React.FC<AreaProps> = ({ xScale, yScale, sizes }) => {
 	);
 	return (
 		<>
-			<path className="area" d={areaPathHeating ?? ""} fill={xhainBlue30} />
+			<path
+				className="area"
+				d={areaPathHeating ?? ""}
+				style={{ fill: "var(--color-xhain-blue-30)" }}
+			/>
 			<text
 				x={30}
 				y={yScale(howXhainContributesData.eevTotalMwh[0].heating_mwh) + 10}
@@ -71,7 +70,11 @@ export const Area: React.FC<AreaProps> = ({ xScale, yScale, sizes }) => {
 				{i18n("chart.eevTotalMwh.legend.heating")}
 			</text>
 
-			<path className="area" d={areaPathElectricity ?? ""} fill={xhainBlue40} />
+			<path
+				className="area"
+				d={areaPathElectricity ?? ""}
+				style={{ fill: "var(--color-xhain-blue-40)" }}
+			/>
 			<text
 				x={30}
 				y={yScale(howXhainContributesData.eevTotalMwh[0].electricity_mwh) - 18}
@@ -81,7 +84,11 @@ export const Area: React.FC<AreaProps> = ({ xScale, yScale, sizes }) => {
 				{i18n("chart.eevTotalMwh.legend.electricity")}
 			</text>
 
-			<path className="area" d={areaPathFuels ?? ""} fill={xhainBlue50} />
+			<path
+				className="area"
+				d={areaPathFuels ?? ""}
+				style={{ fill: "var(--color-xhain-blue-50)" }}
+			/>
 			<text
 				x={30}
 				y={yScale(howXhainContributesData.eevTotalMwh[0].fuels_mwh) - 20}
