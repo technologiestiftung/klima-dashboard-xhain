@@ -85,6 +85,11 @@ export const en: typeof de = {
 
 	"chart.mediumTemperature.title": "Average annual temperature",
 	"chart.mediumTemperature.subtitle": "in Friedrichshain-Kreuzberg by phases",
+	"chart.mediumTemperature.description":
+		"The mean annual temperature refers to the average value of temperatures over a period of 10 years.",
+	"chart.mediumTemperature.now": "Current",
+	"chart.mediumTemperature.past": "1950s",
+	"chart.mediumTemperature.future": "Future",
 
 	"chart.precipitationMm.title": "Precipitation",
 	"chart.precipitationMm.subtitle": "in milliliters",
@@ -103,6 +108,9 @@ export const en: typeof de = {
 		"How can XHain achieve its climate protection goals in the future?",
 
 	"consequences.title": "How does climate change affect XHain?",
+	"consequences.description":
+		"When analyzing climate impacts in Xhain, a distinction is made between climate trends and the extent to which people are affected. Climate trends describe how the climate has changed so far and what future changes are to be expected. The impact of these climate developments, i.e. the degree to which they are affected, depends on socio-demographic and environmental factors. These include, for example, population density, the proportion of vulnerable groups or the degree of sealing.",
+	"consequences.subheading": "How is the climate changing?",
 
 	"currentProjects.title": "What is already happening in XHain?",
 
