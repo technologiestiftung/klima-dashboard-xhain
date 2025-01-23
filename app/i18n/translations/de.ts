@@ -14,12 +14,11 @@ export const de = {
 
 	"charts.title": "Wie trägt XHain zum Klimawandel bei?",
 
-	"chart.thgTotalTons.title": "Treibhausgas-Emissionen",
+	"chart.thgTotalTons.title": "Entwicklung der Treibhausgas-Emissionen",
 	"chart.thgTotalTons.subtitle": "in Tonnen",
-	"chart.thgTotalTons.keys.year": "Jahr",
-	"chart.thgTotalTons.keys.heating_tons": "Summe in Tonnen",
-	"chart.thgTotalTons.keys.electricity_tons": "Summe in Tonnen",
-	"chart.thgTotalTons.keys.fuels_tons": "Summe in Tonnen",
+	"chart.thgTotalTons.keys.heating_tons": "Wärme",
+	"chart.thgTotalTons.keys.electricity_tons": "Strom",
+	"chart.thgTotalTons.keys.fuels_tons": "Kraftstoffe",
 
 	"chart.thgSector2021Tons.title": "Treibhausgas-Emissionen",
 	"chart.thgSector2021Tons.subtitle": "nach Sektoren in Tonnen",
