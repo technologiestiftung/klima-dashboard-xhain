@@ -41,7 +41,6 @@ const useCurrentAlert = () => {
 		fetchAlert();
 	}, []);
 
-	console.log("alert", alert);
 	return { alert, loadingAlert, error };
 };
 
