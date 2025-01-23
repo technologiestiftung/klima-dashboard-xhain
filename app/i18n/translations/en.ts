@@ -16,12 +16,11 @@ export const en: typeof de = {
 
 	"charts.title": "How does XHain contribute to climate change?",
 
-	"chart.thgTotalTons.title": "Greenhouse gas emissions",
+	"chart.thgTotalTons.title": "Evolution of greenhouse gas emissions",
 	"chart.thgTotalTons.subtitle": "in tons of CO2 equivalent",
-	"chart.thgTotalTons.keys.year": "Year",
-	"chart.thgTotalTons.keys.heating_tons": "Sum in Tons",
-	"chart.thgTotalTons.keys.electricity_tons": "Sum in Tons",
-	"chart.thgTotalTons.keys.fuels_tons": "Sum in Tons",
+	"chart.thgTotalTons.keys.heating_tons": "Heating",
+	"chart.thgTotalTons.keys.electricity_tons": "Electricity",
+	"chart.thgTotalTons.keys.fuels_tons": "Fuels",
 
 	"chart.thgSector2021Tons.title": "Greenhouse gas emissions",
 	"chart.thgSector2021Tons.subtitle": "by sectors in tons",
