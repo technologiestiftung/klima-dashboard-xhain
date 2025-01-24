@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { consequencesData } from "~/data";
 import { i18n } from "~/i18n/i18n-utils";
 import ThermometerSVG from "./thermometer-svg";
-const Thermometer: React.FC = () => {
+const ThermometerChart: React.FC = () => {
 	const data = consequencesData.mediumTemperature;
 	const [selectedIndex, setSelectedIndex] = useState(0);
 	const maxTemperature = 15; // Maximum temperature for scaling
@@ -54,4 +54,4 @@ const Thermometer: React.FC = () => {
 	);
 };
 
-export default Thermometer;
+export default ThermometerChart;

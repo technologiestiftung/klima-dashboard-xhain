@@ -12,8 +12,8 @@ const ThermometerSVG: React.FC<ThermometerSVGProps> = ({
 	minTemperature,
 }) => {
 	// Calculate the fill height based on temperature
-	const calculateFillHeight = (celsius: number) =>
-		((celsius - minTemperature) / (maxTemperature - minTemperature)) * 100;
+	const calculateFillHeight = (temperature: number) =>
+		((temperature - minTemperature) / (maxTemperature - minTemperature)) * 100;
 
 	return (
 		<svg
