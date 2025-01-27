@@ -2,6 +2,18 @@ import { de } from "./de";
 
 export const en: typeof de = {
 	"header.title": "Climate Dashboard Xhain",
+	"header.bezirksamtXhainAltText": "Go to homepage",
+	"header.burgerMenuAltText": "Open menu",
+	"header.closeButtonAltText": "Close menu",
+	"header.nav.dashboard": "Dashboard",
+	"header.nav.climateConcepts": "Climate concepts",
+	"header.nav.currentProjects": "Current projects",
+	"header.nav.about": "About us",
+	"header.cta": "Take action now",
+
+	"languageToggleButton.ariaLabelDeLink": "switch to German language",
+	"languageToggleButton.ariaLabelEnLink": "switch to English language",
+
 	"charts.title": "How does XHain contribute to climate change?",
 
 	"chart.thgTotalTons.title": "Greenhouse gas emissions",
