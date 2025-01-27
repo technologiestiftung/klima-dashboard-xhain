@@ -16,6 +16,29 @@ export const en: typeof de = {
 	"header.nav.about": "About us",
 	"header.cta": "Take action now",
 
+	"carousel.title": "This is Xhain",
+
+	"carousel.card1.intro": "",
+	"carousel.card1.number": "292,866",
+	"carousel.card1.description": "People live in Friedrichshain-Kreuzberg",
+
+	"carousel.card2.intro": "",
+	"carousel.card2.number": "14,398",
+	"carousel.card2.description": "people live within one km²",
+
+	"carousel.card3.intro": "",
+	"carousel.card3.number": "68%",
+	"carousel.card3.description": "of the area is sealed",
+
+	"carousel.card4.intro": "",
+	"carousel.card4.number": "26%",
+	"carousel.card4.description": "is the share of traffic area in",
+
+	"carousel.card5.intro": "In 2023",
+	"carousel.card5.number": "1,6 Mio.",
+	"carousel.card5.description":
+		"guests stayed overnight in 85 accommodations in the district",
+
 	"languageToggleButton.ariaLabelDeLink": "switch to German language",
 	"languageToggleButton.ariaLabelEnLink": "switch to English language",
 

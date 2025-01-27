@@ -14,6 +14,29 @@ export const de = {
 	"header.nav.about": "Über uns",
 	"header.cta": "Jetzt aktiv werden",
 
+	"carousel.title": "Das ist Xhain",
+
+	"carousel.card1.intro": "",
+	"carousel.card1.number": "292.866",
+	"carousel.card1.description": "Menschen leben in Friedrichshain-Kreuzberg",
+
+	"carousel.card2.intro": "Auf einen km² leben",
+	"carousel.card2.number": "14.398",
+	"carousel.card2.description": "Menschen",
+
+	"carousel.card3.intro": "",
+	"carousel.card3.number": "68%",
+	"carousel.card3.description": "der Fläche ist versiegelt",
+
+	"carousel.card4.intro": "",
+	"carousel.card4.number": "26%",
+	"carousel.card4.description": "beträgt der Anteil der Verkehrsfläche in",
+
+	"carousel.card5.intro": "2023 übernachteten",
+	"carousel.card5.number": "1,6 Mio.",
+	"carousel.card5.description":
+		"Gästinnen in 85 Beherbergungsbetrieben des Bezirks",
+
 	"languageToggleButton.ariaLabelDeLink": "Zu deutscher Sprache wechseln",
 	"languageToggleButton.ariaLabelEnLink": "Zu englischer Sprache wechseln",
 
