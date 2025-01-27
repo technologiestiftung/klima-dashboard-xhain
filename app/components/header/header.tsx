@@ -7,7 +7,7 @@ const xhainLogo = "/images/xhain-logo.svg";
 
 export const Header: React.FC = () => {
 	return (
-		<header className="sticky top-0 flex justify-between items-center pl-20 z-50 bg-white">
+		<header className="sticky top-0 flex justify-between items-center pl-5 lg:pl-20 z-50 bg-white">
 			<Link to={buildLocalizedLink("/")}>
 				<img
 					src={xhainLogo}
