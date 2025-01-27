@@ -5,7 +5,7 @@ interface AlertData {
 	alertDE: string;
 }
 
-const BRIGHTSKY_ALERT_API_ENDPOINT = import.meta.env
+export const BRIGHTSKY_ALERT_API_ENDPOINT = import.meta.env
 	.VITE_BRIGHTSKY_ALERT_API_ENDPOINT;
 
 const useCurrentAlert = () => {
