@@ -77,6 +77,7 @@ export const Carousel: React.FC = () => {
 						ref={(el) => {
 							cardRefs.current[index] = el;
 						}}
+						tabIndex={0}
 						className={`snap-start text-white rounded-2xl h-[200px] md:h-[340px]  
 						shrink-0 border-4 border-white flex scroll-mx-5 md:scroll-mx-20
 						${index % 2 === 0 ? "md:w-[680px] w-[325px]" : "md:w-[340px] w-[200px]"} 
@@ -112,13 +113,19 @@ export const Carousel: React.FC = () => {
 					className="rounded-full size-12 p-3 bg-xhain-green-50"
 					onClick={goToPrevious}
 				>
-					<img src="/images/arrow-left.svg" alt="Previous" />
+					<img
+						src="/images/arrow-left.svg"
+						alt={i18n("carousel.button.previous.alt")}
+					/>
 				</button>
 				<button
 					className="rounded-full size-12 p-3 bg-xhain-green-50"
 					onClick={goToNext}
 				>
-					<img src="/images/arrow-right.svg" alt="Next" />
+					<img
+						src="/images/arrow-right.svg"
+						alt={i18n("carousel.button.next.alt")}
+					/>
 				</button>
 			</div>
 		</div>
