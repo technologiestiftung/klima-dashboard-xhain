@@ -7,7 +7,7 @@ import {
 	consequencesData,
 } from "~/data";
 import { Carousel } from "~/components/carousel/carousel";
-import { brightSkyApiEndpoint } from "~/hooks/use-current-weather";
+import { BRIGHTSKY_WEATHER_API_ENDPOINT } from "~/hooks/use-current-weather";
 
 export const meta = () => {
 	return [
@@ -16,7 +16,9 @@ export const meta = () => {
 	];
 };
 
-export const links = () => [{ rel: "preconnect", href: brightSkyApiEndpoint }];
+export const links = () => [
+	{ rel: "preconnect", href: BRIGHTSKY_WEATHER_API_ENDPOINT },
+];
 
 const howXhainContributes = Object.keys(howXhainContributesData) as Array<
 	keyof typeof howXhainContributesData

@@ -20,8 +20,8 @@ interface WeatherData {
 	icon: WeatherIcon;
 }
 
-export const brightSkyApiEndpoint =
-	"https://api.brightsky.dev/current_weather?lat=52.50186298000907&lon=13.445670892452474";
+export const BRIGHTSKY_WEATHER_API_ENDPOINT = import.meta.env
+	.VITE_BRIGHTSKY_WEATHER_API_ENDPOINT;
 
 const useCurrentWeather = () => {
 	// See BrightSky API documentation for more information: https://brightsky.dev/docs/#/operations/getCurrentWeather
@@ -33,7 +33,10 @@ const useCurrentWeather = () => {
 	useEffect(() => {
 		const fetchWeather = async () => {
 			try {
-				const response = await fetch(brightSkyApiEndpoint);
+				if (!BRIGHTSKY_WEATHER_API_ENDPOINT) {
+					throw new Error("API endpoint is not defined");
+				}
+				const response = await fetch(BRIGHTSKY_WEATHER_API_ENDPOINT);
 				if (!response.ok) {
 					throw new Error("Failed to fetch weather data");
 				}

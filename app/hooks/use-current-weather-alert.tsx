@@ -5,8 +5,8 @@ interface AlertData {
 	alertDE: string;
 }
 
-export const brightSkyApiEndpoint =
-	"https://api.brightsky.dev/alerts?warn_cell_id=711000201"; // 711000201 Friedrichshain
+const BRIGHTSKY_ALERT_API_ENDPOINT = import.meta.env
+	.VITE_BRIGHTSKY_ALERT_API_ENDPOINT;
 
 const useCurrentAlert = () => {
 	// See BrightSky API documentation for more information: https://brightsky.dev/docs/#/operations/getAlerts
@@ -18,7 +18,10 @@ const useCurrentAlert = () => {
 	useEffect(() => {
 		const fetchAlert = async () => {
 			try {
-				const response = await fetch(brightSkyApiEndpoint);
+				if (!BRIGHTSKY_ALERT_API_ENDPOINT) {
+					throw new Error("API endpoint is not defined");
+				}
+				const response = await fetch(BRIGHTSKY_ALERT_API_ENDPOINT);
 				if (!response.ok) {
 					throw new Error("Failed to fetch weather data");
 				}
