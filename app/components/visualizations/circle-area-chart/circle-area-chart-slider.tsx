@@ -37,7 +37,7 @@ export const CircleAreaChartSlider: React.FC = () => {
 						className={`
 						text-xs 
 						${year === selectedYear && "font-bold"}
-						${index === 0 || index === years.length - 1 ? "visible" : "invisible"}
+						${year === selectedYear || index === 0 || index === years.length - 1 ? "visible" : "invisible"}
 						`}
 						key={year}
 					>
