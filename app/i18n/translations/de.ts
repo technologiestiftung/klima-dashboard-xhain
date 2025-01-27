@@ -85,7 +85,7 @@ export const de = {
 	"chart.mediumTemperature.description":
 		"Die mittlere Jahrestemperatur bezieht sich auf den Durchschnittswert der Temperaturen über einen Zeitraum von 10 Jahren.",
 	"chart.mediumTemperature.now": "Heute",
-	"chart.mediumTemperature.past": "1095er",
+	"chart.mediumTemperature.past": "1950er",
 	"chart.mediumTemperature.future": "Zukunft",
 
 	"chart.precipitationMm.title": "Niederschläge",
