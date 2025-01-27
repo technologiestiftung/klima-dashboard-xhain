@@ -69,7 +69,7 @@ export const Carousel: React.FC = () => {
 				className="snap-x snap-mandatory flex overflow-x-auto no-scrollbar gap-6 md:gap-12"
 			>
 				{/* Left Spacer */}
-				<div className="snap-start md:w-8 shrink-0" />
+				<div className="snap-start md:w-8 xl:w-14 shrink-0" />
 
 				{cardData.map((card, index) => (
 					<div
@@ -84,14 +84,18 @@ export const Carousel: React.FC = () => {
 						${card.image ? "flex-row" : "flex-col justify-center items-center"}`}
 					>
 						<div
-							className={`flex flex-col p-4 text-center justify-center items-center font-bold text-sm md:text-lg 
+							className={`flex flex-col p-4 text-center justify-center items-center text-sm md:text-lg 
 								${card.image ? "w-1/2" : "w-full"}`}
 						>
-							<p className="leading-5 md:leading-7">{card.intro}</p>
-							<h2 className="text-2xl md:text-6xl leading-none">
+							<p className="leading-5 md:leading-7 font-semibold">
+								{card.intro}
+							</p>
+							<h2 className="text-2xl md:text-6xl leading-none font-bold">
 								{card.number}
 							</h2>
-							<p className="leading-5 md:leading-7">{card.description}</p>
+							<p className="leading-5 md:leading-7 font-semibold">
+								{card.description}
+							</p>
 						</div>
 						{card.image && (
 							<div className="w-1/2 bg-white flex justify-center items-center rounded-r-xl">
@@ -110,7 +114,7 @@ export const Carousel: React.FC = () => {
 			</div>
 			<div className="flex justify-end gap-6 md:gap-5 pt-12 px-5 md:px-20 max-w-8xl mx-auto">
 				<button
-					className="rounded-full size-12 p-3 bg-xhain-green-50"
+					className="rounded-full size-12 p-3 bg-xhain-green-50 hover:bg-white"
 					onClick={goToPrevious}
 				>
 					<img
@@ -119,7 +123,7 @@ export const Carousel: React.FC = () => {
 					/>
 				</button>
 				<button
-					className="rounded-full size-12 p-3 bg-xhain-green-50"
+					className="rounded-full size-12 p-3 bg-xhain-green-50  hover:bg-white"
 					onClick={goToNext}
 				>
 					<img
