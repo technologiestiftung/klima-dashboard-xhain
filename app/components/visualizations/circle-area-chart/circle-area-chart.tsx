@@ -54,13 +54,13 @@ export const CircleAreaChart: React.FC<CircleAreaChartProps> = ({
 	const size = d3
 		.scaleLinear()
 		.domain([0, d3.max(entries, (d) => d.value) || 1])
-		.range([width / 10, width / 4.5]);
+		.range(getRange(width));
 
 	// Create nodes with initial positions and random jitter
 	const circles = entries.map((d) => ({
 		...d,
 		r: size(d.value),
-		x: width / 2 + Math.cos(d.key.length),
+		x: width / 2 - Math.cos(d.key.length),
 		y: height / 2 - Math.sin(d.key.length),
 	}));
 
@@ -118,3 +118,15 @@ export const CircleAreaChart: React.FC<CircleAreaChartProps> = ({
 		</svg>
 	);
 };
+
+function getRange(width: number) {
+	if (width < 300) {
+		return [width / 6, width / 4];
+	}
+
+	if (width > 300 && width < 450) {
+		return [width / 8, width / 5];
+	}
+
+	return [width / 10, width / 6];
+}
