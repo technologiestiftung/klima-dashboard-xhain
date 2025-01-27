@@ -19,7 +19,7 @@ export function RadioToggle<T extends string>({
 					key={value}
 					className={`
 						px-2.5 py-1 rounded-full flex-1 text-center relative z-10 cursor-pointer
-						has-[:focus]:outline has-[:focus]:outline-offset-4 has-[:focus]:outline-xhain-blue-80 has- has-[:checked]:bg-xhain-green-50 hover:bg-xhain-green-30
+						has-[:focus]:outline has-[:focus]:outline-offset-4 has-[:focus]:outline-xhain-blue-80 has- has-[:checked]:bg-xhain-green-50 hover:bg-xhain-blue-20
 					`}
 				>
 					<input
