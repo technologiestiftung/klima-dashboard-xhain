@@ -39,12 +39,19 @@ export default function Index() {
 				<h1 className="text-2xl font-semibold p-5">{i18n("header.title")}</h1>
 				<br />
 				<WeatherCard />
-				<br />
+			</section>
+
+			<section className="flex flex-col bg-xhain-blue-50 text-white py-8 md:py-20 gap-5 md:gap-10">
+				<div className="max-w-8xl text-start mx-auto w-full">
+					<h2 className="leading-8 md:text-5xl font-bold  md:leading-none px-5 md:px-20">
+						{i18n("carousel.title")}
+					</h2>
+				</div>
 				<Carousel />
 			</section>
 
 			<section>
-				<h2 className="text-5xl font-semibold p-5">{i18n("charts.title")}</h2>
+				<h2 className="text-5xl font-semibold p-5 ">{i18n("charts.title")}</h2>
 				<div className="grid grid-cols-1 lg:grid-cols-3 gap-5 p-5">
 					{howXhainContributes.map((id) => (
 						<Card key={id.toString()} id={id} />
