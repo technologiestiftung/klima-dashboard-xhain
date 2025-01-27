@@ -65,3 +65,26 @@ export function getLanguage() {
 
 	return "de";
 }
+
+/**
+ * Utility function to build localized URLs based on the current language.
+ *
+ * @function
+ * @param {string} path - The base path of the link (e.g., `/about/`).
+ * @returns {string} - The localized URL. For German (`"de"`), it returns the base path.
+ *                     For other languages, it prefixes the path with the language code (e.g., `"/en/about/"`).
+ *
+ * @example
+ * // Example Usage
+ * //if currentLanguage = "en"
+ * const localizedLink = buildLocalizedLink("/about/");
+ * console.log(localizedLink); // Output: "/en/about/"
+ *
+ * //if currentLanguage = "de"
+ * const localizedLinkDE = buildLocalizedLink("/about/");
+ * console.log(localizedLinkDE); // Output: "/about/"
+ */
+export const buildLocalizedLink = (path: string) => {
+	const language = getLanguage();
+	return language === "de" ? path : `/${language}${path}`;
+};
