@@ -6,6 +6,21 @@ import useCurrentAlert from "~/hooks/use-current-weather-alert";
 import { getLanguage } from "~/i18n/i18n-utils";
 import { format } from "date-fns";
 
+const weatherIconMap = {
+	"clear-day": "/images/weather_icons_clear_day.svg",
+	"clear-night": "/images/weather_icons_clear_night.svg",
+	"partly-cloudy-day": "/images/weather_icons_cloudy.svg",
+	"partly-cloudy-night": "/images/weather_icons_cloudy.svg",
+	cloudy: "/images/weather_icons_cloudy.svg",
+	fog: "/images/weather_icons_foggy.svg",
+	wind: "/images/weather_icons_windy.svg",
+	rain: "/images/weather_icons_rainy.svg",
+	sleet: "/images/weather_icons_snow.svg",
+	snow: "/images/weather_icons_snow.svg",
+	hail: "/images/weather_icons_hail.svg",
+	thunderstorm: "/images/weather_icons_thunderstorm.svg",
+};
+
 const WeatherCard: React.FC = () => {
 	const { weather, loading } = useCurrentWeather();
 	const { alert, loadingAlert } = useCurrentAlert();
@@ -49,8 +64,8 @@ const WeatherCard: React.FC = () => {
 						</div>
 					)}
 				</div>
-				<div className="flex flex-row items-center gap-6 ">
-					<p className="text-sm">{weather.condition}</p>
+				<div className="flex flex-row items-center gap-6">
+					<img className="w-[85px]" src={weatherIconMap[weather.icon]} />
 					{/* to do: icons for weather conditions */}
 					<div className="flex flex-col gap-2 items-center">
 						<p className="text-xhain-blue-50 font-bold">{formattedTime} Uhr</p>

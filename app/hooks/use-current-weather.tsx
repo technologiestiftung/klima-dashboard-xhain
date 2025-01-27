@@ -1,8 +1,13 @@
 import { useState, useEffect } from "react";
 
-type WeatherCondition =
-	| "dry"
+type WeatherIcon =
+	| "clear-day"
+	| "clear-night"
+	| "partly-cloudy-day"
+	| "partly-cloudy-night"
+	| "cloudy"
 	| "fog"
+	| "wind"
 	| "rain"
 	| "sleet"
 	| "snow"
@@ -12,8 +17,7 @@ type WeatherCondition =
 interface WeatherData {
 	timestamp: string;
 	temperatureCelsius: number;
-	cloudCoverPercent: number;
-	condition: WeatherCondition;
+	icon: WeatherIcon;
 }
 
 export const brightSkyApiEndpoint =
@@ -36,9 +40,8 @@ const useCurrentWeather = () => {
 				const data = await response.json();
 				setWeather({
 					temperatureCelsius: data.weather.temperature,
-					cloudCoverPercent: data.weather.cloud_cover,
-					condition: data.weather.condition,
 					timestamp: data.weather.timestamp,
+					icon: data.weather.icon,
 				});
 			} catch (err) {
 				if (err instanceof Error) {
