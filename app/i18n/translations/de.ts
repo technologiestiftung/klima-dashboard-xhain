@@ -15,6 +15,10 @@ export const de = {
 	"header.cta": "Jetzt aktiv werden",
 
 	"carousel.title": "Das ist Xhain",
+	"carousel.button.previous.alt":
+		"Fokus auf vorherige Karte im horizontal scrollbaren Abschnitt oberhalb",
+	"carousel.button.next.alt":
+		"Fokus auf nächste Karte im horizontal scrollbaren Abschnitt oberhalb",
 
 	"carousel.card1.intro": "",
 	"carousel.card1.number": "292.866",

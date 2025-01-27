@@ -17,6 +17,10 @@ export const en: typeof de = {
 	"header.cta": "Take action now",
 
 	"carousel.title": "This is Xhain",
+	"carousel.button.previous.alt":
+		"Highlight previous card in the horizontally scrollable section above",
+	"carousel.button.next.alt":
+		"Highlight next card in the horizontally scrollable section above",
 
 	"carousel.card1.intro": "",
 	"carousel.card1.number": "292,866",
