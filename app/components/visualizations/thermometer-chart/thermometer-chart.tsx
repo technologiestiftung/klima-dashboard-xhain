@@ -2,22 +2,20 @@ import React, { useState } from "react";
 import { consequencesData } from "~/data";
 import { i18n } from "~/i18n/i18n-utils";
 import ThermometerSVG from "./thermometer-svg";
+import { RadioToggle } from "~/components/radio-toggle/radio-toggle";
+
+type I18nKey = keyof typeof i18n;
+
 const ThermometerChart: React.FC = () => {
 	const data = consequencesData.mediumTemperature;
 	const [selectedIndex, setSelectedIndex] = useState(0);
 	const maxTemperature = 15; // Maximum temperature for scaling
 	const minTemperature = 5; // Minimum temperature for scaling
 
-	// Map time to custom titles
-	const getTimeTitle = (time: string | number) => {
-		const timeMap: Record<string | number, string> = {
-			current: i18n("chart.mediumTemperature.now"),
-			1950: i18n("chart.mediumTemperature.past"),
-			2100: i18n("chart.mediumTemperature.future"),
-		};
-
-		return timeMap[time] || time.toString();
-	};
+	const radioOptions = data.map((item, index) => ({
+		value: index.toString(),
+		label: i18n(`chart.mediumTemperature.${item.time}` as I18nKey),
+	}));
 
 	return (
 		<div className="flex flex-col items-center justify-between">
@@ -30,25 +28,13 @@ const ThermometerChart: React.FC = () => {
 				/>
 			</div>
 
-			{/* Buttons */}
-			<div className="flex items-center gap-0.5 mt-6 mb-1 bg-white rounded-full mr-20">
-				{data.map((item, index) => (
-					<button
-						key={index}
-						onClick={(e) => {
-							setSelectedIndex(index);
-							// Remove focus after clicking
-							e.currentTarget.blur();
-						}}
-						className={`px-2.5 py-1 text-sm leading-5 font-bold text-xhain-blue-50  focus:outline focus:outline-2 focus:outline-xhain-blue-80 rounded-full ${
-							selectedIndex === index
-								? "bg-xhain-green-50"
-								: "hover:bg-xhain-blue-20"
-						}`}
-					>
-						{getTimeTitle(item.time)}
-					</button>
-				))}
+			{/* Switch Buttons */}
+			<div className="mt-6 mb-1 mr-20">
+				<RadioToggle
+					options={radioOptions}
+					defaultValue={selectedIndex.toString()}
+					onSelectionChange={(value) => setSelectedIndex(parseInt(value))}
+				/>
 			</div>
 		</div>
 	);

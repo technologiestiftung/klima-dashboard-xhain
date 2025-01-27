@@ -87,9 +87,9 @@ export const en: typeof de = {
 	"chart.mediumTemperature.subtitle": "in Friedrichshain-Kreuzberg by phases",
 	"chart.mediumTemperature.description":
 		"The mean annual temperature refers to the average value of temperatures over a period of 10 years.",
-	"chart.mediumTemperature.now": "Current",
-	"chart.mediumTemperature.past": "1950s",
-	"chart.mediumTemperature.future": "Future",
+	"chart.mediumTemperature.current": "Current",
+	"chart.mediumTemperature.1950": "1950s",
+	"chart.mediumTemperature.2100": "Future",
 
 	"chart.precipitationMm.title": "Precipitation",
 	"chart.precipitationMm.subtitle": "in milliliters",

@@ -95,7 +95,7 @@ const Card: React.FC<CardProps> = ({ id }) => {
 			id as keyof ConsequencesDataType
 		];
 
-	const chartKeys = Array.isArray(data) ? Object.keys(data[0]) : [];
+	const chartKeys = Object.keys(data[0]);
 
 	return (
 		<figure className={`${size}`}>
@@ -119,7 +119,7 @@ const Card: React.FC<CardProps> = ({ id }) => {
 						<caption>{title}</caption>
 						<thead>
 							<tr>
-								{chartKeys.map((key: string) => (
+								{chartKeys.map((key) => (
 									// @ts-expect-error this is correct, but typescript can't infer the types.
 									<th key={key}>{i18n(`chart.${id}.keys.${key}`)}</th>
 								))}

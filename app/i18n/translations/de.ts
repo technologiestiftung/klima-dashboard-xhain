@@ -84,9 +84,9 @@ export const de = {
 	"chart.mediumTemperature.subtitle": "in Friedrichshain-Kreuzberg nach Phasen",
 	"chart.mediumTemperature.description":
 		"Die mittlere Jahrestemperatur bezieht sich auf den Durchschnittswert der Temperaturen über einen Zeitraum von 10 Jahren.",
-	"chart.mediumTemperature.now": "Heute",
-	"chart.mediumTemperature.past": "1950er",
-	"chart.mediumTemperature.future": "Zukunft",
+	"chart.mediumTemperature.current": "Heute",
+	"chart.mediumTemperature.1950": "1950er",
+	"chart.mediumTemperature.2100": "Zukunft",
 
 	"chart.precipitationMm.title": "Niederschläge",
 	"chart.precipitationMm.subtitle": "in Milliliter",
