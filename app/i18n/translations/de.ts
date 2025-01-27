@@ -1,5 +1,10 @@
 export const de = {
 	"header.title": "Klima Dashboard Xhain",
+
+	"weatherCard.title": "Aktuelles Wetter",
+	"weatherCard.currently": "aktuell",
+	"weatherCard.time": "Uhr",
+
 	"charts.title": "Wie trägt XHain zum Klimawandel bei?",
 
 	"chart.thgTotalTons.title": "Treibhausgas-Emissionen",

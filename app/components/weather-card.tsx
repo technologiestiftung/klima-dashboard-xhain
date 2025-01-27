@@ -3,7 +3,7 @@ import useCurrentWeather from "~/hooks/use-current-weather";
 import { formatTemperature } from "~/i18n/i18n-utils";
 import { Skeleton } from "~/components/skeleton/skeleton";
 import useCurrentAlert from "~/hooks/use-current-weather-alert";
-import { getLanguage } from "~/i18n/i18n-utils";
+import { getLanguage, i18n } from "~/i18n/i18n-utils";
 import { format } from "date-fns";
 
 const weatherIconMap = {
@@ -29,16 +29,31 @@ const WeatherCard: React.FC = () => {
 	const alertInCurrentLang =
 		language === "de" ? alert?.alertDE : alert?.alertEN;
 
-	// to do: adapt skeleton to new design
 	if (loading || loadingAlert || !weather) {
 		return (
-			<div className="w-full bg-xhain-blue-10">
-				<div className="max-w-lg mx-auto w-full h-28 flex flex-row gap-2 items-center justify-between">
-					<Skeleton className="w-14 h-14 rounded-full mt-8 ml-3" />
-					<div className="flex flex-col mr-5">
-						<Skeleton className="w-56 h-4 my-2 rounded-lg" />
-						<Skeleton className="w-56 h-4 my-2 rounded-lg" />
-						<Skeleton className="w-56 h-4 my-2 rounded-lg" />
+			<div className="w-full bg-xhain-blue-10 px-20 py-5">
+				<div className="max-w-lg mx-auto w-full min-h-[106px] flex flex-col md:flex-row gap-2 items-center justify-between">
+					<div className="flex flex-col gap-1.5">
+						<Skeleton className="w-56 h-4 rounded-lg" />
+						<Skeleton className="w-56 h-4 rounded-lg" />
+						<Skeleton className="w-28 h-6 my-1 rounded-lg" />
+					</div>
+
+					<div className="flex flex-col md:flex-row items-center gap-6">
+						<div className="flex">
+							<Skeleton className="w-14 h-14 rounded-full" />
+						</div>
+						<div className="flex flex-row gap-6 items-center">
+							<div className="flex flex-col gap-2 items-center">
+								<Skeleton className="w-24 h-4 rounded-lg" />
+								<Skeleton className="w-24 h-12 rounded-lg" />
+							</div>
+
+							<div className="flex flex-col gap-2 items-center">
+								<Skeleton className="w-24 h-4 rounded-lg" />
+								<Skeleton className="w-24 h-12 rounded-lg" />
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -47,29 +62,37 @@ const WeatherCard: React.FC = () => {
 
 	const { value, unit } = formatTemperature(weather.temperatureCelsius);
 
-	// this is only updated hourly - should we switch to new Date();?
-	const formattedTime = format(new Date(weather.timestamp), "HH:mm");
+	const currentTime = format(new Date(), "HH:mm");
 
 	return (
-		<div className="w-full bg-xhain-blue-10 px-20 py-5">
-			<div className="max-w-lg mx-auto w-full flex flex-row gap-2 items-center justify-between bg-[#F6F8FF]">
-				<div className="flex flex-col">
-					<p className="text-2xl">Aktuelles Wetter</p>
-					<p className="font-bold text-2xl">Friedrichshain-Kreuzberg</p>
+		<div className="w-full bg-xhain-blue-10 px-20 py-7 md:py-5">
+			<div className="max-w-lg mx-auto w-full flex flex-col md:flex-row gap-2 items-center justify-between">
+				<div className="flex flex-col items-center md:items-start">
+					<p className="text-2xl text-center md:text-left">
+						{i18n("weatherCard.title")}
+					</p>
+					<p className="font-bold text-2xl text-center md:text-left">
+						Friedrichshain-Kreuzberg
+					</p>
 
 					{alert && (
-						<div className="font-bold px-[5px] py-1 bg-xhain-red-80 text-white rounded-5px w-fit flex items-center gap-x-2 mt-2.5">
+						<div className="font-bold px-[5px] py-1 bg-xhain-red-80 text-white rounded-5px w-fit flex items-center gap-x-2 mt-3">
 							<img src={"/images/warning-icon.svg"} alt={""} />
 							{alertInCurrentLang}
 						</div>
 					)}
 				</div>
-				<div className="flex flex-row items-center gap-6">
-					<img className="w-[85px]" src={weatherIconMap[weather.icon]} />
-					{/* to do: icons for weather conditions */}
+				<div className="flex flex-col md:flex-row items-center gap-y-2 gap-x-6">
+					<img
+						className="w-[104px] md:w-[85px]"
+						src={weatherIconMap[weather.icon]}
+					/>
 					<div className="flex flex-col gap-2 items-center">
-						<p className="text-xhain-blue-50 font-bold">{formattedTime} Uhr</p>
-						<div className="bg-xhain-blue-50 rounded-5px p-2.5 w-[141px] text-white text-5xl font-bold leading-none flex items-center justify-center">
+						<p className="text-xhain-blue-50 font-bold">
+							{i18n("weatherCard.currently")} {currentTime}{" "}
+							{i18n("weatherCard.time")}
+						</p>
+						<div className="bg-xhain-blue-50 rounded-5px p-2.5 w-[141px] text-white text-3xl md:text-5xl font-bold leading-none flex items-center justify-center">
 							{value}
 							{unit}
 						</div>

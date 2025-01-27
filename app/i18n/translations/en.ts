@@ -2,6 +2,11 @@ import { de } from "./de";
 
 export const en: typeof de = {
 	"header.title": "Climate Dashboard Xhain",
+
+	"weatherCard.title": "Current weather",
+	"weatherCard.currently": "currently",
+	"weatherCard.time": "",
+
 	"charts.title": "How does XHain contribute to climate change?",
 
 	"chart.thgTotalTons.title": "Greenhouse gas emissions",
