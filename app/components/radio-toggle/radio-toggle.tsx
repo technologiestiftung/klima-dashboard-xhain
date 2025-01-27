@@ -13,7 +13,7 @@ export function RadioToggle<T extends string>({
 	onSelectionChange,
 }: RadioButtonProps<T>) {
 	return (
-		<div className="rounded-full bg-white flex w-fit p-0.5 gap-x-1 text-xhain-blue-50 font-semibold">
+		<div className="rounded-full bg-white flex w-fit p-0.5 gap-x-2 text-xhain-blue-50 font-semibold">
 			{options.map(({ value, label }) => (
 				<label
 					key={value}
