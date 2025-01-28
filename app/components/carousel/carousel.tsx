@@ -12,6 +12,8 @@ interface CardContent {
 	description: string;
 	image: string | null;
 	hasToggle: boolean;
+	sourceLink: string;
+	source: string;
 }
 
 export const Carousel: React.FC = () => {
@@ -31,6 +33,8 @@ export const Carousel: React.FC = () => {
 			description: i18n("carousel.card1.description"),
 			image: "/images/einwohner-icon.svg",
 			hasToggle: false,
+			sourceLink: "https://www.statistik-berlin-brandenburg.de/a-i-5-hj",
+			source: i18n("carousel.card1.source"),
 		},
 		{
 			intro: i18n("carousel.card2.intro"),
@@ -40,6 +44,8 @@ export const Carousel: React.FC = () => {
 			description: i18n("carousel.card2.description"),
 			image: null,
 			hasToggle: true,
+			sourceLink: "https://www.statistik-berlin-brandenburg.de/a-i-5-hj",
+			source: i18n("carousel.card2.source"),
 		},
 		{
 			intro: i18n("carousel.card3.intro"),
@@ -49,6 +55,9 @@ export const Carousel: React.FC = () => {
 			description: i18n("carousel.card3.description"),
 			image: "/images/sealing-icon.svg",
 			hasToggle: true,
+			sourceLink:
+				"https://www.berlin.de/umweltatlas/boden/versiegelung/2021/kartenbeschreibung/",
+			source: i18n("carousel.card3.source"),
 		},
 		{
 			intro: i18n("carousel.card4.intro"),
@@ -58,6 +67,8 @@ export const Carousel: React.FC = () => {
 			description: i18n("carousel.card4.description"),
 			image: null,
 			hasToggle: true,
+			sourceLink: "https://www.statistik-berlin-brandenburg.de/a-v-3-j",
+			source: i18n("carousel.card4.source"),
 		},
 		{
 			intro: i18n("carousel.card5.intro"),
@@ -65,6 +76,8 @@ export const Carousel: React.FC = () => {
 			description: i18n("carousel.card5.description"),
 			image: "/images/bed-icon.svg",
 			hasToggle: false,
+			sourceLink: "",
+			source: i18n("carousel.card5.source"),
 		},
 	];
 
