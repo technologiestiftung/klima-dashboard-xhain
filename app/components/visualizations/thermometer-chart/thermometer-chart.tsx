@@ -4,7 +4,7 @@ import { i18n } from "~/i18n/i18n-utils";
 import ThermometerSVG from "./thermometer-svg";
 import { RadioToggle } from "~/components/radio-toggle/radio-toggle";
 
-type I18nKey = keyof typeof i18n;
+type OptionsKeys = "1950" | "current" | "2100";
 
 const ThermometerChart: React.FC = () => {
 	const data = consequencesData.mediumTemperature;
@@ -14,7 +14,7 @@ const ThermometerChart: React.FC = () => {
 
 	const radioOptions = data.map((item, index) => ({
 		value: index.toString(),
-		label: i18n(`chart.mediumTemperature.${item.time}` as I18nKey),
+		label: i18n(`chart.mediumTemperature.${item.time as OptionsKeys}`),
 	}));
 
 	return (
