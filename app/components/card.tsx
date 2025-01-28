@@ -9,6 +9,8 @@ import { LineChart } from "~/components/visualizations/line-chart/line-chart";
 import { StackedBarChart } from "~/components/visualizations/stacked-bar-chart/stacked-bar-chart";
 import { BarChartThg } from "~/components/visualizations/bar-chart-thg/bar-chart-thg";
 import { BarChartModalSplit } from "~/components/visualizations/bar-chart-modal-split/bar-chart-modal-split";
+import { LinkArrowIcon } from "./icon/link-arrow-icon";
+import { ShareIcon } from "./icon/share-icon";
 
 interface CardProps {
 	id: keyof typeof howXhainContributesData;
@@ -64,6 +66,17 @@ const Card: React.FC<CardProps> = ({ id }) => {
 
 	const title = i18n(`chart.${id}.title`);
 	const subTitle = i18n(`chart.${id}.subtitle`);
+
+	const description = i18n(`chart.infoDialog.${id}.description`);
+	const sourceTitle = i18n(`chart.infoDialog.${id}.sourceTitle`);
+	const sourceLabel = i18n(`chart.infoDialog.${id}.sourceLabel`);
+	const sourceLink = i18n(`chart.infoDialog.${id}.sourceLink`);
+
+	const learnMoreLabel = i18n(`chart.infoDialog.learnMoreLabel`);
+	const learnMoreLink = i18n(`chart.infoDialog.${id}.learnMoreLink`);
+
+	const shareLabel = i18n(`chart.infoDialog.shareLabel`);
+	const shareLink = i18n(`chart.infoDialog.${id}.shareLink`);
 
 	const { size, color, component: Chart } = charts[id];
 
@@ -128,9 +141,38 @@ const Card: React.FC<CardProps> = ({ id }) => {
 			</div>
 
 			<Dialog id={dialogId}>
-				<div className="bg-white p-5 rounded-lg shadow-lg">
-					<h2 className="text-2xl font-bold">Dialog</h2>
-					<p className="text-lg">This is a dialog about {title}</p>
+				<div className="flex flex-col gap-y-5 ">
+					<div className="flex flex-col">
+						<h2 className="text-xl leading-7 font-bold">{title}</h2>
+						<p className="text-xl leading-7 font-normal ">{subTitle}</p>
+					</div>
+
+					<p className="font-normal text-base leading-6">{description}</p>
+
+					<div className="flex flex-row text-sm leading-5 gap-2.5">
+						<p className="font-semibold">{sourceTitle}</p>
+						<a href={sourceLink} className="font-normal underline">
+							{sourceLabel}
+						</a>
+					</div>
+
+					<div className="flex flex-row justify-between gap-x-5">
+						<a
+							href={learnMoreLink}
+							className="flex w-fit items-center mt-5 leading-6 text-base px-2.5 py-1 gap-x-2 border-2 border-xhain-blue-50 text-xhain-blue-50 rounded-full font-semibold 
+							hover:border-xhain-blue-80 hover:text-xhain-blue-80 focus:outline focus:outline-3 focus:outline-xhain-blue-80 focus:outline-offset-5"
+						>
+							{learnMoreLabel}
+							<LinkArrowIcon />
+						</a>
+						<button
+							className="flex w-fit items-center mt-5 leading-6 text-base px-2.5 py-1 gap-x-2 text-xhain-blue-50 rounded-full font-semibold 
+							hover:text-xhain-blue-80 focus:outline focus:outline-3 focus:outline-xhain-blue-80 focus:outline-offset-5"
+						>
+							<ShareIcon />
+							{shareLabel}:{shareLink}
+						</button>
+					</div>
 				</div>
 			</Dialog>
 		</figure>
