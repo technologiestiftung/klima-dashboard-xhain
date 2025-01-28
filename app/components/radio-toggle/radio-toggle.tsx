@@ -5,12 +5,14 @@ type RadioButtonProps<T extends string> = {
 	}[];
 	defaultValue: T;
 	onSelectionChange: (value: T) => void;
+	radioID: string;
 };
 
 export function RadioToggle<T extends string>({
 	options,
 	defaultValue,
 	onSelectionChange,
+	radioID,
 }: RadioButtonProps<T>) {
 	return (
 		<div className="rounded-full bg-white flex w-fit p-0.5 gap-x-1 text-xhain-blue-50 font-bold">
@@ -25,11 +27,12 @@ export function RadioToggle<T extends string>({
 					<input
 						type="radio"
 						value={value}
-						name="radio"
+						name={radioID}
 						className="appearance-none opacity-0"
 						defaultChecked={defaultValue === value}
 						onClick={() => onSelectionChange(value)}
 					/>
+
 					{label}
 				</label>
 			))}
