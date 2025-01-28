@@ -6,11 +6,6 @@ import ThermometerChart from "./visualizations/thermometer-chart/thermometer-cha
 import { Dialog } from "./dialog/dialog";
 import { i18n } from "~/i18n/i18n-utils";
 import { howXhainContributesData, consequencesData } from "~/data";
-import type {
-	HowXhainContributesDataType,
-	ConsequencesDataType,
-} from "./visualizations/data-types";
-
 import { LineChart } from "~/components/visualizations/line-chart/line-chart";
 import { StackedBarChart } from "~/components/visualizations/stacked-bar-chart/stacked-bar-chart";
 import { BarChartThg } from "~/components/visualizations/bar-chart-thg/bar-chart-thg";
@@ -88,12 +83,8 @@ const Card: React.FC<CardProps> = ({ id }) => {
 	const { size, color, component: Chart } = charts[id];
 
 	const data =
-		(howXhainContributesData as HowXhainContributesDataType)[
-			id as keyof HowXhainContributesDataType
-		] ||
-		(consequencesData as ConsequencesDataType)[
-			id as keyof ConsequencesDataType
-		];
+		howXhainContributesData[id as keyof typeof howXhainContributesData] ||
+		consequencesData[id as keyof typeof consequencesData];
 
 	const chartKeys = Object.keys(data[0]);
 
