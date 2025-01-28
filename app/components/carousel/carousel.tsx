@@ -108,7 +108,7 @@ export const Carousel: React.FC = () => {
 				className="snap-x snap-mandatory flex overflow-x-auto no-scrollbar gap-6 md:gap-12"
 			>
 				{/* Left Spacer */}
-				<div className="snap-start md:w-8 xl:w-14 shrink-0" />
+				<div className="snap-start md:w-8 xl:w-10 shrink-0" />
 
 				{cardData.map((card, index) => (
 					<div

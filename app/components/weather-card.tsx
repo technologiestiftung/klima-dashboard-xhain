@@ -32,7 +32,7 @@ const WeatherCard: React.FC = () => {
 	if (loading || loadingAlert || !weather) {
 		return (
 			<div className="w-full bg-xhain-blue-10 px-20 py-5">
-				<div className="max-w-lg mx-auto w-full min-h-[100px] flex flex-col md:flex-row gap-2 items-center justify-between">
+				<div className="max-w-8xl mx-auto w-full min-h-[100px] flex flex-col md:flex-row gap-2 items-center justify-between">
 					<div className="flex flex-col gap-1.5">
 						<Skeleton className="w-56 h-6 rounded-lg" />
 						<Skeleton className="w-56 h-6 rounded-lg" />
@@ -61,7 +61,7 @@ const WeatherCard: React.FC = () => {
 
 	return (
 		<div className="w-full bg-xhain-blue-10 px-20 py-7 md:py-5">
-			<div className="max-w-lg mx-auto w-full flex flex-col md:flex-row gap-2 items-center justify-between">
+			<div className="max-w-8xl mx-auto w-full flex flex-col md:flex-row gap-2 items-center justify-between">
 				<div className="flex flex-col items-center md:items-start">
 					<p className="text-2xl text-center md:text-left">
 						{i18n("weatherCard.title")}
