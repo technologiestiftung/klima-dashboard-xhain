@@ -1,46 +1,85 @@
 import React, { useRef, useState } from "react";
-import { i18n } from "~/i18n/i18n-utils";
+import { i18n, formatNumber } from "~/i18n/i18n-utils";
+import { CarouselCard } from "./carousel-card";
 
-const mod = (n: number, m: number) => {
-	return ((n % m) + m) % m;
-};
+const mod = (n: number, m: number) => ((n % m) + m) % m;
+
+interface CardContent {
+	intro: string;
+	number: string;
+	numberXhain?: string;
+	numberBerlin?: string;
+	description: string;
+	image: string | null;
+	hasToggle: boolean;
+}
 
 export const Carousel: React.FC = () => {
 	const cardRefs = useRef<(HTMLDivElement | null)[]>([]);
 	const [currentCardIndex, setCurrentCardIndex] = useState(0);
 
-	const cardData = [
+	const [cardNumbers, setCardNumbers] = useState<Record<number, string>>({
+		1: formatNumber(14398),
+		2: formatNumber(68) + "%",
+		3: formatNumber(26) + "%",
+	});
+
+	const cardData: CardContent[] = [
 		{
 			intro: i18n("carousel.card1.intro"),
-			number: i18n("carousel.card1.number"),
+			number: formatNumber(292866),
 			description: i18n("carousel.card1.description"),
 			image: "/images/einwohner-icon.svg",
+			hasToggle: false,
 		},
 		{
 			intro: i18n("carousel.card2.intro"),
-			number: i18n("carousel.card2.number"),
+			numberXhain: formatNumber(14398),
+			numberBerlin: formatNumber(4361),
+			number: cardNumbers[1],
 			description: i18n("carousel.card2.description"),
 			image: null,
+			hasToggle: true,
 		},
 		{
 			intro: i18n("carousel.card3.intro"),
-			number: i18n("carousel.card3.number"),
+			numberXhain: formatNumber(68) + "%",
+			numberBerlin: formatNumber(34) + "%",
+			number: cardNumbers[2],
 			description: i18n("carousel.card3.description"),
 			image: "/images/sealing-icon.svg",
+			hasToggle: true,
 		},
 		{
 			intro: i18n("carousel.card4.intro"),
-			number: i18n("carousel.card4.number"),
+			numberXhain: formatNumber(26) + "%",
+			numberBerlin: formatNumber(15) + "%",
+			number: cardNumbers[3],
 			description: i18n("carousel.card4.description"),
 			image: null,
+			hasToggle: true,
 		},
 		{
 			intro: i18n("carousel.card5.intro"),
 			number: i18n("carousel.card5.number"),
 			description: i18n("carousel.card5.description"),
 			image: "/images/bed-icon.svg",
+			hasToggle: false,
 		},
 	];
+
+	const toggleSelectedCard = (cardIndex: number, value: string) => {
+		setCardNumbers((prev) => {
+			const toggledNumber =
+				value === "xhain"
+					? cardData[cardIndex].numberXhain
+					: cardData[cardIndex].numberBerlin;
+			return {
+				...prev,
+				[cardIndex]: toggledNumber || "",
+			};
+		});
+	};
 
 	const goToNext = () => {
 		const nextCardIndex = mod(currentCardIndex + 1, cardData.length);
@@ -77,35 +116,14 @@ export const Carousel: React.FC = () => {
 						ref={(el) => {
 							cardRefs.current[index] = el;
 						}}
-						tabIndex={0}
-						className={`snap-start text-white rounded-2xl h-[200px] md:h-[340px]  
-						shrink-0 border-4 border-white flex scroll-mx-5 md:scroll-mx-20
-						${index % 2 === 0 ? "md:w-[680px] w-[325px]" : "md:w-[340px] w-[200px]"} 
-						${card.image ? "flex-row" : "flex-col justify-center items-center"}`}
+						className="flex"
 					>
-						<div
-							className={`flex flex-col p-4 text-center justify-center items-center text-sm md:text-lg 
-								${card.image ? "w-1/2" : "w-full"}`}
-						>
-							<p className="leading-5 md:leading-7 font-semibold">
-								{card.intro}
-							</p>
-							<h2 className="text-2xl md:text-6xl leading-none font-bold">
-								{card.number}
-							</h2>
-							<p className="leading-5 md:leading-7 font-semibold">
-								{card.description}
-							</p>
-						</div>
-						{card.image && (
-							<div className="w-1/2 bg-white flex justify-center items-center rounded-r-xl">
-								<img
-									className="size-[86px] md:size-[220px]"
-									src={card.image}
-									alt="icon"
-								/>
-							</div>
-						)}
+						<CarouselCard
+							key={index}
+							card={card}
+							index={index}
+							toggleSelectedCard={toggleSelectedCard}
+						/>
 					</div>
 				))}
 

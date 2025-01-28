@@ -23,19 +23,15 @@ export const en: typeof de = {
 		"Highlight next card in the horizontally scrollable section above",
 
 	"carousel.card1.intro": "",
-	"carousel.card1.number": "292,866",
 	"carousel.card1.description": "People live in Friedrichshain-Kreuzberg",
 
 	"carousel.card2.intro": "",
-	"carousel.card2.number": "14,398",
 	"carousel.card2.description": "people live within one km²",
 
 	"carousel.card3.intro": "",
-	"carousel.card3.number": "68%",
 	"carousel.card3.description": "of the area is sealed",
 
 	"carousel.card4.intro": "",
-	"carousel.card4.number": "26%",
 	"carousel.card4.description": "is the share of traffic area in",
 
 	"carousel.card5.intro": "In 2023",
