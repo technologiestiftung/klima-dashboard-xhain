@@ -161,7 +161,9 @@ const Card: React.FC<CardProps> = ({ id }) => {
 						<p className="text-xl leading-7 font-normal ">{subTitle}</p>
 					</div>
 
-					<p className="font-normal text-base leading-6">{description}</p>
+					<p className="font-normal text-base leading-6 overflow-y-scroll max-h-[312px] dialog-scrollbar pr-2.5">
+						{description}
+					</p>
 
 					<div className="flex flex-row text-sm leading-5 gap-2.5">
 						<p className="font-semibold">{sourceTitle}</p>
