@@ -1,5 +1,10 @@
 export const de = {
 	"header.title": "Klima Dashboard Xhain",
+
+	"weatherCard.title": "Aktuelles Wetter",
+	"weatherCard.currently": "aktuell",
+	"weatherCard.time": "Uhr",
+
 	"header.bezirksamtXhainAltText": "Zur Startseite",
 	"header.burgerMenuAltText": "Menü öffnen",
 	"header.closeButtonAltText": "Menü schließen",
