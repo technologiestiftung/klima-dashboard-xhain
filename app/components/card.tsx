@@ -2,9 +2,10 @@ import React from "react";
 import { CircleAreaChartSlider } from "./visualizations/circle-area-chart/circle-area-chart-slider";
 import { DonutChartEEV } from "./visualizations/donut-chart-eev/donut-chart-eev";
 import { DonutChartTraffic } from "./visualizations/donut-chart-traffic/donut-chart-traffic";
+import ThermometerChart from "./visualizations/thermometer-chart/thermometer-chart";
 import { Dialog } from "./dialog/dialog";
 import { i18n } from "~/i18n/i18n-utils";
-import { howXhainContributesData } from "~/data";
+import { howXhainContributesData, consequencesData } from "~/data";
 import { LineChart } from "~/components/visualizations/line-chart/line-chart";
 import { StackedBarChart } from "~/components/visualizations/stacked-bar-chart/stacked-bar-chart";
 import { BarChartThg } from "~/components/visualizations/bar-chart-thg/bar-chart-thg";
@@ -13,7 +14,7 @@ import { LinkArrowIcon } from "./icon/link-arrow-icon";
 import { ShareIcon } from "./icon/share-icon";
 
 interface CardProps {
-	id: keyof typeof howXhainContributesData;
+	id: keyof typeof howXhainContributesData | keyof typeof consequencesData;
 }
 
 const charts = {
@@ -57,6 +58,21 @@ const charts = {
 		color: "bg-xhain-blue-10",
 		size: "col-span-1 row-span-1",
 	},
+	hotDays: {
+		component: null,
+		color: "bg-xhain-blue-10",
+		size: "col-span lg:col-span-2 row-span-1",
+	},
+	precipitationMm: {
+		component: null,
+		color: "bg-xhain-blue-10",
+		size: "col-span lg:col-span-2 row-span-1",
+	},
+	mediumTemperature: {
+		component: ThermometerChart,
+		color: "bg-xhain-green-10",
+		size: "col-span-1 row-span-2",
+	},
 };
 
 const Card: React.FC<CardProps> = ({ id }) => {
@@ -80,7 +96,11 @@ const Card: React.FC<CardProps> = ({ id }) => {
 
 	const { size, color, component: Chart } = charts[id];
 
-	const chartKeys = Object.keys(howXhainContributesData[id][0]);
+	const data =
+		howXhainContributesData[id as keyof typeof howXhainContributesData] ||
+		consequencesData[id as keyof typeof consequencesData];
+
+	const chartKeys = Object.keys(data[0]);
 
 	return (
 		<figure className={`${size}`}>
@@ -111,7 +131,7 @@ const Card: React.FC<CardProps> = ({ id }) => {
 							</tr>
 						</thead>
 						<tbody>
-							{howXhainContributesData[id].map((entry) => (
+							{data.map((entry) => (
 								<tr key={JSON.stringify(entry)}>
 									{Object.keys(entry).map((key) => (
 										// @ts-expect-error this is correct, but typescript can't infer the types.
@@ -128,13 +148,7 @@ const Card: React.FC<CardProps> = ({ id }) => {
 						<>
 							<p>Chart not found</p>
 							<br />
-							<pre>
-								{JSON.stringify(
-									howXhainContributesData[id].slice(0, 2),
-									null,
-									2,
-								)}
-							</pre>
+							<pre>{JSON.stringify(data.slice(0, 2), null, 2)}</pre>
 						</>
 					)}
 				</div>

@@ -101,6 +101,11 @@ export const de = {
 
 	"chart.mediumTemperature.title": "Mittlere Jahrestemperatur",
 	"chart.mediumTemperature.subtitle": "in Friedrichshain-Kreuzberg nach Phasen",
+	"chart.mediumTemperature.description":
+		"Die mittlere Jahrestemperatur bezieht sich auf den Durchschnittswert der Temperaturen über einen Zeitraum von 10 Jahren.",
+	"chart.mediumTemperature.current": "Heute",
+	"chart.mediumTemperature.1950": "1950er",
+	"chart.mediumTemperature.2100": "Zukunft",
 
 	"chart.precipitationMm.title": "Niederschläge",
 	"chart.precipitationMm.subtitle": "in Milliliter",
@@ -248,6 +253,9 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 		"Wie kann XHain die Klimaschutzziele zukünftig erreichen?",
 
 	"consequences.title": "Wie wirkt sich der Klimawandel auf XHain aus?",
+	"consequences.description":
+		"Bei der Analyse der Klimafolgen in Xhain wird zwischen den Klimaentwicklungen und der Betroffenheit unterschieden. Klimaentwicklungen beschreiben, wie sich das Klima bisher verändert hat und welche zukünftigen Veränderungen zu erwarten sind. Wie sich diese Klimaentwicklungen auswirken, also die Betroffenheit, hängt von soziodemografischen und umweltbezogenen Faktoren ab. Dazu gehört z.B. die Einwohner*innendichte, der Anteil vulnerabler Gruppen oder der Versiegelungsgrad.",
+	"consequences.subheading": "Wie verändert sich das Klima?",
 
 	"currentProjects.title": "Was passiert bereits in Xhain?",
 
