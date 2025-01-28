@@ -6,8 +6,9 @@ import { useContainerWidthHeight } from "~/hooks/use-container-width-height";
 const data = allData.thgTotalTons;
 
 export const CircleAreaChartSlider: React.FC = () => {
-	const minYear = data[0].year;
-	const maxYear = data[data.length - 1].year;
+	const years = data.map((d) => d.year);
+	const minYear = Math.min(...years);
+	const maxYear = Math.max(...years);
 
 	const [selectedYear, setSelectedYear] = useState<number>(maxYear);
 
@@ -15,9 +16,10 @@ export const CircleAreaChartSlider: React.FC = () => {
 	const { width } = useContainerWidthHeight(ref);
 
 	return (
-		<div ref={ref}>
+		<div ref={ref} className="flex flex-col gap-y-4">
 			<CircleAreaChart width={width} height={280} year={selectedYear} />
 			<input
+				id="thgTotalTonsSliderChart"
 				type="range"
 				min={minYear}
 				max={maxYear}
@@ -26,8 +28,23 @@ export const CircleAreaChartSlider: React.FC = () => {
 				style={{
 					width,
 				}}
+				className="appearance-none bg-xhain-blue-30 rounded-full h-3 slider-thumb cursor-pointer"
 			/>
-			<div>{selectedYear}</div>
+
+			<label className="flex justify-between" htmlFor="thgTotalTonsSliderChart">
+				{years.map((year, index) => (
+					<span
+						className={`
+						text-xs 
+						${year === selectedYear && "font-bold"}
+						${year === selectedYear || index === 0 || index === years.length - 1 ? "visible" : "invisible"}
+						`}
+						key={year}
+					>
+						{year}
+					</span>
+				))}
+			</label>
 		</div>
 	);
 };

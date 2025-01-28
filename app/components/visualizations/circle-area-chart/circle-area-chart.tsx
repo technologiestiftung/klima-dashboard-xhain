@@ -1,6 +1,15 @@
 import React, { useMemo } from "react";
 import * as d3 from "d3";
-import { howXhainContributesData as allData } from "~/data";
+import { howXhainContributesData } from "~/data";
+import {
+	xhainBlue80,
+	xhainGreen30,
+	xhainGreen50,
+	xhainGreen60,
+} from "~/components/visualizations/colors";
+import { formatNumber, i18n } from "~/i18n/i18n-utils";
+
+const { thgTotalTons } = howXhainContributesData;
 
 interface CircleAreaChartProps {
 	width: number;
@@ -8,22 +17,23 @@ interface CircleAreaChartProps {
 	year: number;
 }
 
-const circleColors = {
-	electricity: "#FF8552",
-	heating: "#FFA67D",
-	fuels: "#FFE3D4",
-} as const;
+const circleColors: Record<
+	"electricity_tons" | "heating_tons" | "fuels_tons",
+	string
+> = {
+	electricity_tons: xhainGreen50,
+	heating_tons: xhainGreen60,
+	fuels_tons: xhainGreen30,
+};
 
 export const CircleAreaChart: React.FC<CircleAreaChartProps> = ({
 	width,
 	height,
 	year,
 }) => {
-	const data = allData.thgTotalTons;
-
 	const dataSelectedYear = useMemo(
-		() => data.find((d) => d.year === year),
-		[data, year],
+		() => thgTotalTons.find((d) => d.year === year),
+		[year],
 	);
 
 	if (!dataSelectedYear) {
@@ -32,25 +42,25 @@ export const CircleAreaChart: React.FC<CircleAreaChartProps> = ({
 
 	// Convert values to numbers and prepare data entries
 	const entries = useMemo(() => {
-		return Object.keys(dataSelectedYear)
-			.filter((key) => key !== "year")
-			.map((key) => ({
-				key: key.replace("_mwh", "").replace("_tons", "").replace(/_/g, " "),
-				value: +dataSelectedYear[key as keyof typeof dataSelectedYear],
-			}));
-	}, [dataSelectedYear]);
+		return Object.entries(dataSelectedYear)
+			.filter(([key]) => key !== "year")
+			.map(([key, value]) => ({ key, value: Number(value) }));
+	}, [dataSelectedYear]) as {
+		key: keyof Omit<typeof dataSelectedYear, "year">;
+		value: number;
+	}[];
 
 	// D3 size scale
 	const size = d3
 		.scaleLinear()
 		.domain([0, d3.max(entries, (d) => d.value) || 1])
-		.range([width / 10, width / 4.5]);
+		.range(getRange(width));
 
 	// Create nodes with initial positions and random jitter
 	const circles = entries.map((d) => ({
 		...d,
 		r: size(d.value),
-		x: width / 2 + Math.cos(d.key.length),
+		x: width / 2 - Math.cos(d.key.length),
 		y: height / 2 - Math.sin(d.key.length),
 	}));
 
@@ -81,35 +91,42 @@ export const CircleAreaChart: React.FC<CircleAreaChartProps> = ({
 
 	return (
 		<svg width={width} height={height}>
-			{circles.map((d, index) => (
+			{circles.map(({ key, value, x, y, r }, index) => (
 				<g key={index}>
-					<circle
-						cx={d.x + 20}
-						cy={d.y}
-						r={d.r}
-						fill={circleColors[d.key as keyof typeof circleColors]}
-					/>
+					<circle cx={x + 20} cy={y} r={r} fill={circleColors[key]} />
 					<text
-						x={d.x + 20}
-						y={d.y - 10}
+						x={x + 20}
+						y={y - 10}
 						textAnchor="middle"
 						fontSize="16px"
 						fontWeight="bold"
-						fill="#333"
+						fill={xhainBlue80}
 					>
-						{d.key}
+						{i18n(`chart.thgTotalTons.keys.${key}`)}
 					</text>
 					<text
-						x={d.x + 20}
-						y={d.y + 10}
+						x={x + 20}
+						y={y + 10}
 						textAnchor="middle"
 						fontSize="16px"
-						fill="#333"
+						fill={xhainBlue80}
 					>
-						{d.value}
+						{formatNumber(value)}
 					</text>
 				</g>
 			))}
 		</svg>
 	);
 };
+
+function getRange(width: number) {
+	if (width < 300) {
+		return [width / 6, width / 4];
+	}
+
+	if (width > 300 && width < 450) {
+		return [width / 8, width / 5];
+	}
+
+	return [width / 10, width / 6];
+}

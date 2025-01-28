@@ -11,7 +11,7 @@ export const FooterCardSection: React.FC = () => {
 			</div>
 			<a
 				href={`mailto:${i18n("footer.cardCtaButtonText")}`}
-				className="rounded-full bg-xhain-green-50 px-3 py-2.5 w-fit text-xl md:text-2xl leading-7 md:leading-8 font-bold hover:bg-xhain-green-60 focus:outline focus:outline-3 focus:outline-xhain-blue-80 focus:outline-offset-5"
+				className="rounded-full bg-xhain-green-50 px-3 py-2.5 w-fit text-xl md:text-2xl leading-7 md:leading-8 font-bold hover:bg-xhain-green-60 focus-xhain-blue-80"
 			>
 				{i18n("footer.cardCtaButtonText")}
 			</a>

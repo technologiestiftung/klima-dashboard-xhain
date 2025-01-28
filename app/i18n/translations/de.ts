@@ -1,13 +1,29 @@
 export const de = {
 	"header.title": "Klima Dashboard Xhain",
+
+	"weatherCard.title": "Aktuelles Wetter",
+	"weatherCard.currently": "aktuell",
+	"weatherCard.time": "Uhr",
+
+	"header.bezirksamtXhainAltText": "Zur Startseite",
+	"header.burgerMenuAltText": "Menü öffnen",
+	"header.closeButtonAltText": "Menü schließen",
+	"header.nav.dashboard": "Dashboard",
+	"header.nav.climateConcepts": "Klimakonzepte",
+	"header.nav.currentProjects": "Aktuelle Projekte",
+	"header.nav.about": "Über uns",
+	"header.cta": "Jetzt aktiv werden",
+
+	"languageToggleButton.ariaLabelDeLink": "Zu deutscher Sprache wechseln",
+	"languageToggleButton.ariaLabelEnLink": "Zu englischer Sprache wechseln",
+
 	"charts.title": "Wie trägt XHain zum Klimawandel bei?",
 
-	"chart.thgTotalTons.title": "Treibhausgas-Emissionen",
+	"chart.thgTotalTons.title": "Entwicklung der Treibhausgas-Emissionen",
 	"chart.thgTotalTons.subtitle": "in Tonnen",
-	"chart.thgTotalTons.keys.year": "Jahr",
-	"chart.thgTotalTons.keys.heating_tons": "Summe in Tonnen",
-	"chart.thgTotalTons.keys.electricity_tons": "Summe in Tonnen",
-	"chart.thgTotalTons.keys.fuels_tons": "Summe in Tonnen",
+	"chart.thgTotalTons.keys.heating_tons": "Wärme",
+	"chart.thgTotalTons.keys.electricity_tons": "Strom",
+	"chart.thgTotalTons.keys.fuels_tons": "Kraftstoffe",
 
 	"chart.thgSector2021Tons.title": "Treibhausgas-Emissionen",
 	"chart.thgSector2021Tons.subtitle": "nach Sektoren in Tonnen",

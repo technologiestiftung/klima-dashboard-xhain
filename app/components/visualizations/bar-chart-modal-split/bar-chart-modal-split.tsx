@@ -66,6 +66,12 @@ const data = {
 	}[]
 >;
 
+const highestPercentage = Math.max(
+	...modalSplit2018.map(({ miv, oepnv, foot, bike }) =>
+		Math.max(miv, oepnv, foot, bike),
+	),
+);
+
 const styles = {
 	miv: {
 		icon: "/images/blue-car.svg",
@@ -101,7 +107,6 @@ export function BarChartModalSplit() {
 	const { width } = useContainerWidthHeight(containerRef);
 
 	const currentData = data[selectedArea];
-	const highestPercentage = getHighestPercentage(currentData);
 
 	return (
 		<div className="flex flex-col gap-y-6 md:flex-row md:items-center md:justify-between">
@@ -139,8 +144,4 @@ export function BarChartModalSplit() {
 			</div>
 		</div>
 	);
-}
-
-function getHighestPercentage(currentData: { percentage: number }[]) {
-	return Math.max(...currentData.map(({ percentage }) => percentage));
 }

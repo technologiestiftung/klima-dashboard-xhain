@@ -40,6 +40,7 @@ export default {
 				"xhain-green-30": "#D7F9C2", // secondary
 				"xhain-green-20": "#F2FDEA", // background
 				"xhain-green-10": "#F9FFF5",
+				"xhain-red-80": "#E80862", // alert
 			},
 			keyframes: {
 				shimmer: {
@@ -49,7 +50,31 @@ export default {
 		},
 	},
 	plugins: [
-		plugin(function ({ addUtilities }) {
+		plugin(function ({ addUtilities, theme }) {
+			const allColors = theme("colors"); // Get all colors from the theme (default + custom)
+
+			// Define the focus utilities for each color
+			const focusOutlineUtilities = Object.keys(allColors).reduce(
+				(acc, color) => {
+					// Filter for valid color formats (e.g., hex, rgb, etc.)
+					const colorValue = allColors[color];
+					if (typeof colorValue === "string") {
+						acc[`.focus-${color}`] = {
+							"&:focus": {
+								outline: "3px solid",
+								outlineOffset: "5px",
+								outlineColor: colorValue,
+								textDecoration: "transparent",
+							},
+						};
+					}
+					return acc;
+				},
+				{},
+			);
+
+			// Add the generated utilities to Tailwind CSS
+			addUtilities(focusOutlineUtilities, ["responsive", "hover"]);
 			addUtilities({
 				/* Hide scrollbar for Chrome, Safari and Opera */
 				".no-scrollbar::-webkit-scrollbar": {
