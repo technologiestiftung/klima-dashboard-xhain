@@ -25,7 +25,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
 				<Meta />
 				<Links />
 			</head>
-			<body className={isMenuOpen ? "overflow-hidden lg:overflow-auto" : ""}>
+			<body
+				className={`[&:has(dialog[open])]:overflow-hidden ${isMenuOpen ? "overflow-hidden lg:overflow-auto" : ""}`}
+			>
 				<Header />
 
 				<main>{children}</main>
