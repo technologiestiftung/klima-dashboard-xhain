@@ -63,7 +63,7 @@ export const CarouselCard: React.FC<CarouselCardProps> = ({
 					</button>
 				</div>
 				<p className="leading-5 md:leading-7 font-semibold">{card.intro}</p>
-				<h2 className="text-2xl md:text-6xl leading-none font-bold">
+				<h2 className="text-2xl md:text-6xl py-2 leading-none font-bold">
 					{card.number}
 				</h2>
 				<p
