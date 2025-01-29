@@ -1,5 +1,4 @@
 import React from "react";
-import Markdown from "react-markdown";
 import { i18n } from "~/i18n/i18n-utils";
 import { howXhainContributesData, consequencesData } from "~/data";
 import { LinkArrowIcon } from "../icon/link-arrow-icon";
@@ -25,14 +24,20 @@ export const DialogContent: React.FC<DialogContentProps> = ({ id }) => {
 				<h2 className="text-xl leading-7 font-bold">{title}</h2>
 				<p className="text-xl leading-7 font-normal ">{subTitle}</p>
 			</div>
-
 			<p className="font-normal text-base leading-6 overflow-y-scroll max-h-[312px] dialog-scrollbar pr-2.5">
-				<Markdown className="markdown-container">{description}</Markdown>
+				<div
+					className="**:list-disc
+"
+					dangerouslySetInnerHTML={{ __html: description }}
+				/>
 			</p>
 
 			<div className="flex flex-row text-sm leading-5 gap-2.5">
 				<p className="font-semibold">{sourceTitle}</p>
-				<Markdown className="markdown-container">{sourceLabel}</Markdown>
+				<div
+					className="*:underline"
+					dangerouslySetInnerHTML={{ __html: sourceLabel }}
+				/>
 			</div>
 
 			<div className="flex flex-row justify-between gap-x-5">

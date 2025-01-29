@@ -52,11 +52,7 @@
 				[&::-webkit-scrollbar-thumb]:bg-xhain-blue-30;
 	}
 
-	.markdown-container code {
-		@apply font-sans;
-	}
-
-	.markdown-container pre {
-		@apply whitespace-pre-wrap my-5;
+	ul {
+		@apply py-4 pl-2;
 	}
 }
