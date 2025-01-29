@@ -11,7 +11,8 @@ import { StackedBarChart } from "~/components/visualizations/stacked-bar-chart/s
 import { BarChartThg } from "~/components/visualizations/bar-chart-thg/bar-chart-thg";
 import { BarChartModalSplit } from "~/components/visualizations/bar-chart-modal-split/bar-chart-modal-split";
 import { LinkArrowIcon } from "./icon/link-arrow-icon";
-import { ShareIcon } from "./icon/share-icon";
+import { ExternalAnchorLink } from "./anchor-link/external-anchor-link";
+import Markdown from "react-markdown";
 
 interface CardProps {
 	id: keyof typeof howXhainContributesData | keyof typeof consequencesData;
@@ -86,13 +87,9 @@ const Card: React.FC<CardProps> = ({ id }) => {
 	const description = i18n(`chart.infoDialog.${id}.description`);
 	const sourceTitle = i18n(`chart.infoDialog.${id}.sourceTitle`);
 	const sourceLabel = i18n(`chart.infoDialog.${id}.sourceLabel`);
-	const sourceLink = i18n(`chart.infoDialog.${id}.sourceLink`);
 
 	const learnMoreLabel = i18n(`chart.infoDialog.learnMoreLabel`);
 	const learnMoreLink = i18n(`chart.infoDialog.${id}.learnMoreLink`);
-
-	const shareLabel = i18n(`chart.infoDialog.shareLabel`);
-	const shareLink = i18n(`chart.infoDialog.${id}.shareLink`);
 
 	const { size, color, component: Chart } = charts[id];
 
@@ -162,32 +159,29 @@ const Card: React.FC<CardProps> = ({ id }) => {
 					</div>
 
 					<p className="font-normal text-base leading-6 overflow-y-scroll max-h-[312px] dialog-scrollbar pr-2.5">
-						{description}
+						<Markdown className="markdown-container">{description}</Markdown>
 					</p>
 
 					<div className="flex flex-row text-sm leading-5 gap-2.5">
 						<p className="font-semibold">{sourceTitle}</p>
-						<a href={sourceLink} className="font-normal underline">
+						<Markdown
+							// @ts-expect-error typing too complex
+							components={{ a: ExternalAnchorLink }}
+							className="markdown-container"
+						>
 							{sourceLabel}
-						</a>
+						</Markdown>
 					</div>
 
 					<div className="flex flex-row justify-between gap-x-5">
 						<a
 							href={learnMoreLink}
-							className="flex w-fit items-center mt-5 leading-6 text-base px-2.5 py-1 gap-x-2 border-2 border-xhain-blue-50 text-xhain-blue-50 rounded-full font-semibold 
+							className="flex w-fit items-center leading-6 text-base px-2.5 py-1 gap-x-2 border-2 border-xhain-blue-50 text-xhain-blue-50 rounded-full font-semibold 
 							hover:border-xhain-blue-80 hover:text-xhain-blue-80 focus:outline focus:outline-3 focus:outline-xhain-blue-80 focus:outline-offset-5"
 						>
 							{learnMoreLabel}
 							<LinkArrowIcon />
 						</a>
-						<button
-							className="flex w-fit items-center mt-5 leading-6 text-base px-2.5 py-1 gap-x-2 text-xhain-blue-50 rounded-full font-semibold 
-							hover:text-xhain-blue-80 focus:outline focus:outline-3 focus:outline-xhain-blue-80 focus:outline-offset-5"
-						>
-							<ShareIcon />
-							{shareLabel}:{shareLink}
-						</button>
 					</div>
 				</div>
 			</Dialog>
