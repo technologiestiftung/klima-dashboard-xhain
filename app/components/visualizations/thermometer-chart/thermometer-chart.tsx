@@ -29,7 +29,7 @@ const ThermometerChart: React.FC = () => {
 			</div>
 
 			{/* Switch Buttons */}
-			<div className="mt-6 mb-1 mr-20">
+			<div className="mt-6 mb-1">
 				<RadioToggle
 					options={radioOptions}
 					defaultValue={selectedIndex.toString()}
