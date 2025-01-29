@@ -1,5 +1,4 @@
 import React from "react";
-import { ExternalAnchorLink } from "../anchor-link/external-anchor-link";
 import Markdown from "react-markdown";
 import { i18n } from "~/i18n/i18n-utils";
 import { howXhainContributesData, consequencesData } from "~/data";
@@ -33,13 +32,7 @@ export const DialogContent: React.FC<DialogContentProps> = ({ id }) => {
 
 			<div className="flex flex-row text-sm leading-5 gap-2.5">
 				<p className="font-semibold">{sourceTitle}</p>
-				<Markdown
-					// @ts-expect-error typing too complex
-					components={{ a: ExternalAnchorLink }}
-					className="markdown-container"
-				>
-					{sourceLabel}
-				</Markdown>
+				<Markdown className="markdown-container">{sourceLabel}</Markdown>
 			</div>
 
 			<div className="flex flex-row justify-between gap-x-5">
