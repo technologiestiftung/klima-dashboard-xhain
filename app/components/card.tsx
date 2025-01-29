@@ -10,6 +10,7 @@ import { LineChart } from "~/components/visualizations/line-chart/line-chart";
 import { StackedBarChart } from "~/components/visualizations/stacked-bar-chart/stacked-bar-chart";
 import { BarChartThg } from "~/components/visualizations/bar-chart-thg/bar-chart-thg";
 import { BarChartModalSplit } from "~/components/visualizations/bar-chart-modal-split/bar-chart-modal-split";
+import { DialogContent } from "./dialog/dialog-content";
 
 interface CardProps {
 	id: keyof typeof howXhainContributesData | keyof typeof consequencesData;
@@ -80,6 +81,7 @@ const Card: React.FC<CardProps> = ({ id }) => {
 
 	const title = i18n(`chart.${id}.title`);
 	const subTitle = i18n(`chart.${id}.subtitle`);
+
 	const { size, color, component: Chart } = charts[id];
 
 	const data =
@@ -141,10 +143,7 @@ const Card: React.FC<CardProps> = ({ id }) => {
 			</div>
 
 			<Dialog id={dialogId}>
-				<div className="bg-white p-5 rounded-lg shadow-lg">
-					<h2 className="text-2xl font-bold">Dialog</h2>
-					<p className="text-lg">This is a dialog about {title}</p>
-				</div>
+				<DialogContent id={id} />
 			</Dialog>
 		</figure>
 	);

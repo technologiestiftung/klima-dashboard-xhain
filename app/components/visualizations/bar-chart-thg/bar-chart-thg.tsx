@@ -26,7 +26,7 @@ export function BarChartThg() {
 	return (
 		<div className="flex flex-col mt-7 text-xhain-blue-80 gap-y-5">
 			{thgSector2021Tons.map((d) => (
-				<p key={d.sector} className="flex w-full items-center gap-x-8">
+				<div key={d.sector} className="flex w-full items-center gap-x-8">
 					<img src={styles[d.sector].icon} alt={""} />
 					<div className="w-full flex flex-col">
 						<div className="flex w-full gap-x-2.5">
@@ -37,7 +37,7 @@ export function BarChartThg() {
 						</div>
 						<span>{i18n(`chart.thgSector2021Tons.legend.${d.sector}`)}</span>
 					</div>
-				</p>
+				</div>
 			))}
 		</div>
 	);
