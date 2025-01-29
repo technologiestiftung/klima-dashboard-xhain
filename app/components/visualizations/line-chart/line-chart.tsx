@@ -1,8 +1,8 @@
 import * as d3 from "d3";
 import React, { useCallback, useRef } from "react";
-import { YReferenceLines } from "./y-reference-lines";
+import { YReferenceLines } from "../shared-chart-components/y-reference-lines";
 import { Area } from "./area";
-import { XAxis } from "./x-axis";
+import { XAxis } from "../shared-chart-components/x-axis";
 import { HoverableBars } from "./hoverable-bars";
 import { howXhainContributesData } from "~/data";
 import { setYear } from "date-fns";
@@ -41,12 +41,25 @@ export const LineChart: React.FC = () => {
 		[eevTotalMwh, height],
 	);
 
+	const yReferenceLineValues = [2_000_000, 1_000_000];
+
 	return (
 		<div ref={containerRef}>
 			<svg width={width} height={height}>
 				<Area xScale={xScale} yScale={yScale} sizes={sizes} />
-				<YReferenceLines yScale={yScale} sizes={sizes} />
-				<XAxis xScale={xScale} sizes={sizes} />
+				<YReferenceLines
+					yScale={yScale}
+					sizes={sizes}
+					lineColor="black"
+					yReferenceLineValues={yReferenceLineValues}
+					x2Offset={sizes.margin.right}
+				/>
+				<XAxis
+					xScale={xScale}
+					sizes={sizes}
+					data={eevTotalMwh}
+					filterInterval={3}
+				/>
 				<HoverableBars
 					xScale={xScale}
 					yScale={yScale}

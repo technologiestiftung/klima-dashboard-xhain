@@ -1,7 +1,6 @@
 import React, { useMemo } from "react";
 import { formatDate, setYear } from "date-fns";
 import * as d3 from "d3";
-import { howXhainContributesData } from "~/data";
 
 interface XAxisProps {
 	sizes: {
@@ -10,11 +9,16 @@ interface XAxisProps {
 		margin: { top: number; right: number; bottom: number; left: number };
 	};
 	xScale: d3.ScaleTime<number, number, never>;
+	data: Array<{ year: number }>;
+	filterInterval?: number;
 }
 
-const { eevTotalMwh } = howXhainContributesData;
-
-export const XAxis: React.FC<XAxisProps> = ({ sizes, xScale }) => {
+export const XAxis: React.FC<XAxisProps> = ({
+	sizes,
+	xScale,
+	data,
+	filterInterval = 3,
+}) => {
 	const {
 		width,
 		height,
@@ -23,10 +27,10 @@ export const XAxis: React.FC<XAxisProps> = ({ sizes, xScale }) => {
 
 	const tickValues = useMemo(
 		() =>
-			eevTotalMwh
-				.filter((_, i) => i % 3 === 0)
+			data
+				.filter((_, i) => i % filterInterval === 0)
 				.map((d) => setYear(new Date(), d.year)),
-		[eevTotalMwh],
+		[data, filterInterval],
 	);
 	const xAxis = useMemo(
 		() => tickValues.map((d) => xScale(d)),

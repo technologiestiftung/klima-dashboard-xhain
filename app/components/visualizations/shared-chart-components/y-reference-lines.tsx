@@ -9,14 +9,21 @@ interface YReferenceLinesProps {
 		height: number;
 		margin: { top: number; right: number; bottom: number; left: number };
 	};
+	yReferenceLineValues: number[];
+	lineColor?: string;
+	alternateLabels?: boolean;
+	x1Offset?: number;
+	x2Offset?: number;
 }
-
-const firstYReferenceLineValue = 2_000_000;
-const secondYReferenceLineValue = 1_000_000;
 
 export const YReferenceLines: React.FC<YReferenceLinesProps> = ({
 	yScale,
 	sizes,
+	yReferenceLineValues,
+	lineColor = "black",
+	alternateLabels = false,
+	x1Offset = 0,
+	x2Offset = 3,
 }) => {
 	const {
 		width,
@@ -25,25 +32,25 @@ export const YReferenceLines: React.FC<YReferenceLinesProps> = ({
 
 	return (
 		<>
-			{[firstYReferenceLineValue, secondYReferenceLineValue].map(
-				(yReferenceLineValue) => (
-					<React.Fragment key={yReferenceLineValue}>
-						<line
-							x1={sizes.margin.left}
-							y1={
-								yScale(yReferenceLineValue) +
-								sizes.margin.top -
-								sizes.margin.bottom
-							}
-							x2={width - right}
-							y2={
-								yScale(yReferenceLineValue) +
-								sizes.margin.top -
-								sizes.margin.bottom
-							}
-							stroke={"black"}
-							strokeWidth={1}
-						/>
+			{yReferenceLineValues.map((yReferenceLineValue, index) => (
+				<React.Fragment key={yReferenceLineValue}>
+					<line
+						x1={sizes.margin.left - x1Offset}
+						y1={
+							yScale(yReferenceLineValue) +
+							sizes.margin.top -
+							sizes.margin.bottom
+						}
+						x2={width - x2Offset}
+						y2={
+							yScale(yReferenceLineValue) +
+							sizes.margin.top -
+							sizes.margin.bottom
+						}
+						stroke={lineColor}
+						strokeWidth={1}
+					/>
+					{(!alternateLabels || (index > 0 && index % 2 === 0)) && (
 						<text
 							x={width - right - 10}
 							y={
@@ -59,9 +66,9 @@ export const YReferenceLines: React.FC<YReferenceLinesProps> = ({
 						>
 							{formatNumber(yReferenceLineValue)}
 						</text>
-					</React.Fragment>
-				),
-			)}
+					)}
+				</React.Fragment>
+			))}
 		</>
 	);
 };
