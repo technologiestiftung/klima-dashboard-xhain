@@ -9,7 +9,6 @@ import { TrendLine } from "./trend-line";
 import { XAxis } from "../shared-chart-components/x-axis";
 import { YReferenceLines } from "../shared-chart-components/y-reference-lines";
 import { setYear } from "date-fns";
-import { xhainBlue30 } from "../colors";
 
 const { precipitationMm } = consequencesData;
 
@@ -46,8 +45,6 @@ export const AreaChart: React.FC = () => {
 		[precipitationMm, height],
 	);
 
-	const yReferenceLineValues = [0, 75, 150, 225, 300, 375, 450];
-
 	return (
 		<div>
 			<p className="mb-7 mt-4 columns-2 gap-7 text-justify">
@@ -60,11 +57,7 @@ export const AreaChart: React.FC = () => {
 					<YReferenceLines
 						yScale={yScale}
 						sizes={sizes}
-						yReferenceLineValues={yReferenceLineValues}
-						lineColor={xhainBlue30}
-						alternateLabels={true}
-						x1Offset={sizes.margin.left}
-						x2Offset={3}
+						yReferenceLineValues={[200, 400]}
 					/>
 					<XAxis
 						sizes={sizes}

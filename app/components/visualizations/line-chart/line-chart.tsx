@@ -41,8 +41,6 @@ export const LineChart: React.FC = () => {
 		[eevTotalMwh, height],
 	);
 
-	const yReferenceLineValues = [2_000_000, 1_000_000];
-
 	return (
 		<div ref={containerRef}>
 			<svg width={width} height={height}>
@@ -50,9 +48,7 @@ export const LineChart: React.FC = () => {
 				<YReferenceLines
 					yScale={yScale}
 					sizes={sizes}
-					lineColor="black"
-					yReferenceLineValues={yReferenceLineValues}
-					x2Offset={sizes.margin.right}
+					yReferenceLineValues={[2_000_000, 1_000_000]}
 				/>
 				<XAxis
 					xScale={xScale}

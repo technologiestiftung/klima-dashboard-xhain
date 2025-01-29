@@ -1,6 +1,7 @@
 import React, { useMemo } from "react";
 import { formatDate, setYear } from "date-fns";
 import * as d3 from "d3";
+import { xhainBlue80 } from "../colors";
 
 interface XAxisProps {
 	sizes: {
@@ -58,7 +59,7 @@ export const XAxis: React.FC<XAxisProps> = ({
 						transform={`translate(${x}, 0)`}
 					>
 						<text
-							fill="black"
+							fill={xhainBlue80}
 							y="9"
 							dy="0.71em"
 							fontFamily="Raleway"
