@@ -34,6 +34,7 @@ const ThermometerChart: React.FC = () => {
 					options={radioOptions}
 					defaultValue={selectedIndex.toString()}
 					onSelectionChange={(value) => setSelectedIndex(parseInt(value))}
+					radioID="medium-temperature"
 				/>
 			</div>
 		</div>
