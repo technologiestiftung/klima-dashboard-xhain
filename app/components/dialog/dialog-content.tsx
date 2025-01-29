@@ -24,13 +24,12 @@ export const DialogContent: React.FC<DialogContentProps> = ({ id }) => {
 				<h2 className="text-xl leading-7 font-bold">{title}</h2>
 				<p className="text-xl leading-7 font-normal ">{subTitle}</p>
 			</div>
-			<p className="font-normal text-base leading-6 overflow-y-scroll max-h-[312px] dialog-scrollbar pr-2.5">
+			<div className="font-normal text-base leading-6 overflow-y-scroll max-h-[312px] dialog-scrollbar pr-2.5">
 				<div
-					className="**:list-disc
-"
+					className="dialog-description"
 					dangerouslySetInnerHTML={{ __html: description }}
 				/>
-			</p>
+			</div>
 
 			<div className="flex flex-row text-sm leading-5 gap-2.5">
 				<p className="font-semibold">{sourceTitle}</p>

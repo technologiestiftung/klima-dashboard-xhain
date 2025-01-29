@@ -52,7 +52,7 @@
 				[&::-webkit-scrollbar-thumb]:bg-xhain-blue-30;
 	}
 
-	ul {
+	.dialog-description ul {
 		@apply py-4 pl-2;
 	}
 }
