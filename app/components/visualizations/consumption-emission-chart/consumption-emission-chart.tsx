@@ -37,7 +37,9 @@ export const ConsumptionEmissionsChart: React.FC = () => {
 
 	const handleSelectionChange = (value: string) => {
 		const newIndex = radioOptions.findIndex((option) => option.value === value);
-		if (newIndex !== -1) setSelectedIndex(newIndex);
+		if (newIndex !== -1) {
+			setSelectedIndex(newIndex);
+		}
 	};
 
 	// Calculate the number of trees needed (80 trees per 1 ton of CO₂)
