@@ -13,7 +13,6 @@ import { BarChartModalSplit } from "~/components/visualizations/bar-chart-modal-
 import { AreaChart } from "~/components/visualizations/area-chart/area-chart";
 import { DialogContent } from "./dialog/dialog-content";
 
-
 interface CardProps {
 	id: keyof typeof howXhainContributesData | keyof typeof consequencesData;
 }
