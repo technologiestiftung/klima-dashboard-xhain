@@ -49,6 +49,7 @@ export function ChartHotDays() {
 							options={radioOptions}
 							defaultValue={selected}
 							onSelectionChange={(newSelected) => setSelected(newSelected)}
+							radioID={"hot-days-chart-radio-mobile"}
 						/>
 					</div>
 				</div>
@@ -58,6 +59,7 @@ export function ChartHotDays() {
 					options={radioOptions}
 					defaultValue={selected}
 					onSelectionChange={(newSelected) => setSelected(newSelected)}
+					radioID={"hot-days-chart-radio-desktop"}
 				/>
 			</div>
 		</div>
