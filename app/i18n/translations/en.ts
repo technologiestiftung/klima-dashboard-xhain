@@ -22,6 +22,8 @@ export const en: typeof de = {
 	"carousel.button.next.alt":
 		"Highlight next card in the horizontally scrollable section above",
 
+	"carousel.infoButton.alt": "Click to show the source of the information",
+
 	"carousel.card1.intro": "",
 	"carousel.card1.description": "People live in Friedrichshain-Kreuzberg",
 	"carousel.card1.source": "Office for Statistics Berlin-Brandenburg 2024",

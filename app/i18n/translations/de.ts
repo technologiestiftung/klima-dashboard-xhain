@@ -20,6 +20,9 @@ export const de = {
 	"carousel.button.next.alt":
 		"Fokus auf nächste Karte im horizontal scrollbaren Abschnitt oberhalb",
 
+	"carousel.infoButton.alt":
+		"Klicke , um die Quelle der Information anzuzeigen",
+
 	"carousel.card1.intro": "",
 	"carousel.card1.description": "Menschen leben in Friedrichshain-Kreuzberg",
 	"carousel.card1.source": "AfS Berlin-B. 2024",
