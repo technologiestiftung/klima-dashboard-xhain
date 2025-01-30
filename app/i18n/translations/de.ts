@@ -101,6 +101,11 @@ export const de = {
 
 	"chart.hotDays.title": "Heiße Tage",
 	"chart.hotDays.subtitle": "",
+	"chart.hotDays.description":
+		"Als „Heißer Tag“ wird jeder Tag bezeichnet, dessen höchste Temperatur bei 30 °C oder höher liegt.",
+	"chart.hotDays.keys.current": "Heute",
+	"chart.hotDays.keys.1950": "1950er",
+	"chart.hotDays.keys.2100": "Zukunft",
 
 	"chart.mediumTemperature.title": "Mittlere Jahrestemperatur",
 	"chart.mediumTemperature.subtitle": "in Friedrichshain-Kreuzberg nach Phasen",

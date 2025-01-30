@@ -10,6 +10,7 @@ import { LineChart } from "~/components/visualizations/line-chart/line-chart";
 import { StackedBarChart } from "~/components/visualizations/stacked-bar-chart/stacked-bar-chart";
 import { BarChartThg } from "~/components/visualizations/bar-chart-thg/bar-chart-thg";
 import { BarChartModalSplit } from "~/components/visualizations/bar-chart-modal-split/bar-chart-modal-split";
+import { ChartHotDays } from "~/components/visualizations/chart-hot-days/chart-hot-days.tsx";
 import { AreaChart } from "~/components/visualizations/area-chart/area-chart";
 import { DialogContent } from "./dialog/dialog-content";
 
@@ -59,7 +60,7 @@ const charts = {
 		size: "col-span-1 row-span-1",
 	},
 	hotDays: {
-		component: null,
+		component: ChartHotDays,
 		color: "bg-xhain-blue-10",
 		size: "col-span lg:col-span-2 row-span-1",
 	},

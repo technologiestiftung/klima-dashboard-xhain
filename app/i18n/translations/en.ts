@@ -104,6 +104,11 @@ export const en: typeof de = {
 
 	"chart.hotDays.title": "Hot days",
 	"chart.hotDays.subtitle": "",
+	"chart.hotDays.description":
+		'A "Hot Day" is a day with a maximum temperature of 30°C or more.',
+	"chart.hotDays.keys.current": "Today",
+	"chart.hotDays.keys.1950": "1950s",
+	"chart.hotDays.keys.2100": "Future",
 
 	"chart.mediumTemperature.title": "Average annual temperature",
 	"chart.mediumTemperature.subtitle": "in Friedrichshain-Kreuzberg by phases",
