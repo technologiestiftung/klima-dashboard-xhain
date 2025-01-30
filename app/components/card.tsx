@@ -12,6 +12,7 @@ import { BarChartThg } from "~/components/visualizations/bar-chart-thg/bar-chart
 import { BarChartModalSplit } from "~/components/visualizations/bar-chart-modal-split/bar-chart-modal-split";
 import { ChartHotDays } from "~/components/visualizations/chart-hot-days/chart-hot-days.tsx";
 import { AreaChart } from "~/components/visualizations/area-chart/area-chart";
+import { ConsumptionEmissionsChart } from "~/components/visualizations/consumption-emission-chart/consumption-emission-chart";
 import { DialogContent } from "./dialog/dialog-content";
 
 interface CardProps {
@@ -45,7 +46,7 @@ const charts = {
 		size: "col-span-1 row-span-1",
 	},
 	consumptionEmissionsTons: {
-		component: null,
+		component: ConsumptionEmissionsChart,
 		color: "bg-xhain-blue-10",
 		size: "col-span-2 row-span-1",
 	},

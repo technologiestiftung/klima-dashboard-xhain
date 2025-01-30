@@ -41,9 +41,13 @@ export const de = {
 	"chart.consumptionEmissionsTons.title":
 		"Konsum- und Ernährungsbedingte Emissionen",
 	"chart.consumptionEmissionsTons.subtitle": "in 2024",
-	"chart.consumptionEmissionsTons.keys.xhain":
-		"Friedrichshain-Kreuzberg (X-Hain)",
-	"chart.consumptionEmissionsTons.keys. per_person": "Pro Person",
+	"chart.consumptionEmissionsTons.keys.xhain": "Xhain",
+	"chart.consumptionEmissionsTons.keys.per_person": "Pro Person",
+	"chart.consumptionEmissionsTons.description":
+		"Um diese Menge zu binden, müssen viele Bäume ein Jahr lang wachsen",
+	"chart.consumptionEmissionsTons.millionUnit": "Mio.",
+	"chart.consumptionEmissionsTons.co2Unit": "Tonnen Co2",
+	"chart.consumptionEmissionsTons.trees": "Bäume",
 
 	"chart.eevTotalMwh.title": "Endenergieverbrauch",
 	"chart.eevTotalMwh.subtitle": "in MWh",

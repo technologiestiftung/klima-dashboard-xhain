@@ -43,9 +43,13 @@ export const en: typeof de = {
 	"chart.consumptionEmissionsTons.title":
 		"Consumption and nutrition-related emissions",
 	"chart.consumptionEmissionsTons.subtitle": "in 2024",
-	"chart.consumptionEmissionsTons.keys.xhain":
-		"Friedrichshain-Kreuzberg (X-Hain)",
-	"chart.consumptionEmissionsTons.keys. per_person": "Per person",
+	"chart.consumptionEmissionsTons.keys.xhain": "Xhain",
+	"chart.consumptionEmissionsTons.keys.per_person": "Per person",
+	"chart.consumptionEmissionsTons.description":
+		"To offset this amount, many trees must grow for a year",
+	"chart.consumptionEmissionsTons.millionUnit": "M.",
+	"chart.consumptionEmissionsTons.co2Unit": "Tons Co2",
+	"chart.consumptionEmissionsTons.trees": "Trees",
 
 	"chart.eevTotalMwh.title": "Final energy consumption",
 	"chart.eevTotalMwh.subtitle": "in MWh",
