@@ -115,6 +115,8 @@ export const en: typeof de = {
 
 	"chart.precipitationMm.title": "Precipitation",
 	"chart.precipitationMm.subtitle": "in milliliters",
+	"chart.precipitationMm.description":
+		"There is no clear trend in annual and seasonal precipitation or in the number of days with heavy rainfall in Xhain.",
 
 	"chart.HBI.title": "Heat Affect Index (HAI)",
 	"chart.HBI.subtitle":

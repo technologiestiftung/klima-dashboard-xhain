@@ -112,6 +112,8 @@ export const de = {
 
 	"chart.precipitationMm.title": "Niederschläge",
 	"chart.precipitationMm.subtitle": "in Milliliter",
+	"chart.precipitationMm.description":
+		"Beim jährlichen und saisonalen Niederschlag sowie bei der Anzahl der Starkregentage ist in Xhain bisher kein eindeutiger Trend zu erkennen.",
 
 	"chart.HBI.title": "Hitzebetroffenheitsindex (HBI)",
 	"chart.HBI.subtitle":
