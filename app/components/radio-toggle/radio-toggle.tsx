@@ -20,7 +20,7 @@ export function RadioToggle<T extends string>({
 				<label
 					key={value}
 					className={`
-						px-2.5 py-1 rounded-full flex-1 text-center relative z-10 cursor-pointer
+						px-2.5 py-1 rounded-full inline-flex text-center relative z-10 cursor-pointer
 						has-[:focus]:outline has-[:focus]:outline-xhain-blue-80 has- has-[:checked]:bg-xhain-green-50 hover:bg-xhain-blue-20
 					`}
 				>
