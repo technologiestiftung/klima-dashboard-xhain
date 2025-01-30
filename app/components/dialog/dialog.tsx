@@ -41,14 +41,20 @@ export const Dialog: React.FC<DialogProps> = ({ children, className, id }) => {
 
 	return (
 		<>
-			<dialog ref={dialogRef} id={id} className={className}>
-				{children}
+			<dialog
+				ref={dialogRef}
+				id={id}
+				className={`${className} bg-xhain-blue-10 rounded-4xl p-8 shadow-lg gap-7 max-w-[560px]`}
+			>
 				<button
-					className="text-ber-darker-grey absolute right-5 top-5 pb-2 hover:text-ber-dark-grey"
+					className="flex items-center px-3 py-0.5 gap-x-2 bg-xhain-blue-50 text-white rounded-full mb-7 font-semibold 
+							hover:bg-xhain-blue-60 focus:outline focus:outline-3 focus:outline-xhain-blue-80 focus:outline-offset-5"
 					onClick={closeDialog}
 				>
-					x
+					<img src={"/images/x-icon.svg"} alt={""} />
+					weniger Infos
 				</button>
+				{children}
 			</dialog>
 		</>
 	);

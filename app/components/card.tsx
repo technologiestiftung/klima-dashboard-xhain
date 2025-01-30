@@ -11,6 +11,8 @@ import { StackedBarChart } from "~/components/visualizations/stacked-bar-chart/s
 import { BarChartThg } from "~/components/visualizations/bar-chart-thg/bar-chart-thg";
 import { BarChartModalSplit } from "~/components/visualizations/bar-chart-modal-split/bar-chart-modal-split";
 import { ChartHotDays } from "~/components/visualizations/chart-hot-days/chart-hot-days.tsx";
+import { AreaChart } from "~/components/visualizations/area-chart/area-chart";
+import { DialogContent } from "./dialog/dialog-content";
 
 interface CardProps {
 	id: keyof typeof howXhainContributesData | keyof typeof consequencesData;
@@ -63,7 +65,7 @@ const charts = {
 		size: "col-span lg:col-span-2 row-span-1",
 	},
 	precipitationMm: {
-		component: null,
+		component: AreaChart,
 		color: "bg-xhain-blue-10",
 		size: "col-span lg:col-span-2 row-span-1",
 	},
@@ -81,6 +83,7 @@ const Card: React.FC<CardProps> = ({ id }) => {
 
 	const title = i18n(`chart.${id}.title`);
 	const subTitle = i18n(`chart.${id}.subtitle`);
+
 	const { size, color, component: Chart } = charts[id];
 
 	const data =
@@ -142,10 +145,7 @@ const Card: React.FC<CardProps> = ({ id }) => {
 			</div>
 
 			<Dialog id={dialogId}>
-				<div className="bg-white p-5 rounded-lg shadow-lg">
-					<h2 className="text-2xl font-bold">Dialog</h2>
-					<p className="text-lg">This is a dialog about {title}</p>
-				</div>
+				<DialogContent id={id} />
 			</Dialog>
 		</figure>
 	);
