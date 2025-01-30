@@ -4,8 +4,8 @@ import { i18n } from "~/i18n/i18n-utils.ts";
 export function SmallTooltip({ children }: { children?: React.ReactNode }) {
 	return (
 		<>
-			<div className="group flex gap-x-1">
-				<button className="peer flex flex-row gap-2">
+			<div className="group flex gap-x-2">
+				<button className="peer">
 					<img
 						className="size-5"
 						src="/images/i-icon.svg"
@@ -14,7 +14,7 @@ export function SmallTooltip({ children }: { children?: React.ReactNode }) {
 				</button>
 				<div
 					className={`
-					text-sm leading-5 font-normal text-xhain-blue-50 bg-white max-w-24 md:max-w-none px-0.5 md:px-1.5 rounded-5px underline
+					text-sm leading-5 text-xhain-blue-50 bg-white max-w-24 md:max-w-none px-0.5 md:px-1.5 rounded-md underline
 					opacity-0
 					group-focus:opacity-100 group-hover:opacity-100
 					peer-focus:opacity-100 focus-hover:opacity-100
