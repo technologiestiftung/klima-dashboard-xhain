@@ -5,7 +5,11 @@ import { DonutChartTraffic } from "./visualizations/donut-chart-traffic/donut-ch
 import ThermometerChart from "./visualizations/thermometer-chart/thermometer-chart";
 import { Dialog } from "./dialog/dialog";
 import { i18n } from "~/i18n/i18n-utils";
-import { howXhainContributesData, consequencesData } from "~/data";
+import {
+	howXhainContributesData,
+	howToReachGoalsData,
+	consequencesData,
+} from "~/data";
 import { LineChart } from "~/components/visualizations/line-chart/line-chart";
 import { StackedBarChart } from "~/components/visualizations/stacked-bar-chart/stacked-bar-chart";
 import { BarChartThg } from "~/components/visualizations/bar-chart-thg/bar-chart-thg";
@@ -13,9 +17,13 @@ import { BarChartModalSplit } from "~/components/visualizations/bar-chart-modal-
 import { ChartHotDays } from "~/components/visualizations/chart-hot-days/chart-hot-days.tsx";
 import { AreaChart } from "~/components/visualizations/area-chart/area-chart";
 import { DialogContent } from "./dialog/dialog-content";
+import { LineChartReductionPath } from "./visualizations/line-chart-reduction-path/line-chart-reduction-path";
 
 interface CardProps {
-	id: keyof typeof howXhainContributesData | keyof typeof consequencesData;
+	id:
+		| keyof typeof howXhainContributesData
+		| keyof typeof howToReachGoalsData
+		| keyof typeof consequencesData;
 }
 
 const charts = {
@@ -59,6 +67,16 @@ const charts = {
 		color: "bg-xhain-blue-10",
 		size: "col-span-1 row-span-1",
 	},
+	restBudgetThgUntilYear: {
+		component: null,
+		color: "bg-xhain-blue-10",
+		size: "col-span-1 row-span-1",
+	},
+	reductionPathScenario175Thg: {
+		component: LineChartReductionPath,
+		color: "bg-xhain-blue-10",
+		size: "col-span-1 lg:col-span-2 row-span-1",
+	},
 	hotDays: {
 		component: ChartHotDays,
 		color: "bg-xhain-blue-10",
@@ -88,6 +106,7 @@ const Card: React.FC<CardProps> = ({ id }) => {
 
 	const data =
 		howXhainContributesData[id as keyof typeof howXhainContributesData] ||
+		howToReachGoalsData[id as keyof typeof howToReachGoalsData] ||
 		consequencesData[id as keyof typeof consequencesData];
 
 	const chartKeys = Object.keys(data[0]);
@@ -138,7 +157,7 @@ const Card: React.FC<CardProps> = ({ id }) => {
 						<>
 							<p>Chart not found</p>
 							<br />
-							<pre>{JSON.stringify(data.slice(0, 2), null, 2)}</pre>
+							<pre>{JSON.stringify(data.slice(0, 1), null, 2)}</pre>
 						</>
 					)}
 				</div>

@@ -52,13 +52,18 @@ export default function Index() {
 				</div>
 			</section>
 
-			<section>
-				<h2 className="text-5xl font-semibold p-5">
-					{i18n("howToReachGoals.title")}
-				</h2>
-				<div>
+			<section className="bg-xhain-blue-30 p-20 gap-14 flex flex-col">
+				<div className="mx-auto w-full max-w-[894px] flex flex-col gap-6">
+					<h2 className="text-5xl leading-none font-bold">
+						{i18n("howToReachGoals.title")}
+					</h2>
+					<p className="text-xl leading-7 font-normal">
+						{i18n("howToReachGoals.description")}
+					</p>
+				</div>
+				<div className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-5 p-4 lg:p-5 ">
 					{howToReachGoals.map((id) => (
-						<h3 key={id.toString()}>{id}</h3>
+						<Card key={id.toString()} id={id} />
 					))}
 				</div>
 			</section>
