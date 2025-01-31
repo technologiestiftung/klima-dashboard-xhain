@@ -1,5 +1,6 @@
 import Card from "~/components/card";
 import { i18n } from "~/i18n/i18n-utils";
+import { HeroSection } from "~/components/hero-section/hero-section";
 import WeatherCard from "~/components/weather-card";
 import {
 	howXhainContributesData,
@@ -36,8 +37,7 @@ export default function Index() {
 	return (
 		<>
 			<section>
-				<h1 className="text-2xl font-semibold p-5">{i18n("header.title")}</h1>
-				<br />
+				<HeroSection />
 				<WeatherCard />
 				<br />
 				<Carousel />

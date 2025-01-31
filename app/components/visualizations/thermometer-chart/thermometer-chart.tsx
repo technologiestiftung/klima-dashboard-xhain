@@ -19,7 +19,6 @@ const ThermometerChart: React.FC = () => {
 
 	return (
 		<div className="flex flex-col items-center justify-between">
-			<p className="mb-7 mt-4">{i18n("chart.mediumTemperature.description")}</p>
 			<div className="flex justify-center w-full overflow-hidden">
 				<ThermometerSVG
 					celsius={data[selectedIndex].celsius}

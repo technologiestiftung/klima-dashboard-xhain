@@ -46,28 +46,23 @@ export const AreaChart: React.FC = () => {
 	);
 
 	return (
-		<div>
-			<p className="mb-7 mt-4 columns-2 gap-7 text-justify">
-				{i18n("chart.precipitationMm.description")}
-			</p>
-			<div ref={containerRef}>
-				<svg ref={chartRef} width={width} height={height}>
-					<Gradient />
-					<AreaPath xScale={xScale} yScale={yScale} sizes={sizes} />
-					<YReferenceLines
-						yScale={yScale}
-						sizes={sizes}
-						yReferenceLineValues={[200, 400]}
-					/>
-					<XAxis
-						sizes={sizes}
-						xScale={xScale}
-						data={precipitationMm}
-						filterInterval={10}
-					/>
-					<TrendLine data={precipitationMm} xScale={xScale} yScale={yScale} />
-				</svg>
-			</div>
+		<div ref={containerRef}>
+			<svg ref={chartRef} width={width} height={height}>
+				<Gradient />
+				<AreaPath xScale={xScale} yScale={yScale} sizes={sizes} />
+				<YReferenceLines
+					yScale={yScale}
+					sizes={sizes}
+					yReferenceLineValues={[200, 400]}
+				/>
+				<XAxis
+					sizes={sizes}
+					xScale={xScale}
+					data={precipitationMm}
+					filterInterval={10}
+				/>
+				<TrendLine data={precipitationMm} xScale={xScale} yScale={yScale} />
+			</svg>
 		</div>
 	);
 };

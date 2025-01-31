@@ -26,8 +26,6 @@ export function ChartHotDays() {
 
 	return (
 		<div>
-			<p className="mt-4 mb-7">{i18n("chart.hotDays.description")}</p>
-
 			<div className="flex flex-col-reverse md:flex-row justify-between md:px-5 xl:px-20 h-fit items-center">
 				<div className="flex max-w-80 min-h-64 content-start flex-wrap gap-2">
 					{flames.map((i) => (

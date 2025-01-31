@@ -55,4 +55,8 @@
 	.dialog-description ul {
 		@apply py-4 pl-2;
 	}
+
+	.hero-section {
+		--thermometer-color: #3054f3;
+	}
 }

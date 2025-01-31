@@ -70,7 +70,7 @@ export const ConsumptionEmissionsChart: React.FC = () => {
 				</div>
 			</div>
 			<p className="max-w-60 lg:max-w-48 text-base leading-6 font-semibold lg:font-bold text-center">
-				{i18n("chart.consumptionEmissionsTons.description")}
+				{i18n("chart.consumptionEmissionsTons.descriptionText")}
 			</p>
 			<div className="relative gap-9 mx-auto">
 				<img src={greenEmissionTree} alt="" className="w-full" />
