@@ -1,6 +1,5 @@
 import React, { useRef, useCallback } from "react";
 import * as d3 from "d3";
-import { i18n } from "~/i18n/i18n-utils";
 import { useContainerWidthHeight } from "~/hooks/use-container-width-height";
 import { consequencesData } from "~/data";
 import { AreaPath } from "./area-path";
