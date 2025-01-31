@@ -64,7 +64,6 @@ export const LineChartReductionPath: React.FC = () => {
 				/>
 				<HoverableBarsReductionPath
 					xScale={xScale}
-					yScale={yScale}
 					sizes={sizes}
 					parentRef={containerRef}
 				/>

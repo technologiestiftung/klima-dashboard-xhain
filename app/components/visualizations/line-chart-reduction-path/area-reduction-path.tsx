@@ -61,7 +61,7 @@ export const AreaReductionPath: React.FC<AreaReductionPathProps> = ({
 			d3
 				.line<reductionPathPerYear>()
 				.x((d) => xScale(setYear(new Date(), d.year)))
-				.y((d) => yScale(d.goal_xhain_tons) - bottom + top)
+				.y((d) => yScale(Number(d.goal_xhain_tons)) - bottom + top)
 				.curve(d3.curveCardinal)(reductionPathScenario175Thg.slice(1)),
 		[xScale, yScale],
 	);
@@ -97,7 +97,7 @@ export const AreaReductionPath: React.FC<AreaReductionPathProps> = ({
 					yScale(
 						howToReachGoalsData.reductionPathScenario175Thg[0]
 							.electricity_total_tons,
-					) - 18
+					) - 60
 				}
 				fill={xhainBlue80}
 				fontWeight="700"
@@ -113,10 +113,13 @@ export const AreaReductionPath: React.FC<AreaReductionPathProps> = ({
 				strokeWidth="2"
 			/>
 			<text
-				x={width / 2}
+				x={width / 2 + 10}
 				y={
 					yScale(
-						howToReachGoalsData.reductionPathScenario175Thg[10].goal_xhain_tons,
+						Number(
+							howToReachGoalsData.reductionPathScenario175Thg[10]
+								.goal_xhain_tons,
+						),
 					) - 18
 				}
 				fill={xhainBlue80}

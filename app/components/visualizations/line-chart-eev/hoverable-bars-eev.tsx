@@ -13,7 +13,7 @@ import { useFocusLeave } from "~/hooks/use-focus-leave";
 
 const { eevTotalMwh } = howXhainContributesData;
 
-interface HoverableBarsProps {
+interface HoverableBarsEEVProps {
 	xScale: d3.ScaleTime<number, number, never>;
 	yScale: d3.ScaleLinear<number, number, never>;
 	sizes: {
@@ -24,7 +24,7 @@ interface HoverableBarsProps {
 	parentRef: RefObject<HTMLDivElement | null>;
 }
 
-export const HoverableBars: React.FC<HoverableBarsProps> = ({
+export const HoverableBarsEEV: React.FC<HoverableBarsEEVProps> = ({
 	xScale,
 	yScale,
 	sizes,
@@ -104,9 +104,9 @@ function getTranslateX({
 	d,
 	sizes,
 }: {
-	xScale: HoverableBarsProps["xScale"];
+	xScale: HoverableBarsEEVProps["xScale"];
 	d: (typeof eevTotalMwh)[0];
-	sizes: HoverableBarsProps["sizes"];
+	sizes: HoverableBarsEEVProps["sizes"];
 }) {
 	const translateX = xScale(setYear(new Date(), d.year));
 

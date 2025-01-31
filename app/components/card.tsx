@@ -10,7 +10,7 @@ import {
 	howToReachGoalsData,
 	consequencesData,
 } from "~/data";
-import { LineChart } from "~/components/visualizations/line-chart/line-chart";
+import { LineChartEEV } from "./visualizations/line-chart-eev/line-chart-eev";
 import { StackedBarChart } from "~/components/visualizations/stacked-bar-chart/stacked-bar-chart";
 import { BarChartThg } from "~/components/visualizations/bar-chart-thg/bar-chart-thg";
 import { BarChartModalSplit } from "~/components/visualizations/bar-chart-modal-split/bar-chart-modal-split";
@@ -28,7 +28,7 @@ interface CardProps {
 
 const charts = {
 	eevTotalMwh: {
-		component: LineChart,
+		component: LineChartEEV,
 		color: "bg-xhain-blue-10",
 		size: "col-span-1 lg:col-span-2 row-span-1",
 	},
@@ -70,12 +70,12 @@ const charts = {
 	restBudgetThgUntilYear: {
 		component: null,
 		color: "bg-xhain-blue-10",
-		size: "col-span-1 row-span-1",
+		size: "col-span-1 row-span-2",
 	},
 	reductionPathScenario175Thg: {
 		component: LineChartReductionPath,
 		color: "bg-xhain-blue-10",
-		size: "col-span-1 lg:col-span-2 row-span-1",
+		size: "col-span-1 lg:col-span-2 row-span-2",
 	},
 	hotDays: {
 		component: ChartHotDays,

@@ -1,16 +1,16 @@
 import * as d3 from "d3";
 import React, { useCallback, useRef } from "react";
-import { YReferenceLines } from "../shared-chart-components/y-reference-lines";
-import { Area } from "./area";
+import { AreaEEV } from "./area-eev";
 import { XAxis } from "../shared-chart-components/x-axis";
-import { HoverableBars } from "./hoverable-bars";
+import { HoverableBarsEEV } from "./hoverable-bars-eev";
 import { howXhainContributesData } from "~/data";
 import { setYear } from "date-fns";
 import { useContainerWidthHeight } from "~/hooks/use-container-width-height";
+import { YReferenceLines } from "../shared-chart-components/y-reference-lines";
 
 const { eevTotalMwh } = howXhainContributesData;
 
-export const LineChart: React.FC = () => {
+export const LineChartEEV: React.FC = () => {
 	const containerRef = useRef<HTMLDivElement>(null);
 	const { width, height } = useContainerWidthHeight(containerRef);
 
@@ -35,7 +35,13 @@ export const LineChart: React.FC = () => {
 	const yScale = useCallback(
 		d3
 			.scaleLinear()
-			.domain([0, d3.max(eevTotalMwh, (d) => d.heating_mwh) as number])
+			.domain([
+				0,
+				d3.max(
+					eevTotalMwh,
+					(d) => d.heating_mwh + d.electricity_mwh + d.fuels_mwh,
+				) as number,
+			])
 			.nice()
 			.range([height, sizes.margin.bottom]),
 		[eevTotalMwh, height],
@@ -44,11 +50,11 @@ export const LineChart: React.FC = () => {
 	return (
 		<div ref={containerRef}>
 			<svg width={width} height={height}>
-				<Area xScale={xScale} yScale={yScale} sizes={sizes} />
+				<AreaEEV xScale={xScale} yScale={yScale} sizes={sizes} />
 				<YReferenceLines
 					yScale={yScale}
 					sizes={sizes}
-					yReferenceLineValues={[2_000_000, 1_000_000]}
+					yReferenceLineValues={[4_000_000, 2_000_000]}
 				/>
 				<XAxis
 					xScale={xScale}
@@ -56,7 +62,7 @@ export const LineChart: React.FC = () => {
 					data={eevTotalMwh}
 					filterInterval={3}
 				/>
-				<HoverableBars
+				<HoverableBarsEEV
 					xScale={xScale}
 					yScale={yScale}
 					sizes={sizes}

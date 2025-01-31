@@ -1,10 +1,17 @@
 import React from "react";
 import { i18n } from "~/i18n/i18n-utils";
-import { howXhainContributesData, consequencesData } from "~/data";
+import {
+	howXhainContributesData,
+	howToReachGoalsData,
+	consequencesData,
+} from "~/data";
 import { LinkArrowIcon } from "../icon/link-arrow-icon";
 
 interface DialogContentProps {
-	id: keyof typeof howXhainContributesData | keyof typeof consequencesData;
+	id:
+		| keyof typeof howXhainContributesData
+		| keyof typeof howToReachGoalsData
+		| keyof typeof consequencesData;
 }
 
 export const DialogContent: React.FC<DialogContentProps> = ({ id }) => {
