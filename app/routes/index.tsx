@@ -44,7 +44,7 @@ export default function Index() {
 				<Carousel />
 			</section>
 
-			<section>
+			<section className="px-5 lg:px-20">
 				<h2 className="text-5xl font-semibold p-5">{i18n("charts.title")}</h2>
 				<div className="grid grid-cols-1 lg:grid-cols-3 gap-5 my-10 lg:my-20">
 					{howXhainContributes.map((id) => (
@@ -53,7 +53,7 @@ export default function Index() {
 				</div>
 			</section>
 
-			<section>
+			<section className="px-5 lg:px-20">
 				<h2 className="text-5xl font-semibold p-5">
 					{i18n("howToReachGoals.title")}
 				</h2>
@@ -64,7 +64,7 @@ export default function Index() {
 				</div>
 			</section>
 
-			<section>
+			<section className="px-5 lg:px-20">
 				<h2 className="text-2xl leading-8 font-bold lg:text-5xl lg:leading-none mb-3 lg:mb-6">
 					{i18n("consequences.title")}
 				</h2>
@@ -81,7 +81,7 @@ export default function Index() {
 				</div>
 			</section>
 
-			<section>
+			<section className="px-5 lg:px-20">
 				<FeatureSection />
 			</section>
 		</>
