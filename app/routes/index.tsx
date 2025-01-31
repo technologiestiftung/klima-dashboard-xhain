@@ -45,8 +45,10 @@ export default function Index() {
 			</section>
 
 			<section className="px-5 lg:px-20">
-				<h2 className="text-5xl font-semibold p-5">{i18n("charts.title")}</h2>
-				<div className="grid grid-cols-1 lg:grid-cols-3 gap-5 my-10 lg:my-20">
+				<h2 className="text-5xl font-semibold p-5 mb-3 lg:mb-6">
+					{i18n("charts.title")}
+				</h2>
+				<div className="grid grid-cols-1 lg:grid-cols-3 gap-5 mb-10 lg:mb-20">
 					{howXhainContributes.map((id) => (
 						<Card key={id.toString()} id={id} />
 					))}
@@ -71,10 +73,10 @@ export default function Index() {
 				<p className="mb-[40px] lg:mb-10 text-base leading-6 font-normal lg:text-xl lg:leading-7">
 					{i18n("consequences.description")}
 				</p>
-				<h3 className="text-lg leading-7 lg:text-2xl lg:leading-8 font-bold">
+				<h3 className="text-lg leading-7 lg:text-2xl lg:leading-8 font-bold mb-3 lg:mb-10">
 					{i18n("consequences.subheading")}
 				</h3>
-				<div className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-5 my-10 lg:my-20">
+				<div className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-5 mb-10 lg:mb-20">
 					{consequences.map((id) => (
 						<Card key={id.toString()} id={id} />
 					))}
