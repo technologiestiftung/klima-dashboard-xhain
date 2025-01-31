@@ -30,7 +30,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
 			>
 				<Header />
 
-				<main>{children}</main>
+				<main className="px-5 lg:px-20">{children}</main>
 
 				<Footer />
 
