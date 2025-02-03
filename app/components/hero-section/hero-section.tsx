@@ -13,7 +13,7 @@ export const HeroSection: React.FC = () => {
 					<h1 className="w-full mb-4 lg:mb-7 text-2xl leading-8 font-bold lg:text-5xl xl:text-6xl 2xl:text-7xl lg:leading-none lg:font-semibold">
 						{i18n("heroSection.heading")}
 					</h1>
-					<p className="text-base leading-6 font-normal lg:text-3xl lg:leading-9">
+					<p className="text-base leading-6 font-normal lg:text-2xl xl:text-3xl 2xl:text-3xl lg:leading-9">
 						{i18n("heroSection.subheading")}
 					</p>
 				</div>

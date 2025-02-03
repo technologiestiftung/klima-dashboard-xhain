@@ -9,7 +9,7 @@ export default {
 				sans: ["Raleway", "sans-serif"],
 			},
 			screens: {
-				xl: "1280px",
+				xl: "1363px",
 				"2xl": "1440px",
 			},
 			borderRadius: {
