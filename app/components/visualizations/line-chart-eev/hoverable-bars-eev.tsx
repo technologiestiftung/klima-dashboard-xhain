@@ -64,9 +64,17 @@ export const HoverableBarsEEV: React.FC<HoverableBarsEEVProps> = ({
 				<React.Fragment key={d.year}>
 					<rect
 						x={xScale(setYear(new Date(), d.year)) - 0.5}
-						y={yScale(d.heating_mwh) - bottom + top}
+						y={
+							yScale(d.heating_mwh + d.fuels_mwh + d.electricity_mwh) -
+							bottom +
+							top
+						}
 						width={1}
-						height={sizes.height - yScale(d.heating_mwh) - top}
+						height={
+							sizes.height -
+							yScale(d.heating_mwh + d.fuels_mwh + d.electricity_mwh) -
+							top
+						}
 						fill={visibleYear === d.year.toString() ? "black" : "transparent"}
 						opacity={0.5}
 						data-year={d.year}

@@ -12,7 +12,9 @@ const { reductionPathScenario175Thg } = howToReachGoalsData;
 
 export const LineChartReductionPath: React.FC = () => {
 	const containerRef = useRef<HTMLDivElement>(null);
-	const { width, height } = useContainerWidthHeight(containerRef);
+	const { width } = useContainerWidthHeight(containerRef);
+
+	const height = 528;
 
 	const sizes = {
 		width,
@@ -48,7 +50,7 @@ export const LineChartReductionPath: React.FC = () => {
 	);
 
 	return (
-		<div ref={containerRef}>
+		<div className="h-full" ref={containerRef}>
 			<svg width={width} height={height}>
 				<AreaReductionPath xScale={xScale} yScale={yScale} sizes={sizes} />
 				<YReferenceLines
@@ -64,6 +66,7 @@ export const LineChartReductionPath: React.FC = () => {
 				/>
 				<HoverableBarsReductionPath
 					xScale={xScale}
+					yScale={yScale}
 					sizes={sizes}
 					parentRef={containerRef}
 				/>

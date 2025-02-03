@@ -157,7 +157,7 @@ const Card: React.FC<CardProps> = ({ id }) => {
 						<>
 							<p>Chart not found</p>
 							<br />
-							<pre>{JSON.stringify(data.slice(0, 1), null, 2)}</pre>
+							<pre>{JSON.stringify(data.slice(0, 4), null, 2)}</pre>
 						</>
 					)}
 				</div>

@@ -15,6 +15,7 @@ const { reductionPathScenario175Thg } = howToReachGoalsData;
 
 interface HoverableBarsReductionPathProps {
 	xScale: d3.ScaleTime<number, number, never>;
+	yScale: d3.ScaleLinear<number, number, never>;
 	sizes: {
 		width: number;
 		height: number;
@@ -25,9 +26,9 @@ interface HoverableBarsReductionPathProps {
 
 export const HoverableBarsReductionPath: React.FC<
 	HoverableBarsReductionPathProps
-> = ({ xScale, sizes, parentRef }) => {
+> = ({ xScale, yScale, sizes, parentRef }) => {
 	const {
-		margin: { bottom },
+		margin: { bottom, top },
 	} = sizes;
 
 	const [visibleYear, setVisibleYear] = useState<string | undefined>(undefined);
@@ -58,11 +59,45 @@ export const HoverableBarsReductionPath: React.FC<
 		<>
 			{reductionPathScenario175Thg.map((d) => (
 				<React.Fragment key={d.year}>
+					{/* invisible line so hover works above the line  */}
 					<rect
 						x={xScale(setYear(new Date(), d.year)) - 0.5}
 						y={0}
 						width={1}
 						height={sizes.height - bottom}
+						fill={"transparent"}
+						opacity={0.5}
+						data-year={d.year}
+						stroke="transparent"
+						tabIndex={0}
+						strokeWidth={20}
+						onMouseEnter={visibleYearHandler}
+						onClick={visibleYearHandler}
+						onFocus={visibleYearHandler}
+					/>
+					<rect
+						x={xScale(setYear(new Date(), d.year)) - 0.5}
+						y={
+							yScale(
+								Math.max(
+									Number(d.goal_xhain_tons),
+									d.electricity_total_tons + d.heating_total_tons,
+								),
+							) -
+							bottom +
+							top
+						}
+						width={1}
+						height={
+							sizes.height -
+							yScale(
+								Math.max(
+									Number(d.goal_xhain_tons),
+									d.electricity_total_tons + d.heating_total_tons,
+								),
+							) -
+							top
+						}
 						fill={visibleYear === d.year.toString() ? "black" : "transparent"}
 						opacity={0.5}
 						data-year={d.year}
