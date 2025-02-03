@@ -7,6 +7,7 @@ import { HoverableBarsReductionPath } from "./hoverable-bars-reduction-path";
 import { howToReachGoalsData } from "~/data";
 import { setYear } from "date-fns";
 import { useContainerWidthHeight } from "~/hooks/use-container-width-height";
+import { i18n } from "~/i18n/i18n-utils";
 
 const { reductionPathScenario175Thg } = howToReachGoalsData;
 
@@ -50,27 +51,33 @@ export const LineChartReductionPath: React.FC = () => {
 	);
 
 	return (
-		<div className="h-full" ref={containerRef}>
-			<svg width={width} height={height}>
-				<AreaReductionPath xScale={xScale} yScale={yScale} sizes={sizes} />
-				<YReferenceLines
-					yScale={yScale}
-					sizes={sizes}
-					yReferenceLineValues={[1_000_000, 500_000]}
-				/>
-				<XAxis
-					xScale={xScale}
-					sizes={sizes}
-					data={reductionPathScenario175Thg}
-					filterInterval={4.5}
-				/>
-				<HoverableBarsReductionPath
-					xScale={xScale}
-					yScale={yScale}
-					sizes={sizes}
-					parentRef={containerRef}
-				/>
-			</svg>
+		<div>
+			<p className="mb-7 mt-4 columns-2 gap-7 text-justify">
+				{i18n("chart.precipitationMm.description")}
+			</p>
+
+			<div className="h-full" ref={containerRef}>
+				<svg width={width} height={height}>
+					<AreaReductionPath xScale={xScale} yScale={yScale} sizes={sizes} />
+					<YReferenceLines
+						yScale={yScale}
+						sizes={sizes}
+						yReferenceLineValues={[1_000_000, 500_000]}
+					/>
+					<XAxis
+						xScale={xScale}
+						sizes={sizes}
+						data={reductionPathScenario175Thg}
+						filterInterval={4.5}
+					/>
+					<HoverableBarsReductionPath
+						xScale={xScale}
+						yScale={yScale}
+						sizes={sizes}
+						parentRef={containerRef}
+					/>
+				</svg>
+			</div>
 		</div>
 	);
 };

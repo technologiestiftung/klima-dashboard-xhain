@@ -138,6 +138,8 @@ export const en: typeof de = {
 	"chart.reductionPathScenario175Thg.legend.heating": "Heating",
 	"chart.reductionPathScenario175Thg.legend.electricity": "Electricity",
 	"chart.reductionPathScenario175Thg.legend.goal": "Berlin's goal",
+	"chart.reductionPathScenario175Thg.description":
+		"The reduction path shows the development of greenhouse gas emissions in Xhain. The goal is to reduce emissions by 95% by 2045 compared to 1990. The scenario shows how this goal can be achieved.",
 
 	"chart.hotDays.title": "Hot days",
 	"chart.hotDays.subtitle": "",

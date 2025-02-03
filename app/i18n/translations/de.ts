@@ -136,6 +136,8 @@ export const de = {
 	"chart.reductionPathScenario175Thg.legend.heating": "Wärme",
 	"chart.reductionPathScenario175Thg.legend.electricity": "Strom",
 	"chart.reductionPathScenario175Thg.legend.goal": "Ziel Land Berlin",
+	"chart.reductionPathScenario175Thg.description":
+		"Das Klimaschutzszenario zeigt auf wie Xhain das Ziel der Klimaneutralität bis 2045 unter Einhaltung des lokal verbleibenden Restbudgets erreichen kann. Dazu müssen wir gemeinsam und innovativ vorangehen.",
 
 	"chart.hotDays.title": "Heiße Tage",
 	"chart.hotDays.subtitle": "",
