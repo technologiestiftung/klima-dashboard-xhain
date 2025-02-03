@@ -63,7 +63,7 @@ export default function Index() {
 				</div>
 			</section>
 
-			<section className="bg-xhain-blue-30 px-5 lg:px-20 gap-14 flex flex-col">
+			<section className="bg-xhain-blue-30 px-5 py-10 lg:py-20 lg:px-20 gap-14 flex flex-col">
 				<div className="mx-auto w-full max-w-[894px] flex flex-col gap-6">
 					<h2 className="text-5xl leading-none font-semibold">
 						{i18n("howToReachGoals.title")}
