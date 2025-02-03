@@ -5,6 +5,7 @@ import {
 	xhainBlue30,
 	xhainBlue40,
 	xhainBlue80,
+	xhainGreen60,
 } from "~/components/visualizations/colors";
 import { setYear } from "date-fns";
 import { i18n } from "~/i18n/i18n-utils";
@@ -108,12 +109,12 @@ export const AreaReductionPath: React.FC<AreaReductionPathProps> = ({
 			<path
 				className="line"
 				d={linePathXhainGoal ?? ""}
-				stroke={xhainBlue80}
+				stroke={xhainGreen60}
 				fill="none"
 				strokeWidth="2"
 			/>
 			<text
-				x={width / 2 + 10}
+				x={width / 2 - 30}
 				y={
 					yScale(
 						Number(
@@ -122,7 +123,7 @@ export const AreaReductionPath: React.FC<AreaReductionPathProps> = ({
 						),
 					) - 18
 				}
-				fill={xhainBlue80}
+				fill={xhainGreen60}
 				fontWeight="700"
 			>
 				{i18n("chart.reductionPathScenario175Thg.legend.goal")}
