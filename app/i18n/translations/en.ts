@@ -347,6 +347,12 @@ Regarding the number of heavy rainfall days, no clear trend has been observed ye
 
 	"currentProjects.title": "What is already happening in XHain?",
 
+	"featureSection.imageAltText": "Image of the featured project",
+	"featureSection.title": "What is already happening in XHain?",
+	"featureSection.description":
+		"In Xhain, numerous projects are already being implemented to address these challenges. Here, we give you an insight into some of the existing projects.",
+	"featureSection.cta": "Get to know all the projects",
+
 	"footer.cardHeading":
 		"Do you have any questions about the climate dashboard and the climate concepts?",
 	"footer.cardSubHeading": "write to us!",

@@ -347,6 +347,12 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 
 	"currentProjects.title": "Was passiert bereits in Xhain?",
 
+	"featureSection.imageAltText": "Bild von einem Projekt",
+	"featureSection.title": "Was passiert bereits in Xhain?",
+	"featureSection.description":
+		"In Xhain werden bereits zahlreiche Projekte umgesetzt um diesen Herausforderungen zu begegnen. Hier gebe﻿n wir euch einen Einblick in einige der bestehenden Projekte.",
+	"featureSection.cta": "Alle Projekte kennenlernen",
+
 	"footer.cardHeading":
 		"Hast du Fragen zum Klimadashboard und den Klimakonzepten?",
 	"footer.cardSubHeading": "Schreib uns!",
