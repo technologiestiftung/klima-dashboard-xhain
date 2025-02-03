@@ -129,6 +129,16 @@ export const de = {
 
 	"chart.restBudgetThgUntilYear.title": "Restbudget-Eimer",
 	"chart.restBudgetThgUntilYear.subtitle": "des 1,75 Grad Klimaziels",
+	"chart.restBudgetThgUntilYear.unit": "Mio. Tonnen",
+	"chart.restBudgetThgUntilYear.remainingBudget":
+		"Verbleibendes CO2–Budget bis",
+	"chart.restBudgetThgUntilYear.description": `Das verbleibende CO2-Budget Xhains beträgt insgesamt nur noch 12,2 Mio. Tonnen, um die Erderwärmung auf maximal 1,75° zu begrenzen.
+
+Wenn Xhain so weitermacht wie bisher, wäre dieses lokale Restbudget bereits 2032 aufgebraucht – der Eimer würde sprichwörtlich überlaufen und die Risiken für Menschen, Ökosysteme und Infrastrukturen dramatisch steigen.
+
+Dieses Ziel markiert die Grenze, ab der die Risiken für Menschen, Ökosysteme und Infrastruktur dramatisch zunehmen.
+
+Um dies zu vermeiden, müssen wir jetzt ambitionierter und auch schneller handeln.`,
 
 	"chart.reductionPathScenario175Thg.title": "Reduktionspfad",
 	"chart.reductionPathScenario175Thg.subtitle":

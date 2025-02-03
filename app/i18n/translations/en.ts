@@ -131,6 +131,13 @@ export const en: typeof de = {
 
 	"chart.restBudgetThgUntilYear.title": "Restbudget-Bucket",
 	"chart.restBudgetThgUntilYear.subtitle": "of the 1,75 degree target",
+	"chart.restBudgetThgUntilYear.unit": "Mio. tons",
+	"chart.restBudgetThgUntilYear.remainingBudget": "Remaining budget until",
+	"chart.restBudgetThgUntilYear.description": `The remaining budget approach is used to implement the Paris targets locally.
+	
+	This emphasizes that not only annual CO2 emissions are crucial but also the total amount of greenhouse gases released into the atmosphere over time. 
+	
+	The graph shows the remaining budget for the 1.75 degree target until 2045. The sooner emission reductions are implemented, the less strain is placed on the remaining budget, and the more time remains to implement necessary changes.`,
 
 	"chart.reductionPathScenario175Thg.title": "Reduction path",
 	"chart.reductionPathScenario175Thg.subtitle":

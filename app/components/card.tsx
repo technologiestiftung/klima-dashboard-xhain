@@ -19,6 +19,7 @@ import { AreaChart } from "~/components/visualizations/area-chart/area-chart";
 import { ConsumptionEmissionsChart } from "~/components/visualizations/consumption-emission-chart/consumption-emission-chart";
 import { DialogContent } from "./dialog/dialog-content";
 import { LineChartReductionPath } from "./visualizations/line-chart-reduction-path/line-chart-reduction-path";
+import { BucketChart } from "./visualizations/bucket-chart/bucket-chart";
 
 interface CardProps {
 	id:
@@ -69,7 +70,7 @@ const charts = {
 		size: "col-span-1 row-span-1",
 	},
 	restBudgetThgUntilYear: {
-		component: null,
+		component: BucketChart,
 		color: "bg-xhain-blue-10",
 		size: "col-span-1 row-span-2",
 	},
