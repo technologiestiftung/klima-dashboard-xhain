@@ -13,6 +13,33 @@ export const de = {
 	"weatherCard.currently": "aktuell",
 	"weatherCard.time": "Uhr",
 
+	"introSection.overview":
+		"Das Klimadashboard gibt einen Einblick in aktuelle Klimadaten und Klimaktivitäten in Friedrichshain-Kreuzberg.<br/><br/>Es beantwortet Fragen wie",
+	"introSection.keyQuestion1": "Wo entstehen Treibhausgasemissionen in Xhain?",
+	"introSection.keyQuestion2":
+		"Welchen Beitrag leistet der Bezirk bisher auf dem Weg zur Klimaneutralität in Berlin?",
+	"introSection.keyQuestion3":
+		"Und wo zeigen sich die Folgen des Klimawandels im Bezirk schon jetzt?",
+	"introSection.dataBasis": `
+	  Grundlage sind die Analysen des <a href='https://klima-dashboard-xhain.vercel.app/climate-concepts/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>Klimaschutz- und des Klimaanpassungskonzepts.</a> 
+	  Die beiden Konzepte wurden vom <a href='' target='https://klima-dashboard-xhain.vercel.app/about/' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>Klimateam</a> entwickelt und im Dezember 2024 als 
+	  Planungs- und Entscheidungsgrundlage politisch beschlossen.</br></br>
+	`,
+	"introSection.collaboration": `
+	  Entwickelt wurde das Dashboard in enger Zusammenarbeit zwischen dem Klimateam 
+	  Friedrichshain-Kreuzberg und dem <a href='https://citylab-berlin.org/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>CityLAB Berlin.</a></br></br>
+	`,
+	"introSection.goals": `
+	  Während Klimaschutz darauf abzielt, Treibhausgasemissionen zu reduzieren und so das 
+	  Ausmaß des Klimawandels zu begrenzen, liegt der Fokus bei Klimaanpassung darauf, uns 
+	  an die bisherigen und zu erwartenden Folgen des Klimawandels, wie zunehmende Hitze und 
+	  Starkregen, anzupassen.
+	`,
+	"introSection.showLess": "weniger anzeigen",
+	"introSection.showMore": "mehr anzeigen",
+	"introSection.expandedAltText": "Abschnitt einklappen",
+	"introSection.collapseAltText": "Abschnitt ausklappen",
+
 	"header.bezirksamtXhainAltText": "Zur Startseite",
 	"header.burgerMenuAltText": "Menü öffnen",
 	"header.closeButtonAltText": "Menü schließen",

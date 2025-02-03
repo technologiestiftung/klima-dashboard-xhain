@@ -15,6 +15,32 @@ export const en: typeof de = {
 	"weatherCard.currently": "currently",
 	"weatherCard.time": "",
 
+	"introSection.overview":
+		"The Climate Dashboard provides insights into current climate data and climate activities in Friedrichshain-Kreuzberg.<br/><br/>It answers questions such as",
+	"introSection.keyQuestion1":
+		"Where do greenhouse gas emissions occur in Xhain?",
+	"introSection.keyQuestion2":
+		"What contribution has the district made so far on the path to climate neutrality in Berlin?",
+	"introSection.keyQuestion3":
+		"And where are the effects of climate change already visible in the district?",
+	"introSection.dataBasis": `
+    The basis for this is the analyses from the <a href='https://klima-dashboard-xhain.vercel.app/climate-concepts/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>climate protection and climate adaptation concepts.</a>  
+    These two concepts were developed by the <a href='https://klima-dashboard-xhain.vercel.app/about/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>climate team</a> and politically adopted in December 2024 as a planning and decision-making basis.</br></br>
+`,
+	"introSection.collaboration": `
+    The dashboard was developed in close collaboration between the climate team  
+    Friedrichshain-Kreuzberg and <a href='https://citylab-berlin.org/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>CityLAB Berlin.</a></br></br>
+`,
+	"introSection.goals": `
+    While climate protection aims to reduce greenhouse gas emissions and thus limit the extent of climate change,  
+    climate adaptation focuses on adjusting to the current and expected consequences of climate change,  
+    such as increasing heat and heavy rainfall.
+`,
+	"introSection.showLess": "show less",
+	"introSection.showMore": "show more",
+	"introSection.expandedAltText": "Collapse section",
+	"introSection.collapseAltText": "Expand section",
+
 	"header.bezirksamtXhainAltText": "Go to homepage",
 	"header.burgerMenuAltText": "Open menu",
 	"header.closeButtonAltText": "Close menu",
