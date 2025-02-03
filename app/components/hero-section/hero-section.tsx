@@ -22,11 +22,11 @@ export const HeroSection: React.FC = () => {
 				<div className="my-auto">
 					<ThermometerChart />
 				</div>
-				<div className="flex gap-0 flex-col lg:flex-row lg:gap-2 justify-self-end items-center">
+				<div className="flex gap-0 flex-col lg:flex-row lg:gap-2 justify-self-end items-center mt-4">
 					<span className="text-base leading-6 font-bold">
 						{i18n("heroSection.mediumTemperature.averageTempText")}
 					</span>
-					<span className="text-base leading-6 font-normal">
+					<span className="text-base leading-6 font-normal text-center lg:text-left">
 						{i18n("heroSection.mediumTemperature.locationText")}
 					</span>
 				</div>

@@ -58,5 +58,8 @@
 
 	.hero-section {
 		--thermometer-color: #3054f3;
+		svg {
+			@apply w-[60%] h-[60%] lg:w-[80%] lg:h-[80%];
+		}
 	}
 }
