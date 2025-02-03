@@ -65,6 +65,8 @@ export default {
 								outlineOffset: "5px",
 								outlineColor: colorValue,
 								textDecoration: "transparent",
+								position: "relative",
+								zIndex: 2,
 							},
 						};
 					}
