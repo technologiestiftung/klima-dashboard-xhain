@@ -63,12 +63,12 @@ export const HoverableBarsEEV: React.FC<HoverableBarsEEVProps> = ({
 			{eevTotalMwh.map((d) => (
 				<React.Fragment key={d.year}>
 					<rect
-						x={xScale(setYear(new Date(), d.year)) - 0.5}
-						y={
+						x={Math.round(xScale(setYear(new Date(), d.year)) - 0.5)}
+						y={Math.round(
 							yScale(d.heating_mwh + d.fuels_mwh + d.electricity_mwh) -
-							bottom +
-							top
-						}
+								bottom +
+								top,
+						)}
 						width={1}
 						height={
 							sizes.height -
@@ -86,7 +86,7 @@ export const HoverableBarsEEV: React.FC<HoverableBarsEEVProps> = ({
 						onFocus={visibleYearHandler}
 					/>
 					<foreignObject
-						transform={`translate(${getTranslateX({ xScale, d, sizes })}, 0)`}
+						transform={`translate(${Math.round(getTranslateX({ xScale, d, sizes }))}, 0)`}
 						width="100"
 						height="150"
 						className={`${visibleYear === d.year.toString() ? "block" : "hidden"}`}
