@@ -56,7 +56,7 @@ export const XAxis: React.FC<XAxisProps> = ({
 						key={x}
 						className="tick"
 						opacity="1"
-						transform={`translate(${x}, 0)`}
+						transform={`translate(${Math.round(x)}, 0)`}
 					>
 						<text
 							fill={xhainBlue80}

@@ -61,13 +61,13 @@ export const en: typeof de = {
 	"chart.thgTotalTons.keys.fuels_tons": "Fuels",
 
 	"chart.thgSector2021Tons.title": "Greenhouse gas emissions",
-	"chart.thgSector2021Tons.subtitle": "by sectors in tons",
+	"chart.thgSector2021Tons.subtitle": "by sectors in tons of CO2 equivalent",
 	"chart.thgSector2021Tons.legend.privateHouseholds": "private households",
 	"chart.thgSector2021Tons.legend.districtBuildings": "district buildings",
 	"chart.thgSector2021Tons.legend.economy": "economy",
 	"chart.thgSector2021Tons.legend.traffic": "traffic",
 	"chart.thgSector2021Tons.keys.sector": "Sector",
-	"chart.thgSector2021Tons.keys.total_tons": "Sum in Tons",
+	"chart.thgSector2021Tons.keys.total_tons": "Sum in Tons of CO2 equivalent",
 	"chart.thgSector2021Tons.keys.percentage": "Percentage",
 
 	"chart.consumptionEmissionsTons.title":
@@ -129,12 +129,17 @@ export const en: typeof de = {
 	"chart.traffic2022Summarized.keys.percentage_thg":
 		"Greenhouse gas percentage",
 
-	"chart.restBudget.title": "Restbudget-Bucket",
-	"chart.restBudget.subtitle": "of the 1,75 degree target",
+	"chart.restBudgetThgUntilYear.title": "Restbudget-Bucket",
+	"chart.restBudgetThgUntilYear.subtitle": "of the 1,75 degree target",
 
 	"chart.reductionPathScenario175Thg.title": "Reduction path",
 	"chart.reductionPathScenario175Thg.subtitle":
-		"Climate protection scenario (1.75 degrees, 67% probability)",
+		"Climate protection scenario (1.75 degrees) in tons of CO2 equivalent",
+	"chart.reductionPathScenario175Thg.legend.heating": "Heating",
+	"chart.reductionPathScenario175Thg.legend.electricity": "Electricity",
+	"chart.reductionPathScenario175Thg.legend.goal": "Berlin's goal",
+	"chart.reductionPathScenario175Thg.description":
+		"The reduction path shows the development of greenhouse gas emissions in Xhain. The goal is to reduce emissions by 95% by 2045 compared to 1990. The scenario shows how this goal can be achieved.",
 
 	"chart.hotDays.title": "Hot days",
 	"chart.hotDays.subtitle": "",
@@ -247,11 +252,11 @@ Further efforts to reduce transport emissions are crucial—not only for climate
 
 <b>The goal is to reduce and electrify motorized individual transport while strengthening sustainable mobility options.</b>`,
 
-	"chart.infoDialog.restBudget.sourceTitle": "Excerpt from",
-	"chart.infoDialog.restBudget.sourceLabel":
+	"chart.infoDialog.restBudgetThgUntilYear.sourceTitle": "Excerpt from",
+	"chart.infoDialog.restBudgetThgUntilYear.sourceLabel":
 		"Climate Protection Concept - Summary Version",
-	"chart.infoDialog.restBudget.learnMoreLink": "climate-concepts/",
-	"chart.infoDialog.restBudget.description": `The Paris Climate Agreement provides the international framework to limit global warming to well below 2°C, ideally to 1.5°C. At the national level, these targets are supplemented by the Berlin Energy Transition Act (EWG Bln), which aims for climate neutrality by 2045. In Xhain's Climate Protection Concept, the 1.75°C target has been chosen as a guideline, as projections and emission trends indicate that achieving the 1.5°C target is becoming increasingly difficult.
+	"chart.infoDialog.restBudgetThgUntilYear.learnMoreLink": "climate-concepts/",
+	"chart.infoDialog.restBudgetThgUntilYear.description": `The Paris Climate Agreement provides the international framework to limit global warming to well below 2°C, ideally to 1.5°C. At the national level, these targets are supplemented by the Berlin Energy Transition Act (EWG Bln), which aims for climate neutrality by 2045. In Xhain's Climate Protection Concept, the 1.75°C target has been chosen as a guideline, as projections and emission trends indicate that achieving the 1.5°C target is becoming increasingly difficult.
 
 To implement the Paris targets locally, the so-called remaining budget approach is used. This emphasizes that not only annual CO2 emissions are crucial but also the total amount of greenhouse gases released into the atmosphere over time.`,
 
@@ -339,6 +344,8 @@ Regarding the number of heavy rainfall days, no clear trend has been observed ye
 
 	"howToReachGoals.title":
 		"How can XHain achieve its climate protection goals in the future?",
+	"howToReachGoals.description":
+		"Climate protection is a central task for the future of Xhain. The district has set itself the goal of reducing greenhouse gas emissions by 95% by 2045 compared to 1990. This is a challenging task that requires the commitment of all residents, businesses, and public institutions. The climate protection concept outlines various measures and strategies to achieve this goal. The following scenarios show how Xhain can contribute to climate protection in the future.",
 
 	"consequences.title": "How does climate change affect XHain?",
 	"consequences.description":

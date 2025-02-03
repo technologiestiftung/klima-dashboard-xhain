@@ -54,19 +54,19 @@ export const de = {
 	"charts.title": "Wie trägt XHain zum Klimawandel bei?",
 
 	"chart.thgTotalTons.title": "Entwicklung der Treibhausgas-Emissionen",
-	"chart.thgTotalTons.subtitle": "in Tonnen",
+	"chart.thgTotalTons.subtitle": "in Tonnen THG",
 	"chart.thgTotalTons.keys.heating_tons": "Wärme",
 	"chart.thgTotalTons.keys.electricity_tons": "Strom",
 	"chart.thgTotalTons.keys.fuels_tons": "Kraftstoffe",
 
 	"chart.thgSector2021Tons.title": "Treibhausgas-Emissionen",
-	"chart.thgSector2021Tons.subtitle": "nach Sektoren in Tonnen",
+	"chart.thgSector2021Tons.subtitle": "nach Sektoren in Tonnen THG",
 	"chart.thgSector2021Tons.legend.privateHouseholds": "private Haushalte",
 	"chart.thgSector2021Tons.legend.districtBuildings": "bezirkliche Gebäude",
 	"chart.thgSector2021Tons.legend.economy": "Wirtschaft",
 	"chart.thgSector2021Tons.legend.traffic": "Verkehr",
 	"chart.thgSector2021Tons.keys.sector": "Sektor",
-	"chart.thgSector2021Tons.keys.total_tons": "Summe in Tonnen",
+	"chart.thgSector2021Tons.keys.total_tons": "Summe in Tonnen THG",
 	"chart.thgSector2021Tons.keys.percentage": "Prozent",
 
 	"chart.consumptionEmissionsTons.title":
@@ -127,12 +127,17 @@ export const de = {
 	"chart.traffic2022Summarized.keys.sector": "Sektor",
 	"chart.traffic2022Summarized.keys.percentage_thg": "Prozent Treibhausgas",
 
-	"chart.restBudget.title": "Restbudget-Eimer",
-	"chart.restBudget.subtitle": "des 1,75 Grad Klimaziels",
+	"chart.restBudgetThgUntilYear.title": "Restbudget-Eimer",
+	"chart.restBudgetThgUntilYear.subtitle": "des 1,75 Grad Klimaziels",
 
 	"chart.reductionPathScenario175Thg.title": "Reduktionspfad",
 	"chart.reductionPathScenario175Thg.subtitle":
-		"Klimaschutzszenario (1,75 Grad, 67 % Wahrscheinlichkeit)",
+		"Klimaschutzszenario (1,75 Grad) in Tonnen THG",
+	"chart.reductionPathScenario175Thg.legend.heating": "Wärme",
+	"chart.reductionPathScenario175Thg.legend.electricity": "Strom",
+	"chart.reductionPathScenario175Thg.legend.goal": "Ziel Land Berlin",
+	"chart.reductionPathScenario175Thg.description":
+		"Das Klimaschutzszenario zeigt auf wie Xhain das Ziel der Klimaneutralität bis 2045 unter Einhaltung des lokal verbleibenden Restbudgets erreichen kann. Dazu müssen wir gemeinsam und innovativ vorangehen.",
 
 	"chart.hotDays.title": "Heiße Tage",
 	"chart.hotDays.subtitle": "",
@@ -247,10 +252,11 @@ Nicht nur für den Klimaschutz, sondern auch für die Luft- und die Lärmbelastu
 
 <b>Demnach gilt es den Motorisierten Individualverkehr zu reduzieren und zu elektrifizieren und den Umweltverbund zu stärken.</b>`,
 
-	"chart.infoDialog.restBudget.sourceTitle": "Auszug aus",
-	"chart.infoDialog.restBudget.sourceLabel": "Klimaschutzkonzept Kurzfassung",
-	"chart.infoDialog.restBudget.learnMoreLink": "climate-concepts/",
-	"chart.infoDialog.restBudget.description": `Das Pariser Klimaabkommen bildet den internationalen Rahmen, um die globale Erwärmung auf deutlich unter 2°C, möglichst aber auf 1,5°C zu begrenzen. Auf Landesebene werden diese Zielsetzungen durch das Berliner Energiewendegesetz (EWG Bln) mit dem Ziel der Klimaneutralität bis 2045 ergänzt. Im Klimaschutzkonzept von Xhain wird das 1,75°-Ziel als Orientierung gewählt, da Prognosen und Emissionstrends zeigen, dass das 1,5°-Ziel immer schwieriger zu erreichen ist. 
+	"chart.infoDialog.restBudgetThgUntilYear.sourceTitle": "Auszug aus",
+	"chart.infoDialog.restBudgetThgUntilYear.sourceLabel":
+		"Klimaschutzkonzept Kurzfassung",
+	"chart.infoDialog.restBudgetThgUntilYear.learnMoreLink": "climate-concepts/",
+	"chart.infoDialog.restBudgetThgUntilYear.description": `Das Pariser Klimaabkommen bildet den internationalen Rahmen, um die globale Erwärmung auf deutlich unter 2°C, möglichst aber auf 1,5°C zu begrenzen. Auf Landesebene werden diese Zielsetzungen durch das Berliner Energiewendegesetz (EWG Bln) mit dem Ziel der Klimaneutralität bis 2045 ergänzt. Im Klimaschutzkonzept von Xhain wird das 1,75°-Ziel als Orientierung gewählt, da Prognosen und Emissionstrends zeigen, dass das 1,5°-Ziel immer schwieriger zu erreichen ist. 
 
 Um die Ziele von Paris lokal umzusetzen, wird der sogenannte Restbudget-Ansatz genutzt. Damit wird deutlich, dass nicht nur der jährliche CO2-Ausstoß entscheidend ist, sondern die Gesamtmenge an Treibhausgasen, die im Laufe der Zeit in die Atmosphäre freigesetzt wird.`,
 
@@ -339,6 +345,8 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 
 	"howToReachGoals.title":
 		"Wie kann XHain die Klimaschutzziele zukünftig erreichen?",
+	"howToReachGoals.description":
+		"Ein Blick in die Zukunft: Was passiert, wenn wir so weitermachen, und was muss sich ändern, um die Klimaschutzziele zu erreichen?",
 
 	"consequences.title": "Wie wirkt sich der Klimawandel auf XHain aus?",
 	"consequences.description":
