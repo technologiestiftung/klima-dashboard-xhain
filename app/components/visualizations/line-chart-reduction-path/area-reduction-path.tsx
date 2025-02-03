@@ -67,8 +67,6 @@ export const AreaReductionPath: React.FC<AreaReductionPathProps> = ({
 		[xScale, yScale],
 	);
 
-	console.log(stack);
-
 	return (
 		<>
 			{stack.map((layer, index) => (
