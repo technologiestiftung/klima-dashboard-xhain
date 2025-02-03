@@ -19,7 +19,7 @@ export const FooterLeftSection: React.FC = () => {
 					{i18n("footer.imprint")}
 				</Link>
 				<Link
-					to="/privacy-policy/"
+					to="/privacy/"
 					className="w-fit hover:underline hover:underline-offset-8 hover:decoration-1 focus-white"
 				>
 					{i18n("footer.privacyPolicy")}
