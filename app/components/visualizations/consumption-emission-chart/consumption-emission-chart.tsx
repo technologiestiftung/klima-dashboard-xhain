@@ -57,6 +57,7 @@ export const ConsumptionEmissionsChart: React.FC = () => {
 					options={radioOptions}
 					defaultValue={radioOptions[0]?.value}
 					onSelectionChange={handleSelectionChange}
+					radioID={"consumption-emission-chart-radio"}
 				/>
 
 				<div className="relative flex flex-col gap-9">

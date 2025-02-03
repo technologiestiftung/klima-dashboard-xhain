@@ -140,6 +140,7 @@ export function BarChartModalSplit() {
 					options={radioOptions}
 					defaultValue={selectedArea}
 					onSelectionChange={(newArea) => setSelectedArea(newArea)}
+					radioID="modal-split"
 				/>
 			</div>
 		</div>

@@ -16,6 +16,36 @@ export const en: typeof de = {
 	"header.nav.about": "About us",
 	"header.cta": "Take action now",
 
+	"carousel.title": "This is Xhain",
+	"carousel.button.previous.alt":
+		"Highlight previous card in the horizontally scrollable section above",
+	"carousel.button.next.alt":
+		"Highlight next card in the horizontally scrollable section above",
+
+	"carousel.infoButton.alt": "Click to show the source of the information",
+
+	"carousel.card1.intro": "",
+	"carousel.card1.description": "People live in Friedrichshain-Kreuzberg",
+	"carousel.card1.source": "Office for Statistics Berlin-Brandenburg 2024",
+
+	"carousel.card2.intro": "",
+	"carousel.card2.description": "people live within one km²",
+	"carousel.card2.source": "Office for Statistics Berlin-Brandenburg 2024",
+
+	"carousel.card3.intro": "",
+	"carousel.card3.description": "of the area is sealed",
+	"carousel.card3.source": "Environmental Atlas 2021",
+
+	"carousel.card4.intro": "",
+	"carousel.card4.description": "is the share of traffic area in",
+	"carousel.card4.source": "Office for Statistics Berlin-Brandenburg 2023",
+
+	"carousel.card5.intro": "In 2023",
+	"carousel.card5.number": "1,6 Mio.",
+	"carousel.card5.description":
+		"guests stayed overnight in 85 accommodations in the district",
+	"carousel.card5.source": "Source is still missing",
+
 	"languageToggleButton.ariaLabelDeLink": "switch to German language",
 	"languageToggleButton.ariaLabelEnLink": "switch to English language",
 

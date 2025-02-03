@@ -14,6 +14,37 @@ export const de = {
 	"header.nav.about": "Über uns",
 	"header.cta": "Jetzt aktiv werden",
 
+	"carousel.title": "Das ist Xhain",
+	"carousel.button.previous.alt":
+		"Fokus auf vorherige Karte im horizontal scrollbaren Abschnitt oberhalb",
+	"carousel.button.next.alt":
+		"Fokus auf nächste Karte im horizontal scrollbaren Abschnitt oberhalb",
+
+	"carousel.infoButton.alt":
+		"Klicke , um die Quelle der Information anzuzeigen",
+
+	"carousel.card1.intro": "",
+	"carousel.card1.description": "Menschen leben in Friedrichshain-Kreuzberg",
+	"carousel.card1.source": "AfS Berlin-B. 2024",
+
+	"carousel.card2.intro": "Auf einen km² leben",
+	"carousel.card2.description": "Menschen",
+	"carousel.card2.source": "AfS Berlin-B. 2024",
+
+	"carousel.card3.intro": "",
+	"carousel.card3.description": "der Fläche ist versiegelt",
+	"carousel.card3.source": "Umweltatlas 2021",
+
+	"carousel.card4.intro": "",
+	"carousel.card4.description": "beträgt der Anteil der Verkehrsfläche in",
+	"carousel.card4.source": "AfS Berlin-B. 2023",
+
+	"carousel.card5.intro": "2023 übernachteten",
+	"carousel.card5.number": "1,6 Mio.",
+	"carousel.card5.description":
+		"Gästinnen in 85 Beherbergungsbetrieben des Bezirks",
+	"carousel.card5.source": "Quelle fehlt noch",
+
 	"languageToggleButton.ariaLabelDeLink": "Zu deutscher Sprache wechseln",
 	"languageToggleButton.ariaLabelEnLink": "Zu englischer Sprache wechseln",
 
