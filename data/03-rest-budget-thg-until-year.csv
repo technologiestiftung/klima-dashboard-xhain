@@ -1,4 +1,7 @@
-﻿climate_goal_celsius;probability_reaching_goal;rest_budget_xhain_thg_tons;budget_used_w_current_trend
-1,75;0,67;21131264,9;2046
-1,5;0,5;10738839,54;2033
-1,5;0,67;6928283,572;2028
+﻿year;tons_co2
+2032;12200000
+2022;110139
+2021;1124538
+2020;1027014
+2019;1105841
+2018;1207306

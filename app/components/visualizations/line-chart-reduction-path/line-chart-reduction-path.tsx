@@ -15,12 +15,16 @@ export const LineChartReductionPath: React.FC = () => {
 	const containerRef = useRef<HTMLDivElement>(null);
 	const { width } = useContainerWidthHeight(containerRef);
 
-	const height = 528;
+	const desktopHeight = 610;
+	const mobileHeight = 400;
+	const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+	const height = isMobile ? mobileHeight : desktopHeight;
 
 	const sizes = {
 		width,
 		height,
-		margin: { top: 0, right: 25, bottom: 50, left: 20 },
+		margin: { top: 0, right: 25, bottom: 30, left: 20 },
 	};
 
 	const xScale = useCallback(

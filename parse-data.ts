@@ -94,10 +94,8 @@ const parseCsvFiles = async (
 	};
 	export const howToReachGoalsData = ${JSON.stringify(howToReachGoalsData, null, 2)} as {
 	restBudgetThgUntilYear: {
-		climate_goal_celsius: number;
-		probability_reaching_goal: number;
-		rest_budget_xhain_thg_tons: number;
-		budget_used_w_current_trend: number;
+		year: number;
+		tons_co2: number;
 	}[];
 	reductionPathScenario175Thg: {
 		year: number;
