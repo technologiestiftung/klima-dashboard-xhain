@@ -116,7 +116,7 @@ const Card: React.FC<CardProps> = ({ id }) => {
 						<p
 							className={`${
 								id === "precipitationMm"
-									? "columns-2 gap-7 text-justify mb-7 mt-4"
+									? "lg:columns-2 gap-7 text-justify mb-7 mt-4"
 									: "mb-7 mt-4"
 							}`}
 						>
