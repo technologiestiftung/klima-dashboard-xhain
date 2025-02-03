@@ -14,6 +14,37 @@ export const de = {
 	"header.nav.about": "Über uns",
 	"header.cta": "Jetzt aktiv werden",
 
+	"carousel.title": "Das ist Xhain",
+	"carousel.button.previous.alt":
+		"Fokus auf vorherige Karte im horizontal scrollbaren Abschnitt oberhalb",
+	"carousel.button.next.alt":
+		"Fokus auf nächste Karte im horizontal scrollbaren Abschnitt oberhalb",
+
+	"carousel.infoButton.alt":
+		"Klicke , um die Quelle der Information anzuzeigen",
+
+	"carousel.card1.intro": "",
+	"carousel.card1.description": "Menschen leben in Friedrichshain-Kreuzberg",
+	"carousel.card1.source": "AfS Berlin-B. 2024",
+
+	"carousel.card2.intro": "Auf einen km² leben",
+	"carousel.card2.description": "Menschen",
+	"carousel.card2.source": "AfS Berlin-B. 2024",
+
+	"carousel.card3.intro": "",
+	"carousel.card3.description": "der Fläche ist versiegelt",
+	"carousel.card3.source": "Umweltatlas 2021",
+
+	"carousel.card4.intro": "",
+	"carousel.card4.description": "beträgt der Anteil der Verkehrsfläche in",
+	"carousel.card4.source": "AfS Berlin-B. 2023",
+
+	"carousel.card5.intro": "2023 übernachteten",
+	"carousel.card5.number": "1,6 Mio.",
+	"carousel.card5.description":
+		"Gästinnen in 85 Beherbergungsbetrieben des Bezirks",
+	"carousel.card5.source": "Quelle fehlt noch",
+
 	"languageToggleButton.ariaLabelDeLink": "Zu deutscher Sprache wechseln",
 	"languageToggleButton.ariaLabelEnLink": "Zu englischer Sprache wechseln",
 
@@ -41,9 +72,13 @@ export const de = {
 	"chart.consumptionEmissionsTons.title":
 		"Konsum- und Ernährungsbedingte Emissionen",
 	"chart.consumptionEmissionsTons.subtitle": "in 2024",
-	"chart.consumptionEmissionsTons.keys.xhain":
-		"Friedrichshain-Kreuzberg (X-Hain)",
-	"chart.consumptionEmissionsTons.keys. per_person": "Pro Person",
+	"chart.consumptionEmissionsTons.keys.xhain": "Xhain",
+	"chart.consumptionEmissionsTons.keys.per_person": "Pro Person",
+	"chart.consumptionEmissionsTons.description":
+		"Um diese Menge zu binden, müssen viele Bäume ein Jahr lang wachsen",
+	"chart.consumptionEmissionsTons.millionUnit": "Mio.",
+	"chart.consumptionEmissionsTons.co2Unit": "Tonnen Co2",
+	"chart.consumptionEmissionsTons.trees": "Bäume",
 
 	"chart.eevTotalMwh.title": "Endenergieverbrauch",
 	"chart.eevTotalMwh.subtitle": "in MWh",
@@ -317,6 +352,12 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 	"consequences.subheading": "Wie verändert sich das Klima?",
 
 	"currentProjects.title": "Was passiert bereits in Xhain?",
+
+	"featureSection.imageAltText": "Bild von einem Projekt",
+	"featureSection.title": "Was passiert bereits in Xhain?",
+	"featureSection.description":
+		"In Xhain werden bereits zahlreiche Projekte umgesetzt um diesen Herausforderungen zu begegnen. Hier gebe﻿n wir euch einen Einblick in einige der bestehenden Projekte.",
+	"featureSection.cta": "Alle Projekte kennenlernen",
 
 	"footer.cardHeading":
 		"Hast du Fragen zum Klimadashboard und den Klimakonzepten?",

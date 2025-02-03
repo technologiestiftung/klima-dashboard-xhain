@@ -21,7 +21,7 @@ export default {
 				3: "3px",
 			},
 			maxWidth: {
-				lg: "1411px",
+				"8xl": "1411px",
 			},
 			colors: {
 				"xhain-blue-80": "#070D24",

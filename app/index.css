@@ -38,7 +38,7 @@
 	}
 
 	.slider-thumb::-webkit-slider-thumb {
-		@apply appearance-none w-8 h-8 border-none  rounded-full cursor-pointer bg-xhain-blue-50;
+		@apply appearance-none w-8 h-8 border-none rounded-full cursor-pointer bg-xhain-blue-50;
 	}
 
 	.slider-thumb::-moz-range-thumb {

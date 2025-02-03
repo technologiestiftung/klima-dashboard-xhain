@@ -96,7 +96,7 @@ export const CircleAreaChart: React.FC<CircleAreaChartProps> = ({
 					<circle cx={x + 20} cy={y} r={r} fill={circleColors[key]} />
 					<text
 						x={x + 20}
-						y={y - 10}
+						y={y - 1}
 						textAnchor="middle"
 						fontSize="16px"
 						fontWeight="bold"
@@ -106,7 +106,7 @@ export const CircleAreaChart: React.FC<CircleAreaChartProps> = ({
 					</text>
 					<text
 						x={x + 20}
-						y={y + 10}
+						y={y + 19}
 						textAnchor="middle"
 						fontSize="16px"
 						fill={xhainBlue80}
