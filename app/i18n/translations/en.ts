@@ -34,11 +34,11 @@ export const en: typeof de = {
 
 	"carousel.card1.intro": "",
 	"carousel.card1.description": "People live in Friedrichshain-Kreuzberg",
-	"carousel.card1.source": "Office for Statistics Berlin-Brandenburg 2024",
+	"carousel.card1.source": "Statistics Berlin-Brandenburg 2024",
 
 	"carousel.card2.intro": "",
 	"carousel.card2.description": "people live within one km²",
-	"carousel.card2.source": "Office for Statistics Berlin-Brandenburg 2024",
+	"carousel.card2.source": "Statistics Berlin-Brandenburg 2024",
 
 	"carousel.card3.intro": "",
 	"carousel.card3.description": "of the area is sealed",
@@ -46,13 +46,13 @@ export const en: typeof de = {
 
 	"carousel.card4.intro": "",
 	"carousel.card4.description": "is the share of traffic area in",
-	"carousel.card4.source": "Office for Statistics Berlin-Brandenburg 2023",
+	"carousel.card4.source": "Statistics Berlin-Brandenburg 2023",
 
 	"carousel.card5.intro": "In 2023",
 	"carousel.card5.number": "1,6 Mio.",
 	"carousel.card5.description":
 		"guests stayed overnight in 85 accommodations in the district",
-	"carousel.card5.source": "Source is still missing",
+	"carousel.card5.source": "Berlin.de",
 
 	"languageToggleButton.ariaLabelDeLink": "switch to German language",
 	"languageToggleButton.ariaLabelEnLink": "switch to English language",
