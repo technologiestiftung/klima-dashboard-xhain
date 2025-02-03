@@ -83,7 +83,7 @@ export default function Index() {
 				</div>
 			</section>
 
-			<section className="px-5 lg:px-20">
+			<section className="px-5 lg:px-20 max-w-lg m-auto">
 				<FeatureSection />
 			</section>
 		</>
