@@ -53,7 +53,7 @@ export const LineChartReductionPath: React.FC = () => {
 	return (
 		<div>
 			<p className="mb-7 mt-4 columns-2 gap-7 text-justify">
-				{i18n("chart.precipitationMm.description")}
+				{i18n("chart.reductionPathScenario175Thg.description")}
 			</p>
 
 			<div className="h-full" ref={containerRef}>

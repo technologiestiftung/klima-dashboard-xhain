@@ -50,9 +50,9 @@ export const HoverableBarsReductionPath: React.FC<
 	useFocusLeave(parentRef, () => setVisibleYear(undefined));
 
 	const legendColors = [
-		"bg-xhain-blue-30",
 		"bg-xhain-blue-40",
-		"border-xhain-blue-80 border border-2",
+		"bg-xhain-blue-30",
+		"border-xhain-green-60 border border-2",
 	];
 
 	return (
@@ -69,7 +69,6 @@ export const HoverableBarsReductionPath: React.FC<
 						opacity={0.5}
 						data-year={d.year}
 						stroke="transparent"
-						tabIndex={0}
 						strokeWidth={20}
 						onMouseEnter={visibleYearHandler}
 						onClick={visibleYearHandler}
