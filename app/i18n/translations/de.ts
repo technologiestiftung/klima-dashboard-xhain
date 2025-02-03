@@ -1,6 +1,14 @@
 export const de = {
 	"header.title": "Klima Dashboard Xhain",
 
+	"heroSection.eyebrowText": "Klimadashboard",
+	"heroSection.heading": "Klimawandel in Friedrichshain-Kreuzberg",
+	"heroSection.subheading":
+		"Zahlen, Fakten, Handlungsbedarf – für ein lebenswertes Xhain",
+	"heroSection.mediumTemperature.averageTempText": "Mittlere Jahrestemperatur",
+	"heroSection.mediumTemperature.locationText":
+		"in Friedrichshain-Kreuzberg nach Phasen",
+
 	"weatherCard.title": "Aktuelles Wetter",
 	"weatherCard.currently": "aktuell",
 	"weatherCard.time": "Uhr",
@@ -74,7 +82,7 @@ export const de = {
 	"chart.consumptionEmissionsTons.subtitle": "in 2024",
 	"chart.consumptionEmissionsTons.keys.xhain": "Xhain",
 	"chart.consumptionEmissionsTons.keys.per_person": "Pro Person",
-	"chart.consumptionEmissionsTons.description":
+	"chart.consumptionEmissionsTons.descriptionText":
 		"Um diese Menge zu binden, müssen viele Bäume ein Jahr lang wachsen",
 	"chart.consumptionEmissionsTons.millionUnit": "Mio.",
 	"chart.consumptionEmissionsTons.co2Unit": "Tonnen Co2",

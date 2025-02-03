@@ -102,6 +102,7 @@ const Card: React.FC<CardProps> = ({ id }) => {
 
 	const title = i18n(`chart.${id}.title`);
 	const subTitle = i18n(`chart.${id}.subtitle`);
+	const description = i18n(`chart.${id}.description` as keyof typeof i18n);
 
 	const { size, color, component: Chart } = charts[id];
 
@@ -125,11 +126,22 @@ const Card: React.FC<CardProps> = ({ id }) => {
 						className={`
 							flex items-center px-3 py-0.5 gap-x-2 bg-xhain-blue-50 text-white rounded-full my-3 font-semibold 
 							hover:bg-xhain-blue-60 focus:outline focus:outline-3 focus:outline-xhain-blue-80 focus:outline-offset-5
-						`}
+							`}
 					>
 						<img src={"/images/i-icon.svg"} alt={""} />
 						{i18n("button.moreInfo")}
 					</button>
+					{description && (
+						<p
+							className={`${
+								id === "precipitationMm"
+									? "lg:columns-2 gap-7 text-justify mb-7 mt-4"
+									: "mb-7 mt-4"
+							}`}
+						>
+							{description}
+						</p>
+					)}
 					<table className="sr-only">
 						<caption>{title}</caption>
 						<thead>

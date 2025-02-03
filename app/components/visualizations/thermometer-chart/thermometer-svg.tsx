@@ -1,5 +1,5 @@
 import React from "react";
-import { xhainGreen50, xhainBlue80 } from "../colors";
+import { xhainBlue80 } from "../colors";
 
 interface ThermometerSVGProps {
 	celsius: number;
@@ -28,7 +28,7 @@ const ThermometerSVG: React.FC<ThermometerSVGProps> = ({
 				{/* Fill Circle*/}
 				<path
 					d="M 53.5,489.769 m -31,0 a 31,31 0 1,0 62,0 a 31,31 0 1,0 -62,0"
-					fill={xhainGreen50}
+					fill="var(--thermometer-color, #99EE63)"
 				/>
 				{/* Fill line */}
 				<rect
@@ -36,7 +36,7 @@ const ThermometerSVG: React.FC<ThermometerSVGProps> = ({
 					y={`${462 - calculateFillHeight(celsius) * 4}`}
 					width="18"
 					height={`${calculateFillHeight(celsius) * 4}`}
-					fill={xhainGreen50}
+					fill="var(--thermometer-color, #99EE63)"
 					className="transition-all duration-1000 ease-in-out"
 				/>
 				{/* Outer Shell */}

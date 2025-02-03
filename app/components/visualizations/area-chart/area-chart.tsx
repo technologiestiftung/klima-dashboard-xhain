@@ -1,6 +1,5 @@
 import React, { useRef, useCallback } from "react";
 import * as d3 from "d3";
-import { i18n } from "~/i18n/i18n-utils";
 import { useContainerWidthHeight } from "~/hooks/use-container-width-height";
 import { consequencesData } from "~/data";
 import { AreaPath } from "./area-path";
@@ -46,28 +45,23 @@ export const AreaChart: React.FC = () => {
 	);
 
 	return (
-		<div>
-			<p className="mb-7 mt-4 columns-2 gap-7 text-justify">
-				{i18n("chart.precipitationMm.description")}
-			</p>
-			<div ref={containerRef}>
-				<svg ref={chartRef} width={width} height={height}>
-					<Gradient />
-					<AreaPath xScale={xScale} yScale={yScale} sizes={sizes} />
-					<YReferenceLines
-						yScale={yScale}
-						sizes={sizes}
-						yReferenceLineValues={[200, 400]}
-					/>
-					<XAxis
-						sizes={sizes}
-						xScale={xScale}
-						data={precipitationMm}
-						filterInterval={10}
-					/>
-					<TrendLine data={precipitationMm} xScale={xScale} yScale={yScale} />
-				</svg>
-			</div>
+		<div ref={containerRef}>
+			<svg ref={chartRef} width={width} height={height}>
+				<Gradient />
+				<AreaPath xScale={xScale} yScale={yScale} sizes={sizes} />
+				<YReferenceLines
+					yScale={yScale}
+					sizes={sizes}
+					yReferenceLineValues={[200, 400]}
+				/>
+				<XAxis
+					sizes={sizes}
+					xScale={xScale}
+					data={precipitationMm}
+					filterInterval={10}
+				/>
+				<TrendLine data={precipitationMm} xScale={xScale} yScale={yScale} />
+			</svg>
 		</div>
 	);
 };

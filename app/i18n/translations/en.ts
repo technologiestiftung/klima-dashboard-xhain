@@ -3,6 +3,14 @@ import { de } from "./de";
 export const en: typeof de = {
 	"header.title": "Climate Dashboard Xhain",
 
+	"heroSection.eyebrowText": "Climate dashboard",
+	"heroSection.heading": "Climate change in Friedrichshain-Kreuzberg",
+	"heroSection.subheading":
+		"Figures, facts, need for action - for a desirable Xhain",
+	"heroSection.mediumTemperature.averageTempText": "Average annual temperature",
+	"heroSection.mediumTemperature.locationText":
+		"in Friedrichshain-Kreuzberg by phases",
+
 	"weatherCard.title": "Current weather",
 	"weatherCard.currently": "currently",
 	"weatherCard.time": "",
@@ -75,7 +83,7 @@ export const en: typeof de = {
 	"chart.consumptionEmissionsTons.subtitle": "in 2024",
 	"chart.consumptionEmissionsTons.keys.xhain": "Xhain",
 	"chart.consumptionEmissionsTons.keys.per_person": "Per person",
-	"chart.consumptionEmissionsTons.description":
+	"chart.consumptionEmissionsTons.descriptionText":
 		"To offset this amount, many trees must grow for a year",
 	"chart.consumptionEmissionsTons.millionUnit": "M.",
 	"chart.consumptionEmissionsTons.co2Unit": "Tons Co2",

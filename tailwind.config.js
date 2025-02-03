@@ -8,6 +8,10 @@ export default {
 			fontFamily: {
 				sans: ["Raleway", "sans-serif"],
 			},
+			screens: {
+				xl: "1363px",
+				"2xl": "1440px",
+			},
 			borderRadius: {
 				"4xl": "30px",
 				"2.5xl": "20px",
