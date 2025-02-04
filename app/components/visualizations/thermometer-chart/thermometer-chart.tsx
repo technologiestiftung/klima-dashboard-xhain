@@ -6,7 +6,11 @@ import { RadioToggle } from "~/components/radio-toggle/radio-toggle";
 
 type OptionsKeys = "1950" | "current" | "2100";
 
-const ThermometerChart: React.FC = () => {
+interface ThermometerChartProps {
+	radioId?: string;
+}
+
+const ThermometerChart: React.FC<ThermometerChartProps> = ({ radioId }) => {
 	const data = consequencesData.mediumTemperature;
 	const [selectedIndex, setSelectedIndex] = useState(1);
 	const maxTemperature = 15; // Maximum temperature for scaling
@@ -33,7 +37,7 @@ const ThermometerChart: React.FC = () => {
 					options={radioOptions}
 					defaultValue={selectedIndex.toString()}
 					onSelectionChange={(value) => setSelectedIndex(parseInt(value))}
-					radioID="medium-temperature"
+					radioID={radioId ? radioId : "medium-temperature"}
 				/>
 			</div>
 		</div>
