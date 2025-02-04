@@ -56,7 +56,7 @@ export default function Index() {
 				<h2 className="text-5xl font-semibold p-5 md:px-0 mb-3 lg:mb-6 mx-auto w-full max-w-[894px]">
 					{i18n("charts.title")}
 				</h2>
-				<div className="grid grid-cols-1 desktop:grid-cols-3 gap-5 mb-10 desktop:mb-20 max-w-8xl mx-auto w-full">
+				<div className="grid grid-cols-1 desktop:grid-cols-3 gap-4 desktop:gap-5 max-w-8xl mx-auto w-full">
 					{howXhainContributes.map((id) => (
 						<Card key={id.toString()} id={id} />
 					))}

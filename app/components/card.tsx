@@ -145,7 +145,7 @@ const Card: React.FC<CardProps> = ({ id }) => {
 						/>
 					)}
 
-					<table className="sr-only">
+					<table className="sr-only flex">
 						<caption>{title}</caption>
 						<thead>
 							<tr>
