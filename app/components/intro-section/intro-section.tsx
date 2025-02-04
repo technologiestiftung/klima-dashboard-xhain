@@ -7,11 +7,11 @@ export const IntroSection: React.FC = () => {
 	const [expanded, setExpanded] = useState(false);
 
 	return (
-		<div className="mx-auto p-10 lg:p-20 max-w-8xl text-xhain-blue-80">
+		<div className="mx-auto px-5 py-10 lg:p-20 max-w-[894px] text-xhain-blue-80">
 			<p
 				className="text-base leading-6 lg:text-2xl lg:leading-8 font-normal"
 				dangerouslySetInnerHTML={{ __html: i18n("introSection.overview") }}
-			></p>
+			/>
 			<ul className="list-disc pl-7">
 				<li className="text-base leading-6 lg:text-2xl lg:leading-8 font-semibold">
 					{i18n("introSection.keyQuestion1")}
@@ -29,17 +29,17 @@ export const IntroSection: React.FC = () => {
 					<p
 						className="mb-4 text-base leading-6 lg:text-2xl lg:leading-8 font-normal"
 						dangerouslySetInnerHTML={{ __html: i18n("introSection.dataBasis") }}
-					></p>
+					/>
 					<p
 						className="mb-4 text-base leading-6 lg:text-2xl lg:leading-8 font-normal"
 						dangerouslySetInnerHTML={{
 							__html: i18n("introSection.collaboration"),
 						}}
-					></p>
+					/>
 					<p
 						className="mb-4 text-base leading-6 lg:text-2xl lg:leading-8 font-normal"
 						dangerouslySetInnerHTML={{ __html: i18n("introSection.goals") }}
-					></p>
+					/>
 				</>
 			)}
 			<button
