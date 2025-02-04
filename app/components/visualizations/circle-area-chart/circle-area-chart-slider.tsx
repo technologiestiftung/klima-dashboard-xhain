@@ -15,10 +15,16 @@ export const CircleAreaChartSlider: React.FC = () => {
 	const ref = useRef<HTMLDivElement>(null);
 	const { width } = useContainerWidthHeight(ref);
 
+	// const rangeSliderRef = useRef<HTMLInputElement>(null);
+	// const { width: rangeSliderWidth } = useContainerWidthHeight(rangeSliderRef);
+	//
+	// console.log(rangeSliderWidth);
+
 	return (
 		<div ref={ref} className="flex flex-col gap-y-4">
-			<CircleAreaChart width={width} height={280} year={selectedYear} />
+			<CircleAreaChart width={width} height={235} year={selectedYear} />
 			<input
+				// ref={rangeSliderRef}
 				id="thgTotalTonsSliderChart"
 				type="range"
 				min={minYear}
@@ -31,19 +37,34 @@ export const CircleAreaChartSlider: React.FC = () => {
 				className="appearance-none bg-xhain-blue-30 rounded-full h-3 slider-thumb cursor-pointer"
 			/>
 
-			<label className="flex justify-between" htmlFor="thgTotalTonsSliderChart">
-				{years.map((year, index) => (
-					<span
-						className={`
+			<label className="flex w-full" htmlFor="thgTotalTonsSliderChart">
+				{/* WIP */}
+				{/*{width <= 320 &&*/}
+				{/*	years.map((year, index) => (*/}
+				{/*		<span*/}
+				{/*			className={`*/}
+				{/*				text-xs w-8 text-center*/}
+				{/*				${year === selectedYear ? "font-bold" : ""}*/}
+				{/*			`}*/}
+				{/*			key={year}*/}
+				{/*		>*/}
+				{/*			{year}*/}
+				{/*		</span>*/}
+				{/*	))}*/}
+
+				{width > 320 &&
+					years.map((year, index) => (
+						<span
+							className={`
 						text-xs w-8 text-center
 						${year === selectedYear && "font-bold"}
 						${year === selectedYear || index === 0 || index === years.length - 1 ? "visible" : "invisible"}
 						`}
-						key={year}
-					>
-						{year}
-					</span>
-				))}
+							key={year}
+						>
+							{year}
+						</span>
+					))}
 			</label>
 		</div>
 	);

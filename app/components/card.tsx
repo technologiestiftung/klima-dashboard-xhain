@@ -32,42 +32,42 @@ const charts = {
 	eevTotalMwh: {
 		component: LineChartEEV,
 		color: "bg-xhain-blue-10",
-		size: "col-span-1 lg:col-span-2 row-span-1",
+		size: "lg:col-span-2",
 	},
 	eevSector2021Mwh: {
 		component: DonutChartEEV,
 		color: "bg-xhain-blue-10",
-		size: "col-span-1 row-span-1",
+		size: "",
 	},
 	heatingMix2021Summarized: {
 		component: StackedBarChart,
 		color: "bg-xhain-green-20",
-		size: "col-span-1 row-span-2",
+		size: "lg:row-span-2",
 	},
 	thgSector2021Tons: {
 		component: BarChartThg,
 		color: "bg-xhain-green-20",
-		size: "col-span-1 row-span-1",
+		size: "",
 	},
 	thgTotalTons: {
 		component: CircleAreaChartSlider,
 		color: "bg-xhain-green-20",
-		size: "col-span-1 row-span-1",
+		size: "",
 	},
 	consumptionEmissionsTons: {
 		component: ConsumptionEmissionsChart,
 		color: "bg-xhain-blue-10",
-		size: "col-span-2 row-span-1",
+		size: "lg:col-span-2",
 	},
 	modalSplit2018: {
 		component: BarChartModalSplit,
 		color: "bg-xhain-blue-10",
-		size: "col-span-1 lg:col-span-2 row-span-1",
+		size: "lg:col-span-2",
 	},
 	traffic2022Summarized: {
 		component: DonutChartTraffic,
 		color: "bg-xhain-blue-10",
-		size: "col-span-1 row-span-1",
+		size: "",
 	},
 	restBudgetThgUntilYear: {
 		component: BucketChart,
@@ -82,17 +82,17 @@ const charts = {
 	hotDays: {
 		component: ChartHotDays,
 		color: "bg-xhain-blue-10",
-		size: "col-span lg:col-span-2 row-span-1",
+		size: "lg:col-span-2",
 	},
 	precipitationMm: {
 		component: AreaChart,
 		color: "bg-xhain-blue-10",
-		size: "col-span lg:col-span-2 row-span-1",
+		size: "lg:col-span-2",
 	},
 	mediumTemperature: {
 		component: ThermometerChart,
 		color: "bg-xhain-green-10",
-		size: "col-span-1 row-span-2",
+		size: "lg:row-span-2",
 	},
 };
 
@@ -117,7 +117,7 @@ const Card: React.FC<CardProps> = ({ id }) => {
 	return (
 		<figure className={`${size}`}>
 			<div
-				className={`p-5 rounded-2.5xl md:rounded-4xl w-full h-full row-span-1 ${color}`}
+				className={`p-5 rounded-2.5xl md:rounded-4xl w-full h-fit row-span-1 ${color}`}
 			>
 				<figcaption>
 					<h2 className="text-xl font-bold">{title}</h2>
