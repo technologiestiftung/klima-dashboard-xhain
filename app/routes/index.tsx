@@ -52,11 +52,11 @@ export default function Index() {
 				<Carousel />
 			</section>
 
-			<section className="px-5 lg:px-20">
-				<h2 className="text-5xl font-semibold p-5 mb-3 lg:mb-6">
+			<section className="px-5 py-10 lg:py-20 lg:px-20 gap-14">
+				<h2 className="text-5xl font-semibold p-5 mb-3 lg:mb-6 mx-auto w-full max-w-[894px]">
 					{i18n("charts.title")}
 				</h2>
-				<div className="grid grid-cols-1 lg:grid-cols-3 gap-5 mb-10 lg:mb-20">
+				<div className="grid grid-cols-1 lg:grid-cols-3 gap-5 mb-10 lg:mb-20 max-w-8xl mx-auto w-full">
 					{howXhainContributes.map((id) => (
 						<Card key={id.toString()} id={id} />
 					))}
