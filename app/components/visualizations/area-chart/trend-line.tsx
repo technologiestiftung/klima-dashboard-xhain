@@ -1,6 +1,7 @@
 import React from "react";
 import * as d3 from "d3";
 import { setYear } from "date-fns";
+import { formatNumber } from "~/i18n/i18n-utils";
 
 interface TrendLineProps {
 	data: { year: number; rain: number }[];
@@ -32,6 +33,9 @@ export const TrendLine: React.FC<TrendLineProps> = ({
 		{ x: xScale(setYear(new Date(), xMax)), y: yScale(m * xMax + b) },
 	];
 
+	// change of the trend
+	const change = ((m * xMax + b - (m * xMin + b)) / (m * xMin + b)) * 100;
+
 	return (
 		<>
 			<line
@@ -44,11 +48,18 @@ export const TrendLine: React.FC<TrendLineProps> = ({
 				strokeDasharray="5,5"
 			/>
 			<text
-				x={trendLine[0].x}
-				y={trendLine[0].y + 15}
+				x={trendLine[0].x + 10}
+				y={trendLine[0].y + 18}
 				className="leading-6 font-bold"
 			>
 				Trend
+			</text>
+			<text
+				x={trendLine[1].x - 40}
+				y={trendLine[1].y + 18}
+				className="leading-6 font-bold"
+			>
+				{formatNumber(change)} %
 			</text>
 		</>
 	);
