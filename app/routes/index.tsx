@@ -72,7 +72,7 @@ export default function Index() {
 						{i18n("howToReachGoals.description")}
 					</p>
 				</div>
-				<div className="grid grid-cols-1 desktop:grid-cols-3 gap-4 desktop:gap-5 p-4 desktop:p-5 max-w-8xl mx-auto w-full">
+				<div className="grid grid-cols-1 desktop:grid-cols-3 gap-4 desktop:gap-5 max-w-8xl mx-auto w-full">
 					{howToReachGoals.map((id) => (
 						<Card key={id.toString()} id={id} />
 					))}
