@@ -14,12 +14,14 @@ const { precipitationMm } = consequencesData;
 export const AreaChart: React.FC = () => {
 	const chartRef = useRef<SVGSVGElement | null>(null);
 	const containerRef = useRef<HTMLDivElement>(null);
-	const { width, height } = useContainerWidthHeight(containerRef);
+	const { width } = useContainerWidthHeight(containerRef);
+
+	const height = 260;
 
 	const sizes = {
 		width,
 		height,
-		margin: { top: 0, right: 25, bottom: 50, left: 20 },
+		margin: { top: 0, right: 25, bottom: 25, left: 20 },
 	};
 
 	const xScale = useCallback(
@@ -38,7 +40,7 @@ export const AreaChart: React.FC = () => {
 	const yScale = useCallback(
 		d3
 			.scaleLinear()
-			.domain([0, d3.max(precipitationMm, (d) => d.rain) as number])
+			.domain([0, d3.max(precipitationMm, (d) => d.rain - 10) as number])
 			.nice()
 			.range([height, sizes.margin.bottom]),
 		[precipitationMm, height],

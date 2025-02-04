@@ -21,13 +21,6 @@ const colors = [
 export const BucketChart: React.FC = () => {
 	return (
 		<div className="flex flex-col w-full h-full">
-			<p
-				className="mb-7 mt-4 flex flex-col gap-2 "
-				dangerouslySetInnerHTML={{
-					__html: i18n("chart.restBudgetThgUntilYear.description"),
-				}}
-			/>
-
 			<div className="relative w-fit mx-auto h-full flex justify-center items-center">
 				<img src={"/images/bucket.svg"} alt="" className="w-80" />
 				<div className="absolute top-0 h-full flex flex-col justify-center xl:justify-between items-center gap-2 md:py-3 px-[16%] mx-auto">
