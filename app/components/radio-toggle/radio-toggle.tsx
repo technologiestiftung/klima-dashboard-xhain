@@ -21,8 +21,8 @@ export function RadioToggle<T extends string>({
 					key={value}
 					className={`
 						px-2.5 py-1 rounded-full inline-flex text-center relative z-10 cursor-pointer
-						has-[:focus]:outline has-[:focus]:outline-xhain-blue-80 has- has-[:checked]:bg-xhain-green-50 hover:bg-xhain-blue-20
-					`}
+						has-[:focus]:outline has-[:focus]:outline-xhain-blue-80 has- has-[:checked]:bg-xhain-green-50 hover:bg-xhain-blue-20 
+						${defaultValue === value ? "bg-xhain-green-50" : "hover:bg-xhain-blue-20"}`}
 				>
 					<input
 						type="radio"

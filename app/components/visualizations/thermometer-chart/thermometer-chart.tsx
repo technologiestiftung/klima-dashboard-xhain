@@ -8,7 +8,7 @@ type OptionsKeys = "1950" | "current" | "2100";
 
 const ThermometerChart: React.FC = () => {
 	const data = consequencesData.mediumTemperature;
-	const [selectedIndex, setSelectedIndex] = useState(0);
+	const [selectedIndex, setSelectedIndex] = useState(1);
 	const maxTemperature = 15; // Maximum temperature for scaling
 	const minTemperature = 5; // Minimum temperature for scaling
 
