@@ -7,7 +7,6 @@ import { HoverableBarsReductionPath } from "./hoverable-bars-reduction-path";
 import { howToReachGoalsData } from "~/data";
 import { setYear } from "date-fns";
 import { useContainerWidthHeight } from "~/hooks/use-container-width-height";
-import { i18n } from "~/i18n/i18n-utils";
 
 const { reductionPathScenario175Thg } = howToReachGoalsData;
 
@@ -15,7 +14,7 @@ export const LineChartReductionPath: React.FC = () => {
 	const containerRef = useRef<HTMLDivElement>(null);
 	const { width } = useContainerWidthHeight(containerRef);
 
-	const desktopHeight = 610;
+	const desktopHeight = 670;
 	const mobileHeight = 400;
 	const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
@@ -56,10 +55,6 @@ export const LineChartReductionPath: React.FC = () => {
 
 	return (
 		<div>
-			<p className="mb-7 mt-4 columns-2 gap-7 text-justify">
-				{i18n("chart.reductionPathScenario175Thg.description")}
-			</p>
-
 			<div className="h-full" ref={containerRef}>
 				<svg width={width} height={height}>
 					<AreaReductionPath xScale={xScale} yScale={yScale} sizes={sizes} />

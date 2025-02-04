@@ -53,10 +53,10 @@ export default function Index() {
 			</section>
 
 			<section className="px-5 py-10 lg:py-20 lg:px-20 gap-14">
-				<h2 className="text-5xl font-semibold p-5 mb-3 lg:mb-6 mx-auto w-full max-w-[894px]">
+				<h2 className="text-5xl font-semibold p-5 md:px-0 mb-3 lg:mb-6 mx-auto w-full max-w-[894px]">
 					{i18n("charts.title")}
 				</h2>
-				<div className="grid grid-cols-1 lg:grid-cols-3 gap-5 mb-10 lg:mb-20 max-w-8xl mx-auto w-full">
+				<div className="grid grid-cols-1 desktop:grid-cols-3 gap-5 mb-10 desktop:mb-20 max-w-8xl mx-auto w-full">
 					{howXhainContributes.map((id) => (
 						<Card key={id.toString()} id={id} />
 					))}
@@ -72,24 +72,26 @@ export default function Index() {
 						{i18n("howToReachGoals.description")}
 					</p>
 				</div>
-				<div className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-5 p-4 lg:p-5 max-w-8xl mx-auto w-full">
+				<div className="grid grid-cols-1 desktop:grid-cols-3 gap-4 desktop:gap-5 p-4 desktop:p-5 max-w-8xl mx-auto w-full">
 					{howToReachGoals.map((id) => (
 						<Card key={id.toString()} id={id} />
 					))}
 				</div>
 			</section>
 
-			<section className="px-5 lg:px-20">
-				<h2 className="text-2xl leading-8 font-bold lg:text-5xl lg:leading-none mb-3 lg:mb-6">
-					{i18n("consequences.title")}
-				</h2>
-				<p className="mb-[40px] lg:mb-10 text-base leading-6 font-normal lg:text-xl lg:leading-7">
-					{i18n("consequences.description")}
-				</p>
-				<h3 className="text-lg leading-7 lg:text-2xl lg:leading-8 font-bold mb-3 lg:mb-10">
+			<section className="px-5 py-10 lg:py-20 lg:px-20 gap-14">
+				<div className="mx-auto w-full max-w-[894px]">
+					<h2 className="text-2xl leading-8 font-bold lg:text-5xl lg:leading-none mb-3 lg:mb-6">
+						{i18n("consequences.title")}
+					</h2>
+					<p className="mb-[40px] lg:mb-10 text-base leading-6 font-normal lg:text-xl lg:leading-7">
+						{i18n("consequences.description")}
+					</p>
+				</div>
+				<h3 className="text-lg leading-7 lg:text-2xl lg:leading-8 font-bold mb-3 lg:mb-10 max-w-8xl mx-auto w-full">
 					{i18n("consequences.subheading")}
 				</h3>
-				<div className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-5 mb-10 lg:mb-20">
+				<div className="grid grid-cols-1 desktop:grid-cols-3 gap-4 desktop:gap-5 mb-10 desktop:mb-20 max-w-8xl mx-auto w-full">
 					{consequences.map((id) => (
 						<Card key={id.toString()} id={id} />
 					))}

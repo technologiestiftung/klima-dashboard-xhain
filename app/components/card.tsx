@@ -32,67 +32,67 @@ const charts = {
 	eevTotalMwh: {
 		component: LineChartEEV,
 		color: "bg-xhain-blue-10",
-		size: "lg:col-span-2",
+		size: "desktop:col-span-2 desktop:h-singleCard",
 	},
 	eevSector2021Mwh: {
 		component: DonutChartEEV,
 		color: "bg-xhain-blue-10",
-		size: "",
+		size: "desktop:h-singleCard",
 	},
 	heatingMix2021Summarized: {
 		component: StackedBarChart,
 		color: "bg-xhain-green-20",
-		size: "lg:row-span-2",
+		size: "desktop:row-span-2 desktop:h-doubleCard",
 	},
 	thgSector2021Tons: {
 		component: BarChartThg,
 		color: "bg-xhain-green-20",
-		size: "",
+		size: "desktop:h-singleCard",
 	},
 	thgTotalTons: {
 		component: CircleAreaChartSlider,
 		color: "bg-xhain-green-20",
-		size: "",
+		size: "desktop:h-singleCard",
 	},
 	consumptionEmissionsTons: {
 		component: ConsumptionEmissionsChart,
 		color: "bg-xhain-blue-10",
-		size: "lg:col-span-2",
+		size: "desktop:col-span-2 desktop:h-singleCard",
 	},
 	modalSplit2018: {
 		component: BarChartModalSplit,
 		color: "bg-xhain-blue-10",
-		size: "lg:col-span-2",
+		size: "desktop:col-span-2 desktop:h-singleCard",
 	},
 	traffic2022Summarized: {
 		component: DonutChartTraffic,
 		color: "bg-xhain-blue-10",
-		size: "",
+		size: "desktop:h-singleCard",
 	},
 	restBudgetThgUntilYear: {
 		component: BucketChart,
 		color: "bg-xhain-blue-10",
-		size: "col-span-1 row-span-2",
+		size: "col-span-1 row-span-2 ",
 	},
 	reductionPathScenario175Thg: {
 		component: LineChartReductionPath,
 		color: "bg-xhain-blue-10",
-		size: "col-span-1 lg:col-span-2 row-span-2",
+		size: "col-span-1 desktop:col-span-2 row-span-2 ",
 	},
 	hotDays: {
 		component: ChartHotDays,
 		color: "bg-xhain-blue-10",
-		size: "lg:col-span-2",
+		size: "desktop:col-span-2 desktop:h-singleCard",
 	},
 	precipitationMm: {
 		component: AreaChart,
 		color: "bg-xhain-blue-10",
-		size: "lg:col-span-2",
+		size: "desktop:col-span-2 desktop:h-singleCard",
 	},
 	mediumTemperature: {
 		component: ThermometerChart,
 		color: "bg-xhain-green-10",
-		size: "lg:row-span-2",
+		size: "desktop:row-span-2 desktop:h-doubleCard",
 	},
 };
 
@@ -117,7 +117,7 @@ const Card: React.FC<CardProps> = ({ id }) => {
 	return (
 		<figure className={`${size}`}>
 			<div
-				className={`p-5 rounded-2.5xl md:rounded-4xl w-full h-fit row-span-1 ${color}`}
+				className={`p-5 max-w-mobile mx-auto desktop:max-w-none desktop:mx-none rounded-2.5xl md:rounded-4xl w-full h-full row-span-1 ${color}`}
 			>
 				<figcaption>
 					<h2 className="text-xl font-bold">{title}</h2>
@@ -125,7 +125,7 @@ const Card: React.FC<CardProps> = ({ id }) => {
 					<button
 						onClick={showDialog}
 						className={`
-							flex items-center px-3 py-0.5 gap-x-2 bg-xhain-blue-50 text-white rounded-full my-3 font-semibold 
+							flex items-center px-3 py-0.5 gap-x-2 bg-xhain-blue-50 text-white rounded-full my-3 font-semibold
 							hover:bg-xhain-blue-60 focus:outline focus:outline-3 focus:outline-xhain-blue-80 focus:outline-offset-5
 							`}
 					>
@@ -134,15 +134,17 @@ const Card: React.FC<CardProps> = ({ id }) => {
 					</button>
 					{description && (
 						<p
-							className={`${
-								id === "precipitationMm"
-									? "lg:columns-2 gap-7 text-justify mb-7 mt-4"
-									: "mb-7 mt-4"
+							className={`my-4 flex flex-col ${
+								id === "precipitationMm" || id === "reductionPathScenario175Thg"
+									? "lg:columns-2 gap-7 text-justify"
+									: "gap-2"
 							}`}
-						>
-							{description}
-						</p>
+							dangerouslySetInnerHTML={{
+								__html: description,
+							}}
+						/>
 					)}
+
 					<table className="sr-only">
 						<caption>{title}</caption>
 						<thead>
