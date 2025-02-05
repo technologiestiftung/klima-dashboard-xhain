@@ -29,12 +29,6 @@ export const de = {
 	  Entwickelt wurde das Dashboard in enger Zusammenarbeit zwischen dem Klimateam 
 	  Friedrichshain-Kreuzberg und dem <a href='https://citylab-berlin.org/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>CityLAB Berlin.</a></br></br>
 	`,
-	"introSection.goals": `
-	  Während Klimaschutz darauf abzielt, Treibhausgasemissionen zu reduzieren und so das 
-	  Ausmaß des Klimawandels zu begrenzen, liegt der Fokus bei Klimaanpassung darauf, uns 
-	  an die bisherigen und zu erwartenden Folgen des Klimawandels, wie zunehmende Hitze und 
-	  Starkregen, anzupassen.
-	`,
 	"introSection.showLess": "weniger anzeigen",
 	"introSection.showMore": "mehr anzeigen",
 	"introSection.expandedAltText": "Abschnitt einklappen",
