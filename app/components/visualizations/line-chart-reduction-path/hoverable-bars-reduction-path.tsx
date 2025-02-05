@@ -50,9 +50,8 @@ export const HoverableBarsReductionPath: React.FC<
 	useFocusLeave(parentRef, () => setVisibleYear(undefined));
 
 	const legendColors = [
-		"bg-xhain-blue-40",
-		"bg-xhain-blue-30",
-		"border-xhain-blue-80 border border-2 border-dashed",
+		"bg-xhain-blue-50 size-5",
+		"border-t-xhain-blue-80 border-t-2 border-dotted w-5 h-1",
 	];
 
 	return (
@@ -77,24 +76,14 @@ export const HoverableBarsReductionPath: React.FC<
 					<rect
 						x={xScale(setYear(new Date(), d.year)) - 0.5}
 						y={
-							yScale(
-								Math.max(
-									Number(d.goal_xhain_tons),
-									d.electricity_total_tons + d.heating_total_tons,
-								),
-							) -
+							yScale(Math.max(Number(d.goal_berlin_tons), d.model_xhain_tons)) -
 							bottom +
 							top
 						}
 						width={1}
 						height={
 							sizes.height -
-							yScale(
-								Math.max(
-									Number(d.goal_xhain_tons),
-									d.electricity_total_tons + d.heating_total_tons,
-								),
-							) -
+							yScale(Math.max(Number(d.goal_berlin_tons), d.model_xhain_tons)) -
 							top
 						}
 						fill={visibleYear === d.year.toString() ? "black" : "transparent"}
@@ -109,22 +98,18 @@ export const HoverableBarsReductionPath: React.FC<
 					/>
 					<foreignObject
 						transform={`translate(${getTranslateX({ xScale, d, sizes })}, 0)`}
-						width="100"
+						width="120"
 						height="150"
 						className={`${visibleYear === d.year.toString() ? "block" : "hidden"}`}
 					>
 						<div className="bg-white rounded-5px flex flex-col p-2">
 							<span className="font-semibold">{d.year}</span>
-							{[
-								d.electricity_total_tons,
-								d.heating_total_tons,
-								d.goal_xhain_tons,
-							].map((tons, i) =>
+							{[d.model_xhain_tons, d.goal_berlin_tons].map((tons, i) =>
 								// filter out first goal_xhain_tons value which has 0 as a placeholder
 								Number(tons) !== 0 ? (
-									<span key={tons} className="flex items-center gap-x-1">
-										<div className={`rounded-xs size-4 ${legendColors[i]}`} />
-										{`${formatNumber(Number(tons))}`}
+									<span key={tons + i} className="flex items-center gap-x-1">
+										<div className={`rounded-xs ${legendColors[i]}`} />
+										{`${formatNumber(Number(tons))} t`}
 									</span>
 								) : null,
 							)}

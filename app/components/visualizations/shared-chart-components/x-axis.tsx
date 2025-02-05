@@ -12,6 +12,7 @@ interface XAxisProps {
 	xScale: d3.ScaleTime<number, number, never>;
 	data: Array<{ year: number }>;
 	filterInterval?: number;
+	removeSecondToLastTick?: boolean;
 }
 
 export const XAxis: React.FC<XAxisProps> = ({
@@ -19,6 +20,7 @@ export const XAxis: React.FC<XAxisProps> = ({
 	xScale,
 	data,
 	filterInterval = 3,
+	removeSecondToLastTick = false,
 }) => {
 	const {
 		width,
@@ -26,20 +28,35 @@ export const XAxis: React.FC<XAxisProps> = ({
 		margin: { bottom, left, right },
 	} = sizes;
 
-	const tickValues = useMemo(
-		() =>
-			data
-				.filter((_, i) => i % filterInterval === 0)
-				.map((d) => setYear(new Date(), d.year)),
-		[data, filterInterval],
-	);
+	const firstYear = Math.min(...data.map((d) => d.year));
+	const lastYear = Math.max(...data.map((d) => d.year));
+
+	const tickValues = useMemo(() => {
+		const ticks = [firstYear, lastYear];
+
+		const filteredYears = data
+			.filter((_, i) => i % filterInterval === 0)
+			.map((d) => d.year)
+			.filter((year) => year !== firstYear && year !== lastYear);
+
+		let allTicks = [...new Set([...ticks, ...filteredYears])].sort(
+			(a, b) => a - b,
+		);
+
+		if (removeSecondToLastTick && allTicks.length > 2) {
+			allTicks = allTicks.slice(0, -2).concat(allTicks.slice(-1)); // Remove second to last year
+		}
+
+		return allTicks;
+	}, [data, filterInterval, firstYear, lastYear, removeSecondToLastTick]);
+
 	const xAxis = useMemo(
-		() => tickValues.map((d) => xScale(d)),
+		() => tickValues.map((d) => xScale(setYear(new Date(), d))),
 		[tickValues, xScale],
 	);
 	const xAxisLabels = useMemo(
-		() => tickValues.map((d) => formatDate(d, "yyyy")),
-		[tickValues, xScale],
+		() => tickValues.map((d) => formatDate(setYear(new Date(), d), "yyyy")),
+		[tickValues],
 	);
 
 	return (

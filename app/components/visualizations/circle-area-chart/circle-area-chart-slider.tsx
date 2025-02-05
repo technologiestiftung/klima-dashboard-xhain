@@ -17,7 +17,7 @@ export const CircleAreaChartSlider: React.FC = () => {
 
 	return (
 		<div ref={ref} className="flex flex-col gap-y-4">
-			<CircleAreaChart width={width} height={280} year={selectedYear} />
+			<CircleAreaChart width={width} height={235} year={selectedYear} />
 			<input
 				id="thgTotalTonsSliderChart"
 				type="range"
@@ -31,7 +31,10 @@ export const CircleAreaChartSlider: React.FC = () => {
 				className="appearance-none bg-xhain-blue-30 rounded-full h-3 slider-thumb cursor-pointer"
 			/>
 
-			<label className="flex justify-between" htmlFor="thgTotalTonsSliderChart">
+			<label
+				className="flex w-full justify-between"
+				htmlFor="thgTotalTonsSliderChart"
+			>
 				{years.map((year, index) => (
 					<span
 						className={`

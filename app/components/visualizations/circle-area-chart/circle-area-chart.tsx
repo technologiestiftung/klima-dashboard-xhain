@@ -121,12 +121,20 @@ export const CircleAreaChart: React.FC<CircleAreaChartProps> = ({
 
 function getRange(width: number) {
 	if (width < 300) {
-		return [width / 6, width / 4];
+		return [width / 7, width / 5];
 	}
 
-	if (width > 300 && width < 450) {
+	if (width < 400) {
 		return [width / 8, width / 5];
 	}
 
-	return [width / 10, width / 6];
+	if (width < 600) {
+		return [width / 10, width / 6];
+	}
+
+	if (width < 800) {
+		return [width / 12, width / 7];
+	}
+
+	return [width / 14, width / 8];
 }

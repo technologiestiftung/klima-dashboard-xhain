@@ -162,7 +162,7 @@ export const en: typeof de = {
 	"chart.restBudgetThgUntilYear.subtitle": "of the 1,75 degree target",
 	"chart.restBudgetThgUntilYear.unit": "Mio. tons",
 	"chart.restBudgetThgUntilYear.remainingBudget": "Remaining budget until",
-	"chart.restBudgetThgUntilYear.description": `The remaining budget approach is used to implement the Paris targets locally.
+	"chart.restBudgetThgUntilYear.text": `The remaining budget approach is used to implement the Paris targets locally.
 	
 	This emphasizes that not only annual CO2 emissions are crucial but also the total amount of greenhouse gases released into the atmosphere over time. 
 	
@@ -171,9 +171,8 @@ export const en: typeof de = {
 	"chart.reductionPathScenario175Thg.title": "Reduction path",
 	"chart.reductionPathScenario175Thg.subtitle":
 		"Climate protection scenario (1.75 degrees) in tons of CO2 equivalent",
-	"chart.reductionPathScenario175Thg.legend.heating": "Heating",
-	"chart.reductionPathScenario175Thg.legend.electricity": "Electricity",
-	"chart.reductionPathScenario175Thg.legend.goal": "Berlin's goal",
+	"chart.reductionPathScenario175Thg.legend.model": "Model Xhain",
+	"chart.reductionPathScenario175Thg.legend.goal": "Ziel Land Berlin",
 	"chart.reductionPathScenario175Thg.description":
 		"The reduction path shows the development of greenhouse gas emissions in Xhain. The goal is to reduce emissions by 95% by 2045 compared to 1990. The scenario shows how this goal can be achieved.",
 

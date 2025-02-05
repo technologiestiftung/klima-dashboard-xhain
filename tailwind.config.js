@@ -9,8 +9,13 @@ export default {
 				sans: ["Raleway", "sans-serif"],
 			},
 			screens: {
+				desktop: "1150px",
 				xl: "1363px",
 				"2xl": "1440px",
+			},
+			height: {
+				singleCard: "470px",
+				doubleCard: "960px",
 			},
 			borderRadius: {
 				"4xl": "30px",
@@ -26,6 +31,7 @@ export default {
 			},
 			maxWidth: {
 				"8xl": "1411px",
+				mobile: "640px",
 			},
 			colors: {
 				"xhain-blue-80": "#070D24",
