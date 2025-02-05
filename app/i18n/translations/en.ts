@@ -398,6 +398,25 @@ Regarding the number of heavy rainfall days, no clear trend has been observed ye
 		"In Xhain, numerous projects are already being implemented to address these challenges. Here, we give you an insight into some of the existing projects.",
 	"featureSection.cta": "Current projects",
 
+	/**
+	 * About Page
+	 */
+	"about.title": "About us",
+	"about.firstSectionTitle": "Berlin climate neutral by 2045",
+	"about.firstSectionDescription":
+		"The Berlin Senate is pursuing the long-term goal of developing Berlin into a climate-neutral city by 2045 while simultaneously adapting to the unavoidable consequences of climate change.",
+	"about.secondSectionTitle": "Xhain is leading the way",
+	"about.secondSectionDescription":
+		"In December 2024, the district office adopted the climate protection and climate adaptation concepts. Now, the task is to build on this foundation and effectively advance concrete projects.",
+	"about.thirdSectionTitle": "Who? The Xhain climate team",
+	"about.thirdSectionDescription":
+		"The four-member climate team of the organizational unit 'Climate and International Affairs' consists of two climate protection managers, a climate adaptation manager, and the climate commissioner. Together, they support the implementation of climate-effective measures. At the same time, they act as intermediaries and connect different stakeholder groups in the district when it comes to climate protection and adaptation. After all, climate protection and adaptation can only succeed together!",
+	"about.actionCardTitle": `Questions?<br/>Write to the Xhain climate team.`,
+	"about.actionCardEmail": "klima_und_internationales@ba-fk.berlin.de",
+
+	/**
+	 * Footer
+	 */
 	"footer.cardHeading":
 		"Do you have any questions about the climate dashboard and the climate concepts?",
 	"footer.cardSubHeading": "write to us!",

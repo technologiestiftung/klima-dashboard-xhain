@@ -401,6 +401,25 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 		"In Xhain werden bereits zahlreiche Projekte umgesetzt um diesen Herausforderungen zu begegnen. Hier gebe﻿n wir euch einen Einblick in einige der bestehenden Projekte.",
 	"featureSection.cta": "Aktuelle Projekte",
 
+	/**
+	 * About Page
+	 */
+	"about.title": "Über uns",
+	"about.firstSectionTitle": "Berlin klimaneutral bis 2045",
+	"about.firstSectionDescription":
+		"Der Berliner Senat verfolgt das langfristige Ziel, Berlin bis zum Jahr 2045 zu einer klimaneutralen Stadt zu entwickeln und sich gleichzeitig an die unvermeidbaren Folgen des Klimawandels anzupassen.",
+	"about.secondSectionTitle": "Xhain geht als Vorbild voran",
+	"about.secondSectionDescription":
+		"Im Dezember 2024 hat das Bezirksamt das Klimaschutzkonzept und das Klimaanpassungskonzept beschlossen. Jetzt gilt es, darauf aufzubauen und konkrete  Projekte zielführend voranzubringen.",
+	"about.thirdSectionTitle": "Wer? Das Klimateam Xhain",
+	"about.thirdSectionDescription":
+		"Das vierköpfige Klimateam der Organisationseinheit „Klima und Internationales“, besteht aus zwei Klimaschutzmanagerinnen, einer Klimaanpassungsmanagerin und dem Klimabeauftragten. Gemeinsam unterstützen sie die Umsetzung klimawirksamer Maßnahmen. Gleichzeitig vermitteln und vernetzten sie die verschiedenen Akteursgruppen im Bezirk, wenn es um Fragen des Klimaschutzes und  der Klimaanpassung geht. Denn Klimaschutz und Klimaanpassung können nur gemeinsam gelingen!",
+	"about.actionCardTitle": `Fragen?<br/>Schreib dem Klimateam Xhain.`,
+	"about.actionCardEmail": "klima_und_internationales@ba-fk.berlin.de",
+
+	/**
+	 * Footer
+	 */
 	"footer.cardHeading":
 		"Hast du Fragen zum Klimadashboard und den Klimakonzepten?",
 	"footer.cardSubHeading": "Schreib uns!",
