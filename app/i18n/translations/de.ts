@@ -22,7 +22,7 @@ export const de = {
 		"Und wo zeigen sich die Folgen des Klimawandels im Bezirk schon jetzt?",
 	"introSection.dataBasis": `
 	  Grundlage sind die Analysen des <a href='https://klima-dashboard-xhain.vercel.app/climate-concepts/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>Klimaschutz- und des Klimaanpassungskonzepts.</a> 
-	  Die beiden Konzepte wurden vom <a href='' target='https://klima-dashboard-xhain.vercel.app/about/' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>Klimateam</a> entwickelt und im Dezember 2024 als 
+	  Die beiden Konzepte wurden vom <a href='https://klima-dashboard-xhain.vercel.app/about/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>Klimateam</a> entwickelt und im Dezember 2024 als 
 	  Planungs- und Entscheidungsgrundlage politisch beschlossen.</br></br>
 	`,
 	"introSection.collaboration": `

@@ -24,8 +24,8 @@ export const en: typeof de = {
 	"introSection.keyQuestion3":
 		"And where are the effects of climate change already visible in the district?",
 	"introSection.dataBasis": `
-    The basis for this is the analyses from the <a href='https://klima-dashboard-xhain.vercel.app/climate-concepts/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>climate protection and climate adaptation concepts.</a>  
-    These two concepts were developed by the <a href='https://klima-dashboard-xhain.vercel.app/about/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>climate team</a> and politically adopted in December 2024 as a planning and decision-making basis.</br></br>
+    The basis for this is the analyses from the <a href='https://klima-dashboard-xhain.vercel.app/en/climate-concepts/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>climate protection and climate adaptation concepts.</a>  
+    These two concepts were developed by the <a href='https://klima-dashboard-xhain.vercel.app/en/about/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>climate team</a> and politically adopted in December 2024 as a planning and decision-making basis.</br></br>
 `,
 	"introSection.collaboration": `
     The dashboard was developed in close collaboration between the climate team  
