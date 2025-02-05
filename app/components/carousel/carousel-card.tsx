@@ -43,7 +43,7 @@ export const CarouselCard: React.FC<CarouselCardProps> = ({
 										${card.image ? "w-1/2" : "w-full"}`}
 			>
 				<div className="absolute top-4 left-4">
-					<SmallTooltip>
+					<SmallTooltip isLink>
 						<a target="_blank" rel="noopener noreferrer" href={card.sourceLink}>
 							{card.source}
 						</a>
