@@ -1,7 +1,7 @@
 import * as d3 from "d3";
 import React, { useCallback, useRef } from "react";
 import { YReferenceLines } from "../shared-chart-components/y-reference-lines";
-import { AreaReductionPath } from "./area-reduction-path";
+import { LineReductionPath } from "./line-reduction-path";
 import { XAxis } from "../shared-chart-components/x-axis";
 import { HoverableBarsReductionPath } from "./hoverable-bars-reduction-path";
 import { howToReachGoalsData } from "~/data";
@@ -45,7 +45,7 @@ export const LineChartReductionPath: React.FC = () => {
 				0,
 				d3.max(
 					reductionPathScenario175Thg,
-					(d) => d.electricity_total_tons + d.heating_total_tons,
+					(d) => d.goal_berlin_tons,
 				) as number,
 			])
 			.nice()
@@ -57,7 +57,7 @@ export const LineChartReductionPath: React.FC = () => {
 		<div>
 			<div className="h-full" ref={containerRef}>
 				<svg width={width} height={height}>
-					<AreaReductionPath xScale={xScale} yScale={yScale} sizes={sizes} />
+					<LineReductionPath xScale={xScale} yScale={yScale} sizes={sizes} />
 					<YReferenceLines
 						yScale={yScale}
 						sizes={sizes}

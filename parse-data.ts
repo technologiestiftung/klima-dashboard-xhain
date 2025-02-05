@@ -99,9 +99,8 @@ const parseCsvFiles = async (
 	}[];
 	reductionPathScenario175Thg: {
 		year: number;
-		electricity_total_tons: number;
-		heating_total_tons: number;
-		goal_xhain_tons: number | "";
+		goal_berlin_tons: number;
+		model_xhain_tons: number;
 	}[];};
 	export const consequencesData = ${JSON.stringify(consequencesData, null, 2)} as {
 	hotDays: Array<{
