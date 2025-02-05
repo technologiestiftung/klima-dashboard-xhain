@@ -18,7 +18,7 @@ export const HeroSection: React.FC = () => {
 					</p>
 				</div>
 			</div>
-			<div className="flex flex-col w-full h-full py-6 px-4 lg:px-0 items-center justify-between bg-xhain-blue-20">
+			<div className="flex flex-col w-full h-full py-6 px-4 lg:px-20 items-center justify-between bg-xhain-blue-20">
 				<div className="my-auto">
 					<ThermometerChart radioId="medium-temperature-1" />
 				</div>
