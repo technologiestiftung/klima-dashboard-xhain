@@ -24,7 +24,7 @@ const styles = {
 
 export function BarChartThg() {
 	return (
-		<div className="flex flex-col mt-7 text-xhain-blue-80 gap-y-5">
+		<div className="flex flex-col mt-7 items-center text-xhain-blue-80 gap-y-6">
 			{thgSector2021Tons.map((d) => (
 				<div key={d.sector} className="flex w-full items-center gap-x-8">
 					<img src={styles[d.sector].icon} alt={""} />
