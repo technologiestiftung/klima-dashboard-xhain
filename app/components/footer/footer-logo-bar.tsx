@@ -44,7 +44,7 @@ export const FooterLogoBar: React.FC = () => {
 				>
 					<img
 						src="https://logos.citylab-berlin.org/logo-senatskanzlei-buergermeister-horizontal.svg"
-						alt={i18n("footer.footerSentatskanzleiLogoAltText")}
+						alt={i18n("footer.footerSenatskanzleiLogoAltText")}
 						className="w-[250px]"
 					/>
 				</a>

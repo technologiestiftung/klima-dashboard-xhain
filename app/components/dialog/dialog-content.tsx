@@ -1,5 +1,5 @@
 import React from "react";
-import { i18n } from "~/i18n/i18n-utils";
+import { buildLocalizedLink, i18n } from "~/i18n/i18n-utils";
 import {
 	howXhainContributesData,
 	howToReachGoalsData,
@@ -18,12 +18,12 @@ export const DialogContent: React.FC<DialogContentProps> = ({ id }) => {
 	const title = i18n(`chart.${id}.title`);
 	const subTitle = i18n(`chart.${id}.subtitle`);
 
-	const description = i18n(`chart.infoDialog.${id}.description`);
-	const sourceTitle = i18n(`chart.infoDialog.${id}.sourceTitle`);
-	const sourceLabel = i18n(`chart.infoDialog.${id}.sourceLabel`);
+	const description = i18n(`chart.${id}.infoDialog.description`);
+	const sourceTitle = i18n(`chart.${id}.infoDialog.sourceTitle`);
+	const sourceLabel = i18n(`chart.${id}.infoDialog.sourceLabel`);
 
 	const learnMoreLabel = i18n(`chart.infoDialog.learnMoreLabel`);
-	const learnMoreLink = i18n(`chart.infoDialog.${id}.learnMoreLink`);
+	const learnMoreLink = i18n(`chart.${id}.infoDialog.learnMoreLink`);
 
 	return (
 		<div className="flex flex-col gap-y-5">
@@ -48,7 +48,7 @@ export const DialogContent: React.FC<DialogContentProps> = ({ id }) => {
 
 			<div className="flex flex-row justify-between gap-x-5">
 				<a
-					href={learnMoreLink}
+					href={buildLocalizedLink(learnMoreLink)}
 					target="_blank"
 					rel="noopener noreferrer"
 					className="flex w-fit items-center leading-6 text-base px-2.5 py-1 gap-x-2 border-2 border-xhain-blue-50 text-xhain-blue-50 rounded-full font-semibold 
