@@ -2,13 +2,11 @@ import React, { useRef, useEffect } from "react";
 import mapboxgl from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 
-const { Map: MapboxMap } = mapboxgl; // Destructure the Map property
-
 mapboxgl.accessToken = import.meta.env.VITE_MAPBOX_API_TOKEN as string;
 
 export const Map: React.FC = () => {
 	const mapContainerRef = useRef<HTMLDivElement | null>(null);
-	const mapRef = useRef<mapboxgl.Map | null>(null); // Still using the Map type from mapboxgl
+	const mapRef = useRef<mapboxgl.Map | null>(null);
 
 	useEffect(() => {
 		console.log("Map effect mounted");
@@ -22,10 +20,10 @@ export const Map: React.FC = () => {
 
 		if (!mapRef.current) {
 			console.log("Initializing map...");
-			mapRef.current = new MapboxMap({
+			mapRef.current = new mapboxgl.Map({
 				container: mapContainerRef.current,
 				style: style,
-				center: [13.421, 52.501], // Note: [lng, lat] order!
+				center: [13.421, 52.501],
 				zoom: 12,
 			});
 
@@ -42,9 +40,11 @@ export const Map: React.FC = () => {
 
 		return () => {
 			console.log("Map effect cleanup");
-			if (mapRef.current) {
+			// In development, skip removing the map to avoid multiple initializations
+			if (process.env.NODE_ENV !== "development" && mapRef.current) {
 				console.log("Cleaning up map instance:", mapRef.current);
 				mapRef.current.remove();
+				mapRef.current = null;
 			}
 		};
 	}, []);
