@@ -14,7 +14,7 @@ const colors = [
 export const StackedBarChart: React.FC = () => {
 	return (
 		<div className="w-full flex flex-col h-fit">
-			<div className="flex flex-col h-[400px] desktop:h-[670px]">
+			<div className="flex flex-col h-[400px] desktop:h-[670px] pt-6">
 				{heatingMix2021Summarized.map((data, index) => (
 					<div
 						key={index}
