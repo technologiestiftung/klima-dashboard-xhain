@@ -50,8 +50,8 @@ export const HoverableBarsReductionPath: React.FC<
 	useFocusLeave(parentRef, () => setVisibleYear(undefined));
 
 	const legendColors = [
-		"bg-xhain-blue-50",
-		"border-xhain-blue-80 border border-2 border-dashed",
+		"bg-xhain-blue-50 size-5",
+		"border-t-xhain-blue-80 border-t-2 border-dotted w-5 h-1",
 	];
 
 	return (
@@ -98,7 +98,7 @@ export const HoverableBarsReductionPath: React.FC<
 					/>
 					<foreignObject
 						transform={`translate(${getTranslateX({ xScale, d, sizes })}, 0)`}
-						width="115"
+						width="120"
 						height="150"
 						className={`${visibleYear === d.year.toString() ? "block" : "hidden"}`}
 					>
@@ -107,8 +107,8 @@ export const HoverableBarsReductionPath: React.FC<
 							{[d.model_xhain_tons, d.goal_berlin_tons].map((tons, i) =>
 								// filter out first goal_xhain_tons value which has 0 as a placeholder
 								Number(tons) !== 0 ? (
-									<span key={tons} className="flex items-center gap-x-1">
-										<div className={`rounded-xs size-4 ${legendColors[i]}`} />
+									<span key={tons + i} className="flex items-center gap-x-1">
+										<div className={`rounded-xs ${legendColors[i]}`} />
 										{`${formatNumber(Number(tons))} t`}
 									</span>
 								) : null,

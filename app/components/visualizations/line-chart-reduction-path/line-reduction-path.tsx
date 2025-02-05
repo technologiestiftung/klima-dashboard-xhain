@@ -3,7 +3,6 @@ import * as d3 from "d3";
 import { howToReachGoalsData } from "~/data";
 import { xhainBlue50, xhainBlue80 } from "~/components/visualizations/colors";
 import { setYear } from "date-fns";
-import { i18n } from "~/i18n/i18n-utils";
 
 const { reductionPathScenario175Thg } = howToReachGoalsData;
 
@@ -26,7 +25,6 @@ export const LineReductionPath: React.FC<LineReductionPathProps> = ({
 }) => {
 	const {
 		margin: { top, bottom },
-		width,
 	} = sizes;
 
 	const linePathBerlinGoal = useMemo(
@@ -59,21 +57,6 @@ export const LineReductionPath: React.FC<LineReductionPathProps> = ({
 				strokeWidth="2"
 				strokeDasharray={"5,5"}
 			/>
-			<text
-				x={width / 2}
-				y={
-					yScale(
-						Number(
-							howToReachGoalsData.reductionPathScenario175Thg[12]
-								.goal_berlin_tons,
-						),
-					) - 18
-				}
-				fill={xhainBlue80}
-				fontWeight="700"
-			>
-				{i18n("chart.reductionPathScenario175Thg.legend.goal")}
-			</text>
 			<path
 				className="line"
 				d={linePathXhainGoal ?? ""}
@@ -81,21 +64,6 @@ export const LineReductionPath: React.FC<LineReductionPathProps> = ({
 				fill="none"
 				strokeWidth="2"
 			/>
-			<text
-				x={xScale(setYear(new Date(), 2023))}
-				y={
-					yScale(
-						Number(
-							howToReachGoalsData.reductionPathScenario175Thg[3]
-								.model_xhain_tons,
-						),
-					) - 18
-				}
-				fill={xhainBlue50}
-				fontWeight="700"
-			>
-				{i18n("chart.reductionPathScenario175Thg.legend.model")}
-			</text>
 		</>
 	);
 };
