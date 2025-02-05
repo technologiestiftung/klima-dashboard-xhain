@@ -4,17 +4,28 @@ import { useContainerWidthHeight } from "~/hooks/use-container-width-height";
 import { consequencesData } from "~/data";
 import { AreaPath } from "./area-path";
 import { Gradient } from "./gradient";
-import { TrendLine } from "./trend-line";
+// import { TrendLine } from "./trend-line";
 import { XAxis } from "../shared-chart-components/x-axis";
 import { YReferenceLines } from "../shared-chart-components/y-reference-lines";
 import { setYear } from "date-fns";
 
 const { precipitationMm } = consequencesData;
 
+const getXAxisConfig = (width: number) => {
+	if (width <= 350) {
+		return { filterInterval: 15, removeSecondToLastTick: false };
+	}
+	if (width <= 400) {
+		return { filterInterval: 12, removeSecondToLastTick: false };
+	}
+	return { filterInterval: 10, removeSecondToLastTick: true };
+};
+
 export const AreaChart: React.FC = () => {
 	const chartRef = useRef<SVGSVGElement | null>(null);
 	const containerRef = useRef<HTMLDivElement>(null);
 	const { width } = useContainerWidthHeight(containerRef);
+	const { filterInterval, removeSecondToLastTick } = getXAxisConfig(width);
 
 	const height = 260;
 
@@ -54,15 +65,17 @@ export const AreaChart: React.FC = () => {
 				<YReferenceLines
 					yScale={yScale}
 					sizes={sizes}
-					yReferenceLineValues={[200, 400]}
+					yReferenceLineValues={[100, 200, 300, 400]}
 				/>
 				<XAxis
 					sizes={sizes}
 					xScale={xScale}
 					data={precipitationMm}
-					filterInterval={10}
+					filterInterval={filterInterval}
+					removeSecondToLastTick={removeSecondToLastTick}
 				/>
-				<TrendLine data={precipitationMm} xScale={xScale} yScale={yScale} />
+				{/* commented out for now as it might be added later */}
+				{/* <TrendLine data={precipitationMm} xScale={xScale} yScale={yScale} /> */}
 			</svg>
 		</div>
 	);
