@@ -15,10 +15,10 @@ export const FeatureSection: React.FC = () => {
 				/>
 			</div>
 			<div>
-				<h2 className="text-2xl leading-8 font-bold lg:text-5xl lg:leading-non/">
+				<h2 className="text-2xl leading-8 font-bold md:text-5xl md:leading-none">
 					{i18n("featureSection.title")}
 				</h2>
-				<p className="text-xl leading-7 font-normal mt-3 mb-7 lg:my-7">
+				<p className="text-xl leading-7 font-normal mt-3 mb-7 md:my-7">
 					{i18n("featureSection.description")}
 				</p>
 				<Link

@@ -52,8 +52,8 @@ export default function Index() {
 				<Carousel />
 			</section>
 
-			<section className="px-5 py-10 lg:py-20 lg:px-20 gap-14">
-				<h2 className="text-5xl font-semibold p-5 md:px-0 mb-3 lg:mb-6 mx-auto w-full max-w-[894px]">
+			<section className="px-5 py-10 lg:py-20 lg:px-20 gap-8 md:gap-14">
+				<h2 className="text-2xl leading-8 md:text-5xl md:leading-none font-semibold py-5 mb-3 lg:mb-6 mx-auto w-full max-w-mobile desktop:max-w-[894px]">
 					{i18n("charts.title")}
 				</h2>
 				<div className="grid grid-cols-1 desktop:grid-cols-3 gap-4 desktop:gap-5 max-w-8xl mx-auto w-full">
@@ -63,12 +63,12 @@ export default function Index() {
 				</div>
 			</section>
 
-			<section className="bg-xhain-blue-30 px-5 py-10 lg:py-20 lg:px-20 gap-14 flex flex-col">
-				<div className="mx-auto w-full max-w-[894px] flex flex-col gap-6">
-					<h2 className="text-5xl leading-none font-semibold">
+			<section className="bg-xhain-blue-30 px-5 py-10 lg:py-20 lg:px-20 gap-8 md:gap-14 flex flex-col">
+				<div className="mx-auto w-full max-w-mobile desktop:max-w-[894px] flex flex-col gap-6">
+					<h2 className="text-2xl leading-8 md:text-5xl md:leading-none font-bold">
 						{i18n("howToReachGoals.title")}
 					</h2>
-					<p className="text-xl leading-7 font-normal">
+					<p className="text-base leading-6 md:text-xl md:leading-7 font-normal">
 						{i18n("howToReachGoals.description")}
 					</p>
 				</div>
@@ -79,16 +79,16 @@ export default function Index() {
 				</div>
 			</section>
 
-			<section className="px-5 py-10 lg:py-20 lg:px-20 gap-14">
-				<div className="mx-auto w-full max-w-[894px]">
-					<h2 className="text-2xl leading-8 font-bold lg:text-5xl lg:leading-none mb-3 lg:mb-6">
+			<section className="px-5 py-10 lg:py-20 lg:px-20 gap-8 md:gap-14">
+				<div className="mx-auto w-full max-w-mobile desktop:max-w-[894px]">
+					<h2 className="text-2xl leading-8 md:text-5xl md:leading-none font-bold mb-3 md:mb-6">
 						{i18n("consequences.title")}
 					</h2>
-					<p className="mb-[40px] lg:mb-10 text-base leading-6 font-normal lg:text-xl lg:leading-7">
+					<p className="mb-[40px] lg:mb-10 text-base leading-6 md:text-xl md:leading-7 font-normal">
 						{i18n("consequences.description")}
 					</p>
 				</div>
-				<h3 className="text-lg leading-7 lg:text-2xl lg:leading-8 font-bold mb-3 lg:mb-10 max-w-8xl mx-auto w-full">
+				<h3 className="text-lg leading-7 lg:text-2xl lg:leading-8 font-bold mb-3 lg:mb-10 max-w-mobile desktop:max-w-8xl mx-auto w-full">
 					{i18n("consequences.subheading")}
 				</h3>
 				<div className="grid grid-cols-1 desktop:grid-cols-3 gap-4 desktop:gap-5 mb-10 desktop:mb-20 max-w-8xl mx-auto w-full">
@@ -98,7 +98,7 @@ export default function Index() {
 				</div>
 			</section>
 
-			<section className="px-5 lg:px-20 max-w-8xl m-auto">
+			<section className="px-5 lg:px-20 m-auto max-w-mobile desktop:max-w-8xl">
 				<FeatureSection />
 			</section>
 		</>
