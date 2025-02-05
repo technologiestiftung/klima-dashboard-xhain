@@ -31,11 +31,6 @@ export const en: typeof de = {
     The dashboard was developed in close collaboration between the climate team  
     Friedrichshain-Kreuzberg and <a href='https://citylab-berlin.org/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>CityLAB Berlin.</a></br></br>
 `,
-	"introSection.goals": `
-    While climate protection aims to reduce greenhouse gas emissions and thus limit the extent of climate change,  
-    climate adaptation focuses on adjusting to the current and expected consequences of climate change,  
-    such as increasing heat and heavy rainfall.
-`,
 	"introSection.showLess": "show less",
 	"introSection.showMore": "show more",
 	"introSection.expandedAltText": "Collapse section",
