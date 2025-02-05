@@ -52,7 +52,7 @@ export const HoverableBarsReductionPath: React.FC<
 	const legendColors = [
 		"bg-xhain-blue-40",
 		"bg-xhain-blue-30",
-		"border-xhain-green-60 border border-2",
+		"border-xhain-blue-80 border border-2 border-dashed",
 	];
 
 	return (

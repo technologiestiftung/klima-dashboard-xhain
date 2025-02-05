@@ -11,6 +11,7 @@ import { Carousel } from "~/components/carousel/carousel";
 import { BRIGHTSKY_WEATHER_API_ENDPOINT } from "~/hooks/use-current-weather";
 import { BRIGHTSKY_ALERT_API_ENDPOINT } from "~/hooks/use-current-weather-alert";
 import { FeatureSection } from "~/components/feature-section/feature-section";
+import { IntroSection } from "~/components/intro-section/intro-section";
 
 export const meta = () => {
 	return [
@@ -40,6 +41,7 @@ export default function Index() {
 			<section>
 				<HeroSection />
 				<WeatherCard />
+				<IntroSection />
 			</section>
 
 			<section className="flex flex-col bg-xhain-blue-50 text-white py-8 md:py-20 gap-5 md:gap-10">

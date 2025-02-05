@@ -26,7 +26,8 @@ export const AreaPath: React.FC<AreaProps> = ({ xScale, yScale, sizes }) => {
 				.area<{ year: number; rain: number }>()
 				.x((d) => xScale(setYear(new Date(), d.year)))
 				.y0((d) => yScale(d.rain) - bottom + top)
-				.y1(() => yScale(0) - bottom),
+				.y1(() => yScale(0) - bottom)
+				.curve(d3.curveCardinal.tension(0.5)),
 		[xScale, yScale, sizes.height],
 	);
 

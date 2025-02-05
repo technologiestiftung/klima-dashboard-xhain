@@ -76,7 +76,8 @@ export const Carousel: React.FC = () => {
 			description: i18n("carousel.card5.description"),
 			image: "/images/bed-icon.svg",
 			hasToggle: false,
-			sourceLink: "",
+			sourceLink:
+				"https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/service-und-organisationseinheiten/wirtschaftsfoerderung/tourismus/",
 			source: i18n("carousel.card5.source"),
 		},
 	];

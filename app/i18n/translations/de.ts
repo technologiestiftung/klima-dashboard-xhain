@@ -13,6 +13,27 @@ export const de = {
 	"weatherCard.currently": "aktuell",
 	"weatherCard.time": "Uhr",
 
+	"introSection.overview":
+		"Das Klimadashboard gibt einen Einblick in aktuelle Klimadaten und Klimaktivitäten in Friedrichshain-Kreuzberg.<br/><br/>Es beantwortet Fragen wie",
+	"introSection.keyQuestion1": "Wo entstehen Treibhausgasemissionen in Xhain?",
+	"introSection.keyQuestion2":
+		"Welchen Beitrag leistet der Bezirk bisher auf dem Weg zur Klimaneutralität in Berlin?",
+	"introSection.keyQuestion3":
+		"Und wo zeigen sich die Folgen des Klimawandels im Bezirk schon jetzt?",
+	"introSection.dataBasis": `
+	  Grundlage sind die Analysen des <a href='https://klima-dashboard-xhain.vercel.app/climate-concepts/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>Klimaschutz- und des Klimaanpassungskonzepts.</a> 
+	  Die beiden Konzepte wurden vom <a href='' target='https://klima-dashboard-xhain.vercel.app/about/' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>Klimateam</a> entwickelt und im Dezember 2024 als 
+	  Planungs- und Entscheidungsgrundlage politisch beschlossen.</br></br>
+	`,
+	"introSection.collaboration": `
+	  Entwickelt wurde das Dashboard in enger Zusammenarbeit zwischen dem Klimateam 
+	  Friedrichshain-Kreuzberg und dem <a href='https://citylab-berlin.org/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>CityLAB Berlin.</a></br></br>
+	`,
+	"introSection.showLess": "weniger anzeigen",
+	"introSection.showMore": "mehr anzeigen",
+	"introSection.expandedAltText": "Abschnitt einklappen",
+	"introSection.collapseAltText": "Abschnitt ausklappen",
+
 	"header.bezirksamtXhainAltText": "Zur Startseite",
 	"header.burgerMenuAltText": "Menü öffnen",
 	"header.closeButtonAltText": "Menü schließen",
@@ -33,11 +54,11 @@ export const de = {
 
 	"carousel.card1.intro": "",
 	"carousel.card1.description": "Menschen leben in Friedrichshain-Kreuzberg",
-	"carousel.card1.source": "AfS Berlin-B. 2024",
+	"carousel.card1.source": "Statistik Berlin-B. 2024",
 
 	"carousel.card2.intro": "Auf einen km² leben",
 	"carousel.card2.description": "Menschen",
-	"carousel.card2.source": "AfS Berlin-B. 2024",
+	"carousel.card2.source": "Statistik Berlin-B. 2024",
 
 	"carousel.card3.intro": "",
 	"carousel.card3.description": "der Fläche ist versiegelt",
@@ -45,13 +66,13 @@ export const de = {
 
 	"carousel.card4.intro": "",
 	"carousel.card4.description": "beträgt der Anteil der Verkehrsfläche in",
-	"carousel.card4.source": "AfS Berlin-B. 2023",
+	"carousel.card4.source": "Statistik Berlin-B. 2023",
 
 	"carousel.card5.intro": "2023 übernachteten",
 	"carousel.card5.number": "1,6 Mio.",
 	"carousel.card5.description":
 		"Gästinnen in 85 Beherbergungsbetrieben des Bezirks",
-	"carousel.card5.source": "Quelle fehlt noch",
+	"carousel.card5.source": "Berlin.de",
 
 	"languageToggleButton.ariaLabelDeLink": "Zu deutscher Sprache wechseln",
 	"languageToggleButton.ariaLabelEnLink": "Zu englischer Sprache wechseln",
@@ -377,7 +398,7 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 	"featureSection.title": "Was passiert bereits in Xhain?",
 	"featureSection.description":
 		"In Xhain werden bereits zahlreiche Projekte umgesetzt um diesen Herausforderungen zu begegnen. Hier gebe﻿n wir euch einen Einblick in einige der bestehenden Projekte.",
-	"featureSection.cta": "Alle Projekte kennenlernen",
+	"featureSection.cta": "Aktuelle Projekte",
 
 	"footer.cardHeading":
 		"Hast du Fragen zum Klimadashboard und den Klimakonzepten?",

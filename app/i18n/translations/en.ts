@@ -15,6 +15,27 @@ export const en: typeof de = {
 	"weatherCard.currently": "currently",
 	"weatherCard.time": "",
 
+	"introSection.overview":
+		"The Climate Dashboard provides insights into current climate data and climate activities in Friedrichshain-Kreuzberg.<br/><br/>It answers questions such as",
+	"introSection.keyQuestion1":
+		"Where do greenhouse gas emissions occur in Xhain?",
+	"introSection.keyQuestion2":
+		"What contribution has the district made so far on the path to climate neutrality in Berlin?",
+	"introSection.keyQuestion3":
+		"And where are the effects of climate change already visible in the district?",
+	"introSection.dataBasis": `
+    The basis for this is the analyses from the <a href='https://klima-dashboard-xhain.vercel.app/climate-concepts/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>climate protection and climate adaptation concepts.</a>  
+    These two concepts were developed by the <a href='https://klima-dashboard-xhain.vercel.app/about/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>climate team</a> and politically adopted in December 2024 as a planning and decision-making basis.</br></br>
+`,
+	"introSection.collaboration": `
+    The dashboard was developed in close collaboration between the climate team  
+    Friedrichshain-Kreuzberg and <a href='https://citylab-berlin.org/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>CityLAB Berlin.</a></br></br>
+`,
+	"introSection.showLess": "show less",
+	"introSection.showMore": "show more",
+	"introSection.expandedAltText": "Collapse section",
+	"introSection.collapseAltText": "Expand section",
+
 	"header.bezirksamtXhainAltText": "Go to homepage",
 	"header.burgerMenuAltText": "Open menu",
 	"header.closeButtonAltText": "Close menu",
@@ -34,11 +55,11 @@ export const en: typeof de = {
 
 	"carousel.card1.intro": "",
 	"carousel.card1.description": "People live in Friedrichshain-Kreuzberg",
-	"carousel.card1.source": "Office for Statistics Berlin-Brandenburg 2024",
+	"carousel.card1.source": "Statistics Berlin-Brandenburg 2024",
 
 	"carousel.card2.intro": "",
 	"carousel.card2.description": "people live within one km²",
-	"carousel.card2.source": "Office for Statistics Berlin-Brandenburg 2024",
+	"carousel.card2.source": "Statistics Berlin-Brandenburg 2024",
 
 	"carousel.card3.intro": "",
 	"carousel.card3.description": "of the area is sealed",
@@ -46,13 +67,13 @@ export const en: typeof de = {
 
 	"carousel.card4.intro": "",
 	"carousel.card4.description": "is the share of traffic area in",
-	"carousel.card4.source": "Office for Statistics Berlin-Brandenburg 2023",
+	"carousel.card4.source": "Statistics Berlin-Brandenburg 2023",
 
 	"carousel.card5.intro": "In 2023",
 	"carousel.card5.number": "1,6 Mio.",
 	"carousel.card5.description":
 		"guests stayed overnight in 85 accommodations in the district",
-	"carousel.card5.source": "Source is still missing",
+	"carousel.card5.source": "Berlin.de",
 
 	"languageToggleButton.ariaLabelDeLink": "switch to German language",
 	"languageToggleButton.ariaLabelEnLink": "switch to English language",
@@ -373,7 +394,7 @@ Regarding the number of heavy rainfall days, no clear trend has been observed ye
 	"featureSection.title": "What is already happening in XHain?",
 	"featureSection.description":
 		"In Xhain, numerous projects are already being implemented to address these challenges. Here, we give you an insight into some of the existing projects.",
-	"featureSection.cta": "Get to know all the projects",
+	"featureSection.cta": "Current projects",
 
 	"footer.cardHeading":
 		"Do you have any questions about the climate dashboard and the climate concepts?",

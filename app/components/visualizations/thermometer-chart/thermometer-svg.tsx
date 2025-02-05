@@ -21,7 +21,7 @@ const ThermometerSVG: React.FC<ThermometerSVGProps> = ({
 			xmlns="http://www.w3.org/2000/svg"
 			width="400"
 			height="543"
-			viewBox="0 0 400 543"
+			viewBox="0 0 410 543"
 			className="w-full"
 		>
 			<g transform="translate(148, 0)">
