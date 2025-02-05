@@ -12,6 +12,7 @@ import { BRIGHTSKY_WEATHER_API_ENDPOINT } from "~/hooks/use-current-weather";
 import { BRIGHTSKY_ALERT_API_ENDPOINT } from "~/hooks/use-current-weather-alert";
 import { FeatureSection } from "~/components/feature-section/feature-section";
 import { IntroSection } from "~/components/intro-section/intro-section";
+import { HBIMap } from "~/components/hbi-map/hbi-map";
 
 export const meta = () => {
 	return [
@@ -98,6 +99,10 @@ export default function Index() {
 						<Card key={id.toString()} id={id} />
 					))}
 				</div>
+				<h3 className="text-lg leading-7 lg:text-2xl lg:leading-8 font-bold mb-3 lg:mb-10 max-w-mobile desktop:max-w-8xl mx-auto w-full">
+					Wie wirken sich die Klimabedingungen im Bezirk aus?
+				</h3>
+				<HBIMap />
 			</section>
 
 			<section className="px-5 lg:px-20 m-auto max-w-mobile desktop:max-w-8xl">
