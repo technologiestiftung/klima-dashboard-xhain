@@ -12,7 +12,7 @@ export const Header: React.FC = () => {
 				<img
 					src={xhainLogo}
 					alt={i18n("header.bezirksamtXhainAltText")}
-					className="w-24 lg:w-32 py-3.5"
+					className="w-24 lg:w-32 py-3"
 				/>
 			</Link>
 			<Navigation />
