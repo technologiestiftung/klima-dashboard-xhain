@@ -3,17 +3,10 @@ import { i18n } from "~/i18n/i18n-utils.ts";
 
 interface SmallTooltipProps {
 	children?: React.ReactNode;
-	color?: string;
-	isLink?: boolean;
 	isDark?: boolean;
 }
 
-export function SmallTooltip({
-	children,
-	color,
-	isLink,
-	isDark,
-}: SmallTooltipProps) {
+export function SmallTooltip({ children, isDark }: SmallTooltipProps) {
 	const [isTapped, setIsTapped] = useState(false);
 
 	return (
@@ -29,8 +22,7 @@ export function SmallTooltip({
 				<div
 					className={`
 					text-sm leading-5 bg-white max-w-24 md:max-w-none px-0.5 md:px-1.5 rounded-md 
-					${isLink ? "underline" : ""} 
-					${color ? color : "text-xhain-blue-50"}
+					text-xhain-blue-50
 					${isTapped ? "opacity-100" : "opacity-0"}
 					group-focus:opacity-100 group-hover:opacity-100
 					peer-focus:opacity-100 focus-hover:opacity-100

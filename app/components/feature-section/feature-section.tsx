@@ -15,8 +15,10 @@ export const FeatureSection: React.FC = () => {
 					className="w-full h-full"
 				/>
 				<div className="absolute top-6 left-6">
-					<SmallTooltip color="xhain-blue-80" isDark>
-						{i18n("featureSection.imageSource")}
+					<SmallTooltip isDark>
+						<span className="text-xhain-blue-80">
+							{i18n("featureSection.imageSource")}
+						</span>
 					</SmallTooltip>
 				</div>
 			</div>
