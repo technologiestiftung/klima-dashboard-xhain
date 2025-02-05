@@ -2,17 +2,25 @@ import React from "react";
 import { i18n, buildLocalizedLink } from "~/i18n/i18n-utils";
 import { Link } from "react-router";
 const arrowForward = "/images/arrow-forward.svg";
+import { SmallTooltip } from "~/components/tooltip/small-tooltip.tsx";
 
 export const FeatureSection: React.FC = () => {
 	const path = "/current-projects/";
 	return (
 		<div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-8 lg:gap-10 mb-60">
-			<div className="rounded-4xl overflow-hidden">
+			<div className="relative rounded-4xl overflow-hidden">
 				<img
 					src="/images/project-images/project-image1.png"
 					alt={i18n("featureSection.imageAltText")}
 					className="w-full h-full"
 				/>
+				<div className="absolute top-6 left-6">
+					<SmallTooltip isDark>
+						<span className="text-xhain-blue-80">
+							{i18n("featureSection.imageSource")}
+						</span>
+					</SmallTooltip>
+				</div>
 			</div>
 			<div>
 				<h2 className="text-2xl leading-8 font-bold md:text-5xl md:leading-none">

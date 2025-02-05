@@ -44,7 +44,12 @@ export const CarouselCard: React.FC<CarouselCardProps> = ({
 			>
 				<div className="absolute top-4 left-4">
 					<SmallTooltip>
-						<a target="_blank" rel="noopener noreferrer" href={card.sourceLink}>
+						<a
+							target="_blank"
+							rel="noopener noreferrer"
+							href={card.sourceLink}
+							className="underline"
+						>
 							{card.source}
 						</a>
 					</SmallTooltip>

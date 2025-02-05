@@ -387,9 +387,12 @@ Regarding the number of heavy rainfall days, no clear trend has been observed ye
 		"When analyzing climate impacts in Xhain, a distinction is made between climate trends and the extent to which people are affected. Climate trends describe how the climate has changed so far and what future changes are to be expected. The impact of these climate developments, i.e. the degree to which they are affected, depends on socio-demographic and environmental factors. These include, for example, population density, the proportion of vulnerable groups or the degree of sealing.",
 	"consequences.subheading": "How is the climate changing?",
 
+	/**
+	 * Featured Project Section
+	 */
 	"currentProjects.title": "What is already happening in XHain?",
-
 	"featureSection.imageAltText": "Image of the featured project",
+	"featureSection.imageSource": "Image: Kareen Kittelmann",
 	"featureSection.title": "What is already happening in XHain?",
 	"featureSection.description":
 		"In Xhain, numerous projects are already being implemented to address these challenges. Here, we give you an insight into some of the existing projects.",
