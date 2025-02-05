@@ -161,7 +161,7 @@ export const de = {
 	"chart.restBudgetThgUntilYear.unit": "Mio. Tonnen",
 	"chart.restBudgetThgUntilYear.remainingBudget":
 		"Verbleibendes CO2–Budget bis",
-	"chart.restBudgetThgUntilYear.description": `<p>Das verbleibende CO2-Budget Xhains beträgt insgesamt nur noch 12,2 Mio. Tonnen, um die Erderwärmung auf maximal 1,75° zu begrenzen.</p>
+	"chart.restBudgetThgUntilYear.text": `<p>Das verbleibende CO2-Budget Xhains beträgt insgesamt nur noch 12,2 Mio. Tonnen, um die Erderwärmung auf maximal 1,75° zu begrenzen.</p>
 <p>
 Wenn Xhain so weitermacht wie bisher, wäre dieses lokale Restbudget bereits 2032 aufgebraucht – der Eimer würde sprichwörtlich überlaufen und die Risiken für Menschen, Ökosysteme und Infrastrukturen dramatisch steigen.</p>
 <p>
@@ -172,8 +172,7 @@ Um dies zu vermeiden, müssen wir jetzt ambitionierter und auch schneller handel
 	"chart.reductionPathScenario175Thg.title": "Reduktionspfad",
 	"chart.reductionPathScenario175Thg.subtitle":
 		"Klimaschutzszenario (1,75 Grad) in Tonnen THG",
-	"chart.reductionPathScenario175Thg.legend.heating": "Wärme",
-	"chart.reductionPathScenario175Thg.legend.electricity": "Strom",
+	"chart.reductionPathScenario175Thg.legend.model": "Modellberechnung Xhain",
 	"chart.reductionPathScenario175Thg.legend.goal": "Ziel Land Berlin",
 	"chart.reductionPathScenario175Thg.description":
 		"Das Klimaschutzszenario zeigt auf wie Xhain das Ziel der Klimaneutralität bis 2045 unter Einhaltung des lokal verbleibenden Restbudgets erreichen kann. Dazu müssen wir gemeinsam und innovativ vorangehen.",

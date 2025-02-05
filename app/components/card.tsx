@@ -72,12 +72,12 @@ const charts = {
 	restBudgetThgUntilYear: {
 		component: BucketChart,
 		color: "bg-xhain-blue-10",
-		size: "col-span-1 row-span-2 ",
+		size: "desktop:h-singleCard",
 	},
 	reductionPathScenario175Thg: {
 		component: LineChartReductionPath,
 		color: "bg-xhain-blue-10",
-		size: "col-span-1 desktop:col-span-2 row-span-2 ",
+		size: "desktop:h-singleCard",
 	},
 	hotDays: {
 		component: ChartHotDays,
@@ -135,7 +135,7 @@ const Card: React.FC<CardProps> = ({ id }) => {
 					{description && (
 						<p
 							className={`my-4 flex flex-col ${
-								id === "precipitationMm" || id === "reductionPathScenario175Thg"
+								id === "precipitationMm"
 									? "lg:columns-2 gap-7 text-justify"
 									: "gap-2"
 							}`}
