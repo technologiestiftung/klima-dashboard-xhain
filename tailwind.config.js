@@ -20,6 +20,8 @@ export default {
 			borderRadius: {
 				"4xl": "30px",
 				"2.5xl": "20px",
+				"10px": "10px",
+				"15px": "15px",
 				"5px": "5px",
 				xs: "1px",
 			},

@@ -160,7 +160,7 @@ export default function Index() {
 
 			<div
 				className={`
-					rounded-4xl flex flex-col p-10 mt-16 lg:mt-32 mb-56 lg:mb-72 gap-4 mx-5 py-6 px-4
+					rounded-4xl flex flex-col p-10 mt-16 lg:mt-32 gap-4 mx-5 py-6 px-4
 					lg:gap-8 sm:mx-auto lg:p-10 max-w-[557px] bg-xhain-blue-50 text-white
 					`}
 			>
