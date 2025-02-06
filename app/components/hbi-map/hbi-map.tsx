@@ -9,7 +9,7 @@ export const HBIMap: React.FC = () => {
 		(document.getElementById(dialogId) as HTMLDialogElement).showModal();
 
 	return (
-		<figure className={`w-full h-doubleCard`}>
+		<figure className={`w-full h-fit`}>
 			<div
 				className={`p-5 max-w-mobile mx-auto desktop:max-w-none desktop:mx-none rounded-2.5xl md:rounded-4xl w-full h-full bg-xhain-blue-10`}
 			>
