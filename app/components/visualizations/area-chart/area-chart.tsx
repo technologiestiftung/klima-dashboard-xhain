@@ -32,7 +32,7 @@ export const AreaChart: React.FC = () => {
 	const sizes = {
 		width,
 		height,
-		margin: { top: 0, right: 25, bottom: 25, left: 20 },
+		margin: { top: 1, right: 25, bottom: 25, left: 20 },
 	};
 
 	const xScale = useCallback(

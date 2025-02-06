@@ -83,7 +83,7 @@ export const de = {
 	"carousel.card5.intro": "2023 übernachteten",
 	"carousel.card5.number": "1,6 Mio.",
 	"carousel.card5.description":
-		"Gästinnen in 85 Beherbergungsbetrieben des Bezirks",
+		"Gästinnen in 85 Beherbergungs-Betrieben des Bezirks",
 	"carousel.card5.source": "Berlin.de",
 
 	"languageToggleButton.ariaLabelDeLink": "Zu deutscher Sprache wechseln",
