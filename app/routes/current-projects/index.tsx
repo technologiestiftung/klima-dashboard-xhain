@@ -85,7 +85,7 @@ export default function Index() {
 					<StackedImageCard />
 				</div>
 			</div>
-			<div className="max-w-8xl mx-5 lg:mx-auto grid grid-cols-1 lg:grid-cols-2 gap-x-[30px] lg:gap-x-5 gap-y-[30px] lg:gap-y-12">
+			<div className="max-w-8xl px-5 lg:px-20 lg:mx-auto grid grid-cols-1 lg:grid-cols-2 gap-x-[30px] lg:gap-x-5 gap-y-[30px] lg:gap-y-12">
 				{projects.map((project, index) => (
 					<ProjectCard
 						key={index}
