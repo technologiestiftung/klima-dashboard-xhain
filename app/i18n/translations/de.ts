@@ -108,6 +108,19 @@ export const de = {
 	 * chart labels
 	 */
 	"charts.title": "Wie trägt XHain zum Klimawandel bei?",
+	"charts.p1":
+		"Viele treibhausgasrelevante Emissionen entstehen direkt hier im Bezirk - zum Beispiel durch die Beheizung von Gebäuden, den Verkehr oder die Aktivitäten der ansässigen Unternehmen. Um den Klimawandel auf lokaler Ebene einzudämmen gilt es einerseits den Energieverbrauch zu reduzieren (Effizienz und Suffizienz) und andererseits die Energieversorgung auf erneuerbare Energien (Konsistenz) umzustellen.",
+	"charts.p2.part1": "Mit der bezirklichen ",
+	"charts.p2.part2.tooltip.label":
+		"Energie- und Treibhausgasbilanz nach dem BISKO-Standard",
+	"charts.p2.part2.tooltip.alt":
+		"Klicken um mehr informationen über Energie- und Treibhausgasbilanz nach dem BISKO-Standard anzuzeigen",
+	"charts.p2.part2.tooltip.close":
+		"Informationen über Energie- und Treibhausgasbilanz nach dem BISKO-Standard schließen",
+
+	"charts.p2.part2.tooltip.content": `Die <b>Endenergiebasierte Terriotorialbilanz nach BISKO</b> erfasst den Endenergieverbrauch, der direkt innerhalb der Grenzen des Bezirks entsteht. Das bedeutet, es wird gemessen, wie viel Energie Haushalte für das Heizen der Wohnung oder die Nutzung elektronischer Geräte verbrauchen. Diese Daten stammen zum Beispiel von Energiezählern, wie sie in jedem Haus zu finden sind, und zeigen auf, wie viel Energie vor Ort benötigt wird.`,
+	"charts.p2.part3":
+		"zeigen wir auf, wofür die Energie genutzt wird, wie viele Emissionen dabei entstehen und wo demnach relevante Hebel für das Erreichen der Klimaneutralität bei 2045 liegen.",
 
 	"chart.thgTotalTons.title": "Entwicklung der Treibhausgas-Emissionen",
 	"chart.thgTotalTons.subtitle": "in Tonnen THG",
