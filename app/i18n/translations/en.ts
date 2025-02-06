@@ -3,6 +3,9 @@ import { de } from "./de";
 export const en: typeof de = {
 	"header.title": "Climate Dashboard Xhain",
 
+	/**
+	 * Hero Section
+	 */
 	"heroSection.eyebrowText": "Climate dashboard",
 	"heroSection.heading": "Climate change in Friedrichshain-Kreuzberg",
 	"heroSection.subheading":
@@ -11,6 +14,9 @@ export const en: typeof de = {
 	"heroSection.mediumTemperature.locationText":
 		"in Friedrichshain-Kreuzberg by phases",
 
+	/**
+	 * Weather Card
+	 */
 	"weatherCard.title": "Current weather",
 	"weatherCard.currently": "currently",
 	"weatherCard.time": "",
@@ -27,6 +33,9 @@ export const en: typeof de = {
 	"weatherCard.icon.hail": "Hail",
 	"weatherCard.icon.thunderstorm": "Thunderstorm",
 
+	/**
+	 * Intro Section
+	 */
 	"introSection.overview":
 		"The Climate Dashboard provides insights into current climate data and climate activities in Friedrichshain-Kreuzberg.<br/><br/>It answers questions such as",
 	"introSection.keyQuestion1":
@@ -48,6 +57,9 @@ export const en: typeof de = {
 	"introSection.expandedAltText": "Collapse section",
 	"introSection.collapseAltText": "Expand section",
 
+	/**
+	 * Header / Navigation
+	 */
 	"header.bezirksamtXhainAltText": "Go to homepage",
 	"header.burgerMenuAltText": "Open menu",
 	"header.closeButtonAltText": "Close menu",
@@ -57,6 +69,9 @@ export const en: typeof de = {
 	"header.nav.about": "About us",
 	"header.cta": "Take action now",
 
+	/**
+	 * Carousel
+	 */
 	"carousel.title": "This is Xhain",
 	"carousel.button.previous.alt":
 		"Highlight previous card in the horizontally scrollable section above",
@@ -510,6 +525,9 @@ Regarding the number of heavy rainfall days, no clear trend has been observed ye
 	"footer.tSBLogoAltText": "Logo of the Technology Foundation Berlin",
 	"footer.footerSenatskanzleiLogoAltText": "Logo of Berlin Senate Chancellery",
 
+	/**
+	 * Climate concepts page
+	 */
 	"climateConcepts.title": "Climate Concepts",
 	"climateConcepts.intro.p1":
 		"The climate concepts of Friedrichshain-Kreuzberg serve as a central foundation for strategically advancing climate adaptation and climate protection in the district.",

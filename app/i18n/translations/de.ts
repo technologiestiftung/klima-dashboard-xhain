@@ -1,6 +1,9 @@
 export const de = {
 	"header.title": "Klima Dashboard Xhain",
 
+	/**
+	 * Hero Section
+	 */
 	"heroSection.eyebrowText": "Klimadashboard",
 	"heroSection.heading": "Klimawandel in Friedrichshain-Kreuzberg",
 	"heroSection.subheading":
@@ -9,6 +12,9 @@ export const de = {
 	"heroSection.mediumTemperature.locationText":
 		"in Friedrichshain-Kreuzberg nach Phasen",
 
+	/**
+	 * Weather Card
+	 */
 	"weatherCard.title": "Aktuelles Wetter",
 	"weatherCard.currently": "aktuell",
 	"weatherCard.time": "Uhr",
@@ -25,6 +31,9 @@ export const de = {
 	"weatherCard.icon.hail": "Hagel",
 	"weatherCard.icon.thunderstorm": "Gewitter",
 
+	/**
+	 * Intro Section
+	 */
 	"introSection.overview":
 		"Das Klimadashboard gibt einen Einblick in aktuelle Klimadaten und Klimaktivitäten in Friedrichshain-Kreuzberg.<br/><br/>Es beantwortet Fragen wie",
 	"introSection.keyQuestion1": "Wo entstehen Treibhausgasemissionen in Xhain?",
@@ -46,6 +55,9 @@ export const de = {
 	"introSection.expandedAltText": "Abschnitt einklappen",
 	"introSection.collapseAltText": "Abschnitt ausklappen",
 
+	/**
+	 * Header / Navigation
+	 */
 	"header.bezirksamtXhainAltText": "Zur Startseite",
 	"header.burgerMenuAltText": "Menü öffnen",
 	"header.closeButtonAltText": "Menü schließen",
@@ -55,6 +67,9 @@ export const de = {
 	"header.nav.about": "Über uns",
 	"header.cta": "Jetzt aktiv werden",
 
+	/**
+	 * Carousel
+	 */
 	"carousel.title": "Das ist Xhain",
 	"carousel.button.previous.alt":
 		"Fokus auf vorherige Karte im horizontal scrollbaren Abschnitt oberhalb",
@@ -510,6 +525,9 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 	"footer.tSBLogoAltText": "Logo der Technologiestiftung Berlin",
 	"footer.footerSenatskanzleiLogoAltText": "Logo der Senatskanzlei Berlin",
 
+	/**
+	 * Climate concepts page
+	 */
 	"climateConcepts.title": "Klimakonzepte",
 	"climateConcepts.intro.p1":
 		"Die Klimakonzepte von Friedrichshain-Kreuzberg sind zentrale Grundlage um Klimaanpassung und Klimaschutz im Bezirk strategisch voran zu bringen.",
