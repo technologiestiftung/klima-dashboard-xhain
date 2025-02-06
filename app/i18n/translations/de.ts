@@ -371,7 +371,23 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 		"Klimaanpassungskonzept Friedrichshain-Kreuzberg",
 	"chart.HBI.infoDialog.learnMoreLink":
 		"/climate-concepts/#climate-adaptation-full",
-	"chart.HBI.infoDialog.description.part1": `Der HBI wird durch folgende Indiktoren berechnet:`,
+	"chart.HBI.infoDialog.description": `Der HBI wird durch folgende Indiktoren berechnet:`,
+	"chart.HBI.infoDialog.factors.title": "Hitzebetroffenheitsindex",
+
+	"chart.HBI.infoDialog.factors.exposition": "Exposition",
+	"chart.HBI.infoDialog.factors.exposition.temperature": "Temperatur",
+	"chart.HBI.infoDialog.factors.humanSensitivity": "Menschliche Sensitivität",
+	"chart.HBI.infoDialog.factors.humanSensitivity.denisty": "Bevölkerungsdichte",
+	"chart.HBI.infoDialog.factors.humanSensitivity.inhabitansYoung":
+		"Einwohnendenzahl < 10 Jahre",
+	"chart.HBI.infoDialog.factors.humanSensitivity.inhabitansOld":
+		"Einwohnendenzahl XX Jahre",
+	"chart.HBI.infoDialog.factors.humanSensitivity.workers": "Arbeitnehmende",
+	"chart.HBI.infoDialog.factors.humanSensitivity.socialIndex": "Sozialindex",
+	"chart.HBI.infoDialog.factors.envSensitivity": "Umwelt Sensitivität",
+	"chart.HBI.infoDialog.factors.envSensitivity.vegetation": "Grünvolumen",
+	"chart.HBI.infoDialog.factors.envSensitivity.sealing": "Versiegelung",
+
 	"chart.HBI.legend.title":
 		"Betroffenheit bezogen auf den bezirklichen Durchschnitt",
 	"chart.HBI.legend.verylow": "sehr gering",
