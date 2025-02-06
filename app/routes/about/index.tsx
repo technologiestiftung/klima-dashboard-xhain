@@ -34,14 +34,14 @@ export default function Index() {
 					</div>
 				))}
 			</div>
-			<div className="rounded-4xl flex flex-col p-10 gap-4 lg:gap-8 mx-5 lg:mx-auto py-6 px-4 lg:p-10 max-w-[552px] bg-xhain-blue-50 text-white ">
+			<div className="rounded-4xl flex flex-col justify-self-center gap-6 lg:gap-10 mx-5 py-6 px-4 lg:p-10 max-w-[552px] bg-xhain-blue-50 text-white ">
 				<p
 					className="text-xl leading-7 lg:text-2xl lg:leading-8 font-semibold "
 					dangerouslySetInnerHTML={{ __html: i18n("about.actionCardTitle") }}
 				/>
 				<a
 					href={`mailto:${i18n("about.actionCardEmail")}`}
-					className="group rounded-full flex gap-2 w-fit px-2.5 py-1 border-2 text-sm leading-5 lg:text-base lg:leading-6 font-semibold focus-xhain-blue-80 hover:bg-white hover:text-xhain-blue-50"
+					className="group rounded-full flex gap-2 w-fit px-2.5 py-1 border-2 items-center text-sm leading-5 lg:text-base lg:leading-6 font-semibold focus-xhain-blue-80 hover:bg-white hover:text-xhain-blue-50"
 				>
 					<svg
 						className="w-6 h-6 fill-current text-white group-hover:text-xhain-blue-50"
