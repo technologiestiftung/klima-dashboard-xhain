@@ -32,11 +32,14 @@ const WeatherCard: React.FC = () => {
 	if (loading || loadingAlert || !weather) {
 		return (
 			<div className="w-full bg-xhain-blue-10 px-20 py-5">
-				<div className="max-w-8xl mx-auto w-full min-h-[100px] flex flex-col md:flex-row gap-2 items-center justify-between">
-					<div className="flex flex-col gap-1.5">
-						<Skeleton className="w-56 h-6 rounded-lg" />
-						<Skeleton className="w-56 h-6 rounded-lg" />
-						<Skeleton className="w-28 h-6 my-1 rounded-lg" />
+				<div className="max-w-8xl mx-auto w-full min-h-[108px] flex flex-col md:flex-row gap-2 items-center justify-between">
+					<div className="flex flex-col items-center md:items-start">
+						<p className="text-2xl text-center md:text-left">
+							{i18n("weatherCard.title")}
+						</p>
+						<p className="font-bold text-2xl text-center md:text-left">
+							Friedrichshain-Kreuzberg
+						</p>
 					</div>
 
 					<div className="flex flex-col md:flex-row items-center gap-6">
@@ -61,7 +64,7 @@ const WeatherCard: React.FC = () => {
 
 	return (
 		<div className="w-full bg-xhain-blue-10 px-20 py-7 md:py-5">
-			<div className="max-w-8xl mx-auto w-full flex flex-col md:flex-row gap-2 items-center justify-between">
+			<div className="max-w-8xl min-h-[108px] mx-auto w-full flex flex-col md:flex-row gap-2 items-center justify-between">
 				<div className="flex flex-col items-center md:items-start">
 					<p className="text-2xl text-center md:text-left">
 						{i18n("weatherCard.title")}
@@ -81,6 +84,7 @@ const WeatherCard: React.FC = () => {
 					<img
 						className="w-[104px] md:w-[85px]"
 						src={weatherIconMap[weather.icon]}
+						alt={i18n(`weatherCard.icon.${weather.icon}`)}
 					/>
 					<div className="flex flex-col gap-2 items-center">
 						<p className="text-xhain-blue-50 font-bold">

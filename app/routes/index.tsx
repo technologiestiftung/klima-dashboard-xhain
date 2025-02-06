@@ -46,8 +46,8 @@ export default function Index() {
 			</section>
 
 			<section className="flex flex-col bg-xhain-blue-50 text-white py-8 md:py-20 gap-5 md:gap-10">
-				<div className="w-full px-20 py-5 flex justify-center">
-					<h2 className="max-w-8xl w-full leading-8 md:text-5xl font-bold md:leading-none">
+				<div className="w-full md:px-20 px-5 flex justify-center">
+					<h2 className="max-w-8xl w-full text-2xl leading-8 md:text-5xl font-bold md:leading-none">
 						{i18n("carousel.title")}
 					</h2>
 				</div>

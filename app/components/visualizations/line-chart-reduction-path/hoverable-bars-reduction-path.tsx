@@ -50,8 +50,8 @@ export const HoverableBarsReductionPath: React.FC<
 	useFocusLeave(parentRef, () => setVisibleYear(undefined));
 
 	const legendColors = [
-		"bg-xhain-blue-50 size-5",
-		"border-t-xhain-blue-80 border-t-2 border-dotted w-5 h-1",
+		"border-t-xhain-blue-50",
+		"border-t-xhain-blue-80 border-dotted",
 	];
 
 	return (
@@ -108,7 +108,7 @@ export const HoverableBarsReductionPath: React.FC<
 								// filter out first goal_xhain_tons value which has 0 as a placeholder
 								Number(tons) !== 0 ? (
 									<span key={tons + i} className="flex items-center gap-x-1">
-										<div className={`rounded-xs ${legendColors[i]}`} />
+										<div className={`border-t-2 w-5 h-1 ${legendColors[i]}`} />
 										{`${formatNumber(Number(tons))} t`}
 									</span>
 								) : null,
