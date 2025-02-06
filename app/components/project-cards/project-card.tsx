@@ -39,7 +39,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
 			</div>
 
 			{/* Right Section */}
-			<div className="lg:flex-1 relative overflow-hidden h-[350px] lg:h-auto rounded-t-4xl rounded-b-none lg:rounded-r-4xl lg:rounded-tl-none">
+			<div className="lg:flex-1 relative overflow-hidden h-[200px] lg:h-auto rounded-t-4xl rounded-b-none lg:rounded-r-4xl lg:rounded-tl-none">
 				<picture>
 					{/* Large image for desktops */}
 					<source srcSet={imageDesktop} media="(min-width: 1024px)" />
