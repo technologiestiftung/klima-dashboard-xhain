@@ -1,7 +1,7 @@
-import { StackedImageCard } from "~/components/stacked-image-card/stacked-image-card";
-import { ProjectCard } from "~/components/project-card/project-card";
+import { StackedImageCard } from "~/components/project-cards/stacked-image-card";
+import { ProjectCard } from "~/components/project-cards/project-card";
 import { i18n } from "~/i18n/i18n-utils";
-import { ProjectActionCard } from "~/components/project-action-card/project-action-card";
+import { ProjectActionCard } from "~/components/project-cards/project-action-card";
 
 export default function Index() {
 	const projects = [
