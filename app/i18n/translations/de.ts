@@ -494,6 +494,17 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 	"about.actionCardEmail": "klima_und_internationales@ba-fk.berlin.de",
 
 	/**
+	 * Imprint Page
+	 */
+	"imprint.title": "Impressum",
+	"imprint.heading": "Bezirksamt Friedrichshain-Kreuzberg",
+	"imprint.description": `Abteilung Finanzen, Personal, Wirtschaft, Kultur, Diversity und Klima Organisationseinheit Klima und Internationales<br/><br/>
+		Frankfurter Allee 35/37<br/>
+		10247 Berlin<br/>
+		Deutschland<br/><br/>
+		Leitung der Organisationseinheit Klima und Internationales: Lennart Aldick`,
+
+	/**
 	 * Footer
 	 */
 	"footer.cardHeading":
