@@ -14,6 +14,18 @@ export const en: typeof de = {
 	"weatherCard.title": "Current weather",
 	"weatherCard.currently": "currently",
 	"weatherCard.time": "",
+	"weatherCard.icon.clear-day": "Clear day",
+	"weatherCard.icon.clear-night": "Clear night",
+	"weatherCard.icon.partly-cloudy-day": "Partly cloudy day",
+	"weatherCard.icon.partly-cloudy-night": "Partly cloudy night",
+	"weatherCard.icon.cloudy": "Cloudy",
+	"weatherCard.icon.fog": "Fog",
+	"weatherCard.icon.wind": "Windy",
+	"weatherCard.icon.rain": "Rain",
+	"weatherCard.icon.sleet": "Sleet",
+	"weatherCard.icon.snow": "Snow",
+	"weatherCard.icon.hail": "Hail",
+	"weatherCard.icon.thunderstorm": "Thunderstorm",
 
 	"introSection.overview":
 		"The Climate Dashboard provides insights into current climate data and climate activities in Friedrichshain-Kreuzberg.<br/><br/>It answers questions such as",

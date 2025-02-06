@@ -12,6 +12,18 @@ export const de = {
 	"weatherCard.title": "Aktuelles Wetter",
 	"weatherCard.currently": "aktuell",
 	"weatherCard.time": "Uhr",
+	"weatherCard.icon.clear-day": "Klarer Tag",
+	"weatherCard.icon.clear-night": "Klarer Nacht",
+	"weatherCard.icon.partly-cloudy-day": "Teilweise bewölkter Tag",
+	"weatherCard.icon.partly-cloudy-night": "Teilweise bewölkte Nacht",
+	"weatherCard.icon.cloudy": "Bewölkt",
+	"weatherCard.icon.fog": "Nebel",
+	"weatherCard.icon.wind": "Windig",
+	"weatherCard.icon.rain": "Regen",
+	"weatherCard.icon.sleet": "Schneeregen",
+	"weatherCard.icon.snow": "Schnee",
+	"weatherCard.icon.hail": "Hagel",
+	"weatherCard.icon.thunderstorm": "Gewitter",
 
 	"introSection.overview":
 		"Das Klimadashboard gibt einen Einblick in aktuelle Klimadaten und Klimaktivitäten in Friedrichshain-Kreuzberg.<br/><br/>Es beantwortet Fragen wie",
