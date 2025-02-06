@@ -509,6 +509,18 @@ Regarding the number of heavy rainfall days, no clear trend has been observed ye
 	"about.actionCardEmail": "klima_und_internationales@ba-fk.berlin.de",
 
 	/**
+	 * Imprint Page
+	 */
+	"imprint.title": "Imprint",
+	"imprint.heading": "District Office Friedrichshain-Kreuzberg",
+	"imprint.description": `Department of Finance, Personnel, Economy, Culture, Diversity, and Climate  
+		Organizational Unit for Climate and International Affairs<br/><br/>
+		Frankfurter Allee 35/37<br/>
+		10247 Berlin<br/>
+		Germany<br/><br/>
+		Head of the Organizational Unit for Climate and International Affairs: Lennart Aldick`,
+
+	/**
 	 * Footer
 	 */
 	"footer.cardHeading":
