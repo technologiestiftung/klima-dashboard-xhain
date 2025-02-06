@@ -16,7 +16,7 @@ export default function Index() {
 		},
 	];
 	return (
-		<div className="mb-60">
+		<>
 			<h1 className="py-10 px-2 lg:px-20 text-4xl leading-10 font-semibold lg:text-7xl lg:leading-none text-center lg:text-left bg-xhain-blue-20">
 				{i18n("about.title")}
 			</h1>
@@ -53,6 +53,6 @@ export default function Index() {
 					{i18n("about.actionCardEmail")}
 				</a>
 			</div>
-		</div>
+		</>
 	);
 }

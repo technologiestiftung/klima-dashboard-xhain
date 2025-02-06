@@ -397,9 +397,79 @@ Regarding the number of heavy rainfall days, no clear trend has been observed ye
 	"consequences.subheading": "How is the climate changing?",
 
 	/**
-	 * Featured Project Section
+	 * Current Projects page
 	 */
-	"currentProjects.title": "What is already happening in XHain?",
+	"currentProjects.title": "Current projects",
+	"currentProjects.subtitle": "in Friedrichshain-Kreuzberg",
+	"currentProjects.featureImageSource": "Image: Kareen Kittelmann",
+	"currentProjects.projectCardCtaLabel": "To project",
+	"currentProjects.greenCardTitle":
+		"Advancing Climate Protection Projects Together",
+	"currentProjects.greenCardDescription":
+		"There are already many exciting projects and organizations on-site. Want to make a positive impact yourself? Here, you'll find projects and initiatives to get involved in!",
+	"currentProjects.greenCardCtaLabel": "Find suitable projects",
+	/**
+	 * projects
+	 */
+	"currentProjects.project1.title": "Depaving",
+	"currentProjects.project1.description":
+		"Depaving and greening courtyards can improve the microclimate and living quality while also promoting biodiversity. Tenants can receive up to 3,000 euros in funding for this. More than 100 people received consultations by phone or on-site from March to October 2024.",
+	"currentProjects.project1.imageAltText": "Meadow with flowers",
+	"currentProjects.project1.link":
+		"https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/service-und-organisationseinheiten/klima-und-internationales/artikel.1429649.php",
+	"currentProjects.project1.imageSource": "Image: BAFK",
+
+	"currentProjects.project2.title": "Green Consultation",
+	"currentProjects.project2.description":
+		"Unfortunately, the many built-up and asphalted areas in Xhain do not allow rainwater to seep through. However, some of these areas can be depaved and made water-permeable. A map shows which public spaces have been depaved and planted in recent years.",
+	"currentProjects.project2.imageAltText": "Child playing",
+	"currentProjects.project2.link":
+		"https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/aemter/umwelt-und-naturschutzamt/umweltbildung/artikel.1043011.php#headline_1_5",
+	"currentProjects.project2.imageSource": "Image: Kareen Kittelmann",
+
+	"currentProjects.project3.title": "Parking Space Management",
+	"currentProjects.project3.description":
+		"Parking space management aims to make Xhain's street space more efficient, enable balanced use, and improve the quality of stay in the neighborhood. The district is pursuing the goal of comprehensive parking management, with 13 zones currently implemented.",
+	"currentProjects.project3.imageAltText": "Street",
+	"currentProjects.project3.link":
+		"https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/aemter/strassen-und-gruenflaechenamt/strassen/mobilitaetswende/artikel.1282985.php",
+	"currentProjects.project3.imageSource": "Image: ",
+
+	"currentProjects.project4.title": "Cycling Infrastructure",
+	"currentProjects.project4.description":
+		"Many residents of Xhain already use bicycles for their daily commutes. To further strengthen cycling, the district continues to expand its cycling infrastructure.",
+	"currentProjects.project4.imageAltText":
+		"Person riding a cargo bike on a red bike lane",
+	"currentProjects.project4.link":
+		"https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/aemter/strassen-und-gruenflaechenamt/strassen/artikel.1496371.php",
+	"currentProjects.project4.imageSource": "Image: Kareen Kittelmann",
+
+	"currentProjects.project5.title": "Solar Expansion",
+	"currentProjects.project5.description":
+		"To fully equip district buildings with solar panels, the district administration is working with Berliner Stadtwerke. As part of this cooperation, systems with a capacity of approximately 850 kWp were commissioned by the end of 2024. Additional installations are in planning and implementation.",
+	"currentProjects.project5.imageAltText": "",
+	"currentProjects.project5.link":
+		" https://www.berlin.de/ba-friedrichshain-kreuzberg/aktuelles/pressemitteilungen/2025/pressemitteilung.1523939.php",
+	"currentProjects.project5.imageSource": "Image: ",
+
+	"currentProjects.project6.title": "Smart Heating Circuit Control",
+	"currentProjects.project6.description":
+		"Fifty district properties have already been equipped with the ovoTherm heating circuit control system, with more buildings to follow. This ensures that heating performance is precisely adjusted to actual usage needs, reducing energy consumption, CO2 emissions, and energy costs.",
+	"currentProjects.project6.imageAltText": "",
+	"currentProjects.project6.link": "",
+	"currentProjects.project6.imageSource": "Image: ",
+
+	"currentProjects.project7.title": "Reusable Initiatives",
+	"currentProjects.project7.description":
+		"The vibrant life in Xhain presents challenges, as avoidable waste continues to burden the environment and climate. However, we are actively working toward becoming a zero-waste city. Reusable initiatives in gastronomy, weekly markets, and large events show that alternatives are possible.",
+	"currentProjects.project7.imageAltText":
+		"Two cups with the inscriptions 'fair. kiez' and 'BOXI'",
+	"currentProjects.project7.link":
+		" https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/beauftragte/entwicklungspolitik-und-nachhaltigkeit/zero-waste/artikel.1221491.php",
+	"currentProjects.project7.imageSource": "Image: Daniel Triebke | Markburg",
+	/**
+	 * Feature Section
+	 */
 	"featureSection.imageAltText": "Image of the featured project",
 	"featureSection.imageSource": "Image: Kareen Kittelmann",
 	"featureSection.title": "What is already happening in XHain?",

@@ -397,9 +397,79 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 		"Bei der Analyse der Klimafolgen in Xhain wird zwischen den Klimaentwicklungen und der Betroffenheit unterschieden. Klimaentwicklungen beschreiben, wie sich das Klima bisher verändert hat und welche zukünftigen Veränderungen zu erwarten sind. Wie sich diese Klimaentwicklungen auswirken, also die Betroffenheit, hängt von soziodemografischen und umweltbezogenen Faktoren ab. Dazu gehört z.B. die Einwohner*innendichte, der Anteil vulnerabler Gruppen oder der Versiegelungsgrad.",
 	"consequences.subheading": "Wie verändert sich das Klima?",
 	/**
-	 * Featured Project Section
+	 * Current Projects page
 	 */
-	"currentProjects.title": "Was passiert bereits in Xhain?",
+	"currentProjects.title": "Aktuelle Projekte",
+	"currentProjects.subtitle": "in Friedrichshain-Kreuzberg",
+	"currentProjects.featureImageSource": "Bild: Kareen Kittelmann",
+	"currentProjects.projectCardCtaLabel": "Zum Projekt",
+	"currentProjects.greenCardTitle":
+		"Gemeinsam Klimaschutzprojekte voranbringen",
+	"currentProjects.greenCardDescription":
+		"Es gibt bereits viele spannende Projekte und Organisationen vor Ort. Du hast Lust selbst einen positiven Beitrag zu leisten? Dann findest du hier Projekte und Initiativen zum Mitmachen!",
+	"currentProjects.greenCardCtaLabel": "Finde passende Projekte",
+	/**
+	 * projects
+	 */
+	"currentProjects.project1.title": "Entsiegelung",
+	"currentProjects.project1.description":
+		"Die Entsiegelung und Begrünung von Innenhöfen kann das Mikroklima und die Wohnqualität verbessern sowie die Vielfalt von Tieren und Pflanzen fördern. Mieter*innen können dafür bis zu 3000 Euro Förderung erhalten. Mehr als 100 Personen haben sich 2024 telefonisch oder vor Ort von März bis Oktober beraten lassen.",
+	"currentProjects.project1.imageAltText": "Wiese mit Blumen",
+	"currentProjects.project1.link":
+		"https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/service-und-organisationseinheiten/klima-und-internationales/artikel.1429649.php",
+	"currentProjects.project1.imageSource": "Bild: BAFK",
+
+	"currentProjects.project2.title": "Grünberatung",
+	"currentProjects.project2.description":
+		"Leider lassen die vielen bebauten und asphaltierten Flächen in Xhain kein Regenwasser durch. Einige dieser Flächen können jedoch entsiegelt und wasserdurchlässig gestaltet werden. Eine Karte zeigt, welche Flächen im öffentlichen Raum in den letzten Jahren entsiegelt und bepflanzt wurden.",
+	"currentProjects.project2.imageAltText": "Kind spielt",
+	"currentProjects.project2.link":
+		"https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/aemter/umwelt-und-naturschutzamt/umweltbildung/artikel.1043011.php#headline_1_5",
+	"currentProjects.project2.imageSource": "Bild: Kareen Kittelmann",
+
+	"currentProjects.project3.title": "Parkraumbewirtschaftung",
+	"currentProjects.project3.description":
+		"Mit der Parkraumbewirtschaftung soll der Straßenraum Xhains effizienter gestaltet, eine ausgewogenen Nutzung ermöglicht und die Aufenthaltsqualität im Kiez gesteigert werden. Der Bezirk verfolgt das Ziel der flächendeckenden Parkraumbewirtschaftung, aktuell sind 13 Zonen umgesetzt.",
+	"currentProjects.project3.imageAltText": "straße",
+	"currentProjects.project3.link":
+		"https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/aemter/strassen-und-gruenflaechenamt/strassen/mobilitaetswende/artikel.1282985.php",
+	"currentProjects.project3.imageSource": "Bild: ",
+
+	"currentProjects.project4.title": "Radverkehr",
+	"currentProjects.project4.description":
+		"Viele der Xhainer*innen nutzen bereits das Rad um von A nach B zu kommen. Um den Radve   rkehr weiter zu stärken, wird die Radinfrastruktur im Bezirk immer weiter ausgebaut.",
+	"currentProjects.project4.imageAltText":
+		"Person, die mit einem Lastenfahrrad auf einer roten Fahrradspur fährt",
+	"currentProjects.project4.link":
+		"https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/aemter/strassen-und-gruenflaechenamt/strassen/artikel.1496371.php",
+	"currentProjects.project4.imageSource": "Bild: Kareen Kittelmann",
+
+	"currentProjects.project5.title": "PV-Ausbau",
+	"currentProjects.project5.description":
+		"Um die bezirklichen Gebäude vollständig mit PV auszustatten arbeitet das Bezirksamt mit den Berliner Stadtwerken zusammen. Im Rahmen dieser Kooperation wurden bis Ende 2024 Anlagen mit einer Leistung von ca. 850 kWp in Betrieb genommen. Weitere Anlagen befinden sich in Planung und Umsetzung.",
+	"currentProjects.project5.imageAltText": "",
+	"currentProjects.project5.link":
+		" https://www.berlin.de/ba-friedrichshain-kreuzberg/aktuelles/pressemitteilungen/2025/pressemitteilung.1523939.php",
+	"currentProjects.project5.imageSource": "Bild: ",
+
+	"currentProjects.project6.title": "Smarte Heizkreisregelung",
+	"currentProjects.project6.description":
+		"Bereits 50 bezirkliche Liegenschaften wurden mit der Heizkreisregelung ovoTherm ausgerüstet, weitere Gebäude folgen. Dadurch wird die Leistung einer Heizung genau an den tatsächlichen Nutzungsbedarf angepasst und so Energieverbrauch, CO2-Emissionen und Energiekosten reduziert.",
+	"currentProjects.project6.imageAltText": "",
+	"currentProjects.project6.link": "",
+	"currentProjects.project6.imageSource": "Bild: ",
+
+	"currentProjects.project7.title": "Mehrweg",
+	"currentProjects.project7.description":
+		"Das pulsierende Leben in Xhain bringt Herausforderungen mit sich, denn noch immer entstehen vermeidbare Abfälle, die Umwelt und Klima belasten. Doch auf dem Weg zur Zero-Waste-City sind wir bereits aktiv. Mehrweginitiativen in Gastronomie, auf Wochenmärkten und bei Großveranstaltungen zeigen, dass Alternativen möglich sind.",
+	"currentProjects.project7.imageAltText":
+		"Zwei Tassen mit der Aufschrift „fair. kiez“ und „BOXI“",
+	"currentProjects.project7.link":
+		" https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/beauftragte/entwicklungspolitik-und-nachhaltigkeit/zero-waste/artikel.1221491.php",
+	"currentProjects.project7.imageSource": "Bild: Daniel Triebke | Markburg",
+	/**
+	 * Feature Section
+	 */
 	"featureSection.imageAltText": "Bild von einem Projekt",
 	"featureSection.imageSource": "Bild: Kareen Kittelmann",
 	"featureSection.title": "Was passiert bereits in Xhain?",
