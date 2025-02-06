@@ -5,6 +5,7 @@ import { MapLegend } from "./map-legend";
 
 mapboxgl.accessToken = import.meta.env.VITE_MAPBOX_API_TOKEN;
 const mapboxStyle = import.meta.env.VITE_MAPBOX_STYLE;
+const initalZoomLevel = 11.65;
 
 export const Map: React.FC = () => {
 	const mapContainerRef = useRef<HTMLDivElement | null>(null);
@@ -21,7 +22,7 @@ export const Map: React.FC = () => {
 				container: mapContainerRef.current,
 				style: mapboxStyle,
 				center: [13.421, 52.508],
-				zoom: 11.65,
+				zoom: initalZoomLevel,
 				maxZoom: 15,
 				minZoom: 10.5,
 				maxBounds: [
@@ -30,11 +31,30 @@ export const Map: React.FC = () => {
 				],
 			});
 
-			mapRef.current.addControl(new mapboxgl.NavigationControl(), "top-right");
+			// Helper function to adjust the zoom level based on the width
+			const adjustZoom = () => {
+				const container = mapRef.current?.getContainer();
+				const width = container?.clientWidth;
+				if (!width || !mapRef.current) {
+					return;
+				}
+				const newZoom = width <= 599 ? 11 : initalZoomLevel;
 
-			// mapRef.current.on("load", () => {
-			// 	console.log("Map has loaded successfully");
-			// });
+				if (mapRef.current.getZoom() !== newZoom) {
+					mapRef.current.zoomTo(newZoom, { duration: 300 });
+				}
+			};
+
+			// listener after the map has loaded to set the initial zoom
+			mapRef.current.once("load", adjustZoom);
+
+			// listener to update the zoom dynamically
+			mapRef.current.on("resize", adjustZoom);
+
+			mapRef.current.addControl(
+				new mapboxgl.NavigationControl({ showCompass: false }),
+				"top-right",
+			);
 
 			mapRef.current.on("error", (error) => {
 				console.error("Map error:", error);
@@ -51,13 +71,8 @@ export const Map: React.FC = () => {
 
 	return (
 		<div className="relative w-full h-full flex flex-col-reverse desktop:flex-col">
-			<div ref={mapContainerRef} className={`w-full h-[500px]`} />
+			<div ref={mapContainerRef} className={`w-full h-[250px] md:h-[500px]`} />
 			<MapLegend />
 		</div>
 	);
 };
-
-// to do:
-
-// - info dialog content
-// - responsive map zoom
