@@ -7,7 +7,7 @@ import { SmallTooltip } from "~/components/tooltip/small-tooltip.tsx";
 export const FeatureSection: React.FC = () => {
 	const path = "/current-projects/";
 	return (
-		<div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-8 lg:gap-10 mb-60">
+		<div className="grid grid-cols-1 desktop:grid-cols-2 items-center gap-8 lg:gap-10 mb-60">
 			<div className="relative rounded-4xl overflow-hidden">
 				<img
 					src="/images/project-images/project-image1.png"
