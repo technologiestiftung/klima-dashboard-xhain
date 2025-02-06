@@ -1,4 +1,4 @@
-import { de } from "./de";
+import { de } from "./de.ts";
 
 export const en: typeof de = {
 	"header.title": "Climate Dashboard Xhain",
@@ -109,6 +109,18 @@ export const en: typeof de = {
 	 * chart labels
 	 */
 	"charts.title": "How does XHain contribute to climate change?",
+	"charts.p1":
+		"Many greenhouse gas-related emissions originate directly here in the district – for example, from heating buildings, transportation, or the activities of local businesses. To mitigate climate change at the local level, it is essential to both reduce energy consumption (efficiency and sufficiency) and transition the energy supply to renewable sources (consistency).",
+	"charts.p2.part1": "With the district's ",
+	"charts.p2.part2.tooltip.label":
+		"Energy and Greenhouse Gas Balance according to the BISKO standard",
+	"charts.p2.part2.tooltip.alt":
+		"Click to show more information about the energy and greenhouse gas balance according to the BISKO standard",
+	"charts.p2.part2.tooltip.close":
+		"Close the tooltip about the energy and greenhouse gas balance according to the BISKO standard",
+	"charts.p2.part2.tooltip.content": `The <b>final energy-based territorial balance according to BISKO</b> records the final energy consumption that occurs directly within the boundaries of the district. This means measuring how much energy households use for heating their homes or using electronic devices. These data come, for example, from energy meters found in every house and show how much energy is needed on-site.`,
+	"charts.p2.part3":
+		"we illustrate how energy is used, how many emissions are generated in the process, and where the key levers for achieving climate neutrality by 2045 lie.",
 
 	"chart.thgTotalTons.title": "Evolution of greenhouse gas emissions",
 	"chart.thgTotalTons.subtitle": "in tons of CO2 equivalent",

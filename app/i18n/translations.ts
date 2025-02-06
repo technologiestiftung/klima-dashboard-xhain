@@ -1,5 +1,5 @@
-import { en } from "./translations/en";
-import { de } from "./translations/de";
+import { en } from "./translations/en.ts";
+import { de } from "./translations/de.ts";
 
 export type AvailableLanguages = keyof typeof translations;
 
