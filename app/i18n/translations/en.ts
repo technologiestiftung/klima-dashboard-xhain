@@ -382,9 +382,31 @@ Regarding the number of heavy rainfall days, no clear trend has been observed ye
 		"Climate Adaptation Concept Friedrichshain-Kreuzberg",
 	"chart.HBI.infoDialog.learnMoreLink":
 		"/climate-concepts/#climate-adaptation-full",
-	"chart.HBI.infoDialog.description.part1": `The HBI is calculated using the following indicators:`,
-	"chart.HBI.infoDialog.description.part2":
-		"You can find the Heat Vulnerability Index and additional maps of the individual indicators in the [district geoportal MeinXhain](https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/aemter/stadtentwicklungsamt/vermessung/artikel.779965.php).",
+	"chart.HBI.infoDialog.description": `The HBI is calculated using the following indicators:`,
+
+	"chart.HBI.infoDialog.factors.title": "Hitzebetroffenheitsindex",
+
+	"chart.HBI.infoDialog.factors.exposition": "Exposition",
+	"chart.HBI.infoDialog.factors.exposition.temperature": "Temperature",
+	"chart.HBI.infoDialog.factors.humanSensitivity": "Human Sensitivity",
+	"chart.HBI.infoDialog.factors.humanSensitivity.denisty": "Population density",
+	"chart.HBI.infoDialog.factors.humanSensitivity.inhabitansYoung":
+		"Inhabitants < 10 years",
+	"chart.HBI.infoDialog.factors.humanSensitivity.inhabitansOld":
+		"Inhabitants > XX years",
+	"chart.HBI.infoDialog.factors.humanSensitivity.workers": "Workers",
+	"chart.HBI.infoDialog.factors.humanSensitivity.socialIndex": "Social index",
+	"chart.HBI.infoDialog.factors.envSensitivity": "Environmental Sensitivity",
+	"chart.HBI.infoDialog.factors.envSensitivity.vegetation": "Vegetation",
+	"chart.HBI.infoDialog.factors.envSensitivity.sealing": "Sealing",
+
+	"chart.HBI.legend.title":
+		"Betroffenheit bezogen auf den bezirklichen Durchschnitt",
+	"chart.HBI.legend.verylow": "sehr gering",
+	"chart.HBI.legend.low": "gering",
+	"chart.HBI.legend.medium": "mittel",
+	"chart.HBI.legend.high": "hoch",
+	"chart.HBI.legend.veryhigh": "sehr hoch",
 
 	"chart.districtBuildings": "district buildings",
 	"chart.economy": "economy",
