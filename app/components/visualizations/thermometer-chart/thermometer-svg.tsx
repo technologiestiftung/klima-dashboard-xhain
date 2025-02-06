@@ -16,19 +16,13 @@ const ThermometerSVG: React.FC<ThermometerSVGProps> = ({
 	const calculateFillHeight = (temperature: number) =>
 		((temperature - minTemperature) / (maxTemperature - minTemperature)) * 100;
 
-	const desktopHeight = 543;
-	const mobileHeight = 440;
-	const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-
-	const height = isMobile ? mobileHeight : desktopHeight;
-
 	return (
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			width="400"
-			height={height}
+			height="543"
 			viewBox="0 0 410 543"
-			className="w-full"
+			className="h-[440px] md:h-[543px]"
 		>
 			<g transform="translate(148, 0)">
 				{/* Fill Circle*/}
