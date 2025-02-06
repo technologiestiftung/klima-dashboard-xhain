@@ -228,7 +228,7 @@ Der Verkehr verursacht xy% der Emissionen. Weiterhin sind auch die bezirklichen 
 	"chart.infoDialog.thgSector2021Tons.sourceLabel":
 		"Klimaschutzkonzept Langfassung",
 	"chart.infoDialog.thgSector2021Tons.learnMoreLink": "climate-concepts/",
-	"chart.infoDialog.thgSector2021Tons.description": `Die Emissionen, die durch den Energieverbrauch entstehen, werden mit sogenannten Emissionsfaktoren berechnet. <b>Ein Emissionsfaktor zeigt, wie viele Treibhausgase freigesetzt werden**, wenn ein bestimmter Energieträger – wie Gas, Strom oder Öl – erzeugt, transportiert und genutzt wird. So lässt sich einschätzen, wie klimaschädlich der Verbrauch einer bestimmten Energiequelle ist.
+	"chart.infoDialog.thgSector2021Tons.description": `Die Emissionen, die durch den Energieverbrauch entstehen, werden mit sogenannten Emissionsfaktoren berechnet. <b>Ein Emissionsfaktor zeigt, wie viele Treibhausgase freigesetzt werden</b>, wenn ein bestimmter Energieträger – wie Gas, Strom oder Öl – erzeugt, transportiert und genutzt wird. So lässt sich einschätzen, wie klimaschädlich der Verbrauch einer bestimmten Energiequelle ist.
 
 <b>Je niedriger der Emissionsfaktor, desto klimafreundlicher ist die Energiequelle.</b> Zum Beispiel hat Strom aus Windkraft einen sehr niedrigen Emissionsfaktor, während Strom aus Kohlekraftwerken einen hohen Faktor aufweist. Deshalb ist es so wichtig, dass wir die Energieerzeugung klimaneutral gestalten und auf Energieträger mit niedrigen Emissionsfaktoren umsteigen. Gleichzeitig bleibt es wichtig, den Gesamtenergieverbrauch zu reduzieren, um die Gesamtemissionen zu senken.`,
 
