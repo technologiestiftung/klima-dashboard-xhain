@@ -40,11 +40,11 @@ export const Dialog: React.FC<DialogProps> = ({ children, className, id }) => {
 	};
 
 	return (
-		<>
+		<div className="px-2.5">
 			<dialog
 				ref={dialogRef}
 				id={id}
-				className={`${className} bg-xhain-blue-10 rounded-4xl p-8 shadow-lg gap-7 max-w-[560px]`}
+				className={`${className} bg-xhain-blue-10 rounded-4xl p-8 shadow-lg gap-7 mx-auto w-full md:max-w-[580px]`}
 			>
 				<button
 					className="flex items-center px-3 py-0.5 gap-x-2 bg-xhain-blue-50 text-white rounded-full mb-7 font-semibold 
@@ -56,6 +56,6 @@ export const Dialog: React.FC<DialogProps> = ({ children, className, id }) => {
 				</button>
 				{children}
 			</dialog>
-		</>
+		</div>
 	);
 };

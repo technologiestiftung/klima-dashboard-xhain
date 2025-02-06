@@ -2,6 +2,7 @@ import React from "react";
 import { Dialog } from "../dialog/dialog";
 import { Map } from "./map";
 import { i18n } from "~/i18n/i18n-utils";
+import { DialogContentHBI } from "../dialog/dialog-content-hbi";
 
 export const HBIMap: React.FC = () => {
 	const dialogId = `hbi-dialog`;
@@ -27,7 +28,7 @@ export const HBIMap: React.FC = () => {
 						{i18n("button.moreInfo")}
 					</button>
 
-					<p className={`my-4 lg:columns-2 gap-7`}>
+					<p className={`my-4 desktop:columns-2 gap-7`}>
 						{i18n("chart.HBI.description")}
 					</p>
 				</figcaption>
@@ -36,7 +37,9 @@ export const HBIMap: React.FC = () => {
 				</div>
 			</div>
 
-			<Dialog id="hbi-dialog"> hi huhu</Dialog>
+			<Dialog id="hbi-dialog">
+				<DialogContentHBI />
+			</Dialog>
 		</figure>
 	);
 };

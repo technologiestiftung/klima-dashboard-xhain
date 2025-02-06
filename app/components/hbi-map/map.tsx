@@ -51,8 +51,13 @@ export const Map: React.FC = () => {
 
 	return (
 		<div className="relative w-full h-full flex flex-col-reverse desktop:flex-col">
-			<div ref={mapContainerRef} className={`w-full h-[550px]`} />
+			<div ref={mapContainerRef} className={`w-full h-[500px]`} />
 			<MapLegend />
 		</div>
 	);
 };
+
+// to do:
+
+// - info dialog content
+// - responsive map zoom

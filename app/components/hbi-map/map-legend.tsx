@@ -1,18 +1,18 @@
 import React from "react";
-
-const legendItems = [
-	{ color: "bg-white", label: "sehr gering" },
-	{ color: "bg-xhain-green-30", label: "gering" },
-	{ color: "bg-xhain-green-40", label: "mittel" },
-	{ color: "bg-xhain-blue-40", label: "hoch" },
-	{ color: "bg-xhain-blue-50", label: "sehr hoch" },
-];
+import { i18n } from "../../i18n/i18n-utils";
 
 export const MapLegend: React.FC = () => {
+	const legendItems = [
+		{ color: "bg-white", label: i18n("chart.HBI.legend.verylow") },
+		{ color: "bg-xhain-green-40", label: i18n("chart.HBI.legend.low") },
+		{ color: "bg-xhain-green-50", label: i18n("chart.HBI.legend.medium") },
+		{ color: "bg-xhain-blue-40", label: i18n("chart.HBI.legend.high") },
+		{ color: "bg-xhain-blue-50", label: i18n("chart.HBI.legend.veryhigh") },
+	];
 	return (
 		<div className="desktop:absolute desktop:top-10 desktop:left-10 flex flex-col items-start desktop:w-64">
 			<div className="text-base leading-6 font-bold mb-7">
-				Betroffenheit bezogen auf den bezirklichen Durchschnitt
+				{i18n("chart.HBI.legend.title")}
 			</div>
 			<div className="flex flex-row flex-wrap desktop:flex-col gap-2">
 				{legendItems.map((item) => (

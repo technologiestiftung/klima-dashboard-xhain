@@ -372,8 +372,13 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 	"chart.HBI.infoDialog.learnMoreLink":
 		"/climate-concepts/#climate-adaptation-full",
 	"chart.HBI.infoDialog.description.part1": `Der HBI wird durch folgende Indiktoren berechnet:`,
-	"chart.HBI.infoDialog.description.part2":
-		"Du findest den Hitzebetroffenheitsindex und weitere Karten zu den einzelnen Indikatoren auch im bezirklichen Geoportal MeinXhain",
+	"chart.HBI.legend.title":
+		"Betroffenheit bezogen auf den bezirklichen Durchschnitt",
+	"chart.HBI.legend.verylow": "sehr gering",
+	"chart.HBI.legend.low": "gering",
+	"chart.HBI.legend.medium": "mittel",
+	"chart.HBI.legend.high": "hoch",
+	"chart.HBI.legend.veryhigh": "sehr hoch",
 
 	"chart.districtBuildings": "Bezirkliche Gebäude",
 	"chart.economy": "Wirtschaft",
