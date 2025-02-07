@@ -104,9 +104,11 @@ const content = [
 export default function Index() {
 	return (
 		<>
-			<h1 className="text-4xl lg:text-7xl font-semibold text-center lg:text-left lg:px-20 py-12 bg-xhain-blue-20">
-				{i18n("climateConcepts.title")}
-			</h1>
+			<div className="w-full justify-center lg:px-20 py-12 bg-xhain-blue-20">
+				<h1 className="max-w-[894px] mx-auto text-4xl lg:text-7xl font-semibold text-center lg:text-left">
+					{i18n("climateConcepts.title")}
+				</h1>
+			</div>
 			<div className="flex w-full justify-center pt-10 lg:pt-20 px-5 lg:px-20">
 				<div className="flex flex-col max-w-[894px]">
 					<div className="flex flex-col gap-y-5">
