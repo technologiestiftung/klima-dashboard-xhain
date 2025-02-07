@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, useLocation } from "react-router";
+import { isLanguageSupported } from "~/i18n/is-language-supported";
 import { i18n, buildLocalizedLink } from "~/i18n/i18n-utils";
 import type { AvailableTranslations } from "~/i18n/translations";
 import { useMenuStore } from "./menu-store";
@@ -23,6 +24,17 @@ export const NavigationLinks: React.FC = () => {
 	const { closeMenu } = useMenuStore();
 	const location = useLocation();
 
+	// Normalize the pathname by removing the language prefix
+	const normalizePath = (path: string) => {
+		const pathSegments = path.split("/").filter(Boolean);
+		if (isLanguageSupported(pathSegments[0])) {
+			pathSegments.shift();
+		}
+		return `/${pathSegments.join("/")}`;
+	};
+
+	const normalizedPathname = normalizePath(location.pathname);
+
 	return (
 		<ul className="flex flex-col lg:flex-row gap-7 lg:gap-0 justify-center items-center h-full text-xhain-blue-100 font-bold text-2xl leading-8 lg:text-xl lg:leading-7">
 			{/* navigation links */}
@@ -35,7 +47,7 @@ export const NavigationLinks: React.FC = () => {
 						inline-block hover:underline hover:underline-offset-8 hover:decoration-1 
 						lg:p-6 lg:hover:no-underline lg:hover:bg-xhain-blue-20 lg:focus:bg-xhain-blue-20 
 						focus-xhain-blue-80 
-						${location.pathname === path && "bg-xhain-blue-20"}
+						${normalizedPathname === normalizePath(path) && "bg-xhain-blue-20"}
 						${className}`}
 					>
 						{i18n(labelKey)}
