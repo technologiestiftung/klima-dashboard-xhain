@@ -14,7 +14,7 @@ export const ProjectActionCard = () => {
 			</div>
 			<div className="flex flex-row justify-between gap-x-5">
 				<a
-					href="/"
+					href={i18n("currentProjects.greenCardCtaLink")}
 					target="_blank"
 					rel="noopener noreferrer"
 					className="flex w-fit items-center leading-6 text-base px-2.5 py-1 gap-x-2 border-2 border-xhain-blue-80 text-xhain-blue-80 rounded-full font-semibold hover:bg-xhain-green-60 focus-xhain-blue-80"
