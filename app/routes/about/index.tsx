@@ -34,7 +34,7 @@ export default function Index() {
 					</div>
 				))}
 			</div>
-			<div className="rounded-4xl flex flex-col justify-self-center gap-6 lg:gap-10 mx-5 py-6 px-4 lg:p-10 max-w-[552px] bg-xhain-blue-50 text-white">
+			<div className="rounded-4xl flex flex-col justify-self-center gap-6 lg:gap-10 mx-5 sm:mx-auto py-6 px-4 lg:p-10 max-w-[552px] bg-xhain-blue-50 text-white">
 				<p
 					className="text-xl leading-7 lg:text-2xl lg:leading-8 font-semibold "
 					dangerouslySetInnerHTML={{ __html: i18n("about.actionCardTitle") }}
