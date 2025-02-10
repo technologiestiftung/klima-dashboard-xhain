@@ -37,7 +37,7 @@ export const NavigationLinks: React.FC = () => {
 						inline-block hover:underline hover:underline-offset-8 hover:decoration-1 
 						lg:p-6 lg:hover:no-underline lg:hover:bg-xhain-blue-20 lg:focus:bg-xhain-blue-20 
 						focus-xhain-blue-80 
-						${normalizedPathname === normalizePath(path) && "bg-xhain-blue-20"}
+						${normalizedPathname === normalizePath(path) && "underline underline-offset-8 decoration-2 lg:bg-xhain-blue-20 lg:no-underline"}
 						${className}`}
 					>
 						{i18n(labelKey)}
