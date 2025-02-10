@@ -120,8 +120,8 @@ function getTranslateX({
 	const translateX = xScale(setYear(new Date(), d.year));
 
 	// if the tooltip is too close to the right border, move it a bit to the left
-	if (translateX >= sizes.width - 80) {
-		return translateX - 80;
+	if (translateX >= sizes.width - 110) {
+		return translateX - 110;
 	}
 
 	return translateX + 10;

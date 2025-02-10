@@ -8,6 +8,7 @@ import { Gradient } from "./gradient";
 import { XAxis } from "../shared-chart-components/x-axis";
 import { YReferenceLines } from "../shared-chart-components/y-reference-lines";
 import { setYear } from "date-fns";
+import { HoverableBarsAreaChart } from "./hoverable-bars-area-chart";
 
 const { precipitationMm } = consequencesData;
 
@@ -76,6 +77,12 @@ export const AreaChart: React.FC = () => {
 				/>
 				{/* commented out for now as it might be added later */}
 				{/* <TrendLine data={precipitationMm} xScale={xScale} yScale={yScale} /> */}
+				<HoverableBarsAreaChart
+					xScale={xScale}
+					yScale={yScale}
+					sizes={sizes}
+					parentRef={containerRef}
+				/>
 			</svg>
 		</div>
 	);
