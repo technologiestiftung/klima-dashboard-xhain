@@ -4,10 +4,10 @@ import { i18n } from "../../i18n/i18n-utils";
 export const MapLegend: React.FC = () => {
 	const legendItems = [
 		{ color: "bg-white", label: i18n("chart.HBI.legend.verylow") },
-		{ color: "bg-xhain-green-40", label: i18n("chart.HBI.legend.low") },
-		{ color: "bg-xhain-green-50", label: i18n("chart.HBI.legend.medium") },
-		{ color: "bg-xhain-blue-40", label: i18n("chart.HBI.legend.high") },
-		{ color: "bg-xhain-blue-50", label: i18n("chart.HBI.legend.veryhigh") },
+		{ color: "bg-xhain-blue-30", label: i18n("chart.HBI.legend.low") },
+		{ color: "bg-xhain-blue-40", label: i18n("chart.HBI.legend.medium") },
+		{ color: "bg-xhain-blue-50", label: i18n("chart.HBI.legend.high") },
+		{ color: "bg-xhain-blue-70", label: i18n("chart.HBI.legend.veryhigh") },
 	];
 	return (
 		<div className="desktop:absolute desktop:top-10 desktop:left-10 flex flex-col items-start desktop:w-64">
