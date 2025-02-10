@@ -88,3 +88,12 @@ export const buildLocalizedLink = (path: string) => {
 	const language = getLanguage();
 	return language === "de" ? path : `/${language}${path}`;
 };
+
+// Normalize the pathname by removing the language prefix
+export const normalizePath = (path: string) => {
+	const pathSegments = path.split("/").filter(Boolean);
+	if (isLanguageSupported(pathSegments[0])) {
+		pathSegments.shift();
+	}
+	return `/${pathSegments.join("/")}`;
+};

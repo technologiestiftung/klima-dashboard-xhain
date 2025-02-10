@@ -1,7 +1,6 @@
 import React from "react";
 import { Link, useLocation } from "react-router";
-import { isLanguageSupported } from "~/i18n/is-language-supported";
-import { i18n, buildLocalizedLink } from "~/i18n/i18n-utils";
+import { i18n, buildLocalizedLink, normalizePath } from "~/i18n/i18n-utils";
 import type { AvailableTranslations } from "~/i18n/translations";
 import { useMenuStore } from "./menu-store";
 
@@ -23,15 +22,6 @@ const navLinks: {
 export const NavigationLinks: React.FC = () => {
 	const { closeMenu } = useMenuStore();
 	const location = useLocation();
-
-	// Normalize the pathname by removing the language prefix
-	const normalizePath = (path: string) => {
-		const pathSegments = path.split("/").filter(Boolean);
-		if (isLanguageSupported(pathSegments[0])) {
-			pathSegments.shift();
-		}
-		return `/${pathSegments.join("/")}`;
-	};
 
 	const normalizedPathname = normalizePath(location.pathname);
 
