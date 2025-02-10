@@ -6,10 +6,10 @@ export const useScrollDirection = (): "up" | "down" => {
 
 	useEffect(() => {
 		const handleScroll = () => {
-			const currentScrollY = window.pageYOffset;
+			const currentScrollY = window.scrollY;
 
 			// If at the top of the page, always set direction to "up"
-			if (currentScrollY === 0) {
+			if (currentScrollY === 0 || currentScrollY < 0) {
 				setScrollDirection("up");
 				lastScrollY.current = currentScrollY;
 				return;
