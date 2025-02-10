@@ -31,7 +31,7 @@ export const DialogContent: React.FC<DialogContentProps> = ({ id }) => {
 				<h2 className="text-xl leading-7 font-bold">{title}</h2>
 				<p className="text-xl leading-7 font-normal ">{subTitle}</p>
 			</div>
-			<div className="font-normal text-base leading-6 pr-2.5">
+			<div className="font-normal text-base leading-6 pr-2.5 overflow-hidden overflow-y-scroll sm:max-h-none max-h-[300px]">
 				<div
 					className="dialog-description"
 					dangerouslySetInnerHTML={{ __html: description }}
@@ -51,7 +51,7 @@ export const DialogContent: React.FC<DialogContentProps> = ({ id }) => {
 					href={buildLocalizedLink(learnMoreLink)}
 					target="_blank"
 					rel="noopener noreferrer"
-					className="flex w-fit items-center leading-6 text-base px-2.5 py-1 gap-x-2 border-2 border-xhain-blue-50 text-xhain-blue-50 rounded-full font-semibold 
+					className="flex w-fit items-center leading-6 sm:text-base text-xs px-2.5 py-1 gap-x-2 border-2 border-xhain-blue-50 text-xhain-blue-50 rounded-full font-semibold 
                             hover:border-xhain-blue-80 hover:text-xhain-blue-80 focus:outline focus:outline-3 focus:outline-xhain-blue-80 focus:outline-offset-5"
 				>
 					{learnMoreLabel}
