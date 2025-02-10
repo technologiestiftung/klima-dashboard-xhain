@@ -10,7 +10,6 @@ import stylesheet from "./index.css?url";
 import { Header } from "~/components/header/header";
 import { Footer } from "~/components/footer/footer";
 import { useMenuStore } from "~/components/header/navigation/menu-store";
-import { ScrollToTop } from "~/components/scroll-to-top";
 
 export const links = () => [{ rel: "stylesheet", href: stylesheet }];
 
@@ -30,7 +29,6 @@ export function Layout({ children }: { children: React.ReactNode }) {
 				className={`[&:has(dialog[open])]:overflow-hidden ${isMenuOpen ? "overflow-hidden lg:overflow-auto" : ""}`}
 			>
 				<Header />
-				<ScrollToTop />
 				<main>{children}</main>
 
 				<Footer />

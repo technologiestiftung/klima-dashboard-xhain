@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router";
 import { i18n, buildLocalizedLink } from "~/i18n/i18n-utils";
 import { Navigation } from "./navigation/navigation";
 import { useScrollDirection } from "~/hooks/use-scroll-direction";
@@ -19,13 +18,13 @@ export const Header: React.FC = () => {
         ${isHeaderVisible ? "translate-y-0" : "-translate-y-full"}
       `}
 		>
-			<Link to={buildLocalizedLink("/")}>
+			<a href={buildLocalizedLink("/")}>
 				<img
 					src={xhainLogo}
 					alt={i18n("header.bezirksamtXhainAltText")}
 					className="w-24 lg:w-32 py-3"
 				/>
-			</Link>
+			</a>
 			<Navigation />
 		</header>
 	);
