@@ -23,10 +23,12 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
 	projectLink,
 }) => {
 	return (
-		<div className="flex flex-col-reverse lg:flex-row max-w-[650px] mx-auto">
+		<div className="flex flex-col-reverse lg:flex-row max-w-[650px] mx-auto items-stretch">
 			{/* Left Section */}
-			<div className="lg:flex-1 flex flex-col p-4 lg:p-7 bg-xhain-blue-10 rounded-b-4xl lg:rounded-l-4xl lg:rounded-br-none">
-				<h2 className="mb-3 lg:mb-4 text-2xl leading-8 font-bold">{title}</h2>
+			<div className="w-full lg:w-1/2 flex flex-col p-4 lg:p-7 bg-xhain-blue-10 rounded-b-4xl lg:rounded-l-4xl lg:rounded-br-none">
+				<h2 className="mb-3 lg:mb-4 text-2xl leading-8 font-bold break-words hyphens-auto">
+					{title}
+				</h2>
 				<p className="mb-7 lg:mb-4 text-base leading-6 font-normal">
 					{description}
 				</p>
@@ -39,7 +41,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
 			</div>
 
 			{/* Right Section */}
-			<div className="lg:flex-1 relative overflow-hidden h-[200px] lg:h-auto rounded-t-4xl rounded-b-none lg:rounded-r-4xl lg:rounded-tl-none">
+			<div className="w-full lg:w-1/2 relative overflow-hidden h-[200px] lg:h-full rounded-t-4xl rounded-b-none lg:rounded-r-4xl lg:rounded-tl-none">
 				<picture>
 					{/* Large image for desktops */}
 					<source srcSet={imageDesktop} media="(min-width: 1024px)" />
