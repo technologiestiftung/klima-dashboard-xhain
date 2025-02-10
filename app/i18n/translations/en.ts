@@ -289,7 +289,7 @@ To implement the Paris targets locally, the so-called remaining budget approach 
 The graph illustrates how crucial it is to enter the phase of strong reduction as quickly as possible in order to achieve climate neutrality by 2045 at the latest. The sooner emission reductions are implemented, the less strain is placed on the remaining budget, and the more time remains to implement necessary changes. <b>Accordingly, the climate protection scenario outlines a continuous and realistic reduction path.</b>`,
 
 	"chart.hotDays.title": "Hot days",
-	"chart.hotDays.subtitle": "",
+	"chart.hotDays.subtitle": "per year",
 	"chart.hotDays.description":
 		'A "Hot Day" is a day with a maximum temperature of 30°C or more.',
 	"chart.hotDays.keys.current": "Today",

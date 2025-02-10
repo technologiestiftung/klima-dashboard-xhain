@@ -292,7 +292,7 @@ Um die Ziele von Paris lokal umzusetzen, wird der sogenannte Restbudget-Ansatz g
 Die Grafik verdeutlicht, wie wichtig es ist, möglichst schnell in die Phase der starken Reduktion einzutreten, um bis spätestens 2045 Klimaneutralität zu erreichen, denn je früher mögliche Emissionsreduktionen umgesetzt werden, desto weniger wird das verbleibende Budget belastet und desto mehr Zeit bleibt für die Umsetzung notwendiger Veränderungen. <b>Dementsprechend zeigt das Klimaschutzszenario einen kontinuierlichen und realistischen Reduktionspfad auf.</b>`,
 
 	"chart.hotDays.title": "Heiße Tage",
-	"chart.hotDays.subtitle": "",
+	"chart.hotDays.subtitle": "pro Jahr",
 	"chart.hotDays.description":
 		"Als „Heißer Tag“ wird jeder Tag bezeichnet, dessen höchste Temperatur bei 30 °C oder höher liegt.",
 	"chart.hotDays.keys.current": "Heute",
