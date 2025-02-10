@@ -7,6 +7,14 @@ export const useScrollDirection = (): "up" | "down" => {
 	useEffect(() => {
 		const handleScroll = () => {
 			const currentScrollY = window.pageYOffset;
+
+			// If at the top of the page, always set direction to "up"
+			if (currentScrollY === 0) {
+				setScrollDirection("up");
+				lastScrollY.current = currentScrollY;
+				return;
+			}
+
 			// Ignore small scrolls for performance & smoother UX
 			if (Math.abs(currentScrollY - lastScrollY.current) < 10) {
 				return;
