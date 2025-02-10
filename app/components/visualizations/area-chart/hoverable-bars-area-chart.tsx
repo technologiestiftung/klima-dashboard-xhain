@@ -5,15 +5,15 @@ import React, {
 	useState,
 } from "react";
 import * as d3 from "d3";
-import { howToReachGoalsData } from "~/data";
+import { consequencesData } from "~/data";
 import { setYear } from "date-fns";
 import { formatNumber } from "~/i18n/i18n-utils";
 import { useMouseLeave } from "~/hooks/use-mouse-leave";
 import { useFocusLeave } from "~/hooks/use-focus-leave";
 
-const { reductionPathScenario175Thg } = howToReachGoalsData;
+const { precipitationMm } = consequencesData;
 
-interface HoverableBarsReductionPathProps {
+interface HoverableBarsAreaChartProps {
 	xScale: d3.ScaleTime<number, number, never>;
 	yScale: d3.ScaleLinear<number, number, never>;
 	sizes: {
@@ -24,9 +24,12 @@ interface HoverableBarsReductionPathProps {
 	parentRef: RefObject<HTMLDivElement | null>;
 }
 
-export const HoverableBarsReductionPath: React.FC<
-	HoverableBarsReductionPathProps
-> = ({ xScale, yScale, sizes, parentRef }) => {
+export const HoverableBarsAreaChart: React.FC<HoverableBarsAreaChartProps> = ({
+	xScale,
+	yScale,
+	sizes,
+	parentRef,
+}) => {
 	const {
 		margin: { bottom, top },
 		width,
@@ -50,14 +53,9 @@ export const HoverableBarsReductionPath: React.FC<
 	useMouseLeave(parentRef, () => setVisibleYear(undefined));
 	useFocusLeave(parentRef, () => setVisibleYear(undefined));
 
-	const legendColors = [
-		"border-t-xhain-blue-50",
-		"border-t-xhain-blue-80 border-dotted",
-	];
-
 	return (
 		<>
-			{reductionPathScenario175Thg.map((d) => (
+			{precipitationMm.map((d) => (
 				<React.Fragment key={d.year}>
 					{/* invisible line so hover works above the line  */}
 					<rect
@@ -69,51 +67,42 @@ export const HoverableBarsReductionPath: React.FC<
 						opacity={0.5}
 						data-year={d.year}
 						stroke="transparent"
-						strokeWidth={width > 480 ? 20 : 10}
+						strokeWidth={width > 480 ? 8 : 5}
 						onMouseEnter={visibleYearHandler}
 						onClick={visibleYearHandler}
 						onFocus={visibleYearHandler}
 					/>
 					<rect
 						x={xScale(setYear(new Date(), d.year)) - 0.5}
-						y={
-							yScale(Math.max(Number(d.goal_berlin_tons), d.model_xhain_tons)) -
-							bottom +
-							top
-						}
+						y={yScale(d.rain) - bottom + top}
 						width={1}
-						height={
-							sizes.height -
-							yScale(Math.max(Number(d.goal_berlin_tons), d.model_xhain_tons)) -
-							top
-						}
+						height={sizes.height - yScale(d.rain) - top}
 						fill={visibleYear === d.year.toString() ? "black" : "transparent"}
 						opacity={0.5}
 						data-year={d.year}
 						stroke="transparent"
 						tabIndex={0}
-						strokeWidth={width > 480 ? 20 : 15}
+						strokeWidth={width > 480 ? 8 : 5}
 						onMouseEnter={visibleYearHandler}
 						onClick={visibleYearHandler}
 						onFocus={visibleYearHandler}
 					/>
 					<foreignObject
 						transform={`translate(${getTranslateX({ xScale, d, sizes })}, 0)`}
-						width="120"
+						width="105"
 						height="150"
 						className={`${visibleYear === d.year.toString() ? "block" : "hidden"}`}
 					>
 						<div className="bg-white rounded-5px flex flex-col p-2">
 							<span className="font-semibold">{d.year}</span>
-							{[d.model_xhain_tons, d.goal_berlin_tons].map((tons, i) =>
+							{[d.rain].map((amount, i) => (
 								// filter out first goal_xhain_tons value which has 0 as a placeholder
-								Number(tons) !== 0 ? (
-									<span key={tons + i} className="flex items-center gap-x-1">
-										<div className={`border-t-2 w-5 h-1 ${legendColors[i]}`} />
-										{`${formatNumber(Number(tons))} t`}
-									</span>
-								) : null,
-							)}
+
+								<span key={amount + i} className="flex items-center gap-x-1">
+									<div className={`size-4 bg-xhain-blue-50`} />
+									{`${formatNumber(Number(amount))} mm`}
+								</span>
+							))}
 						</div>
 					</foreignObject>
 				</React.Fragment>
@@ -127,15 +116,15 @@ function getTranslateX({
 	d,
 	sizes,
 }: {
-	xScale: HoverableBarsReductionPathProps["xScale"];
-	d: (typeof reductionPathScenario175Thg)[0];
-	sizes: HoverableBarsReductionPathProps["sizes"];
+	xScale: HoverableBarsAreaChartProps["xScale"];
+	d: (typeof precipitationMm)[0];
+	sizes: HoverableBarsAreaChartProps["sizes"];
 }) {
 	const translateX = xScale(setYear(new Date(), d.year));
 
 	// if the tooltip is too close to the right border, move it a bit to the left
-	if (translateX >= sizes.width - 130) {
-		return translateX - 130;
+	if (translateX >= sizes.width - 115) {
+		return translateX - 115;
 	}
 
 	return translateX + 10;

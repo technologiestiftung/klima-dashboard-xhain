@@ -22,7 +22,7 @@ const ThermometerSVG: React.FC<ThermometerSVGProps> = ({
 			width="400"
 			height="543"
 			viewBox="0 0 410 543"
-			className="h-[440px] md:h-[543px]"
+			className="h-[340px] md:h-[543px]"
 		>
 			<g transform="translate(148, 0)">
 				{/* Fill Circle*/}

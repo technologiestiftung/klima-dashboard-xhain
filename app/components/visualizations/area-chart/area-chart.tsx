@@ -8,15 +8,16 @@ import { Gradient } from "./gradient";
 import { XAxis } from "../shared-chart-components/x-axis";
 import { YReferenceLines } from "../shared-chart-components/y-reference-lines";
 import { setYear } from "date-fns";
+import { HoverableBarsAreaChart } from "./hoverable-bars-area-chart";
 
 const { precipitationMm } = consequencesData;
 
 const getXAxisConfig = (width: number) => {
 	if (width <= 350) {
-		return { filterInterval: 15, removeSecondToLastTick: false };
+		return { filterInterval: 25, removeSecondToLastTick: false };
 	}
-	if (width <= 400) {
-		return { filterInterval: 12, removeSecondToLastTick: false };
+	if (width <= 480) {
+		return { filterInterval: 18, removeSecondToLastTick: false };
 	}
 	return { filterInterval: 10, removeSecondToLastTick: true };
 };
@@ -32,7 +33,7 @@ export const AreaChart: React.FC = () => {
 	const sizes = {
 		width,
 		height,
-		margin: { top: 1, right: 25, bottom: 25, left: 20 },
+		margin: { top: 1, right: 0, bottom: 25, left: 0 },
 	};
 
 	const xScale = useCallback(
@@ -65,7 +66,7 @@ export const AreaChart: React.FC = () => {
 				<YReferenceLines
 					yScale={yScale}
 					sizes={sizes}
-					yReferenceLineValues={[100, 200, 300, 400]}
+					yReferenceLineValues={[100, 250, 400]}
 				/>
 				<XAxis
 					sizes={sizes}
@@ -76,6 +77,12 @@ export const AreaChart: React.FC = () => {
 				/>
 				{/* commented out for now as it might be added later */}
 				{/* <TrendLine data={precipitationMm} xScale={xScale} yScale={yScale} /> */}
+				<HoverableBarsAreaChart
+					xScale={xScale}
+					yScale={yScale}
+					sizes={sizes}
+					parentRef={containerRef}
+				/>
 			</svg>
 		</div>
 	);

@@ -32,6 +32,7 @@ export const HoverableBarsEEV: React.FC<HoverableBarsEEVProps> = ({
 }) => {
 	const {
 		margin: { bottom, top },
+		width,
 	} = sizes;
 
 	const [visibleYear, setVisibleYear] = useState<string | undefined>(undefined);
@@ -80,7 +81,7 @@ export const HoverableBarsEEV: React.FC<HoverableBarsEEVProps> = ({
 						data-year={d.year}
 						stroke="transparent"
 						tabIndex={0}
-						strokeWidth={70}
+						strokeWidth={width > 480 ? 70 : 40}
 						onMouseEnter={visibleYearHandler}
 						onClick={visibleYearHandler}
 						onFocus={visibleYearHandler}
@@ -119,8 +120,8 @@ function getTranslateX({
 	const translateX = xScale(setYear(new Date(), d.year));
 
 	// if the tooltip is too close to the right border, move it a bit to the left
-	if (translateX >= sizes.width - 80) {
-		return translateX - 80;
+	if (translateX >= sizes.width - 110) {
+		return translateX - 110;
 	}
 
 	return translateX + 10;

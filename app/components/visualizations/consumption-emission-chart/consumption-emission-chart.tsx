@@ -51,8 +51,8 @@ export const ConsumptionEmissionsChart: React.FC = () => {
 			: treesNeeded.toString();
 
 	return (
-		<div className="grid grid-cols-1 lg:grid-cols-3 gap-9 lg:gap-0 items-center justify-items-center mt-5">
-			<div className="flex flex-col lg:gap-4 gap-10 mx-auto">
+		<div className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-0 items-center justify-items-center lg:mt-5">
+			<div className="flex flex-col gap-4 mx-auto">
 				<RadioToggle
 					options={radioOptions}
 					defaultValue={radioOptions[0]?.value}
