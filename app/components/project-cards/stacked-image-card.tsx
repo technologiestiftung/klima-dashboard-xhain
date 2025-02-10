@@ -22,7 +22,7 @@ export const StackedImageCard = () => {
 				<div className="absolute top-5 left-5 lg:top-6 lg:left-6">
 					<SmallTooltip isDark>
 						<span className="text-xhain-blue-80">
-							{i18n("currentProjects.subtitle")}
+							{i18n("currentProjects.featureImageSource")}
 						</span>
 					</SmallTooltip>
 				</div>

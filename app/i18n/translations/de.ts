@@ -444,6 +444,8 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 	"currentProjects.greenCardDescription":
 		"Es gibt bereits viele spannende Projekte und Organisationen vor Ort. Du hast Lust selbst einen positiven Beitrag zu leisten? Dann findest du hier Projekte und Initiativen zum Mitmachen!",
 	"currentProjects.greenCardCtaLabel": "Finde passende Projekte",
+	"currentProjects.greenCardCtaLink":
+		"https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/service-und-organisationseinheiten/klima-und-internationales/artikel.1408194.php",
 	/**
 	 * projects
 	 */
@@ -485,15 +487,15 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 		"Um die bezirklichen Gebäude vollständig mit PV auszustatten arbeitet das Bezirksamt mit den Berliner Stadtwerken zusammen. Im Rahmen dieser Kooperation wurden bis Ende 2024 Anlagen mit einer Leistung von ca. 850 kWp in Betrieb genommen. Weitere Anlagen befinden sich in Planung und Umsetzung.",
 	"currentProjects.project5.imageAltText": "",
 	"currentProjects.project5.link":
-		" https://www.berlin.de/ba-friedrichshain-kreuzberg/aktuelles/pressemitteilungen/2025/pressemitteilung.1523939.php",
-	"currentProjects.project5.imageSource": "Bild: ",
+		"https://www.berlin.de/ba-friedrichshain-kreuzberg/aktuelles/pressemitteilungen/2025/pressemitteilung.1523939.php",
+	"currentProjects.project5.imageSource": "Bild: pexels",
 
 	"currentProjects.project6.title": "Smarte Heizkreisregelung",
 	"currentProjects.project6.description":
 		"Bereits 50 bezirkliche Liegenschaften wurden mit der Heizkreisregelung ovoTherm ausgerüstet, weitere Gebäude folgen. Dadurch wird die Leistung einer Heizung genau an den tatsächlichen Nutzungsbedarf angepasst und so Energieverbrauch, CO2-Emissionen und Energiekosten reduziert.",
 	"currentProjects.project6.imageAltText": "",
 	"currentProjects.project6.link": "",
-	"currentProjects.project6.imageSource": "Bild: ",
+	"currentProjects.project6.imageSource": "Bild: valovo GmbH",
 
 	"currentProjects.project7.title": "Mehrweg",
 	"currentProjects.project7.description":
@@ -501,7 +503,7 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 	"currentProjects.project7.imageAltText":
 		"Zwei Tassen mit der Aufschrift „fair. kiez“ und „BOXI“",
 	"currentProjects.project7.link":
-		" https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/beauftragte/entwicklungspolitik-und-nachhaltigkeit/zero-waste/artikel.1221491.php",
+		"https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/beauftragte/entwicklungspolitik-und-nachhaltigkeit/zero-waste/artikel.1221491.php",
 	"currentProjects.project7.imageSource": "Bild: Daniel Triebke | Markburg",
 	/**
 	 * Feature Section

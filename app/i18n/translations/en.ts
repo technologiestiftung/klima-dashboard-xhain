@@ -445,6 +445,8 @@ Regarding the number of heavy rainfall days, no clear trend has been observed ye
 	"currentProjects.greenCardDescription":
 		"There are already many exciting projects and organizations on-site. Want to make a positive impact yourself? Here, you'll find projects and initiatives to get involved in!",
 	"currentProjects.greenCardCtaLabel": "Find suitable projects",
+	"currentProjects.greenCardCtaLink":
+		"https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/service-und-organisationseinheiten/klima-und-internationales/artikel.1408194.php",
 	/**
 	 * projects
 	 */
@@ -486,15 +488,15 @@ Regarding the number of heavy rainfall days, no clear trend has been observed ye
 		"To fully equip district buildings with solar panels, the district administration is working with Berliner Stadtwerke. As part of this cooperation, systems with a capacity of approximately 850 kWp were commissioned by the end of 2024. Additional installations are in planning and implementation.",
 	"currentProjects.project5.imageAltText": "",
 	"currentProjects.project5.link":
-		" https://www.berlin.de/ba-friedrichshain-kreuzberg/aktuelles/pressemitteilungen/2025/pressemitteilung.1523939.php",
-	"currentProjects.project5.imageSource": "Image: ",
+		"https://www.berlin.de/ba-friedrichshain-kreuzberg/aktuelles/pressemitteilungen/2025/pressemitteilung.1523939.php",
+	"currentProjects.project5.imageSource": "Image: pexels",
 
 	"currentProjects.project6.title": "Smart Heating Circuit Control",
 	"currentProjects.project6.description":
 		"Fifty district properties have already been equipped with the ovoTherm heating circuit control system, with more buildings to follow. This ensures that heating performance is precisely adjusted to actual usage needs, reducing energy consumption, CO2 emissions, and energy costs.",
 	"currentProjects.project6.imageAltText": "",
 	"currentProjects.project6.link": "",
-	"currentProjects.project6.imageSource": "Image: ",
+	"currentProjects.project6.imageSource": "Image: valovo GmbH",
 
 	"currentProjects.project7.title": "Reusable Initiatives",
 	"currentProjects.project7.description":
@@ -502,7 +504,7 @@ Regarding the number of heavy rainfall days, no clear trend has been observed ye
 	"currentProjects.project7.imageAltText":
 		"Two cups with the inscriptions 'fair. kiez' and 'BOXI'",
 	"currentProjects.project7.link":
-		" https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/beauftragte/entwicklungspolitik-und-nachhaltigkeit/zero-waste/artikel.1221491.php",
+		"https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/beauftragte/entwicklungspolitik-und-nachhaltigkeit/zero-waste/artikel.1221491.php",
 	"currentProjects.project7.imageSource": "Image: Daniel Triebke | Markburg",
 	/**
 	 * Feature Section
