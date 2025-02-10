@@ -32,10 +32,6 @@
 		src: url("/fonts/raleway-v34-latin-700.woff2") format("woff2");
 	}
 
-	html {
-		@apply scroll-smooth;
-	}
-
 	body {
 		@apply text-xhain-blue-80 lining-nums proportional-nums;
 		font-variant-ligatures: no-common-ligatures;

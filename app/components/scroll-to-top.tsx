@@ -7,8 +7,8 @@ export function ScrollToTop() {
 	useEffect(() => {
 		// Using setTimeout to allow content to render
 		const timeoutId = setTimeout(() => {
-			window.scrollTo({ top: 0, behavior: "smooth" });
-		}, 50);
+			window.scrollTo({ top: 0 });
+		}, 30);
 
 		return () => clearTimeout(timeoutId);
 	}, [pathname]);
