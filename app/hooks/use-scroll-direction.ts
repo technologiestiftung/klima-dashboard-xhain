@@ -8,7 +8,9 @@ export const useScrollDirection = (): "up" | "down" => {
 		const handleScroll = () => {
 			const currentScrollY = window.pageYOffset;
 			// Ignore small scrolls for performance & smoother UX
-			if (Math.abs(currentScrollY - lastScrollY.current) < 30) return;
+			if (Math.abs(currentScrollY - lastScrollY.current) < 10) {
+				return;
+			}
 
 			const newDirection = currentScrollY > lastScrollY.current ? "down" : "up";
 			setScrollDirection(newDirection);
