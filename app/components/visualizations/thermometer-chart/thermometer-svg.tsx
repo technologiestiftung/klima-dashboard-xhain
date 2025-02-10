@@ -50,16 +50,20 @@ const ThermometerSVG: React.FC<ThermometerSVGProps> = ({
 					fill={xhainBlue80}
 				/>
 				{/* Position line */}
-				<path
-					d={`M40 ${460 - calculateFillHeight(celsius) * 4}H115`}
-					stroke={xhainBlue80}
-					strokeWidth="4"
-					className="transition-all duration-1000 ease-in-out"
-				/>
-				{/* Temperature Text with animated transform */}
 				<g
 					className="transition-all duration-1000 ease-in-out"
-					transform={`translate(120, ${460 - calculateFillHeight(celsius) * 4})`}
+					style={{
+						transform: `translateY(${460 - calculateFillHeight(celsius) * 4}px)`,
+					}}
+				>
+					<path d="M40 0H115" stroke={xhainBlue80} strokeWidth="4" />
+				</g>
+				{/* Temperature Text */}
+				<g
+					className="transition-all duration-1000 ease-in-out"
+					style={{
+						transform: `translate(120px, ${460 - calculateFillHeight(celsius) * 4}px)`,
+					}}
 				>
 					<text className="text-5xl lg:text-6xl leading-none fill-current font-bold">
 						{celsius.toFixed(1)}°
