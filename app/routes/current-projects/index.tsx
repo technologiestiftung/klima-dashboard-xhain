@@ -72,34 +72,38 @@ export default function Index() {
 
 	return (
 		<>
-			<div className="block lg:flex lg:flex-1 lg:gap-28 xl:gap-0 mb-36 lg:mb-48 pt-10 pb-32 px-2 lg:px-20 lg:py-28 bg-xhain-blue-20">
-				<div className="lg:w-1/2">
-					<h1 className="m-1 lg:mb-4 text-4xl leading-10 font-semibold lg:text-7xl lg:leading-none text-center lg:text-left">
-						{i18n("currentProjects.title")}
-					</h1>
-					<p className="text-lg leading-7 font-normal lg:text-3xl text-center lg:text-left">
-						{i18n("currentProjects.subtitle")}
-					</p>
-				</div>
-				<div className="relative lg:static flex lg:w-1/2 justify-center mt-8 lg:mt-0">
-					<StackedImageCard />
+			<div className="w-full mb-36 lg:mb-48 pt-10 pb-32 px-2 lg:px-20 lg:py-28 bg-xhain-blue-20">
+				<div className="max-w-8xl mx-auto block lg:flex lg:flex-1 lg:gap-28 xl:gap-0">
+					<div className="lg:w-1/2">
+						<h1 className="m-1 lg:mb-4 text-4xl leading-10 font-semibold lg:text-7xl lg:leading-none text-center lg:text-left">
+							{i18n("currentProjects.title")}
+						</h1>
+						<p className="text-lg leading-7 font-normal lg:text-3xl text-center lg:text-left">
+							{i18n("currentProjects.subtitle")}
+						</p>
+					</div>
+					<div className="relative lg:static flex lg:w-1/2 justify-center mt-8 lg:mt-0">
+						<StackedImageCard />
+					</div>
 				</div>
 			</div>
-			<div className="max-w-8xl px-5 lg:px-20 lg:mx-auto grid grid-cols-1 lg:grid-cols-2 gap-x-[30px] lg:gap-x-5 gap-y-[30px] lg:gap-y-12">
-				{projects.map((project, index) => (
-					<ProjectCard
-						key={index}
-						title={project.title}
-						description={project.description}
-						imageDesktop={project.imageDesktop}
-						imageMobile={project.imageMobile}
-						imageAltText={project.imageAltText}
-						imageSourceText={project.imageSourceText}
-						projectLink={project.projectLink}
-					/>
-				))}
-				{/* Green Card */}
-				<ProjectActionCard />
+			<div className="w-full px-5 lg:px-20">
+				<div className="max-w-8xl lg:mx-auto grid grid-cols-1 lg:grid-cols-2 gap-x-[30px] lg:gap-x-5 gap-y-[30px] lg:gap-y-12">
+					{projects.map((project, index) => (
+						<ProjectCard
+							key={index}
+							title={project.title}
+							description={project.description}
+							imageDesktop={project.imageDesktop}
+							imageMobile={project.imageMobile}
+							imageAltText={project.imageAltText}
+							imageSourceText={project.imageSourceText}
+							projectLink={project.projectLink}
+						/>
+					))}
+					{/* Green Card */}
+					<ProjectActionCard />
+				</div>
 			</div>
 		</>
 	);
