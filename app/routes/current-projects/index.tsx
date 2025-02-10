@@ -8,8 +8,10 @@ export default function Index() {
 		{
 			title: i18n("currentProjects.project1.title"),
 			description: i18n("currentProjects.project1.description"),
-			imageDesktop: "/images/project-images/project-image1.png",
-			imageMobile: "/images/project-images/placeholder-image-small.webp",
+			imageDesktop:
+				"/images/project-images/desktop/RZ_Entsiegelung_Desktop_klein.webp",
+			imageMobile:
+				"/images/project-images/mobile/RZ_entsiegelung_mobile_klein.webp",
 			imageAltText: i18n("currentProjects.project1.imageAltText"),
 			imageSourceText: i18n("currentProjects.project1.imageSource"),
 			projectLink: i18n("currentProjects.project1.link"),
@@ -17,8 +19,10 @@ export default function Index() {
 		{
 			title: i18n("currentProjects.project2.title"),
 			description: i18n("currentProjects.project2.description"),
-			imageDesktop: "/images/project-images/project-image1.png",
-			imageMobile: "/images/project-images/placeholder-image-small.webp",
+			imageDesktop:
+				"/images/project-images/desktop/RZ_Grünberatung_Desktop_klein.webp",
+			imageMobile:
+				"/images/project-images/mobile/RZ_grünberatung_mobile_klein.webp",
 			imageAltText: i18n("currentProjects.project2.imageAltText"),
 			imageSourceText: i18n("currentProjects.project2.imageSource"),
 			projectLink: i18n("currentProjects.project2.link"),
@@ -26,8 +30,9 @@ export default function Index() {
 		{
 			title: i18n("currentProjects.project3.title"),
 			description: i18n("currentProjects.project3.description"),
-			imageDesktop: "/images/project-images/project-image1.png",
-			imageMobile: "/images/project-images/placeholder-image-small.webp",
+			imageDesktop:
+				"/images/project-images/desktop/RZ_Parken_Desktop_klein.webp",
+			imageMobile: "/images/project-images/mobile/RZ_Parken_mobile_klein.webp",
 			imageAltText: i18n("currentProjects.project3.imageAltText"),
 			imageSourceText: i18n("currentProjects.project3.imageSource"),
 			projectLink: i18n("currentProjects.project3.link"),
@@ -35,8 +40,10 @@ export default function Index() {
 		{
 			title: i18n("currentProjects.project4.title"),
 			description: i18n("currentProjects.project4.description"),
-			imageDesktop: "/images/project-images/project4-image-large.webp",
-			imageMobile: "/images/project-images/placeholder-image-small.webp",
+			imageDesktop:
+				"/images/project-images/desktop/RZ_Radverkehr_Desktop_klein.webp",
+			imageMobile:
+				"/images/project-images/mobile/RZ_radverkehr_mobile_klein.webp",
 			imageAltText: i18n("currentProjects.project4.imageAltText"),
 			imageSourceText: i18n("currentProjects.project4.imageSource"),
 			projectLink: i18n("currentProjects.project4.link"),
@@ -44,8 +51,9 @@ export default function Index() {
 		{
 			title: i18n("currentProjects.project5.title"),
 			description: i18n("currentProjects.project5.description"),
-			imageDesktop: "/images/project-images/project4-image-large.webp",
-			imageMobile: "/images/project-images/placeholder-image-small.webp",
+			imageDesktop:
+				"/images/project-images/desktop/RZ_PV-Anlage_Desktop_klein.webp",
+			imageMobile: "/images/project-images/mobile/RZ_pv_mobile_klein.webp",
 			imageAltText: i18n("currentProjects.project5.imageAltText"),
 			imageSourceText: i18n("currentProjects.project5.imageSource"),
 			projectLink: i18n("currentProjects.project5.link"),
@@ -53,8 +61,10 @@ export default function Index() {
 		{
 			title: i18n("currentProjects.project6.title"),
 			description: i18n("currentProjects.project6.description"),
-			imageDesktop: "/images/project-images/project4-image-large.webp",
-			imageMobile: "/images/project-images/placeholder-image-small.webp",
+			imageDesktop:
+				"/images/project-images/desktop/RZ_Heizkreis_Desktop_klein.webp",
+			imageMobile:
+				"/images/project-images/mobile/RZ_heizkreis_mobile_klein.webp",
 			imageAltText: i18n("currentProjects.project6.imageAltText"),
 			imageSourceText: i18n("currentProjects.project6.imageSource"),
 			projectLink: i18n("currentProjects.project6.link"),
@@ -62,8 +72,10 @@ export default function Index() {
 		{
 			title: i18n("currentProjects.project7.title"),
 			description: i18n("currentProjects.project7.description"),
-			imageDesktop: "/images/project-images/project4-image-large.webp",
-			imageMobile: "/images/project-images/placeholder-image-small.webp",
+			imageDesktop:
+				"/images/project-images/desktop/RZ_Mehrwegbecher_Desktop_klein.webp",
+			imageMobile:
+				"/images/project-images/mobile/RZ_Mehrwegbecher_mobile_klein.webp",
 			imageAltText: i18n("currentProjects.project7.imageAltText"),
 			imageSourceText: i18n("currentProjects.project7.imageSource"),
 			projectLink: i18n("currentProjects.project7.link"),

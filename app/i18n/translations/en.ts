@@ -469,7 +469,8 @@ Regarding the number of heavy rainfall days, no clear trend has been observed ye
 	"currentProjects.project3.title": "Parking Space Management",
 	"currentProjects.project3.description":
 		"Parking space management aims to make Xhain's street space more efficient, enable balanced use, and improve the quality of stay in the neighborhood. The district is pursuing the goal of comprehensive parking management, with 13 zones currently implemented.",
-	"currentProjects.project3.imageAltText": "Street",
+	"currentProjects.project3.imageAltText":
+		"Parking zone sign indicating Zone 37 regulations, with allowed hours.",
 	"currentProjects.project3.link":
 		"https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/aemter/strassen-und-gruenflaechenamt/strassen/mobilitaetswende/artikel.1282985.php",
 	"currentProjects.project3.imageSource": "Image: ",
@@ -486,7 +487,7 @@ Regarding the number of heavy rainfall days, no clear trend has been observed ye
 	"currentProjects.project5.title": "Solar Expansion",
 	"currentProjects.project5.description":
 		"To fully equip district buildings with solar panels, the district administration is working with Berliner Stadtwerke. As part of this cooperation, systems with a capacity of approximately 850 kWp were commissioned by the end of 2024. Additional installations are in planning and implementation.",
-	"currentProjects.project5.imageAltText": "",
+	"currentProjects.project5.imageAltText": "Close-up of a solar panel",
 	"currentProjects.project5.link":
 		"https://www.berlin.de/ba-friedrichshain-kreuzberg/aktuelles/pressemitteilungen/2025/pressemitteilung.1523939.php",
 	"currentProjects.project5.imageSource": "Image: pexels",
@@ -494,7 +495,8 @@ Regarding the number of heavy rainfall days, no clear trend has been observed ye
 	"currentProjects.project6.title": "Smart Heating Circuit Control",
 	"currentProjects.project6.description":
 		"Fifty district properties have already been equipped with the ovoTherm heating circuit control system, with more buildings to follow. This ensures that heating performance is precisely adjusted to actual usage needs, reducing energy consumption, CO2 emissions, and energy costs.",
-	"currentProjects.project6.imageAltText": "",
+	"currentProjects.project6.imageAltText":
+		"A network of insulated pipes and valves with gauges and controls.",
 	"currentProjects.project6.link": "",
 	"currentProjects.project6.imageSource": "Image: valovo GmbH",
 

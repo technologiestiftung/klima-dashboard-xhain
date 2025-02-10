@@ -18,6 +18,7 @@ export const StackedImageCard = () => {
 				<img
 					src="/images/project-images/project-image1.png"
 					className="relative"
+					alt={i18n("currentProjects.project2.imageAltText")}
 				/>
 				<div className="absolute top-5 left-5 lg:top-6 lg:left-6">
 					<SmallTooltip isDark>
