@@ -29,6 +29,7 @@ export const HoverableBarsReductionPath: React.FC<
 > = ({ xScale, yScale, sizes, parentRef }) => {
 	const {
 		margin: { bottom, top },
+		width,
 	} = sizes;
 
 	const [visibleYear, setVisibleYear] = useState<string | undefined>(undefined);
@@ -68,7 +69,7 @@ export const HoverableBarsReductionPath: React.FC<
 						opacity={0.5}
 						data-year={d.year}
 						stroke="transparent"
-						strokeWidth={20}
+						strokeWidth={width > 480 ? 20 : 10}
 						onMouseEnter={visibleYearHandler}
 						onClick={visibleYearHandler}
 						onFocus={visibleYearHandler}
@@ -91,7 +92,7 @@ export const HoverableBarsReductionPath: React.FC<
 						data-year={d.year}
 						stroke="transparent"
 						tabIndex={0}
-						strokeWidth={20}
+						strokeWidth={width > 480 ? 20 : 15}
 						onMouseEnter={visibleYearHandler}
 						onClick={visibleYearHandler}
 						onFocus={visibleYearHandler}

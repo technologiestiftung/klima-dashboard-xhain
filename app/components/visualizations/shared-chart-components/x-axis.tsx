@@ -73,7 +73,7 @@ export const XAxis: React.FC<XAxisProps> = ({
 						key={x}
 						className="tick"
 						opacity="1"
-						transform={`translate(${Math.round(x)}, 0)`}
+						transform={`translate(${calculateXAxisTicks(i, xAxis.length, x)}, 0)`}
 					>
 						<text
 							fill={xhainBlue80}
@@ -89,4 +89,12 @@ export const XAxis: React.FC<XAxisProps> = ({
 			</g>
 		</>
 	);
+};
+
+const calculateXAxisTicks = (index: number, length: number, x: number) => {
+	if (index === 0) {
+		return x + 20;
+	}
+
+	return index === length - 1 ? x - 20 : x;
 };

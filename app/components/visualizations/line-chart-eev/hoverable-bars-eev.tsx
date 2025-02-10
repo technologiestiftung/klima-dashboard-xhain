@@ -32,6 +32,7 @@ export const HoverableBarsEEV: React.FC<HoverableBarsEEVProps> = ({
 }) => {
 	const {
 		margin: { bottom, top },
+		width,
 	} = sizes;
 
 	const [visibleYear, setVisibleYear] = useState<string | undefined>(undefined);
@@ -80,7 +81,7 @@ export const HoverableBarsEEV: React.FC<HoverableBarsEEVProps> = ({
 						data-year={d.year}
 						stroke="transparent"
 						tabIndex={0}
-						strokeWidth={70}
+						strokeWidth={width > 480 ? 70 : 40}
 						onMouseEnter={visibleYearHandler}
 						onClick={visibleYearHandler}
 						onFocus={visibleYearHandler}

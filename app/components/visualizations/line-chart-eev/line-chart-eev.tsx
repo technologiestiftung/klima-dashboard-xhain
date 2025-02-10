@@ -17,7 +17,7 @@ export const LineChartEEV: React.FC = () => {
 	const sizes = {
 		width,
 		height,
-		margin: { top: 0, right: 25, bottom: 50, left: 20 },
+		margin: { top: 0, right: 0, bottom: 50, left: 0 },
 	};
 
 	const xScale = useCallback(
