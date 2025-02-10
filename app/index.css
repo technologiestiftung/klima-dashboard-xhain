@@ -49,13 +49,6 @@
 		@apply appearance-none w-8 h-8 border-none rounded-full cursor-pointer bg-xhain-blue-50;
 	}
 
-	.dialog-scrollbar {
-		scrollbar-color: #b2c5ff #ffffff;
-		@apply [&::-webkit-scrollbar]:w-2 
-				[&::-webkit-scrollbar-thumb]:rounded-full
-				[&::-webkit-scrollbar-thumb]:bg-xhain-blue-30;
-	}
-
 	.dialog-description ul {
 		@apply py-4 pl-2;
 	}
