@@ -3,7 +3,7 @@ import { LinkArrowIcon } from "~/components/icon/link-arrow-icon";
 
 export const ProjectActionCard = () => {
 	return (
-		<div className="flex flex-col gap-8 lg:gap-7 rounded-4xl pl-5 pr-8 py-11 lg:p-10 bg-xhain-green-50">
+		<div className="flex flex-col gap-8 lg:gap-7 rounded-4xl max-w-[650px] mx-auto pl-5 pr-8 py-11 lg:p-10 bg-xhain-green-50">
 			<div className="flex flex-col gap-3 lg:gap-4">
 				<h2 className="text-2xl leading-8 lg:text-3xl lg:leading-9 font-bold">
 					{i18n("currentProjects.greenCardTitle")}

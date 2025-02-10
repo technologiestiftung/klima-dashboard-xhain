@@ -23,7 +23,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
 	projectLink,
 }) => {
 	return (
-		<div className="flex flex-col-reverse lg:flex-row">
+		<div className="flex flex-col-reverse lg:flex-row max-w-[650px] mx-auto">
 			{/* Left Section */}
 			<div className="lg:flex-1 flex flex-col p-4 lg:p-7 bg-xhain-blue-10 rounded-b-4xl lg:rounded-l-4xl lg:rounded-br-none">
 				<h2 className="mb-3 lg:mb-4 text-2xl leading-8 font-bold">{title}</h2>
@@ -50,11 +50,13 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
 						className="w-full h-full object-cover"
 					/>
 				</picture>
-				<div className="absolute top-6 left-6">
-					<SmallTooltip isDark>
-						<span className="text-xhain-blue-80">{imageSourceText}</span>
-					</SmallTooltip>
-				</div>
+				{imageSourceText && (
+					<div className="absolute top-6 left-6">
+						<SmallTooltip isDark>
+							<span className="text-xhain-blue-80">{imageSourceText}</span>
+						</SmallTooltip>
+					</div>
+				)}
 			</div>
 		</div>
 	);

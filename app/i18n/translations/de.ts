@@ -468,10 +468,11 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 	"currentProjects.project3.title": "Parkraumbewirtschaftung",
 	"currentProjects.project3.description":
 		"Mit der Parkraumbewirtschaftung soll der Straßenraum Xhains effizienter gestaltet, eine ausgewogenen Nutzung ermöglicht und die Aufenthaltsqualität im Kiez gesteigert werden. Der Bezirk verfolgt das Ziel der flächendeckenden Parkraumbewirtschaftung, aktuell sind 13 Zonen umgesetzt.",
-	"currentProjects.project3.imageAltText": "straße",
+	"currentProjects.project3.imageAltText":
+		"Parkzonenschild mit Angabe der Vorschriften für Zone 37 und der zulässigen Zeiten.",
 	"currentProjects.project3.link":
 		"https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/aemter/strassen-und-gruenflaechenamt/strassen/mobilitaetswende/artikel.1282985.php",
-	"currentProjects.project3.imageSource": "Bild: ",
+	"currentProjects.project3.imageSource": "",
 
 	"currentProjects.project4.title": "Radverkehr",
 	"currentProjects.project4.description":
@@ -485,7 +486,7 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 	"currentProjects.project5.title": "PV-Ausbau",
 	"currentProjects.project5.description":
 		"Um die bezirklichen Gebäude vollständig mit PV auszustatten arbeitet das Bezirksamt mit den Berliner Stadtwerken zusammen. Im Rahmen dieser Kooperation wurden bis Ende 2024 Anlagen mit einer Leistung von ca. 850 kWp in Betrieb genommen. Weitere Anlagen befinden sich in Planung und Umsetzung.",
-	"currentProjects.project5.imageAltText": "",
+	"currentProjects.project5.imageAltText": "Nahaufnahme eines Solarpanels",
 	"currentProjects.project5.link":
 		"https://www.berlin.de/ba-friedrichshain-kreuzberg/aktuelles/pressemitteilungen/2025/pressemitteilung.1523939.php",
 	"currentProjects.project5.imageSource": "Bild: pexels",
@@ -493,7 +494,8 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 	"currentProjects.project6.title": "Smarte Heizkreisregelung",
 	"currentProjects.project6.description":
 		"Bereits 50 bezirkliche Liegenschaften wurden mit der Heizkreisregelung ovoTherm ausgerüstet, weitere Gebäude folgen. Dadurch wird die Leistung einer Heizung genau an den tatsächlichen Nutzungsbedarf angepasst und so Energieverbrauch, CO2-Emissionen und Energiekosten reduziert.",
-	"currentProjects.project6.imageAltText": "",
+	"currentProjects.project6.imageAltText":
+		"Ein Netz von isolierten Rohren und Ventilen mit Mess- und Regelvorrichtungen.",
 	"currentProjects.project6.link": "",
 	"currentProjects.project6.imageSource": "Bild: valovo GmbH",
 
