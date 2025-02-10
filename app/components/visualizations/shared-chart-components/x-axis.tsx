@@ -93,8 +93,8 @@ export const XAxis: React.FC<XAxisProps> = ({
 
 const calculateXAxisTicks = (index: number, length: number, x: number) => {
 	if (index === 0) {
-		return x + 20;
+		return Math.round(x + 20);
 	}
 
-	return index === length - 1 ? x - 20 : x;
+	return Math.round(index === length - 1 ? x - 20 : x);
 };
