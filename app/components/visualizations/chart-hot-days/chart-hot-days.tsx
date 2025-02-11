@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { i18n } from "~/i18n/i18n-utils.ts";
+import { i18n, formatNumber } from "~/i18n/i18n-utils.ts";
 import { consequencesData } from "~/data";
 import { RadioToggle } from "~/components/radio-toggle/radio-toggle.tsx";
 
@@ -36,7 +36,7 @@ export function ChartHotDays() {
 				<div className="flex flex-col items-end">
 					<p className="w-full text-center">
 						<span className="text-9xl font-bold text-xhain-blue-50">
-							{amountOfHotDays}
+							{formatNumber(amountOfHotDays, { toFixed: 1 })}
 						</span>
 					</p>
 					<p className="w-full text-center mb-9 text-xhain-blue-50 text-lg leading-7 font-bold">

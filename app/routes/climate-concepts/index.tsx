@@ -129,7 +129,7 @@ export default function Index() {
 								<h2 className="font-bold text-2xl pt-10 lg:pt-20">
 									{i18n(h2)}
 								</h2>
-								<p className="lg:text-xl leading-8 pt-3 pb-10">{i18n(p)}</p>
+								<p className="lg:text-xl lg:leading-8 pt-3 pb-10">{i18n(p)}</p>
 								{links.map(({ label, href, id, format, size }) => (
 									<a
 										key={id}
@@ -169,12 +169,13 @@ export default function Index() {
 				<p className="text-xl font-bold">
 					{i18n("climateConcepts.actionCard.title")}
 				</p>
-				<p className="">{i18n("climateConcepts.actionCard.subtitle")}</p>
+				<p className="text-xl">{i18n("climateConcepts.actionCard.subtitle")}</p>
 				<a
-					href="https://www.berlin.de/ba-friedrichshain-kreuzberg/aktuelles/bezirksticker/2023/vorstellung-klimateam-1371837.php"
+					href="https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/service-und-organisationseinheiten/klima-und-internationales/artikel.1408194.php"
+					target="_blank"
 					className={`
-					rounded-full flex gap-2 w-fit px-2.5 py-1 border-2 text-sm leading-5 font-semibold focus-xhain-blue-80 
-					lg:text-base lg:leading-6 hover:bg-white hover:text-xhain-blue-50 hover:border-white
+					rounded-full flex items-center gap-2 w-fit mt-4 px-2.5 py-1 border-2 text-sm leading-5 font-semibold focus-xhain-blue-80 
+					lg:text-base lg:leading-6 hover:bg-white hover:text-xhain-blue-50 hover:border-white 
 					`}
 				>
 					{i18n("climateConcepts.actionCard.link.label")}

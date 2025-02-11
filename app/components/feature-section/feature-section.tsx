@@ -1,6 +1,5 @@
 import React from "react";
 import { i18n, buildLocalizedLink } from "~/i18n/i18n-utils";
-import { Link } from "react-router";
 const arrowForward = "/images/arrow-forward.svg";
 import { SmallTooltip } from "~/components/tooltip/small-tooltip.tsx";
 
@@ -29,13 +28,13 @@ export const FeatureSection: React.FC = () => {
 				<p className="text-xl leading-7 font-normal mt-3 mb-7 md:my-7">
 					{i18n("featureSection.description")}
 				</p>
-				<Link
-					to={buildLocalizedLink(path)}
+				<a
+					href={buildLocalizedLink(path)}
 					className="flex justify-center items-center gap-2 w-fit py-2 px-3.5 rounded-full text-lg leading-7 font-bold text-white bg-xhain-blue-50 hover:bg-xhain-blue-60 focus-xhain-blue-80"
 				>
 					{i18n("featureSection.cta")}
 					<img src={arrowForward} alt="" className="w-6 h-6" />
-				</Link>
+				</a>
 			</div>
 		</div>
 	);

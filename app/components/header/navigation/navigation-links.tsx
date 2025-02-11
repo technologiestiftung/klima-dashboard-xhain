@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, useLocation } from "react-router";
+import { useLocation } from "react-router";
 import { i18n, buildLocalizedLink, normalizePath } from "~/i18n/i18n-utils";
 import type { AvailableTranslations } from "~/i18n/translations";
 import { useMenuStore } from "./menu-store";
@@ -30,8 +30,8 @@ export const NavigationLinks: React.FC = () => {
 			{/* navigation links */}
 			{navLinks.map(({ path, labelKey, className }) => (
 				<li key={path}>
-					<Link
-						to={buildLocalizedLink(path)}
+					<a
+						href={buildLocalizedLink(path)}
 						onClick={closeMenu}
 						className={`
 						inline-block hover:underline hover:underline-offset-8 hover:decoration-1 
@@ -41,19 +41,19 @@ export const NavigationLinks: React.FC = () => {
 						${className}`}
 					>
 						{i18n(labelKey)}
-					</Link>
+					</a>
 				</li>
 			))}
 
 			{/* cta button */}
 			<li>
-				<Link
-					to={buildLocalizedLink("/act-now")}
+				<a
+					href={buildLocalizedLink("/act-now")}
 					onClick={closeMenu}
 					className="inline-block items-center p-2.5 lg:p-6 mt-9 lg:mt-0 bg-xhain-blue-50 text-white hover:bg-xhain-blue-60 focus-xhain-blue-80"
 				>
 					{i18n("header.cta")}
-				</Link>
+				</a>
 			</li>
 		</ul>
 	);

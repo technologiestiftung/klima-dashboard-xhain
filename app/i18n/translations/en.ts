@@ -6,10 +6,10 @@ export const en: typeof de = {
 	/**
 	 * Hero Section
 	 */
-	"heroSection.eyebrowText": "Climate dashboard",
-	"heroSection.heading": "Climate change in Friedrichshain-Kreuzberg",
+	"heroSection.eyebrowText": "KlimaDashboard",
+	"heroSection.heading": "Climate change in Xhain",
 	"heroSection.subheading":
-		"Figures, facts, need for action - for a desirable Xhain",
+		"Figures, facts and actions needed - towards a livable Xhain",
 	"heroSection.mediumTemperature.averageTempText": "Average annual temperature",
 	"heroSection.mediumTemperature.locationText":
 		"in Friedrichshain-Kreuzberg by phases",
@@ -37,21 +37,22 @@ export const en: typeof de = {
 	 * Intro Section
 	 */
 	"introSection.overview":
-		"The Climate Dashboard provides insights into current climate data and climate activities in Friedrichshain-Kreuzberg.<br/><br/>It answers questions such as",
+		"The climate dashboard provides an insight into current climate data and climate measures in Friedrichshain-Kreuzberg.<br/><br/>",
 	"introSection.keyQuestion1":
 		"Where do greenhouse gas emissions occur in Xhain?",
 	"introSection.keyQuestion2":
-		"What contribution has the district made so far on the path to climate neutrality in Berlin?",
+		"Where are we as a district on the road to climate neutrality in Berlin?",
 	"introSection.keyQuestion3":
-		"And where are the effects of climate change already visible in the district?",
+		"And where are the impacts of climate change already evident in the district?",
 	"introSection.dataBasis": `
     The basis for this is the analyses from the <a href='https://klima-dashboard-xhain.vercel.app/en/climate-concepts/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>climate protection and climate adaptation concepts.</a>  
     These two concepts were developed by the <a href='https://klima-dashboard-xhain.vercel.app/en/about/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>climate team</a> and politically adopted in December 2024 as a planning and decision-making basis.</br></br>
 `,
 	"introSection.collaboration": `
-    The dashboard was developed in close collaboration between the climate team  
-    Friedrichshain-Kreuzberg and <a href='https://citylab-berlin.org/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>CityLAB Berlin.</a></br></br>
+	The climate dashboard has been developed in close cooperation between the Friedrichshain-Kreuzberg climate team and <a href='https://citylab-berlin.org/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>CityLAB Berlin</a>.</br></br>
 `,
+	"introSection.explanation":
+		"While climate mitigation aims to reduce greenhouse gas emissions and thus limit the extent of climate change, climate adaptation focusses on adapting to the current and expected impacts of climate change, such as increasing heat and heavy rainfall.",
 	"introSection.showLess": "show less",
 	"introSection.showMore": "show more",
 	"introSection.expandedAltText": "Collapse section",
@@ -85,22 +86,22 @@ export const en: typeof de = {
 	"carousel.card1.source": "Statistics Berlin-Brandenburg 2024",
 
 	"carousel.card2.intro": "",
-	"carousel.card2.description": "people live within one km²",
+	"carousel.card2.description": "people live within one square kilometer",
 	"carousel.card2.source": "Statistics Berlin-Brandenburg 2024",
 
 	"carousel.card3.intro": "",
 	"carousel.card3.description": "of the area is sealed",
 	"carousel.card3.source": "Environmental Atlas 2021",
 
-	"carousel.card4.intro": "",
-	"carousel.card4.description": "is the share of traffic area in",
+	"carousel.card4.intro": "The share of traffic area is",
+	"carousel.card4.description": "",
 	"carousel.card4.source": "Statistics Berlin-Brandenburg 2023",
 
 	"carousel.card5.intro": "In 2023",
-	"carousel.card5.number": "1,6 Mio.",
 	"carousel.card5.description":
-		"guests stayed overnight in 85 accommodations in the district",
+		"guests stayed in 85 tourist accomodations in Xhain.",
 	"carousel.card5.source": "Berlin.de",
+	"carousel.card5..millionUnit": "M.",
 
 	"languageToggleButton.ariaLabelDeLink": "switch to German language",
 	"languageToggleButton.ariaLabelEnLink": "switch to English language",
@@ -108,19 +109,19 @@ export const en: typeof de = {
 	/**
 	 * chart labels
 	 */
-	"charts.title": "How does XHain contribute to climate change?",
+	"charts.title": "How does Xhain contribute to climate change?",
 	"charts.p1":
-		"Many greenhouse gas-related emissions originate directly here in the district – for example, from heating buildings, transportation, or the activities of local businesses. To mitigate climate change at the local level, it is essential to both reduce energy consumption (efficiency and sufficiency) and transition the energy supply to renewable sources (consistency).",
+		"Many greenhouse gas-related emissions are generated directly here in the district—for example, through building heating, transportation, or the activities of local businesses. To mitigate climate change at the local level, it is necessary to both reduce energy consumption (efficiency and sufficiency) and transition energy supply to renewable sources (consistency).",
 	"charts.p2.part1": "With the district's ",
 	"charts.p2.part2.tooltip.label":
-		"Energy and Greenhouse Gas Balance according to the BISKO standard",
+		"energy and greenhouse gas balance according to the BISKO standard",
 	"charts.p2.part2.tooltip.alt":
 		"Click to show more information about the energy and greenhouse gas balance according to the BISKO standard",
 	"charts.p2.part2.tooltip.close":
 		"Close the tooltip about the energy and greenhouse gas balance according to the BISKO standard",
 	"charts.p2.part2.tooltip.content": `The <b>final energy-based territorial balance according to BISKO</b> records the final energy consumption that occurs directly within the boundaries of the district. This means measuring how much energy households use for heating their homes or using electronic devices. These data come, for example, from energy meters found in every house and show how much energy is needed on-site.`,
 	"charts.p2.part3":
-		"we illustrate how energy is used, how many emissions are generated in the process, and where the key levers for achieving climate neutrality by 2045 lie.",
+		"we illustrate how energy is used, how many emissions are produced in the process, and where significant levers for achieving climate neutrality by 2045 lie.",
 
 	"chart.thgTotalTons.title": "Evolution of greenhouse gas emissions",
 	"chart.thgTotalTons.subtitle": "in tons of CO2 equivalent",
@@ -132,12 +133,13 @@ export const en: typeof de = {
 		"Climate Protection Concept - Full Version",
 	"chart.thgTotalTons.infoDialog.learnMoreLink":
 		"/climate-concepts/#climate-concept-full",
-	"chart.thgTotalTons.infoDialog.description": `Although households account for a significantly larger share of energy consumption (see also the final energy consumption by sectors card), the economy generates slightly more emissions (43%) than private households (42%). This is due to the different emission factors of energy carriers for electricity and heat. While a large portion of household energy consumption is used for heating, electricity consumption is more dominant in the commercial sector. Due to the current composition of the German electricity mix, electricity has a higher emission factor since power generation in Germany still largely relies on fossil fuels, particularly coal. However, based on current developments and federal-level targets, a steady improvement is expected by 2045. As a district, we can make a significant contribution through the local expansion of photovoltaic (PV) systems.
-
-Traffic accounts for xy% of emissions. Additionally, despite their relatively low emission share, district buildings remain particularly relevant, as their emissions fall under the direct influence of district administration.`,
+	"chart.thgTotalTons.infoDialog.description": `The emissions resulting from energy consumption are calculated using so-called emissions factors. An emissions factor indicates how many greenhouse gases are released when a specific energy source—such as gas, electricity, or oil—is produced, transported, and used. This allows us to assess how harmful the consumption of a particular energy source is to the climate.
+<br/>
+The lower the emissions factor, the more climate-friendly the energy source is. For example, electricity from wind power has a very low emissions factor, while electricity from coal power plants has a high factor. This is why it is so important that we make energy generation climate-neutral and switch to energy sources with low emissions factors. At the same time, it remains crucial to reduce overall energy consumption in order to lower total emissions.
+`,
 
 	"chart.thgSector2021Tons.title": "Greenhouse gas emissions",
-	"chart.thgSector2021Tons.subtitle": "by sectors in tons of CO2 equivalent",
+	"chart.thgSector2021Tons.subtitle": "by sector in 2021 in tons of GHGs",
 	"chart.thgSector2021Tons.legend.privateHouseholds": "private households",
 	"chart.thgSector2021Tons.legend.districtBuildings": "district buildings",
 	"chart.thgSector2021Tons.legend.economy": "economy",
@@ -150,13 +152,17 @@ Traffic accounts for xy% of emissions. Additionally, despite their relatively lo
 		"Climate Protection Concept - Full Version",
 	"chart.thgSector2021Tons.infoDialog.learnMoreLink":
 		"/climate-concepts/#climate-concept-full",
-	"chart.thgSector2021Tons.infoDialog.description": `Emissions resulting from energy consumption are calculated using so-called emission factors. <b>An emission factor indicates how many greenhouse gases are released</b> when a specific energy source—such as gas, electricity, or oil—is produced, transported, and used. This helps assess how climate-damaging the consumption of a particular energy source is.
-
-<b>The lower the emission factor, the more climate-friendly the energy source.</b> For example, electricity from wind power has a very low emission factor, whereas electricity from coal-fired power plants has a high factor. This is why it is so important to make energy generation climate-neutral and transition to energy sources with low emission factors. At the same time, it remains essential to reduce total energy consumption to lower overall emissions.`,
+	"chart.thgSector2021Tons.infoDialog.description": `Although households account for a significantly larger share of energy consumption (see final energy consumption by sector), the economy generates slightly more emissions (43%) than private households (42%). 
+	<br/>
+	This is due to the different emissions factors of energy sources for electricity and heat. While a large portion of energy consumption in households is used for heating, electricity consumption is more dominant in the economic sector. Electricity has a higher emissions factor due to the current composition of the German electricity mix, as electricity generation in Germany is still largely based on fossil fuels, particularly coal. However, based on current trends and federal goals, a continuous improvement is expected by 2045. As a district, we can make an important contribution through the local expansion of photovoltaics (PV).
+	<br/>
+	Transportation accounts for 14% of emissions. Additionally, despite their small share in emissions, district buildings are of particular relevance as their emissions are directly influenced by the district administration.`,
 
 	"chart.consumptionEmissionsTons.title":
-		"Consumption and nutrition-related emissions",
+		"Consumption-related indirect emissions",
 	"chart.consumptionEmissionsTons.subtitle": "in 2024",
+	"chart.consumptionEmissionsTons.description":
+		"Indirect emissions also play an important role on our path to climate neutrality.",
 	"chart.consumptionEmissionsTons.keys.xhain": "Xhain",
 	"chart.consumptionEmissionsTons.keys.per_person": "Per person",
 	"chart.consumptionEmissionsTons.descriptionText":
@@ -165,8 +171,14 @@ Traffic accounts for xy% of emissions. Additionally, despite their relatively lo
 	"chart.consumptionEmissionsTons.co2Unit": "Tons Co2",
 	"chart.consumptionEmissionsTons.trees": "Trees",
 	"chart.consumptionEmissionsTons.infoDialog.sourceTitle": "Excerpt from",
-	"chart.consumptionEmissionsTons.infoDialog.sourceLabel":
-		"Climate Protection Concept - Full Version",
+	"chart.consumptionEmissionsTons.infoDialog.sourceLabel": `<a
+				href="https://www.umweltbundesamt.de/themen/wirtschaft-konsum/konsum-umwelt-zentrale-handlungsfelder#bedarfsfelder"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				Umweltbundesamt
+			</a>
+			`,
 	"chart.consumptionEmissionsTons.infoDialog.learnMoreLink":
 		"/climate-concepts/#consumption-society",
 	"chart.consumptionEmissionsTons.infoDialog.description": `Indirect emissions arise from the consumption of goods and services whose production and transportation takes place outside the district boundaries. These include, for example
@@ -180,7 +192,7 @@ Traffic accounts for xy% of emissions. Additionally, despite their relatively lo
 
 Resource-conserving and local provision and sustainable consumption of goods help to reduce emissions - for example through reusable packaging, second-hand offers and repairs.`,
 
-	"chart.eevTotalMwh.title": "Final energy consumption",
+	"chart.eevTotalMwh.title": "Development of final energy consumption",
 	"chart.eevTotalMwh.subtitle": "in MWh",
 	"chart.eevTotalMwh.legend.heating": "Heating",
 	"chart.eevTotalMwh.legend.electricity": "Electricity",
@@ -194,9 +206,9 @@ Resource-conserving and local provision and sustainable consumption of goods hel
 		"Climate Protection Concept - Full Version",
 	"chart.eevTotalMwh.infoDialog.learnMoreLink":
 		"/climate-concepts/#climate-concept-full",
-	"chart.eevTotalMwh.infoDialog.description": `<b>The largest share of energy consumption is due to heat demand, particularly for heating buildings and providing hot water.</b> This currently accounts for 56.9% of the district's energy consumption. Electricity consumption, for example, for lighting or technical devices, accounts for 32.3%. The smallest, but still relevant, consumption share comes from fuels at 10.8%.
-
-<b>These figures clearly show that the greatest need for action is in the heating sector—where there is the most potential for energy savings. By using energy wisely, we can save costs while also laying the foundation for a livable Xhain for everyone.</b>`,
+	"chart.eevTotalMwh.infoDialog.description": `The major part of energy consumption is caused by heating, i.e. in particular the heating of buildings and the preparation of hot water. This currently accounts for 56.9% of the district's energy consumption. 32.3 % is accounted for by electricity consumption, e.g. for lighting or technical appliances. The smallest, but still relevant consumption is caused by fuels (10.8 %).
+<br/>
+These figures make it clear: the heating sector is where action is needed most. It holds the greatest potential for saving energy. By using energy wisely, we can save costs while simultaneously creating a sustainable and livable Xhain for everyone.`,
 
 	"chart.eevSector2021Mwh.title": "Final energy consumption",
 	"chart.eevSector2021Mwh.subtitle": "by sectors in 2021",
@@ -208,16 +220,17 @@ Resource-conserving and local provision and sustainable consumption of goods hel
 		"Climate Protection Concept - Full Version",
 	"chart.eevSector2021Mwh.infoDialog.learnMoreLink":
 		"/climate-concepts/#climate-concept-full",
-	"chart.eevSector2021Mwh.infoDialog.description": `<b>Private households are the largest energy consumers, accounting for 50.4%</b> in our densely populated district. This is due, for example, to the high number of households and factors such as heat loss from many old, unrenovated buildings. The second-largest sector is commerce, at 36.1%, which includes gastronomy, hotels, offices, small production businesses, crafts, as well as the characteristic cultural and creative industries. Transportation accounts for 11.6% of energy consumption, while district buildings have the lowest share at 1.9%. 
+	"chart.eevSector2021Mwh.infoDialog.description": `Private households are the largest energy consumers in our densely populated district, accounting for 50.4% of total energy use. This is partly due to the high number of households and factors such as heat loss from old, unrenovated buildings. 
+<br/>
+The second-largest share, 36.1%, comes from businesses, including restaurants, hotels, offices, small manufacturing, crafts, the district’s distinctive culture and creative industries, and more. Transportation accounts for 11.6% of energy consumption, while municipal buildings have the smallest share at 1.9%.
+This highlights the importance of involving all stakeholders—residents, businesses, and public institutions—in the energy transition.`,
 
-<b>It is therefore essential to involve all stakeholders—citizens, businesses, and public institutions—in the energy transition.</b>`,
-
-	"chart.heatingMix2021Summarized.title": "Heating mix of households",
+	"chart.heatingMix2021Summarized.title": "Heatmix",
 	"chart.heatingMix2021Summarized.subtitle": "in 2021",
 	"chart.heatingMix2021Summarized.keys.source": "Source",
 	"chart.heatingMix2021Summarized.keys.total_mwh": "Sum in Megawatt hours",
 	"chart.heatingMix2021Summarized.description":
-		"In addition to the energy consumption caused by heating, the energy sources used, as shown in the heating mix, significantly determine our climate balance.",
+		"In addition to heating-related energy consumption, the energy sources used, as shown in the heat mix, play a key role in determining our climate balance.",
 	"chart.heatingMix2021Summarized.gas": "Natural gas",
 	"chart.heatingMix2021Summarized.districtHeating": "District heating",
 	"chart.heatingMix2021Summarized.fossil": "Other fossil",
@@ -227,13 +240,14 @@ Resource-conserving and local provision and sustainable consumption of goods hel
 		"Subconcept: Energy and Buildings",
 	"chart.heatingMix2021Summarized.infoDialog.learnMoreLink":
 		"/climate-concepts/#energy-buildings",
-	"chart.heatingMix2021Summarized.infoDialog.description": `The heating mix in Xhain shows that <b>heat supply is currently predominantly based on natural gas and district heating.</b> Therefore, in addition to reducing heat consumption, decarbonizing heat supply—meaning the transition to a climate-friendly heating system—is a key measure to reduce heat-related emissions.
-
-This means that natural gas-based heating must be replaced with renewable energy sources such as solar thermal or environmental heat, and district heating must be made climate-neutral.`,
+	"chart.heatingMix2021Summarized.infoDialog.description": `The heat mix of Xhain shows that, at present, heat supply is primarily provided by natural gas and district heating. Therefore, in addition to reducing heat consumption, decarbonizing the heat supply—i.e., transitioning to a climate-friendly heating system—is an important lever for reducing heating-related emissions.
+<br/>
+This means that the natural gas-based supply must be replaced with renewable energy sources, such as solar thermal or ambient heat, and district heating must be made climate-neutral.`,
 
 	"chart.modalSplit2018.title": "Modal Split",
-	"chart.modalSplit2018.subtitle":
-		"Shares of the individual means of transport in total transport performance",
+	"chart.modalSplit2018.subtitle": "by sector in %",
+	"chart.modalSplit2018.description":
+		"The modal split describes the distribution of the transportation demand across the different means of transportation.",
 	"chart.modalSplit2018.legend.miv": "Motorized individual transport",
 	"chart.modalSplit2018.legend.oepnv": "Public Transport",
 	"chart.modalSplit2018.legend.foot": "Foot",
@@ -249,12 +263,12 @@ This means that natural gas-based heating must be replaced with renewable energy
 	"chart.modalSplit2018.infoDialog.sourceLabel": "Subconcept: Mobility",
 	"chart.modalSplit2018.infoDialog.learnMoreLink":
 		"/climate-concepts/#mobility",
-	"chart.modalSplit2018.infoDialog.description": `The environmentally friendly transport network, i.e., <b>public transport, cycling, and walking, already accounts for a significant share in Berlin.</b> The data shows that our district is leading by example, with 86.5% of all trips made using sustainable transport modes. Nevertheless, the transport sector continues to have a significant impact on our climate. Despite the low share of motorized individual transport (MIV) at 13.5%, the sector still generates emissions of 153,000 tons of CO2 equivalents per year, making up around 13.6% of the district's total emissions in 2021.
-
+	"chart.modalSplit2018.infoDialog.description": `The environmentally friendly transport network, i.e., public transport, cycling, and walking, already accounts for a significant share in Berlin. The data shows that our district is leading by example, with 86.5% of all trips made using sustainable transport modes. Nevertheless, the transport sector continues to have a significant impact on our climate. Despite the low share of motorized individual transport (MIV) at 13.5%, the sector still generates emissions of 153,000 tons of CO2 equivalents per year, making up around 13.6% of the district's total emissions in 2021.
+<br/>
 Further efforts to reduce transport emissions are crucial—not only for climate protection but also for improving air quality and reducing noise pollution in our neighborhoods.`,
 
-	"chart.traffic2022Summarized.title": "Traffic",
-	"chart.traffic2022Summarized.subtitle": "by area in %",
+	"chart.traffic2022Summarized.title": "Emmissions from traffic",
+	"chart.traffic2022Summarized.subtitle": "by sector in %",
 	"chart.traffic2022Summarized.keys.sector": "Sector",
 	"chart.traffic2022Summarized.keys.percentage_thg":
 		"Greenhouse gas percentage",
@@ -263,8 +277,8 @@ Further efforts to reduce transport emissions are crucial—not only for climate
 	"chart.traffic2022Summarized.infoDialog.learnMoreLink":
 		"/climate-concepts/#mobility",
 	"chart.traffic2022Summarized.infoDialog.description": `The climate balance takes into account all trips that start or end in Xhain, as well as those where both the start and destination are within the district. This includes public transport as well as a small share of inland waterway transport. However, flights taken by residents or tourists are not included, as the airport is located outside the district boundaries.
-
-<b>The goal is to reduce and electrify motorized individual transport while strengthening sustainable mobility options.</b>`,
+<br/>
+The goal is to reduce and electrify motorized individual transport while strengthening sustainable mobility options.`,
 
 	"chart.restBudgetThgUntilYear.title": "Restbudget-Bucket",
 	"chart.restBudgetThgUntilYear.subtitle": "of the 1.75 degree target",
@@ -272,18 +286,20 @@ Further efforts to reduce transport emissions are crucial—not only for climate
 	"chart.restBudgetThgUntilYear.keys.tons_co2": "CO2 budget",
 	"chart.restBudgetThgUntilYear.unit": "M. tons",
 	"chart.restBudgetThgUntilYear.remainingBudget": "Remaining budget until",
-	"chart.restBudgetThgUntilYear.text": `The remaining budget approach is used to implement the Paris targets locally.
-	
-	This emphasizes that not only annual CO2 emissions are crucial but also the total amount of greenhouse gases released into the atmosphere over time. 
-	
-	The graph shows the remaining budget for the 1.75 degree target until 2045. The sooner emission reductions are implemented, the less strain is placed on the remaining budget, and the more time remains to implement necessary changes.`,
+	"chart.restBudgetThgUntilYear.text": `Das verbleibende CO2-Budget Xhains beträgt insgesamt nur noch 12,2 Mio. Tonnen, um die Erderwärmung auf maximal 1,75° zu begrenzen.
+<br/>
+Wenn Xhain so weitermacht wie bisher, wäre dieses lokale Restbudget bereits 2032 aufgebraucht – der Eimer würde sprichwörtlich überlaufen und die Risiken für Menschen, Ökosysteme und Infrastrukturen dramatisch steigen.
+<br/>
+Dieses Ziel markiert die Grenze, ab der die Risiken für Menschen, Ökosysteme und Infrastruktur dramatisch zunehmen.
+<br/>
+Um dies zu vermeiden, müssen wir jetzt ambitionierter und auch schneller handeln.`,
 	"chart.restBudgetThgUntilYear.infoDialog.sourceTitle": "Excerpt from",
 	"chart.restBudgetThgUntilYear.infoDialog.sourceLabel":
 		"Climate Protection Concept - Summary Version",
 	"chart.restBudgetThgUntilYear.infoDialog.learnMoreLink":
 		"/climate-concepts/#climate-concept-summary",
 	"chart.restBudgetThgUntilYear.infoDialog.description": `The Paris Climate Agreement provides the international framework to limit global warming to well below 2°C, ideally to 1.5°C. At the national level, these targets are supplemented by the Berlin Energy Transition Act (EWG Bln), which aims for climate neutrality by 2045. In Xhain's Climate Protection Concept, the 1.75°C target has been chosen as a guideline, as projections and emission trends indicate that achieving the 1.5°C target is becoming increasingly difficult.
-
+<br/>
 To implement the Paris targets locally, the so-called remaining budget approach is used. This emphasizes that not only annual CO2 emissions are crucial but also the total amount of greenhouse gases released into the atmosphere over time.`,
 
 	"chart.reductionPathScenario175Thg.title": "Reduction path",
@@ -302,14 +318,14 @@ To implement the Paris targets locally, the so-called remaining budget approach 
 		"Climate Protection Concept - Full Version",
 	"chart.reductionPathScenario175Thg.infoDialog.learnMoreLink":
 		"/climate-concepts/#climate-concept-full",
-	"chart.reductionPathScenario175Thg.infoDialog.description": `<b>In recent years, we have failed to meet Berlin's climate protection targets.</b> To get back on track by 2030, we need to reduce emissions more significantly and take decisive action.
-
-The graph illustrates how crucial it is to enter the phase of strong reduction as quickly as possible in order to achieve climate neutrality by 2045 at the latest. The sooner emission reductions are implemented, the less strain is placed on the remaining budget, and the more time remains to implement necessary changes. <b>Accordingly, the climate protection scenario outlines a continuous and realistic reduction path.</b>`,
+	"chart.reductionPathScenario175Thg.infoDialog.description": `In recent years, we have failed to meet Berlin's climate protection targets. To get back on track by 2030, we need to reduce emissions more significantly and take decisive action.
+<br/>
+The graph illustrates how crucial it is to enter the phase of strong reduction as quickly as possible in order to achieve climate neutrality by 2045 at the latest. The sooner emission reductions are implemented, the less strain is placed on the remaining budget, and the more time remains to implement necessary changes. Accordingly, the climate protection scenario outlines a continuous and realistic reduction path.`,
 
 	"chart.hotDays.title": "Hot days",
 	"chart.hotDays.subtitle": "per year",
 	"chart.hotDays.description":
-		'A "Hot Day" is a day with a maximum temperature of 30°C or more.',
+		"A ‘hot day’ is any day with a maximum temperature of 30 °C or higher.",
 	"chart.hotDays.keys.current": "Today",
 	"chart.hotDays.keys.1950": "1950s",
 	"chart.hotDays.keys.2100": "Future",
@@ -333,16 +349,16 @@ The graph illustrates how crucial it is to enter the phase of strong reduction a
 			</a>`,
 	"chart.hotDays.infoDialog.learnMoreLink":
 		"/climate-concepts/#climate-adaptation-full",
-	"chart.hotDays.infoDialog.description": `In the 1950s, there was an average of 5.5 hot days per year in the district. By the 2010s, this number had tripled—there are now 16.5 hot days per year.
-
-Future projections are more difficult to determine and depend on climate protection efforts. If greenhouse gas emissions continue to rise steadily (RCP 8.5 scenario), the number of hot days could increase to around 28 days per year by the end of the century. If emissions begin to decline from the middle of the century onward (RCP 4.5 scenario), the number of hot days could be limited to around 21 days per year.`,
+	"chart.hotDays.infoDialog.description": `In the 1950s, there was an average of 5.5 hot days per year in Friedrichshain-Kreuzberg. By the 2010s, the number had tripled - it is now 16.5 days per year.
+	<br/>
+Projections for the future are more difficult to determine and depend on climate mitigation measures. If greenhouse gas emissions continue to rise steadily (RCP 8.5 scenario), the number of hot days is expected to increase to around 28 days by the end of the century. If we assume that greenhouse gas emissions fall from the middle of the century (RCP 4.5 scenario), the number of hot days could be limited to around 21 days per year.`,
 
 	"chart.mediumTemperature.title": "Average annual temperature",
 	"chart.mediumTemperature.subtitle": "in Friedrichshain-Kreuzberg by phases",
 	"chart.mediumTemperature.keys.time": "Zeit",
 	"chart.mediumTemperature.keys.celsius": "Temperatur in °C",
 	"chart.mediumTemperature.description":
-		"The mean annual temperature refers to the average value of temperatures over a period of 10 years.",
+		"The mean annual temperature refers to the average temperature over a period of 10 years.",
 	"chart.mediumTemperature.current": "Current",
 	"chart.mediumTemperature.1950": "1950s",
 	"chart.mediumTemperature.2100": "Future",
@@ -364,16 +380,18 @@ Future projections are more difficult to determine and depend on climate protect
 			</a>`,
 	"chart.mediumTemperature.infoDialog.learnMoreLink":
 		"/climate-concepts/#climate-adaptation-full",
-	"chart.mediumTemperature.infoDialog.description": `Average temperatures over a 10-year period help identify long-term temperature changes. They are more comparable than single-year values, as they balance out particularly warm or cold years. Between 2011 and 2020, the average annual temperature was 10.9°C—1.7°C higher than in the 1950s.
+	"chart.mediumTemperature.infoDialog.description": `The average temperature values over 10 years help to recognise long-term temperature changes. They are more comparable than individual years, as they compensate for particularly warm or cold years. In the period from 2011-2020, the average annual temperature was 10.9 °C. This is 1.7 °C higher than in the 1950s.
+Projections for the future are more difficult to determine and depend on climate mitigation measures. 
+<br/>
+If greenhouse gas emissions continue to rise steadily (RCP 8.5 scenario), the average annual temperature is expected to rise to around 13.2 °C by the end of the century. If we assume that greenhouse gas emissions fall from the middle of the century (RCP 4.5 scenario), the average annual temperature could be limited to 12 °C.
+`,
 
-Future projections are more difficult to determine and depend on climate protection measures. If greenhouse gas emissions continue to rise steadily (RCP 8.5 scenario), the average annual temperature could increase to around 13.2°C by the end of the century. If emissions begin to decline from the middle of the century onward (RCP 4.5 scenario), the average annual temperature could be limited to 12°C.`,
-
-	"chart.precipitationMm.title": "Precipitation",
+	"chart.precipitationMm.title": "Rainfall",
 	"chart.precipitationMm.subtitle": "in milliliters",
 	"chart.precipitationMm.keys.year": "Year",
 	"chart.precipitationMm.keys.rain": "Rainfall in milimeters",
 	"chart.precipitationMm.description":
-		"There is no clear trend in annual and seasonal precipitation or in the number of days with heavy rainfall in Xhain.",
+		"So far, there is no clear trend for annual and seasonal precipitation or the number of heavy rainfall days in Xhain.",
 	"chart.precipitationMm.infoDialog.sourceTitle": "Source:",
 	"chart.precipitationMm.infoDialog.sourceLabel": `<a
 				href="https://dwd.de"
@@ -392,21 +410,28 @@ Future projections are more difficult to determine and depend on climate protect
 			</a>`,
 	"chart.precipitationMm.infoDialog.learnMoreLink":
 		"/climate-concepts/#climate-adaptation-full",
-	"chart.precipitationMm.infoDialog.description": `So far, no clear trend has been observed in Xhain's annual and seasonal precipitation. In particular, summer precipitation varies significantly from year to year. For example, in the summer of 2018, only a quarter of the previous year's precipitation was recorded (100 mm compared to 400 mm). Future projections remain uncertain, but overall, an increase in annual precipitation is expected.
+	"chart.precipitationMm.infoDialog.description": `So far, no clear trend can be identified for annual and seasonal precipitation in Xhain. There are very strong fluctuations between years, particularly in terms of precipitation in summer. In the summer of 2018, for example, there was only a quarter of the precipitation (100mm) compared to the previous year (400mm). The projections for the future are also very uncertain in some cases, although an increase in precipitation is expected over the year as a whole.
+With regard to the number of heavy rainfall days, there is no clear trend so far, but the intensity of heavy rainfall events has increased over the last 30 years. 
+<br/>
+For example, heavy rainfall events in June 2017 and July 2018 caused severe flooding. If it has been dry for a long time beforehand, the soil can also absorb the rain poorly. Both the frequency and intensity of heavy rainfall events are expected to increase in the future.`,
 
-Regarding the number of heavy rainfall days, no clear trend has been observed yet. However, the intensity of heavy rainfall events has increased over the past 30 years. For example, severe rainfall events in June 2017 and July 2018 led to major flooding. If dry periods persist for a long time, the soil is less able to absorb rainwater. In the future, both the frequency and intensity of heavy rainfall events are expected to increase.`,
-
-	"chart.HBI.title": "Heat Affect Index (HAI)",
+	"chart.HBI.title": "Hitzebetroffenheitsindex",
 	"chart.HBI.subtitle":
 		"Combination of surface temperature, environmental and human sensitivity",
 	"chart.HBI.description":
-		"The changing climate has an impact on the environment and the people in the district. The heat affectedness index (HBI) shows which areas in the district are particularly affected by heat. The HBI takes into account not only the temperature, but also socio-demographic and environmental factors in the areas.",
+		"The changing climate has an impact on the environment and the people in Friedrichshain-Kreuzberg. The 'Hitzebetroffenheitsindex' (HBI) (engl: heat impact index) shows which areas in the district are particularly affected by heat. The HBI takes into account not only the temperature, but also socio-demographic and environmental factors in the areas.",
 	"chart.HBI.infoDialog.sourceTitle": "Source:",
-	"chart.HBI.infoDialog.sourceLabel":
-		"Climate Adaptation Concept Friedrichshain-Kreuzberg",
+	"chart.HBI.infoDialog.sourceLabel": `
+	<a
+		href="https://www.geodaten-fk.de/MeinXhain/Portal/?Map/layerIds=bezirksgrenze-wfs,umriss_fk,farbe,hitze-wms&visibility=true,true,true,true&transparency=0,0,0,10&Map/center=[393200,5818500]&Map/zoomLevel=3"
+		target="_blank"
+		rel="noopener noreferrer"	
+	>
+		Geoportal MeinXhain</a>,
+	Climate Adaptation Concept Friedrichshain-Kreuzberg`,
 	"chart.HBI.infoDialog.learnMoreLink":
 		"/climate-concepts/#climate-adaptation-full",
-	"chart.HBI.infoDialog.description": `The HBI is calculated using the following indicators:`,
+	"chart.HBI.infoDialog.description": `Indicators of the heat impact index (HBI):`,
 
 	"chart.HBI.infoDialog.factors.title": "Hitzebetroffenheitsindex",
 
@@ -426,11 +451,11 @@ Regarding the number of heavy rainfall days, no clear trend has been observed ye
 
 	"chart.HBI.legend.title":
 		"Betroffenheit bezogen auf den bezirklichen Durchschnitt",
-	"chart.HBI.legend.verylow": "sehr gering",
-	"chart.HBI.legend.low": "gering",
-	"chart.HBI.legend.medium": "mittel",
-	"chart.HBI.legend.high": "hoch",
-	"chart.HBI.legend.veryhigh": "sehr hoch",
+	"chart.HBI.legend.verylow": "very low",
+	"chart.HBI.legend.low": "low",
+	"chart.HBI.legend.medium": "middle",
+	"chart.HBI.legend.high": "high",
+	"chart.HBI.legend.veryhigh": "very high",
 
 	"chart.districtBuildings": "district buildings",
 	"chart.economy": "economy",
@@ -443,19 +468,21 @@ Regarding the number of heavy rainfall days, no clear trend has been observed ye
 	/**
 	 * info dialog
 	 */
-	"chart.infoDialog.learnMoreLabel": "Learn more in the climate concept",
+	"chart.infoDialog.learnMoreLabel": "Learn more in the climate concepts",
 
 	"button.moreInfo": "more info",
+	"button.lessInfo": "less info",
 
 	"howToReachGoals.title":
-		"How can XHain achieve its climate protection goals in the future?",
+		"How can Xhain achieve its climate protection goals in the future?",
 	"howToReachGoals.description":
 		"Climate protection is a central task for the future of Xhain. The district has set itself the goal of reducing greenhouse gas emissions by 95% by 2045 compared to 1990. This is a challenging task that requires the commitment of all residents, businesses, and public institutions. The climate protection concept outlines various measures and strategies to achieve this goal. The following scenarios show how Xhain can contribute to climate protection in the future.",
 
-	"consequences.title": "How does climate change affect XHain?",
+	"consequences.title": "How does climate change affect Xhain?",
 	"consequences.description":
 		"When analyzing climate impacts in Xhain, a distinction is made between climate trends and the extent to which people are affected. Climate trends describe how the climate has changed so far and what future changes are to be expected. The impact of these climate developments, i.e. the degree to which they are affected, depends on socio-demographic and environmental factors. These include, for example, population density, the proportion of vulnerable groups or the degree of sealing.",
 	"consequences.subheading": "How is the climate changing?",
+	"consequences.hbi.heading": "What are climate impacts in Xhain?",
 
 	/**
 	 * Current Projects page
@@ -463,6 +490,8 @@ Regarding the number of heavy rainfall days, no clear trend has been observed ye
 	"currentProjects.title": "Current projects",
 	"currentProjects.subtitle": "in Friedrichshain-Kreuzberg",
 	"currentProjects.featureImageSource": "Image: Kareen Kittelmann",
+	"currentProjects.featureImageAltText":
+		"A person walking with a bicycle on a partially closed street, surrounded by construction barriers and greenery.",
 	"currentProjects.projectCardCtaLabel": "To project",
 	"currentProjects.greenCardTitle":
 		"Advancing Climate Protection Projects Together",
@@ -537,7 +566,7 @@ Regarding the number of heavy rainfall days, no clear trend has been observed ye
 	 */
 	"featureSection.imageAltText": "Image of the featured project",
 	"featureSection.imageSource": "Image: Kareen Kittelmann",
-	"featureSection.title": "What is already happening in XHain?",
+	"featureSection.title": "What is already happening in Xhain?",
 	"featureSection.description":
 		"In Xhain, numerous projects are already being implemented to address these challenges. Here, we give you an insight into some of the existing projects.",
 	"featureSection.cta": "Current projects",
@@ -545,18 +574,17 @@ Regarding the number of heavy rainfall days, no clear trend has been observed ye
 	/**
 	 * About Page
 	 */
-	"about.title": "About us",
+	"about.title": "Who we are",
 	"about.firstSectionTitle": "Berlin climate neutral by 2045",
 	"about.firstSectionDescription":
-		"The Berlin Senate is pursuing the long-term goal of developing Berlin into a climate-neutral city by 2045 while simultaneously adapting to the unavoidable consequences of climate change.",
-	"about.secondSectionTitle": "Xhain is leading the way",
+		"The Berlin Senate aims to transform the city into a climate-neutral one by 2045, while simultaneously adapting to the unavoidable impacts of climate change.",
+	"about.secondSectionTitle": "Xhain is setting a good example",
 	"about.secondSectionDescription":
-		"In December 2024, the district office adopted the climate protection and climate adaptation concepts. Now, the task is to build on this foundation and effectively advance concrete projects.",
+		"In December 2024, the two climate strategies were politically approved. The task is now to use them as a basis to advance specific projects in a targeted manner.",
 	"about.thirdSectionTitle": "Who? The Xhain climate team",
-	"about.thirdSectionDescription":
-		"The four-member climate team of the organizational unit 'Climate and International Affairs' consists of two climate protection managers, a climate adaptation manager, and the climate commissioner. Together, they support the implementation of climate-effective measures. At the same time, they act as intermediaries and connect different stakeholder groups in the district when it comes to climate protection and adaptation. After all, climate protection and adaptation can only succeed together!",
+	"about.thirdSectionDescription": `The four-member climate team of the "Climate and International Affairs" unit consists of two climate mitigation managers, one climate adaptation manager, and the climate officer. Together, they support the implementation of climate-effective measures. At the same time, they facilitate communication and networking between various stakeholder groups in the district on matters related to climate mitigation and climate adaptation. After all, climate mitigation and climate adaptation can only succeed together!`,
 	"about.actionCardTitle": `Questions?<br/>Write to the Xhain climate team.`,
-	"about.actionCardEmail": "klima_und_internationales@ba-fk.berlin.de",
+	"about.actionCardEmail": "E-mail to the climate team",
 
 	/**
 	 * Imprint Page
@@ -576,8 +604,8 @@ Regarding the number of heavy rainfall days, no clear trend has been observed ye
 	"footer.cardHeading":
 		"Do you have any questions about the climate dashboard and the climate concepts?",
 	"footer.cardSubHeading": "write to us!",
-	"footer.cardCtaButtonText": "info@klimateam.de",
-	"footer.cardCtaEmail": "info@klimateam.de",
+	"footer.cardCtaButtonText": "E-mail to the climate team",
+	"footer.cardCtaEmail": "klima_und_internationales@ba-fk.berlin.de",
 	"footer.bezirksamtXhainAltText": "bezirksamt xhain logo",
 	"footer.imprint": "Imprint",
 	"footer.privacyPolicy": "Privacy Policy",
@@ -592,16 +620,16 @@ Regarding the number of heavy rainfall days, no clear trend has been observed ye
 	 */
 	"climateConcepts.title": "Climate Concepts",
 	"climateConcepts.intro.p1":
-		"The climate concepts of Friedrichshain-Kreuzberg serve as a central foundation for strategically advancing climate adaptation and climate protection in the district.",
+		"The climate concepts of Friedrichshain-Kreuzberg are the central basis to strategically advance climate mitigation and climate adaptation in the district.",
 	"climateConcepts.intro.p2":
-		"They outline clear strategies and measures to become climate-neutral while ensuring the quality of life for residents. Here, we offer you the opportunity to download the concepts in full and read them in detail.",
+		"They show clear strategies and measures to become climate-neutral and at the same time ensure people's quality of life. We offer you the opportunity to download the concepts in full and read them in detail. Unfortunately, they are only available in German.",
 	"climateConcepts.intro.p3":
 		"While climate protection aims to reduce greenhouse gas emissions and thus limit the extent of climate change, climate adaptation focuses on adjusting to the current and expected impacts of climate change, such as increasing heat and heavy rainfall.",
-	"climateConcepts.protectionConcept.h2": "Climate Protection Concept",
+	"climateConcepts.protectionConcept.h2": "Climate mitigation strategy",
 	"climateConcepts.protectionConcept.p":
-		"The climate protection concept analyzes energy consumption and emissions in the district, defines climate protection goals and measures based on this analysis, and consists of a main document as well as four sub-concepts covering key action areas, developed with funding from the National Climate Protection Initiative.",
+		"The climate mitigation concept analyses energy consumption and emissions in the district, defines climate mitigation targets and measures based on this, and consists of a main document and four sub-concepts on key fields of action. The climate mitigation concept was funded by the Federal Ministry for Economic Affairs and Climate Action as part of the National Climate Initiative (NKI).",
 	"climateConcepts.protectionConcept.a.1.label":
-		"Full Version of the Climate Protection Concept (German)",
+		"Full Version of the Climate mitigation strategy (German)",
 	"climateConcepts.protectionConcept.a.2.label":
 		"Sub-Concept: Mobility (German)",
 	"climateConcepts.protectionConcept.a.3.label":
@@ -611,12 +639,12 @@ Regarding the number of heavy rainfall days, no clear trend has been observed ye
 	"climateConcepts.protectionConcept.a.5.label":
 		"Sub-Concept: Consumption and Society (German)",
 	"climateConcepts.protectionConcept.a.6.label":
-		"Summary of the Climate Protection Concept (German)",
-	"climateConcepts.adaptionConcept.h2": "Climate Adaptation Concept",
+		"Summary of the Climate mitigration strategy (German)",
+	"climateConcepts.adaptionConcept.h2": "Climate adaptation strategy",
 	"climateConcepts.adaptionConcept.p":
-		"The climate adaptation concept analyzes the impacts of climate change in the district, outlines goals and measures, and includes a main document as well as four sub-concepts covering key action areas. The climate adaptation concept was developed with funding from the BMUV.",
+		"The climate adaptation concept analyses the consequences of climate change in the district and presents objectives and measures. It comprises a main document and four sub-concepts on key fields of action. The climate adaptation concept has been funded by the Federal Ministry for the Environment, Nature Conservation, Nuclear Safety and Consumer Protection.",
 	"climateConcepts.adaptionConcept.a.1.label":
-		"Full Version of the Climate Adaptation Concept (German)",
+		"Full Version of the Climate adaptation strategy (German)",
 	"climateConcepts.adaptionConcept.a.2.label":
 		"Sub-Concept: Buildings and Infrastructure (German)",
 	"climateConcepts.adaptionConcept.a.3.label":
@@ -625,7 +653,7 @@ Regarding the number of heavy rainfall days, no clear trend has been observed ye
 		"Sub-Concept: Urban Planning and Development (German)",
 	"climateConcepts.adaptionConcept.a.5.label": "Sub-Concept: Health (German)",
 	"climateConcepts.adaptionConcept.a.6.label":
-		"Summary of the Climate Adaptation Concept (German)",
+		"Summary of the Climate adaptation strategy (German)",
 	"climateConcepts.actionCard.title":
 		"Would you like to learn more about the climate concepts?",
 	"climateConcepts.actionCard.subtitle": "Visit the district’s website.",

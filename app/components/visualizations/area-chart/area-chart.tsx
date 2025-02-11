@@ -66,7 +66,7 @@ export const AreaChart: React.FC = () => {
 				<YReferenceLines
 					yScale={yScale}
 					sizes={sizes}
-					yReferenceLineValues={[100, 250, 400]}
+					yReferenceLineValues={[200, 400]}
 				/>
 				<XAxis
 					sizes={sizes}

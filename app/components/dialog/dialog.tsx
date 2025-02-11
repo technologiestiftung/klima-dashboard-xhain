@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from "react";
+import { i18n } from "../../i18n/i18n-utils";
 
 interface DialogProps {
 	children?: React.ReactNode;
@@ -52,7 +53,7 @@ export const Dialog: React.FC<DialogProps> = ({ children, className, id }) => {
 					onClick={closeDialog}
 				>
 					<img src={"/images/x-icon.svg"} alt={""} />
-					weniger Infos
+					{i18n("button.lessInfo")}
 				</button>
 				{children}
 			</dialog>

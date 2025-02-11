@@ -10,7 +10,7 @@ export const FooterCardSection: React.FC = () => {
 				<p className="font-normal">{i18n("footer.cardSubHeading")}</p>
 			</div>
 			<a
-				href={`mailto:${i18n("footer.cardCtaButtonText")}`}
+				href={`mailto:${i18n("footer.cardCtaEmail")}`}
 				className="rounded-full bg-xhain-green-50 px-3 py-2.5 w-fit text-xl md:text-2xl leading-7 md:leading-8 font-bold hover:bg-xhain-green-60 focus-xhain-blue-80"
 			>
 				{i18n("footer.cardCtaButtonText")}

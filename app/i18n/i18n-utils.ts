@@ -34,15 +34,6 @@ export function formatDate(date: Date) {
 }
 
 export function formatTemperature(temperature: number) {
-	const language = getLanguage();
-
-	if (language === "en") {
-		return {
-			value: Math.round(temperature * 1.8 + 32),
-			unit: "°F",
-		};
-	}
-
 	return {
 		value: Math.round(temperature),
 		unit: "°C",

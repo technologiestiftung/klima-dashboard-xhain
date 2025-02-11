@@ -27,13 +27,13 @@ export const BucketChart: React.FC = () => {
 					__html: i18n("chart.restBudgetThgUntilYear.text"),
 				}}
 			/>
-			<div className="flex flex-col w-full h-full desktop:mx-10">
+			<div className="flex flex-col w-full h-full desktop:mx-10 min-w-[256px] min-h-[230px]">
 				<div className="relative w-fit mx-auto h-full flex justify-center items-center">
 					<img src={"/images/bucket.svg"} alt="" className="w-80" />
 					<div className="absolute top-0 h-full flex flex-col justify-center xl:justify-between items-center gap-2 md:py-3 px-[16%] mx-auto">
 						<div className="flex flex-col justify-center border-2 border-dashed rounded-5px border-xhain-blue-80 z-10 xl:h-full px-2 py-1 text-center w-full">
 							<p className="text-xl lg:text-base xl:text-xl leading-7 font-semibold ">
-								{budgetFuture.tons_co2 / 1000000}{" "}
+								{formatNumber(budgetFuture.tons_co2 / 1000000, { toFixed: 1 })}{" "}
 								{i18n("chart.restBudgetThgUntilYear.unit")}
 							</p>
 							<p className="text-base leading-6 lg:text-sm xl:text-base">

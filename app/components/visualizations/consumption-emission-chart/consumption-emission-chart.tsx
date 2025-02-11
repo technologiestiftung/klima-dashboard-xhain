@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { i18n } from "~/i18n/i18n-utils";
+import { i18n, formatNumber } from "~/i18n/i18n-utils";
 import { RadioToggle } from "~/components/radio-toggle/radio-toggle";
 import { howXhainContributesData } from "~/data";
 
@@ -32,8 +32,8 @@ export const ConsumptionEmissionsChart: React.FC = () => {
 
 	const formattedEmissionValue =
 		selectedValue >= 1_000_000
-			? `${(selectedValue / 1_000_000).toFixed(1)} ${i18n("chart.consumptionEmissionsTons.millionUnit")}`
-			: selectedValue.toString();
+			? `${formatNumber(selectedValue / 1_000_000, { toFixed: 1 })} ${i18n("chart.consumptionEmissionsTons.millionUnit")}`
+			: formatNumber(selectedValue, { toFixed: 1 });
 
 	const handleSelectionChange = (value: string) => {
 		const newIndex = radioOptions.findIndex((option) => option.value === value);
@@ -51,7 +51,7 @@ export const ConsumptionEmissionsChart: React.FC = () => {
 			: treesNeeded.toString();
 
 	return (
-		<div className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-0 items-center justify-items-center lg:mt-5">
+		<div className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-0 items-center justify-items-center">
 			<div className="flex flex-col gap-4 mx-auto">
 				<RadioToggle
 					options={radioOptions}
@@ -74,8 +74,12 @@ export const ConsumptionEmissionsChart: React.FC = () => {
 				{i18n("chart.consumptionEmissionsTons.descriptionText")}
 			</p>
 			<div className="relative gap-9 mx-auto">
-				<img src={greenEmissionTree} alt="" className="w-full" />
-				<div className="absolute w-full top-24 left-1.5 flex flex-col text-center text-3xl leading-9 lg:text-4xl lg:leading-10 font-bold text-xhain-blue-80">
+				<img
+					src={greenEmissionTree}
+					alt=""
+					className="w-full max-h-[205px] 2xl:max-h-none"
+				/>
+				<div className="absolute w-full top-20 2xl:top-24 left-1.5 flex flex-col text-center text-3xl leading-9 lg:text-4xl lg:leading-10 font-bold text-xhain-blue-80">
 					{formattedTreesValue}
 					<span className="text-base leading-6 font-bold">
 						{i18n("chart.consumptionEmissionsTons.trees")}

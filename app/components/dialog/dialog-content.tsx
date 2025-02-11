@@ -31,7 +31,7 @@ export const DialogContent: React.FC<DialogContentProps> = ({ id }) => {
 				<h2 className="text-xl leading-7 font-bold">{title}</h2>
 				<p className="text-xl leading-7 font-normal ">{subTitle}</p>
 			</div>
-			<div className="font-normal text-base leading-6 pr-2.5 overflow-hidden overflow-y-scroll sm:max-h-none max-h-[300px]">
+			<div className="font-normal text-base leading-6 pr-2.5 overflow-hidden overflow-y-scroll sm:overflow-y-auto sm:max-h-none max-h-[300px]">
 				<div
 					className="dialog-description"
 					dangerouslySetInnerHTML={{ __html: description }}
