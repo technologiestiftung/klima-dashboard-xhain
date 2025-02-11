@@ -1,5 +1,6 @@
 import React from "react";
 import { xhainBlue80 } from "../colors";
+import { formatNumber } from "../../../i18n/i18n-utils";
 
 interface ThermometerSVGProps {
 	celsius: number;
@@ -66,7 +67,7 @@ const ThermometerSVG: React.FC<ThermometerSVGProps> = ({
 					}}
 				>
 					<text className="text-5xl lg:text-6xl leading-none fill-current font-bold">
-						{celsius.toFixed(1)}°
+						{formatNumber(celsius, { toFixed: 1 })}°
 					</text>
 				</g>
 			</g>

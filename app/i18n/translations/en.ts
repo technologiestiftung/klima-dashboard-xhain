@@ -97,10 +97,10 @@ export const en: typeof de = {
 	"carousel.card4.source": "Statistics Berlin-Brandenburg 2023",
 
 	"carousel.card5.intro": "In 2023",
-	"carousel.card5.number": "1,6 Mio.",
 	"carousel.card5.description":
 		"guests stayed overnight in 85 accommodations in the district",
 	"carousel.card5.source": "Berlin.de",
+	"carousel.card5..millionUnit": "M.",
 
 	"languageToggleButton.ariaLabelDeLink": "switch to German language",
 	"languageToggleButton.ariaLabelEnLink": "switch to English language",
@@ -270,14 +270,16 @@ Further efforts to reduce transport emissions are crucial—not only for climate
 The goal is to reduce and electrify motorized individual transport while strengthening sustainable mobility options.`,
 
 	"chart.restBudgetThgUntilYear.title": "Restbudget-Bucket",
-	"chart.restBudgetThgUntilYear.subtitle": "of the 1,75 degree target",
-	"chart.restBudgetThgUntilYear.unit": "Mio. tons",
+	"chart.restBudgetThgUntilYear.subtitle": "of the 1.75 degree target",
+	"chart.restBudgetThgUntilYear.unit": "M. tons",
 	"chart.restBudgetThgUntilYear.remainingBudget": "Remaining budget until",
-	"chart.restBudgetThgUntilYear.text": `The remaining budget approach is used to implement the Paris targets locally.
-	
-	This emphasizes that not only annual CO2 emissions are crucial but also the total amount of greenhouse gases released into the atmosphere over time. 
-	
-	The graph shows the remaining budget for the 1.75 degree target until 2045. The sooner emission reductions are implemented, the less strain is placed on the remaining budget, and the more time remains to implement necessary changes.`,
+	"chart.restBudgetThgUntilYear.text": `Das verbleibende CO2-Budget Xhains beträgt insgesamt nur noch 12,2 Mio. Tonnen, um die Erderwärmung auf maximal 1,75° zu begrenzen.
+<br/>
+Wenn Xhain so weitermacht wie bisher, wäre dieses lokale Restbudget bereits 2032 aufgebraucht – der Eimer würde sprichwörtlich überlaufen und die Risiken für Menschen, Ökosysteme und Infrastrukturen dramatisch steigen.
+<br/>
+Dieses Ziel markiert die Grenze, ab der die Risiken für Menschen, Ökosysteme und Infrastruktur dramatisch zunehmen.
+<br/>
+Um dies zu vermeiden, müssen wir jetzt ambitionierter und auch schneller handeln.`,
 	"chart.restBudgetThgUntilYear.infoDialog.sourceTitle": "Excerpt from",
 	"chart.restBudgetThgUntilYear.infoDialog.sourceLabel":
 		"Climate Protection Concept - Summary Version",

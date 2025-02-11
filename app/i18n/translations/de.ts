@@ -96,10 +96,10 @@ export const de = {
 	"carousel.card4.source": "Statistik Berlin-B. 2023",
 
 	"carousel.card5.intro": "2023 übernachteten",
-	"carousel.card5.number": "1,6 Mio.",
 	"carousel.card5.description":
 		"Gästinnen in 85 Beherbergungs-Betrieben des Bezirks",
 	"carousel.card5.source": "Berlin.de",
+	"carousel.card5..millionUnit": "Mio.",
 
 	"languageToggleButton.ariaLabelDeLink": "Zu deutscher Sprache wechseln",
 	"languageToggleButton.ariaLabelEnLink": "Zu englischer Sprache wechseln",
@@ -275,13 +275,13 @@ Demnach gilt es den Motorisierten Individualverkehr zu reduzieren und zu elektri
 	"chart.restBudgetThgUntilYear.unit": "Mio. Tonnen",
 	"chart.restBudgetThgUntilYear.remainingBudget":
 		"Verbleibendes CO2–Budget bis",
-	"chart.restBudgetThgUntilYear.text": `<p>Das verbleibende CO2-Budget Xhains beträgt insgesamt nur noch 12,2 Mio. Tonnen, um die Erderwärmung auf maximal 1,75° zu begrenzen.</p>
-<p>
-Wenn Xhain so weitermacht wie bisher, wäre dieses lokale Restbudget bereits 2032 aufgebraucht – der Eimer würde sprichwörtlich überlaufen und die Risiken für Menschen, Ökosysteme und Infrastrukturen dramatisch steigen.</p>
-<p>
-Dieses Ziel markiert die Grenze, ab der die Risiken für Menschen, Ökosysteme und Infrastruktur dramatisch zunehmen.</p>
-<p>
-Um dies zu vermeiden, müssen wir jetzt ambitionierter und auch schneller handeln.</p>`,
+	"chart.restBudgetThgUntilYear.text": `Das verbleibende CO2-Budget Xhains beträgt insgesamt nur noch 12,2 Mio. Tonnen, um die Erderwärmung auf maximal 1,75° zu begrenzen.
+<br/>
+Wenn Xhain so weitermacht wie bisher, wäre dieses lokale Restbudget bereits 2032 aufgebraucht – der Eimer würde sprichwörtlich überlaufen und die Risiken für Menschen, Ökosysteme und Infrastrukturen dramatisch steigen.
+<br/>
+Dieses Ziel markiert die Grenze, ab der die Risiken für Menschen, Ökosysteme und Infrastruktur dramatisch zunehmen.
+<br/>
+Um dies zu vermeiden, müssen wir jetzt ambitionierter und auch schneller handeln.`,
 	"chart.restBudgetThgUntilYear.infoDialog.sourceTitle": "Auszug aus",
 	"chart.restBudgetThgUntilYear.infoDialog.sourceLabel":
 		"Klimaschutzkonzept Kurzfassung",

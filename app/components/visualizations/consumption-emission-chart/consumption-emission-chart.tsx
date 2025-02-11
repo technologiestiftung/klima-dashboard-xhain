@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { i18n } from "~/i18n/i18n-utils";
+import { i18n, formatNumber } from "~/i18n/i18n-utils";
 import { RadioToggle } from "~/components/radio-toggle/radio-toggle";
 import { howXhainContributesData } from "~/data";
 
@@ -32,8 +32,8 @@ export const ConsumptionEmissionsChart: React.FC = () => {
 
 	const formattedEmissionValue =
 		selectedValue >= 1_000_000
-			? `${(selectedValue / 1_000_000).toFixed(1)} ${i18n("chart.consumptionEmissionsTons.millionUnit")}`
-			: selectedValue.toString();
+			? `${formatNumber(selectedValue / 1_000_000, { toFixed: 1 })} ${i18n("chart.consumptionEmissionsTons.millionUnit")}`
+			: formatNumber(selectedValue, { toFixed: 1 });
 
 	const handleSelectionChange = (value: string) => {
 		const newIndex = radioOptions.findIndex((option) => option.value === value);
