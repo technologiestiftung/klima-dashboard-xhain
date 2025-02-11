@@ -111,17 +111,17 @@ export const en: typeof de = {
 	 */
 	"charts.title": "How does Xhain contribute to climate change?",
 	"charts.p1":
-		"Many greenhouse gas-related emissions originate directly here in the district – for example, from heating buildings, transportation, or the activities of local businesses. To mitigate climate change at the local level, it is essential to both reduce energy consumption (efficiency and sufficiency) and transition the energy supply to renewable sources (consistency).",
+		"Many greenhouse gas-related emissions are generated directly here in the district—for example, through building heating, transportation, or the activities of local businesses. To mitigate climate change at the local level, it is necessary to both reduce energy consumption (efficiency and sufficiency) and transition energy supply to renewable sources (consistency).",
 	"charts.p2.part1": "With the district's ",
 	"charts.p2.part2.tooltip.label":
-		"Energy and Greenhouse Gas Balance according to the BISKO standard",
+		"energy and greenhouse gas balance according to the BISKO standard",
 	"charts.p2.part2.tooltip.alt":
 		"Click to show more information about the energy and greenhouse gas balance according to the BISKO standard",
 	"charts.p2.part2.tooltip.close":
 		"Close the tooltip about the energy and greenhouse gas balance according to the BISKO standard",
 	"charts.p2.part2.tooltip.content": `The <b>final energy-based territorial balance according to BISKO</b> records the final energy consumption that occurs directly within the boundaries of the district. This means measuring how much energy households use for heating their homes or using electronic devices. These data come, for example, from energy meters found in every house and show how much energy is needed on-site.`,
 	"charts.p2.part3":
-		"we illustrate how energy is used, how many emissions are generated in the process, and where the key levers for achieving climate neutrality by 2045 lie.",
+		"we illustrate how energy is used, how many emissions are produced in the process, and where significant levers for achieving climate neutrality by 2045 lie.",
 
 	"chart.thgTotalTons.title": "Evolution of greenhouse gas emissions",
 	"chart.thgTotalTons.subtitle": "in tons of CO2 equivalent",
@@ -133,14 +133,13 @@ export const en: typeof de = {
 		"Climate Protection Concept - Full Version",
 	"chart.thgTotalTons.infoDialog.learnMoreLink":
 		"/climate-concepts/#climate-concept-full",
-	"chart.thgTotalTons.infoDialog.description": `Although households account for a significantly larger share of energy consumption (see also the final energy consumption by sectors card), the economy generates slightly more emissions (43%) than private households (42%). This is due to the different emission factors of energy carriers for electricity and heat. 
+	"chart.thgTotalTons.infoDialog.description": `The emissions resulting from energy consumption are calculated using so-called emissions factors. An emissions factor indicates how many greenhouse gases are released when a specific energy source—such as gas, electricity, or oil—is produced, transported, and used. This allows us to assess how harmful the consumption of a particular energy source is to the climate.
 <br/>
-While a large portion of household energy consumption is used for heating, electricity consumption is more dominant in the commercial sector. Due to the current composition of the German electricity mix, electricity has a higher emission factor since power generation in Germany still largely relies on fossil fuels, particularly coal. However, based on current developments and federal-level targets, a steady improvement is expected by 2045. As a district, we can make a significant contribution through the local expansion of photovoltaic (PV) systems.
-<br/>
-Traffic accounts for 14% of emissions. Additionally, despite their relatively low emission share, district buildings remain particularly relevant, as their emissions fall under the direct influence of district administration.`,
+The lower the emissions factor, the more climate-friendly the energy source is. For example, electricity from wind power has a very low emissions factor, while electricity from coal power plants has a high factor. This is why it is so important that we make energy generation climate-neutral and switch to energy sources with low emissions factors. At the same time, it remains crucial to reduce overall energy consumption in order to lower total emissions.
+`,
 
 	"chart.thgSector2021Tons.title": "Greenhouse gas emissions",
-	"chart.thgSector2021Tons.subtitle": "by sectors in tons of CO2 equivalent",
+	"chart.thgSector2021Tons.subtitle": "by sector in 2021 in tons of GHGs",
 	"chart.thgSector2021Tons.legend.privateHouseholds": "private households",
 	"chart.thgSector2021Tons.legend.districtBuildings": "district buildings",
 	"chart.thgSector2021Tons.legend.economy": "economy",
@@ -153,13 +152,17 @@ Traffic accounts for 14% of emissions. Additionally, despite their relatively lo
 		"Climate Protection Concept - Full Version",
 	"chart.thgSector2021Tons.infoDialog.learnMoreLink":
 		"/climate-concepts/#climate-concept-full",
-	"chart.thgSector2021Tons.infoDialog.description": `Emissions resulting from energy consumption are calculated using so-called emission factors. An emission factor indicates how many greenhouse gases are released when a specific energy source—such as gas, electricity, or oil—is produced, transported, and used. This helps assess how climate-damaging the consumption of a particular energy source is.
-<br/>
-The lower the emission factor, the more climate-friendly the energy source. For example, electricity from wind power has a very low emission factor, whereas electricity from coal-fired power plants has a high factor. This is why it is so important to make energy generation climate-neutral and transition to energy sources with low emission factors. At the same time, it remains essential to reduce total energy consumption to lower overall emissions.`,
+	"chart.thgSector2021Tons.infoDialog.description": `Although households account for a significantly larger share of energy consumption (see final energy consumption by sector), the economy generates slightly more emissions (43%) than private households (42%). 
+	<br/>
+	This is due to the different emissions factors of energy sources for electricity and heat. While a large portion of energy consumption in households is used for heating, electricity consumption is more dominant in the economic sector. Electricity has a higher emissions factor due to the current composition of the German electricity mix, as electricity generation in Germany is still largely based on fossil fuels, particularly coal. However, based on current trends and federal goals, a continuous improvement is expected by 2045. As a district, we can make an important contribution through the local expansion of photovoltaics (PV).
+	<br/>
+	Transportation accounts for 14% of emissions. Additionally, despite their small share in emissions, district buildings are of particular relevance as their emissions are directly influenced by the district administration.`,
 
 	"chart.consumptionEmissionsTons.title":
-		"Consumption and nutrition-related emissions",
+		"Consumption-related indirect emissions",
 	"chart.consumptionEmissionsTons.subtitle": "in 2024",
+	"chart.consumptionEmissionsTons.description":
+		"Indirect emissions also play an important role on our path to climate neutrality.",
 	"chart.consumptionEmissionsTons.keys.xhain": "Xhain",
 	"chart.consumptionEmissionsTons.keys.per_person": "Per person",
 	"chart.consumptionEmissionsTons.descriptionText":
@@ -168,8 +171,14 @@ The lower the emission factor, the more climate-friendly the energy source. For 
 	"chart.consumptionEmissionsTons.co2Unit": "Tons Co2",
 	"chart.consumptionEmissionsTons.trees": "Trees",
 	"chart.consumptionEmissionsTons.infoDialog.sourceTitle": "Excerpt from",
-	"chart.consumptionEmissionsTons.infoDialog.sourceLabel":
-		"Climate Protection Concept - Full Version",
+	"chart.consumptionEmissionsTons.infoDialog.sourceLabel": `<a
+				href="https://www.umweltbundesamt.de/themen/wirtschaft-konsum/konsum-umwelt-zentrale-handlungsfelder#bedarfsfelder"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				Umweltbundesamt
+			</a>
+			`,
 	"chart.consumptionEmissionsTons.infoDialog.learnMoreLink":
 		"/climate-concepts/#consumption-society",
 	"chart.consumptionEmissionsTons.infoDialog.description": `Indirect emissions arise from the consumption of goods and services whose production and transportation takes place outside the district boundaries. These include, for example
@@ -183,7 +192,7 @@ The lower the emission factor, the more climate-friendly the energy source. For 
 
 Resource-conserving and local provision and sustainable consumption of goods help to reduce emissions - for example through reusable packaging, second-hand offers and repairs.`,
 
-	"chart.eevTotalMwh.title": "Final energy consumption",
+	"chart.eevTotalMwh.title": "Development of final energy consumption",
 	"chart.eevTotalMwh.subtitle": "in MWh",
 	"chart.eevTotalMwh.legend.heating": "Heating",
 	"chart.eevTotalMwh.legend.electricity": "Electricity",
@@ -197,9 +206,9 @@ Resource-conserving and local provision and sustainable consumption of goods hel
 		"Climate Protection Concept - Full Version",
 	"chart.eevTotalMwh.infoDialog.learnMoreLink":
 		"/climate-concepts/#climate-concept-full",
-	"chart.eevTotalMwh.infoDialog.description": `The largest share of energy consumption is due to heat demand, particularly for heating buildings and providing hot water. This currently accounts for 56.9% of the district's energy consumption. Electricity consumption, for example, for lighting or technical devices, accounts for 32.3%. The smallest, but still relevant, consumption share comes from fuels at 10.8%.
+	"chart.eevTotalMwh.infoDialog.description": `The major part of energy consumption is caused by heating, i.e. in particular the heating of buildings and the preparation of hot water. This currently accounts for 56.9% of the district's energy consumption. 32.3 % is accounted for by electricity consumption, e.g. for lighting or technical appliances. The smallest, but still relevant consumption is caused by fuels (10.8 %).
 <br/>
-These figures clearly show that the greatest need for action is in the heating sector—where there is the most potential for energy savings. By using energy wisely, we can save costs while also laying the foundation for a livable Xhain for everyone.`,
+These figures make it clear: the heating sector is where action is needed most. It holds the greatest potential for saving energy. By using energy wisely, we can save costs while simultaneously creating a sustainable and livable Xhain for everyone.`,
 
 	"chart.eevSector2021Mwh.title": "Final energy consumption",
 	"chart.eevSector2021Mwh.subtitle": "by sectors in 2021",
@@ -211,17 +220,17 @@ These figures clearly show that the greatest need for action is in the heating s
 		"Climate Protection Concept - Full Version",
 	"chart.eevSector2021Mwh.infoDialog.learnMoreLink":
 		"/climate-concepts/#climate-concept-full",
-	"chart.eevSector2021Mwh.infoDialog.description": `Private households are the largest energy consumers, accounting for 50.4% in our densely populated district. This is due, for example, to the high number of households and factors such as heat loss from many old, unrenovated buildings.
+	"chart.eevSector2021Mwh.infoDialog.description": `Private households are the largest energy consumers in our densely populated district, accounting for 50.4% of total energy use. This is partly due to the high number of households and factors such as heat loss from old, unrenovated buildings. 
 <br/>
-The second-largest sector is commerce, at 36.1%, which includes gastronomy, hotels, offices, small production businesses, crafts, as well as the characteristic cultural and creative industries. Transportation accounts for 11.6% of energy consumption, while district buildings have the lowest share at 1.9%. 
-It is therefore essential to involve all stakeholders—citizens, businesses, and public institutions—in the energy transition.`,
+The second-largest share, 36.1%, comes from businesses, including restaurants, hotels, offices, small manufacturing, crafts, the district’s distinctive culture and creative industries, and more. Transportation accounts for 11.6% of energy consumption, while municipal buildings have the smallest share at 1.9%.
+This highlights the importance of involving all stakeholders—residents, businesses, and public institutions—in the energy transition.`,
 
-	"chart.heatingMix2021Summarized.title": "Heating mix of households",
+	"chart.heatingMix2021Summarized.title": "Heatmix",
 	"chart.heatingMix2021Summarized.subtitle": "in 2021",
 	"chart.heatingMix2021Summarized.keys.source": "Source",
 	"chart.heatingMix2021Summarized.keys.total_mwh": "Sum in Megawatt hours",
 	"chart.heatingMix2021Summarized.description":
-		"In addition to the energy consumption caused by heating, the energy sources used, as shown in the heating mix, significantly determine our climate balance.",
+		"In addition to heating-related energy consumption, the energy sources used, as shown in the heat mix, play a key role in determining our climate balance.",
 	"chart.heatingMix2021Summarized.gas": "Natural gas",
 	"chart.heatingMix2021Summarized.districtHeating": "District heating",
 	"chart.heatingMix2021Summarized.fossil": "Other fossil",
@@ -231,13 +240,14 @@ It is therefore essential to involve all stakeholders—citizens, businesses, an
 		"Subconcept: Energy and Buildings",
 	"chart.heatingMix2021Summarized.infoDialog.learnMoreLink":
 		"/climate-concepts/#energy-buildings",
-	"chart.heatingMix2021Summarized.infoDialog.description": `The heating mix in Xhain shows that heat supply is currently predominantly based on natural gas and district heating. Therefore, in addition to reducing heat consumption, decarbonizing heat supply—meaning the transition to a climate-friendly heating system—is a key measure to reduce heat-related emissions.
+	"chart.heatingMix2021Summarized.infoDialog.description": `The heat mix of Xhain shows that, at present, heat supply is primarily provided by natural gas and district heating. Therefore, in addition to reducing heat consumption, decarbonizing the heat supply—i.e., transitioning to a climate-friendly heating system—is an important lever for reducing heating-related emissions.
 <br/>
-This means that natural gas-based heating must be replaced with renewable energy sources such as solar thermal or environmental heat, and district heating must be made climate-neutral.`,
+This means that the natural gas-based supply must be replaced with renewable energy sources, such as solar thermal or ambient heat, and district heating must be made climate-neutral.`,
 
 	"chart.modalSplit2018.title": "Modal Split",
-	"chart.modalSplit2018.subtitle":
-		"Shares of the individual means of transport in total transport performance",
+	"chart.modalSplit2018.subtitle": "by sector in %",
+	"chart.modalSplit2018.description":
+		"The modal split describes the distribution of the transportation demand across the different means of transportation.",
 	"chart.modalSplit2018.legend.miv": "Motorized individual transport",
 	"chart.modalSplit2018.legend.oepnv": "Public Transport",
 	"chart.modalSplit2018.legend.foot": "Foot",
@@ -257,8 +267,8 @@ This means that natural gas-based heating must be replaced with renewable energy
 <br/>
 Further efforts to reduce transport emissions are crucial—not only for climate protection but also for improving air quality and reducing noise pollution in our neighborhoods.`,
 
-	"chart.traffic2022Summarized.title": "Traffic",
-	"chart.traffic2022Summarized.subtitle": "by area in %",
+	"chart.traffic2022Summarized.title": "Emmissions from traffic",
+	"chart.traffic2022Summarized.subtitle": "by sector in %",
 	"chart.traffic2022Summarized.keys.sector": "Sector",
 	"chart.traffic2022Summarized.keys.percentage_thg":
 		"Greenhouse gas percentage",
@@ -437,9 +447,10 @@ Regarding the number of heavy rainfall days, no clear trend has been observed ye
 	/**
 	 * info dialog
 	 */
-	"chart.infoDialog.learnMoreLabel": "Learn more in the climate concept",
+	"chart.infoDialog.learnMoreLabel": "Learn more in the climate concepts",
 
 	"button.moreInfo": "more info",
+	"button.lessInfo": "less info",
 
 	"howToReachGoals.title":
 		"How can Xhain achieve its climate protection goals in the future?",

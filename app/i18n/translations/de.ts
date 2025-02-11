@@ -132,14 +132,12 @@ export const de = {
 	"chart.thgTotalTons.infoDialog.sourceLabel": "Klimaschutzkonzept Langfassung",
 	"chart.thgTotalTons.infoDialog.learnMoreLink":
 		"/climate-concepts/#climate-concept-full",
-	"chart.thgTotalTons.infoDialog.description": `Obwohl die Haushalte einen deutlich größten Anteil am Energieverbrauch aufweisen (siehe auch die Endenergieverbrauch nach Sektoren Card), verursacht die Wirtschaft ein wenig mehr Emissionen (43 %) als die privaten Haushalte (42 %). Dies liegt an den unterschiedlichen Emissionsfaktoren der Energieträger für Strom und Wärme.
+	"chart.thgTotalTons.infoDialog.description": `Die Emissionen, die durch den Energieverbrauch entstehen, werden mit sogenannten Emissionsfaktoren berechnet. Ein Emissionsfaktor zeigt, wie viele Treibhausgase freigesetzt werden, wenn ein bestimmter Energieträger – wie Gas, Strom oder Öl – erzeugt, transportiert und genutzt wird. So lässt sich einschätzen, wie klimaschädlich der Verbrauch einer bestimmten Energiequelle ist.
+Je niedriger der Emissionsfaktor, desto klimafreundlicher ist die Energiequelle. 
 <br/>
-Während in Haushalten ein Großteil des Energieverbrauchs für Wärme eingesetzt wird, ist im Gewerbe der Stromverbrauch dominanter. Strom hat aufgrund der derzeitigen Zusammensetzung des deutschen Strommixes einen höheren Emissionsfaktor, da die Stromerzeugung in Deutschland aktuell noch zu einem Großteil über fossile Energieträger wie insbesondere die Kohle erfolgt. Entsprechend der aktuellen Entwicklung und der Ziele auf Bundesebene ist aber von einer stetigen Verbesserung bis 2045 auszugehen. Wir als Bezirk können durch den lokalen PV-Ausbau einen wichtigen Beitrag leisten.
-<br/>
-Der Verkehr verursacht 14% der Emissionen. Weiterhin sind auch die bezirklichen Gebäude trotz des geringen Emissionsanteils von besonderer Relevanz, da die Emissionen im direkten Einfluss der Bezirksverwaltung liegen.`,
-
+Zum Beispiel hat Strom aus Windkraft einen sehr niedrigen Emissionsfaktor, während Strom aus Kohlekraftwerken einen hohen Faktor aufweist. Deshalb ist es so wichtig, dass wir die Energieerzeugung klimaneutral gestalten und auf Energieträger mit niedrigen Emissionsfaktoren umsteigen. Gleichzeitig bleibt es wichtig, den Gesamtenergieverbrauch zu reduzieren, um die Gesamtemissionen zu senken.`,
 	"chart.thgSector2021Tons.title": "Treibhausgas-Emissionen",
-	"chart.thgSector2021Tons.subtitle": "nach Sektoren in Tonnen THG",
+	"chart.thgSector2021Tons.subtitle": " nach Sektoren in Tonnen THG",
 	"chart.thgSector2021Tons.legend.privateHouseholds": "private Haushalte",
 	"chart.thgSector2021Tons.legend.districtBuildings": "bezirkliche Gebäude",
 	"chart.thgSector2021Tons.legend.economy": "Wirtschaft",
@@ -152,13 +150,17 @@ Der Verkehr verursacht 14% der Emissionen. Weiterhin sind auch die bezirklichen 
 		"Klimaschutzkonzept Langfassung",
 	"chart.thgSector2021Tons.infoDialog.learnMoreLink":
 		"/climate-concepts/#climate-concept-full",
-	"chart.thgSector2021Tons.infoDialog.description": `Die Emissionen, die durch den Energieverbrauch entstehen, werden mit sogenannten Emissionsfaktoren berechnet. Ein Emissionsfaktor zeigt, wie viele Treibhausgase freigesetzt werden, wenn ein bestimmter Energieträger – wie Gas, Strom oder Öl – erzeugt, transportiert und genutzt wird.
-	<br/>
-	So lässt sich einschätzen, wie klimaschädlich der Verbrauch einer bestimmten Energiequelle ist. Je niedriger der Emissionsfaktor, desto klimafreundlicher ist die Energiequelle. Zum Beispiel hat Strom aus Windkraft einen sehr niedrigen Emissionsfaktor, während Strom aus Kohlekraftwerken einen hohen Faktor aufweist. Deshalb ist es so wichtig, dass wir die Energieerzeugung klimaneutral gestalten und auf Energieträger mit niedrigen Emissionsfaktoren umsteigen. Gleichzeitig bleibt es wichtig, den Gesamtenergieverbrauch zu reduzieren, um die Gesamtemissionen zu senken.`,
+	"chart.thgSector2021Tons.infoDialog.description": `Obwohl die Haushalte einen deutlich größten Anteil am Energieverbrauch aufweisen (siehe Kachel Endenergieverbrauch nach Sektoren), verursacht die Wirtschaft ein wenig mehr Emissionen (43 %) als die privaten Haushalte (42 %). Dies liegt an den unterschiedlichen Emissionsfaktoren der Energieträger für Strom und Wärme.
+<br/>
+Während in Haushalten ein Großteil des Energieverbrauchs für Wärme eingesetzt wird, ist im Gewerbe der Stromverbrauch dominanter. Strom hat aufgrund der derzeitigen Zusammensetzung des deutschen Strommixes einen höheren Emissionsfaktor, da die Stromerzeugung in Deutschland aktuell noch zu einem Großteil über fossile Energieträger wie insbesondere die Kohle erfolgt. Entsprechend der aktuellen Entwicklung und der Ziele auf Bundesebene ist aber von einer stetigen Verbesserung bis 2045 auszugehen. Wir als Bezirk können durch den lokalen PV-Ausbau einen wichtigen Beitrag leisten.
+<br/>
+Der Verkehr verursacht 14% der Emissionen. Weiterhin sind auch die bezirklichen Gebäude trotz des geringen Emissionsanteils von besonderer Relevanz, da die Emissionen im direkten Einfluss der Bezirksverwaltung liegen.`,
 
 	"chart.consumptionEmissionsTons.title":
 		"Konsum- und Ernährungsbedingte Emissionen",
 	"chart.consumptionEmissionsTons.subtitle": "in 2024",
+	"chart.consumptionEmissionsTons.description":
+		"Im Jahr 2024 sind Ø 4,1 Tonnen CO2-e pro Jahr und Person durch Ernährung und Konsum verursacht worden. Auch wenn Emissionen größtenteils außerhalb der Bezirksgrenzen entstehen, sind sie klimarelevant und können durch das Verhalten von Produzenten und Konsumenten hier vor Ort reduziert werden.",
 	"chart.consumptionEmissionsTons.keys.xhain": "Xhain",
 	"chart.consumptionEmissionsTons.keys.per_person": "Pro Person",
 	"chart.consumptionEmissionsTons.descriptionText":
@@ -166,9 +168,15 @@ Der Verkehr verursacht 14% der Emissionen. Weiterhin sind auch die bezirklichen 
 	"chart.consumptionEmissionsTons.millionUnit": "Mio.",
 	"chart.consumptionEmissionsTons.co2Unit": "Tonnen Co2",
 	"chart.consumptionEmissionsTons.trees": "Bäume",
-	"chart.consumptionEmissionsTons.infoDialog.sourceTitle": "Auszug aus",
-	"chart.consumptionEmissionsTons.infoDialog.sourceLabel":
-		"Teilkonzept Gesellschaft und Konsum",
+	"chart.consumptionEmissionsTons.infoDialog.sourceTitle": "Quelle",
+	"chart.consumptionEmissionsTons.infoDialog.sourceLabel": `<a
+				href="https://www.umweltbundesamt.de/themen/wirtschaft-konsum/konsum-umwelt-zentrale-handlungsfelder#bedarfsfelder"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				Umweltbundesamt
+			</a>
+			`,
 	"chart.consumptionEmissionsTons.infoDialog.learnMoreLink":
 		"/climate-concepts/#consumption-society",
 	"chart.consumptionEmissionsTons.infoDialog.description": `
@@ -176,17 +184,18 @@ Der Verkehr verursacht 14% der Emissionen. Weiterhin sind auch die bezirklichen 
 				Dienstleistungen, deren Produktion und Transport außerhalb der
 				Bezirksgrenzen stattfindet. Dazu gehören zum Beispiel
 				<ul>
-					<li>- Produktion und Transport von Nahrungsmitteln</li>
-					<li>- Herstellung von Möbeln, Haushaltsgeräten oder Kleidung</li>
-					<li>- Herstellung von elektronischen Geräten</li>
-					<li>- Dienstleistungen wie Online-Shopping</li>
+					<li>Produktion und Transport von Nahrungsmitteln <br/>(im Jahr 2021 1,69 t CO2-e)</li>
+					<li>Sonstiger Konsum (im Jahr 2021 3,79 t CO2-e), darunter:</li>
+					<ol>
+						<li>Herstellung von Möbeln, Haushaltsgeräten oder Kleidung</li>
+						<li>Herstellung von elektronischen Geräten</li>
+						<li>Dienstleistungen wie Online-Shopping oder Streaming</li>
+					</ol>	
 				</ul>
-				Eine ressourcenschonende und lokale Bereitstellung sowie der nachhaltige
-				Konsum von Gütern helfen dabei, Emissionen zu verringern - etwa durch
-				Mehrwegverpackungen, Second-Hand-Angebote und Reparatur.
+				Eine ressourcenschonende und lokale Bereitstellung sowie der nachhaltige Konsum von Gütern helfen dabei, Emissionen zu verringern - etwa durch pflanzenbasierte Ernährung, Mehrwegverpackungen, Second-Hand-Angebote und Reparatur. Es gibt viele kreative Wege, klimafreundlicher zu produzieren und zu konsumieren!
 			`,
 
-	"chart.eevTotalMwh.title": "Endenergieverbrauch",
+	"chart.eevTotalMwh.title": "Entwicklung des Endenergieverbrauchs",
 	"chart.eevTotalMwh.subtitle": "in MWh",
 	"chart.eevTotalMwh.legend.heating": "Wärme",
 	"chart.eevTotalMwh.legend.electricity": "Strom",
@@ -204,7 +213,7 @@ Der Verkehr verursacht 14% der Emissionen. Weiterhin sind auch die bezirklichen 
 Diese Zahlen zeigen klar, dass der größte Handlungsbedarf im Bereich der Wärme liegt – hier gibt es die größten Potenziale für Energieeinsparung. Indem wir klug mit Energie umgehen, kön nen wir Kosten sparen und zugleich die Grundlage für ein lebenswertes Xhain für alle schaffen.`,
 
 	"chart.eevSector2021Mwh.title": "Endenergieverbrauch",
-	"chart.eevSector2021Mwh.subtitle": "nach Sektoren in 2021",
+	"chart.eevSector2021Mwh.subtitle": "nach Verbrauchssektor in 2021",
 	"chart.eevSector2021Mwh.keys.sector": "Sektor",
 	"chart.eevSector2021Mwh.keys.total_mwh": "Summe in Megawattstunden",
 	"chart.eevSector2021Mwh.keys.percentage": "Prozent",
@@ -216,9 +225,9 @@ Diese Zahlen zeigen klar, dass der größte Handlungsbedarf im Bereich der Wärm
 	"chart.eevSector2021Mwh.infoDialog.description": `Die privaten Haushalte sind mit einem Anteil von 50,4 % die größten Energieverbraucher in unserem dicht besiedelten Bezirk. Dies ist z.B. auf die hohe Anzahl an Haushalten und auf Faktoren wie Wärmeverluste durch viele alte, unsanierte Gebäude zurückzuführen. 
 <br/>
 An zweiter Stelle folgt das Gewerbe mit 36,1 %, das Gastronomie, Hotels, Büros, kleine Produktionsbetriebe, Handwerk, die charakteristische Kultur- und Kreativwirtschaft und Weitere umfasst. Der Verkehr verbraucht 11,6 % der Energie und die bezirklichen Gebäude haben mit 1,9 % den geringsten Anteil am Energieverbrauch. 
-Somit ist es wichtig, alle Akteure - Bürger*innen, Unternehmen und öffentliche Einrichtungen - in die Energiewende einzubeziehen.`,
+Somit ist es wichtig, alle Akteure - Bürger:innen, Unternehmen und öffentliche Einrichtungen - in die Energiewende einzubeziehen.`,
 
-	"chart.heatingMix2021Summarized.title": "Wärmemix der Haushalte",
+	"chart.heatingMix2021Summarized.title": "Wärmemix",
 	"chart.heatingMix2021Summarized.subtitle": "in 2021",
 	"chart.heatingMix2021Summarized.keys.source": "Quelle",
 	"chart.heatingMix2021Summarized.keys.total_mwh": "Summe in Megawattstunden",
@@ -237,9 +246,10 @@ Somit ist es wichtig, alle Akteure - Bürger*innen, Unternehmen und öffentliche
 <br/>
 Das bedeutet, dass die erdgasbasierte Versorgung durch erneuerbare Energien, wie beispielsweise Solarthermie oder Umweltwärme ersetzt und die Fernwärme klimaneutral gestaltet werden muss.`,
 
-	"chart.modalSplit2018.title": "Modalsplit",
-	"chart.modalSplit2018.subtitle":
-		"Anteile der einzelnen Verkehrsmittel an der gesamten Verkehrsleistung",
+	"chart.modalSplit2018.title": "Modal-Split",
+	"chart.modalSplit2018.subtitle": "nach Bereich in %",
+	"chart.modalSplit2018.description":
+		"Der Modal-Split zeigt die Verteilung der Verkehrsnachfrage auf die verschiedenen Verkehrsmittelträger.",
 	"chart.modalSplit2018.legend.miv": "Motorisierter Individualverkehr",
 	"chart.modalSplit2018.legend.oepnv": "ÖPNV",
 	"chart.modalSplit2018.legend.foot": "Fuß",
@@ -259,7 +269,7 @@ Das bedeutet, dass die erdgasbasierte Versorgung durch erneuerbare Energien, wie
 <br/>
 Nicht nur für den Klimaschutz, sondern auch für die Luft- und die Lärmbelastung in unseren Kiezen  sind weitere Anstrengungen zur Reduzierung der Verkehrsemissionen wichtig.`,
 
-	"chart.traffic2022Summarized.title": "Verkehr",
+	"chart.traffic2022Summarized.title": "Emissionen durch den Verkehr",
 	"chart.traffic2022Summarized.subtitle": "nach Bereich in %",
 	"chart.traffic2022Summarized.keys.sector": "Sektor",
 	"chart.traffic2022Summarized.keys.percentage_thg": "Prozent Treibhausgas",
@@ -439,6 +449,7 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 	"chart.infoDialog.learnMoreLabel": "Erfahre mehr im Klimakonzept",
 
 	"button.moreInfo": "mehr Infos",
+	"button.lessInfo": "weniger Info",
 
 	"howToReachGoals.title":
 		"Wie kann Xhain die Klimaschutzziele zukünftig erreichen?",
