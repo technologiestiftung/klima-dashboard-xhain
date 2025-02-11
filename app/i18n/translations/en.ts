@@ -108,7 +108,7 @@ export const en: typeof de = {
 	/**
 	 * chart labels
 	 */
-	"charts.title": "How does XHain contribute to climate change?",
+	"charts.title": "How does Xhain contribute to climate change?",
 	"charts.p1":
 		"Many greenhouse gas-related emissions originate directly here in the district – for example, from heating buildings, transportation, or the activities of local businesses. To mitigate climate change at the local level, it is essential to both reduce energy consumption (efficiency and sufficiency) and transition the energy supply to renewable sources (consistency).",
 	"charts.p2.part1": "With the district's ",
@@ -436,11 +436,11 @@ Regarding the number of heavy rainfall days, no clear trend has been observed ye
 	"button.moreInfo": "more info",
 
 	"howToReachGoals.title":
-		"How can XHain achieve its climate protection goals in the future?",
+		"How can Xhain achieve its climate protection goals in the future?",
 	"howToReachGoals.description":
 		"Climate protection is a central task for the future of Xhain. The district has set itself the goal of reducing greenhouse gas emissions by 95% by 2045 compared to 1990. This is a challenging task that requires the commitment of all residents, businesses, and public institutions. The climate protection concept outlines various measures and strategies to achieve this goal. The following scenarios show how Xhain can contribute to climate protection in the future.",
 
-	"consequences.title": "How does climate change affect XHain?",
+	"consequences.title": "How does climate change affect Xhain?",
 	"consequences.description":
 		"When analyzing climate impacts in Xhain, a distinction is made between climate trends and the extent to which people are affected. Climate trends describe how the climate has changed so far and what future changes are to be expected. The impact of these climate developments, i.e. the degree to which they are affected, depends on socio-demographic and environmental factors. These include, for example, population density, the proportion of vulnerable groups or the degree of sealing.",
 	"consequences.subheading": "How is the climate changing?",
@@ -525,7 +525,7 @@ Regarding the number of heavy rainfall days, no clear trend has been observed ye
 	 */
 	"featureSection.imageAltText": "Image of the featured project",
 	"featureSection.imageSource": "Image: Kareen Kittelmann",
-	"featureSection.title": "What is already happening in XHain?",
+	"featureSection.title": "What is already happening in Xhain?",
 	"featureSection.description":
 		"In Xhain, numerous projects are already being implemented to address these challenges. Here, we give you an insight into some of the existing projects.",
 	"featureSection.cta": "Current projects",

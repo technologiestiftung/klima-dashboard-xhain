@@ -107,7 +107,7 @@ export const de = {
 	/**
 	 * chart labels
 	 */
-	"charts.title": "Wie trägt XHain zum Klimawandel bei?",
+	"charts.title": "Wie trägt Xhain zum Klimawandel bei?",
 	"charts.p1":
 		"Viele treibhausgasrelevante Emissionen entstehen direkt hier im Bezirk - zum Beispiel durch die Beheizung von Gebäuden, den Verkehr oder die Aktivitäten der ansässigen Unternehmen. Um den Klimawandel auf lokaler Ebene einzudämmen gilt es einerseits den Energieverbrauch zu reduzieren (Effizienz und Suffizienz) und andererseits die Energieversorgung auf erneuerbare Energien (Konsistenz) umzustellen.",
 	"charts.p2.part1": "Mit der bezirklichen ",
@@ -437,11 +437,11 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 	"button.moreInfo": "mehr Infos",
 
 	"howToReachGoals.title":
-		"Wie kann XHain die Klimaschutzziele zukünftig erreichen?",
+		"Wie kann Xhain die Klimaschutzziele zukünftig erreichen?",
 	"howToReachGoals.description":
 		"Ein Blick in die Zukunft: Was passiert, wenn wir so weitermachen, und was muss sich ändern, um die Klimaschutzziele zu erreichen?",
 
-	"consequences.title": "Wie wirkt sich der Klimawandel auf XHain aus?",
+	"consequences.title": "Wie wirkt sich der Klimawandel auf Xhain aus?",
 	"consequences.description":
 		"Bei der Analyse der Klimafolgen in Xhain wird zwischen den Klimaentwicklungen und der Betroffenheit unterschieden. Klimaentwicklungen beschreiben, wie sich das Klima bisher verändert hat und welche zukünftigen Veränderungen zu erwarten sind. Wie sich diese Klimaentwicklungen auswirken, also die Betroffenheit, hängt von soziodemografischen und umweltbezogenen Faktoren ab. Dazu gehört z.B. die Einwohner*innendichte, der Anteil vulnerabler Gruppen oder der Versiegelungsgrad.",
 	"consequences.subheading": "Wie verändert sich das Klima?",
