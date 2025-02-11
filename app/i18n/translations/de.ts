@@ -4,10 +4,10 @@ export const de = {
 	/**
 	 * Hero Section
 	 */
-	"heroSection.eyebrowText": "Klimawandel in Friedrichshain-Kreuzberg",
-	"heroSection.heading":
+	"heroSection.eyebrowText": "KlimaDashboard",
+	"heroSection.heading": "Klimawandel in Friedrichshain-Kreuzberg",
+	"heroSection.subheading":
 		"Zahlen, Fakten, Handlungsbedarf - für ein lebenswertes Xhain",
-	"heroSection.subheading": "",
 	"heroSection.mediumTemperature.averageTempText": "Mittlere Jahrestemperatur",
 	"heroSection.mediumTemperature.locationText":
 		"in Friedrichshain-Kreuzberg nach Phasen",

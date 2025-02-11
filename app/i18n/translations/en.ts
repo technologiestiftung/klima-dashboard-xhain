@@ -6,10 +6,10 @@ export const en: typeof de = {
 	/**
 	 * Hero Section
 	 */
-	"heroSection.eyebrowText": "Climate change in Xhain",
-	"heroSection.heading":
+	"heroSection.eyebrowText": "KlimaDashboard",
+	"heroSection.heading": "Climate change in Xhain",
+	"heroSection.subheading":
 		"Figures, facts and actions needed - towards a livable Xhain",
-	"heroSection.subheading": "",
 	"heroSection.mediumTemperature.averageTempText": "Average annual temperature",
 	"heroSection.mediumTemperature.locationText":
 		"in Friedrichshain-Kreuzberg by phases",
@@ -560,16 +560,15 @@ For example, heavy rainfall events in June 2017 and July 2018 caused severe floo
 	/**
 	 * About Page
 	 */
-	"about.title": "About us",
+	"about.title": "Who we are",
 	"about.firstSectionTitle": "Berlin climate neutral by 2045",
 	"about.firstSectionDescription":
-		"The Berlin Senate is pursuing the long-term goal of developing Berlin into a climate-neutral city by 2045 while simultaneously adapting to the unavoidable consequences of climate change.",
-	"about.secondSectionTitle": "Xhain is leading the way",
+		"The Berlin Senate aims to transform the city into a climate-neutral one by 2045, while simultaneously adapting to the unavoidable impacts of climate change.",
+	"about.secondSectionTitle": "Xhain is setting a good example",
 	"about.secondSectionDescription":
-		"In December 2024, the district office adopted the climate protection and climate adaptation concepts. Now, the task is to build on this foundation and effectively advance concrete projects.",
+		"In December 2024, the two climate strategies were politically approved. The task is now to use them as a basis to advance specific projects in a targeted manner.",
 	"about.thirdSectionTitle": "Who? The Xhain climate team",
-	"about.thirdSectionDescription":
-		"The four-member climate team of the organizational unit 'Climate and International Affairs' consists of two climate protection managers, a climate adaptation manager, and the climate commissioner. Together, they support the implementation of climate-effective measures. At the same time, they act as intermediaries and connect different stakeholder groups in the district when it comes to climate protection and adaptation. After all, climate protection and adaptation can only succeed together!",
+	"about.thirdSectionDescription": `The four-member climate team of the "Climate and International Affairs" unit consists of two climate mitigation managers, one climate adaptation manager, and the climate officer. Together, they support the implementation of climate-effective measures. At the same time, they facilitate communication and networking between various stakeholder groups in the district on matters related to climate mitigation and climate adaptation. After all, climate mitigation and climate adaptation can only succeed together!`,
 	"about.actionCardTitle": `Questions?<br/>Write to the Xhain climate team.`,
 	"about.actionCardEmail": "E-mail to the climate team",
 
