@@ -131,9 +131,11 @@ export const de = {
 	"chart.thgTotalTons.infoDialog.sourceLabel": "Klimaschutzkonzept Langfassung",
 	"chart.thgTotalTons.infoDialog.learnMoreLink":
 		"/climate-concepts/#climate-concept-full",
-	"chart.thgTotalTons.infoDialog.description": `Obwohl die Haushalte einen deutlich größten Anteil am Energieverbrauch aufweisen (siehe auch die Endenergieverbrauch nach Sektoren Card), verursacht die Wirtschaft ein wenig mehr Emissionen (43 %) als die privaten Haushalte (42 %). Dies liegt an den unterschiedlichen Emissionsfaktoren der Energieträger für Strom und Wärme. Während in Haushalten ein Großteil des Energieverbrauchs für Wärme eingesetzt wird, ist im Gewerbe der Stromverbrauch dominanter. Strom hat aufgrund der derzeitigen Zusammensetzung des deutschen Strommixes einen höheren Emissionsfaktor, da die Stromerzeugung in Deutschland aktuell noch zu einem Großteil über fossile Energieträger wie insbesondere die Kohle erfolgt. Entsprechend der aktuellen Entwicklung und der Ziele auf Bundesebene ist aber von einer stetigen Verbesserung bis 2045 auszugehen. Wir als Bezirk können durch den lokalen PV-Ausbau einen wichtigen Beitrag leisten.
-
-Der Verkehr verursacht xy% der Emissionen. Weiterhin sind auch die bezirklichen Gebäude trotz des geringen Emissionsanteils von besonderer Relevanz, da die Emissionen im direkten Einfluss der Bezirksverwaltung liegen.`,
+	"chart.thgTotalTons.infoDialog.description": `Obwohl die Haushalte einen deutlich größten Anteil am Energieverbrauch aufweisen (siehe auch die Endenergieverbrauch nach Sektoren Card), verursacht die Wirtschaft ein wenig mehr Emissionen (43 %) als die privaten Haushalte (42 %). Dies liegt an den unterschiedlichen Emissionsfaktoren der Energieträger für Strom und Wärme.
+<br/>
+Während in Haushalten ein Großteil des Energieverbrauchs für Wärme eingesetzt wird, ist im Gewerbe der Stromverbrauch dominanter. Strom hat aufgrund der derzeitigen Zusammensetzung des deutschen Strommixes einen höheren Emissionsfaktor, da die Stromerzeugung in Deutschland aktuell noch zu einem Großteil über fossile Energieträger wie insbesondere die Kohle erfolgt. Entsprechend der aktuellen Entwicklung und der Ziele auf Bundesebene ist aber von einer stetigen Verbesserung bis 2045 auszugehen. Wir als Bezirk können durch den lokalen PV-Ausbau einen wichtigen Beitrag leisten.
+<br/>
+Der Verkehr verursacht 14% der Emissionen. Weiterhin sind auch die bezirklichen Gebäude trotz des geringen Emissionsanteils von besonderer Relevanz, da die Emissionen im direkten Einfluss der Bezirksverwaltung liegen.`,
 
 	"chart.thgSector2021Tons.title": "Treibhausgas-Emissionen",
 	"chart.thgSector2021Tons.subtitle": "nach Sektoren in Tonnen THG",
@@ -149,9 +151,9 @@ Der Verkehr verursacht xy% der Emissionen. Weiterhin sind auch die bezirklichen 
 		"Klimaschutzkonzept Langfassung",
 	"chart.thgSector2021Tons.infoDialog.learnMoreLink":
 		"/climate-concepts/#climate-concept-full",
-	"chart.thgSector2021Tons.infoDialog.description": `Die Emissionen, die durch den Energieverbrauch entstehen, werden mit sogenannten Emissionsfaktoren berechnet. <b>Ein Emissionsfaktor zeigt, wie viele Treibhausgase freigesetzt werden</b>, wenn ein bestimmter Energieträger – wie Gas, Strom oder Öl – erzeugt, transportiert und genutzt wird. So lässt sich einschätzen, wie klimaschädlich der Verbrauch einer bestimmten Energiequelle ist.
-
-<b>Je niedriger der Emissionsfaktor, desto klimafreundlicher ist die Energiequelle.</b> Zum Beispiel hat Strom aus Windkraft einen sehr niedrigen Emissionsfaktor, während Strom aus Kohlekraftwerken einen hohen Faktor aufweist. Deshalb ist es so wichtig, dass wir die Energieerzeugung klimaneutral gestalten und auf Energieträger mit niedrigen Emissionsfaktoren umsteigen. Gleichzeitig bleibt es wichtig, den Gesamtenergieverbrauch zu reduzieren, um die Gesamtemissionen zu senken.`,
+	"chart.thgSector2021Tons.infoDialog.description": `Die Emissionen, die durch den Energieverbrauch entstehen, werden mit sogenannten Emissionsfaktoren berechnet. Ein Emissionsfaktor zeigt, wie viele Treibhausgase freigesetzt werden, wenn ein bestimmter Energieträger – wie Gas, Strom oder Öl – erzeugt, transportiert und genutzt wird.
+	<br/>
+	So lässt sich einschätzen, wie klimaschädlich der Verbrauch einer bestimmten Energiequelle ist. Je niedriger der Emissionsfaktor, desto klimafreundlicher ist die Energiequelle. Zum Beispiel hat Strom aus Windkraft einen sehr niedrigen Emissionsfaktor, während Strom aus Kohlekraftwerken einen hohen Faktor aufweist. Deshalb ist es so wichtig, dass wir die Energieerzeugung klimaneutral gestalten und auf Energieträger mit niedrigen Emissionsfaktoren umsteigen. Gleichzeitig bleibt es wichtig, den Gesamtenergieverbrauch zu reduzieren, um die Gesamtemissionen zu senken.`,
 
 	"chart.consumptionEmissionsTons.title":
 		"Konsum- und Ernährungsbedingte Emissionen",
@@ -196,9 +198,9 @@ Der Verkehr verursacht xy% der Emissionen. Weiterhin sind auch die bezirklichen 
 	"chart.eevTotalMwh.infoDialog.sourceLabel": "Klimaschutzkonzept Langfassung",
 	"chart.eevTotalMwh.infoDialog.learnMoreLink":
 		"/climate-concepts/#climate-concept-full",
-	"chart.eevTotalMwh.infoDialog.description": `Der <b>größte Teil des Energieverbrauchs entsteht durch den Wärmebedarf, also insbesondere durch das Heizen von Gebäuden und die Aufbereitung von Warmwasser.</b> Das macht aktuell 56,9 % des bezirklichen Energieverbrauchs aus. 32,3 % entfallen auf den Stromverbrauch, z. B. für Beleuchtung oder technische Geräte. Den kleinsten, aber dennoch relevanten Verbrauch verursachen die Kraftstoffen mit 10,8 %.
-
-<b>Diese Zahlen zeigen klar, dass der größte Handlungsbedarf im Bereich der Wärme liegt – hier gibt es die größten Potenziale für Energieeinsparung. Indem wir klug mit Energie umgehen, kön nen wir Kosten sparen und zugleich die Grundlage für ein lebenswertes Xhain für alle schaffen.</b>`,
+	"chart.eevTotalMwh.infoDialog.description": `Der größte Teil des Energieverbrauchs entsteht durch den Wärmebedarf, also insbesondere durch das Heizen von Gebäuden und die Aufbereitung von Warmwasser. Das macht aktuell 56,9 % des bezirklichen Energieverbrauchs aus. 32,3 % entfallen auf den Stromverbrauch, z. B. für Beleuchtung oder technische Geräte. Den kleinsten, aber dennoch relevanten Verbrauch verursachen die Kraftstoffen mit 10,8 %.
+<br/>
+Diese Zahlen zeigen klar, dass der größte Handlungsbedarf im Bereich der Wärme liegt – hier gibt es die größten Potenziale für Energieeinsparung. Indem wir klug mit Energie umgehen, kön nen wir Kosten sparen und zugleich die Grundlage für ein lebenswertes Xhain für alle schaffen.`,
 
 	"chart.eevSector2021Mwh.title": "Endenergieverbrauch",
 	"chart.eevSector2021Mwh.subtitle": "nach Sektoren in 2021",
@@ -210,9 +212,10 @@ Der Verkehr verursacht xy% der Emissionen. Weiterhin sind auch die bezirklichen 
 		"Klimaschutzkonzept Langfassung",
 	"chart.eevSector2021Mwh.infoDialog.learnMoreLink":
 		"/climate-concepts/#climate-concept-full",
-	"chart.eevSector2021Mwh.infoDialog.description": `Die <b>privaten Haushalte sind mit einem Anteil von 50,4 % die größten Energieverbraucher</b> in unserem dicht besiedelten Bezirk. Dies ist z.B. auf die hohe Anzahl an Haushalten und auf Faktoren wie Wärmeverluste durch viele alte, unsanierte Gebäude zurückzuführen. An zweiter Stelle folgt das Gewerbe mit 36,1 %, das Gastronomie, Hotels, Büros, kleine Produktionsbetriebe, Handwerk, die charakteristische Kultur- und Kreativwirtschaft und Weitere umfasst. Der Verkehr verbraucht 11,6 % der Energie und die bezirklichen Gebäude haben mit 1,9 % den geringsten Anteil am Energieverbrauch. 
-
-<b>Somit ist es wichtig, alle Akteure - Bürger*innen, Unternehmen und öffentliche Einrichtungen - in die Energiewende einzubeziehen.</b>`,
+	"chart.eevSector2021Mwh.infoDialog.description": `Die privaten Haushalte sind mit einem Anteil von 50,4 % die größten Energieverbraucher in unserem dicht besiedelten Bezirk. Dies ist z.B. auf die hohe Anzahl an Haushalten und auf Faktoren wie Wärmeverluste durch viele alte, unsanierte Gebäude zurückzuführen. 
+<br/>
+An zweiter Stelle folgt das Gewerbe mit 36,1 %, das Gastronomie, Hotels, Büros, kleine Produktionsbetriebe, Handwerk, die charakteristische Kultur- und Kreativwirtschaft und Weitere umfasst. Der Verkehr verbraucht 11,6 % der Energie und die bezirklichen Gebäude haben mit 1,9 % den geringsten Anteil am Energieverbrauch. 
+Somit ist es wichtig, alle Akteure - Bürger*innen, Unternehmen und öffentliche Einrichtungen - in die Energiewende einzubeziehen.`,
 
 	"chart.heatingMix2021Summarized.title": "Wärmemix der Haushalte",
 	"chart.heatingMix2021Summarized.subtitle": "in 2021",
@@ -229,8 +232,8 @@ Der Verkehr verursacht xy% der Emissionen. Weiterhin sind auch die bezirklichen 
 		"Teilkonzept Energie und Gebäude",
 	"chart.heatingMix2021Summarized.infoDialog.learnMoreLink":
 		"/climate-concepts/#energy-buildings",
-	"chart.heatingMix2021Summarized.infoDialog.description": `Der Wärmemix Xhains zeigt, dass die <b>Wärmeversorgung Stand jetzt überwiegend über Erdgas und Fernwärme</b> erfolgt. Demnach ist neben der Senkung des Wärmeverbrauchs die Dekarbonisierung der Wärmeversorgung  - also die Umstellung auf eine klimafreundliche Wärmeversorgung ein wichtiger Hebel um die wärmebedingten Emissionen zu reduzieren. 
-
+	"chart.heatingMix2021Summarized.infoDialog.description": `Der Wärmemix Xhains zeigt, dass die Wärmeversorgung Stand jetzt überwiegend über Erdgas und Fernwärme erfolgt. Demnach ist neben der Senkung des Wärmeverbrauchs die Dekarbonisierung der Wärmeversorgung  - also die Umstellung auf eine klimafreundliche Wärmeversorgung ein wichtiger Hebel um die wärmebedingten Emissionen zu reduzieren. 
+<br/>
 Das bedeutet, dass die erdgasbasierte Versorgung durch erneuerbare Energien, wie beispielsweise Solarthermie oder Umweltwärme ersetzt und die Fernwärme klimaneutral gestaltet werden muss.`,
 
 	"chart.modalSplit2018.title": "Modalsplit",
@@ -251,8 +254,8 @@ Das bedeutet, dass die erdgasbasierte Versorgung durch erneuerbare Energien, wie
 	"chart.modalSplit2018.infoDialog.sourceLabel": "Teilkonzept Mobilität",
 	"chart.modalSplit2018.infoDialog.learnMoreLink":
 		"/climate-concepts/#mobility",
-	"chart.modalSplit2018.infoDialog.description": `Der Umweltverbund, d.h. <b>Öffis, Rad- und Fußverkehr, macht in Berlin bereits einen hohen Anteil aus.</b> Die Zahlen verdeutlichen das wir als Bezirk als Vorbild vorangehen, hier werden bereits 86,5 % der Wege mit umweltfreundlichen Verkehrsmitteln zurückgelegt. Dennoch hat der Verkehrssektor weiterhin erhebliche Auswirkungen auf unser Klima. Trotz des geringen MIV-Anteils von 13,5 % verursacht der Verkehr Emissionen in Höhe von 153.000 Tonnen CO2-Äquivalenten pro Jahr und macht damit etwa 13,6 % der gesamten Emissionen des Bezirks im Jahr 2021 aus.
-
+	"chart.modalSplit2018.infoDialog.description": `Der Umweltverbund, d.h. Öffis, Rad- und Fußverkehr, macht in Berlin bereits einen hohen Anteil aus. Die Zahlen verdeutlichen das wir als Bezirk als Vorbild vorangehen, hier werden bereits 86,5 % der Wege mit umweltfreundlichen Verkehrsmitteln zurückgelegt. Dennoch hat der Verkehrssektor weiterhin erhebliche Auswirkungen auf unser Klima. Trotz des geringen MIV-Anteils von 13,5 % verursacht der Verkehr Emissionen in Höhe von 153.000 Tonnen CO2-Äquivalenten pro Jahr und macht damit etwa 13,6 % der gesamten Emissionen des Bezirks im Jahr 2021 aus.
+<br/>
 Nicht nur für den Klimaschutz, sondern auch für die Luft- und die Lärmbelastung in unseren Kiezen  sind weitere Anstrengungen zur Reduzierung der Verkehrsemissionen wichtig.`,
 
 	"chart.traffic2022Summarized.title": "Verkehr",
@@ -264,8 +267,8 @@ Nicht nur für den Klimaschutz, sondern auch für die Luft- und die Lärmbelastu
 	"chart.traffic2022Summarized.infoDialog.learnMoreLink":
 		"/climate-concepts/#mobility",
 	"chart.traffic2022Summarized.infoDialog.description": `Im Rahmen der Klimabilanz sind alle Fahrten, welche in Xhain starten oder enden oder bei denen sowohl Start- und Ziel im Bezirk liegen berücksichtigt worden. Dazu gehören neben den Öffis auch ein geringer Anteil der Binnenschifffahrt. Nicht berücksichtigt sind z.B. Flugreisen der Bevölkerung oder der Tourist*innen, da der Flughafen außerhalb der Bezirksgrenze liegt.
-
-<b>Demnach gilt es den Motorisierten Individualverkehr zu reduzieren und zu elektrifizieren und den Umweltverbund zu stärken.</b>`,
+<br/>
+Demnach gilt es den Motorisierten Individualverkehr zu reduzieren und zu elektrifizieren und den Umweltverbund zu stärken.`,
 
 	"chart.restBudgetThgUntilYear.title": "Restbudget-Eimer",
 	"chart.restBudgetThgUntilYear.subtitle": "des 1,75 Grad Klimaziels",
@@ -285,7 +288,7 @@ Um dies zu vermeiden, müssen wir jetzt ambitionierter und auch schneller handel
 	"chart.restBudgetThgUntilYear.infoDialog.learnMoreLink":
 		"/climate-concepts/#climate-concept-summary",
 	"chart.restBudgetThgUntilYear.infoDialog.description": `Das Pariser Klimaabkommen bildet den internationalen Rahmen, um die globale Erwärmung auf deutlich unter 2°C, möglichst aber auf 1,5°C zu begrenzen. Auf Landesebene werden diese Zielsetzungen durch das Berliner Energiewendegesetz (EWG Bln) mit dem Ziel der Klimaneutralität bis 2045 ergänzt. Im Klimaschutzkonzept von Xhain wird das 1,75°-Ziel als Orientierung gewählt, da Prognosen und Emissionstrends zeigen, dass das 1,5°-Ziel immer schwieriger zu erreichen ist. 
-
+<br/>
 Um die Ziele von Paris lokal umzusetzen, wird der sogenannte Restbudget-Ansatz genutzt. Damit wird deutlich, dass nicht nur der jährliche CO2-Ausstoß entscheidend ist, sondern die Gesamtmenge an Treibhausgasen, die im Laufe der Zeit in die Atmosphäre freigesetzt wird.`,
 
 	"chart.reductionPathScenario175Thg.title": "Reduktionspfad",
@@ -300,9 +303,9 @@ Um die Ziele von Paris lokal umzusetzen, wird der sogenannte Restbudget-Ansatz g
 		"Klimaschutzkonzept Langfassung",
 	"chart.reductionPathScenario175Thg.infoDialog.learnMoreLink":
 		"/climate-concepts/#climate-concept-full",
-	"chart.reductionPathScenario175Thg.infoDialog.description": `<b>In den vergangenen Jahren haben wir die Klimaschutzziele des Landes Berlin verfehlt.</b> Um bis 2030 auf den Zielpfad zurückzukehren, müssen wir Emissionen deutlicher reduzieren und entschlossener handeln.
-
-Die Grafik verdeutlicht, wie wichtig es ist, möglichst schnell in die Phase der starken Reduktion einzutreten, um bis spätestens 2045 Klimaneutralität zu erreichen, denn je früher mögliche Emissionsreduktionen umgesetzt werden, desto weniger wird das verbleibende Budget belastet und desto mehr Zeit bleibt für die Umsetzung notwendiger Veränderungen. <b>Dementsprechend zeigt das Klimaschutzszenario einen kontinuierlichen und realistischen Reduktionspfad auf.</b>`,
+	"chart.reductionPathScenario175Thg.infoDialog.description": `In den vergangenen Jahren haben wir die Klimaschutzziele des Landes Berlin verfehlt. Um bis 2030 auf den Zielpfad zurückzukehren, müssen wir Emissionen deutlicher reduzieren und entschlossener handeln.
+<br/>
+Die Grafik verdeutlicht, wie wichtig es ist, möglichst schnell in die Phase der starken Reduktion einzutreten, um bis spätestens 2045 Klimaneutralität zu erreichen, denn je früher mögliche Emissionsreduktionen umgesetzt werden, desto weniger wird das verbleibende Budget belastet und desto mehr Zeit bleibt für die Umsetzung notwendiger Veränderungen. Dementsprechend zeigt das Klimaschutzszenario einen kontinuierlichen und realistischen Reduktionspfad auf.`,
 
 	"chart.hotDays.title": "Heiße Tage",
 	"chart.hotDays.subtitle": "pro Jahr",
@@ -331,7 +334,7 @@ Die Grafik verdeutlicht, wie wichtig es ist, möglichst schnell in die Phase der
 	"chart.hotDays.infoDialog.learnMoreLink":
 		"/climate-concepts/#climate-adaptation-full",
 	"chart.hotDays.infoDialog.description": `In den 1950er Jahren gab es durchschnittlich 5.5 heiße Tage pro Jahr im Bezirk. Bis zu den 2010er Jahren hat sich die Anzahl verdreifacht - inzwischen sind es 16.5 Tage pro Jahr.
-
+<br/>
 Projektionen für die Zukunft sind schwieriger zu ermitteln und hängen von den Klimaschutzaktivitäten ab. Bei einem weiteren kontinuierlichen Anstieg der Treibhausgasemissionen (RCP 8.5 Szenario) erhöht sich die Anzahl der heißen Tage bis zum Ende des Jahrhunderts voraussichtlich auf rund 28 Tage. Wenn wir davon ausgehen, dass die Treibhausgasemissionen ab Mitte des Jahrhunderts sinken (RCP 4.5 Szenario), könnte sich die Anzahl der heißen Tage auf rund 21 Tage pro Jahr begrenzen.`,
 
 	"chart.mediumTemperature.title": "Mittlere Jahrestemperatur",
@@ -360,7 +363,7 @@ Projektionen für die Zukunft sind schwieriger zu ermitteln und hängen von den 
 	"chart.mediumTemperature.infoDialog.learnMoreLink":
 		"/climate-concepts/#climate-adaptation-full",
 	"chart.mediumTemperature.infoDialog.description": `Die Durchschnittswerte der Temperaturen über 10 Jahre helfen, langfristige Temperaturveränderungen zu erkennen. Sie sind vergleichbarer als einzelne Jahre, da sie besonders warme oder kalte Jahre ausgleichen. In dem Zeitraum von 2011-2020 betrug die mittlere Jahrestemperatur 10,9 °C. Das sind 1,7 °C mehr als in den 1950er Jahren.
-
+<br/>
 Projektionen für die Zukunft sind schwieriger zu ermitteln und hängen von den Klimaschutzaktivitäten ab. Bei einem weiteren kontinuierlichen Anstieg der Treibhausgasemissionen (RCP 8.5 Szenario) erhöht sich die mittlere Jahrestemperatur bis zum Ende des Jahrhunderts voraussichtlich auf circa 13,2 °C . Wenn wir davon ausgehen, dass die Treibhausgasemissionen ab Mitte des Jahrhunderts sinken (RCP 4.5 Szenario), könnte sich die mittlere Jahrestemperatur auf 12 °C begrenzen.`,
 
 	"chart.precipitationMm.title": "Niederschläge",
@@ -386,7 +389,7 @@ Projektionen für die Zukunft sind schwieriger zu ermitteln und hängen von den 
 	"chart.precipitationMm.infoDialog.learnMoreLink":
 		"/climate-concepts/#climate-adaptation-full",
 	"chart.precipitationMm.infoDialog.description": `Beim jährlichen und saisonalen Niederschlag ist in Xhain bisher kein eindeutiger Trend zu erkennen. Insbesondere bei den Niederschlägen im Sommer gibt es sehr starke Schwankungen zwischen den Jahren. So gab es z.B. im Sommer 2018 nur ein Viertel des Niederschlags (100mm) im Vergleich zum Vorjahr (400mm). Auch für die Zukunft sind die Projektionen teils sehr unsicher, wobei insgesamt auf das Jahr gesehen mit einer Zunahme der Niederschläge gerechnet wird.
-
+<br/>
 Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeutigen Trend, jedoch hat die Intensität der Starkregenereignisse in den letzten 30 Jahren zugenommen. Beispielsweise sorgten Starkregenereignisse im Juni 2017 und Juli 2018 für schwere Überschwemmungen. Wenn es vorher lange Zeit trocken war, kann der Boden den Regen außerdem schlecht aufnehmen. Für die Zukunft ist sowohl mit einer Zunahme der Häufigkeit als auch der Intensität von Starkregenereignissen zu rechnen.`,
 
 	"chart.HBI.title": "Hitzebetroffenheitsindex (HBI)",
