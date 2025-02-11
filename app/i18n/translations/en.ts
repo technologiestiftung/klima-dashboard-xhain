@@ -319,7 +319,7 @@ The graph illustrates how crucial it is to enter the phase of strong reduction a
 	"chart.hotDays.title": "Hot days",
 	"chart.hotDays.subtitle": "per year",
 	"chart.hotDays.description":
-		'A "Hot Day" is a day with a maximum temperature of 30°C or more.',
+		"A ‘hot day’ is any day with a maximum temperature of 30 °C or higher.",
 	"chart.hotDays.keys.current": "Today",
 	"chart.hotDays.keys.1950": "1950s",
 	"chart.hotDays.keys.2100": "Future",
@@ -341,14 +341,14 @@ The graph illustrates how crucial it is to enter the phase of strong reduction a
 			</a>`,
 	"chart.hotDays.infoDialog.learnMoreLink":
 		"/climate-concepts/#climate-adaptation-full",
-	"chart.hotDays.infoDialog.description": `In the 1950s, there was an average of 5.5 hot days per year in the district. By the 2010s, this number had tripled—there are now 16.5 hot days per year.
-<br/>
-Future projections are more difficult to determine and depend on climate protection efforts. If greenhouse gas emissions continue to rise steadily (RCP 8.5 scenario), the number of hot days could increase to around 28 days per year by the end of the century. If emissions begin to decline from the middle of the century onward (RCP 4.5 scenario), the number of hot days could be limited to around 21 days per year.`,
+	"chart.hotDays.infoDialog.description": `In the 1950s, there was an average of 5.5 hot days per year in Friedrichshain-Kreuzberg. By the 2010s, the number had tripled - it is now 16.5 days per year.
+	<br/>
+Projections for the future are more difficult to determine and depend on climate mitigation measures. If greenhouse gas emissions continue to rise steadily (RCP 8.5 scenario), the number of hot days is expected to increase to around 28 days by the end of the century. If we assume that greenhouse gas emissions fall from the middle of the century (RCP 4.5 scenario), the number of hot days could be limited to around 21 days per year.`,
 
 	"chart.mediumTemperature.title": "Average annual temperature",
 	"chart.mediumTemperature.subtitle": "in Friedrichshain-Kreuzberg by phases",
 	"chart.mediumTemperature.description":
-		"The mean annual temperature refers to the average value of temperatures over a period of 10 years.",
+		"The mean annual temperature refers to the average temperature over a period of 10 years.",
 	"chart.mediumTemperature.current": "Current",
 	"chart.mediumTemperature.1950": "1950s",
 	"chart.mediumTemperature.2100": "Future",
@@ -370,14 +370,16 @@ Future projections are more difficult to determine and depend on climate protect
 			</a>`,
 	"chart.mediumTemperature.infoDialog.learnMoreLink":
 		"/climate-concepts/#climate-adaptation-full",
-	"chart.mediumTemperature.infoDialog.description": `Average temperatures over a 10-year period help identify long-term temperature changes. They are more comparable than single-year values, as they balance out particularly warm or cold years. Between 2011 and 2020, the average annual temperature was 10.9°C—1.7°C higher than in the 1950s.
+	"chart.mediumTemperature.infoDialog.description": `The average temperature values over 10 years help to recognise long-term temperature changes. They are more comparable than individual years, as they compensate for particularly warm or cold years. In the period from 2011-2020, the average annual temperature was 10.9 °C. This is 1.7 °C higher than in the 1950s.
+Projections for the future are more difficult to determine and depend on climate mitigation measures. 
 <br/>
-Future projections are more difficult to determine and depend on climate protection measures. If greenhouse gas emissions continue to rise steadily (RCP 8.5 scenario), the average annual temperature could increase to around 13.2°C by the end of the century. If emissions begin to decline from the middle of the century onward (RCP 4.5 scenario), the average annual temperature could be limited to 12°C.`,
+If greenhouse gas emissions continue to rise steadily (RCP 8.5 scenario), the average annual temperature is expected to rise to around 13.2 °C by the end of the century. If we assume that greenhouse gas emissions fall from the middle of the century (RCP 4.5 scenario), the average annual temperature could be limited to 12 °C.
+`,
 
-	"chart.precipitationMm.title": "Precipitation",
+	"chart.precipitationMm.title": "Rainfall",
 	"chart.precipitationMm.subtitle": "in milliliters",
 	"chart.precipitationMm.description":
-		"There is no clear trend in annual and seasonal precipitation or in the number of days with heavy rainfall in Xhain.",
+		"So far, there is no clear trend for annual and seasonal precipitation or the number of heavy rainfall days in Xhain.",
 	"chart.precipitationMm.infoDialog.sourceTitle": "Source:",
 	"chart.precipitationMm.infoDialog.sourceLabel": `<a
 				href="https://dwd.de"
@@ -396,9 +398,10 @@ Future projections are more difficult to determine and depend on climate protect
 			</a>`,
 	"chart.precipitationMm.infoDialog.learnMoreLink":
 		"/climate-concepts/#climate-adaptation-full",
-	"chart.precipitationMm.infoDialog.description": `So far, no clear trend has been observed in Xhain's annual and seasonal precipitation. In particular, summer precipitation varies significantly from year to year. For example, in the summer of 2018, only a quarter of the previous year's precipitation was recorded (100 mm compared to 400 mm). Future projections remain uncertain, but overall, an increase in annual precipitation is expected.
+	"chart.precipitationMm.infoDialog.description": `So far, no clear trend can be identified for annual and seasonal precipitation in Xhain. There are very strong fluctuations between years, particularly in terms of precipitation in summer. In the summer of 2018, for example, there was only a quarter of the precipitation (100mm) compared to the previous year (400mm). The projections for the future are also very uncertain in some cases, although an increase in precipitation is expected over the year as a whole.
+With regard to the number of heavy rainfall days, there is no clear trend so far, but the intensity of heavy rainfall events has increased over the last 30 years. 
 <br/>
-Regarding the number of heavy rainfall days, no clear trend has been observed yet. However, the intensity of heavy rainfall events has increased over the past 30 years. For example, severe rainfall events in June 2017 and July 2018 led to major flooding. If dry periods persist for a long time, the soil is less able to absorb rainwater. In the future, both the frequency and intensity of heavy rainfall events are expected to increase.`,
+For example, heavy rainfall events in June 2017 and July 2018 caused severe flooding. If it has been dry for a long time beforehand, the soil can also absorb the rain poorly. Both the frequency and intensity of heavy rainfall events are expected to increase in the future.`,
 
 	"chart.HBI.title": "Heat Affect Index (HAI)",
 	"chart.HBI.subtitle":

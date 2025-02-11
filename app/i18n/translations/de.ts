@@ -459,7 +459,7 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 	"consequences.title": "Wie wirkt sich der Klimawandel auf Xhain aus?",
 	"consequences.description":
 		"Bei der Analyse der Klimafolgen in Xhain wird zwischen den Klimaentwicklungen und der Betroffenheit unterschieden. Klimaentwicklungen beschreiben, wie sich das Klima bisher verändert hat und welche zukünftigen Veränderungen zu erwarten sind. Wie sich diese Klimaentwicklungen auswirken, also die Betroffenheit, hängt von soziodemografischen und umweltbezogenen Faktoren ab. Dazu gehört z.B. die Einwohner*innendichte, der Anteil vulnerabler Gruppen oder der Versiegelungsgrad.",
-	"consequences.subheading": "Wie verändert sich das Klima?",
+	"consequences.subheading": "Wie verändert sich das Klima in Xhain?",
 	/**
 	 * Current Projects page
 	 */
