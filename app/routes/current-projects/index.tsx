@@ -94,7 +94,7 @@ export default function Index() {
 							{i18n("currentProjects.subtitle")}
 						</p>
 					</div>
-					<div className="relative lg:static flex lg:w-1/2 justify-center mt-8 lg:mt-0">
+					<div className="relative lg:static flex lg:w-1/2 pl-5 lg:pl-0 justify-center mt-8 lg:mt-0">
 						<StackedImageCard />
 					</div>
 				</div>
