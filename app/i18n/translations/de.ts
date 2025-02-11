@@ -403,14 +403,20 @@ Projektionen für die Zukunft sind schwieriger zu ermitteln und hängen von den 
 <br/>
 Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeutigen Trend, jedoch hat die Intensität der Starkregenereignisse in den letzten 30 Jahren zugenommen. Beispielsweise sorgten Starkregenereignisse im Juni 2017 und Juli 2018 für schwere Überschwemmungen. Wenn es vorher lange Zeit trocken war, kann der Boden den Regen außerdem schlecht aufnehmen. Für die Zukunft ist sowohl mit einer Zunahme der Häufigkeit als auch der Intensität von Starkregenereignissen zu rechnen.`,
 
-	"chart.HBI.title": "Hitzebetroffenheitsindex (HBI)",
+	"chart.HBI.title": "Hitzebetroffenheitsindex",
 	"chart.HBI.subtitle":
 		"Kombination aus Oberflächentemperatur, Umweltsensivität, menschliche Sensivität",
 	"chart.HBI.description":
 		"Das sich verändernde Klima wirkt sich auf die Umwelt und die Menschen im Bezirk aus. Der Hitzebetroffenheitsindex (HBI) zeigt, welche Gebiete im Bezirk besonders von Hitze betroffen sind. Der HBI berücksichtigt nicht nur die Temperatur, sondern auch soziodemografische und umweltbezogene Faktoren in den Gebieten.",
 	"chart.HBI.infoDialog.sourceTitle": "Quelle:",
-	"chart.HBI.infoDialog.sourceLabel":
-		"Klimaanpassungskonzept Friedrichshain-Kreuzberg",
+	"chart.HBI.infoDialog.sourceLabel": `
+			<a
+				href="https://www.geodaten-fk.de/MeinXhain/Portal/?Map/layerIds=bezirksgrenze-wfs,umriss_fk,farbe,hitze-wms&visibility=true,true,true,true&transparency=0,0,0,10&Map/center=[393200,5818500]&Map/zoomLevel=3"
+				target="_blank"
+				rel="noopener noreferrer"	
+			>
+				Geoportal MeinXhain</a>,
+			Klimaanpassungskonzept Friedrichshain-Kreuzberg`,
 	"chart.HBI.infoDialog.learnMoreLink":
 		"/climate-concepts/#climate-adaptation-full",
 	"chart.HBI.infoDialog.description": `Der HBI wird durch folgende Indiktoren berechnet:`,
@@ -460,6 +466,8 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 	"consequences.description":
 		"Bei der Analyse der Klimafolgen in Xhain wird zwischen den Klimaentwicklungen und der Betroffenheit unterschieden. Klimaentwicklungen beschreiben, wie sich das Klima bisher verändert hat und welche zukünftigen Veränderungen zu erwarten sind. Wie sich diese Klimaentwicklungen auswirken, also die Betroffenheit, hängt von soziodemografischen und umweltbezogenen Faktoren ab. Dazu gehört z.B. die Einwohner*innendichte, der Anteil vulnerabler Gruppen oder der Versiegelungsgrad.",
 	"consequences.subheading": "Wie verändert sich das Klima in Xhain?",
+	"consequences.hbi.heading":
+		"Wie wirken sich die Klimabedingungen im Bezirk aus?",
 	/**
 	 * Current Projects page
 	 */

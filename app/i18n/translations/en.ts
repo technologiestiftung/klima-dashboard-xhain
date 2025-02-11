@@ -403,17 +403,23 @@ With regard to the number of heavy rainfall days, there is no clear trend so far
 <br/>
 For example, heavy rainfall events in June 2017 and July 2018 caused severe flooding. If it has been dry for a long time beforehand, the soil can also absorb the rain poorly. Both the frequency and intensity of heavy rainfall events are expected to increase in the future.`,
 
-	"chart.HBI.title": "Heat Affect Index (HAI)",
+	"chart.HBI.title": "Hitzebetroffenheitsindex",
 	"chart.HBI.subtitle":
 		"Combination of surface temperature, environmental and human sensitivity",
 	"chart.HBI.description":
-		"The changing climate has an impact on the environment and the people in the district. The heat affectedness index (HBI) shows which areas in the district are particularly affected by heat. The HBI takes into account not only the temperature, but also socio-demographic and environmental factors in the areas.",
+		"The changing climate has an impact on the environment and the people in Friedrichshain-Kreuzberg. The 'Hitzebetroffenheitsindex' (HBI) (engl: heat impact index) shows which areas in the district are particularly affected by heat. The HBI takes into account not only the temperature, but also socio-demographic and environmental factors in the areas.",
 	"chart.HBI.infoDialog.sourceTitle": "Source:",
-	"chart.HBI.infoDialog.sourceLabel":
-		"Climate Adaptation Concept Friedrichshain-Kreuzberg",
+	"chart.HBI.infoDialog.sourceLabel": `
+	<a
+		href="https://www.geodaten-fk.de/MeinXhain/Portal/?Map/layerIds=bezirksgrenze-wfs,umriss_fk,farbe,hitze-wms&visibility=true,true,true,true&transparency=0,0,0,10&Map/center=[393200,5818500]&Map/zoomLevel=3"
+		target="_blank"
+		rel="noopener noreferrer"	
+	>
+		Geoportal MeinXhain</a>,
+	Climate Adaptation Concept Friedrichshain-Kreuzberg`,
 	"chart.HBI.infoDialog.learnMoreLink":
 		"/climate-concepts/#climate-adaptation-full",
-	"chart.HBI.infoDialog.description": `The HBI is calculated using the following indicators:`,
+	"chart.HBI.infoDialog.description": `Indicators of the heat impact index (HBI):`,
 
 	"chart.HBI.infoDialog.factors.title": "Hitzebetroffenheitsindex",
 
@@ -464,6 +470,7 @@ For example, heavy rainfall events in June 2017 and July 2018 caused severe floo
 	"consequences.description":
 		"When analyzing climate impacts in Xhain, a distinction is made between climate trends and the extent to which people are affected. Climate trends describe how the climate has changed so far and what future changes are to be expected. The impact of these climate developments, i.e. the degree to which they are affected, depends on socio-demographic and environmental factors. These include, for example, population density, the proportion of vulnerable groups or the degree of sealing.",
 	"consequences.subheading": "How is the climate changing?",
+	"consequences.hbi.heading": "What are climate impacts in Xhain?",
 
 	/**
 	 * Current Projects page
