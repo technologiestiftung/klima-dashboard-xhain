@@ -46,7 +46,19 @@
 	}
 
 	.dialog-description ul {
-		@apply py-4 pl-2;
+		@apply py-3 pl-6 list-disc;
+
+		li {
+			@apply list-disc;
+		}
+	}
+
+	.dialog-description li {
+		@apply mb-1.5 list-disc;
+	}
+
+	.dialog-description ol {
+		@apply pl-8;
 	}
 
 	.hero-section {

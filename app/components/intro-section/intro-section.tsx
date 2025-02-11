@@ -36,6 +36,12 @@ export const IntroSection: React.FC = () => {
 							__html: i18n("introSection.collaboration"),
 						}}
 					/>
+					<p
+						className="mb-4 text-base leading-6 lg:text-2xl lg:leading-8 font-normal"
+						dangerouslySetInnerHTML={{
+							__html: i18n("introSection.explanation"),
+						}}
+					/>
 				</>
 			)}
 			<button
