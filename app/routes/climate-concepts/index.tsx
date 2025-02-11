@@ -144,7 +144,7 @@ export default function Index() {
 											src={"/images/download-icon.svg"}
 											width={32}
 											height={32}
-											alt={""}
+											alt={"download icon"}
 										/>
 										<span className="flex flex-col">
 											<span className="font-bold">{i18n(label)}</span>

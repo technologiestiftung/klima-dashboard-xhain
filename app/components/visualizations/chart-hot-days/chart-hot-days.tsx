@@ -29,7 +29,11 @@ export function ChartHotDays() {
 			<div className="flex flex-col-reverse md:flex-row justify-between md:px-5 xl:px-20 h-fit items-center mt-5">
 				<div className="flex w-[310px] min-h-64 content-start flex-wrap gap-2">
 					{flames.map((i) => (
-						<img key={i} src={"/images/flame-icon.svg"} alt={""} />
+						<img
+							key={i}
+							src={"/images/flame-icon.svg"}
+							alt={"Icon " + i18n("chart.hotDays.title")}
+						/>
 					))}
 				</div>
 
