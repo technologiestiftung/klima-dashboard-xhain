@@ -43,7 +43,7 @@ export default function Index() {
 						dangerouslySetInnerHTML={{ __html: i18n("about.actionCardTitle") }}
 					/>
 					<a
-						href={`mailto:${i18n("about.actionCardEmail")}`}
+						href={`mailto:${i18n("footer.cardCtaEmail")}`}
 						className="group rounded-full flex gap-2 w-fit px-2.5 py-1 border-2 border-white items-center text-sm leading-5 lg:text-base lg:leading-6 font-semibold focus-xhain-blue-80 hover:bg-white hover:text-xhain-blue-50"
 					>
 						<svg

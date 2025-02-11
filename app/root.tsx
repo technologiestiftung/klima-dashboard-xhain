@@ -10,15 +10,16 @@ import stylesheet from "./index.css?url";
 import { Header } from "~/components/header/header";
 import { Footer } from "~/components/footer/footer";
 import { useMenuStore } from "~/components/header/navigation/menu-store";
-import { ScrollToTop } from "~/components/scroll-to-top";
+import { getLanguage } from "~/i18n/i18n-utils";
 
 export const links = () => [{ rel: "stylesheet", href: stylesheet }];
 
 export function Layout({ children }: { children: React.ReactNode }) {
 	const { isMenuOpen } = useMenuStore();
+	const lang = getLanguage();
 
 	return (
-		<html lang="de">
+		<html lang={lang}>
 			<head>
 				<meta charSet="utf-8" />
 				<link rel="icon" type="image/svg+xml" href="/citylab.png" />
@@ -27,10 +28,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
 				<Links />
 			</head>
 			<body
-				className={`[&:has(dialog[open])]:overflow-hidden ${isMenuOpen ? "overflow-hidden lg:overflow-auto" : ""}`}
+				className={`${isMenuOpen ? "overflow-hidden lg:overflow-auto" : ""}`}
 			>
 				<Header />
-				<ScrollToTop />
 				<main>{children}</main>
 
 				<Footer />

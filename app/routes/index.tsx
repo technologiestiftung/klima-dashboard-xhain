@@ -115,7 +115,7 @@ export default function Index() {
 					))}
 				</div>
 				<h3 className="text-lg leading-7 lg:text-2xl lg:leading-8 font-bold mb-3 lg:mb-10 max-w-mobile desktop:max-w-8xl mx-auto w-full">
-					Wie wirken sich die Klimabedingungen im Bezirk aus?
+					{i18n("consequences.hbi.heading")}
 				</h3>
 				<HBIMap />
 			</section>

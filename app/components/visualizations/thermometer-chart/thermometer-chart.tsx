@@ -22,7 +22,7 @@ const ThermometerChart: React.FC<ThermometerChartProps> = ({ radioId }) => {
 	}));
 
 	return (
-		<div className="flex flex-col items-center justify-between">
+		<div className="flex flex-col items-center justify-between desktop:mt-5">
 			<div className="flex justify-center w-full overflow-hidden">
 				<ThermometerSVG
 					celsius={data[selectedIndex].celsius}

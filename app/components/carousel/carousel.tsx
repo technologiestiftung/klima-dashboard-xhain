@@ -72,7 +72,10 @@ export const Carousel: React.FC = () => {
 		},
 		{
 			intro: i18n("carousel.card5.intro"),
-			number: i18n("carousel.card5.number"),
+			number:
+				formatNumber(1.6, { toFixed: 1 }) +
+				" " +
+				i18n("carousel.card5..millionUnit"),
 			description: i18n("carousel.card5.description"),
 			image: "/images/bed-icon.svg",
 			hasToggle: false,

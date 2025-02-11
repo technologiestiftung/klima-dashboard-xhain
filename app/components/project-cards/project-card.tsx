@@ -34,6 +34,8 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
 				</p>
 				<Link
 					to={projectLink}
+					target="_blank"
+					rel="noopener noreferrer"
 					className="w-fit rounded-full py-2 px-3.5 text-lg leading-7 font-bold text-white bg-xhain-blue-50 focus-xhain-blue-80 hover:bg-xhain-blue-60"
 				>
 					{i18n("currentProjects.projectCardCtaLabel")}
