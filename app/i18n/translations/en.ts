@@ -544,7 +544,7 @@ Regarding the number of heavy rainfall days, no clear trend has been observed ye
 	"about.thirdSectionDescription":
 		"The four-member climate team of the organizational unit 'Climate and International Affairs' consists of two climate protection managers, a climate adaptation manager, and the climate commissioner. Together, they support the implementation of climate-effective measures. At the same time, they act as intermediaries and connect different stakeholder groups in the district when it comes to climate protection and adaptation. After all, climate protection and adaptation can only succeed together!",
 	"about.actionCardTitle": `Questions?<br/>Write to the Xhain climate team.`,
-	"about.actionCardEmail": "klima_und_internationales@ba-fk.berlin.de",
+	"about.actionCardEmail": "E-mail to the climate team",
 
 	/**
 	 * Imprint Page
@@ -564,8 +564,8 @@ Regarding the number of heavy rainfall days, no clear trend has been observed ye
 	"footer.cardHeading":
 		"Do you have any questions about the climate dashboard and the climate concepts?",
 	"footer.cardSubHeading": "write to us!",
-	"footer.cardCtaButtonText": "info@klimateam.de",
-	"footer.cardCtaEmail": "info@klimateam.de",
+	"footer.cardCtaButtonText": "E-mail to the climate team",
+	"footer.cardCtaEmail": "klima_und_internationales@ba-fk.berlin.de",
 	"footer.bezirksamtXhainAltText": "bezirksamt xhain logo",
 	"footer.imprint": "Imprint",
 	"footer.privacyPolicy": "Privacy Policy",
