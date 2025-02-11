@@ -269,6 +269,8 @@ Nicht nur für den Klimaschutz, sondern auch für die Luft- und die Lärmbelastu
 
 	"chart.restBudgetThgUntilYear.title": "Restbudget-Eimer",
 	"chart.restBudgetThgUntilYear.subtitle": "des 1,75 Grad Klimaziels",
+	"chart.restBudgetThgUntilYear.keys.year": "Jahr",
+	"chart.restBudgetThgUntilYear.keys.tons_co2": "CO2 Budget",
 	"chart.restBudgetThgUntilYear.unit": "Mio. Tonnen",
 	"chart.restBudgetThgUntilYear.remainingBudget":
 		"Verbleibendes CO2–Budget bis",
@@ -291,6 +293,10 @@ Um die Ziele von Paris lokal umzusetzen, wird der sogenannte Restbudget-Ansatz g
 	"chart.reductionPathScenario175Thg.title": "Reduktionspfad",
 	"chart.reductionPathScenario175Thg.subtitle":
 		"Klimaschutzszenario (1,75 Grad) in Tonnen THG",
+	"chart.reductionPathScenario175Thg.keys.year": "Jahr",
+	"chart.reductionPathScenario175Thg.keys.goal_berlin_tons": "Ziel Land Berlin",
+	"chart.reductionPathScenario175Thg.keys.model_xhain_tons":
+		"Modellberechnung Xhain",
 	"chart.reductionPathScenario175Thg.legend.model": "Modellberechnung Xhain",
 	"chart.reductionPathScenario175Thg.legend.goal": "Ziel Land Berlin",
 	"chart.reductionPathScenario175Thg.description":
@@ -311,6 +317,8 @@ Die Grafik verdeutlicht, wie wichtig es ist, möglichst schnell in die Phase der
 	"chart.hotDays.keys.current": "Heute",
 	"chart.hotDays.keys.1950": "1950er",
 	"chart.hotDays.keys.2100": "Zukunft",
+	"chart.hotDays.keys.time": "Zeit",
+	"chart.hotDays.keys.days": "Heiße Tage",
 	"chart.hotDays.infoDialog.sourceTitle": "Quelle:",
 	"chart.hotDays.infoDialog.sourceLabel": `
 			<a
@@ -336,6 +344,8 @@ Projektionen für die Zukunft sind schwieriger zu ermitteln und hängen von den 
 
 	"chart.mediumTemperature.title": "Mittlere Jahrestemperatur",
 	"chart.mediumTemperature.subtitle": "in Friedrichshain-Kreuzberg nach Phasen",
+	"chart.mediumTemperature.keys.time": "Zeit",
+	"chart.mediumTemperature.keys.celsius": "Temperatur in °C",
 	"chart.mediumTemperature.description":
 		"Die mittlere Jahrestemperatur bezieht sich auf den Durchschnittswert der Temperaturen über einen Zeitraum von 10 Jahren.",
 	"chart.mediumTemperature.current": "Heute",
@@ -365,6 +375,8 @@ Projektionen für die Zukunft sind schwieriger zu ermitteln und hängen von den 
 
 	"chart.precipitationMm.title": "Niederschläge",
 	"chart.precipitationMm.subtitle": "in Milliliter",
+	"chart.precipitationMm.keys.year": "Jahr",
+	"chart.precipitationMm.keys.rain": "Regen in Millimeter",
 	"chart.precipitationMm.description":
 		"Beim jährlichen und saisonalen Niederschlag sowie bei der Anzahl der Starkregentage ist in Xhain bisher kein eindeutiger Trend zu erkennen.",
 	"chart.precipitationMm.infoDialog.sourceTitle": "Quelle:",

@@ -267,8 +267,10 @@ Further efforts to reduce transport emissions are crucial—not only for climate
 <b>The goal is to reduce and electrify motorized individual transport while strengthening sustainable mobility options.</b>`,
 
 	"chart.restBudgetThgUntilYear.title": "Restbudget-Bucket",
-	"chart.restBudgetThgUntilYear.subtitle": "of the 1,75 degree target",
-	"chart.restBudgetThgUntilYear.unit": "Mio. tons",
+	"chart.restBudgetThgUntilYear.subtitle": "of the 1.75 degree target",
+	"chart.restBudgetThgUntilYear.keys.year": "Year",
+	"chart.restBudgetThgUntilYear.keys.tons_co2": "CO2 budget",
+	"chart.restBudgetThgUntilYear.unit": "M. tons",
 	"chart.restBudgetThgUntilYear.remainingBudget": "Remaining budget until",
 	"chart.restBudgetThgUntilYear.text": `The remaining budget approach is used to implement the Paris targets locally.
 	
@@ -287,6 +289,10 @@ To implement the Paris targets locally, the so-called remaining budget approach 
 	"chart.reductionPathScenario175Thg.title": "Reduction path",
 	"chart.reductionPathScenario175Thg.subtitle":
 		"Climate protection scenario (1.75 degrees) in tons of CO2 equivalent",
+	"chart.reductionPathScenario175Thg.keys.year": "Year",
+	"chart.reductionPathScenario175Thg.keys.goal_berlin_tons": "Goal Berlin",
+	"chart.reductionPathScenario175Thg.keys.model_xhain_tons":
+		"Model calculation Xhain",
 	"chart.reductionPathScenario175Thg.legend.model": "Model Xhain",
 	"chart.reductionPathScenario175Thg.legend.goal": "Ziel Land Berlin",
 	"chart.reductionPathScenario175Thg.description":
@@ -307,6 +313,8 @@ The graph illustrates how crucial it is to enter the phase of strong reduction a
 	"chart.hotDays.keys.current": "Today",
 	"chart.hotDays.keys.1950": "1950s",
 	"chart.hotDays.keys.2100": "Future",
+	"chart.hotDays.keys.time": "Time",
+	"chart.hotDays.keys.days": "Hot days",
 	"chart.hotDays.infoDialog.sourceTitle": "Source:",
 	"chart.hotDays.infoDialog.sourceLabel": `<a
 				href="https://dwd.de"
@@ -331,6 +339,8 @@ Future projections are more difficult to determine and depend on climate protect
 
 	"chart.mediumTemperature.title": "Average annual temperature",
 	"chart.mediumTemperature.subtitle": "in Friedrichshain-Kreuzberg by phases",
+	"chart.mediumTemperature.keys.time": "Zeit",
+	"chart.mediumTemperature.keys.celsius": "Temperatur in °C",
 	"chart.mediumTemperature.description":
 		"The mean annual temperature refers to the average value of temperatures over a period of 10 years.",
 	"chart.mediumTemperature.current": "Current",
@@ -360,6 +370,8 @@ Future projections are more difficult to determine and depend on climate protect
 
 	"chart.precipitationMm.title": "Precipitation",
 	"chart.precipitationMm.subtitle": "in milliliters",
+	"chart.precipitationMm.keys.year": "Year",
+	"chart.precipitationMm.keys.rain": "Rainfall in milimeters",
 	"chart.precipitationMm.description":
 		"There is no clear trend in annual and seasonal precipitation or in the number of days with heavy rainfall in Xhain.",
 	"chart.precipitationMm.infoDialog.sourceTitle": "Source:",
