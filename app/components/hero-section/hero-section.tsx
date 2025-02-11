@@ -13,9 +13,6 @@ export const HeroSection: React.FC = () => {
 					<h1 className="w-full mb-4 md:mb-7 text-2xl leading-8 font-bold md:text-5xl xl:text-6xl 2xl:text-7xl md:leading-none :font-semibold">
 						{i18n("heroSection.heading")}
 					</h1>
-					<p className="text-base leading-6 font-normal md:text-2xl xl:text-3xl 2xl:text-3xl md:leading-9">
-						{i18n("heroSection.subheading")}
-					</p>
 				</div>
 			</div>
 			<div className="flex flex-col w-full h-full py-6 px-4 lg:px-20 items-center justify-between bg-xhain-blue-20">

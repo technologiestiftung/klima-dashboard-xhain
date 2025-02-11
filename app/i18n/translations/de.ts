@@ -4,10 +4,10 @@ export const de = {
 	/**
 	 * Hero Section
 	 */
-	"heroSection.eyebrowText": "Klimadashboard",
-	"heroSection.heading": "Klimawandel in Friedrichshain-Kreuzberg",
-	"heroSection.subheading":
-		"Zahlen, Fakten, Handlungsbedarf – für ein lebenswertes Xhain",
+	"heroSection.eyebrowText": "Klimawandel in Friedrichshain-Kreuzberg",
+	"heroSection.heading":
+		"Zahlen, Fakten, Handlungsbedarf - für ein lebenswertes Xhain",
+	"heroSection.subheading": "",
 	"heroSection.mediumTemperature.averageTempText": "Mittlere Jahrestemperatur",
 	"heroSection.mediumTemperature.locationText":
 		"in Friedrichshain-Kreuzberg nach Phasen",
@@ -35,10 +35,10 @@ export const de = {
 	 * Intro Section
 	 */
 	"introSection.overview":
-		"Das Klimadashboard gibt einen Einblick in aktuelle Klimadaten und Klimaktivitäten in Friedrichshain-Kreuzberg.<br/><br/>Es beantwortet Fragen wie",
+		"Das Klimadashboard gibt einen Einblick in aktuelle Klimadaten und Klimaktivitäten in Friedrichshain-Kreuzberg.<br/><br/>",
 	"introSection.keyQuestion1": "Wo entstehen Treibhausgasemissionen in Xhain?",
 	"introSection.keyQuestion2":
-		"Welchen Beitrag leistet der Bezirk bisher auf dem Weg zur Klimaneutralität in Berlin?",
+		"Wo stehen wir als Bezirk bisher auf dem Weg zur Klimaneutralität in Berlin?",
 	"introSection.keyQuestion3":
 		"Und wo zeigen sich die Folgen des Klimawandels im Bezirk schon jetzt?",
 	"introSection.dataBasis": `
@@ -47,9 +47,10 @@ export const de = {
 	  Planungs- und Entscheidungsgrundlage politisch beschlossen.</br></br>
 	`,
 	"introSection.collaboration": `
-	  Entwickelt wurde das Dashboard in enger Zusammenarbeit zwischen dem Klimateam 
-	  Friedrichshain-Kreuzberg und dem <a href='https://citylab-berlin.org/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>CityLAB Berlin.</a></br></br>
+	  Entwickelt wurde das Klimadashboard in enger Zusammenarbeit zwischen dem Klimateam Friedrichshain-Kreuzberg und dem <a href='https://citylab-berlin.org/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>CityLAB Berlin</a>.</br></br>
 	`,
+	"introSection.explanation":
+		"Während Klimaschutz darauf abzielt, Treibhausgasemissionen zu reduzieren und so das Ausmaß des Klimawandels zu begrenzen, liegt der Fokus bei Klimaanpassung darauf, uns an die bisherigen und zu erwartenden Folgen des Klimawandels, wie zunehmende Hitze und Starkregen, anzupassen.",
 	"introSection.showLess": "weniger anzeigen",
 	"introSection.showMore": "mehr anzeigen",
 	"introSection.expandedAltText": "Abschnitt einklappen",
@@ -84,20 +85,20 @@ export const de = {
 	"carousel.card1.source": "Statistik Berlin-B. 2024",
 
 	"carousel.card2.intro": "Auf einen km² leben",
-	"carousel.card2.description": "Menschen",
+	"carousel.card2.description": "Menschen in",
 	"carousel.card2.source": "Statistik Berlin-B. 2024",
 
 	"carousel.card3.intro": "",
 	"carousel.card3.description": "der Fläche ist versiegelt",
 	"carousel.card3.source": "Umweltatlas 2021",
 
-	"carousel.card4.intro": "",
-	"carousel.card4.description": "beträgt der Anteil der Verkehrsfläche in",
+	"carousel.card4.intro": "Der Anteil der Verkehrsfläche beträgt",
+	"carousel.card4.description": "",
 	"carousel.card4.source": "Statistik Berlin-B. 2023",
 
 	"carousel.card5.intro": "2023 übernachteten",
 	"carousel.card5.description":
-		"Gästinnen in 85 Beherbergungs-Betrieben des Bezirks",
+		"Gästi:nnen in 85 Beherbergungs-Betrieben des Bezirks",
 	"carousel.card5.source": "Berlin.de",
 	"carousel.card5..millionUnit": "Mio.",
 

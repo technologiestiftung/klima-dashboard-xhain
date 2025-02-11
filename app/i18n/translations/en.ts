@@ -6,10 +6,10 @@ export const en: typeof de = {
 	/**
 	 * Hero Section
 	 */
-	"heroSection.eyebrowText": "Climate dashboard",
-	"heroSection.heading": "Climate change in Friedrichshain-Kreuzberg",
-	"heroSection.subheading":
-		"Figures, facts, need for action - for a desirable Xhain",
+	"heroSection.eyebrowText": "Climate change in Xhain",
+	"heroSection.heading":
+		"Figures, facts and actions needed - towards a livable Xhain",
+	"heroSection.subheading": "",
 	"heroSection.mediumTemperature.averageTempText": "Average annual temperature",
 	"heroSection.mediumTemperature.locationText":
 		"in Friedrichshain-Kreuzberg by phases",
@@ -37,21 +37,22 @@ export const en: typeof de = {
 	 * Intro Section
 	 */
 	"introSection.overview":
-		"The Climate Dashboard provides insights into current climate data and climate activities in Friedrichshain-Kreuzberg.<br/><br/>It answers questions such as",
+		"The climate dashboard provides an insight into current climate data and climate measures in Friedrichshain-Kreuzberg.<br/><br/>",
 	"introSection.keyQuestion1":
 		"Where do greenhouse gas emissions occur in Xhain?",
 	"introSection.keyQuestion2":
-		"What contribution has the district made so far on the path to climate neutrality in Berlin?",
+		"Where are we as a district on the road to climate neutrality in Berlin?",
 	"introSection.keyQuestion3":
-		"And where are the effects of climate change already visible in the district?",
+		"And where are the impacts of climate change already evident in the district?",
 	"introSection.dataBasis": `
     The basis for this is the analyses from the <a href='https://klima-dashboard-xhain.vercel.app/en/climate-concepts/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>climate protection and climate adaptation concepts.</a>  
     These two concepts were developed by the <a href='https://klima-dashboard-xhain.vercel.app/en/about/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>climate team</a> and politically adopted in December 2024 as a planning and decision-making basis.</br></br>
 `,
 	"introSection.collaboration": `
-    The dashboard was developed in close collaboration between the climate team  
-    Friedrichshain-Kreuzberg and <a href='https://citylab-berlin.org/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>CityLAB Berlin.</a></br></br>
+	The climate dashboard has been developed in close cooperation between the Friedrichshain-Kreuzberg climate team and <a href='https://citylab-berlin.org/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>CityLAB Berlin</a>.</br></br>
 `,
+	"introSection.explanation":
+		"While climate mitigation aims to reduce greenhouse gas emissions and thus limit the extent of climate change, climate adaptation focusses on adapting to the current and expected impacts of climate change, such as increasing heat and heavy rainfall.",
 	"introSection.showLess": "show less",
 	"introSection.showMore": "show more",
 	"introSection.expandedAltText": "Collapse section",
@@ -85,20 +86,20 @@ export const en: typeof de = {
 	"carousel.card1.source": "Statistics Berlin-Brandenburg 2024",
 
 	"carousel.card2.intro": "",
-	"carousel.card2.description": "people live within one km²",
+	"carousel.card2.description": "people live within one square kilometer",
 	"carousel.card2.source": "Statistics Berlin-Brandenburg 2024",
 
 	"carousel.card3.intro": "",
 	"carousel.card3.description": "of the area is sealed",
 	"carousel.card3.source": "Environmental Atlas 2021",
 
-	"carousel.card4.intro": "",
-	"carousel.card4.description": "is the share of traffic area in",
+	"carousel.card4.intro": "The share of traffic area is",
+	"carousel.card4.description": "",
 	"carousel.card4.source": "Statistics Berlin-Brandenburg 2023",
 
 	"carousel.card5.intro": "In 2023",
 	"carousel.card5.description":
-		"guests stayed overnight in 85 accommodations in the district",
+		"guests stayed in 85 tourist accomodations in Xhain.",
 	"carousel.card5.source": "Berlin.de",
 	"carousel.card5..millionUnit": "M.",
 
