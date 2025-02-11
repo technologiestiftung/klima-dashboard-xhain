@@ -13,7 +13,7 @@ export const StackedImageCard = () => {
 				className={`relative rounded-10px lg:rounded-15px rotate-[3.332deg] ${dimensions.base} ${dimensions.lg} bg-xhain-blue-40`}
 			/>
 			<div
-				className={`absolute top-6 -left-6 lg:top-10 lg:-left-10 rounded-10px lg:rounded-15px ${dimensions.base} ${dimensions.lg} bg-xhain-blue-80 z-10`}
+				className={`absolute top-6 -left-5 lg:top-10 lg:-left-10 rounded-10px lg:rounded-15px ${dimensions.base} ${dimensions.lg} bg-xhain-blue-80 z-10`}
 			>
 				<img
 					src="/images/project-images/RZ_Headerbild_Desktop_klein.webp"
