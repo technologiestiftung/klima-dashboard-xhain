@@ -10,14 +10,16 @@ import stylesheet from "./index.css?url";
 import { Header } from "~/components/header/header";
 import { Footer } from "~/components/footer/footer";
 import { useMenuStore } from "~/components/header/navigation/menu-store";
+import { getLanguage } from "~/i18n/i18n-utils";
 
 export const links = () => [{ rel: "stylesheet", href: stylesheet }];
 
 export function Layout({ children }: { children: React.ReactNode }) {
 	const { isMenuOpen } = useMenuStore();
+	const lang = getLanguage();
 
 	return (
-		<html lang="de">
+		<html lang={lang}>
 			<head>
 				<meta charSet="utf-8" />
 				<link rel="icon" type="image/svg+xml" href="/citylab.png" />
