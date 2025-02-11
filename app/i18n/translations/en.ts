@@ -32,6 +32,7 @@ export const en: typeof de = {
 	"weatherCard.icon.snow": "Snow",
 	"weatherCard.icon.hail": "Hail",
 	"weatherCard.icon.thunderstorm": "Thunderstorm",
+	"weatherCard.alert.alt": "Weather warning",
 
 	/**
 	 * Intro Section

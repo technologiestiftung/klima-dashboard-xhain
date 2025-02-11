@@ -30,6 +30,7 @@ export const de = {
 	"weatherCard.icon.snow": "Schnee",
 	"weatherCard.icon.hail": "Hagel",
 	"weatherCard.icon.thunderstorm": "Gewitter",
+	"weatherCard.alert.alt": "Wetterwarnung",
 
 	/**
 	 * Intro Section
@@ -418,7 +419,6 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 	"chart.HBI.title": "Hitzebetroffenheitsindex",
 	"chart.HBI.subtitle":
 		"Kombination aus Oberflächentemperatur, Umweltsensivität, menschliche Sensivität",
-	"chart.HBI.keys.area": "Gebiet",
 	"chart.HBI.description":
 		"Das sich verändernde Klima wirkt sich auf die Umwelt und die Menschen im Bezirk aus. Der Hitzebetroffenheitsindex (HBI) zeigt, welche Gebiete im Bezirk besonders von Hitze betroffen sind. Der HBI berücksichtigt nicht nur die Temperatur, sondern auch soziodemografische und umweltbezogene Faktoren in den Gebieten.",
 	"chart.HBI.infoDialog.sourceTitle": "Quelle:",
