@@ -606,10 +606,10 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 	"climateConcepts.intro.p2":
 		"Sie zeigen klare Strategien und Maßnahmen auf, um klimaneutral zu werden und gleichzeitig die Lebensqualität der Menschen zu sichern. Hier bieten wir euch die Möglichkeit, die Konzepte vollständig herunterzuladen und im Detail nachzulesen.",
 	"climateConcepts.intro.p3":
-		"Während Klimaschutz darauf abzielt, Treibhausgasemissionen zu reduzieren und so das Ausmaß des Klimawandels zu begrenzen, liegt der Fokus bei Klimaanpassung darauf, uns an die bisherigen und zu erwartenden Folgen des Klimawandels, wie zunehmende Hitze und Starkregen, anzupassen.x",
+		"Während Klimaschutz darauf abzielt, Treibhausgasemissionen zu reduzieren und so das Ausmaß des Klimawandels zu begrenzen, liegt der Fokus bei Klimaanpassung darauf, uns an die bisherigen und zu erwartenden Folgen des Klimawandels, wie zunehmende Hitze und Starkregen, anzupassen.",
 	"climateConcepts.protectionConcept.h2": "Klimaschutzkonzept",
 	"climateConcepts.protectionConcept.p":
-		"Das Klimaschutzkonzept analysiert Energieverbräuche und Emissionen im Bezirk, definiert darauf basierend Klimaschutzziele und Maßnahmen, und besteht aus einem Hauptdokument sowie vier Teilkonzepten zu zentralen Handlungsfeldern, entwickelt mit Förderung der Nationalen Klimaschutzinitiative.",
+		"Das Klimaschutzkonzept analysiert Energieverbräuche und Emissionen im Bezirk, definiert darauf basierend Klimaschutzziele und Maßnahmen, und besteht aus einem Hauptdokument sowie vier Teilkonzepten zu zentralen Handlungsfeldern. Das Klimaschutzkonzept wurde im Rahmen einer Förderung durch die Nationale Klimaschutzinitiative (NKI) vom BMWK erstellt.",
 	"climateConcepts.protectionConcept.a.1.label":
 		"Langfassung Klimaschutzkonzept",
 	"climateConcepts.protectionConcept.a.2.label": "Teilkonzept Mobilität",

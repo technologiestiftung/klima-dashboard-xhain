@@ -607,16 +607,16 @@ For example, heavy rainfall events in June 2017 and July 2018 caused severe floo
 	 */
 	"climateConcepts.title": "Climate Concepts",
 	"climateConcepts.intro.p1":
-		"The climate concepts of Friedrichshain-Kreuzberg serve as a central foundation for strategically advancing climate adaptation and climate protection in the district.",
+		"The climate concepts of Friedrichshain-Kreuzberg are the central basis to strategically advance climate mitigation and climate adaptation in the district.",
 	"climateConcepts.intro.p2":
-		"They outline clear strategies and measures to become climate-neutral while ensuring the quality of life for residents. Here, we offer you the opportunity to download the concepts in full and read them in detail.",
+		"They show clear strategies and measures to become climate-neutral and at the same time ensure people's quality of life. We offer you the opportunity to download the concepts in full and read them in detail. Unfortunately, they are only available in German.",
 	"climateConcepts.intro.p3":
 		"While climate protection aims to reduce greenhouse gas emissions and thus limit the extent of climate change, climate adaptation focuses on adjusting to the current and expected impacts of climate change, such as increasing heat and heavy rainfall.",
-	"climateConcepts.protectionConcept.h2": "Climate Protection Concept",
+	"climateConcepts.protectionConcept.h2": "Climate mitigation strategy",
 	"climateConcepts.protectionConcept.p":
-		"The climate protection concept analyzes energy consumption and emissions in the district, defines climate protection goals and measures based on this analysis, and consists of a main document as well as four sub-concepts covering key action areas, developed with funding from the National Climate Protection Initiative.",
+		"The climate mitigation concept analyses energy consumption and emissions in the district, defines climate mitigation targets and measures based on this, and consists of a main document and four sub-concepts on key fields of action. The climate mitigation concept was funded by the Federal Ministry for Economic Affairs and Climate Action as part of the National Climate Initiative (NKI).",
 	"climateConcepts.protectionConcept.a.1.label":
-		"Full Version of the Climate Protection Concept (German)",
+		"Full Version of the Climate mitigation strategy (German)",
 	"climateConcepts.protectionConcept.a.2.label":
 		"Sub-Concept: Mobility (German)",
 	"climateConcepts.protectionConcept.a.3.label":
@@ -626,12 +626,12 @@ For example, heavy rainfall events in June 2017 and July 2018 caused severe floo
 	"climateConcepts.protectionConcept.a.5.label":
 		"Sub-Concept: Consumption and Society (German)",
 	"climateConcepts.protectionConcept.a.6.label":
-		"Summary of the Climate Protection Concept (German)",
-	"climateConcepts.adaptionConcept.h2": "Climate Adaptation Concept",
+		"Summary of the Climate mitigration strategy (German)",
+	"climateConcepts.adaptionConcept.h2": "Climate adaptation strategy",
 	"climateConcepts.adaptionConcept.p":
-		"The climate adaptation concept analyzes the impacts of climate change in the district, outlines goals and measures, and includes a main document as well as four sub-concepts covering key action areas. The climate adaptation concept was developed with funding from the BMUV.",
+		"The climate adaptation concept analyses the consequences of climate change in the district and presents objectives and measures. It comprises a main document and four sub-concepts on key fields of action. The climate adaptation concept has been funded by the Federal Ministry for the Environment, Nature Conservation, Nuclear Safety and Consumer Protection.",
 	"climateConcepts.adaptionConcept.a.1.label":
-		"Full Version of the Climate Adaptation Concept (German)",
+		"Full Version of the Climate adaptation strategy (German)",
 	"climateConcepts.adaptionConcept.a.2.label":
 		"Sub-Concept: Buildings and Infrastructure (German)",
 	"climateConcepts.adaptionConcept.a.3.label":
@@ -640,7 +640,7 @@ For example, heavy rainfall events in June 2017 and July 2018 caused severe floo
 		"Sub-Concept: Urban Planning and Development (German)",
 	"climateConcepts.adaptionConcept.a.5.label": "Sub-Concept: Health (German)",
 	"climateConcepts.adaptionConcept.a.6.label":
-		"Summary of the Climate Adaptation Concept (German)",
+		"Summary of the Climate adaptation strategy (German)",
 	"climateConcepts.actionCard.title":
 		"Would you like to learn more about the climate concepts?",
 	"climateConcepts.actionCard.subtitle": "Visit the district’s website.",
