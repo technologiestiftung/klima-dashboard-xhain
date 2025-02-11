@@ -451,6 +451,8 @@ Regarding the number of heavy rainfall days, no clear trend has been observed ye
 	"currentProjects.title": "Current projects",
 	"currentProjects.subtitle": "in Friedrichshain-Kreuzberg",
 	"currentProjects.featureImageSource": "Image: Kareen Kittelmann",
+	"currentProjects.featureImageAltText":
+		"A person walking with a bicycle on a partially closed street, surrounded by construction barriers and greenery.",
 	"currentProjects.projectCardCtaLabel": "To project",
 	"currentProjects.greenCardTitle":
 		"Advancing Climate Protection Projects Together",

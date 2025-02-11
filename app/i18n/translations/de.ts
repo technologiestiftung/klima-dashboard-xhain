@@ -451,6 +451,8 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 	"currentProjects.title": "Aktuelle Projekte",
 	"currentProjects.subtitle": "in Friedrichshain-Kreuzberg",
 	"currentProjects.featureImageSource": "Bild: Kareen Kittelmann",
+	"currentProjects.featureImageAltText":
+		"Eine Person läuft mit einem Fahrrad auf einer teilweise gesperrten Straße, umgeben von Bauabsperrungen und Grünanlagen.",
 	"currentProjects.projectCardCtaLabel": "Zum Projekt",
 	"currentProjects.greenCardTitle":
 		"Gemeinsam Klimaschutzprojekte voranbringen",

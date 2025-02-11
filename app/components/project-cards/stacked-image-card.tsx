@@ -16,9 +16,9 @@ export const StackedImageCard = () => {
 				className={`absolute top-6 -left-6 lg:top-10 lg:-left-10 rounded-10px lg:rounded-15px ${dimensions.base} ${dimensions.lg} bg-xhain-blue-80 z-10`}
 			>
 				<img
-					src="/images/project-images/project-image1.png"
-					className="relative"
-					alt={i18n("currentProjects.project2.imageAltText")}
+					src="/images/project-images/RZ_Headerbild_Desktop_klein.webp"
+					className="relative rounded-10px"
+					alt={i18n("currentProjects.featureImageAltText")}
 				/>
 				<div className="absolute top-5 left-5 lg:top-6 lg:left-6">
 					<SmallTooltip isDark>
