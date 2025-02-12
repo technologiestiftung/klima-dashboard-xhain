@@ -144,7 +144,7 @@ export default function Index() {
 											src={"/images/download-icon.svg"}
 											width={32}
 											height={32}
-											alt={""}
+											alt={i18n("climateConcepts.download.alt")}
 										/>
 										<span className="flex flex-col">
 											<span className="font-bold">{i18n(label)}</span>

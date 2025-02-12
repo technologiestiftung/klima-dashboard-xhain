@@ -116,7 +116,10 @@ export function BarChartModalSplit() {
 			>
 				{currentData.map(({ sector, percentage }) => (
 					<div key={sector} className="flex w-full items-center gap-x-8">
-						<img src={styles[sector].icon} alt={""} />
+						<img
+							src={styles[sector].icon}
+							alt={`${i18n("icon.alt")} ${i18n(`chart.modalSplit2018.legend.${sector}`)}`}
+						/>
 						<div className="w-full flex flex-col">
 							<div className="flex w-full gap-x-2.5">
 								<div

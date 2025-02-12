@@ -75,7 +75,10 @@ const WeatherCard: React.FC = () => {
 
 					{alert && (
 						<div className="font-bold px-[5px] py-1 bg-xhain-red-80 text-white rounded-5px w-fit flex items-center gap-x-2 mt-3">
-							<img src={"/images/warning-icon.svg"} alt={""} />
+							<img
+								src={"/images/warning-icon.svg"}
+								alt={i18n("weatherCard.alert.alt")}
+							/>
 							{alertInCurrentLang}
 						</div>
 					)}

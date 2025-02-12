@@ -32,6 +32,7 @@ export const en: typeof de = {
 	"weatherCard.icon.snow": "Snow",
 	"weatherCard.icon.hail": "Hail",
 	"weatherCard.icon.thunderstorm": "Thunderstorm",
+	"weatherCard.alert.alt": "Weather warning",
 
 	/**
 	 * Intro Section
@@ -282,6 +283,8 @@ The goal is to reduce and electrify motorized individual transport while strengt
 
 	"chart.restBudgetThgUntilYear.title": "Restbudget-Bucket",
 	"chart.restBudgetThgUntilYear.subtitle": "of the 1.75 degree target",
+	"chart.restBudgetThgUntilYear.keys.year": "Year",
+	"chart.restBudgetThgUntilYear.keys.tons_co2": "CO2 budget",
 	"chart.restBudgetThgUntilYear.unit": "M. tons",
 	"chart.restBudgetThgUntilYear.remainingBudget": "Remaining budget until",
 	"chart.restBudgetThgUntilYear.text": `Das verbleibende CO2-Budget Xhains beträgt insgesamt nur noch 12,2 Mio. Tonnen, um die Erderwärmung auf maximal 1,75° zu begrenzen.
@@ -303,6 +306,10 @@ To implement the Paris targets locally, the so-called remaining budget approach 
 	"chart.reductionPathScenario175Thg.title": "Reduction path",
 	"chart.reductionPathScenario175Thg.subtitle":
 		"Climate protection scenario (1.75 degrees) in tons of CO2 equivalent",
+	"chart.reductionPathScenario175Thg.keys.year": "Year",
+	"chart.reductionPathScenario175Thg.keys.goal_berlin_tons": "Goal Berlin",
+	"chart.reductionPathScenario175Thg.keys.model_xhain_tons":
+		"Model calculation Xhain",
 	"chart.reductionPathScenario175Thg.legend.model": "Model Xhain",
 	"chart.reductionPathScenario175Thg.legend.goal": "Ziel Land Berlin",
 	"chart.reductionPathScenario175Thg.description":
@@ -323,6 +330,8 @@ The graph illustrates how crucial it is to enter the phase of strong reduction a
 	"chart.hotDays.keys.current": "Today",
 	"chart.hotDays.keys.1950": "1950s",
 	"chart.hotDays.keys.2100": "Future",
+	"chart.hotDays.keys.time": "Time",
+	"chart.hotDays.keys.days": "Hot days",
 	"chart.hotDays.infoDialog.sourceTitle": "Source:",
 	"chart.hotDays.infoDialog.sourceLabel": `<a
 				href="https://dwd.de"
@@ -347,6 +356,8 @@ Projections for the future are more difficult to determine and depend on climate
 
 	"chart.mediumTemperature.title": "Average annual temperature",
 	"chart.mediumTemperature.subtitle": "in Friedrichshain-Kreuzberg by phases",
+	"chart.mediumTemperature.keys.time": "Zeit",
+	"chart.mediumTemperature.keys.celsius": "Temperatur in °C",
 	"chart.mediumTemperature.description":
 		"The mean annual temperature refers to the average temperature over a period of 10 years.",
 	"chart.mediumTemperature.current": "Current",
@@ -378,6 +389,8 @@ If greenhouse gas emissions continue to rise steadily (RCP 8.5 scenario), the av
 
 	"chart.precipitationMm.title": "Rainfall",
 	"chart.precipitationMm.subtitle": "in milliliters",
+	"chart.precipitationMm.keys.year": "Year",
+	"chart.precipitationMm.keys.rain": "Rainfall in milimeters",
 	"chart.precipitationMm.description":
 		"So far, there is no clear trend for annual and seasonal precipitation or the number of heavy rainfall days in Xhain.",
 	"chart.precipitationMm.infoDialog.sourceTitle": "Source:",
@@ -646,4 +659,7 @@ For example, heavy rainfall events in June 2017 and July 2018 caused severe floo
 		"Would you like to learn more about the climate concepts?",
 	"climateConcepts.actionCard.subtitle": "Visit the district’s website.",
 	"climateConcepts.actionCard.link.label": "Go to the Climate Team's Website",
+	"climateConcepts.download.alt": "Download PDF",
+
+	"icon.alt": "Icon",
 };

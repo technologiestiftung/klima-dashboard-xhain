@@ -129,7 +129,7 @@ const Card: React.FC<CardProps> = ({ id }) => {
 							hover:bg-xhain-blue-60 focus:outline focus:outline-3 focus:outline-xhain-blue-80 focus:outline-offset-5
 							`}
 					>
-						<img src={"/images/i-icon.svg"} alt={""} />
+						<img src={"/images/i-icon.svg"} alt="" />
 						{i18n("button.moreInfo")}
 					</button>
 					{description && (
