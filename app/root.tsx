@@ -11,12 +11,10 @@ import { Header } from "~/components/header/header";
 import { Footer } from "~/components/footer/footer";
 import { useMenuStore } from "~/components/header/navigation/menu-store";
 import { getLanguage } from "~/i18n/i18n-utils";
-import { useMatomoTracking } from "~/hooks/use-matomo-tracking";
 
 export const links = () => [{ rel: "stylesheet", href: stylesheet }];
 
 export function Layout({ children }: { children: React.ReactNode }) {
-	useMatomoTracking();
 	const { isMenuOpen } = useMenuStore();
 	const lang = getLanguage();
 
@@ -28,6 +26,25 @@ export function Layout({ children }: { children: React.ReactNode }) {
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<Meta />
 				<Links />
+				{/* <!-- Matomo --> */}
+				<script>
+					{`var _paq = (window._paq = window._paq || []);
+						/* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+						_paq.push(["trackPageView"]);
+						_paq.push(["enableLinkTracking"]);
+						(function () {
+						var u = "${import.meta.env.VITE_MATOMO_URL}";
+						_paq.push(["setTrackerUrl", u + "matomo.php"]);
+						_paq.push(["setSiteId", "${import.meta.env.VITE_MATOMO_SITE_ID}"]);
+						var d = document,
+						g = d.createElement("script"),
+						s = d.getElementsByTagName("script")[0];
+						g.async = true;
+						g.src = u + "matomo.js";
+						s.parentNode.insertBefore(g, s);
+					})();`}
+				</script>
+				{/* <!-- End Matomo Code --> */}
 			</head>
 			<body
 				className={`${isMenuOpen ? "overflow-hidden lg:overflow-auto" : ""}`}

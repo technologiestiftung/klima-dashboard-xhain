@@ -12,7 +12,5 @@ export function trackInteraction({
 	/**
 	 * Schema: ["trackEvent", "<event-category>", "<event-action>", "<event-name>"]
 	 */
-	// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-	// @ts-ignore
 	window._paq.push(["trackEvent", eventCategory, eventAction, eventName]);
 }
