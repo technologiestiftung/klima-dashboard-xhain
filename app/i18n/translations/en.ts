@@ -487,16 +487,16 @@ For example, heavy rainfall events in June 2017 and July 2018 caused severe floo
 	/**
 	 * Current Projects page
 	 */
-	"currentProjects.title": "Current projects",
+	"currentProjects.title": "Recent projects",
 	"currentProjects.subtitle": "in Friedrichshain-Kreuzberg",
 	"currentProjects.featureImageSource": "Image: Kareen Kittelmann",
 	"currentProjects.featureImageAltText":
 		"A person walking with a bicycle on a partially closed street, surrounded by construction barriers and greenery.",
 	"currentProjects.projectCardCtaLabel": "To project",
 	"currentProjects.greenCardTitle":
-		"Advancing Climate Protection Projects Together",
+		"Advancing climate-effective projects together",
 	"currentProjects.greenCardDescription":
-		"There are already many exciting projects and organizations on-site. Want to make a positive impact yourself? Here, you'll find projects and initiatives to get involved in!",
+		"There are already many exciting projects and organisations on the ground. Would you like to make a positive contribution yourself? Then you can find projects and initiatives to get involved in here!",
 	"currentProjects.greenCardCtaLabel": "Find suitable projects",
 	"currentProjects.greenCardCtaLink":
 		"https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/service-und-organisationseinheiten/klima-und-internationales/artikel.1408194.php",
@@ -570,7 +570,7 @@ For example, heavy rainfall events in June 2017 and July 2018 caused severe floo
 	"featureSection.title": "What is already happening in Xhain?",
 	"featureSection.description":
 		"In Xhain, numerous projects are already being implemented to address these challenges. Here, we give you an insight into some of the existing projects.",
-	"featureSection.cta": "Current projects",
+	"featureSection.cta": "Recent projects",
 
 	/**
 	 * About Page
