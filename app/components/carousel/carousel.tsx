@@ -4,6 +4,11 @@ import { CarouselCard } from "./carousel-card";
 
 const mod = (n: number, m: number) => ((n % m) + m) % m;
 
+const SCROLL_OPTIONS = {
+	behavior: "smooth",
+	block: "nearest",
+	inline: "start",
+} as const;
 interface CardContent {
 	intro: string;
 	number: string;
@@ -98,24 +103,45 @@ export const Carousel: React.FC = () => {
 		});
 	};
 
+	const isSmallDesktop =
+		typeof window !== "undefined" && window.innerWidth > 1060;
+	const isLargeDesktop = isSmallDesktop && window.innerWidth > 1800;
+
+	const cardCount = cardData.length;
+
+	const updateCardView = (index: number) => {
+		cardRefs.current[index]?.scrollIntoView(SCROLL_OPTIONS);
+		setCurrentCardIndex(index);
+	};
+
 	const goToNext = () => {
-		const nextCardIndex = mod(currentCardIndex + 1, cardData.length);
-		cardRefs.current[nextCardIndex]?.scrollIntoView({
-			behavior: "smooth",
-			block: "nearest",
-			inline: "start",
-		});
-		setCurrentCardIndex(nextCardIndex);
+		const nextIndex = mod(currentCardIndex + 1, cardCount);
+
+		// If on desktop and the next card is already in view, reset the index to 0.
+		const adjustedIndex =
+			(isLargeDesktop && nextIndex === cardCount - 2) ||
+			(isSmallDesktop && nextIndex === cardCount - 1)
+				? 0
+				: nextIndex;
+
+		updateCardView(adjustedIndex);
 	};
 
 	const goToPrevious = () => {
-		const previousCardIndex = mod(currentCardIndex - 1, cardData.length);
-		cardRefs.current[previousCardIndex]?.scrollIntoView({
-			behavior: "smooth",
-			block: "nearest",
-			inline: "start",
-		});
-		setCurrentCardIndex(previousCardIndex);
+		const prevIndex = mod(currentCardIndex - 1, cardCount);
+
+		// Check if we are are jumping from the first to the last card.
+		const isJumpingToLastCard = isSmallDesktop && prevIndex === cardCount - 1;
+
+		if (!isJumpingToLastCard) {
+			updateCardView(prevIndex);
+			return;
+		}
+
+		// On small desktop, jump to the second last card. On large desktop, jump to the third last card.
+		const adjustedIndex = isLargeDesktop ? cardCount - 3 : cardCount - 2;
+
+		updateCardView(adjustedIndex);
 	};
 
 	return (
