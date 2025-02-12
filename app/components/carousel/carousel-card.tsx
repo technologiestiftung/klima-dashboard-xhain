@@ -80,7 +80,7 @@ export const CarouselCard: React.FC<CarouselCardProps> = ({
 					<img
 						className="size-[86px] md:size-[220px]"
 						src={card.image}
-						alt={i18n("icon.alt") + card.description}
+						alt={`${i18n("icon.alt")} ${card.description}`}
 					/>
 				</div>
 			)}

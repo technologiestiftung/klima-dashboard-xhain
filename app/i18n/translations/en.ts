@@ -661,5 +661,5 @@ For example, heavy rainfall events in June 2017 and July 2018 caused severe floo
 	"climateConcepts.actionCard.link.label": "Go to the Climate Team's Website",
 	"climateConcepts.download.alt": "Download PDF",
 
-	"icon.alt": "Icon ",
+	"icon.alt": "Icon",
 };

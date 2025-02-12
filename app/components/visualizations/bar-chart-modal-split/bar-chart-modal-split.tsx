@@ -118,9 +118,7 @@ export function BarChartModalSplit() {
 					<div key={sector} className="flex w-full items-center gap-x-8">
 						<img
 							src={styles[sector].icon}
-							alt={
-								i18n("icon.alt") + i18n(`chart.modalSplit2018.legend.${sector}`)
-							}
+							alt={`${i18n("icon.alt")} ${i18n(`chart.modalSplit2018.legend.${sector}`)}`}
 						/>
 						<div className="w-full flex flex-col">
 							<div className="flex w-full gap-x-2.5">

@@ -657,5 +657,5 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 	"climateConcepts.actionCard.link.label": "Zur Website des Klimateams",
 	"climateConcepts.download.alt": "PDF Herunterladen",
 
-	"icon.alt": "Symbol ",
+	"icon.alt": "Symbol",
 };

@@ -32,7 +32,7 @@ export function ChartHotDays() {
 						<img
 							key={i}
 							src={"/images/flame-icon.svg"}
-							alt={i18n("icon.alt") + i18n("chart.hotDays.title")}
+							alt={`${i18n("icon.alt")} ${i18n("chart.hotDays.title")}`}
 						/>
 					))}
 				</div>
