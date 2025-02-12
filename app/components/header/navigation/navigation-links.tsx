@@ -48,9 +48,13 @@ export const NavigationLinks: React.FC = () => {
 			{/* cta button */}
 			<li>
 				<a
-					href={buildLocalizedLink("/act-now")}
+					href={
+						"https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/service-und-organisationseinheiten/klima-und-internationales/artikel.1527799.php"
+					}
 					onClick={closeMenu}
 					className="inline-block items-center p-2.5 lg:p-6 mt-9 lg:mt-0 bg-xhain-blue-50 text-white hover:bg-xhain-blue-60 focus-xhain-blue-80"
+					target="_blank"
+					rel="noopener noreferrer"
 				>
 					{i18n("header.cta")}
 				</a>
