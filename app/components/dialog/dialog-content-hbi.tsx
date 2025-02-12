@@ -20,7 +20,10 @@ export const DialogContentHBI: React.FC = () => {
 		},
 		{
 			title: i18n(`chart.HBI.infoDialog.factors.envSensitivity`),
-			content: ["Grünvolumen", "Versiegelung"],
+			content: [
+				i18n(`chart.HBI.infoDialog.factors.envSensitivity.greenvolume`),
+				i18n(`chart.HBI.infoDialog.factors.envSensitivity.sealing`),
+			],
 		},
 	];
 

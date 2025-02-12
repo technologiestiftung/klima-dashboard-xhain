@@ -360,7 +360,7 @@ Projections for the future are more difficult to determine and depend on climate
 	"chart.mediumTemperature.keys.celsius": "Temperatur in °C",
 	"chart.mediumTemperature.description":
 		"The mean annual temperature refers to the average temperature over a period of 10 years.",
-	"chart.mediumTemperature.current": "Current",
+	"chart.mediumTemperature.current": "Today",
 	"chart.mediumTemperature.1950": "1950s",
 	"chart.mediumTemperature.2100": "Future",
 	"chart.mediumTemperature.infoDialog.sourceTitle": "Source:",
@@ -416,7 +416,7 @@ With regard to the number of heavy rainfall days, there is no clear trend so far
 <br/>
 For example, heavy rainfall events in June 2017 and July 2018 caused severe flooding. If it has been dry for a long time beforehand, the soil can also absorb the rain poorly. Both the frequency and intensity of heavy rainfall events are expected to increase in the future.`,
 
-	"chart.HBI.title": "Hitzebetroffenheitsindex",
+	"chart.HBI.title": "Heat impact index",
 	"chart.HBI.subtitle":
 		"Combination of surface temperature, environmental and human sensitivity",
 	"chart.HBI.description":
@@ -434,7 +434,7 @@ For example, heavy rainfall events in June 2017 and July 2018 caused severe floo
 		"/climate-concepts/#climate-adaptation-full",
 	"chart.HBI.infoDialog.description": `Indicators of the heat impact index (HBI):`,
 
-	"chart.HBI.infoDialog.factors.title": "Hitzebetroffenheitsindex",
+	"chart.HBI.infoDialog.factors.title": "Heat impact index",
 
 	"chart.HBI.infoDialog.factors.exposition": "Exposition",
 	"chart.HBI.infoDialog.factors.exposition.temperature": "Temperature",
@@ -447,11 +447,10 @@ For example, heavy rainfall events in June 2017 and July 2018 caused severe floo
 	"chart.HBI.infoDialog.factors.humanSensitivity.workers": "Workers",
 	"chart.HBI.infoDialog.factors.humanSensitivity.socialIndex": "Social index",
 	"chart.HBI.infoDialog.factors.envSensitivity": "Environmental Sensitivity",
-	"chart.HBI.infoDialog.factors.envSensitivity.vegetation": "Vegetation",
+	"chart.HBI.infoDialog.factors.envSensitivity.greenvolume": "Green volume",
 	"chart.HBI.infoDialog.factors.envSensitivity.sealing": "Sealing",
 
-	"chart.HBI.legend.title":
-		"Betroffenheit bezogen auf den bezirklichen Durchschnitt",
+	"chart.HBI.legend.title": "Heat impact related to the district average",
 	"chart.HBI.legend.verylow": "very low",
 	"chart.HBI.legend.low": "low",
 	"chart.HBI.legend.medium": "middle",
@@ -488,75 +487,76 @@ For example, heavy rainfall events in June 2017 and July 2018 caused severe floo
 	/**
 	 * Current Projects page
 	 */
-	"currentProjects.title": "Current projects",
+	"currentProjects.title": "Recent projects",
 	"currentProjects.subtitle": "in Friedrichshain-Kreuzberg",
 	"currentProjects.featureImageSource": "Image: Kareen Kittelmann",
 	"currentProjects.featureImageAltText":
 		"A person walking with a bicycle on a partially closed street, surrounded by construction barriers and greenery.",
 	"currentProjects.projectCardCtaLabel": "To project",
 	"currentProjects.greenCardTitle":
-		"Advancing Climate Protection Projects Together",
+		"Advancing climate-effective projects together",
 	"currentProjects.greenCardDescription":
-		"There are already many exciting projects and organizations on-site. Want to make a positive impact yourself? Here, you'll find projects and initiatives to get involved in!",
+		"There are already many exciting projects and organisations on the ground. Would you like to make a positive contribution yourself? Then you can find projects and initiatives to get involved in here!",
 	"currentProjects.greenCardCtaLabel": "Find suitable projects",
 	"currentProjects.greenCardCtaLink":
 		"https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/service-und-organisationseinheiten/klima-und-internationales/artikel.1408194.php",
 	/**
 	 * projects
 	 */
-	"currentProjects.project1.title": "Depaving",
+	"currentProjects.project1.title": "Unsealing",
 	"currentProjects.project1.description":
-		"Depaving and greening courtyards can improve the microclimate and living quality while also promoting biodiversity. Tenants can receive up to 3,000 euros in funding for this. More than 100 people received consultations by phone or on-site from March to October 2024.",
+		"The many developed and asphalted areas in Xhain do not allow rainwater to seep through. However, some of these areas can be unsealed and made water-permeable. A map shows which areas in public spaces have been unsealed and planted in recent years.",
 	"currentProjects.project1.imageAltText": "Meadow with flowers",
 	"currentProjects.project1.link":
 		"https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/service-und-organisationseinheiten/klima-und-internationales/artikel.1429649.php",
 	"currentProjects.project1.imageSource": "Image: BAFK",
 
-	"currentProjects.project2.title": "Green Consultation",
+	"currentProjects.project2.title": "Yard greening programme",
 	"currentProjects.project2.description":
-		"Unfortunately, the many built-up and asphalted areas in Xhain do not allow rainwater to seep through. However, some of these areas can be depaved and made water-permeable. A map shows which public spaces have been depaved and planted in recent years.",
+		"Unsealing and greening inner courtyards can improve the microclimate and quality of living as well as promote the diversity of animals and plants. Tenants can receive up to 3,000 euros in funding for this. More than 100 people sought advice by phone or on site from March to October 2024.",
 	"currentProjects.project2.imageAltText": "Child playing",
 	"currentProjects.project2.link":
 		"https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/aemter/umwelt-und-naturschutzamt/umweltbildung/artikel.1043011.php#headline_1_5",
 	"currentProjects.project2.imageSource": "Image: Kareen Kittelmann",
 
-	"currentProjects.project3.title": "Parking Space Management",
+	"currentProjects.project3.title": "Parking space management",
 	"currentProjects.project3.description":
-		"Parking space management aims to make Xhain's street space more efficient, enable balanced use, and improve the quality of stay in the neighborhood. The district is pursuing the goal of comprehensive parking management, with 13 zones currently implemented.",
+		"The goal of parking space management in Xhain is to use street space in more efficient, enable balanced usage, and improve the quality of life in local neighborhoods. The district aims to expand the current 13 parking management zones to cover the entire district.",
 	"currentProjects.project3.imageAltText":
 		"Parking zone sign indicating Zone 37 regulations, with allowed hours.",
 	"currentProjects.project3.link":
 		"https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/aemter/strassen-und-gruenflaechenamt/strassen/mobilitaetswende/artikel.1282985.php",
 	"currentProjects.project3.imageSource": "Image: ",
 
-	"currentProjects.project4.title": "Cycling Infrastructure",
+	"currentProjects.project4.title": "Bicycle traffic",
 	"currentProjects.project4.description":
-		"Many residents of Xhain already use bicycles for their daily commutes. To further strengthen cycling, the district continues to expand its cycling infrastructure.",
+		"Many people in Xhain already use bicycles to get from A to B. To support this trend, Xhain continues to expand its cycling infrastructure.",
 	"currentProjects.project4.imageAltText":
 		"Person riding a cargo bike on a red bike lane",
 	"currentProjects.project4.link":
 		"https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/aemter/strassen-und-gruenflaechenamt/strassen/artikel.1496371.php",
 	"currentProjects.project4.imageSource": "Image: Kareen Kittelmann",
 
-	"currentProjects.project5.title": "Solar Expansion",
+	"currentProjects.project5.title": "PV-expansion on our own buildings",
 	"currentProjects.project5.description":
-		"To fully equip district buildings with solar panels, the district administration is working with Berliner Stadtwerke. As part of this cooperation, systems with a capacity of approximately 850 kWp were commissioned by the end of 2024. Additional installations are in planning and implementation.",
+		"To fully equip district-owned buildings with photovoltaic systems, the district office is collaborating with Berliner Stadtwerke. As part of this partnership, installations with a capacity of approximately 850 kWp have been commissioned by the end of 2024. Additional systems are currently in planning and implementation stages.",
 	"currentProjects.project5.imageAltText": "Close-up of a solar panel",
 	"currentProjects.project5.link":
 		"https://www.berlin.de/ba-friedrichshain-kreuzberg/aktuelles/pressemitteilungen/2025/pressemitteilung.1523939.php",
 	"currentProjects.project5.imageSource": "Image: pexels",
 
-	"currentProjects.project6.title": "Smart Heating Circuit Control",
+	"currentProjects.project6.title": "Smart heating",
 	"currentProjects.project6.description":
-		"Fifty district properties have already been equipped with the ovoTherm heating circuit control system, with more buildings to follow. This ensures that heating performance is precisely adjusted to actual usage needs, reducing energy consumption, CO2 emissions, and energy costs.",
+		"By installing the smart heating control system ovoTherm in the district buildings, the output of the respective heating system is adapted precisely to the actual demand. This reduces a building's heating energy consumption by around 20% and therefore also CO2 emissions and energy costs.",
 	"currentProjects.project6.imageAltText":
 		"A network of insulated pipes and valves with gauges and controls.",
-	"currentProjects.project6.link": "",
+	"currentProjects.project6.link":
+		"https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/service-und-organisationseinheiten/klima-und-internationales/artikel.1529241.php",
 	"currentProjects.project6.imageSource": "Image: valovo GmbH",
 
-	"currentProjects.project7.title": "Reusable Initiatives",
+	"currentProjects.project7.title": "Multi-use",
 	"currentProjects.project7.description":
-		"The vibrant life in Xhain presents challenges, as avoidable waste continues to burden the environment and climate. However, we are actively working toward becoming a zero-waste city. Reusable initiatives in gastronomy, weekly markets, and large events show that alternatives are possible.",
+		"The vibrant life in Xhain brings challenges with it, as avoidable waste is still being produced that harms the environment and climate. However, we are already actively working towards becoming a zero-waste city. Reusable initiatives in catering, at weekly markets and at major events show that alternatives are possible.",
 	"currentProjects.project7.imageAltText":
 		"Two cups with the inscriptions 'fair. kiez' and 'BOXI'",
 	"currentProjects.project7.link":
@@ -570,7 +570,7 @@ For example, heavy rainfall events in June 2017 and July 2018 caused severe floo
 	"featureSection.title": "What is already happening in Xhain?",
 	"featureSection.description":
 		"In Xhain, numerous projects are already being implemented to address these challenges. Here, we give you an insight into some of the existing projects.",
-	"featureSection.cta": "Current projects",
+	"featureSection.cta": "Recent projects",
 
 	/**
 	 * About Page
@@ -585,7 +585,7 @@ For example, heavy rainfall events in June 2017 and July 2018 caused severe floo
 	"about.thirdSectionTitle": "Who? The Xhain climate team",
 	"about.thirdSectionDescription": `The four-member climate team of the "Climate and International Affairs" unit consists of two climate mitigation managers, one climate adaptation manager, and the climate officer. Together, they support the implementation of climate-effective measures. At the same time, they facilitate communication and networking between various stakeholder groups in the district on matters related to climate mitigation and climate adaptation. After all, climate mitigation and climate adaptation can only succeed together!`,
 	"about.actionCardTitle": `Questions?<br/>Write to the Xhain climate team.`,
-	"about.actionCardEmail": "E-mail to the climate team",
+	"about.actionCardEmail": "E-mail the climate team",
 
 	/**
 	 * Imprint Page
@@ -604,8 +604,8 @@ For example, heavy rainfall events in June 2017 and July 2018 caused severe floo
 	 */
 	"footer.cardHeading":
 		"Do you have any questions about the climate dashboard and the climate concepts?",
-	"footer.cardSubHeading": "write to us!",
-	"footer.cardCtaButtonText": "E-mail to the climate team",
+	"footer.cardSubHeading": "write us!",
+	"footer.cardCtaButtonText": "E-mail the climate team",
 	"footer.cardCtaEmail": "klima_und_internationales@ba-fk.berlin.de",
 	"footer.bezirksamtXhainAltText": "bezirksamt xhain logo",
 	"footer.imprint": "Imprint",
