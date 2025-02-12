@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { i18n, formatNumber } from "~/i18n/i18n-utils";
 import { CarouselCard } from "./carousel-card";
 
@@ -104,9 +104,22 @@ export const Carousel: React.FC = () => {
 		});
 	};
 
-	const isSmallDesktop =
-		typeof window !== "undefined" && window.innerWidth > 1060;
-	const isLargeDesktop = isSmallDesktop && window.innerWidth > 1800;
+	const [isSmallDesktop, setIsSmallDesktop] = useState(
+		typeof window !== "undefined" && window.innerWidth > 1060,
+	);
+	const [isLargeDesktop, setIsLargeDesktop] = useState(
+		typeof window !== "undefined" && window.innerWidth > 1800,
+	);
+
+	useEffect(() => {
+		const handleResize = () => {
+			setIsSmallDesktop(window.innerWidth > 1060);
+			setIsLargeDesktop(window.innerWidth > 1800);
+		};
+
+		window.addEventListener("resize", handleResize);
+		return () => window.removeEventListener("resize", handleResize);
+	}, []);
 
 	const cardCount = cardData.length;
 
