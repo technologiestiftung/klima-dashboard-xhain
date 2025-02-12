@@ -11,10 +11,12 @@ import { Header } from "~/components/header/header";
 import { Footer } from "~/components/footer/footer";
 import { useMenuStore } from "~/components/header/navigation/menu-store";
 import { getLanguage } from "~/i18n/i18n-utils";
+import { useMatomoTracking } from "~/hooks/use-matomo-tracking";
 
 export const links = () => [{ rel: "stylesheet", href: stylesheet }];
 
 export function Layout({ children }: { children: React.ReactNode }) {
+	useMatomoTracking();
 	const { isMenuOpen } = useMenuStore();
 	const lang = getLanguage();
 
