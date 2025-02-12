@@ -39,7 +39,7 @@ export const DialogContent: React.FC<DialogContentProps> = ({ id }) => {
 			</div>
 
 			<div className="flex flex-row text-sm leading-5 gap-2.5">
-				<p className="font-semibold">{sourceTitle}</p>
+				<p className="font-semibold grow-1 shrink-0">{sourceTitle}</p>
 				<div
 					className="*:underline"
 					dangerouslySetInnerHTML={{ __html: sourceLabel }}
