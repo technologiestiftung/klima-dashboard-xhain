@@ -2,6 +2,7 @@ import React from "react";
 import { Link, useLocation } from "react-router";
 import { getLanguage, i18n } from "~/i18n/i18n-utils";
 import { isLanguageSupported } from "~/i18n/is-language-supported";
+import { trackInteraction } from "../../analytics/matomo";
 
 export const LanguageToggleButton: React.FC = () => {
 	const currentLanguage = getLanguage();
@@ -20,6 +21,12 @@ export const LanguageToggleButton: React.FC = () => {
 								: "text-xhain-blue-100 hover:bg-xhain-blue-30"
 						}`}
 						aria-label={i18n("languageToggleButton.ariaLabelDeLink")}
+						onClick={() =>
+							trackInteraction({
+								eventAction: "switch-language",
+								eventName: `from en to de`,
+							})
+						}
 					>
 						DE
 					</Link>
@@ -32,6 +39,12 @@ export const LanguageToggleButton: React.FC = () => {
 								: "text-xhain-blue-100 hover:bg-xhain-blue-30"
 						}`}
 						aria-label={i18n("languageToggleButton.ariaLabelEnLink")}
+						onClick={() =>
+							trackInteraction({
+								eventAction: "switch-language",
+								eventName: `from de to en`,
+							})
+						}
 					>
 						EN
 					</Link>
