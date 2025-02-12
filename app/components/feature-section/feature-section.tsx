@@ -33,11 +33,7 @@ export const FeatureSection: React.FC = () => {
 					className="flex justify-center items-center gap-2 w-fit py-2 px-3.5 rounded-full text-lg leading-7 font-bold text-white bg-xhain-blue-50 hover:bg-xhain-blue-60 focus-xhain-blue-80"
 				>
 					{i18n("featureSection.cta")}
-					<img
-						src={arrowForward}
-						alt={i18n("featureSection.cta")}
-						className="w-6 h-6"
-					/>
+					<img src={arrowForward} alt="" className="w-6 h-6" />
 				</a>
 			</div>
 		</div>

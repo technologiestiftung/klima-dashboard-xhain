@@ -1,6 +1,7 @@
 import React from "react";
 import { RadioToggle } from "../radio-toggle/radio-toggle";
 import { SmallTooltip } from "~/components/tooltip/small-tooltip.tsx";
+import { i18n } from "../../i18n/i18n-utils";
 
 const radioOptions = [
 	{ value: "xhain", label: "Xhain" },
@@ -79,7 +80,7 @@ export const CarouselCard: React.FC<CarouselCardProps> = ({
 					<img
 						className="size-[86px] md:size-[220px]"
 						src={card.image}
-						alt={"Icon " + card.description}
+						alt={i18n("icon.alt") + card.description}
 					/>
 				</div>
 			)}

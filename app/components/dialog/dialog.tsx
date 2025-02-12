@@ -52,7 +52,7 @@ export const Dialog: React.FC<DialogProps> = ({ children, className, id }) => {
 							hover:bg-xhain-blue-60 focus:outline focus:outline-3 focus:outline-xhain-blue-80 focus:outline-offset-5"
 					onClick={closeDialog}
 				>
-					<img src={"/images/x-icon.svg"} alt={i18n("button.lessInfo")} />
+					<img src={"/images/x-icon.svg"} alt="" />
 					{i18n("button.lessInfo")}
 				</button>
 				{children}

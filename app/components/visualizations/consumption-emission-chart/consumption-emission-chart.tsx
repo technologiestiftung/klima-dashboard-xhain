@@ -63,7 +63,7 @@ export const ConsumptionEmissionsChart: React.FC = () => {
 				<div className="relative flex flex-col gap-9">
 					<img
 						src={blueEmissionCloud}
-						alt={"icon emission"}
+						alt={"Symbol Emission"}
 						className="w-full"
 					/>
 					<div className="absolute w-full top-1/4 left-1.5 flex flex-col text-center text-3xl leading-9 lg:text-4xl lg:leading-10 font-bold text-xhain-blue-10">
@@ -80,7 +80,7 @@ export const ConsumptionEmissionsChart: React.FC = () => {
 			<div className="relative gap-9 mx-auto">
 				<img
 					src={greenEmissionTree}
-					alt={"Icon " + i18n("chart.consumptionEmissionsTons.trees")}
+					alt={i18n("icon.alt") + i18n("chart.consumptionEmissionsTons.trees")}
 					className="w-full max-h-[205px] 2xl:max-h-none"
 				/>
 				<div className="absolute w-full top-20 2xl:top-24 left-1.5 flex flex-col text-center text-3xl leading-9 lg:text-4xl lg:leading-10 font-bold text-xhain-blue-80">

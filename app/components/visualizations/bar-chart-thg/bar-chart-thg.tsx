@@ -29,7 +29,10 @@ export function BarChartThg() {
 				<div key={d.sector} className="flex w-full items-center gap-x-8">
 					<img
 						src={styles[d.sector].icon}
-						alt={"Icon " + i18n(`chart.thgSector2021Tons.legend.${d.sector}`)}
+						alt={
+							i18n("icon.alt") +
+							i18n(`chart.thgSector2021Tons.legend.${d.sector}`)
+						}
 					/>
 					<div className="w-full flex flex-col">
 						<div className="flex w-full gap-x-2.5">

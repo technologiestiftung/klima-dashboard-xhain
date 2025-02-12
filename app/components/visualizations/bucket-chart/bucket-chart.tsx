@@ -31,7 +31,7 @@ export const BucketChart: React.FC = () => {
 				<div className="relative w-fit mx-auto h-full flex justify-center items-center">
 					<img
 						src={"/images/bucket.svg"}
-						alt={"Icon " + i18n("chart.restBudgetThgUntilYear.title")}
+						alt={i18n("icon.alt") + i18n("chart.restBudgetThgUntilYear.title")}
 						className="w-80"
 					/>
 					<div className="absolute top-0 h-full flex flex-col justify-center xl:justify-between items-center gap-2 md:py-3 px-[16%] mx-auto">
