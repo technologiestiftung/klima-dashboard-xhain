@@ -360,7 +360,7 @@ Projections for the future are more difficult to determine and depend on climate
 	"chart.mediumTemperature.keys.celsius": "Temperatur in °C",
 	"chart.mediumTemperature.description":
 		"The mean annual temperature refers to the average temperature over a period of 10 years.",
-	"chart.mediumTemperature.current": "Current",
+	"chart.mediumTemperature.current": "Today",
 	"chart.mediumTemperature.1950": "1950s",
 	"chart.mediumTemperature.2100": "Future",
 	"chart.mediumTemperature.infoDialog.sourceTitle": "Source:",
