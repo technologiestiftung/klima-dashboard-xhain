@@ -4,22 +4,15 @@ import { useEffect } from "react";
 
 export const useMatomoTracking = () => {
 	useEffect(() => {
-		window._paq = window._paq || [];
-		window._paq.push(["trackPageView"]);
-		window._paq.push(["enableLinkTracking"]);
-
-		(function () {
-			const u = import.meta.env.VITE_MATOMO_URL;
-			window._paq.push(["setTrackerUrl", u + "matomo.php"]);
-			window._paq.push(["setSiteId", import.meta.env.VITE_MATOMO_SITE_ID]);
-
-			const d = document;
-			const g = d.createElement("script");
-			const s = d.getElementsByTagName("script")[0];
-			g.async = true;
-			g.src = u + "matomo.js";
-			s.parentNode.insertBefore(g, s);
-		})();
+		// eslint-disable-next-line no-multi-assign
+		const _mtm = (window._mtm = window._mtm || []);
+		_mtm.push({ "mtm.startTime": new Date().getTime(), event: "mtm.Start" });
+		const d = document,
+			g = d.createElement("script"),
+			s = d.getElementsByTagName("script")[0];
+		g.async = true;
+		g.src = import.meta.env.VITE_MATOMO_URL;
+		s.parentNode.insertBefore(g, s);
 	}, []);
 
 	return null;
