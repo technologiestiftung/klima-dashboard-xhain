@@ -9,6 +9,7 @@ const SCROLL_OPTIONS = {
 	block: "nearest",
 	inline: "start",
 } as const;
+
 interface CardContent {
 	intro: string;
 	number: string;
