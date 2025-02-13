@@ -123,6 +123,7 @@ export const de = {
 	"charts.p2.part2.tooltip.content": `Die <b>Endenergiebasierte Terriotorialbilanz nach BISKO</b> erfasst den Endenergieverbrauch, der direkt innerhalb der Grenzen des Bezirks entsteht. Das bedeutet, es wird gemessen, wie viel Energie Haushalte für das Heizen der Wohnung oder die Nutzung elektronischer Geräte verbrauchen. Diese Daten stammen zum Beispiel von Energiezählern, wie sie in jedem Haus zu finden sind, und zeigen auf, wie viel Energie vor Ort benötigt wird.`,
 	"charts.p2.part3":
 		"zeigen wir auf, wofür die Energie genutzt wird, wie viele Emissionen dabei entstehen und wo demnach relevante Hebel für das Erreichen der Klimaneutralität bei 2045 liegen.",
+	"charts.ariaLabel": "Visualisierung von",
 
 	"chart.thgTotalTons.title": "Entwicklung der Treibhausgas-Emissionen",
 	"chart.thgTotalTons.subtitle": "in Tonnen THG",
