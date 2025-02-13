@@ -15,7 +15,7 @@ const colors = [
 	"bg-xhain-blue-10",
 	"bg-xhain-blue-30",
 	"bg-xhain-blue-40",
-	"bg-xhain-blue-50",
+	"bg-xhain-blue-50 text-white",
 ];
 
 export const BucketChart: React.FC = () => {
@@ -50,7 +50,7 @@ export const BucketChart: React.FC = () => {
 								<div
 									key={i}
 									className={`px-2 flex flex-row justify-between last:rounded-b-5px w-full
-									${colors[i]} ${i === budgetPastYears.length - 1 ? "text-white" : "text-xhain-blue-80"}`}
+									${colors[i]} `}
 								>
 									<div className="text-base leading-6 font-semibold ">
 										{year.year}
