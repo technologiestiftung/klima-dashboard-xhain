@@ -123,9 +123,11 @@ export const de = {
 	"charts.p2.part2.tooltip.content": `Die <b>Endenergiebasierte Terriotorialbilanz nach BISKO</b> erfasst den Endenergieverbrauch, der direkt innerhalb der Grenzen des Bezirks entsteht. Das bedeutet, es wird gemessen, wie viel Energie Haushalte für das Heizen der Wohnung oder die Nutzung elektronischer Geräte verbrauchen. Diese Daten stammen zum Beispiel von Energiezählern, wie sie in jedem Haus zu finden sind, und zeigen auf, wie viel Energie vor Ort benötigt wird.`,
 	"charts.p2.part3":
 		"zeigen wir auf, wofür die Energie genutzt wird, wie viele Emissionen dabei entstehen und wo demnach relevante Hebel für das Erreichen der Klimaneutralität bei 2045 liegen.",
+	"charts.ariaLabel": "Visualisierung von",
 
 	"chart.thgTotalTons.title": "Entwicklung der Treibhausgas-Emissionen",
 	"chart.thgTotalTons.subtitle": "in Tonnen THG",
+	"chart.thgTotalTons.keys.year": "Jahr",
 	"chart.thgTotalTons.keys.heating_tons": "Wärme",
 	"chart.thgTotalTons.keys.electricity_tons": "Strom",
 	"chart.thgTotalTons.keys.fuels_tons": "Kraftstoffe",
@@ -231,6 +233,7 @@ Somit ist es wichtig, alle Akteure - Bürger:innen, Unternehmen und öffentliche
 	"chart.heatingMix2021Summarized.title": "Wärmemix",
 	"chart.heatingMix2021Summarized.subtitle": "in 2021",
 	"chart.heatingMix2021Summarized.keys.source": "Quelle",
+	"chart.heatingMix2021Summarized.keys.percentage": "Prozent",
 	"chart.heatingMix2021Summarized.keys.total_mwh": "Summe in Megawattstunden",
 	"chart.heatingMix2021Summarized.description":
 		"Neben dem wärmbedingten Energieverbrauch bestimmten die genutzten Energiequellen, wie im Wärmemix dargestellt, unsere Klimabilanz maßgeblich.",

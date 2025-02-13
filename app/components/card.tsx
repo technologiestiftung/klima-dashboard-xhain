@@ -167,7 +167,7 @@ const Card: React.FC<CardProps> = ({ id }) => {
 						</tbody>
 					</table>
 				</figcaption>
-				<div className="w-full overflow-hidden" role="img">
+				<div className="w-full overflow-hidden">
 					{Chart && <Chart />}
 					{!Chart && (
 						<>

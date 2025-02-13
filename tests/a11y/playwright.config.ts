@@ -9,7 +9,7 @@ import { defineConfig, devices } from "@playwright/test";
  * https://vite.dev/guide/api-javascript.html#loadenv
  */
 
-const port = parseInt(process.env.VITE_PORT ?? "4173"); // Vite's default port when running `vite preview`
+const port = "3000"; // port on preview mode (serve)
 
 /**
  * See https://playwright.dev/docs/test-configuration.
@@ -22,7 +22,7 @@ export default defineConfig({
 	/* Fail the build on CI if you accidentally left test.only in the source code. */
 	forbidOnly: !!process.env.CI,
 	/* Retry on CI only */
-	retries: 1,
+	retries: process.env.CI ? 1 : 0,
 	/* Opt out of parallel tests on CI. */
 	workers: process.env.CI ? 1 : undefined,
 	/* Reporter to use. See https://playwright.dev/docs/test-reporters */
@@ -76,7 +76,7 @@ export default defineConfig({
 
 	/* Run your local dev server before starting the tests */
 	webServer: {
-		command: `npm run preview -- --port ${port}`,
+		command: `npm run preview`,
 
 		reuseExistingServer: !process.env.CI,
 	},

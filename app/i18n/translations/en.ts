@@ -123,9 +123,11 @@ export const en: typeof de = {
 	"charts.p2.part2.tooltip.content": `The <b>final energy-based territorial balance according to BISKO</b> records the final energy consumption that occurs directly within the boundaries of the district. This means measuring how much energy households use for heating their homes or using electronic devices. These data come, for example, from energy meters found in every house and show how much energy is needed on-site.`,
 	"charts.p2.part3":
 		"we illustrate how energy is used, how many emissions are produced in the process, and where significant levers for achieving climate neutrality by 2045 lie.",
+	"charts.ariaLabel": "Visualization of",
 
 	"chart.thgTotalTons.title": "Evolution of greenhouse gas emissions",
 	"chart.thgTotalTons.subtitle": "in tons of CO2 equivalent",
+	"chart.thgTotalTons.keys.year": "Year",
 	"chart.thgTotalTons.keys.heating_tons": "Heating",
 	"chart.thgTotalTons.keys.electricity_tons": "Electricity",
 	"chart.thgTotalTons.keys.fuels_tons": "Fuels",
@@ -229,6 +231,7 @@ This highlights the importance of involving all stakeholders—residents, busine
 	"chart.heatingMix2021Summarized.title": "Heatmix",
 	"chart.heatingMix2021Summarized.subtitle": "in 2021",
 	"chart.heatingMix2021Summarized.keys.source": "Source",
+	"chart.heatingMix2021Summarized.keys.percentage": "Percentage",
 	"chart.heatingMix2021Summarized.keys.total_mwh": "Sum in Megawatt hours",
 	"chart.heatingMix2021Summarized.description":
 		"In addition to heating-related energy consumption, the energy sources used, as shown in the heat mix, play a key role in determining our climate balance.",
