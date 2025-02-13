@@ -307,7 +307,7 @@ Um die Ziele von Paris lokal umzusetzen, wird der sogenannte Restbudget-Ansatz g
 
 	"chart.reductionPathScenario175Thg.title": "Reduktionspfad",
 	"chart.reductionPathScenario175Thg.subtitle":
-		"Klimaschutzszenario (1,75 Grad) in Tonnen THG",
+		"Klimaschutzszenario (1,75 Grad, 67 % Wahrscheinlichkeit) in Tonnen THG",
 	"chart.reductionPathScenario175Thg.keys.year": "Jahr",
 	"chart.reductionPathScenario175Thg.keys.goal_berlin_tons": "Ziel Land Berlin",
 	"chart.reductionPathScenario175Thg.keys.model_xhain_tons":
@@ -446,7 +446,7 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 	"chart.HBI.infoDialog.factors.humanSensitivity.workers": "Arbeitnehmende",
 	"chart.HBI.infoDialog.factors.humanSensitivity.socialIndex": "Sozialindex",
 	"chart.HBI.infoDialog.factors.envSensitivity": "Umwelt Sensitivität",
-	"chart.HBI.infoDialog.factors.envSensitivity.vegetation": "Grünvolumen",
+	"chart.HBI.infoDialog.factors.envSensitivity.greenvolume": "Grünvolumen",
 	"chart.HBI.infoDialog.factors.envSensitivity.sealing": "Versiegelung",
 
 	"chart.HBI.legend.title":
@@ -502,7 +502,7 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 	 */
 	"currentProjects.project1.title": "Entsiegelung",
 	"currentProjects.project1.description":
-		"Die Entsiegelung und Begrünung von Innenhöfen kann das Mikroklima und die Wohnqualität verbessern sowie die Vielfalt von Tieren und Pflanzen fördern. Mieter*innen können dafür bis zu 3000 Euro Förderung erhalten. Mehr als 100 Personen haben sich 2024 telefonisch oder vor Ort von März bis Oktober beraten lassen.",
+		"Die vielen bebauten und asphaltierten Flächen in Xhain lassen kein Regenwasser durch. Einige dieser Flächen können jedoch entsiegelt und wasserdurchlässig gestaltet werden. Eine Karte zeigt, welche Flächen im öffentlichen Raum in den letzten Jahren entsiegelt und bepflanzt wurden.",
 	"currentProjects.project1.imageAltText": "Wiese mit Blumen",
 	"currentProjects.project1.link":
 		"https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/service-und-organisationseinheiten/klima-und-internationales/artikel.1429649.php",
@@ -510,7 +510,7 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 
 	"currentProjects.project2.title": "Grünberatung",
 	"currentProjects.project2.description":
-		"Leider lassen die vielen bebauten und asphaltierten Flächen in Xhain kein Regenwasser durch. Einige dieser Flächen können jedoch entsiegelt und wasserdurchlässig gestaltet werden. Eine Karte zeigt, welche Flächen im öffentlichen Raum in den letzten Jahren entsiegelt und bepflanzt wurden.",
+		"Die Entsiegelung und Begrünung von Innenhöfen kann das Mikroklima und die Wohnqualität verbessern sowie die Vielfalt von Tieren und Pflanzen fördern. Mieter*innen können dafür bis zu 3000 Euro Förderung erhalten. Mehr als 100 Personen haben sich 2024 telefonisch oder vor Ort von März bis Oktober beraten lassen.",
 	"currentProjects.project2.imageAltText": "Kind spielt",
 	"currentProjects.project2.link":
 		"https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/aemter/umwelt-und-naturschutzamt/umweltbildung/artikel.1043011.php#headline_1_5",
@@ -527,14 +527,14 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 
 	"currentProjects.project4.title": "Radverkehr",
 	"currentProjects.project4.description":
-		"Viele der Xhainer*innen nutzen bereits das Rad um von A nach B zu kommen. Um den Radve   rkehr weiter zu stärken, wird die Radinfrastruktur im Bezirk immer weiter ausgebaut.",
+		"Viele der Xhainer:innen nutzen bereits das Rad um von A nach B zu kommen. Um den Radverkehr weiter zu stärken, wird die Radinfrastruktur im Bezirk immer weiter ausgebaut.",
 	"currentProjects.project4.imageAltText":
 		"Person, die mit einem Lastenfahrrad auf einer roten Fahrradspur fährt",
 	"currentProjects.project4.link":
 		"https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/aemter/strassen-und-gruenflaechenamt/strassen/artikel.1496371.php",
 	"currentProjects.project4.imageSource": "Bild: Kareen Kittelmann",
 
-	"currentProjects.project5.title": "PV-Ausbau",
+	"currentProjects.project5.title": "PV-Ausbau auf bezirklichen Liegenschaften",
 	"currentProjects.project5.description":
 		"Um die bezirklichen Gebäude vollständig mit PV auszustatten arbeitet das Bezirksamt mit den Berliner Stadtwerken zusammen. Im Rahmen dieser Kooperation wurden bis Ende 2024 Anlagen mit einer Leistung von ca. 850 kWp in Betrieb genommen. Weitere Anlagen befinden sich in Planung und Umsetzung.",
 	"currentProjects.project5.imageAltText": "Nahaufnahme eines Solarpanels",
@@ -544,10 +544,11 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 
 	"currentProjects.project6.title": "Smarte Heizkreisregelung",
 	"currentProjects.project6.description":
-		"Bereits 50 bezirkliche Liegenschaften wurden mit der Heizkreisregelung ovoTherm ausgerüstet, weitere Gebäude folgen. Dadurch wird die Leistung einer Heizung genau an den tatsächlichen Nutzungsbedarf angepasst und so Energieverbrauch, CO2-Emissionen und Energiekosten reduziert.",
+		"Bereits 69 bezirkliche Liegenschaften wurden mit der Heizkreisregelung ovoTherm ausgerüstet, weitere Gebäude folgen. Dadurch wird die Leistung einer Heizung genau an den tatsächlichen Nutzungsbedarf angepasst und so Energieverbrauch, CO2-Emissionen und Energiekosten reduziert.",
 	"currentProjects.project6.imageAltText":
 		"Ein Netz von isolierten Rohren und Ventilen mit Mess- und Regelvorrichtungen.",
-	"currentProjects.project6.link": "",
+	"currentProjects.project6.link":
+		"https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/service-und-organisationseinheiten/klima-und-internationales/artikel.1529241.php",
 	"currentProjects.project6.imageSource": "Bild: valovo GmbH",
 
 	"currentProjects.project7.title": "Mehrweg",
@@ -565,7 +566,7 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 	"featureSection.imageSource": "Bild: Kareen Kittelmann",
 	"featureSection.title": "Was passiert bereits in Xhain?",
 	"featureSection.description":
-		"In Xhain werden bereits zahlreiche Projekte umgesetzt um diesen Herausforderungen zu begegnen. Hier gebe﻿n wir euch einen Einblick in einige der bestehenden Projekte.",
+		"In Xhain werden bereits zahlreiche Projekte umgesetzt, um diesen Herausforderungen zu begegnen. Hier geben wir euch einen Einblick in einige der bestehenden Projekte.",
 	"featureSection.cta": "Aktuelle Projekte",
 
 	/**
