@@ -111,7 +111,7 @@ export function BarChartModalSplit() {
 	return (
 		<div className="flex flex-col gap-y-6 md:flex-row md:items-center md:justify-between">
 			<div
-				className="flex flex-col w-full mt-7 text-xhain-blue-80 gap-y-5"
+				className="flex flex-col w-full mt-2 text-xhain-blue-80 gap-y-5"
 				ref={containerRef}
 			>
 				{currentData.map(({ sector, percentage }) => (

@@ -131,7 +131,7 @@ export const en: typeof de = {
 	"chart.thgTotalTons.keys.fuels_tons": "Fuels",
 	"chart.thgTotalTons.infoDialog.sourceTitle": "Excerpt from",
 	"chart.thgTotalTons.infoDialog.sourceLabel":
-		"Climate Protection Concept - Full Version",
+		"Climate Protection Concept - Full Version (only available in German)",
 	"chart.thgTotalTons.infoDialog.learnMoreLink":
 		"/climate-concepts/#climate-concept-full",
 	"chart.thgTotalTons.infoDialog.description": `The emissions resulting from energy consumption are calculated using so-called emissions factors. An emissions factor indicates how many greenhouse gases are released when a specific energy source—such as gas, electricity, or oil—is produced, transported, and used. This allows us to assess how harmful the consumption of a particular energy source is to the climate.
@@ -150,7 +150,7 @@ The lower the emissions factor, the more climate-friendly the energy source is. 
 	"chart.thgSector2021Tons.keys.percentage": "Percentage",
 	"chart.thgSector2021Tons.infoDialog.sourceTitle": "Excerpt from",
 	"chart.thgSector2021Tons.infoDialog.sourceLabel":
-		"Climate Protection Concept - Full Version",
+		"Climate Protection Concept - Full Version (only available in German)",
 	"chart.thgSector2021Tons.infoDialog.learnMoreLink":
 		"/climate-concepts/#climate-concept-full",
 	"chart.thgSector2021Tons.infoDialog.description": `Although households account for a significantly larger share of energy consumption (see final energy consumption by sector), the economy generates slightly more emissions (43%) than private households (42%). 
@@ -163,7 +163,7 @@ The lower the emissions factor, the more climate-friendly the energy source is. 
 		"Consumption-related indirect emissions",
 	"chart.consumptionEmissionsTons.subtitle": "in 2024",
 	"chart.consumptionEmissionsTons.description":
-		"Indirect emissions also play an important role on our path to climate neutrality.",
+		"In 2024, Ø 4.1 tons of CO2-e per year and person were caused by food and consumption. Even if emissions are largely generated outside the district boundaries, they are climate-relevant and can be reduced locally through the behavior of producers and consumers.",
 	"chart.consumptionEmissionsTons.keys.xhain": "Xhain",
 	"chart.consumptionEmissionsTons.keys.per_person": "Per person",
 	"chart.consumptionEmissionsTons.descriptionText":
@@ -182,16 +182,16 @@ The lower the emissions factor, the more climate-friendly the energy source is. 
 			`,
 	"chart.consumptionEmissionsTons.infoDialog.learnMoreLink":
 		"/climate-concepts/#consumption-society",
-	"chart.consumptionEmissionsTons.infoDialog.description": `Indirect emissions arise from the consumption of goods and services whose production and transportation takes place outside the district boundaries. These include, for example
+	"chart.consumptionEmissionsTons.infoDialog.description": `ndirect emissions arise from the consumption of goods and services whose production and transportation takes place outside the district boundaries. These include, for example
 
 	<ul>
-		<li>- Production and transportation of food</li>
-		<li>- Production of furniture, household appliances or clothing</li>
-		<li>- Production of electronic devices</li>
-		<li>- Services such as online shopping</li>
+		<li> Production and transportation of food</li>
+		<li> Production of furniture, household appliances or clothing</li>
+		<li> Production of electronic devices</li>
+		<li> Services such as online shopping</li>
 	</ul>
 
-Resource-conserving and local provision and sustainable consumption of goods help to reduce emissions - for example through reusable packaging, second-hand offers and repairs.`,
+Resource- efficient and local provision as well as the sustainable consumption of goods help to reduce emissions - for example through reusable packaging, second-hand offers and the repair of goods.`,
 
 	"chart.eevTotalMwh.title": "Development of final energy consumption",
 	"chart.eevTotalMwh.subtitle": "in MWh",
@@ -204,7 +204,7 @@ Resource-conserving and local provision and sustainable consumption of goods hel
 	"chart.eevTotalMwh.keys.fuels_mwh": "Fuels in Megawatt Hours",
 	"chart.eevTotalMwh.infoDialog.sourceTitle": "Excerpt from",
 	"chart.eevTotalMwh.infoDialog.sourceLabel":
-		"Climate Protection Concept - Full Version",
+		"Climate Protection Concept - Full Version (only available in German)",
 	"chart.eevTotalMwh.infoDialog.learnMoreLink":
 		"/climate-concepts/#climate-concept-full",
 	"chart.eevTotalMwh.infoDialog.description": `The major part of energy consumption is caused by heating, i.e. in particular the heating of buildings and the preparation of hot water. This currently accounts for 56.9% of the district's energy consumption. 32.3 % is accounted for by electricity consumption, e.g. for lighting or technical appliances. The smallest, but still relevant consumption is caused by fuels (10.8 %).
@@ -218,7 +218,7 @@ These figures make it clear: the heating sector is where action is needed most. 
 	"chart.eevSector2021Mwh.keys.percentage": "Percentage",
 	"chart.eevSector2021Mwh.infoDialog.sourceTitle": "Excerpt from",
 	"chart.eevSector2021Mwh.infoDialog.sourceLabel":
-		"Climate Protection Concept - Full Version",
+		"Climate Protection Concept - Full Version (only available in German)",
 	"chart.eevSector2021Mwh.infoDialog.learnMoreLink":
 		"/climate-concepts/#climate-concept-full",
 	"chart.eevSector2021Mwh.infoDialog.description": `Private households are the largest energy consumers in our densely populated district, accounting for 50.4% of total energy use. This is partly due to the high number of households and factors such as heat loss from old, unrenovated buildings. 
@@ -238,7 +238,7 @@ This highlights the importance of involving all stakeholders—residents, busine
 	"chart.heatingMix2021Summarized.renewable": "Renewable energies",
 	"chart.heatingMix2021Summarized.infoDialog.sourceTitle": "Excerpt from",
 	"chart.heatingMix2021Summarized.infoDialog.sourceLabel":
-		"Subconcept: Energy and Buildings",
+		"Subconcept: Energy and Buildings (only available in German)",
 	"chart.heatingMix2021Summarized.infoDialog.learnMoreLink":
 		"/climate-concepts/#energy-buildings",
 	"chart.heatingMix2021Summarized.infoDialog.description": `The heat mix of Xhain shows that, at present, heat supply is primarily provided by natural gas and district heating. Therefore, in addition to reducing heat consumption, decarbonizing the heat supply—i.e., transitioning to a climate-friendly heating system—is an important lever for reducing heating-related emissions.
@@ -261,51 +261,56 @@ This means that the natural gas-based supply must be replaced with renewable ene
 	"chart.modalSplit2018.keys.foot": "Pedestrians",
 	"chart.modalSplit2018.keys.bike": "Cyclists",
 	"chart.modalSplit2018.infoDialog.sourceTitle": "Excerpt from",
-	"chart.modalSplit2018.infoDialog.sourceLabel": "Subconcept: Mobility",
+	"chart.modalSplit2018.infoDialog.sourceLabel":
+		"Subconcept: Mobility (only available in German)",
 	"chart.modalSplit2018.infoDialog.learnMoreLink":
 		"/climate-concepts/#mobility",
-	"chart.modalSplit2018.infoDialog.description": `The environmentally friendly transport network, i.e., public transport, cycling, and walking, already accounts for a significant share in Berlin. The data shows that our district is leading by example, with 86.5% of all trips made using sustainable transport modes. Nevertheless, the transport sector continues to have a significant impact on our climate. Despite the low share of motorized individual transport (MIV) at 13.5%, the sector still generates emissions of 153,000 tons of CO2 equivalents per year, making up around 13.6% of the district's total emissions in 2021.
+	"chart.modalSplit2018.infoDialog.description": `The so-called “ Umweltverbund”, i.e. the combination of public transport, cycling and walking, already accounts for a high proportion in Berlin. The figures show that we as a district are leading by example, with 86.5% of journeys already being made by environmentally friendly means of transport. Nevertheless, the transport sector continues to have a significant impact on our climate. Despite the low proportion of 13.5 % accounted for by MIT, transport causes emissions of 153,000 tons of CO2 equivalents per year and thus accounts for around 13.6 % of the district's total emissions in 2021.
 <br/>
-Further efforts to reduce transport emissions are crucial—not only for climate protection but also for improving air quality and reducing noise pollution in our neighborhoods.`,
+Further efforts to reduce traffic emissions are important not only for climate protection, but also for air and noise pollution in our neighborhoods.`,
 
-	"chart.traffic2022Summarized.title": "Emmissions from traffic",
+	"chart.traffic2022Summarized.title": "Transport related emissions",
 	"chart.traffic2022Summarized.subtitle": "by sector in %",
 	"chart.traffic2022Summarized.keys.sector": "Sector",
 	"chart.traffic2022Summarized.keys.percentage_thg":
 		"Greenhouse gas percentage",
 	"chart.traffic2022Summarized.infoDialog.sourceTitle": "Excerpt from",
-	"chart.traffic2022Summarized.infoDialog.sourceLabel": "Subconcept: Mobility",
+	"chart.traffic2022Summarized.infoDialog.sourceLabel":
+		"Subconcept: Mobility (only available in German)",
 	"chart.traffic2022Summarized.infoDialog.learnMoreLink":
 		"/climate-concepts/#mobility",
-	"chart.traffic2022Summarized.infoDialog.description": `The climate balance takes into account all trips that start or end in Xhain, as well as those where both the start and destination are within the district. This includes public transport as well as a small share of inland waterway transport. However, flights taken by residents or tourists are not included, as the airport is located outside the district boundaries.
+	"chart.traffic2022Summarized.infoDialog.description": `All journeys that start or end in Xhain or for which both the start and destination are in the district have been taken into account in the carbon balance. This includes public transport and a small proportion of inland waterway transport. Air travel by residents or tourists, for example, is not included, as the airport is located outside the district boundary.
 <br/>
-The goal is to reduce and electrify motorized individual transport while strengthening sustainable mobility options.`,
+Accordingly, the aim is to reduce and electrify motorized private transport and increase the use of eco-mobility.`,
 
-	"chart.restBudgetThgUntilYear.title": "Restbudget-Bucket",
-	"chart.restBudgetThgUntilYear.subtitle": "of the 1.75 degree target",
+	"chart.restBudgetThgUntilYear.title": "Remaining local carbon budget",
+	"chart.restBudgetThgUntilYear.subtitle":
+		"according to the 1,75-degree target",
 	"chart.restBudgetThgUntilYear.keys.year": "Year",
 	"chart.restBudgetThgUntilYear.keys.tons_co2": "CO2 budget",
 	"chart.restBudgetThgUntilYear.unit": "M. tons",
 	"chart.restBudgetThgUntilYear.remainingBudget": "Remaining budget until",
-	"chart.restBudgetThgUntilYear.text": `Das verbleibende CO2-Budget Xhains beträgt insgesamt nur noch 12,2 Mio. Tonnen, um die Erderwärmung auf maximal 1,75° zu begrenzen.
+	"chart.restBudgetThgUntilYear.text": `Xhain's remaining CO₂ budget is only 12.2 million tons in total to keep global warming below 1.75°C.
 <br/>
-Wenn Xhain so weitermacht wie bisher, wäre dieses lokale Restbudget bereits 2032 aufgebraucht – der Eimer würde sprichwörtlich überlaufen und die Risiken für Menschen, Ökosysteme und Infrastrukturen dramatisch steigen.
+If Xhain continues as before, this local budget will be used up by 2032—meaning the bucket would overflow, leading to dramatically increased risks for people, ecosystems, and infrastructure.
 <br/>
-Dieses Ziel markiert die Grenze, ab der die Risiken für Menschen, Ökosysteme und Infrastruktur dramatisch zunehmen.
+This target sets the limit beyond which these risks grow significantly.
 <br/>
-Um dies zu vermeiden, müssen wir jetzt ambitionierter und auch schneller handeln.`,
+To prevent this, we need to act more ambitiously and much faster—starting now.`,
 	"chart.restBudgetThgUntilYear.infoDialog.sourceTitle": "Excerpt from",
 	"chart.restBudgetThgUntilYear.infoDialog.sourceLabel":
-		"Climate Protection Concept - Summary Version",
+		"Climate Protection Concept - Summary Version (only available in German)",
 	"chart.restBudgetThgUntilYear.infoDialog.learnMoreLink":
 		"/climate-concepts/#climate-concept-summary",
-	"chart.restBudgetThgUntilYear.infoDialog.description": `The Paris Climate Agreement provides the international framework to limit global warming to well below 2°C, ideally to 1.5°C. At the national level, these targets are supplemented by the Berlin Energy Transition Act (EWG Bln), which aims for climate neutrality by 2045. In Xhain's Climate Protection Concept, the 1.75°C target has been chosen as a guideline, as projections and emission trends indicate that achieving the 1.5°C target is becoming increasingly difficult.
+	"chart.restBudgetThgUntilYear.infoDialog.description": `The Paris Agreement provides the international framework to limit global warming to well below 2°C, ideally 1.5°C. At the national level, these goals are supported by the Berlin Energy Transition Act (EWG Bln), which aims for climate neutrality by 2045.
 <br/>
-To implement the Paris targets locally, the so-called remaining budget approach is used. This emphasizes that not only annual CO2 emissions are crucial but also the total amount of greenhouse gases released into the atmosphere over time.`,
+Xhain's climate protection concept follows the 1.75°C target as an ambitious yet realistic guideline, since forecasts and emission trends show that achieving the 1.5°C target is becoming increasingly difficult.
+<br/>
+To implement the Paris goals locally, Xhain uses the "remaining budget" approach. This highlights that not only the annual CO₂ emissions matter, but also the total amount of greenhouse gases released into the atmosphere over time.`,
 
-	"chart.reductionPathScenario175Thg.title": "Reduction path",
+	"chart.reductionPathScenario175Thg.title": "Emission reduction path",
 	"chart.reductionPathScenario175Thg.subtitle":
-		"Climate protection scenario (1.75 degrees) in tons of CO2 equivalent",
+		"according to the climate protection scenario (1.75°C, 67% probability) in tons of CO2 equivalent",
 	"chart.reductionPathScenario175Thg.keys.year": "Year",
 	"chart.reductionPathScenario175Thg.keys.goal_berlin_tons": "Goal Berlin",
 	"chart.reductionPathScenario175Thg.keys.model_xhain_tons":
@@ -313,15 +318,15 @@ To implement the Paris targets locally, the so-called remaining budget approach 
 	"chart.reductionPathScenario175Thg.legend.model": "Model Xhain",
 	"chart.reductionPathScenario175Thg.legend.goal": "Ziel Land Berlin",
 	"chart.reductionPathScenario175Thg.description":
-		"The reduction path shows the development of greenhouse gas emissions in Xhain. The goal is to reduce emissions by 95% by 2045 compared to 1990. The scenario shows how this goal can be achieved.",
+		"The climate protection scenario shows shows how Xhain can become climate neutral by 2045 without exceeding the local carbon budget. To make this happen, we need to move forward together with innovation and ambition.",
 	"chart.reductionPathScenario175Thg.infoDialog.sourceTitle": "Excerpt from",
 	"chart.reductionPathScenario175Thg.infoDialog.sourceLabel":
-		"Climate Protection Concept - Full Version",
+		"Climate Protection Concept - Full Version (only available in German)",
 	"chart.reductionPathScenario175Thg.infoDialog.learnMoreLink":
 		"/climate-concepts/#climate-concept-full",
-	"chart.reductionPathScenario175Thg.infoDialog.description": `In recent years, we have failed to meet Berlin's climate protection targets. To get back on track by 2030, we need to reduce emissions more significantly and take decisive action.
+	"chart.reductionPathScenario175Thg.infoDialog.description": `In recent years, we have fallen short when it comes to Berlin's climate protection targets. In order to return to the target path by 2030, we need to reduce emissions more significantly and act more decisively.
 <br/>
-The graph illustrates how crucial it is to enter the phase of strong reduction as quickly as possible in order to achieve climate neutrality by 2045 at the latest. The sooner emission reductions are implemented, the less strain is placed on the remaining budget, and the more time remains to implement necessary changes. Accordingly, the climate protection scenario outlines a continuous and realistic reduction path.`,
+The chart illustrates how important it is to enter the phase of strong reduction as quickly as possible in order to achieve climate neutrality by 2045 at the latest, because the earlier possible emission reductions are implemented, the less the remaining budget is burdened and the more time there is to implement the necessary changes. Accordingly, the climate protection scenario shows a continuous and realistic reduction path.`,
 
 	"chart.hotDays.title": "Hot days",
 	"chart.hotDays.subtitle": "per year",
@@ -429,7 +434,7 @@ For example, heavy rainfall events in June 2017 and July 2018 caused severe floo
 		rel="noopener noreferrer"	
 	>
 		Geoportal MeinXhain</a>,
-	Climate Adaptation Concept Friedrichshain-Kreuzberg`,
+	Climate Adaptation Concept Friedrichshain-Kreuzberg (only available in German)`,
 	"chart.HBI.infoDialog.learnMoreLink":
 		"/climate-concepts/#climate-adaptation-full",
 	"chart.HBI.infoDialog.description": `Indicators of the heat impact index (HBI):`,
@@ -476,7 +481,7 @@ For example, heavy rainfall events in June 2017 and July 2018 caused severe floo
 	"howToReachGoals.title":
 		"How can Xhain achieve its climate protection goals in the future?",
 	"howToReachGoals.description":
-		"Climate protection is a central task for the future of Xhain. The district has set itself the goal of reducing greenhouse gas emissions by 95% by 2045 compared to 1990. This is a challenging task that requires the commitment of all residents, businesses, and public institutions. The climate protection concept outlines various measures and strategies to achieve this goal. The following scenarios show how Xhain can contribute to climate protection in the future.",
+		"A look into the future: what will happen if we carry on like this and what needs to change in order to achieve the climate protection targets?",
 
 	"consequences.title": "How does climate change affect Xhain?",
 	"consequences.description":
@@ -569,7 +574,7 @@ For example, heavy rainfall events in June 2017 and July 2018 caused severe floo
 	"featureSection.imageSource": "Image: Kareen Kittelmann",
 	"featureSection.title": "What is already happening in Xhain?",
 	"featureSection.description":
-		"In Xhain, numerous projects are already being implemented to address these challenges. Here, we give you an insight into some of the existing projects.",
+		"Numerous projects are already being implemented in Xhain to meet these challenges. Here we give you an insight into some of the existing projects.",
 	"featureSection.cta": "Recent projects",
 
 	/**

@@ -307,7 +307,7 @@ Um die Ziele von Paris lokal umzusetzen, wird der sogenannte Restbudget-Ansatz g
 
 	"chart.reductionPathScenario175Thg.title": "Reduktionspfad",
 	"chart.reductionPathScenario175Thg.subtitle":
-		"Klimaschutzszenario (1,75 Grad) in Tonnen THG",
+		"Klimaschutzszenario (1,75 Grad, 67 % Wahrscheinlichkeit) in Tonnen THG",
 	"chart.reductionPathScenario175Thg.keys.year": "Jahr",
 	"chart.reductionPathScenario175Thg.keys.goal_berlin_tons": "Ziel Land Berlin",
 	"chart.reductionPathScenario175Thg.keys.model_xhain_tons":
@@ -566,7 +566,7 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 	"featureSection.imageSource": "Bild: Kareen Kittelmann",
 	"featureSection.title": "Was passiert bereits in Xhain?",
 	"featureSection.description":
-		"In Xhain werden bereits zahlreiche Projekte umgesetzt um diesen Herausforderungen zu begegnen. Hier gebe﻿n wir euch einen Einblick in einige der bestehenden Projekte.",
+		"In Xhain werden bereits zahlreiche Projekte umgesetzt, um diesen Herausforderungen zu begegnen. Hier geben wir euch einen Einblick in einige der bestehenden Projekte.",
 	"featureSection.cta": "Aktuelle Projekte",
 
 	/**
