@@ -32,11 +32,7 @@ export const HBIMap: React.FC = () => {
 						{i18n("chart.HBI.description")}
 					</p>
 				</figcaption>
-				<div
-					className="w-full h-full overflow-hidden"
-					role="img"
-					aria-label={`${i18n("charts.ariaLabel")} ${i18n("chart.HBI.title")}`}
-				>
+				<div className="w-full h-full overflow-hidden">
 					<Map />
 				</div>
 			</div>

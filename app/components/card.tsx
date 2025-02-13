@@ -167,11 +167,7 @@ const Card: React.FC<CardProps> = ({ id }) => {
 						</tbody>
 					</table>
 				</figcaption>
-				<div
-					className="w-full overflow-hidden"
-					role="img"
-					aria-label={`${i18n("charts.ariaLabel")} ${title}`}
-				>
+				<div className="w-full overflow-hidden">
 					{Chart && <Chart />}
 					{!Chart && (
 						<>
