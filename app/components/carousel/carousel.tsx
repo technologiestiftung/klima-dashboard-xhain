@@ -131,12 +131,13 @@ export const Carousel: React.FC = () => {
 	const goToNext = () => {
 		const nextIndex = mod(currentCardIndex + 1, cardCount);
 
-		// If on desktop and the next card is already in view, reset the index to 0.
-		const adjustedIndex =
+		// when multiple cards from the end (on the right) are already visible in the viewport
+		const isNextCardInViewport =
 			(isLargeDesktop && nextIndex === cardCount - 2) ||
-			(isSmallDesktop && nextIndex === cardCount - 1)
-				? 0
-				: nextIndex;
+			(isSmallDesktop && nextIndex === cardCount - 1);
+
+		// If on desktop and isNextCardInViewport, go to the first card directly (reset the index to 0).
+		const adjustedIndex = isNextCardInViewport ? 0 : nextIndex;
 
 		updateCardView(adjustedIndex);
 	};
