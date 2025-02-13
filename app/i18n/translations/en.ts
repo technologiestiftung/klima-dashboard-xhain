@@ -127,6 +127,7 @@ export const en: typeof de = {
 
 	"chart.thgTotalTons.title": "Evolution of greenhouse gas emissions",
 	"chart.thgTotalTons.subtitle": "in tons of CO2 equivalent",
+	"chart.thgTotalTons.keys.year": "Year",
 	"chart.thgTotalTons.keys.heating_tons": "Heating",
 	"chart.thgTotalTons.keys.electricity_tons": "Electricity",
 	"chart.thgTotalTons.keys.fuels_tons": "Fuels",
@@ -230,6 +231,7 @@ This highlights the importance of involving all stakeholders—residents, busine
 	"chart.heatingMix2021Summarized.title": "Heatmix",
 	"chart.heatingMix2021Summarized.subtitle": "in 2021",
 	"chart.heatingMix2021Summarized.keys.source": "Source",
+	"chart.heatingMix2021Summarized.keys.percentage": "Percentage",
 	"chart.heatingMix2021Summarized.keys.total_mwh": "Sum in Megawatt hours",
 	"chart.heatingMix2021Summarized.description":
 		"In addition to heating-related energy consumption, the energy sources used, as shown in the heat mix, play a key role in determining our climate balance.",

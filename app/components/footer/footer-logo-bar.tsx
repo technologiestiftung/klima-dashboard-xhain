@@ -18,9 +18,9 @@ export const FooterLogoBar: React.FC = () => {
 				</a>
 			</div>
 			<div className="flex flex-col gap-y-4 sm:gap-y-3">
-				<h4 className="text-sm leading-5 font-normal">
+				<p className="text-sm leading-5 font-normal">
 					{i18n("footer.projectOwnerLabel")}
-				</h4>
+				</p>
 				<a
 					href="https://www.technologiestiftung-berlin.de/"
 					target="_blank"
@@ -34,9 +34,9 @@ export const FooterLogoBar: React.FC = () => {
 				</a>
 			</div>
 			<div className="flex flex-col gap-y-4 sm:gap-y-3">
-				<h4 className="text-sm leading-5 font-normal">
+				<p className="text-sm leading-5 font-normal">
 					{i18n("footer.projectExecutionerLabel")}
-				</h4>
+				</p>
 				<a
 					href="https://www.berlin.de/rbmskzl/"
 					target="_blank"

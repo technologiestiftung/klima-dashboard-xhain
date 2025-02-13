@@ -127,6 +127,7 @@ export const de = {
 
 	"chart.thgTotalTons.title": "Entwicklung der Treibhausgas-Emissionen",
 	"chart.thgTotalTons.subtitle": "in Tonnen THG",
+	"chart.thgTotalTons.keys.year": "Jahr",
 	"chart.thgTotalTons.keys.heating_tons": "Wärme",
 	"chart.thgTotalTons.keys.electricity_tons": "Strom",
 	"chart.thgTotalTons.keys.fuels_tons": "Kraftstoffe",
@@ -232,6 +233,7 @@ Somit ist es wichtig, alle Akteure - Bürger:innen, Unternehmen und öffentliche
 	"chart.heatingMix2021Summarized.title": "Wärmemix",
 	"chart.heatingMix2021Summarized.subtitle": "in 2021",
 	"chart.heatingMix2021Summarized.keys.source": "Quelle",
+	"chart.heatingMix2021Summarized.keys.percentage": "Prozent",
 	"chart.heatingMix2021Summarized.keys.total_mwh": "Summe in Megawattstunden",
 	"chart.heatingMix2021Summarized.description":
 		"Neben dem wärmbedingten Energieverbrauch bestimmten die genutzten Energiequellen, wie im Wärmemix dargestellt, unsere Klimabilanz maßgeblich.",

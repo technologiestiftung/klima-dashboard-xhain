@@ -50,7 +50,7 @@ export const BucketChart: React.FC = () => {
 								<div
 									key={i}
 									className={`px-2 flex flex-row justify-between last:rounded-b-5px w-full
-                                    ${colors[i]} `}
+									${colors[i]} ${i === budgetPastYears.length - 1 ? "text-white" : "text-xhain-blue-80"}`}
 								>
 									<div className="text-base leading-6 font-semibold ">
 										{year.year}

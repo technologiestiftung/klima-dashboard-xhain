@@ -15,7 +15,7 @@ export function RadioToggle<T extends string>({
 	radioID,
 }: RadioButtonProps<T>) {
 	return (
-		<div className="rounded-full bg-white flex w-fit p-0.5 gap-x-1 text-xhain-blue-50 font-bold">
+		<div className="rounded-full bg-white flex w-fit p-0.5 gap-x-1 text-xhain-blue-60 font-bold">
 			{options.map(({ value, label }) => (
 				<label
 					key={value}
