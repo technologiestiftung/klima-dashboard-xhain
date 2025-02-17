@@ -635,7 +635,6 @@ For example, heavy rainfall events in June 2017 and July 2018 caused severe floo
 	"imprintPrivacy.copyright.heading": "Copyright",
 	"imprintPrivacy.copyright.description": `The layout of the pages of the Friedrichshain-Kreuzberg District Office of Berlin, the graphics, photos, moving images, texts and the collection of articles used are protected by copyright. The use of the content is only permitted within the framework of the statutory provisions.`,
 
-
 	/**
 	 * Footer
 	 */

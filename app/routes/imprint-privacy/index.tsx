@@ -15,11 +15,13 @@ export default function Index() {
 					</p>
 					<p
 						className="text-base leading-6 font-normal lg:text-2xl lg:leading-8"
-						dangerouslySetInnerHTML={{ __html: i18n("imprintPrivacy.imprint.description") }}
+						dangerouslySetInnerHTML={{
+							__html: i18n("imprintPrivacy.imprint.description"),
+						}}
 					/>
 				</div>
 			</div>
-			
+
 			<div className="p-5 lg:p-20 lg:pb-0">
 				<div className="max-w-[894px] mx-auto">
 					<p className="mb-3 text-2xl leading-8 font-bold">
@@ -27,7 +29,9 @@ export default function Index() {
 					</p>
 					<p
 						className="text-base leading-6 font-normal lg:text-2xl lg:leading-8"
-						dangerouslySetInnerHTML={{ __html: i18n("imprintPrivacy.privacy.description") }}
+						dangerouslySetInnerHTML={{
+							__html: i18n("imprintPrivacy.privacy.description"),
+						}}
 					/>
 				</div>
 			</div>
@@ -39,7 +43,9 @@ export default function Index() {
 					</p>
 					<p
 						className="text-base leading-6 font-normal lg:text-2xl lg:leading-8"
-						dangerouslySetInnerHTML={{ __html: i18n("imprintPrivacy.disclaimer.description") }}
+						dangerouslySetInnerHTML={{
+							__html: i18n("imprintPrivacy.disclaimer.description"),
+						}}
 					/>
 				</div>
 			</div>
@@ -51,12 +57,12 @@ export default function Index() {
 					</p>
 					<p
 						className="text-base leading-6 font-normal lg:text-2xl lg:leading-8"
-						dangerouslySetInnerHTML={{ __html: i18n("imprintPrivacy.copyright.description") }}
+						dangerouslySetInnerHTML={{
+							__html: i18n("imprintPrivacy.copyright.description"),
+						}}
 					/>
 				</div>
 			</div>
-
-
 		</>
 	);
 }
