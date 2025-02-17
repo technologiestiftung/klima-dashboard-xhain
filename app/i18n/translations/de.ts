@@ -36,7 +36,7 @@ export const de = {
 	 * Intro Section
 	 */
 	"introSection.overview":
-		"Das Klimadashboard gibt einen Einblick in aktuelle Klimadaten und Klimaktivitäten in Friedrichshain-Kreuzberg.<br/><br/>",
+		"Das KlimaDashboard gibt einen Einblick in aktuelle Klimadaten und Klimaktivitäten in Friedrichshain-Kreuzberg.<br/><br/>",
 	"introSection.keyQuestion1": "Wo entstehen Treibhausgasemissionen in Xhain?",
 	"introSection.keyQuestion2":
 		"Wo stehen wir als Bezirk bisher auf dem Weg zur Klimaneutralität in Berlin?",
@@ -48,7 +48,7 @@ export const de = {
 	  Planungs- und Entscheidungsgrundlage politisch beschlossen.</br></br>
 	`,
 	"introSection.collaboration": `
-	  Entwickelt wurde das Klimadashboard in enger Zusammenarbeit zwischen dem Klimateam Friedrichshain-Kreuzberg und dem <a href='https://citylab-berlin.org/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>CityLAB Berlin</a>.</br></br>
+	  Entwickelt wurde das KlimaDashboard in enger Zusammenarbeit zwischen dem Klimateam Friedrichshain-Kreuzberg und dem <a href='https://citylab-berlin.org/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>CityLAB Berlin</a>.</br></br>
 	`,
 	"introSection.explanation":
 		"Während Klimaschutz darauf abzielt, Treibhausgasemissionen zu reduzieren und so das Ausmaß des Klimawandels zu begrenzen, liegt der Fokus bei Klimaanpassung darauf, uns an die bisherigen und zu erwartenden Folgen des Klimawandels, wie zunehmende Hitze und Starkregen, anzupassen.",
@@ -494,12 +494,12 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 		"Eine Person läuft mit einem Fahrrad auf einer teilweise gesperrten Straße, umgeben von Bauabsperrungen und Grünanlagen.",
 	"currentProjects.projectCardCtaLabel": "Zum Projekt",
 	"currentProjects.greenCardTitle":
-		"Gemeinsam Klimaschutzprojekte voranbringen",
+		"Gemeinsam Klimaprojekte voranbringen",
 	"currentProjects.greenCardDescription":
-		"Es gibt bereits viele spannende Projekte und Organisationen vor Ort. Du hast Lust selbst einen positiven Beitrag zu leisten? Dann findest du hier Projekte und Initiativen zum Mitmachen!",
+		"Es gibt bereits viele spannende Projekte und Organisationen vor Ort. Du hast Lust, selbst einen positiven Beitrag zu leisten? Dann findest du hier Projekte und Initiativen zum Mitmachen!",
 	"currentProjects.greenCardCtaLabel": "Finde passende Projekte",
 	"currentProjects.greenCardCtaLink":
-		"https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/service-und-organisationseinheiten/klima-und-internationales/artikel.1408194.php",
+		"https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/service-und-organisationseinheiten/klima-und-internationales/artikel.1527799.php",
 	/**
 	 * projects
 	 */
@@ -584,7 +584,7 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 		"Im Dezember 2024 hat das Bezirksamt das Klimaschutzkonzept und das Klimaanpassungskonzept beschlossen. Jetzt gilt es, darauf aufzubauen und konkrete  Projekte zielführend voranzubringen.",
 	"about.thirdSectionTitle": "Wer? Das Klimateam Xhain",
 	"about.thirdSectionDescription":
-		"Das vierköpfige Klimateam der Organisationseinheit „Klima und Internationales“, besteht aus zwei Klimaschutzmanagerinnen, einer Klimaanpassungsmanagerin und dem Klimabeauftragten. Gemeinsam unterstützen sie die Umsetzung klimawirksamer Maßnahmen. Gleichzeitig vermitteln und vernetzten sie die verschiedenen Akteursgruppen im Bezirk, wenn es um Fragen des Klimaschutzes und  der Klimaanpassung geht. Denn Klimaschutz und Klimaanpassung können nur gemeinsam gelingen!",
+		"Das vierköpfige Klimateam der Organisationseinheit „Klima und Internationales“ besteht aus zwei Klimaschutzmanagerinnen, einer Klimaanpassungsmanagerin und dem Klimabeauftragten. Gemeinsam unterstützen sie die Umsetzung klimawirksamer Maßnahmen. Gleichzeitig vermitteln und vernetzten sie die verschiedenen Akteursgruppen im Bezirk, wenn es um Fragen des Klimaschutzes und  der Klimaanpassung geht. Denn Klimaschutz und Klimaanpassung können nur gemeinsam gelingen!",
 	"about.actionCardTitle": `Fragen?<br/>Schreib dem Klimateam Xhain.`,
 	"about.actionCardEmail": "E-mail ans Klimateam",
 
@@ -603,7 +603,7 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 	 * Footer
 	 */
 	"footer.cardHeading":
-		"Hast du Fragen zum Klimadashboard und den Klimakonzepten?",
+		"Hast du Fragen zum KlimaDashboard und den Klimakonzepten?",
 	"footer.cardSubHeading": "Schreib uns!",
 	"footer.cardCtaButtonText": "E-mail ans Klimateam",
 	"footer.cardCtaEmail": "klima_und_internationales@ba-fk.berlin.de",
