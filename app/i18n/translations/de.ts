@@ -231,8 +231,6 @@ Somit ist es wichtig, alle Akteure - Bürger:innen, Unternehmen und öffentliche
 	"chart.heatingMix2021Summarized.districtHeating": "Fernwärme",
 	"chart.heatingMix2021Summarized.fossil": "Sonstige fossile",
 	"chart.heatingMix2021Summarized.renewable": "Erneuerbare Energien",
-	"chart.heatingMix2021Summarized.infoDialog.sourceTitle": "",
-	"chart.heatingMix2021Summarized.infoDialog.sourceLabel": "",
 	"chart.heatingMix2021Summarized.infoDialog.learnMoreLink":
 		"/climate-concepts/#energy-buildings",
 	"chart.heatingMix2021Summarized.infoDialog.description": `Der Wärmemix Xhains zeigt, dass die Wärmeversorgung Stand jetzt überwiegend über Erdgas und Fernwärme erfolgt. Demnach ist neben der Senkung des Wärmeverbrauchs die Dekarbonisierung der Wärmeversorgung  - also die Umstellung auf eine klimafreundliche Wärmeversorgung ein wichtiger Hebel um die wärmebedingten Emissionen zu reduzieren. 
