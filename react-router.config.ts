@@ -12,10 +12,8 @@ export default {
 			"/en/current-projects/",
 			"/climate-concepts/",
 			"/en/climate-concepts/",
-			"/imprint/",
-			"/en/imprint/",
-			"/privacy/",
-			"/en/privacy/",
+			"/imprint-privacy/",
+			"/en/imprint-privacy/",
 		];
 	},
 } satisfies Config;

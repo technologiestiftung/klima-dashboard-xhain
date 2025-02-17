@@ -596,16 +596,45 @@ For example, heavy rainfall events in June 2017 and July 2018 caused severe floo
 	"about.actionCardEmail": "E-mail the climate team",
 
 	/**
-	 * Imprint Page
+	 * Imprint & data privacy page
 	 */
-	"imprint.title": "Imprint",
-	"imprint.heading": "District Office Friedrichshain-Kreuzberg",
-	"imprint.description": `Department of Finance, Personnel, Economy, Culture, Diversity, and Climate  
+	"imprintPrivacy.title": "Imprint and data privacy",
+	"imprintPrivacy.imprint.heading": "District Office Friedrichshain-Kreuzberg",
+	"imprintPrivacy.imprint.description": `Department of Finance, Personnel, Economy, Culture, Diversity, and Climate  
 		Organizational Unit for Climate and International Affairs<br/><br/>
 		Frankfurter Allee 35/37<br/>
 		10247 Berlin<br/>
 		Germany<br/><br/>
+		E-Mail: <a
+			href="mailto: klima_und_internationales@ba-fk.berlin.de"
+			target="_blank"
+			rel="noopener noreferrer"
+			 class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'
+			>
+			klima_und_internationales@ba-fk.berlin.de</a><br/><br/>
 		Head of the Organizational Unit for Climate and International Affairs: Lennart Aldick`,
+	"imprintPrivacy.privacy.heading": "Data privacy",
+	"imprintPrivacy.privacy.description": `Data protection officer<br/>
+		Frankfurter Allee 35-37<br/>
+		10247 Berlin<br/>
+		E-Mail: <a
+			href="mailto: datenschutz@ba-fk.berlin.de"
+			target="_blank"
+			rel="noopener noreferrer"
+			class='underline underline-offset-4'
+			>
+			datenschutz@ba-fk.berlin.de</a>`,
+	"imprintPrivacy.disclaimer.heading": "Disclaimer",
+	"imprintPrivacy.disclaimer.description": `The content published on the website of the Friedrichshain-Kreuzberg District Office of Berlin has been researched with the utmost care. Nevertheless, the Bezirksamt Friedrichshain-Kreuzberg von Berlin cannot guarantee that the information provided is up-to-date, correct or complete. All information is provided without guarantee. Liability claims derived from the use of this information against the Friedrichshain-Kreuzberg District Office, the State of Berlin or the operator of 
+	“<a
+			href="https://www.berlin.de/"
+			target="_blank"
+			rel="noopener noreferrer"
+			class='underline underline-offset-4'
+		>berlin.de</a>” are excluded.`,
+	"imprintPrivacy.copyright.heading": "Copyright",
+	"imprintPrivacy.copyright.description": `The layout of the pages of the Friedrichshain-Kreuzberg District Office of Berlin, the graphics, photos, moving images, texts and the collection of articles used are protected by copyright. The use of the content is only permitted within the framework of the statutory provisions.`,
+
 
 	/**
 	 * Footer
@@ -616,8 +645,7 @@ For example, heavy rainfall events in June 2017 and July 2018 caused severe floo
 	"footer.cardCtaButtonText": "E-mail the climate team",
 	"footer.cardCtaEmail": "klima_und_internationales@ba-fk.berlin.de",
 	"footer.bezirksamtXhainAltText": "bezirksamt xhain logo",
-	"footer.imprint": "Imprint",
-	"footer.privacyPolicy": "Privacy Policy",
+	"footer.imprint": "Imprint and data privacy",
 	"footer.projectOwnerLabel": "A project of",
 	"footer.projectExecutionerLabel": "Implemented by",
 	"footer.cityLABLogoAltText": "Logo of the CityLAB Berlin",

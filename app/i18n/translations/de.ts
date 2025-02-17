@@ -589,15 +589,43 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 	"about.actionCardEmail": "E-mail ans Klimateam",
 
 	/**
-	 * Imprint Page
+	 * Imprint & data privacy page
 	 */
-	"imprint.title": "Impressum",
-	"imprint.heading": "Bezirksamt Friedrichshain-Kreuzberg",
-	"imprint.description": `Abteilung Finanzen, Personal, Wirtschaft, Kultur, Diversity und Klima Organisationseinheit Klima und Internationales<br/><br/>
+	"imprintPrivacy.title": "Impressum und Datenschutz",
+	"imprintPrivacy.imprint.heading": "Bezirksamt Friedrichshain-Kreuzberg",
+	"imprintPrivacy.imprint.description": `Abteilung Finanzen, Personal, Wirtschaft, Kultur, Diversity und Klima Organisationseinheit Klima und Internationales<br/><br/>
 		Frankfurter Allee 35/37<br/>
 		10247 Berlin<br/>
 		Deutschland<br/><br/>
+		E-Mail: <a
+			href="mailto: klima_und_internationales@ba-fk.berlin.de"
+			target="_blank"
+			rel="noopener noreferrer"
+			 class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'
+			>
+			klima_und_internationales@ba-fk.berlin.de</a><br/><br/>
 		Leitung der Organisationseinheit Klima und Internationales: Lennart Aldick`,
+	"imprintPrivacy.privacy.heading": "Datenschutz",
+	"imprintPrivacy.privacy.description": `Behördlicher Datenschutzbeauftragte*r<br/>
+		Frankfurter Allee 35-37<br/>
+		10247 Berlin<br/>
+		E-Mail: <a
+			href="mailto: datenschutz@ba-fk.berlin.de"
+			target="_blank"
+			rel="noopener noreferrer"
+			 class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'
+			>
+			datenschutz@ba-fk.berlin.de</a>`,
+	"imprintPrivacy.disclaimer.heading": "Haftungshinweis",
+	"imprintPrivacy.disclaimer.description": `Die im Angebot des Bezirksamtes Friedrichshain-Kreuzberg von Berlin veröffentlichten Inhalte sind mit größter Sorgfalt recherchiert. Dennoch kann das Bezirksamt Friedrichshain-Kreuzberg von Berlin keine Gewähr für die Aktualität, Korrektheit oder Vollständigkeit der bereitgestellten Informationen übernehmen. Alle Angaben erfolgen ohne Gewähr. Aus der Nutzung dieser Informationen abgeleitete Haftungsansprüche gegen das Bezirksamt Friedrichshain-Kreuzberg, das Land Berlin oder den Betreiber von 
+	“<a
+			href="https://www.berlin.de/"
+			target="_blank"
+			rel="noopener noreferrer"
+			class='underline underline-offset-4'
+		>berlin.de</a>” sind ausgeschlossen.`,
+	"imprintPrivacy.copyright.heading": "Urheberrecht",
+	"imprintPrivacy.copyright.description": `Das Layout der Seiten des Bezirksamtes Friedrichshain-Kreuzberg von Berlin, die verwendeten Grafiken, Fotos, Bewegtbilder, Texte sowie die Sammlung der Beiträge sind urheberrechtlich geschützt. Die Nutzung der Inhalte ist nur im Rahmen der gesetzlichen Bestimmungen zulässig.`,
 
 	/**
 	 * Footer
@@ -608,8 +636,7 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 	"footer.cardCtaButtonText": "E-mail ans Klimateam",
 	"footer.cardCtaEmail": "klima_und_internationales@ba-fk.berlin.de",
 	"footer.bezirksamtXhainAltText": "bezirksamt xhain logo",
-	"footer.imprint": "Impressum",
-	"footer.privacyPolicy": "Datenschutz",
+	"footer.imprint": "Impressum und Datenschutz",
 	"footer.projectOwnerLabel": "Ein Projekt der",
 	"footer.projectExecutionerLabel": "Gefördert durch",
 	"footer.cityLABLogoAltText": "Logo vom CityLAB Berlin",
