@@ -19,8 +19,10 @@ export const DialogContent: React.FC<DialogContentProps> = ({ id }) => {
 	const subTitle = i18n(`chart.${id}.subtitle`);
 
 	const description = i18n(`chart.${id}.infoDialog.description`);
-	const sourceTitle = i18n(`chart.${id}.infoDialog.sourceTitle` as keyof typeof i18n) || null;
-	const sourceLabel = i18n(`chart.${id}.infoDialog.sourceLabel` as keyof typeof i18n) || null;
+	const sourceTitle =
+		i18n(`chart.${id}.infoDialog.sourceTitle` as keyof typeof i18n) || null;
+	const sourceLabel =
+		i18n(`chart.${id}.infoDialog.sourceLabel` as keyof typeof i18n) || null;
 
 	const learnMoreLabel = i18n(`chart.infoDialog.learnMoreLabel`);
 	const learnMoreLink = i18n(`chart.${id}.infoDialog.learnMoreLink`);
@@ -38,14 +40,14 @@ export const DialogContent: React.FC<DialogContentProps> = ({ id }) => {
 				/>
 			</div>
 
-			{sourceTitle && sourceLabel && ( 
-			<div className="flex flex-row text-sm leading-5 gap-2.5">
-				<p className="font-semibold grow-1 shrink-0">{sourceTitle}</p>
-				<div
-					className="*:underline"
-					dangerouslySetInnerHTML={{ __html: sourceLabel }}
-				/>
-			</div>
+			{sourceTitle && sourceLabel && (
+				<div className="flex flex-row text-sm leading-5 gap-2.5">
+					<p className="font-semibold grow-1 shrink-0">{sourceTitle}</p>
+					<div
+						className="*:underline"
+						dangerouslySetInnerHTML={{ __html: sourceLabel }}
+					/>
+				</div>
 			)}
 
 			<div className="flex flex-row justify-between gap-x-5">

@@ -429,7 +429,8 @@ For example, heavy rainfall events in June 2017 and July 2018 caused severe floo
 	"chart.HBI.infoDialog.factors.humanSensitivity.inhabitansOld":
 		"Density of inhabitants > 65 years",
 	"chart.HBI.infoDialog.factors.humanSensitivity.workers": "Workers",
-	"chart.HBI.infoDialog.factors.humanSensitivity.socialIndex": "Social and economic disadvantage",
+	"chart.HBI.infoDialog.factors.humanSensitivity.socialIndex":
+		"Social and economic disadvantage",
 	"chart.HBI.infoDialog.factors.envSensitivity": "Environmental Sensitivity",
 	"chart.HBI.infoDialog.factors.envSensitivity.greenvolume": "Green volume",
 	"chart.HBI.infoDialog.factors.envSensitivity.sealing": "Sealing",
@@ -498,10 +499,10 @@ For example, heavy rainfall events in June 2017 and July 2018 caused severe floo
 	"currentProjects.project2.title": "Yard greening programme",
 	"currentProjects.project2.description":
 		"Unsealing and greening inner courtyards can improve the microclimate and quality of living as well as promote the diversity of animals and plants. Tenants can receive up to 3,000 euros in funding for this. More than 100 people sought advice by phone or on site from March to October 2024.",
-	"currentProjects.project2.imageAltText": "Child playing",
+	"currentProjects.project2.imageAltText": "Green yard",
 	"currentProjects.project2.link":
 		"https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/aemter/umwelt-und-naturschutzamt/umweltbildung/artikel.1043011.php#headline_1_5",
-	"currentProjects.project2.imageSource": "Image: Kareen Kittelmann",
+	"currentProjects.project2.imageSource": "Image: Grüne Liga Berlin",
 
 	"currentProjects.project3.title": "Parking space management",
 	"currentProjects.project3.description":
@@ -636,7 +637,8 @@ For example, heavy rainfall events in June 2017 and July 2018 caused severe floo
 		"Teilkonzept Stadtgrün und Biodiversität (German)",
 	"climateConcepts.adaptionConcept.a.4.label":
 		"Teilkonzept Stadtplanung- und entwicklung (German)",
-	"climateConcepts.adaptionConcept.a.5.label": "Teilkonzept Gesundheit (German)",
+	"climateConcepts.adaptionConcept.a.5.label":
+		"Teilkonzept Gesundheit (German)",
 	"climateConcepts.adaptionConcept.a.6.label":
 		"Kurzfassung Klimaanpassungskonzept (German)",
 	"climateConcepts.actionCard.title":

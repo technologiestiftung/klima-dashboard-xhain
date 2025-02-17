@@ -158,7 +158,7 @@ Der Verkehr verursacht 14% der Emissionen. Weiterhin sind auch die bezirklichen 
 		"Konsum- und Ernährungsbedingte Emissionen",
 	"chart.consumptionEmissionsTons.subtitle": "in 2024",
 	"chart.consumptionEmissionsTons.description":
-		"Im Jahr 2024 sind Ø 4,1 Tonnen CO₂-e pro Jahr und Person durch Ernährung und Konsum verursacht worden. Auch wenn Emissionen größtenteils außerhalb der Bezirksgrenzen entstehen, sind sie klimarelevant und können durch das Verhalten von Produzenten und Konsumenten hier vor Ort reduziert werden.",
+		"Im Jahr 2024 sind Ø 4,1 Tonnen CO₂-Äquivalent pro Jahr und Person durch Ernährung und Konsum verursacht worden. Auch wenn Emissionen größtenteils außerhalb der Bezirksgrenzen entstehen, sind sie klimarelevant und können durch das Verhalten von Produzenten und Konsumenten hier vor Ort reduziert werden.",
 	"chart.consumptionEmissionsTons.keys.xhain": "Xhain",
 	"chart.consumptionEmissionsTons.keys.per_person": "Pro Person",
 	"chart.consumptionEmissionsTons.descriptionText":
@@ -232,8 +232,7 @@ Somit ist es wichtig, alle Akteure - Bürger:innen, Unternehmen und öffentliche
 	"chart.heatingMix2021Summarized.fossil": "Sonstige fossile",
 	"chart.heatingMix2021Summarized.renewable": "Erneuerbare Energien",
 	"chart.heatingMix2021Summarized.infoDialog.sourceTitle": "",
-	"chart.heatingMix2021Summarized.infoDialog.sourceLabel":
-		"",
+	"chart.heatingMix2021Summarized.infoDialog.sourceLabel": "",
 	"chart.heatingMix2021Summarized.infoDialog.learnMoreLink":
 		"/climate-concepts/#energy-buildings",
 	"chart.heatingMix2021Summarized.infoDialog.description": `Der Wärmemix Xhains zeigt, dass die Wärmeversorgung Stand jetzt überwiegend über Erdgas und Fernwärme erfolgt. Demnach ist neben der Senkung des Wärmeverbrauchs die Dekarbonisierung der Wärmeversorgung  - also die Umstellung auf eine klimafreundliche Wärmeversorgung ein wichtiger Hebel um die wärmebedingten Emissionen zu reduzieren. 
@@ -426,7 +425,8 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 	"chart.HBI.infoDialog.factors.humanSensitivity.inhabitansOld":
 		"Dichte an Einwohnenden > 65 Jahre",
 	"chart.HBI.infoDialog.factors.humanSensitivity.workers": "Arbeitnehmende",
-	"chart.HBI.infoDialog.factors.humanSensitivity.socialIndex": "Soziale und wirtschaftliche Benachteiligung",
+	"chart.HBI.infoDialog.factors.humanSensitivity.socialIndex":
+		"Soziale und wirtschaftliche Benachteiligung",
 	"chart.HBI.infoDialog.factors.envSensitivity": "Umwelt Sensitivität",
 	"chart.HBI.infoDialog.factors.envSensitivity.greenvolume": "Grünvolumen",
 	"chart.HBI.infoDialog.factors.envSensitivity.sealing": "Versiegelung",
@@ -472,8 +472,7 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 	"currentProjects.featureImageAltText":
 		"Eine Person läuft mit einem Fahrrad auf einer teilweise gesperrten Straße, umgeben von Bauabsperrungen und Grünanlagen.",
 	"currentProjects.projectCardCtaLabel": "Zum Projekt",
-	"currentProjects.greenCardTitle":
-		"Gemeinsam Klimaprojekte voranbringen",
+	"currentProjects.greenCardTitle": "Gemeinsam Klimaprojekte voranbringen",
 	"currentProjects.greenCardDescription":
 		"Es gibt bereits viele spannende Projekte und Organisationen vor Ort. Du hast Lust, selbst einen positiven Beitrag zu leisten? Dann findest du hier Projekte und Initiativen zum Mitmachen!",
 	"currentProjects.greenCardCtaLabel": "Finde passende Projekte",
@@ -490,13 +489,13 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 		"https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/service-und-organisationseinheiten/klima-und-internationales/artikel.1429649.php",
 	"currentProjects.project1.imageSource": "Bild: BAFK",
 
-	"currentProjects.project2.title": "Grünberatung",
+	"currentProjects.project2.title": "Grüne Höfe",
 	"currentProjects.project2.description":
 		"Die Entsiegelung und Begrünung von Innenhöfen kann das Mikroklima und die Wohnqualität verbessern sowie die Vielfalt von Tieren und Pflanzen fördern. Mieter*innen können dafür bis zu 3000 Euro Förderung erhalten. Mehr als 100 Personen haben sich 2024 telefonisch oder vor Ort von März bis Oktober beraten lassen.",
-	"currentProjects.project2.imageAltText": "Kind spielt",
+	"currentProjects.project2.imageAltText": "Grüner Innenhof",
 	"currentProjects.project2.link":
 		"https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/aemter/umwelt-und-naturschutzamt/umweltbildung/artikel.1043011.php#headline_1_5",
-	"currentProjects.project2.imageSource": "Bild: Kareen Kittelmann",
+	"currentProjects.project2.imageSource": "Bild: Grüne Liga Berlin",
 
 	"currentProjects.project3.title": "Parkraumbewirtschaftung",
 	"currentProjects.project3.description":

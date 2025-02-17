@@ -18,7 +18,10 @@ import { BigTooltip } from "~/components/tooltip/big-tooltip.tsx";
 export const meta = () => {
 	return [
 		{ title: "KlimaDashboard Xhain" },
-		{ name: "description", content: "Zahlen, Fakten, Handlungsbedarf - für ein lebenswertes Xhain" },
+		{
+			name: "description",
+			content: "Zahlen, Fakten, Handlungsbedarf - für ein lebenswertes Xhain",
+		},
 	];
 };
 
