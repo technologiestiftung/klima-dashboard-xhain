@@ -12,16 +12,18 @@ export const FooterLeftSection: React.FC = () => {
 			/>
 			<div className="flex flex-col gap-5 md:gap-4 items-center lg:items-start text-white text-xl leading-7 md:text-2xl md:leading-8 lg:text-xl lg:leading-7 font-semibold">
 				<a
-					href={buildLocalizedLink("/imprint/")}
+					href={buildLocalizedLink("/imprint-privacy/")}
 					className="w-fit hover:underline hover:underline-offset-8 hover:decoration-1 focus-white"
 				>
 					{i18n("footer.imprint")}
 				</a>
 				<a
-					href={buildLocalizedLink("/privacy/")}
+					href={i18n("footer.feedbackLink")}
 					className="w-fit hover:underline hover:underline-offset-8 hover:decoration-1 focus-white"
+					target="_blank"
+					rel="noopener noreferrer"
 				>
-					{i18n("footer.privacyPolicy")}
+					{i18n("footer.feedback")}
 				</a>
 			</div>
 		</div>

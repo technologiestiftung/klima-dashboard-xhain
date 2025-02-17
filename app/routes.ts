@@ -5,6 +5,5 @@ export default [
 	route(":lang?/about/", "./routes/about/index.tsx"),
 	route(":lang?/climate-concepts/", "./routes/climate-concepts/index.tsx"),
 	route(":lang?/current-projects/", "./routes/current-projects/index.tsx"),
-	route(":lang?/imprint/", "./routes/imprint/index.tsx"),
-	route(":lang?/privacy/", "./routes/privacy/index.tsx"),
+	route(":lang?/imprint-privacy/", "./routes/imprint-privacy/index.tsx"),
 ] satisfies RouteConfig;
