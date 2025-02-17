@@ -50,7 +50,7 @@ export const DialogContentHBI: React.FC = () => {
 							<div className="flex justify-center items-center gap-2 px-1 w-full bg-xhain-blue-30 font-bold leading-6">
 								{section.title}
 							</div>
-							<div className="flex flex-col gap-0.5">
+							<div className="flex flex-col gap-2 leading-tight">
 								{section.content.map((item, idx) => (
 									<div key={idx}>{item}</div>
 								))}

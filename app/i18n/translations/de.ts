@@ -131,8 +131,6 @@ export const de = {
 	"chart.thgTotalTons.keys.heating_tons": "Wärme",
 	"chart.thgTotalTons.keys.electricity_tons": "Strom",
 	"chart.thgTotalTons.keys.fuels_tons": "Kraftstoffe",
-	"chart.thgTotalTons.infoDialog.sourceTitle": "Auszug aus",
-	"chart.thgTotalTons.infoDialog.sourceLabel": "Klimaschutzkonzept Langfassung",
 	"chart.thgTotalTons.infoDialog.learnMoreLink":
 		"/climate-concepts/#climate-concept-full",
 	"chart.thgTotalTons.infoDialog.description": `Die Emissionen, die durch den Energieverbrauch entstehen, werden mit sogenannten Emissionsfaktoren berechnet. Ein Emissionsfaktor zeigt, wie viele Treibhausgase freigesetzt werden, wenn ein bestimmter Energieträger – wie Gas, Strom oder Öl – erzeugt, transportiert und genutzt wird. So lässt sich einschätzen, wie klimaschädlich der Verbrauch einer bestimmten Energiequelle ist.
@@ -148,9 +146,6 @@ Zum Beispiel hat Strom aus Windkraft einen sehr niedrigen Emissionsfaktor, währ
 	"chart.thgSector2021Tons.keys.sector": "Sektor",
 	"chart.thgSector2021Tons.keys.total_tons": "Summe in Tonnen THG",
 	"chart.thgSector2021Tons.keys.percentage": "Prozent",
-	"chart.thgSector2021Tons.infoDialog.sourceTitle": "Auszug aus",
-	"chart.thgSector2021Tons.infoDialog.sourceLabel":
-		"Klimaschutzkonzept Langfassung",
 	"chart.thgSector2021Tons.infoDialog.learnMoreLink":
 		"/climate-concepts/#climate-concept-full",
 	"chart.thgSector2021Tons.infoDialog.description": `Obwohl die Haushalte einen deutlich größten Anteil am Energieverbrauch aufweisen (siehe Kachel Endenergieverbrauch nach Sektoren), verursacht die Wirtschaft ein wenig mehr Emissionen (43 %) als die privaten Haushalte (42 %). Dies liegt an den unterschiedlichen Emissionsfaktoren der Energieträger für Strom und Wärme.
@@ -163,13 +158,13 @@ Der Verkehr verursacht 14% der Emissionen. Weiterhin sind auch die bezirklichen 
 		"Konsum- und Ernährungsbedingte Emissionen",
 	"chart.consumptionEmissionsTons.subtitle": "in 2024",
 	"chart.consumptionEmissionsTons.description":
-		"Im Jahr 2024 sind Ø 4,1 Tonnen CO2-e pro Jahr und Person durch Ernährung und Konsum verursacht worden. Auch wenn Emissionen größtenteils außerhalb der Bezirksgrenzen entstehen, sind sie klimarelevant und können durch das Verhalten von Produzenten und Konsumenten hier vor Ort reduziert werden.",
+		"Im Jahr 2024 sind Ø 4,1 Tonnen CO₂-e pro Jahr und Person durch Ernährung und Konsum verursacht worden. Auch wenn Emissionen größtenteils außerhalb der Bezirksgrenzen entstehen, sind sie klimarelevant und können durch das Verhalten von Produzenten und Konsumenten hier vor Ort reduziert werden.",
 	"chart.consumptionEmissionsTons.keys.xhain": "Xhain",
 	"chart.consumptionEmissionsTons.keys.per_person": "Pro Person",
 	"chart.consumptionEmissionsTons.descriptionText":
 		"Um diese Menge zu binden, müssen viele Bäume ein Jahr lang wachsen",
 	"chart.consumptionEmissionsTons.millionUnit": "Mio.",
-	"chart.consumptionEmissionsTons.co2Unit": "Tonnen Co2",
+	"chart.consumptionEmissionsTons.co2Unit": "Tonnen CO₂",
 	"chart.consumptionEmissionsTons.trees": "Bäume",
 	"chart.consumptionEmissionsTons.infoDialog.sourceTitle": "Quelle",
 	"chart.consumptionEmissionsTons.infoDialog.sourceLabel": `<a
@@ -187,8 +182,8 @@ Der Verkehr verursacht 14% der Emissionen. Weiterhin sind auch die bezirklichen 
 				Dienstleistungen, deren Produktion und Transport außerhalb der
 				Bezirksgrenzen stattfindet. Dazu gehören zum Beispiel
 				<ul>
-					<li>Produktion und Transport von Nahrungsmitteln <br/>(im Jahr 2021 1,69 t CO2-e)</li>
-					<li>Sonstiger Konsum (im Jahr 2021 3,79 t CO2-e), darunter:</li>
+					<li>Produktion und Transport von Nahrungsmitteln <br/>(im Jahr 2021 1,69 t CO₂-Äquivalente)</li>
+					<li>Sonstiger Konsum (im Jahr 2021 3,79 t CO₂-Äquivalente), darunter:</li>
 					<ol>
 						<li>Herstellung von Möbeln, Haushaltsgeräten oder Kleidung</li>
 						<li>Herstellung von elektronischen Geräten</li>
@@ -207,8 +202,6 @@ Der Verkehr verursacht 14% der Emissionen. Weiterhin sind auch die bezirklichen 
 	"chart.eevTotalMwh.keys.heating_mwh": "Heizung in Megawattstunden",
 	"chart.eevTotalMwh.keys.electricity_mwh": "Strom in Megawattstunden",
 	"chart.eevTotalMwh.keys.fuels_mwh": "Kraftstoffe in Megawattstunden",
-	"chart.eevTotalMwh.infoDialog.sourceTitle": "Auszug aus",
-	"chart.eevTotalMwh.infoDialog.sourceLabel": "Klimaschutzkonzept Langfassung",
 	"chart.eevTotalMwh.infoDialog.learnMoreLink":
 		"/climate-concepts/#climate-concept-full",
 	"chart.eevTotalMwh.infoDialog.description": `Der größte Teil des Energieverbrauchs entsteht durch den Wärmebedarf, also insbesondere durch das Heizen von Gebäuden und die Aufbereitung von Warmwasser. Das macht aktuell 56,9 % des bezirklichen Energieverbrauchs aus. 32,3 % entfallen auf den Stromverbrauch, z. B. für Beleuchtung oder technische Geräte. Den kleinsten, aber dennoch relevanten Verbrauch verursachen die Kraftstoffen mit 10,8 %.
@@ -220,9 +213,6 @@ Diese Zahlen zeigen klar, dass der größte Handlungsbedarf im Bereich der Wärm
 	"chart.eevSector2021Mwh.keys.sector": "Sektor",
 	"chart.eevSector2021Mwh.keys.total_mwh": "Summe in Megawattstunden",
 	"chart.eevSector2021Mwh.keys.percentage": "Prozent",
-	"chart.eevSector2021Mwh.infoDialog.sourceTitle": "Auszug aus",
-	"chart.eevSector2021Mwh.infoDialog.sourceLabel":
-		"Klimaschutzkonzept Langfassung",
 	"chart.eevSector2021Mwh.infoDialog.learnMoreLink":
 		"/climate-concepts/#climate-concept-full",
 	"chart.eevSector2021Mwh.infoDialog.description": `Die privaten Haushalte sind mit einem Anteil von 50,4 % die größten Energieverbraucher in unserem dicht besiedelten Bezirk. Dies ist z.B. auf die hohe Anzahl an Haushalten und auf Faktoren wie Wärmeverluste durch viele alte, unsanierte Gebäude zurückzuführen. 
@@ -241,9 +231,9 @@ Somit ist es wichtig, alle Akteure - Bürger:innen, Unternehmen und öffentliche
 	"chart.heatingMix2021Summarized.districtHeating": "Fernwärme",
 	"chart.heatingMix2021Summarized.fossil": "Sonstige fossile",
 	"chart.heatingMix2021Summarized.renewable": "Erneuerbare Energien",
-	"chart.heatingMix2021Summarized.infoDialog.sourceTitle": "Auszug aus",
+	"chart.heatingMix2021Summarized.infoDialog.sourceTitle": "",
 	"chart.heatingMix2021Summarized.infoDialog.sourceLabel":
-		"Teilkonzept Energie und Gebäude",
+		"",
 	"chart.heatingMix2021Summarized.infoDialog.learnMoreLink":
 		"/climate-concepts/#energy-buildings",
 	"chart.heatingMix2021Summarized.infoDialog.description": `Der Wärmemix Xhains zeigt, dass die Wärmeversorgung Stand jetzt überwiegend über Erdgas und Fernwärme erfolgt. Demnach ist neben der Senkung des Wärmeverbrauchs die Dekarbonisierung der Wärmeversorgung  - also die Umstellung auf eine klimafreundliche Wärmeversorgung ein wichtiger Hebel um die wärmebedingten Emissionen zu reduzieren. 
@@ -265,8 +255,6 @@ Das bedeutet, dass die erdgasbasierte Versorgung durch erneuerbare Energien, wie
 	"chart.modalSplit2018.keys.oepnv": "Öffentlicher Personen-Nahverkehr",
 	"chart.modalSplit2018.keys.foot": "Fußgänger:innen",
 	"chart.modalSplit2018.keys.bike": "Fahradfahrende",
-	"chart.modalSplit2018.infoDialog.sourceTitle": "Auszug aus",
-	"chart.modalSplit2018.infoDialog.sourceLabel": "Teilkonzept Mobilität",
 	"chart.modalSplit2018.infoDialog.learnMoreLink":
 		"/climate-concepts/#mobility",
 	"chart.modalSplit2018.infoDialog.description": `Der Umweltverbund, d.h. Öffis, Rad- und Fußverkehr, macht in Berlin bereits einen hohen Anteil aus. Die Zahlen verdeutlichen das wir als Bezirk als Vorbild vorangehen, hier werden bereits 86,5 % der Wege mit umweltfreundlichen Verkehrsmitteln zurückgelegt. Dennoch hat der Verkehrssektor weiterhin erhebliche Auswirkungen auf unser Klima. Trotz des geringen MIV-Anteils von 13,5 % verursacht der Verkehr Emissionen in Höhe von 153.000 Tonnen CO2-Äquivalenten pro Jahr und macht damit etwa 13,6 % der gesamten Emissionen des Bezirks im Jahr 2021 aus.
@@ -277,8 +265,6 @@ Nicht nur für den Klimaschutz, sondern auch für die Luft- und die Lärmbelastu
 	"chart.traffic2022Summarized.subtitle": "nach Bereich in %",
 	"chart.traffic2022Summarized.keys.sector": "Sektor",
 	"chart.traffic2022Summarized.keys.percentage_thg": "Prozent Treibhausgas",
-	"chart.traffic2022Summarized.infoDialog.sourceTitle": "Auszug aus",
-	"chart.traffic2022Summarized.infoDialog.sourceLabel": "Teilkonzept Mobilität",
 	"chart.traffic2022Summarized.infoDialog.learnMoreLink":
 		"/climate-concepts/#mobility",
 	"chart.traffic2022Summarized.infoDialog.description": `Im Rahmen der Klimabilanz sind alle Fahrten, welche in Xhain starten oder enden oder bei denen sowohl Start- und Ziel im Bezirk liegen berücksichtigt worden. Dazu gehören neben den Öffis auch ein geringer Anteil der Binnenschifffahrt. Nicht berücksichtigt sind z.B. Flugreisen der Bevölkerung oder der Tourist*innen, da der Flughafen außerhalb der Bezirksgrenze liegt.
@@ -288,20 +274,17 @@ Demnach gilt es den Motorisierten Individualverkehr zu reduzieren und zu elektri
 	"chart.restBudgetThgUntilYear.title": "Restbudget-Eimer",
 	"chart.restBudgetThgUntilYear.subtitle": "des 1,75 Grad Klimaziels",
 	"chart.restBudgetThgUntilYear.keys.year": "Jahr",
-	"chart.restBudgetThgUntilYear.keys.tons_co2": "CO2 Budget",
+	"chart.restBudgetThgUntilYear.keys.tons_co2": "CO₂ Budget",
 	"chart.restBudgetThgUntilYear.unit": "Mio. Tonnen",
 	"chart.restBudgetThgUntilYear.remainingBudget":
 		"Verbleibendes CO2–Budget bis",
-	"chart.restBudgetThgUntilYear.text": `Das verbleibende CO2-Budget Xhains beträgt insgesamt nur noch 12,2 Mio. Tonnen, um die Erderwärmung auf maximal 1,75° zu begrenzen.
+	"chart.restBudgetThgUntilYear.text": `Das verbleibende CO₂-Budget Xhains beträgt insgesamt nur noch 12,2 Mio. Tonnen, um die Erderwärmung auf maximal 1,75° zu begrenzen.
 <br/>
 Wenn Xhain so weitermacht wie bisher, wäre dieses lokale Restbudget bereits 2032 aufgebraucht – der Eimer würde sprichwörtlich überlaufen und die Risiken für Menschen, Ökosysteme und Infrastrukturen dramatisch steigen.
 <br/>
 Dieses Ziel markiert die Grenze, ab der die Risiken für Menschen, Ökosysteme und Infrastruktur dramatisch zunehmen.
 <br/>
 Um dies zu vermeiden, müssen wir jetzt ambitionierter und auch schneller handeln.`,
-	"chart.restBudgetThgUntilYear.infoDialog.sourceTitle": "Auszug aus",
-	"chart.restBudgetThgUntilYear.infoDialog.sourceLabel":
-		"Klimaschutzkonzept Kurzfassung",
 	"chart.restBudgetThgUntilYear.infoDialog.learnMoreLink":
 		"/climate-concepts/#climate-concept-summary",
 	"chart.restBudgetThgUntilYear.infoDialog.description": `Das Pariser Klimaabkommen bildet den internationalen Rahmen, um die globale Erwärmung auf deutlich unter 2°C, möglichst aber auf 1,5°C zu begrenzen. Auf Landesebene werden diese Zielsetzungen durch das Berliner Energiewendegesetz (EWG Bln) mit dem Ziel der Klimaneutralität bis 2045 ergänzt. Im Klimaschutzkonzept von Xhain wird das 1,75°-Ziel als Orientierung gewählt, da Prognosen und Emissionstrends zeigen, dass das 1,5°-Ziel immer schwieriger zu erreichen ist. 
@@ -319,9 +302,6 @@ Um die Ziele von Paris lokal umzusetzen, wird der sogenannte Restbudget-Ansatz g
 	"chart.reductionPathScenario175Thg.legend.goal": "Ziel Land Berlin",
 	"chart.reductionPathScenario175Thg.description":
 		"Das Klimaschutzszenario zeigt auf wie Xhain das Ziel der Klimaneutralität bis 2045 unter Einhaltung des lokal verbleibenden Restbudgets erreichen kann. Dazu müssen wir gemeinsam und innovativ vorangehen.",
-	"chart.reductionPathScenario175Thg.infoDialog.sourceTitle": "Auszug aus",
-	"chart.reductionPathScenario175Thg.infoDialog.sourceLabel":
-		"Klimaschutzkonzept Langfassung",
 	"chart.reductionPathScenario175Thg.infoDialog.learnMoreLink":
 		"/climate-concepts/#climate-concept-full",
 	"chart.reductionPathScenario175Thg.infoDialog.description": `In den vergangenen Jahren haben wir die Klimaschutzziele des Landes Berlin verfehlt. Um bis 2030 auf den Zielpfad zurückzukehren, müssen wir Emissionen deutlicher reduzieren und entschlossener handeln.
@@ -431,8 +411,7 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 				target="_blank"
 				rel="noopener noreferrer"	
 			>
-				Geoportal MeinXhain</a>,
-			Klimaanpassungskonzept Friedrichshain-Kreuzberg`,
+				Geoportal MeinXhain</a>`,
 	"chart.HBI.infoDialog.learnMoreLink":
 		"/climate-concepts/#climate-adaptation-full",
 	"chart.HBI.infoDialog.description": `Der HBI wird durch folgende Indiktoren berechnet:`,
@@ -443,11 +422,11 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 	"chart.HBI.infoDialog.factors.humanSensitivity": "Menschliche Sensitivität",
 	"chart.HBI.infoDialog.factors.humanSensitivity.denisty": "Bevölkerungsdichte",
 	"chart.HBI.infoDialog.factors.humanSensitivity.inhabitansYoung":
-		"Einwohnendenzahl < 10 Jahre",
+		"Dichte an Einwohnenden < 10 Jahre",
 	"chart.HBI.infoDialog.factors.humanSensitivity.inhabitansOld":
-		"Einwohnendenzahl XX Jahre",
+		"Dichte an Einwohnenden > 65 Jahre",
 	"chart.HBI.infoDialog.factors.humanSensitivity.workers": "Arbeitnehmende",
-	"chart.HBI.infoDialog.factors.humanSensitivity.socialIndex": "Sozialindex",
+	"chart.HBI.infoDialog.factors.humanSensitivity.socialIndex": "Soziale und wirtschaftliche Benachteiligung",
 	"chart.HBI.infoDialog.factors.envSensitivity": "Umwelt Sensitivität",
 	"chart.HBI.infoDialog.factors.envSensitivity.greenvolume": "Grünvolumen",
 	"chart.HBI.infoDialog.factors.envSensitivity.sealing": "Versiegelung",
@@ -464,7 +443,7 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 	"chart.economy": "Wirtschaft",
 	"chart.traffic": "Verkehr",
 	"chart.privateHouseholds": "Private Haushalte",
-	"chart.miv": "motorisierter Individualverkehr",
+	"chart.miv": "Motorisierter Individualverkehr",
 	"chart.freight": "Güterverkehr",
 	"chart.oepnv": "Personenverkehr",
 
