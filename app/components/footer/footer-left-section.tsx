@@ -17,6 +17,14 @@ export const FooterLeftSection: React.FC = () => {
 				>
 					{i18n("footer.imprint")}
 				</a>
+				<a
+					href={i18n("footer.feedbackLink")}
+					className="w-fit hover:underline hover:underline-offset-8 hover:decoration-1 focus-white"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					{i18n("footer.feedback")}
+				</a>
 			</div>
 		</div>
 	);

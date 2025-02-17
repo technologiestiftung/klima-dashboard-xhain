@@ -645,6 +645,9 @@ For example, heavy rainfall events in June 2017 and July 2018 caused severe floo
 	"footer.cardCtaEmail": "klima_und_internationales@ba-fk.berlin.de",
 	"footer.bezirksamtXhainAltText": "bezirksamt xhain logo",
 	"footer.imprint": "Imprint and data privacy",
+	"footer.feedback": "Feedback",
+	"footer.feedbackLink":
+		"https://citylabberlin.typeform.com/to/wkhvLJyN#product_id=klimadashboardxhain",
 	"footer.projectOwnerLabel": "A project of",
 	"footer.projectExecutionerLabel": "Implemented by",
 	"footer.cityLABLogoAltText": "Logo of the CityLAB Berlin",

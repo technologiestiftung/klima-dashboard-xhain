@@ -637,6 +637,9 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 	"footer.cardCtaEmail": "klima_und_internationales@ba-fk.berlin.de",
 	"footer.bezirksamtXhainAltText": "bezirksamt xhain logo",
 	"footer.imprint": "Impressum und Datenschutz",
+	"footer.feedback": "Feedback",
+	"footer.feedbackLink":
+		"https://citylabberlin.typeform.com/to/kCdnCgvC#product_id=klimadashboardxhain",
 	"footer.projectOwnerLabel": "Ein Projekt der",
 	"footer.projectExecutionerLabel": "Gefördert durch",
 	"footer.cityLABLogoAltText": "Logo vom CityLAB Berlin",
