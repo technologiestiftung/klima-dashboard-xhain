@@ -621,7 +621,7 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 	 */
 	"climateConcepts.title": "Klimakonzepte",
 	"climateConcepts.intro.p1":
-		"Die Klimakonzepte von Friedrichshain-Kreuzberg sind zentrale Grundlage um Klimaanpassung und Klimaschutz im Bezirk strategisch voran zu bringen.",
+		"Die Klimakonzepte von Friedrichshain-Kreuzberg sind zentrale Grundlage, um Klimaanpassung und Klimaschutz im Bezirk strategisch voran zu bringen.",
 	"climateConcepts.intro.p2":
 		"Sie zeigen klare Strategien und Maßnahmen auf, um klimaneutral zu werden und gleichzeitig die Lebensqualität der Menschen zu sichern. Hier bieten wir euch die Möglichkeit, die Konzepte vollständig herunterzuladen und im Detail nachzulesen.",
 	"climateConcepts.intro.p3":
@@ -655,7 +655,7 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 	"climateConcepts.adaptionConcept.a.6.label":
 		"Kurzfassung Klimaanpassungskonzept",
 	"climateConcepts.actionCard.title":
-		"Möchten Sie noch mehr über die Klimakonzepte erfahren?",
+		"Möchtest Du noch mehr über die Klimakonzepte erfahren?",
 	"climateConcepts.actionCard.subtitle":
 		"Besuchen Sie die bezirkliche Webseite.",
 	"climateConcepts.actionCard.link.label": "Zur Website des Klimateams",

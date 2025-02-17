@@ -46,8 +46,8 @@ export const en: typeof de = {
 	"introSection.keyQuestion3":
 		"And where are the impacts of climate change already evident in the district?",
 	"introSection.dataBasis": `
-    The basis for this is the analyses from the <a href='https://klima-dashboard-xhain.vercel.app/en/climate-concepts/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>climate protection and climate adaptation concepts.</a>  
-    These two concepts were developed by the <a href='https://klima-dashboard-xhain.vercel.app/en/about/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>climate team</a> and politically adopted in December 2024 as a planning and decision-making basis.</br></br>
+    The basis for this is the analyses from the <a href='https://klima-dashboard-xhain.vercel.app/en/climate-concepts/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>climate mitigation and climate adaptation concepts.</a>  
+    These two strategies were developed by the <a href='https://klima-dashboard-xhain.vercel.app/en/about/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>climate team</a> and politically adopted in December 2024 as a planning and decision-making basis.</br></br>
 `,
 	"introSection.collaboration": `
 	The climate dashboard has been developed in close cooperation between the Friedrichshain-Kreuzberg climate team and <a href='https://citylab-berlin.org/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>CityLAB Berlin</a>.</br></br>
@@ -627,42 +627,42 @@ For example, heavy rainfall events in June 2017 and July 2018 caused severe floo
 	/**
 	 * Climate concepts page
 	 */
-	"climateConcepts.title": "Climate Concepts",
+	"climateConcepts.title": "Climate strategies",
 	"climateConcepts.intro.p1":
-		"The climate concepts of Friedrichshain-Kreuzberg are the central basis to strategically advance climate mitigation and climate adaptation in the district.",
+		"The climate strategie sof Friedrichshain-Kreuzberg are the central basis to strategically advance climate mitigation and climate adaptation in the district.",
 	"climateConcepts.intro.p2":
-		"They show clear strategies and measures to become climate-neutral and at the same time ensure people's quality of life. We offer you the opportunity to download the concepts in full and read them in detail. Unfortunately, they are only available in German.",
+		"They show clear strategies and measures to become climate-neutral and at the same time ensure people's quality of life. We offer you the opportunity to download the strategies in full and read them in detail. Unfortunately, they are only available in German.",
 	"climateConcepts.intro.p3":
-		"While climate protection aims to reduce greenhouse gas emissions and thus limit the extent of climate change, climate adaptation focuses on adjusting to the current and expected impacts of climate change, such as increasing heat and heavy rainfall.",
+		"While climate mitigation aims to reduce greenhouse gas emissions and thus limit the extent of climate change, climate adaptation focuses on adjusting to the current and expected impacts of climate change, such as increasing heat and heavy rainfall.",
 	"climateConcepts.protectionConcept.h2": "Climate mitigation strategy",
 	"climateConcepts.protectionConcept.p":
-		"The climate mitigation concept analyses energy consumption and emissions in the district, defines climate mitigation targets and measures based on this, and consists of a main document and four sub-concepts on key fields of action. The climate mitigation concept was funded by the Federal Ministry for Economic Affairs and Climate Action as part of the National Climate Initiative (NKI).",
+		"The climate mitigation concept analyses energy consumption and emissions in the district, defines climate mitigation targets and measures based on this, and consists of a main document and four sub-strategies on key fields of action. The climate mitigation concept was funded by the Federal Ministry for Economic Affairs and Climate Action as part of the National Climate Initiative (NKI).",
 	"climateConcepts.protectionConcept.a.1.label":
-		"Full Version of the Climate mitigation strategy (German)",
+		"Langfassung Klimaschutzkonzept (German)",
 	"climateConcepts.protectionConcept.a.2.label":
-		"Sub-Concept: Mobility (German)",
+		"Teilkonzept Mobilität (German)",
 	"climateConcepts.protectionConcept.a.3.label":
-		"Sub-Concept: Energy and Buildings (German)",
+		"Teilkonzept Energie und Gebäude (German)",
 	"climateConcepts.protectionConcept.a.4.label":
-		"Sub-Concept: District as a Role Model (German)",
+		"Teilkonzept Bezirk als Vorbild (German)",
 	"climateConcepts.protectionConcept.a.5.label":
-		"Sub-Concept: Consumption and Society (German)",
+		"Teilkonzept Konsum und Gesellschaft (German)",
 	"climateConcepts.protectionConcept.a.6.label":
-		"Summary of the Climate mitigration strategy (German)",
+		"Kurzfassung Klimaschutzkonzept (German)",
 	"climateConcepts.adaptionConcept.h2": "Climate adaptation strategy",
 	"climateConcepts.adaptionConcept.p":
-		"The climate adaptation concept analyses the consequences of climate change in the district and presents objectives and measures. It comprises a main document and four sub-concepts on key fields of action. The climate adaptation concept has been funded by the Federal Ministry for the Environment, Nature Conservation, Nuclear Safety and Consumer Protection.",
+		"The climate adaptation concept analyses the consequences of climate change in the district and presents objectives and measures. It comprises a main document and four sub-strategies on key fields of action. The climate adaptation concept has been funded by the Federal Ministry for the Environment, Nature Conservation, Nuclear Safety and Consumer Protection.",
 	"climateConcepts.adaptionConcept.a.1.label":
-		"Full Version of the Climate adaptation strategy (German)",
+		"Langfassung Klimaanpassungskonzept (German)",
 	"climateConcepts.adaptionConcept.a.2.label":
-		"Sub-Concept: Buildings and Infrastructure (German)",
+		"Teilkonzept Gebäude und Infrastruktur (German)",
 	"climateConcepts.adaptionConcept.a.3.label":
-		"Sub-Concept: Urban Green Spaces and Biodiversity (German)",
+		"Teilkonzept Stadtgrün und Biodiversität (German)",
 	"climateConcepts.adaptionConcept.a.4.label":
-		"Sub-Concept: Urban Planning and Development (German)",
-	"climateConcepts.adaptionConcept.a.5.label": "Sub-Concept: Health (German)",
+		"Teilkonzept Stadtplanung- und entwicklung (German)",
+	"climateConcepts.adaptionConcept.a.5.label": "Teilkonzept Gesundheit (German)",
 	"climateConcepts.adaptionConcept.a.6.label":
-		"Summary of the Climate adaptation strategy (German)",
+		"Kurzfassung Klimaanpassungskonzept (German)",
 	"climateConcepts.actionCard.title":
 		"Would you like to learn more about the climate concepts?",
 	"climateConcepts.actionCard.subtitle": "Visit the district’s website.",
