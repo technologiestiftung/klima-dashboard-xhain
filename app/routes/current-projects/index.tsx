@@ -20,9 +20,9 @@ export default function Index() {
 			title: i18n("currentProjects.project2.title"),
 			description: i18n("currentProjects.project2.description"),
 			imageDesktop:
-				"/images/project-images/desktop/RZ_Grünberatung_Desktop_klein.webp",
+				"/images/project-images/desktop/RZ_hinterhof_gruene_liga_Desktop_klein.webp",
 			imageMobile:
-				"/images/project-images/mobile/RZ_grünberatung_mobile_klein.webp",
+				"/images/project-images/mobile/RZ_hinterhof_gruene_liga_mobile_klein.webp",
 			imageAltText: i18n("currentProjects.project2.imageAltText"),
 			imageSourceText: i18n("currentProjects.project2.imageSource"),
 			projectLink: i18n("currentProjects.project2.link"),

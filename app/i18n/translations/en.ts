@@ -46,8 +46,8 @@ export const en: typeof de = {
 	"introSection.keyQuestion3":
 		"And where are the impacts of climate change already evident in the district?",
 	"introSection.dataBasis": `
-    The basis for this is the analyses from the <a href='https://klima-dashboard-xhain.vercel.app/en/climate-concepts/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>climate protection and climate adaptation concepts.</a>  
-    These two concepts were developed by the <a href='https://klima-dashboard-xhain.vercel.app/en/about/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>climate team</a> and politically adopted in December 2024 as a planning and decision-making basis.</br></br>
+    The basis for this is the analyses from the <a href='https://klima-dashboard-xhain.vercel.app/en/climate-concepts/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>climate mitigation and climate adaptation concepts.</a>  
+    These two strategies were developed by the <a href='https://klima-dashboard-xhain.vercel.app/en/about/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>climate team</a> and politically adopted in December 2024 as a planning and decision-making basis.</br></br>
 `,
 	"introSection.collaboration": `
 	The climate dashboard has been developed in close cooperation between the Friedrichshain-Kreuzberg climate team and <a href='https://citylab-berlin.org/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>CityLAB Berlin</a>.</br></br>
@@ -126,14 +126,11 @@ export const en: typeof de = {
 	"charts.ariaLabel": "Visualization of",
 
 	"chart.thgTotalTons.title": "Evolution of greenhouse gas emissions",
-	"chart.thgTotalTons.subtitle": "in tons of CO2 equivalent",
+	"chart.thgTotalTons.subtitle": "in tons of CO₂ equivalent",
 	"chart.thgTotalTons.keys.year": "Year",
 	"chart.thgTotalTons.keys.heating_tons": "Heating",
 	"chart.thgTotalTons.keys.electricity_tons": "Electricity",
 	"chart.thgTotalTons.keys.fuels_tons": "Fuels",
-	"chart.thgTotalTons.infoDialog.sourceTitle": "Excerpt from",
-	"chart.thgTotalTons.infoDialog.sourceLabel":
-		"Climate Protection Concept - Full Version (only available in German)",
 	"chart.thgTotalTons.infoDialog.learnMoreLink":
 		"/climate-concepts/#climate-concept-full",
 	"chart.thgTotalTons.infoDialog.description": `The emissions resulting from energy consumption are calculated using so-called emissions factors. An emissions factor indicates how many greenhouse gases are released when a specific energy source—such as gas, electricity, or oil—is produced, transported, and used. This allows us to assess how harmful the consumption of a particular energy source is to the climate.
@@ -148,11 +145,8 @@ The lower the emissions factor, the more climate-friendly the energy source is. 
 	"chart.thgSector2021Tons.legend.economy": "economy",
 	"chart.thgSector2021Tons.legend.traffic": "traffic",
 	"chart.thgSector2021Tons.keys.sector": "Sector",
-	"chart.thgSector2021Tons.keys.total_tons": "Sum in Tons of CO2 equivalent",
+	"chart.thgSector2021Tons.keys.total_tons": "Sum in Tons of CO₂ equivalent",
 	"chart.thgSector2021Tons.keys.percentage": "Percentage",
-	"chart.thgSector2021Tons.infoDialog.sourceTitle": "Excerpt from",
-	"chart.thgSector2021Tons.infoDialog.sourceLabel":
-		"Climate Protection Concept - Full Version (only available in German)",
 	"chart.thgSector2021Tons.infoDialog.learnMoreLink":
 		"/climate-concepts/#climate-concept-full",
 	"chart.thgSector2021Tons.infoDialog.description": `Although households account for a significantly larger share of energy consumption (see final energy consumption by sector), the economy generates slightly more emissions (43%) than private households (42%). 
@@ -165,13 +159,13 @@ The lower the emissions factor, the more climate-friendly the energy source is. 
 		"Consumption-related indirect emissions",
 	"chart.consumptionEmissionsTons.subtitle": "in 2024",
 	"chart.consumptionEmissionsTons.description":
-		"In 2024, Ø 4.1 tons of CO2-e per year and person were caused by food and consumption. Even if emissions are largely generated outside the district boundaries, they are climate-relevant and can be reduced locally through the behavior of producers and consumers.",
+		"In 2024, Ø 4.1 tons of CO₂ equivalent per year and person were caused by food and consumption. Even if emissions are largely generated outside the district boundaries, they are climate-relevant and can be reduced locally through the behavior of producers and consumers.",
 	"chart.consumptionEmissionsTons.keys.xhain": "Xhain",
 	"chart.consumptionEmissionsTons.keys.per_person": "Per person",
 	"chart.consumptionEmissionsTons.descriptionText":
 		"To offset this amount, many trees must grow for a year",
 	"chart.consumptionEmissionsTons.millionUnit": "M.",
-	"chart.consumptionEmissionsTons.co2Unit": "Tons Co2",
+	"chart.consumptionEmissionsTons.co2Unit": "Tons CO₂",
 	"chart.consumptionEmissionsTons.trees": "Trees",
 	"chart.consumptionEmissionsTons.infoDialog.sourceTitle": "Excerpt from",
 	"chart.consumptionEmissionsTons.infoDialog.sourceLabel": `<a
@@ -204,9 +198,6 @@ Resource- efficient and local provision as well as the sustainable consumption o
 	"chart.eevTotalMwh.keys.heating_mwh": "Heating in Megawatt Hours",
 	"chart.eevTotalMwh.keys.electricity_mwh": "Electricity in Megawatt Hours",
 	"chart.eevTotalMwh.keys.fuels_mwh": "Fuels in Megawatt Hours",
-	"chart.eevTotalMwh.infoDialog.sourceTitle": "Excerpt from",
-	"chart.eevTotalMwh.infoDialog.sourceLabel":
-		"Climate Protection Concept - Full Version (only available in German)",
 	"chart.eevTotalMwh.infoDialog.learnMoreLink":
 		"/climate-concepts/#climate-concept-full",
 	"chart.eevTotalMwh.infoDialog.description": `The major part of energy consumption is caused by heating, i.e. in particular the heating of buildings and the preparation of hot water. This currently accounts for 56.9% of the district's energy consumption. 32.3 % is accounted for by electricity consumption, e.g. for lighting or technical appliances. The smallest, but still relevant consumption is caused by fuels (10.8 %).
@@ -218,9 +209,6 @@ These figures make it clear: the heating sector is where action is needed most. 
 	"chart.eevSector2021Mwh.keys.sector": "Sector",
 	"chart.eevSector2021Mwh.keys.total_mwh": "Sum in Megawatt Hours",
 	"chart.eevSector2021Mwh.keys.percentage": "Percentage",
-	"chart.eevSector2021Mwh.infoDialog.sourceTitle": "Excerpt from",
-	"chart.eevSector2021Mwh.infoDialog.sourceLabel":
-		"Climate Protection Concept - Full Version (only available in German)",
 	"chart.eevSector2021Mwh.infoDialog.learnMoreLink":
 		"/climate-concepts/#climate-concept-full",
 	"chart.eevSector2021Mwh.infoDialog.description": `Private households are the largest energy consumers in our densely populated district, accounting for 50.4% of total energy use. This is partly due to the high number of households and factors such as heat loss from old, unrenovated buildings. 
@@ -239,9 +227,6 @@ This highlights the importance of involving all stakeholders—residents, busine
 	"chart.heatingMix2021Summarized.districtHeating": "District heating",
 	"chart.heatingMix2021Summarized.fossil": "Other fossil",
 	"chart.heatingMix2021Summarized.renewable": "Renewable energies",
-	"chart.heatingMix2021Summarized.infoDialog.sourceTitle": "Excerpt from",
-	"chart.heatingMix2021Summarized.infoDialog.sourceLabel":
-		"Subconcept: Energy and Buildings (only available in German)",
 	"chart.heatingMix2021Summarized.infoDialog.learnMoreLink":
 		"/climate-concepts/#energy-buildings",
 	"chart.heatingMix2021Summarized.infoDialog.description": `The heat mix of Xhain shows that, at present, heat supply is primarily provided by natural gas and district heating. Therefore, in addition to reducing heat consumption, decarbonizing the heat supply—i.e., transitioning to a climate-friendly heating system—is an important lever for reducing heating-related emissions.
@@ -263,12 +248,9 @@ This means that the natural gas-based supply must be replaced with renewable ene
 	"chart.modalSplit2018.keys.oepnv": "Public transport",
 	"chart.modalSplit2018.keys.foot": "Pedestrians",
 	"chart.modalSplit2018.keys.bike": "Cyclists",
-	"chart.modalSplit2018.infoDialog.sourceTitle": "Excerpt from",
-	"chart.modalSplit2018.infoDialog.sourceLabel":
-		"Subconcept: Mobility (only available in German)",
 	"chart.modalSplit2018.infoDialog.learnMoreLink":
 		"/climate-concepts/#mobility",
-	"chart.modalSplit2018.infoDialog.description": `The so-called “ Umweltverbund”, i.e. the combination of public transport, cycling and walking, already accounts for a high proportion in Berlin. The figures show that we as a district are leading by example, with 86.5% of journeys already being made by environmentally friendly means of transport. Nevertheless, the transport sector continues to have a significant impact on our climate. Despite the low proportion of 13.5 % accounted for by MIT, transport causes emissions of 153,000 tons of CO2 equivalents per year and thus accounts for around 13.6 % of the district's total emissions in 2021.
+	"chart.modalSplit2018.infoDialog.description": `The so-called “ Umweltverbund”, i.e. the combination of public transport, cycling and walking, already accounts for a high proportion in Berlin. The figures show that we as a district are leading by example, with 86.5% of journeys already being made by environmentally friendly means of transport. Nevertheless, the transport sector continues to have a significant impact on our climate. Despite the low proportion of 13.5 % accounted for by MIT, transport causes emissions of 153,000 tons of CO₂ equivalents per year and thus accounts for around 13.6 % of the district's total emissions in 2021.
 <br/>
 Further efforts to reduce traffic emissions are important not only for climate protection, but also for air and noise pollution in our neighborhoods.`,
 
@@ -277,9 +259,6 @@ Further efforts to reduce traffic emissions are important not only for climate p
 	"chart.traffic2022Summarized.keys.sector": "Sector",
 	"chart.traffic2022Summarized.keys.percentage_thg":
 		"Greenhouse gas percentage",
-	"chart.traffic2022Summarized.infoDialog.sourceTitle": "Excerpt from",
-	"chart.traffic2022Summarized.infoDialog.sourceLabel":
-		"Subconcept: Mobility (only available in German)",
 	"chart.traffic2022Summarized.infoDialog.learnMoreLink":
 		"/climate-concepts/#mobility",
 	"chart.traffic2022Summarized.infoDialog.description": `All journeys that start or end in Xhain or for which both the start and destination are in the district have been taken into account in the carbon balance. This includes public transport and a small proportion of inland waterway transport. Air travel by residents or tourists, for example, is not included, as the airport is located outside the district boundary.
@@ -290,7 +269,7 @@ Accordingly, the aim is to reduce and electrify motorized private transport and 
 	"chart.restBudgetThgUntilYear.subtitle":
 		"according to the 1,75-degree target",
 	"chart.restBudgetThgUntilYear.keys.year": "Year",
-	"chart.restBudgetThgUntilYear.keys.tons_co2": "CO2 budget",
+	"chart.restBudgetThgUntilYear.keys.tons_co2": "CO₂ budget",
 	"chart.restBudgetThgUntilYear.unit": "M. tons",
 	"chart.restBudgetThgUntilYear.remainingBudget": "Remaining budget until",
 	"chart.restBudgetThgUntilYear.text": `Xhain's remaining CO₂ budget is only 12.2 million tons in total to keep global warming below 1.75°C.
@@ -300,9 +279,6 @@ If Xhain continues as before, this local budget will be used up by 2032—meanin
 This target sets the limit beyond which these risks grow significantly.
 <br/>
 To prevent this, we need to act more ambitiously and much faster—starting now.`,
-	"chart.restBudgetThgUntilYear.infoDialog.sourceTitle": "Excerpt from",
-	"chart.restBudgetThgUntilYear.infoDialog.sourceLabel":
-		"Climate Protection Concept - Summary Version (only available in German)",
 	"chart.restBudgetThgUntilYear.infoDialog.learnMoreLink":
 		"/climate-concepts/#climate-concept-summary",
 	"chart.restBudgetThgUntilYear.infoDialog.description": `The Paris Agreement provides the international framework to limit global warming to well below 2°C, ideally 1.5°C. At the national level, these goals are supported by the Berlin Energy Transition Act (EWG Bln), which aims for climate neutrality by 2045.
@@ -313,7 +289,7 @@ To implement the Paris goals locally, Xhain uses the "remaining budget" approach
 
 	"chart.reductionPathScenario175Thg.title": "Emission reduction path",
 	"chart.reductionPathScenario175Thg.subtitle":
-		"according to the climate protection scenario (1.75°C, 67% probability) in tons of CO2 equivalent",
+		"according to the climate protection scenario (1.75°C, 67% probability) in tons of CO₂ equivalent",
 	"chart.reductionPathScenario175Thg.keys.year": "Year",
 	"chart.reductionPathScenario175Thg.keys.goal_berlin_tons": "Goal Berlin",
 	"chart.reductionPathScenario175Thg.keys.model_xhain_tons":
@@ -322,9 +298,6 @@ To implement the Paris goals locally, Xhain uses the "remaining budget" approach
 	"chart.reductionPathScenario175Thg.legend.goal": "Ziel Land Berlin",
 	"chart.reductionPathScenario175Thg.description":
 		"The climate protection scenario shows shows how Xhain can become climate neutral by 2045 without exceeding the local carbon budget. To make this happen, we need to move forward together with innovation and ambition.",
-	"chart.reductionPathScenario175Thg.infoDialog.sourceTitle": "Excerpt from",
-	"chart.reductionPathScenario175Thg.infoDialog.sourceLabel":
-		"Climate Protection Concept - Full Version (only available in German)",
 	"chart.reductionPathScenario175Thg.infoDialog.learnMoreLink":
 		"/climate-concepts/#climate-concept-full",
 	"chart.reductionPathScenario175Thg.infoDialog.description": `In recent years, we have fallen short when it comes to Berlin's climate protection targets. In order to return to the target path by 2030, we need to reduce emissions more significantly and act more decisively.
@@ -449,11 +422,12 @@ For example, heavy rainfall events in June 2017 and July 2018 caused severe floo
 	"chart.HBI.infoDialog.factors.humanSensitivity": "Human Sensitivity",
 	"chart.HBI.infoDialog.factors.humanSensitivity.denisty": "Population density",
 	"chart.HBI.infoDialog.factors.humanSensitivity.inhabitansYoung":
-		"Inhabitants < 10 years",
+		"Density of inhabitants < 10 years",
 	"chart.HBI.infoDialog.factors.humanSensitivity.inhabitansOld":
-		"Inhabitants > XX years",
+		"Density of inhabitants > 65 years",
 	"chart.HBI.infoDialog.factors.humanSensitivity.workers": "Workers",
-	"chart.HBI.infoDialog.factors.humanSensitivity.socialIndex": "Social index",
+	"chart.HBI.infoDialog.factors.humanSensitivity.socialIndex":
+		"Social and economic disadvantage",
 	"chart.HBI.infoDialog.factors.envSensitivity": "Environmental Sensitivity",
 	"chart.HBI.infoDialog.factors.envSensitivity.greenvolume": "Green volume",
 	"chart.HBI.infoDialog.factors.envSensitivity.sealing": "Sealing",
@@ -495,7 +469,7 @@ For example, heavy rainfall events in June 2017 and July 2018 caused severe floo
 	/**
 	 * Current Projects page
 	 */
-	"currentProjects.title": "Recent projects",
+	"currentProjects.title": "Current projects",
 	"currentProjects.subtitle": "in Friedrichshain-Kreuzberg",
 	"currentProjects.featureImageSource": "Image: Kareen Kittelmann",
 	"currentProjects.featureImageAltText":
@@ -507,7 +481,7 @@ For example, heavy rainfall events in June 2017 and July 2018 caused severe floo
 		"There are already many exciting projects and organisations on the ground. Would you like to make a positive contribution yourself? Then you can find projects and initiatives to get involved in here!",
 	"currentProjects.greenCardCtaLabel": "Find suitable projects",
 	"currentProjects.greenCardCtaLink":
-		"https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/service-und-organisationseinheiten/klima-und-internationales/artikel.1408194.php",
+		"https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/service-und-organisationseinheiten/klima-und-internationales/artikel.1527799.php",
 	/**
 	 * projects
 	 */
@@ -522,10 +496,10 @@ For example, heavy rainfall events in June 2017 and July 2018 caused severe floo
 	"currentProjects.project2.title": "Yard greening programme",
 	"currentProjects.project2.description":
 		"Unsealing and greening inner courtyards can improve the microclimate and quality of living as well as promote the diversity of animals and plants. Tenants can receive up to 3,000 euros in funding for this. More than 100 people sought advice by phone or on site from March to October 2024.",
-	"currentProjects.project2.imageAltText": "Child playing",
+	"currentProjects.project2.imageAltText": "Green yard",
 	"currentProjects.project2.link":
 		"https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/aemter/umwelt-und-naturschutzamt/umweltbildung/artikel.1043011.php#headline_1_5",
-	"currentProjects.project2.imageSource": "Image: Kareen Kittelmann",
+	"currentProjects.project2.imageSource": "Image: Grüne Liga Berlin",
 
 	"currentProjects.project3.title": "Parking space management",
 	"currentProjects.project3.description":
@@ -555,7 +529,7 @@ For example, heavy rainfall events in June 2017 and July 2018 caused severe floo
 
 	"currentProjects.project6.title": "Smart heating",
 	"currentProjects.project6.description":
-		"By installing the smart heating control system ovoTherm in the district buildings, the output of the respective heating system is adapted precisely to the actual demand. This reduces a building's heating energy consumption by around 20% and therefore also CO2 emissions and energy costs.",
+		"By installing the smart heating control system ovoTherm in the district buildings, the output of the respective heating system is adapted precisely to the actual demand. This reduces a building's heating energy consumption by around 20% and therefore also CO₂ emissions and energy costs.",
 	"currentProjects.project6.imageAltText":
 		"A network of insulated pipes and valves with gauges and controls.",
 	"currentProjects.project6.link":
@@ -578,7 +552,7 @@ For example, heavy rainfall events in June 2017 and July 2018 caused severe floo
 	"featureSection.title": "What is already happening in Xhain?",
 	"featureSection.description":
 		"Numerous projects are already being implemented in Xhain to meet these challenges. Here we give you an insight into some of the existing projects.",
-	"featureSection.cta": "Recent projects",
+	"featureSection.cta": "Current projects",
 
 	/**
 	 * About Page
@@ -657,46 +631,47 @@ For example, heavy rainfall events in June 2017 and July 2018 caused severe floo
 	/**
 	 * Climate concepts page
 	 */
-	"climateConcepts.title": "Climate Concepts",
+	"climateConcepts.title": "Climate strategies",
 	"climateConcepts.intro.p1":
-		"The climate concepts of Friedrichshain-Kreuzberg are the central basis to strategically advance climate mitigation and climate adaptation in the district.",
+		"The climate strategie sof Friedrichshain-Kreuzberg are the central basis to strategically advance climate mitigation and climate adaptation in the district.",
 	"climateConcepts.intro.p2":
-		"They show clear strategies and measures to become climate-neutral and at the same time ensure people's quality of life. We offer you the opportunity to download the concepts in full and read them in detail. Unfortunately, they are only available in German.",
+		"They show clear strategies and measures to become climate-neutral and at the same time ensure people's quality of life. We offer you the opportunity to download the strategies in full and read them in detail. Unfortunately, they are only available in German.",
 	"climateConcepts.intro.p3":
-		"While climate protection aims to reduce greenhouse gas emissions and thus limit the extent of climate change, climate adaptation focuses on adjusting to the current and expected impacts of climate change, such as increasing heat and heavy rainfall.",
+		"While climate mitigation aims to reduce greenhouse gas emissions and thus limit the extent of climate change, climate adaptation focuses on adjusting to the current and expected impacts of climate change, such as increasing heat and heavy rainfall.",
 	"climateConcepts.protectionConcept.h2": "Climate mitigation strategy",
 	"climateConcepts.protectionConcept.p":
-		"The climate mitigation concept analyses energy consumption and emissions in the district, defines climate mitigation targets and measures based on this, and consists of a main document and four sub-concepts on key fields of action. The climate mitigation concept was funded by the Federal Ministry for Economic Affairs and Climate Action as part of the National Climate Initiative (NKI).",
+		"The climate mitigation concept analyses energy consumption and emissions in the district, defines climate mitigation targets and measures based on this, and consists of a main document and four sub-strategies on key fields of action. The climate mitigation concept was funded by the Federal Ministry for Economic Affairs and Climate Action as part of the National Climate Initiative (NKI).",
 	"climateConcepts.protectionConcept.a.1.label":
-		"Full Version of the Climate mitigation strategy (German)",
+		"Langfassung Klimaschutzkonzept (German)",
 	"climateConcepts.protectionConcept.a.2.label":
-		"Sub-Concept: Mobility (German)",
+		"Teilkonzept Mobilität (German)",
 	"climateConcepts.protectionConcept.a.3.label":
-		"Sub-Concept: Energy and Buildings (German)",
+		"Teilkonzept Energie und Gebäude (German)",
 	"climateConcepts.protectionConcept.a.4.label":
-		"Sub-Concept: District as a Role Model (German)",
+		"Teilkonzept Bezirk als Vorbild (German)",
 	"climateConcepts.protectionConcept.a.5.label":
-		"Sub-Concept: Consumption and Society (German)",
+		"Teilkonzept Konsum und Gesellschaft (German)",
 	"climateConcepts.protectionConcept.a.6.label":
-		"Summary of the Climate mitigration strategy (German)",
+		"Kurzfassung Klimaschutzkonzept (German)",
 	"climateConcepts.adaptionConcept.h2": "Climate adaptation strategy",
 	"climateConcepts.adaptionConcept.p":
-		"The climate adaptation concept analyses the consequences of climate change in the district and presents objectives and measures. It comprises a main document and four sub-concepts on key fields of action. The climate adaptation concept has been funded by the Federal Ministry for the Environment, Nature Conservation, Nuclear Safety and Consumer Protection.",
+		"The climate adaptation concept analyses the consequences of climate change in the district and presents objectives and measures. It comprises a main document and four sub-strategies on key fields of action. The climate adaptation concept has been funded by the Federal Ministry for the Environment, Nature Conservation, Nuclear Safety and Consumer Protection.",
 	"climateConcepts.adaptionConcept.a.1.label":
-		"Full Version of the Climate adaptation strategy (German)",
+		"Langfassung Klimaanpassungskonzept (German)",
 	"climateConcepts.adaptionConcept.a.2.label":
-		"Sub-Concept: Buildings and Infrastructure (German)",
+		"Teilkonzept Gebäude und Infrastruktur (German)",
 	"climateConcepts.adaptionConcept.a.3.label":
-		"Sub-Concept: Urban Green Spaces and Biodiversity (German)",
+		"Teilkonzept Stadtgrün und Biodiversität (German)",
 	"climateConcepts.adaptionConcept.a.4.label":
-		"Sub-Concept: Urban Planning and Development (German)",
-	"climateConcepts.adaptionConcept.a.5.label": "Sub-Concept: Health (German)",
+		"Teilkonzept Stadtplanung- und entwicklung (German)",
+	"climateConcepts.adaptionConcept.a.5.label":
+		"Teilkonzept Gesundheit (German)",
 	"climateConcepts.adaptionConcept.a.6.label":
-		"Summary of the Climate adaptation strategy (German)",
+		"Kurzfassung Klimaanpassungskonzept (German)",
 	"climateConcepts.actionCard.title":
 		"Would you like to learn more about the climate concepts?",
 	"climateConcepts.actionCard.subtitle": "Visit the district’s website.",
-	"climateConcepts.actionCard.link.label": "Go to the Climate Team's Website",
+	"climateConcepts.actionCard.link.label": "Go to the climate team's website",
 	"climateConcepts.download.alt": "Download PDF",
 
 	"icon.alt": "Icon",
