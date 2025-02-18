@@ -19,10 +19,12 @@ export const DialogContent: React.FC<DialogContentProps> = ({ id }) => {
 	const subTitle = i18n(`chart.${id}.subtitle`);
 
 	const description = i18n(`chart.${id}.infoDialog.description`);
-	const sourceTitle =
-		i18n(`chart.${id}.infoDialog.sourceTitle` as keyof typeof i18n) || null;
-	const sourceLabel =
-		i18n(`chart.${id}.infoDialog.sourceLabel` as keyof typeof i18n) || null;
+	const sourceTitle = i18n(
+		`chart.${id}.infoDialog.sourceTitle` as keyof typeof i18n,
+	);
+	const sourceLabel = i18n(
+		`chart.${id}.infoDialog.sourceLabel` as keyof typeof i18n,
+	);
 
 	const learnMoreLabel = i18n(`chart.infoDialog.learnMoreLabel`);
 	const learnMoreLink = i18n(`chart.${id}.infoDialog.learnMoreLink`);

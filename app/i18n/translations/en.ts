@@ -227,9 +227,6 @@ This highlights the importance of involving all stakeholders—residents, busine
 	"chart.heatingMix2021Summarized.districtHeating": "District heating",
 	"chart.heatingMix2021Summarized.fossil": "Other fossil",
 	"chart.heatingMix2021Summarized.renewable": "Renewable energies",
-	"chart.heatingMix2021Summarized.infoDialog.sourceTitle": "Excerpt from",
-	"chart.heatingMix2021Summarized.infoDialog.sourceLabel":
-		"Subconcept: Energy and Buildings (only available in German)",
 	"chart.heatingMix2021Summarized.infoDialog.learnMoreLink":
 		"/climate-concepts/#energy-buildings",
 	"chart.heatingMix2021Summarized.infoDialog.description": `The heat mix of Xhain shows that, at present, heat supply is primarily provided by natural gas and district heating. Therefore, in addition to reducing heat consumption, decarbonizing the heat supply—i.e., transitioning to a climate-friendly heating system—is an important lever for reducing heating-related emissions.

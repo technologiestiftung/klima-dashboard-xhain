@@ -20,7 +20,7 @@ export const meta = () => {
 		{ title: "KlimaDashboard Xhain" },
 		{
 			name: "description",
-			content: "Zahlen, Fakten, Handlungsbedarf - für ein lebenswertes Xhain",
+			content: i18n("heroSection.subheading"),
 		},
 	];
 };
