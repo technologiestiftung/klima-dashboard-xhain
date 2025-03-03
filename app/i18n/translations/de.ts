@@ -254,7 +254,7 @@ Das bedeutet, dass die erdgasbasierte Versorgung durch erneuerbare Energien, wie
 	"chart.modalSplit2018.keys.bike": "Fahradfahrende",
 	"chart.modalSplit2018.infoDialog.learnMoreLink":
 		"/climate-concepts/#mobility",
-	"chart.modalSplit2018.infoDialog.description": `Der Umweltverbund, d.h. Öffis, Rad- und Fußverkehr, macht in Berlin bereits einen hohen Anteil aus. Die Zahlen verdeutlichen das wir als Bezirk als Vorbild vorangehen, hier werden bereits 86,5 % der Wege mit umweltfreundlichen Verkehrsmitteln zurückgelegt. Dennoch hat der Verkehrssektor weiterhin erhebliche Auswirkungen auf unser Klima. Trotz des geringen MIV-Anteils von 13,5 % verursacht der Verkehr Emissionen in Höhe von 153.000 Tonnen CO2-Äquivalenten pro Jahr und macht damit etwa 13,6 % der gesamten Emissionen des Bezirks im Jahr 2021 aus.
+	"chart.modalSplit2018.infoDialog.description": `Der Umweltverbund, d.h. Öffis, Rad- und Fußverkehr, macht in Berlin bereits einen hohen Anteil aus. Die Zahlen verdeutlichen das wir als Bezirk als Vorbild vorangehen, hier werden bereits 86,5 % der Wege mit umweltfreundlichen Verkehrsmitteln zurückgelegt. Dennoch hat der Verkehrssektor weiterhin erhebliche Auswirkungen auf unser Klima. Trotz des geringen MIV-Anteils von 13,5 % verursacht der Verkehr Emissionen in Höhe von 153.000 Tonnen CO₂-Äquivalenten pro Jahr und macht damit etwa 13,6 % der gesamten Emissionen des Bezirks im Jahr 2021 aus.
 <br/>
 Nicht nur für den Klimaschutz, sondern auch für die Luft- und die Lärmbelastung in unseren Kiezen  sind weitere Anstrengungen zur Reduzierung der Verkehrsemissionen wichtig.`,
 
@@ -274,7 +274,7 @@ Demnach gilt es den Motorisierten Individualverkehr zu reduzieren und zu elektri
 	"chart.restBudgetThgUntilYear.keys.tons_co2": "CO₂ Budget",
 	"chart.restBudgetThgUntilYear.unit": "Mio. Tonnen",
 	"chart.restBudgetThgUntilYear.remainingBudget":
-		"Verbleibendes CO2–Budget bis",
+		"Verbleibendes CO₂–Budget bis",
 	"chart.restBudgetThgUntilYear.text": `Das verbleibende CO₂-Budget Xhains beträgt insgesamt nur noch 12,2 Mio. Tonnen, um die Erderwärmung auf maximal 1,75° zu begrenzen.
 <br/>
 Wenn Xhain so weitermacht wie bisher, wäre dieses lokale Restbudget bereits 2032 aufgebraucht – der Eimer würde sprichwörtlich überlaufen und die Risiken für Menschen, Ökosysteme und Infrastrukturen dramatisch steigen.
@@ -286,7 +286,7 @@ Um dies zu vermeiden, müssen wir jetzt ambitionierter und auch schneller handel
 		"/climate-concepts/#climate-concept-summary",
 	"chart.restBudgetThgUntilYear.infoDialog.description": `Das Pariser Klimaabkommen bildet den internationalen Rahmen, um die globale Erwärmung auf deutlich unter 2°C, möglichst aber auf 1,5°C zu begrenzen. Auf Landesebene werden diese Zielsetzungen durch das Berliner Energiewendegesetz (EWG Bln) mit dem Ziel der Klimaneutralität bis 2045 ergänzt. Im Klimaschutzkonzept von Xhain wird das 1,75°-Ziel als Orientierung gewählt, da Prognosen und Emissionstrends zeigen, dass das 1,5°-Ziel immer schwieriger zu erreichen ist. 
 <br/>
-Um die Ziele von Paris lokal umzusetzen, wird der sogenannte Restbudget-Ansatz genutzt. Damit wird deutlich, dass nicht nur der jährliche CO2-Ausstoß entscheidend ist, sondern die Gesamtmenge an Treibhausgasen, die im Laufe der Zeit in die Atmosphäre freigesetzt wird.`,
+Um die Ziele von Paris lokal umzusetzen, wird der sogenannte Restbudget-Ansatz genutzt. Damit wird deutlich, dass nicht nur der jährliche CO₂-Ausstoß entscheidend ist, sondern die Gesamtmenge an Treibhausgasen, die im Laufe der Zeit in die Atmosphäre freigesetzt wird.`,
 
 	"chart.reductionPathScenario175Thg.title": "Reduktionspfad",
 	"chart.reductionPathScenario175Thg.subtitle":
@@ -373,7 +373,7 @@ Projektionen für die Zukunft sind schwieriger zu ermitteln und hängen von den 
 	"chart.precipitationMm.keys.year": "Jahr",
 	"chart.precipitationMm.keys.rain": "Regen in Millimeter",
 	"chart.precipitationMm.description":
-		"Beim jährlichen und saisonalen Niederschlag sowie bei der Anzahl der Starkregentage ist in Xhain bisher kein eindeutiger Trend zu erkennen.",
+		"Bei den Niederschlägen ist in Xhain bisher kein eindeutiger Trend zu erkennen. Die Grafik zeigt das exemplarisch für die Sommerniederschläge im Bezirk.",
 	"chart.precipitationMm.infoDialog.sourceTitle": "Quelle:",
 	"chart.precipitationMm.infoDialog.sourceLabel": `<a
 				href="https://dwd.de"
@@ -523,7 +523,7 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 
 	"currentProjects.project6.title": "Smarte Heizkreisregelung",
 	"currentProjects.project6.description":
-		"Bereits 69 bezirkliche Liegenschaften wurden mit der Heizkreisregelung ovoTherm ausgerüstet, weitere Gebäude folgen. Dadurch wird die Leistung einer Heizung genau an den tatsächlichen Nutzungsbedarf angepasst und so Energieverbrauch, CO2-Emissionen und Energiekosten reduziert.",
+		"Bereits 69 bezirkliche Liegenschaften wurden mit der Heizkreisregelung ovoTherm ausgerüstet, weitere Gebäude folgen. Dadurch wird die Leistung einer Heizung genau an den tatsächlichen Nutzungsbedarf angepasst und so Energieverbrauch, CO₂-Emissionen und Energiekosten reduziert.",
 	"currentProjects.project6.imageAltText":
 		"Ein Netz von isolierten Rohren und Ventilen mit Mess- und Regelvorrichtungen.",
 	"currentProjects.project6.link":
@@ -562,7 +562,7 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 	"about.thirdSectionDescription":
 		"Das vierköpfige Klimateam der Organisationseinheit „Klima und Internationales“ besteht aus zwei Klimaschutzmanagerinnen, einer Klimaanpassungsmanagerin und dem Klimabeauftragten. Gemeinsam unterstützen sie die Umsetzung klimawirksamer Maßnahmen. Gleichzeitig vermitteln und vernetzten sie die verschiedenen Akteursgruppen im Bezirk, wenn es um Fragen des Klimaschutzes und  der Klimaanpassung geht. Denn Klimaschutz und Klimaanpassung können nur gemeinsam gelingen!",
 	"about.actionCardTitle": `Fragen?<br/>Schreib dem Klimateam Xhain.`,
-	"about.actionCardEmail": "E-mail ans Klimateam",
+	"about.actionCardEmail": "E-Mail ans Klimateam",
 
 	/**
 	 * Imprint & data privacy page
@@ -598,7 +598,7 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 			href="https://www.berlin.de/"
 			target="_blank"
 			rel="noopener noreferrer"
-			class='underline underline-offset-4'
+			class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'
 		>berlin.de</a>” sind ausgeschlossen.`,
 	"imprintPrivacy.copyright.heading": "Urheberrecht",
 	"imprintPrivacy.copyright.description": `Das Layout der Seiten des Bezirksamtes Friedrichshain-Kreuzberg von Berlin, die verwendeten Grafiken, Fotos, Bewegtbilder, Texte sowie die Sammlung der Beiträge sind urheberrechtlich geschützt. Die Nutzung der Inhalte ist nur im Rahmen der gesetzlichen Bestimmungen zulässig.`,
@@ -609,7 +609,7 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 	"footer.cardHeading":
 		"Hast du Fragen zum KlimaDashboard und den Klimakonzepten?",
 	"footer.cardSubHeading": "Schreib uns!",
-	"footer.cardCtaButtonText": "E-mail ans Klimateam",
+	"footer.cardCtaButtonText": "E-Mail ans Klimateam",
 	"footer.cardCtaEmail": "klima_und_internationales@ba-fk.berlin.de",
 	"footer.bezirksamtXhainAltText": "bezirksamt xhain logo",
 	"footer.imprint": "Impressum und Datenschutz",
@@ -662,8 +662,7 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 		"Kurzfassung Klimaanpassungskonzept",
 	"climateConcepts.actionCard.title":
 		"Möchtest Du noch mehr über die Klimakonzepte erfahren?",
-	"climateConcepts.actionCard.subtitle":
-		"Besuchen Sie die bezirkliche Webseite.",
+	"climateConcepts.actionCard.subtitle": "Besuche die bezirkliche Webseite.",
 	"climateConcepts.actionCard.link.label": "Zur Website des Klimateams",
 	"climateConcepts.download.alt": "PDF Herunterladen",
 

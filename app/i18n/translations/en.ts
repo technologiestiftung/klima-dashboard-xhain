@@ -373,7 +373,7 @@ If greenhouse gas emissions continue to rise steadily (RCP 8.5 scenario), the av
 	"chart.precipitationMm.keys.year": "Year",
 	"chart.precipitationMm.keys.rain": "Rainfall in milimeters",
 	"chart.precipitationMm.description":
-		"So far, there is no clear trend for annual and seasonal precipitation or the number of heavy rainfall days in Xhain.",
+		"So far, there is no clear trend for precipitation in Xhain. The graph shows, as an example, the summer precipitation in the district.",
 	"chart.precipitationMm.infoDialog.sourceTitle": "Source:",
 	"chart.precipitationMm.infoDialog.sourceLabel": `<a
 				href="https://dwd.de"
@@ -567,7 +567,7 @@ For example, heavy rainfall events in June 2017 and July 2018 caused severe floo
 	"about.thirdSectionTitle": "Who? The Xhain climate team",
 	"about.thirdSectionDescription": `The four-member climate team of the "Climate and International Affairs" unit consists of two climate mitigation managers, one climate adaptation manager, and the climate officer. Together, they support the implementation of climate-effective measures. At the same time, they facilitate communication and networking between various stakeholder groups in the district on matters related to climate mitigation and climate adaptation. After all, climate mitigation and climate adaptation can only succeed together!`,
 	"about.actionCardTitle": `Questions?<br/>Write to the Xhain climate team.`,
-	"about.actionCardEmail": "E-mail the climate team",
+	"about.actionCardEmail": "E-Mail the climate team",
 
 	/**
 	 * Imprint & data privacy page
@@ -615,7 +615,7 @@ For example, heavy rainfall events in June 2017 and July 2018 caused severe floo
 	"footer.cardHeading":
 		"Do you have any questions about the climate dashboard and the climate concepts?",
 	"footer.cardSubHeading": "write us!",
-	"footer.cardCtaButtonText": "E-mail the climate team",
+	"footer.cardCtaButtonText": "E-Mail the climate team",
 	"footer.cardCtaEmail": "klima_und_internationales@ba-fk.berlin.de",
 	"footer.bezirksamtXhainAltText": "bezirksamt xhain logo",
 	"footer.imprint": "Imprint and data privacy",
