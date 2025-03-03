@@ -9,10 +9,10 @@ export const en: typeof de = {
 	"heroSection.eyebrowText": "KlimaDashboard",
 	"heroSection.heading": "Climate change in Xhain",
 	"heroSection.subheading":
-		"Figures, facts and actions needed - towards a livable Xhain",
+		"Facts, figures and actions needed - towards a liveable Xhain",
 	"heroSection.mediumTemperature.averageTempText": "Average annual temperature",
 	"heroSection.mediumTemperature.locationText":
-		"in Friedrichshain-Kreuzberg by phases",
+		"in Friedrichshain-Kreuzberg by time period",
 
 	/**
 	 * Weather Card
@@ -46,7 +46,7 @@ export const en: typeof de = {
 	"introSection.keyQuestion3":
 		"And where are the impacts of climate change already evident in the district?",
 	"introSection.dataBasis": `
-    The basis for this is the analyses from the <a href='https://klima-dashboard-xhain.vercel.app/en/climate-strategies/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>climate mitigation and climate adaptation concepts.</a>  
+    The basis for this is the analyses from the <a href='https://klima-dashboard-xhain.vercel.app/en/climate-strategies/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>climate mitigation and climate adaptation strategies.</a>  
     These two strategies were developed by the <a href='https://klima-dashboard-xhain.vercel.app/en/about/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>climate team</a> and politically adopted in December 2024 as a planning and decision-making basis.</br></br>
 `,
 	"introSection.collaboration": `
@@ -83,7 +83,7 @@ export const en: typeof de = {
 	"carousel.infoButton.alt": "Click to show the source of the information",
 
 	"carousel.card1.intro": "",
-	"carousel.card1.description": "People live in Friedrichshain-Kreuzberg",
+	"carousel.card1.description": "people live in Friedrichshain-Kreuzberg",
 	"carousel.card1.source": "Statistics Berlin-Brandenburg 2024",
 
 	"carousel.card2.intro": "",
@@ -112,7 +112,7 @@ export const en: typeof de = {
 	 */
 	"charts.title": "How does Xhain contribute to climate change?",
 	"charts.p1":
-		"Many greenhouse gas-related emissions are generated directly here in the district—for example, through building heating, transportation, or the activities of local businesses. To mitigate climate change at the local level, it is necessary to both reduce energy consumption (efficiency and sufficiency) and transition energy supply to renewable sources (consistency).",
+		"Many greenhouse gas-related emissions are generated directly in our district—for example, through building heating, transportation, or the activities of local businesses. To mitigate climate change at the local level, it is necessary to both reduce energy consumption (efficiency and sufficiency) and transition energy supply to renewable sources (consistency).",
 	"charts.p2.part1": "With the district's ",
 	"charts.p2.part2.tooltip.label":
 		"energy and greenhouse gas balance according to the BISKO standard",
@@ -139,7 +139,7 @@ The lower the emissions factor, the more climate-friendly the energy source is. 
 `,
 
 	"chart.thgSector2021Tons.title": "Greenhouse gas emissions",
-	"chart.thgSector2021Tons.subtitle": "by sector in 2021 in tons of GHGs",
+	"chart.thgSector2021Tons.subtitle": "by sector in tons of GHGs",
 	"chart.thgSector2021Tons.legend.privateHouseholds": "private households",
 	"chart.thgSector2021Tons.legend.districtBuildings": "district buildings",
 	"chart.thgSector2021Tons.legend.economy": "economy",
@@ -205,7 +205,7 @@ Resource- efficient and local provision as well as the sustainable consumption o
 These figures make it clear: the heating sector is where action is needed most. It holds the greatest potential for saving energy. By using energy wisely, we can save costs while simultaneously creating a sustainable and livable Xhain for everyone.`,
 
 	"chart.eevSector2021Mwh.title": "Final energy consumption",
-	"chart.eevSector2021Mwh.subtitle": "by sectors in 2021",
+	"chart.eevSector2021Mwh.subtitle": "by sectors",
 	"chart.eevSector2021Mwh.keys.sector": "Sector",
 	"chart.eevSector2021Mwh.keys.total_mwh": "Sum in Megawatt Hours",
 	"chart.eevSector2021Mwh.keys.percentage": "Percentage",
@@ -217,7 +217,7 @@ The second-largest share, 36.1%, comes from businesses, including restaurants, h
 This highlights the importance of involving all stakeholders—residents, businesses, and public institutions—in the energy transition.`,
 
 	"chart.heatingMix2021Summarized.title": "Heatmix",
-	"chart.heatingMix2021Summarized.subtitle": "in 2021",
+	"chart.heatingMix2021Summarized.subtitle": "by energy source in %",
 	"chart.heatingMix2021Summarized.keys.source": "Source",
 	"chart.heatingMix2021Summarized.keys.percentage": "Percentage",
 	"chart.heatingMix2021Summarized.keys.total_mwh": "Sum in Megawatt hours",
@@ -283,21 +283,22 @@ To prevent this, we need to act more ambitiously and much faster—starting now.
 		"/climate-strategies/#climate-concept-summary",
 	"chart.restBudgetThgUntilYear.infoDialog.description": `The Paris Agreement provides the international framework to limit global warming to well below 2°C, ideally 1.5°C. At the national level, these goals are supported by the Berlin Energy Transition Act (EWG Bln), which aims for climate neutrality by 2045.
 <br/>
-Xhain's climate protection concept follows the 1.75°C target as an ambitious yet realistic guideline, since forecasts and emission trends show that achieving the 1.5°C target is becoming increasingly difficult.
+Xhain's climate protection strategy follows the 1.75°C target as an ambitious yet realistic guideline, since forecasts and emission trends show that achieving the 1.5°C target is becoming increasingly difficult.
 <br/>
 To implement the Paris goals locally, Xhain uses the "remaining budget" approach. This highlights that not only the annual CO₂ emissions matter, but also the total amount of greenhouse gases released into the atmosphere over time.`,
 
-	"chart.reductionPathScenario175Thg.title": "Emission reduction path",
+	"chart.reductionPathScenario175Thg.title": "Climate protection scenario",
 	"chart.reductionPathScenario175Thg.subtitle":
-		"according to the climate protection scenario (1.75°C, 67% probability) in tons of CO₂ equivalent",
+		"(1.75 degrees, 67 % probability) in tonnes of GHG",
 	"chart.reductionPathScenario175Thg.keys.year": "Year",
 	"chart.reductionPathScenario175Thg.keys.goal_berlin_tons": "Goal Berlin",
 	"chart.reductionPathScenario175Thg.keys.model_xhain_tons":
 		"Model calculation Xhain",
-	"chart.reductionPathScenario175Thg.legend.model": "Model Xhain",
-	"chart.reductionPathScenario175Thg.legend.goal": "Ziel Land Berlin",
+	"chart.reductionPathScenario175Thg.legend.model":
+		"Climate protection scenario Xhain",
+	"chart.reductionPathScenario175Thg.legend.goal": "Climate targets for Berlin",
 	"chart.reductionPathScenario175Thg.description":
-		"The climate protection scenario shows shows how Xhain can become climate neutral by 2045 without exceeding the local carbon budget. To make this happen, we need to move forward together with innovation and ambition.",
+		"The climate protection scenario shows how Xhain can become climate neutral by 2045 without exceeding the local carbon budget. To make this happen, we need to move forward together with innovation and ambition.",
 	"chart.reductionPathScenario175Thg.infoDialog.learnMoreLink":
 		"/climate-strategies/#climate-concept-full",
 	"chart.reductionPathScenario175Thg.infoDialog.description": `In recent years, we have fallen short when it comes to Berlin's climate protection targets. In order to return to the target path by 2030, we need to reduce emissions more significantly and act more decisively.
@@ -410,7 +411,7 @@ For example, heavy rainfall events in June 2017 and July 2018 caused severe floo
 		rel="noopener noreferrer"	
 	>
 		Geoportal MeinXhain</a>,
-	Climate Adaptation Concept Friedrichshain-Kreuzberg (only available in German)`,
+	Climate Adaptation Strategy Friedrichshain-Kreuzberg (only available in German)`,
 	"chart.HBI.infoDialog.learnMoreLink":
 		"/climate-strategies/#climate-adaptation-full",
 	"chart.HBI.infoDialog.description": `Indicators of the heat impact index (HBI):`,
@@ -418,7 +419,7 @@ For example, heavy rainfall events in June 2017 and July 2018 caused severe floo
 	"chart.HBI.infoDialog.factors.title": "Heat impact index",
 
 	"chart.HBI.infoDialog.factors.exposition": "Exposition",
-	"chart.HBI.infoDialog.factors.exposition.temperature": "Temperature",
+	"chart.HBI.infoDialog.factors.exposition.temperature": "Surface temperature",
 	"chart.HBI.infoDialog.factors.humanSensitivity": "Human Sensitivity",
 	"chart.HBI.infoDialog.factors.humanSensitivity.denisty": "Population density",
 	"chart.HBI.infoDialog.factors.humanSensitivity.inhabitansYoung":
@@ -430,7 +431,8 @@ For example, heavy rainfall events in June 2017 and July 2018 caused severe floo
 		"Social and economic disadvantage",
 	"chart.HBI.infoDialog.factors.envSensitivity": "Environmental Sensitivity",
 	"chart.HBI.infoDialog.factors.envSensitivity.greenvolume": "Green volume",
-	"chart.HBI.infoDialog.factors.envSensitivity.sealing": "Sealing",
+	"chart.HBI.infoDialog.factors.envSensitivity.sealing":
+		"Sealing of soil surface",
 
 	"chart.HBI.legend.title": "Heat impact related to the district average",
 	"chart.HBI.legend.verylow": "very low",
@@ -458,7 +460,7 @@ For example, heavy rainfall events in June 2017 and July 2018 caused severe floo
 	"howToReachGoals.title":
 		"How can Xhain achieve its climate protection goals in the future?",
 	"howToReachGoals.description":
-		"A look into the future: what will happen if we carry on like this and what needs to change in order to achieve the climate protection targets?",
+		"A glimpse into the future: what will happen if we carry on like this and what needs to change in order to achieve the climate protection targets?",
 
 	"consequences.title": "How does climate change affect Xhain?",
 	"consequences.description":
@@ -521,7 +523,7 @@ For example, heavy rainfall events in June 2017 and July 2018 caused severe floo
 
 	"currentProjects.project5.title": "PV-expansion on our own buildings",
 	"currentProjects.project5.description":
-		"To fully equip district-owned buildings with photovoltaic systems, the district office is collaborating with Berliner Stadtwerke. As part of this partnership, installations with a capacity of approximately 850 kWp have been commissioned by the end of 2024. Additional systems are currently in planning and implementation stages.",
+		"To fully equip the district's own buildings with photovoltaic systems, the district office is collaborating with Berliner Stadtwerke. As part of this partnership, installations with a capacity of approximately 850 kWp have been commissioned by the end of 2024. Additional systems are currently in planning and implementation stages.",
 	"currentProjects.project5.imageAltText": "Close-up of a solar panel",
 	"currentProjects.project5.link":
 		"https://www.berlin.de/ba-friedrichshain-kreuzberg/aktuelles/pressemitteilungen/2025/pressemitteilung.1523939.php",
@@ -560,12 +562,12 @@ For example, heavy rainfall events in June 2017 and July 2018 caused severe floo
 	"about.title": "Who we are",
 	"about.firstSectionTitle": "Berlin climate neutral by 2045",
 	"about.firstSectionDescription":
-		"The Berlin Senate aims to transform the city into a climate-neutral one by 2045, while simultaneously adapting to the unavoidable impacts of climate change.",
+		"The Berlin Senate aims to transform Berlin into a climate-neutral city by 2045, while simultaneously adapting to the unavoidable impacts of climate change.",
 	"about.secondSectionTitle": "Xhain is setting a good example",
 	"about.secondSectionDescription":
 		"In December 2024, the two climate strategies were politically approved. The task is now to use them as a basis to advance specific projects in a targeted manner.",
 	"about.thirdSectionTitle": "Who? The Xhain climate team",
-	"about.thirdSectionDescription": `The four-member climate team of the "Climate and International Affairs" unit consists of two climate mitigation managers, one climate adaptation manager, and the climate officer. Together, they support the implementation of climate-effective measures. At the same time, they facilitate communication and networking between various stakeholder groups in the district on matters related to climate mitigation and climate adaptation. After all, climate mitigation and climate adaptation can only succeed together!`,
+	"about.thirdSectionDescription": `The four-member climate team of the "Climate and International Affairs" unit consists of two climate mitigation managers, one climate adaptation manager, and the climate officer. Together, they support the implementation of climate-effective measures. At the same time, they facilitate communication and networking between various stakeholder groups in the district on matters related to climate efforts. After all, climate mitigation and climate adaptation can only succeed collectively!`,
 	"about.actionCardTitle": `Questions?<br/>Write to the Xhain climate team.`,
 	"about.actionCardEmail": "E-Mail the climate team",
 
@@ -613,8 +615,8 @@ For example, heavy rainfall events in June 2017 and July 2018 caused severe floo
 	 * Footer
 	 */
 	"footer.cardHeading":
-		"Do you have any questions about the climate dashboard and the climate strategies?",
-	"footer.cardSubHeading": "write us!",
+		"Do you have any questions about the climate dashboard and the climate strategy?",
+	"footer.cardSubHeading": "Write us!",
 	"footer.cardCtaButtonText": "E-Mail the climate team",
 	"footer.cardCtaEmail": "klima_und_internationales@ba-fk.berlin.de",
 	"footer.bezirksamtXhainAltText": "bezirksamt xhain logo",
@@ -640,7 +642,7 @@ For example, heavy rainfall events in June 2017 and July 2018 caused severe floo
 		"While climate mitigation aims to reduce greenhouse gas emissions and thus limit the extent of climate change, climate adaptation focuses on adjusting to the current and expected impacts of climate change, such as increasing heat and heavy rainfall.",
 	"climateStrategies.protectionConcept.h2": "Climate mitigation strategy",
 	"climateStrategies.protectionConcept.p":
-		"The climate mitigation concept analyses energy consumption and emissions in the district, defines climate mitigation targets and measures based on this, and consists of a main document and four sub-strategies on key fields of action. The climate mitigation concept was funded by the Federal Ministry for Economic Affairs and Climate Action as part of the National Climate Initiative (NKI).",
+		"The climate mitigation strategy analyses energy consumption and emissions in the district, defines climate mitigation targets and measures based on this, and consists of a main document and four sub-strategies on key fields of action. The climate mitigation strategy was funded by the Federal Ministry for Economic Affairs and Climate Action as part of the National Climate Initiative (NKI).",
 	"climateStrategies.protectionConcept.a.1.label":
 		"Langfassung Klimaschutzkonzept (German)",
 	"climateStrategies.protectionConcept.a.2.label":
@@ -655,7 +657,7 @@ For example, heavy rainfall events in June 2017 and July 2018 caused severe floo
 		"Kurzfassung Klimaschutzkonzept (German)",
 	"climateStrategies.adaptionConcept.h2": "Climate adaptation strategy",
 	"climateStrategies.adaptionConcept.p":
-		"The climate adaptation concept analyses the consequences of climate change in the district and presents objectives and measures. It comprises a main document and four sub-strategies on key fields of action. The climate adaptation concept has been funded by the Federal Ministry for the Environment, Nature Conservation, Nuclear Safety and Consumer Protection.",
+		"The climate adaptation strategy analyses the consequences of climate change in the district and presents objectives and measures. It comprises a main document and four sub-strategies on key fields of action. The climate adaptation strategy has been funded by the Federal Ministry for the Environment, Nature Conservation, Nuclear Safety and Consumer Protection.",
 	"climateStrategies.adaptionConcept.a.1.label":
 		"Langfassung Klimaanpassungskonzept (German)",
 	"climateStrategies.adaptionConcept.a.2.label":
