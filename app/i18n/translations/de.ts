@@ -64,7 +64,7 @@ export const de = {
 	"header.burgerMenuAltText": "Menü öffnen",
 	"header.closeButtonAltText": "Menü schließen",
 	"header.nav.dashboard": "Dashboard",
-	"header.nav.climateConcepts": "Klimakonzepte",
+	"header.nav.climateStrategies": "Klimakonzepte",
 	"header.nav.currentProjects": "Aktuelle Projekte",
 	"header.nav.about": "Über uns",
 	"header.cta": "Jetzt aktiv werden",
@@ -625,46 +625,46 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 	/**
 	 * Climate concepts page
 	 */
-	"climateConcepts.title": "Klimakonzepte",
-	"climateConcepts.intro.p1":
+	"climateStrategies.title": "Klimakonzepte",
+	"climateStrategies.intro.p1":
 		"Die Klimakonzepte von Friedrichshain-Kreuzberg sind zentrale Grundlage, um Klimaanpassung und Klimaschutz im Bezirk strategisch voran zu bringen.",
-	"climateConcepts.intro.p2":
+	"climateStrategies.intro.p2":
 		"Sie zeigen klare Strategien und Maßnahmen auf, um klimaneutral zu werden und gleichzeitig die Lebensqualität der Menschen zu sichern. Hier bieten wir euch die Möglichkeit, die Konzepte vollständig herunterzuladen und im Detail nachzulesen.",
-	"climateConcepts.intro.p3":
+	"climateStrategies.intro.p3":
 		"Während Klimaschutz darauf abzielt, Treibhausgasemissionen zu reduzieren und so das Ausmaß des Klimawandels zu begrenzen, liegt der Fokus bei Klimaanpassung darauf, uns an die bisherigen und zu erwartenden Folgen des Klimawandels, wie zunehmende Hitze und Starkregen, anzupassen.",
-	"climateConcepts.protectionConcept.h2": "Klimaschutzkonzept",
-	"climateConcepts.protectionConcept.p":
+	"climateStrategies.protectionConcept.h2": "Klimaschutzkonzept",
+	"climateStrategies.protectionConcept.p":
 		"Das Klimaschutzkonzept analysiert Energieverbräuche und Emissionen im Bezirk, definiert darauf basierend Klimaschutzziele und Maßnahmen, und besteht aus einem Hauptdokument sowie vier Teilkonzepten zu zentralen Handlungsfeldern. Das Klimaschutzkonzept wurde im Rahmen einer Förderung durch die Nationale Klimaschutzinitiative (NKI) vom BMWK erstellt.",
-	"climateConcepts.protectionConcept.a.1.label":
+	"climateStrategies.protectionConcept.a.1.label":
 		"Langfassung Klimaschutzkonzept",
-	"climateConcepts.protectionConcept.a.2.label": "Teilkonzept Mobilität",
-	"climateConcepts.protectionConcept.a.3.label":
+	"climateStrategies.protectionConcept.a.2.label": "Teilkonzept Mobilität",
+	"climateStrategies.protectionConcept.a.3.label":
 		"Teilkonzept Energie und Gebäude",
-	"climateConcepts.protectionConcept.a.4.label":
+	"climateStrategies.protectionConcept.a.4.label":
 		"Teilkonzept Bezirk als Vorbild",
-	"climateConcepts.protectionConcept.a.5.label":
+	"climateStrategies.protectionConcept.a.5.label":
 		"Teilkonzept Konsum und Gesellschaft",
-	"climateConcepts.protectionConcept.a.6.label":
+	"climateStrategies.protectionConcept.a.6.label":
 		"Kurzfassung Klimaschutzkonzept",
-	"climateConcepts.adaptionConcept.h2": "Klimaanpassungskonzept",
-	"climateConcepts.adaptionConcept.p":
+	"climateStrategies.adaptionConcept.h2": "Klimaanpassungskonzept",
+	"climateStrategies.adaptionConcept.p":
 		"Das Klimaanpassungskonzept analysiert die Folgen des Klimawandels im Bezirk, stellt Ziele und Maßnahmen dar und umfasst ein Hauptdokument sowie vier Teilkonzepte zu zentralen Handlungsfeldern. Das Klimaanpassungskonzept wurde im Rahmen einer Förderung des BMUV erstellt.",
-	"climateConcepts.adaptionConcept.a.1.label":
+	"climateStrategies.adaptionConcept.a.1.label":
 		"Langfassung Klimaanpassungskonzept",
-	"climateConcepts.adaptionConcept.a.2.label":
+	"climateStrategies.adaptionConcept.a.2.label":
 		"Teilkonzept Gebäude und Infrastruktur",
-	"climateConcepts.adaptionConcept.a.3.label":
+	"climateStrategies.adaptionConcept.a.3.label":
 		"Teilkonzept Stadtgrün und Biodiversität",
-	"climateConcepts.adaptionConcept.a.4.label":
+	"climateStrategies.adaptionConcept.a.4.label":
 		"Teilkonzept Stadtplanung- und entwicklung",
-	"climateConcepts.adaptionConcept.a.5.label": "Teilkonzept Gesundheit",
-	"climateConcepts.adaptionConcept.a.6.label":
+	"climateStrategies.adaptionConcept.a.5.label": "Teilkonzept Gesundheit",
+	"climateStrategies.adaptionConcept.a.6.label":
 		"Kurzfassung Klimaanpassungskonzept",
-	"climateConcepts.actionCard.title":
+	"climateStrategies.actionCard.title":
 		"Möchtest Du noch mehr über die Klimakonzepte erfahren?",
-	"climateConcepts.actionCard.subtitle": "Besuche die bezirkliche Webseite.",
-	"climateConcepts.actionCard.link.label": "Zur Website des Klimateams",
-	"climateConcepts.download.alt": "PDF Herunterladen",
+	"climateStrategies.actionCard.subtitle": "Besuche die bezirkliche Webseite.",
+	"climateStrategies.actionCard.link.label": "Zur Website des Klimateams",
+	"climateStrategies.download.alt": "PDF Herunterladen",
 
 	"icon.alt": "Symbol",
 };

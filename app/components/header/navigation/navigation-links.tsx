@@ -14,7 +14,7 @@ const navLinks: {
 		labelKey: "header.nav.dashboard",
 		className: "lg:hidden",
 	},
-	{ path: "/climate-strategies/", labelKey: "header.nav.climateConcepts" },
+	{ path: "/climate-strategies/", labelKey: "header.nav.climateStrategies" },
 	{ path: "/current-projects/", labelKey: "header.nav.currentProjects" },
 	{ path: "/about/", labelKey: "header.nav.about" },
 ];
