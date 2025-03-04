@@ -13,7 +13,8 @@
 		"test:unit": "vitest run --config ./tests/unit/vitest.config.ts",
 		"test:e2e": "playwright test --config=tests/e2e/playwright.config.ts",
 		"test:a11y": "playwright test --config=tests/a11y/playwright.config.ts",
-		"preview": "serve build/client"
+		"preview": "serve build/client",
+		"test:visual": "playwright test --config=tests/visual-regression/playwright.config.ts"
 	},
 	"dependencies": {
 		"@floating-ui/react": "0.27.4",
