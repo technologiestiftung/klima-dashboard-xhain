@@ -11,14 +11,18 @@ export const MapLegend: React.FC = () => {
 	];
 	return (
 		<div className="desktop:absolute desktop:top-10 desktop:left-10 flex flex-col items-start desktop:w-64">
-			<div className="text-base leading-6 font-bold mb-7">
+			<div className="text-base leading-6 font-bold mb-7 bg-xhain-blue-10">
 				{i18n("chart.HBI.legend.title")}
 			</div>
 			<div className="flex flex-row flex-wrap desktop:flex-col gap-2">
 				{legendItems.map((item) => (
 					<div key={item.label} className="flex items-center gap-2.5">
-						<div className={`size-6 rounded-full ${item.color}`} />
-						<div className="text-base leading-6 font-normal">{item.label}</div>
+						<div
+							className={`size-6 rounded-full border border-xhain-blue-10 ${item.color}`}
+						/>
+						<div className="text-base leading-6 font-normal bg-xhain-blue-10">
+							{item.label}
+						</div>
 					</div>
 				))}
 			</div>
