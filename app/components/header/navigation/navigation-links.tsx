@@ -12,7 +12,6 @@ const navLinks: {
 	{
 		path: "/",
 		labelKey: "header.nav.dashboard",
-		className: "lg:hidden",
 	},
 	{ path: "/climate-strategies/", labelKey: "header.nav.climateStrategies" },
 	{ path: "/current-projects/", labelKey: "header.nav.currentProjects" },
@@ -34,10 +33,10 @@ export const NavigationLinks: React.FC = () => {
 						href={buildLocalizedLink(path)}
 						onClick={closeMenu}
 						className={`
-						inline-block hover:underline hover:underline-offset-8 hover:decoration-1 
-						lg:p-6 lg:hover:no-underline lg:hover:bg-xhain-blue-20 lg:focus:bg-xhain-blue-20 
-						focus-xhain-blue-80 
-						${normalizedPathname === normalizePath(path) && "underline underline-offset-8 decoration-2 lg:bg-xhain-blue-20 lg:no-underline"}
+						inline-block hover:underline hover:underline-offset-8 hover:decoration-2 
+						lg:p-6 lg:hover:bg-xhain-blue-20 lg:focus:bg-xhain-blue-20
+						active
+						${normalizedPathname === normalizePath(path) && "underline underline-offset-8 decoration-2"}
 						${className}`}
 					>
 						{i18n(labelKey)}
