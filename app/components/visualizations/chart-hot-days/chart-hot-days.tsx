@@ -38,7 +38,7 @@ export function ChartHotDays() {
 				</div>
 
 				<div className="flex flex-col items-end">
-					<p className="w-full text-center">
+					<p className="text-center w-[243px]">
 						<span className="text-9xl font-bold text-xhain-blue-50">
 							{formatNumber(amountOfHotDays, { toFixed: 1 })}
 						</span>
