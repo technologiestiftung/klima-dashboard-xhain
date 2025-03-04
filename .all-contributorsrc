@@ -1,13 +1,29 @@
 {
-	"projectName": "template-default",
-	"projectOwner": "technologiestiftung",
-	"repoType": "github",
-	"repoHost": "https://github.com",
-	"files": ["README.md"],
-	"imageSize": 64,
-	"commit": true,
-	"commitConvention": "angular",
-	"contributors": [],
-	"contributorsPerLine": 7,
-	"skipCi": true
+  "projectName": "klima-dashboard-xhain",
+  "projectOwner": "technologiestiftung",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 64,
+  "commit": true,
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "aeschi",
+      "name": "aeschi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/56318362?v=4",
+      "profile": "http://annaeschenbacher.com",
+      "contributions": [
+        "infra",
+        "test",
+        "a11y",
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "commitType": "docs"
 }
