@@ -6,7 +6,7 @@ export const DialogContentHBI: React.FC = () => {
 	const hbiFactors = [
 		{
 			title: i18n(`chart.HBI.infoDialog.factors.exposition`),
-			content: [i18n(`chart.HBI.infoDialog.factors.exposition`)],
+			content: [i18n(`chart.HBI.infoDialog.factors.exposition.temperature`)],
 		},
 		{
 			title: i18n(`chart.HBI.infoDialog.factors.humanSensitivity`),

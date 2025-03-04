@@ -43,7 +43,7 @@ export const de = {
 	"introSection.keyQuestion3":
 		"Und wo zeigen sich die Folgen des Klimawandels im Bezirk schon jetzt?",
 	"introSection.dataBasis": `
-	  Grundlage sind die Analysen des <a href='https://klima-dashboard-xhain.vercel.app/climate-concepts/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>Klimaschutz- und des Klimaanpassungskonzepts.</a> 
+	  Grundlage sind die Analysen des <a href='https://klima-dashboard-xhain.vercel.app/climate-strategies/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>Klimaschutz- und des Klimaanpassungskonzepts.</a> 
 	  Die beiden Konzepte wurden vom <a href='https://klima-dashboard-xhain.vercel.app/about/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>Klimateam</a> entwickelt und im Dezember 2024 als 
 	  Planungs- und Entscheidungsgrundlage politisch beschlossen.</br></br>
 	`,
@@ -64,7 +64,7 @@ export const de = {
 	"header.burgerMenuAltText": "Menü öffnen",
 	"header.closeButtonAltText": "Menü schließen",
 	"header.nav.dashboard": "Dashboard",
-	"header.nav.climateConcepts": "Klimakonzepte",
+	"header.nav.climateStrategies": "Klimakonzepte",
 	"header.nav.currentProjects": "Aktuelle Projekte",
 	"header.nav.about": "Über uns",
 	"header.cta": "Jetzt aktiv werden",
@@ -85,7 +85,7 @@ export const de = {
 	"carousel.card1.description": "Menschen leben in Friedrichshain-Kreuzberg",
 	"carousel.card1.source": "Statistik Berlin-B. 2024",
 
-	"carousel.card2.intro": "Auf einen km² leben",
+	"carousel.card2.intro": "Auf einem km² leben",
 	"carousel.card2.description": "Menschen in",
 	"carousel.card2.source": "Statistik Berlin-B. 2024",
 
@@ -111,7 +111,7 @@ export const de = {
 	 */
 	"charts.title": "Wie trägt Xhain zum Klimawandel bei?",
 	"charts.p1":
-		"Viele treibhausgasrelevante Emissionen entstehen direkt hier im Bezirk - zum Beispiel durch die Beheizung von Gebäuden, den Verkehr oder die Aktivitäten der ansässigen Unternehmen. Um den Klimawandel auf lokaler Ebene einzudämmen gilt es einerseits den Energieverbrauch zu reduzieren (Effizienz und Suffizienz) und andererseits die Energieversorgung auf erneuerbare Energien (Konsistenz) umzustellen.",
+		"Viele treibhausgasrelevante Emissionen entstehen direkt hier im Bezirk - zum Beispiel durch die Beheizung von Gebäuden, den Verkehr oder die Aktivitäten der ansässigen Unternehmen. Um den Klimawandel auf lokaler Ebene einzudämmen, gilt es einerseits den Energieverbrauch zu reduzieren (Effizienz und Suffizienz) und andererseits die Energieversorgung auf erneuerbare Energien (Konsistenz) umzustellen.",
 	"charts.p2.part1": "Mit der bezirklichen ",
 	"charts.p2.part2.tooltip.label":
 		"Energie- und Treibhausgasbilanz nach dem BISKO-Standard",
@@ -122,7 +122,7 @@ export const de = {
 
 	"charts.p2.part2.tooltip.content": `Die <b>Endenergiebasierte Terriotorialbilanz nach BISKO</b> erfasst den Endenergieverbrauch, der direkt innerhalb der Grenzen des Bezirks entsteht. Das bedeutet, es wird gemessen, wie viel Energie Haushalte für das Heizen der Wohnung oder die Nutzung elektronischer Geräte verbrauchen. Diese Daten stammen zum Beispiel von Energiezählern, wie sie in jedem Haus zu finden sind, und zeigen auf, wie viel Energie vor Ort benötigt wird.`,
 	"charts.p2.part3":
-		"zeigen wir auf, wofür die Energie genutzt wird, wie viele Emissionen dabei entstehen und wo demnach relevante Hebel für das Erreichen der Klimaneutralität bei 2045 liegen.",
+		"zeigen wir auf, wofür die Energie genutzt wird, wie viele Emissionen dabei entstehen und wo demnach relevante Hebel für das Erreichen der Klimaneutralität bei 2045 liegen. Alle Angaben zum Beitrag von Xhain zum Klimawandel beziehen sich, sofern nicht anders angegeben, auf das Bezugsjahr 2021.",
 	"charts.ariaLabel": "Visualisierung von",
 
 	"chart.thgTotalTons.title": "Entwicklung der Treibhausgas-Emissionen",
@@ -132,7 +132,7 @@ export const de = {
 	"chart.thgTotalTons.keys.electricity_tons": "Strom",
 	"chart.thgTotalTons.keys.fuels_tons": "Kraftstoffe",
 	"chart.thgTotalTons.infoDialog.learnMoreLink":
-		"/climate-concepts/#climate-concept-full",
+		"/climate-strategies/#climate-concept-full",
 	"chart.thgTotalTons.infoDialog.description": `Die Emissionen, die durch den Energieverbrauch entstehen, werden mit sogenannten Emissionsfaktoren berechnet. Ein Emissionsfaktor zeigt, wie viele Treibhausgase freigesetzt werden, wenn ein bestimmter Energieträger – wie Gas, Strom oder Öl – erzeugt, transportiert und genutzt wird. So lässt sich einschätzen, wie klimaschädlich der Verbrauch einer bestimmten Energiequelle ist.
 Je niedriger der Emissionsfaktor, desto klimafreundlicher ist die Energiequelle. 
 <br/>
@@ -147,7 +147,7 @@ Zum Beispiel hat Strom aus Windkraft einen sehr niedrigen Emissionsfaktor, währ
 	"chart.thgSector2021Tons.keys.total_tons": "Summe in Tonnen THG",
 	"chart.thgSector2021Tons.keys.percentage": "Prozent",
 	"chart.thgSector2021Tons.infoDialog.learnMoreLink":
-		"/climate-concepts/#climate-concept-full",
+		"/climate-strategies/#climate-concept-full",
 	"chart.thgSector2021Tons.infoDialog.description": `Obwohl die Haushalte einen deutlich größten Anteil am Energieverbrauch aufweisen (siehe Kachel Endenergieverbrauch nach Sektoren), verursacht die Wirtschaft ein wenig mehr Emissionen (43 %) als die privaten Haushalte (42 %). Dies liegt an den unterschiedlichen Emissionsfaktoren der Energieträger für Strom und Wärme.
 <br/>
 Während in Haushalten ein Großteil des Energieverbrauchs für Wärme eingesetzt wird, ist im Gewerbe der Stromverbrauch dominanter. Strom hat aufgrund der derzeitigen Zusammensetzung des deutschen Strommixes einen höheren Emissionsfaktor, da die Stromerzeugung in Deutschland aktuell noch zu einem Großteil über fossile Energieträger wie insbesondere die Kohle erfolgt. Entsprechend der aktuellen Entwicklung und der Ziele auf Bundesebene ist aber von einer stetigen Verbesserung bis 2045 auszugehen. Wir als Bezirk können durch den lokalen PV-Ausbau einen wichtigen Beitrag leisten.
@@ -176,7 +176,7 @@ Der Verkehr verursacht 14% der Emissionen. Weiterhin sind auch die bezirklichen 
 			</a>
 			`,
 	"chart.consumptionEmissionsTons.infoDialog.learnMoreLink":
-		"/climate-concepts/#consumption-society",
+		"/climate-strategies/#consumption-society",
 	"chart.consumptionEmissionsTons.infoDialog.description": `
 				Indirekte Emissionen entstehen durch den Konsum von Gütern und
 				Dienstleistungen, deren Produktion und Transport außerhalb der
@@ -203,25 +203,25 @@ Der Verkehr verursacht 14% der Emissionen. Weiterhin sind auch die bezirklichen 
 	"chart.eevTotalMwh.keys.electricity_mwh": "Strom in Megawattstunden",
 	"chart.eevTotalMwh.keys.fuels_mwh": "Kraftstoffe in Megawattstunden",
 	"chart.eevTotalMwh.infoDialog.learnMoreLink":
-		"/climate-concepts/#climate-concept-full",
+		"/climate-strategies/#climate-concept-full",
 	"chart.eevTotalMwh.infoDialog.description": `Der größte Teil des Energieverbrauchs entsteht durch den Wärmebedarf, also insbesondere durch das Heizen von Gebäuden und die Aufbereitung von Warmwasser. Das macht aktuell 56,9 % des bezirklichen Energieverbrauchs aus. 32,3 % entfallen auf den Stromverbrauch, z. B. für Beleuchtung oder technische Geräte. Den kleinsten, aber dennoch relevanten Verbrauch verursachen die Kraftstoffen mit 10,8 %.
 <br/>
 Diese Zahlen zeigen klar, dass der größte Handlungsbedarf im Bereich der Wärme liegt – hier gibt es die größten Potenziale für Energieeinsparung. Indem wir klug mit Energie umgehen, kön nen wir Kosten sparen und zugleich die Grundlage für ein lebenswertes Xhain für alle schaffen.`,
 
 	"chart.eevSector2021Mwh.title": "Endenergieverbrauch",
-	"chart.eevSector2021Mwh.subtitle": "nach Verbrauchssektor in 2021",
+	"chart.eevSector2021Mwh.subtitle": "nach Verbrauchssektor",
 	"chart.eevSector2021Mwh.keys.sector": "Sektor",
 	"chart.eevSector2021Mwh.keys.total_mwh": "Summe in Megawattstunden",
 	"chart.eevSector2021Mwh.keys.percentage": "Prozent",
 	"chart.eevSector2021Mwh.infoDialog.learnMoreLink":
-		"/climate-concepts/#climate-concept-full",
+		"/climate-strategies/#climate-concept-full",
 	"chart.eevSector2021Mwh.infoDialog.description": `Die privaten Haushalte sind mit einem Anteil von 50,4 % die größten Energieverbraucher in unserem dicht besiedelten Bezirk. Dies ist z.B. auf die hohe Anzahl an Haushalten und auf Faktoren wie Wärmeverluste durch viele alte, unsanierte Gebäude zurückzuführen. 
 <br/>
 An zweiter Stelle folgt das Gewerbe mit 36,1 %, das Gastronomie, Hotels, Büros, kleine Produktionsbetriebe, Handwerk, die charakteristische Kultur- und Kreativwirtschaft und Weitere umfasst. Der Verkehr verbraucht 11,6 % der Energie und die bezirklichen Gebäude haben mit 1,9 % den geringsten Anteil am Energieverbrauch. 
 Somit ist es wichtig, alle Akteure - Bürger:innen, Unternehmen und öffentliche Einrichtungen - in die Energiewende einzubeziehen.`,
 
 	"chart.heatingMix2021Summarized.title": "Wärmemix",
-	"chart.heatingMix2021Summarized.subtitle": "in 2021",
+	"chart.heatingMix2021Summarized.subtitle": "nach Energiequelle in %",
 	"chart.heatingMix2021Summarized.keys.source": "Quelle",
 	"chart.heatingMix2021Summarized.keys.percentage": "Prozent",
 	"chart.heatingMix2021Summarized.keys.total_mwh": "Summe in Megawattstunden",
@@ -229,16 +229,16 @@ Somit ist es wichtig, alle Akteure - Bürger:innen, Unternehmen und öffentliche
 		"Neben dem wärmbedingten Energieverbrauch bestimmten die genutzten Energiequellen, wie im Wärmemix dargestellt, unsere Klimabilanz maßgeblich.",
 	"chart.heatingMix2021Summarized.gas": "Erdgas",
 	"chart.heatingMix2021Summarized.districtHeating": "Fernwärme",
-	"chart.heatingMix2021Summarized.fossil": "Sonstige fossile",
+	"chart.heatingMix2021Summarized.fossil": "Sonstige fossile Energieträger",
 	"chart.heatingMix2021Summarized.renewable": "Erneuerbare Energien",
 	"chart.heatingMix2021Summarized.infoDialog.learnMoreLink":
-		"/climate-concepts/#energy-buildings",
+		"/climate-strategies/#energy-buildings",
 	"chart.heatingMix2021Summarized.infoDialog.description": `Der Wärmemix Xhains zeigt, dass die Wärmeversorgung Stand jetzt überwiegend über Erdgas und Fernwärme erfolgt. Demnach ist neben der Senkung des Wärmeverbrauchs die Dekarbonisierung der Wärmeversorgung  - also die Umstellung auf eine klimafreundliche Wärmeversorgung ein wichtiger Hebel um die wärmebedingten Emissionen zu reduzieren. 
 <br/>
 Das bedeutet, dass die erdgasbasierte Versorgung durch erneuerbare Energien, wie beispielsweise Solarthermie oder Umweltwärme ersetzt und die Fernwärme klimaneutral gestaltet werden muss.`,
 
 	"chart.modalSplit2018.title": "Modal-Split",
-	"chart.modalSplit2018.subtitle": "nach Bereich in %",
+	"chart.modalSplit2018.subtitle": "nach Verkehrsträger in %",
 	"chart.modalSplit2018.description":
 		"Der Modal-Split zeigt die Verteilung der Verkehrsnachfrage auf die verschiedenen Verkehrsmittelträger.",
 	"chart.modalSplit2018.legend.miv": "Motorisierter Individualverkehr",
@@ -253,8 +253,8 @@ Das bedeutet, dass die erdgasbasierte Versorgung durch erneuerbare Energien, wie
 	"chart.modalSplit2018.keys.foot": "Fußgänger:innen",
 	"chart.modalSplit2018.keys.bike": "Fahradfahrende",
 	"chart.modalSplit2018.infoDialog.learnMoreLink":
-		"/climate-concepts/#mobility",
-	"chart.modalSplit2018.infoDialog.description": `Der Umweltverbund, d.h. Öffis, Rad- und Fußverkehr, macht in Berlin bereits einen hohen Anteil aus. Die Zahlen verdeutlichen das wir als Bezirk als Vorbild vorangehen, hier werden bereits 86,5 % der Wege mit umweltfreundlichen Verkehrsmitteln zurückgelegt. Dennoch hat der Verkehrssektor weiterhin erhebliche Auswirkungen auf unser Klima. Trotz des geringen MIV-Anteils von 13,5 % verursacht der Verkehr Emissionen in Höhe von 153.000 Tonnen CO2-Äquivalenten pro Jahr und macht damit etwa 13,6 % der gesamten Emissionen des Bezirks im Jahr 2021 aus.
+		"/climate-strategies/#mobility",
+	"chart.modalSplit2018.infoDialog.description": `Der Umweltverbund, d.h. Öffis, Rad- und Fußverkehr, macht in Berlin bereits einen hohen Anteil aus. Die Zahlen verdeutlichen das wir als Bezirk als Vorbild vorangehen, hier werden bereits 86,5 % der Wege mit umweltfreundlichen Verkehrsmitteln zurückgelegt. Dennoch hat der Verkehrssektor weiterhin erhebliche Auswirkungen auf unser Klima. Trotz des geringen MIV-Anteils von 13,5 % verursacht der Verkehr Emissionen in Höhe von 153.000 Tonnen CO₂-Äquivalenten pro Jahr und macht damit etwa 13,6 % der gesamten Emissionen des Bezirks im Jahr 2021 aus.
 <br/>
 Nicht nur für den Klimaschutz, sondern auch für die Luft- und die Lärmbelastung in unseren Kiezen  sind weitere Anstrengungen zur Reduzierung der Verkehrsemissionen wichtig.`,
 
@@ -263,7 +263,7 @@ Nicht nur für den Klimaschutz, sondern auch für die Luft- und die Lärmbelastu
 	"chart.traffic2022Summarized.keys.sector": "Sektor",
 	"chart.traffic2022Summarized.keys.percentage_thg": "Prozent Treibhausgas",
 	"chart.traffic2022Summarized.infoDialog.learnMoreLink":
-		"/climate-concepts/#mobility",
+		"/climate-strategies/#mobility",
 	"chart.traffic2022Summarized.infoDialog.description": `Im Rahmen der Klimabilanz sind alle Fahrten, welche in Xhain starten oder enden oder bei denen sowohl Start- und Ziel im Bezirk liegen berücksichtigt worden. Dazu gehören neben den Öffis auch ein geringer Anteil der Binnenschifffahrt. Nicht berücksichtigt sind z.B. Flugreisen der Bevölkerung oder der Tourist*innen, da der Flughafen außerhalb der Bezirksgrenze liegt.
 <br/>
 Demnach gilt es den Motorisierten Individualverkehr zu reduzieren und zu elektrifizieren und den Umweltverbund zu stärken.`,
@@ -274,7 +274,7 @@ Demnach gilt es den Motorisierten Individualverkehr zu reduzieren und zu elektri
 	"chart.restBudgetThgUntilYear.keys.tons_co2": "CO₂ Budget",
 	"chart.restBudgetThgUntilYear.unit": "Mio. Tonnen",
 	"chart.restBudgetThgUntilYear.remainingBudget":
-		"Verbleibendes CO2–Budget bis",
+		"Verbleibendes CO₂–Budget bis",
 	"chart.restBudgetThgUntilYear.text": `Das verbleibende CO₂-Budget Xhains beträgt insgesamt nur noch 12,2 Mio. Tonnen, um die Erderwärmung auf maximal 1,75° zu begrenzen.
 <br/>
 Wenn Xhain so weitermacht wie bisher, wäre dieses lokale Restbudget bereits 2032 aufgebraucht – der Eimer würde sprichwörtlich überlaufen und die Risiken für Menschen, Ökosysteme und Infrastrukturen dramatisch steigen.
@@ -283,24 +283,24 @@ Dieses Ziel markiert die Grenze, ab der die Risiken für Menschen, Ökosysteme u
 <br/>
 Um dies zu vermeiden, müssen wir jetzt ambitionierter und auch schneller handeln.`,
 	"chart.restBudgetThgUntilYear.infoDialog.learnMoreLink":
-		"/climate-concepts/#climate-concept-summary",
+		"/climate-strategies/#climate-concept-summary",
 	"chart.restBudgetThgUntilYear.infoDialog.description": `Das Pariser Klimaabkommen bildet den internationalen Rahmen, um die globale Erwärmung auf deutlich unter 2°C, möglichst aber auf 1,5°C zu begrenzen. Auf Landesebene werden diese Zielsetzungen durch das Berliner Energiewendegesetz (EWG Bln) mit dem Ziel der Klimaneutralität bis 2045 ergänzt. Im Klimaschutzkonzept von Xhain wird das 1,75°-Ziel als Orientierung gewählt, da Prognosen und Emissionstrends zeigen, dass das 1,5°-Ziel immer schwieriger zu erreichen ist. 
 <br/>
-Um die Ziele von Paris lokal umzusetzen, wird der sogenannte Restbudget-Ansatz genutzt. Damit wird deutlich, dass nicht nur der jährliche CO2-Ausstoß entscheidend ist, sondern die Gesamtmenge an Treibhausgasen, die im Laufe der Zeit in die Atmosphäre freigesetzt wird.`,
+Um die Ziele von Paris lokal umzusetzen, wird der sogenannte Restbudget-Ansatz genutzt. Damit wird deutlich, dass nicht nur der jährliche CO₂-Ausstoß entscheidend ist, sondern die Gesamtmenge an Treibhausgasen, die im Laufe der Zeit in die Atmosphäre freigesetzt wird.`,
 
-	"chart.reductionPathScenario175Thg.title": "Reduktionspfad",
+	"chart.reductionPathScenario175Thg.title": "Klimaschutzszenario",
 	"chart.reductionPathScenario175Thg.subtitle":
-		"Klimaschutzszenario (1,75 Grad, 67 % Wahrscheinlichkeit) in Tonnen THG",
+		"(1,75 Grad, 67 % Wahrscheinlichkeit) in Tonnen THG",
 	"chart.reductionPathScenario175Thg.keys.year": "Jahr",
 	"chart.reductionPathScenario175Thg.keys.goal_berlin_tons": "Ziel Land Berlin",
 	"chart.reductionPathScenario175Thg.keys.model_xhain_tons":
 		"Modellberechnung Xhain",
-	"chart.reductionPathScenario175Thg.legend.model": "Modellberechnung Xhain",
+	"chart.reductionPathScenario175Thg.legend.model": "Klimaschutzszenario Xhain",
 	"chart.reductionPathScenario175Thg.legend.goal": "Ziel Land Berlin",
 	"chart.reductionPathScenario175Thg.description":
 		"Das Klimaschutzszenario zeigt auf wie Xhain das Ziel der Klimaneutralität bis 2045 unter Einhaltung des lokal verbleibenden Restbudgets erreichen kann. Dazu müssen wir gemeinsam und innovativ vorangehen.",
 	"chart.reductionPathScenario175Thg.infoDialog.learnMoreLink":
-		"/climate-concepts/#climate-concept-full",
+		"/climate-strategies/#climate-concept-full",
 	"chart.reductionPathScenario175Thg.infoDialog.description": `In den vergangenen Jahren haben wir die Klimaschutzziele des Landes Berlin verfehlt. Um bis 2030 auf den Zielpfad zurückzukehren, müssen wir Emissionen deutlicher reduzieren und entschlossener handeln.
 <br/>
 Die Grafik verdeutlicht, wie wichtig es ist, möglichst schnell in die Phase der starken Reduktion einzutreten, um bis spätestens 2045 Klimaneutralität zu erreichen, denn je früher mögliche Emissionsreduktionen umgesetzt werden, desto weniger wird das verbleibende Budget belastet und desto mehr Zeit bleibt für die Umsetzung notwendiger Veränderungen. Dementsprechend zeigt das Klimaschutzszenario einen kontinuierlichen und realistischen Reduktionspfad auf.`,
@@ -332,7 +332,7 @@ Die Grafik verdeutlicht, wie wichtig es ist, möglichst schnell in die Phase der
 				Climate Service Center Germany (GERICS)
 			</a>`,
 	"chart.hotDays.infoDialog.learnMoreLink":
-		"/climate-concepts/#climate-adaptation-full",
+		"/climate-strategies/#climate-adaptation-full",
 	"chart.hotDays.infoDialog.description": `In den 1950er Jahren gab es durchschnittlich 5.5 heiße Tage pro Jahr im Bezirk. Bis zu den 2010er Jahren hat sich die Anzahl verdreifacht - inzwischen sind es 16.5 Tage pro Jahr.
 <br/>
 Projektionen für die Zukunft sind schwieriger zu ermitteln und hängen von den Klimaschutzaktivitäten ab. Bei einem weiteren kontinuierlichen Anstieg der Treibhausgasemissionen (RCP 8.5 Szenario) erhöht sich die Anzahl der heißen Tage bis zum Ende des Jahrhunderts voraussichtlich auf rund 28 Tage. Wenn wir davon ausgehen, dass die Treibhausgasemissionen ab Mitte des Jahrhunderts sinken (RCP 4.5 Szenario), könnte sich die Anzahl der heißen Tage auf rund 21 Tage pro Jahr begrenzen.`,
@@ -363,7 +363,7 @@ Projektionen für die Zukunft sind schwieriger zu ermitteln und hängen von den 
 				Climate Service Center Germany (GERICS)
 			</a>`,
 	"chart.mediumTemperature.infoDialog.learnMoreLink":
-		"/climate-concepts/#climate-adaptation-full",
+		"/climate-strategies/#climate-adaptation-full",
 	"chart.mediumTemperature.infoDialog.description": `Die Durchschnittswerte der Temperaturen über 10 Jahre helfen, langfristige Temperaturveränderungen zu erkennen. Sie sind vergleichbarer als einzelne Jahre, da sie besonders warme oder kalte Jahre ausgleichen. In dem Zeitraum von 2011-2020 betrug die mittlere Jahrestemperatur 10,9 °C. Das sind 1,7 °C mehr als in den 1950er Jahren.
 <br/>
 Projektionen für die Zukunft sind schwieriger zu ermitteln und hängen von den Klimaschutzaktivitäten ab. Bei einem weiteren kontinuierlichen Anstieg der Treibhausgasemissionen (RCP 8.5 Szenario) erhöht sich die mittlere Jahrestemperatur bis zum Ende des Jahrhunderts voraussichtlich auf circa 13,2 °C . Wenn wir davon ausgehen, dass die Treibhausgasemissionen ab Mitte des Jahrhunderts sinken (RCP 4.5 Szenario), könnte sich die mittlere Jahrestemperatur auf 12 °C begrenzen.`,
@@ -373,7 +373,7 @@ Projektionen für die Zukunft sind schwieriger zu ermitteln und hängen von den 
 	"chart.precipitationMm.keys.year": "Jahr",
 	"chart.precipitationMm.keys.rain": "Regen in Millimeter",
 	"chart.precipitationMm.description":
-		"Beim jährlichen und saisonalen Niederschlag sowie bei der Anzahl der Starkregentage ist in Xhain bisher kein eindeutiger Trend zu erkennen.",
+		"Bei den Niederschlägen ist in Xhain bisher kein eindeutiger Trend zu erkennen. Die Grafik zeigt das exemplarisch für die Sommerniederschläge im Bezirk.",
 	"chart.precipitationMm.infoDialog.sourceTitle": "Quelle:",
 	"chart.precipitationMm.infoDialog.sourceLabel": `<a
 				href="https://dwd.de"
@@ -391,7 +391,7 @@ Projektionen für die Zukunft sind schwieriger zu ermitteln und hängen von den 
 				Climate Service Center Germany (GERICS)
 			</a>`,
 	"chart.precipitationMm.infoDialog.learnMoreLink":
-		"/climate-concepts/#climate-adaptation-full",
+		"/climate-strategies/#climate-adaptation-full",
 	"chart.precipitationMm.infoDialog.description": `Beim jährlichen und saisonalen Niederschlag ist in Xhain bisher kein eindeutiger Trend zu erkennen. Insbesondere bei den Niederschlägen im Sommer gibt es sehr starke Schwankungen zwischen den Jahren. So gab es z.B. im Sommer 2018 nur ein Viertel des Niederschlags (100mm) im Vergleich zum Vorjahr (400mm). Auch für die Zukunft sind die Projektionen teils sehr unsicher, wobei insgesamt auf das Jahr gesehen mit einer Zunahme der Niederschläge gerechnet wird.
 <br/>
 Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeutigen Trend, jedoch hat die Intensität der Starkregenereignisse in den letzten 30 Jahren zugenommen. Beispielsweise sorgten Starkregenereignisse im Juni 2017 und Juli 2018 für schwere Überschwemmungen. Wenn es vorher lange Zeit trocken war, kann der Boden den Regen außerdem schlecht aufnehmen. Für die Zukunft ist sowohl mit einer Zunahme der Häufigkeit als auch der Intensität von Starkregenereignissen zu rechnen.`,
@@ -410,12 +410,13 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 			>
 				Geoportal MeinXhain</a>`,
 	"chart.HBI.infoDialog.learnMoreLink":
-		"/climate-concepts/#climate-adaptation-full",
+		"/climate-strategies/#climate-adaptation-full",
 	"chart.HBI.infoDialog.description": `Der HBI wird durch folgende Indiktoren berechnet:`,
 	"chart.HBI.infoDialog.factors.title": "Hitzebetroffenheitsindex",
 
 	"chart.HBI.infoDialog.factors.exposition": "Exposition",
-	"chart.HBI.infoDialog.factors.exposition.temperature": "Temperatur",
+	"chart.HBI.infoDialog.factors.exposition.temperature":
+		"Oberflächentemperatur",
 	"chart.HBI.infoDialog.factors.humanSensitivity": "Menschliche Sensitivität",
 	"chart.HBI.infoDialog.factors.humanSensitivity.denisty": "Bevölkerungsdichte",
 	"chart.HBI.infoDialog.factors.humanSensitivity.inhabitansYoung":
@@ -427,7 +428,7 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 		"Soziale und wirtschaftliche Benachteiligung",
 	"chart.HBI.infoDialog.factors.envSensitivity": "Umwelt Sensitivität",
 	"chart.HBI.infoDialog.factors.envSensitivity.greenvolume": "Grünvolumen",
-	"chart.HBI.infoDialog.factors.envSensitivity.sealing": "Versiegelung",
+	"chart.HBI.infoDialog.factors.envSensitivity.sealing": "Versieglungsgrad",
 
 	"chart.HBI.legend.title":
 		"Betroffenheit bezogen auf den bezirklichen Durchschnitt",
@@ -523,7 +524,7 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 
 	"currentProjects.project6.title": "Smarte Heizkreisregelung",
 	"currentProjects.project6.description":
-		"Bereits 69 bezirkliche Liegenschaften wurden mit der Heizkreisregelung ovoTherm ausgerüstet, weitere Gebäude folgen. Dadurch wird die Leistung einer Heizung genau an den tatsächlichen Nutzungsbedarf angepasst und so Energieverbrauch, CO2-Emissionen und Energiekosten reduziert.",
+		"Bereits 69 bezirkliche Liegenschaften wurden mit der Heizkreisregelung ovoTherm ausgerüstet, weitere Gebäude folgen. Dadurch wird die Leistung einer Heizung genau an den tatsächlichen Nutzungsbedarf angepasst und so Energieverbrauch, CO₂-Emissionen und Energiekosten reduziert.",
 	"currentProjects.project6.imageAltText":
 		"Ein Netz von isolierten Rohren und Ventilen mit Mess- und Regelvorrichtungen.",
 	"currentProjects.project6.link":
@@ -560,9 +561,9 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 		"Im Dezember 2024 hat das Bezirksamt das Klimaschutzkonzept und das Klimaanpassungskonzept beschlossen. Jetzt gilt es, darauf aufzubauen und konkrete  Projekte zielführend voranzubringen.",
 	"about.thirdSectionTitle": "Wer? Das Klimateam Xhain",
 	"about.thirdSectionDescription":
-		"Das vierköpfige Klimateam der Organisationseinheit „Klima und Internationales“ besteht aus zwei Klimaschutzmanagerinnen, einer Klimaanpassungsmanagerin und dem Klimabeauftragten. Gemeinsam unterstützen sie die Umsetzung klimawirksamer Maßnahmen. Gleichzeitig vermitteln und vernetzten sie die verschiedenen Akteursgruppen im Bezirk, wenn es um Fragen des Klimaschutzes und  der Klimaanpassung geht. Denn Klimaschutz und Klimaanpassung können nur gemeinsam gelingen!",
+		"Das vierköpfige Klimateam der Organisationseinheit „Klima und Internationales“ besteht aus zwei Klimaschutzmanagerinnen, einer Klimaanpassungsmanagerin und dem Klimabeauftragten. Gemeinsam unterstützen sie die Umsetzung klimawirksamer Maßnahmen. Gleichzeitig vermitteln und vernetzen sie die verschiedenen Akteursgruppen im Bezirk, wenn es um klimarelevante Fragen geht. Denn Klimaschutz und Klimaanpassung können nur gemeinsam gelingen!",
 	"about.actionCardTitle": `Fragen?<br/>Schreib dem Klimateam Xhain.`,
-	"about.actionCardEmail": "E-mail ans Klimateam",
+	"about.actionCardEmail": "E-Mail ans Klimateam",
 
 	/**
 	 * Imprint & data privacy page
@@ -598,7 +599,7 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 			href="https://www.berlin.de/"
 			target="_blank"
 			rel="noopener noreferrer"
-			class='underline underline-offset-4'
+			class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'
 		>berlin.de</a>” sind ausgeschlossen.`,
 	"imprintPrivacy.copyright.heading": "Urheberrecht",
 	"imprintPrivacy.copyright.description": `Das Layout der Seiten des Bezirksamtes Friedrichshain-Kreuzberg von Berlin, die verwendeten Grafiken, Fotos, Bewegtbilder, Texte sowie die Sammlung der Beiträge sind urheberrechtlich geschützt. Die Nutzung der Inhalte ist nur im Rahmen der gesetzlichen Bestimmungen zulässig.`,
@@ -609,7 +610,7 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 	"footer.cardHeading":
 		"Hast du Fragen zum KlimaDashboard und den Klimakonzepten?",
 	"footer.cardSubHeading": "Schreib uns!",
-	"footer.cardCtaButtonText": "E-mail ans Klimateam",
+	"footer.cardCtaButtonText": "E-Mail ans Klimateam",
 	"footer.cardCtaEmail": "klima_und_internationales@ba-fk.berlin.de",
 	"footer.bezirksamtXhainAltText": "bezirksamt xhain logo",
 	"footer.imprint": "Impressum und Datenschutz",
@@ -625,47 +626,46 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 	/**
 	 * Climate concepts page
 	 */
-	"climateConcepts.title": "Klimakonzepte",
-	"climateConcepts.intro.p1":
+	"climateStrategies.title": "Klimakonzepte",
+	"climateStrategies.intro.p1":
 		"Die Klimakonzepte von Friedrichshain-Kreuzberg sind zentrale Grundlage, um Klimaanpassung und Klimaschutz im Bezirk strategisch voran zu bringen.",
-	"climateConcepts.intro.p2":
+	"climateStrategies.intro.p2":
 		"Sie zeigen klare Strategien und Maßnahmen auf, um klimaneutral zu werden und gleichzeitig die Lebensqualität der Menschen zu sichern. Hier bieten wir euch die Möglichkeit, die Konzepte vollständig herunterzuladen und im Detail nachzulesen.",
-	"climateConcepts.intro.p3":
+	"climateStrategies.intro.p3":
 		"Während Klimaschutz darauf abzielt, Treibhausgasemissionen zu reduzieren und so das Ausmaß des Klimawandels zu begrenzen, liegt der Fokus bei Klimaanpassung darauf, uns an die bisherigen und zu erwartenden Folgen des Klimawandels, wie zunehmende Hitze und Starkregen, anzupassen.",
-	"climateConcepts.protectionConcept.h2": "Klimaschutzkonzept",
-	"climateConcepts.protectionConcept.p":
+	"climateStrategies.protectionConcept.h2": "Klimaschutzkonzept",
+	"climateStrategies.protectionConcept.p":
 		"Das Klimaschutzkonzept analysiert Energieverbräuche und Emissionen im Bezirk, definiert darauf basierend Klimaschutzziele und Maßnahmen, und besteht aus einem Hauptdokument sowie vier Teilkonzepten zu zentralen Handlungsfeldern. Das Klimaschutzkonzept wurde im Rahmen einer Förderung durch die Nationale Klimaschutzinitiative (NKI) vom BMWK erstellt.",
-	"climateConcepts.protectionConcept.a.1.label":
+	"climateStrategies.protectionConcept.a.1.label":
 		"Langfassung Klimaschutzkonzept",
-	"climateConcepts.protectionConcept.a.2.label": "Teilkonzept Mobilität",
-	"climateConcepts.protectionConcept.a.3.label":
+	"climateStrategies.protectionConcept.a.2.label": "Teilkonzept Mobilität",
+	"climateStrategies.protectionConcept.a.3.label":
 		"Teilkonzept Energie und Gebäude",
-	"climateConcepts.protectionConcept.a.4.label":
+	"climateStrategies.protectionConcept.a.4.label":
 		"Teilkonzept Bezirk als Vorbild",
-	"climateConcepts.protectionConcept.a.5.label":
+	"climateStrategies.protectionConcept.a.5.label":
 		"Teilkonzept Konsum und Gesellschaft",
-	"climateConcepts.protectionConcept.a.6.label":
+	"climateStrategies.protectionConcept.a.6.label":
 		"Kurzfassung Klimaschutzkonzept",
-	"climateConcepts.adaptionConcept.h2": "Klimaanpassungskonzept",
-	"climateConcepts.adaptionConcept.p":
+	"climateStrategies.adaptionConcept.h2": "Klimaanpassungskonzept",
+	"climateStrategies.adaptionConcept.p":
 		"Das Klimaanpassungskonzept analysiert die Folgen des Klimawandels im Bezirk, stellt Ziele und Maßnahmen dar und umfasst ein Hauptdokument sowie vier Teilkonzepte zu zentralen Handlungsfeldern. Das Klimaanpassungskonzept wurde im Rahmen einer Förderung des BMUV erstellt.",
-	"climateConcepts.adaptionConcept.a.1.label":
+	"climateStrategies.adaptionConcept.a.1.label":
 		"Langfassung Klimaanpassungskonzept",
-	"climateConcepts.adaptionConcept.a.2.label":
+	"climateStrategies.adaptionConcept.a.2.label":
 		"Teilkonzept Gebäude und Infrastruktur",
-	"climateConcepts.adaptionConcept.a.3.label":
+	"climateStrategies.adaptionConcept.a.3.label":
 		"Teilkonzept Stadtgrün und Biodiversität",
-	"climateConcepts.adaptionConcept.a.4.label":
+	"climateStrategies.adaptionConcept.a.4.label":
 		"Teilkonzept Stadtplanung- und entwicklung",
-	"climateConcepts.adaptionConcept.a.5.label": "Teilkonzept Gesundheit",
-	"climateConcepts.adaptionConcept.a.6.label":
+	"climateStrategies.adaptionConcept.a.5.label": "Teilkonzept Gesundheit",
+	"climateStrategies.adaptionConcept.a.6.label":
 		"Kurzfassung Klimaanpassungskonzept",
-	"climateConcepts.actionCard.title":
+	"climateStrategies.actionCard.title":
 		"Möchtest Du noch mehr über die Klimakonzepte erfahren?",
-	"climateConcepts.actionCard.subtitle":
-		"Besuchen Sie die bezirkliche Webseite.",
-	"climateConcepts.actionCard.link.label": "Zur Website des Klimateams",
-	"climateConcepts.download.alt": "PDF Herunterladen",
+	"climateStrategies.actionCard.subtitle": "Besuche die bezirkliche Webseite.",
+	"climateStrategies.actionCard.link.label": "Zur Website des Klimateams",
+	"climateStrategies.download.alt": "PDF Herunterladen",
 
 	"icon.alt": "Symbol",
 };

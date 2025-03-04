@@ -4,46 +4,46 @@ import { LinkArrowIcon } from "~/components/icon/link-arrow-icon.tsx";
 
 const content = [
 	{
-		h2: "climateConcepts.protectionConcept.h2",
-		p: "climateConcepts.protectionConcept.p",
+		h2: "climateStrategies.protectionConcept.h2",
+		p: "climateStrategies.protectionConcept.p",
 		links: [
 			{
-				label: "climateConcepts.protectionConcept.a.1.label",
+				label: "climateStrategies.protectionConcept.a.1.label",
 				href: "https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/service-und-organisationseinheiten/klima-und-internationales/2024_ksk_xhain_langfassung.pdf?ts=1734709045",
 				id: "climate-concept-full",
 				format: "PDF",
 				size: "3 MB",
 			},
 			{
-				label: "climateConcepts.protectionConcept.a.3.label",
+				label: "climateStrategies.protectionConcept.a.3.label",
 				href: "https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/service-und-organisationseinheiten/klima-und-internationales/2024_ksk_xhain_teilkonzept_energieundgebaude.pdf?ts=1734609309",
 				id: "energy-buildings",
 				format: "PDF",
 				size: "5 MB",
 			},
 			{
-				label: "climateConcepts.protectionConcept.a.2.label",
+				label: "climateStrategies.protectionConcept.a.2.label",
 				href: "https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/service-und-organisationseinheiten/klima-und-internationales/2024_ksk_xhain_teilkonzept_mobilitaet.pdf?ts=1734609302",
 				id: "mobility",
 				format: "PDF",
 				size: "2.9 MB",
 			},
 			{
-				label: "climateConcepts.protectionConcept.a.4.label",
+				label: "climateStrategies.protectionConcept.a.4.label",
 				href: "https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/service-und-organisationseinheiten/klima-und-internationales/2024_ksk_xhain_teilkonzept_bezirkalsvorbild.pdf?ts=1734609304",
 				id: "district-role-model",
 				format: "PDF",
 				size: "2.2 MB",
 			},
 			{
-				label: "climateConcepts.protectionConcept.a.5.label",
+				label: "climateStrategies.protectionConcept.a.5.label",
 				href: "https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/service-und-organisationseinheiten/klima-und-internationales/2024_ksk_xhain_teilkonzept_konsumundgesellschaft.pdf?ts=1734609302",
 				id: "consumption-society",
 				format: "PDF",
 				size: "2.1 MB",
 			},
 			{
-				label: "climateConcepts.protectionConcept.a.6.label",
+				label: "climateStrategies.protectionConcept.a.6.label",
 				href: "https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/service-und-organisationseinheiten/klima-und-internationales/2024_ksk_xhain_kurzfassung.pdf?ts=1735905812",
 				id: "climate-concept-summary",
 				format: "PDF",
@@ -52,46 +52,46 @@ const content = [
 		],
 	},
 	{
-		h2: "climateConcepts.adaptionConcept.h2",
-		p: "climateConcepts.adaptionConcept.p",
+		h2: "climateStrategies.adaptionConcept.h2",
+		p: "climateStrategies.adaptionConcept.p",
 		links: [
 			{
-				label: "climateConcepts.adaptionConcept.a.1.label",
+				label: "climateStrategies.adaptionConcept.a.1.label",
 				href: "https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/service-und-organisationseinheiten/klima-und-internationales/2024_kak_xhain_langfassung.pdf?ts=1734609306",
 				id: "climate-adaptation-full",
 				format: "PDF",
 				size: "6.4 MB",
 			},
 			{
-				label: "climateConcepts.adaptionConcept.a.2.label",
+				label: "climateStrategies.adaptionConcept.a.2.label",
 				href: "https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/service-und-organisationseinheiten/klima-und-internationales/2024_kak_xhain_teilkonzept_gebaeudeinfrastruktur.pdf?ts=1734609301",
 				id: "buildings-infrastructure",
 				format: "PDF",
 				size: "1.7 MB",
 			},
 			{
-				label: "climateConcepts.adaptionConcept.a.3.label",
+				label: "climateStrategies.adaptionConcept.a.3.label",
 				href: "https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/service-und-organisationseinheiten/klima-und-internationales/2024_kak_xhain_teilkonzept_stadtgruenbiodiversitaet.pdf?ts=1734609307",
 				id: "urban-green-biodiversity",
 				format: "PDF",
 				size: "2.3 MB",
 			},
 			{
-				label: "climateConcepts.adaptionConcept.a.4.label",
+				label: "climateStrategies.adaptionConcept.a.4.label",
 				href: "https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/service-und-organisationseinheiten/klima-und-internationales/2024_kak_xhain_teilkonzept_stadtplanung.pdf?ts=1734609299",
 				id: "urban-planning",
 				format: "PDF",
 				size: "2.7 MB",
 			},
 			{
-				label: "climateConcepts.adaptionConcept.a.5.label",
+				label: "climateStrategies.adaptionConcept.a.5.label",
 				href: "https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/service-und-organisationseinheiten/klima-und-internationales/2024_kak_xhain_teilkonzept_gesundheit.pdf?ts=1734609305",
 				id: "health",
 				format: "PDF",
 				size: "2.2 MB",
 			},
 			{
-				label: "climateConcepts.adaptionConcept.a.6.label",
+				label: "climateStrategies.adaptionConcept.a.6.label",
 				href: "https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/service-und-organisationseinheiten/klima-und-internationales/2024__kak_xhain_kurzfassung.pdf?ts=1734964303",
 				id: "climate-adaption-summary",
 				format: "PDF",
@@ -106,20 +106,20 @@ export default function Index() {
 		<>
 			<div className="w-full justify-center lg:px-20 py-12 bg-xhain-blue-20">
 				<h1 className="max-w-[894px] mx-auto text-4xl lg:text-7xl font-semibold text-center lg:text-left">
-					{i18n("climateConcepts.title")}
+					{i18n("climateStrategies.title")}
 				</h1>
 			</div>
 			<div className="flex w-full justify-center pt-10 lg:pt-20 px-5 lg:px-20">
 				<div className="flex flex-col max-w-[894px]">
 					<div className="flex flex-col gap-y-5">
 						<p className="text-2xl leading-9 lg:leading-10 lg:text-3xl ">
-							{i18n("climateConcepts.intro.p1")}
+							{i18n("climateStrategies.intro.p1")}
 						</p>
 						<p className="lg:text-xl lg:leading-8">
-							{i18n("climateConcepts.intro.p2")}
+							{i18n("climateStrategies.intro.p2")}
 						</p>
 						<p className="lg:text-xl lg:leading-8">
-							{i18n("climateConcepts.intro.p3")}
+							{i18n("climateStrategies.intro.p3")}
 						</p>
 					</div>
 
@@ -144,7 +144,7 @@ export default function Index() {
 											src={"/images/download-icon.svg"}
 											width={32}
 											height={32}
-											alt={i18n("climateConcepts.download.alt")}
+											alt={i18n("climateStrategies.download.alt")}
 										/>
 										<span className="flex flex-col">
 											<span className="font-bold">{i18n(label)}</span>
@@ -167,9 +167,11 @@ export default function Index() {
 					`}
 			>
 				<p className="text-xl font-bold">
-					{i18n("climateConcepts.actionCard.title")}
+					{i18n("climateStrategies.actionCard.title")}
 				</p>
-				<p className="text-xl">{i18n("climateConcepts.actionCard.subtitle")}</p>
+				<p className="text-xl">
+					{i18n("climateStrategies.actionCard.subtitle")}
+				</p>
 				<a
 					href="https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/service-und-organisationseinheiten/klima-und-internationales/artikel.1408194.php"
 					target="_blank"
@@ -178,7 +180,7 @@ export default function Index() {
 					lg:text-base lg:leading-6 hover:bg-white hover:text-xhain-blue-50 hover:border-white 
 					`}
 				>
-					{i18n("climateConcepts.actionCard.link.label")}
+					{i18n("climateStrategies.actionCard.link.label")}
 					<LinkArrowIcon />
 				</a>
 			</div>

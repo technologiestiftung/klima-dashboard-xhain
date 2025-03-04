@@ -10,8 +10,8 @@ export default {
 			"/en/about/",
 			"/current-projects/",
 			"/en/current-projects/",
-			"/climate-concepts/",
-			"/en/climate-concepts/",
+			"/climate-strategies/",
+			"/en/climate-strategies/",
 			"/imprint-privacy/",
 			"/en/imprint-privacy/",
 		];

@@ -22,7 +22,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
 		<html lang={lang}>
 			<head>
 				<meta charSet="utf-8" />
-				<link rel="icon" type="image/svg+xml" href="/citylab.png" />
+				<link rel="icon" type="image/svg+xml" href="/xhain-logo.png" />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<title>KlimaDashboard Xhain</title>
 				<Meta />
