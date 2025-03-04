@@ -174,7 +174,7 @@ export const Carousel: React.FC = () => {
 						ref={(el) => {
 							cardRefs.current[index] = el;
 						}}
-						className="flex"
+						className="flex py-2"
 					>
 						<CarouselCard
 							key={index}
