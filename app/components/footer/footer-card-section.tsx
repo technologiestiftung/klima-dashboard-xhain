@@ -3,10 +3,9 @@ import { i18n } from "~/i18n/i18n-utils";
 
 export const FooterCardSection: React.FC = () => {
 	return (
-		<div className="absolute lg:right-0 -top-1/2 lg:-top-2/3 rounded-4xl w-full lg:w-1/2 p-5 md:p-11 bg-xhain-blue-10 flex flex-col justify-center text-center items-center md:text-start md:items-start gap-12">
-			<div className="text-xl md:text-2xl lg:text-3xl leading-7 md:leading-8 lg:leading-9 text-xhain-blue-80">
+		<div className="absolute lg:right-0 -top-1/2 lg:-top-2/3 rounded-4xl w-full lg:w-1/2 p-5 md:p-11 bg-xhain-blue-10 flex flex-col justify-center text-center items-center md:text-start md:items-start gap-9 md:gap-12">
+			<div className="text-xl md:text-2xl lg:text-3xl leading-7 md:leading-8 lg:leading-9 text-xhain-blue-80 flex flex-col gap-4 md:gap-6">
 				<div className="font-bold">{i18n("footer.cardHeading")}</div>
-				<br />
 				<p className="font-normal">{i18n("footer.cardSubHeading")}</p>
 			</div>
 			<a
