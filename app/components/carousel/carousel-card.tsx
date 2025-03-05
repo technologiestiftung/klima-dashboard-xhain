@@ -11,8 +11,6 @@ const radioOptions = [
 interface CardContent {
 	intro: string;
 	number: string;
-	numberXhain?: string;
-	numberBerlin?: string;
 	description: string;
 	image: string | null;
 	hasToggle: boolean;
@@ -23,7 +21,7 @@ interface CardContent {
 interface CarouselCardProps {
 	card: CardContent;
 	index: number;
-	toggleSelectedCard: (index: number, value: string) => void;
+	toggleSelectedCard: (index: number) => void;
 }
 
 export const CarouselCard: React.FC<CarouselCardProps> = ({
@@ -70,7 +68,7 @@ export const CarouselCard: React.FC<CarouselCardProps> = ({
 					<RadioToggle
 						options={radioOptions}
 						defaultValue={radioOptions[0].value}
-						onSelectionChange={(value) => toggleSelectedCard(index, value)}
+						onSelectionChange={() => toggleSelectedCard(index)}
 						radioID={`card-${index}`}
 					/>
 				)}

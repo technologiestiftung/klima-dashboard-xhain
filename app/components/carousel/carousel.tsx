@@ -13,8 +13,6 @@ const SCROLL_OPTIONS = {
 interface CardContent {
 	intro: string;
 	number: string;
-	numberXhain?: string;
-	numberBerlin?: string;
 	description: string;
 	image: string | null;
 	hasToggle: boolean;
@@ -26,10 +24,13 @@ export const Carousel: React.FC = () => {
 	const cardRefs = useRef<(HTMLDivElement | null)[]>([]);
 	const [currentCardIndex, setCurrentCardIndex] = useState(0);
 
-	const [cardNumbers, setCardNumbers] = useState<Record<number, string>>({
-		1: formatNumber(14398),
-		2: formatNumber(68) + "%",
-		3: formatNumber(26) + "%",
+	// isXhainSelected stores the toggle state of the cards with xhain and berlin values
+	const [isXhainSelected, setIsXhainSelected] = useState<
+		Record<number, boolean>
+	>({
+		1: true, // Card 2 toggle
+		2: true, // Card 3 toggle
+		3: true, // Card 4 toggle
 	});
 
 	const cardData: CardContent[] = [
@@ -44,9 +45,7 @@ export const Carousel: React.FC = () => {
 		},
 		{
 			intro: i18n("carousel.card2.intro"),
-			numberXhain: formatNumber(14398),
-			numberBerlin: formatNumber(4361),
-			number: cardNumbers[1],
+			number: isXhainSelected[1] ? formatNumber(14398) : formatNumber(4361),
 			description: i18n("carousel.card2.description"),
 			image: null,
 			hasToggle: true,
@@ -55,9 +54,9 @@ export const Carousel: React.FC = () => {
 		},
 		{
 			intro: i18n("carousel.card3.intro"),
-			numberXhain: formatNumber(68) + "%",
-			numberBerlin: formatNumber(34) + "%",
-			number: cardNumbers[2],
+			number: isXhainSelected[2]
+				? formatNumber(68) + "%"
+				: formatNumber(34) + "%",
 			description: i18n("carousel.card3.description"),
 			image: "/images/sealing-icon.svg",
 			hasToggle: true,
@@ -67,9 +66,9 @@ export const Carousel: React.FC = () => {
 		},
 		{
 			intro: i18n("carousel.card4.intro"),
-			numberXhain: formatNumber(26) + "%",
-			numberBerlin: formatNumber(15) + "%",
-			number: cardNumbers[3],
+			number: isXhainSelected[3]
+				? formatNumber(26) + "%"
+				: formatNumber(15) + "%",
 			description: i18n("carousel.card4.description"),
 			image: null,
 			hasToggle: true,
@@ -91,17 +90,11 @@ export const Carousel: React.FC = () => {
 		},
 	];
 
-	const toggleSelectedCard = (cardIndex: number, value: string) => {
-		setCardNumbers((prev) => {
-			const toggledNumber =
-				value === "xhain"
-					? cardData[cardIndex].numberXhain
-					: cardData[cardIndex].numberBerlin;
-			return {
-				...prev,
-				[cardIndex]: toggledNumber || "",
-			};
-		});
+	const toggleSelectedCard = (cardIndex: number) => {
+		setIsXhainSelected((prev) => ({
+			...prev,
+			[cardIndex]: !prev[cardIndex],
+		}));
 	};
 
 	const [isSmallDesktop, setIsSmallDesktop] = useState(
@@ -199,7 +192,7 @@ export const Carousel: React.FC = () => {
 					/>
 				</button>
 				<button
-					className="rounded-full size-12 p-3 bg-xhain-green-50  hover:bg-white"
+					className="rounded-full size-12 p-3 bg-xhain-green-50 hover:bg-white"
 					onClick={goToNext}
 				>
 					<img
