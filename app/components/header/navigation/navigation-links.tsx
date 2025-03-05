@@ -35,7 +35,6 @@ export const NavigationLinks: React.FC = () => {
 						className={`
 						inline-block hover:underline hover:underline-offset-8 hover:decoration-2 
 						lg:p-6 lg:hover:bg-xhain-blue-20 lg:focus:bg-xhain-blue-20
-						active
 						${normalizedPathname === normalizePath(path) && "underline underline-offset-8 decoration-2"}
 						${className}`}
 					>
