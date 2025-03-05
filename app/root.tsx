@@ -51,7 +51,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
 				className={`${isMenuOpen ? "overflow-hidden lg:overflow-auto" : ""}`}
 			>
 				<Header />
-				<main aria-labelledby="KlimaDashboard">{children}</main>
+				<main>{children}</main>
 
 				<Footer />
 				<Scripts />
@@ -84,10 +84,7 @@ export function ErrorBoundary({
 	}
 
 	return (
-		<main
-			aria-labelledby="error-message"
-			className="pt-16 p-4 container mx-auto"
-		>
+		<div className="pt-16 p-4 container mx-auto">
 			<h1>{message}</h1>
 			<p>{details}</p>
 			{stack && (
@@ -95,6 +92,6 @@ export function ErrorBoundary({
 					<code>{stack}</code>
 				</pre>
 			)}
-		</main>
+		</div>
 	);
 }
