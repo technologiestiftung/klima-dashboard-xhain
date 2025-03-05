@@ -18,15 +18,15 @@ export const HeroSection: React.FC = () => {
 					</p>
 				</div>
 			</div>
-			<div className="flex flex-col w-full h-full py-6 px-4 lg:px-20 items-center justify-between bg-xhain-blue-20">
-				<div className="my-auto">
+			<div className="flex flex-col w-full h-full py-6 px-4 lg:px-20 items-center justify-center bg-xhain-blue-20">
+				<div className="w">
 					<ThermometerChart radioId="medium-temperature-1" />
 				</div>
-				<div className="flex gap-0 flex-col md:flex-row md:gap-2 justify-self-end items-center mt-4">
-					<span className="text-base leading-6 font-bold">
+				<div className="gap-0 flex flex-col justify-self-end items-center mt-4 text-center">
+					<span className="text-base md:text-lg leading-6 font-bold">
 						{i18n("heroSection.mediumTemperature.averageTempText")}
 					</span>
-					<span className="text-base leading-6 font-normal text-center md:text-left">
+					<span className="text-base md:text-lg leading-6 font-normal text-center md:text-left md:ml-2">
 						{i18n("heroSection.mediumTemperature.locationText")}
 					</span>
 				</div>
