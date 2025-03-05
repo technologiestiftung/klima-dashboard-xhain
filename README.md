@@ -20,7 +20,7 @@ The climate dashboard has been developed in close cooperation between the Friedr
 
 ## Prerequisites
 
-- Node.js / npm (https://nodejs.org/en)
+- Node.js / npm (https://nodejs.org/en) with the version specified in .nvmrc
 
 ## Development setup
 
