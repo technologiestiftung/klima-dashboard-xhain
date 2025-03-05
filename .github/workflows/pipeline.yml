@@ -32,9 +32,7 @@ jobs:
 
       - name: Install dependencies 📦
         if: steps.cache-npm-deps.outputs.cache-hit != 'true'
-        run: |
-          npm ci
-          npx playwright@1.49.1 install
+        run: npm ci
 
       - name: Check Build 🏗️
         run: npm run build
@@ -49,8 +47,8 @@ jobs:
       #      - name: Run Unit Tests 🧪
       #        run: npm run test:unit
       #
-      #      - name: Install Playwright Browsers 🧭
-      #        run: npx playwright install --with-deps
+      - name: Install Playwright Browsers 🧭
+        run: npx playwright install --with-deps
       #
       #      - name: Run E2E test 🎭
       #        run: npm run test:e2e
