@@ -17,6 +17,9 @@ const port = "3000"; // port on preview mode (serve)
 export default defineConfig({
 	testDir: "./",
 	timeout: 10000,
+	expect: {
+		timeout: 7500,
+	},
 	/* Run tests in files in parallel */
 	fullyParallel: true,
 	/* Fail the build on CI if you accidentally left test.only in the source code. */
@@ -47,21 +50,21 @@ export default defineConfig({
 		// 	name: "firefox",
 		// 	use: { ...devices["Desktop Firefox"] },
 		// },
-		//
-		// {
-		// 	name: "webkit",
-		// 	use: { ...devices["Desktop Safari"] },
-		// },
+
+		{
+			name: "webkit",
+			use: { ...devices["Desktop Safari"] },
+		},
 
 		/* Test against mobile viewports. */
-		// {
-		//   name: 'Mobile Chrome',
-		//   use: { ...devices['Pixel 5'] },
-		// },
-		// {
-		//   name: 'Mobile Safari',
-		//   use: { ...devices['iPhone 12'] },
-		// },
+		{
+			name: "Mobile Chrome",
+			use: { ...devices["Pixel 5"] },
+		},
+		{
+			name: "Mobile Safari",
+			use: { ...devices["iPhone 12"] },
+		},
 
 		/* Test against branded browsers. */
 		// {
