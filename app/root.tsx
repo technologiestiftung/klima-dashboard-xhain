@@ -84,7 +84,7 @@ export function ErrorBoundary({
 	}
 
 	return (
-		<main className="pt-16 p-4 container mx-auto">
+		<div className="pt-16 p-4 container mx-auto">
 			<h1>{message}</h1>
 			<p>{details}</p>
 			{stack && (
@@ -92,6 +92,6 @@ export function ErrorBoundary({
 					<code>{stack}</code>
 				</pre>
 			)}
-		</main>
+		</div>
 	);
 }

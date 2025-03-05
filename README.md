@@ -8,59 +8,47 @@
 
 # Klima Dashboard Xhain
 
-## TODO (after you generated the repo)
+The climate dashboard provides an insight into current climate data and climate measures in Friedrichshain-Kreuzberg.
 
-- [ ] Review the content of the README.md and adjust to your liking
-- [ ] Read the README.md till the end and adjust the content licensing,
-      logos, etc (I know you stopped at tbd...)
-- [ ] Adjust the file [.github/CODEOWNERS](./.github/CODEOWNERS)
-- [ ] Adjust the files under [.github/ISSUE_TEMPLATE](./.github/ISSUE_TEMPLATE)
-- [ ] If you need unit, 2e2, a11y tests, or releases, you can enable them in this file: [pipeline.yml](.github/workflows/pipeline.yml)
-- [ ] If you use staging and main branches use this template for [.github/renovate.json](./.github/renovate.json)
+- Where do greenhouse gas emissions occur in Xhain?
+- Where are we as a district on the road to climate neutrality in Berlin?
+- And where are the impacts of climate change already evident in the district?
 
-```json
-{
-	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
-	"extends": ["github>technologiestiftung/renovate-config"],
-	"baseBranches": ["staging"]
-}
-```
+The basis for this is the analyses from the climate mitigation and climate adaptation strategies. These two strategies were developed by the climate team and politically adopted in December 2024 as a planning and decision-making basis.
 
-- [ ] Do you want to honor all kinds of contributions? Use [all-contributors](https://allcontributors.org/)
-
-```bash
-npx all-contributors-cli check
-npx all-contributors-cli add ff6347 doc
-```
-
-You can use it on GitHub just by commenting on PRs and issues:
-
-```plain
-@all-contributors please add @ff6347 for infrastructure, tests and code
-```
-
-- [ ] Add your project description
-- [ ] Get fancy shields at https://shields.io
+The climate dashboard has been developed in close cooperation between the Friedrichshain-Kreuzberg climate team and [CityLAB Berlin](https://citylab-berlin.org/de/start/).
 
 ## Prerequisites
 
-tbd...
+- Node.js / npm (https://nodejs.org/en) with the version specified in .nvmrc
 
-## Installation
+## Development setup
 
-tbd...
+Prepare required env variables:
 
-## Usage or Deployment
+```plain
+cp .env.sample .env
+```
 
-tbd...
+Install dependencies:
+
+- `npm ci`
+
+Run development server:
+
+- `npm run dev`
+
+Open http://localhost:5173 with your browser to see the application running.
 
 ## Development
 
-tbd...
+You can deploy and run the KlimaDashboard on the platform of your choice. We use [vercel.com](vercel.com), you can follow their step-by-step guides to deploy your version of KlimaDashboard.
 
 ## Tests
 
-tbd...
+Run accessibility test:
+
+- `npm run test:a11y`
 
 ## Contributing
 
@@ -94,8 +82,6 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 
 Texts and content available as [CC BY](https://creativecommons.org/licenses/by/3.0/de/).
 
-Illustrations by {MARIA_MUSTERFRAU}, all rights reserved.
-
 ## Credits
 
 <table>
@@ -123,5 +109,3 @@ Illustrations by {MARIA_MUSTERFRAU}, all rights reserved.
     </td>
   </tr>
 </table>
-
-## Related Projects
