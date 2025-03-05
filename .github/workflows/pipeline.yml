@@ -32,7 +32,9 @@ jobs:
 
       - name: Install dependencies 📦
         if: steps.cache-npm-deps.outputs.cache-hit != 'true'
-        run: npm ci
+        run: |
+          npm ci
+          npx playwright install
 
       - name: Check Build 🏗️
         run: npm run build
