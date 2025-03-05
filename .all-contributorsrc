@@ -1,41 +1,36 @@
 {
-  "projectName": "klima-dashboard-xhain",
-  "projectOwner": "technologiestiftung",
-  "repoType": "github",
-  "repoHost": "https://github.com",
-  "files": [
-    "README.md"
-  ],
-  "imageSize": 64,
-  "commit": true,
-  "commitConvention": "angular",
-  "contributors": [
-    {
-      "login": "aeschi",
-      "name": "aeschi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/56318362?v=4",
-      "profile": "http://annaeschenbacher.com",
-      "contributions": [
-        "infra",
-        "test",
-        "a11y",
-        "code"
-      ]
-    },
-    {
-      "login": "raphael-arce",
-      "name": "Raphael.A",
-      "avatar_url": "https://avatars.githubusercontent.com/u/8709861?v=4",
-      "profile": "https://github.com/raphael-arce",
-      "contributions": [
-        "infra",
-        "test",
-        "a11y",
-        "code"
-      ]
-    }
-  ],
-  "contributorsPerLine": 7,
-  "skipCi": true,
-  "commitType": "docs"
+	"projectName": "klima-dashboard-xhain",
+	"projectOwner": "technologiestiftung",
+	"repoType": "github",
+	"repoHost": "https://github.com",
+	"files": ["README.md"],
+	"imageSize": 64,
+	"commit": true,
+	"commitConvention": "angular",
+	"contributors": [
+		{
+			"login": "aeschi",
+			"name": "aeschi",
+			"avatar_url": "https://avatars.githubusercontent.com/u/56318362?v=4",
+			"profile": "http://annaeschenbacher.com",
+			"contributions": ["infra", "test", "a11y", "code"]
+		},
+		{
+			"login": "raphael-arce",
+			"name": "Raphael.A",
+			"avatar_url": "https://avatars.githubusercontent.com/u/8709861?v=4",
+			"profile": "https://github.com/raphael-arce",
+			"contributions": ["infra", "test", "a11y", "code"]
+		},
+		{
+			"login": "zainab-tariq",
+			"name": "Zainab Tariq",
+			"avatar_url": "https://avatars.githubusercontent.com/u/15946816?v=4",
+			"profile": "https://github.com/zainab-tariq",
+			"contributions": ["a11y", "code"]
+		}
+	],
+	"contributorsPerLine": 7,
+	"skipCi": true,
+	"commitType": "docs"
 }
