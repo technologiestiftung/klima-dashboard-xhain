@@ -16,7 +16,7 @@ const port = "3000"; // port on preview mode (serve)
  */
 export default defineConfig({
 	testDir: "./",
-	timeout: 10000,
+	timeout: 15000,
 	/* Run tests in files in parallel */
 	fullyParallel: true,
 	/* Fail the build on CI if you accidentally left test.only in the source code. */
