@@ -416,7 +416,7 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 
 	"chart.HBI.infoDialog.factors.exposition": "Exposition",
 	"chart.HBI.infoDialog.factors.exposition.temperature":
-		"Oberflächentemperatur",
+		"Oberflächen-Temperatur",
 	"chart.HBI.infoDialog.factors.humanSensitivity": "Menschliche Sensitivität",
 	"chart.HBI.infoDialog.factors.humanSensitivity.denisty": "Bevölkerungsdichte",
 	"chart.HBI.infoDialog.factors.humanSensitivity.inhabitansYoung":
@@ -628,7 +628,7 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 	 */
 	"climateStrategies.title": "Klimakonzepte",
 	"climateStrategies.intro.p1":
-		"Die Klimakonzepte von Friedrichshain-Kreuzberg sind zentrale Grundlage, um Klimaanpassung und Klimaschutz im Bezirk strategisch voran zu bringen.",
+		"Die Klimakonzepte von Friedrichshain-Kreuzberg sind eine zentrale Grundlage, um Klimaanpassung und Klimaschutz im Bezirk strategisch voran zu bringen.",
 	"climateStrategies.intro.p2":
 		"Sie zeigen klare Strategien und Maßnahmen auf, um klimaneutral zu werden und gleichzeitig die Lebensqualität der Menschen zu sichern. Hier bieten wir euch die Möglichkeit, die Konzepte vollständig herunterzuladen und im Detail nachzulesen.",
 	"climateStrategies.intro.p3":

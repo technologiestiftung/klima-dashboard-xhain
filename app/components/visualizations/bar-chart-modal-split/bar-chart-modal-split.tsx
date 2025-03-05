@@ -136,7 +136,7 @@ export function BarChartModalSplit() {
 				))}
 			</div>
 			<div className="items-center flex flex-col gap-y-3 md:gap-y-6 px-4">
-				<p className="font-semibold md:w-48 md:text-center">
+				<p className="font-semibold md:w-48 text-center">
 					{i18n("chart.modalSplit2018.toggle.description")}
 				</p>
 				<RadioToggle

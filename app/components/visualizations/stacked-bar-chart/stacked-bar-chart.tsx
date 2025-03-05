@@ -23,10 +23,10 @@ export const StackedBarChart: React.FC = () => {
 							height: data.percentage * 100 + "%",
 						}}
 					>
-						<span className={`font-bold m-2.5`}>
+						<span className={`font-bold mx-2.5 my-2 leading-tight`}>
 							{i18n(`chart.heatingMix2021Summarized.${data.source}`)}
 						</span>
-						<span className={`font-bold m-2.5`}>
+						<span className={`font-bold mx-2.5 my-2 leading-tight`}>
 							{formatPercentage(data.percentage)}
 						</span>
 					</div>

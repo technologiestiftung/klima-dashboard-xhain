@@ -65,8 +65,10 @@ export default function Index() {
 						{i18n("charts.title")}
 					</h2>
 
-					<p className="mt-6 text-xl leading-8">{i18n("charts.p1")}</p>
-					<p className="mt-6 text-xl leading-8">
+					<p className="mt-6 text-base leading-6 md:text-xl md:leading-7">
+						{i18n("charts.p1")}
+					</p>
+					<p className="mt-6 text-base leading-6 md:text-xl md:leading-7">
 						<span>{i18n("charts.p2.part1")}</span>
 
 						<span className="text-xhain-blue-50 font-bold">
