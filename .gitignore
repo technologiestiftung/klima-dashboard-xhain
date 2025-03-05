@@ -35,3 +35,4 @@ build/
 
 .react-router/
 .env
+playwright-report/index.html
