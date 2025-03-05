@@ -34,7 +34,7 @@ jobs:
         if: steps.cache-npm-deps.outputs.cache-hit != 'true'
         run: |
           npm ci
-          npx playwright install
+          npx playwright@1.49.1 install
 
       - name: Check Build 🏗️
         run: npm run build
