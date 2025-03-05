@@ -1,9 +1,7 @@
 ![](https://img.shields.io/badge/Built%20with%20%E2%9D%A4%EF%B8%8F-at%20Technologiestiftung%20Berlin-blue)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 # Klima Dashboard Xhain
@@ -67,6 +65,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="http://annaeschenbacher.com"><img src="https://avatars.githubusercontent.com/u/56318362?v=4?s=64" width="64px;" alt="aeschi"/><br /><sub><b>aeschi</b></sub></a><br /><a href="#infra-aeschi" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/technologiestiftung/klima-dashboard-xhain/commits?author=aeschi" title="Tests">⚠️</a> <a href="#a11y-aeschi" title="Accessibility">️️️️♿️</a> <a href="https://github.com/technologiestiftung/klima-dashboard-xhain/commits?author=aeschi" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/raphael-arce"><img src="https://avatars.githubusercontent.com/u/8709861?v=4?s=64" width="64px;" alt="Raphael.A"/><br /><sub><b>Raphael.A</b></sub></a><br /><a href="#infra-raphael-arce" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/technologiestiftung/klima-dashboard-xhain/commits?author=raphael-arce" title="Tests">⚠️</a> <a href="#a11y-raphael-arce" title="Accessibility">️️️️♿️</a> <a href="https://github.com/technologiestiftung/klima-dashboard-xhain/commits?author=raphael-arce" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/zainab-tariq"><img src="https://avatars.githubusercontent.com/u/15946816?v=4?s=64" width="64px;" alt="Zainab Tariq"/><br /><sub><b>Zainab Tariq</b></sub></a><br /><a href="#a11y-zainab-tariq" title="Accessibility">️️️️♿️</a> <a href="https://github.com/technologiestiftung/klima-dashboard-xhain/commits?author=zainab-tariq" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Jaszkowic"><img src="https://avatars.githubusercontent.com/u/10830180?v=4?s=64" width="64px;" alt="Jonas Jaszkowic"/><br /><sub><b>Jonas Jaszkowic</b></sub></a><br /><a href="https://github.com/technologiestiftung/klima-dashboard-xhain/commits?author=Jaszkowic" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
