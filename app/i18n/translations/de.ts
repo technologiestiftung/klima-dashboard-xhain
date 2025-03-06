@@ -161,8 +161,10 @@ Der Verkehr verursacht 14% der Emissionen. Weiterhin sind auch die bezirklichen 
 		"Im Jahr 2024 sind Ø 4,1 Tonnen CO₂-Äquivalent pro Jahr und Person durch Ernährung und Konsum verursacht worden. Auch wenn Emissionen größtenteils außerhalb der Bezirksgrenzen entstehen, sind sie klimarelevant und können durch das Verhalten von Produzenten und Konsumenten hier vor Ort reduziert werden.",
 	"chart.consumptionEmissionsTons.keys.xhain": "Xhain",
 	"chart.consumptionEmissionsTons.keys.per_person": "Pro Person",
-	"chart.consumptionEmissionsTons.descriptionText":
-		"Um diese Menge zu binden, müssen viele Bäume ein Jahr lang wachsen",
+	"chart.consumptionEmissionsTons.descriptionText.per_person":
+		"Um diese Menge zu binden, müssen viele Bäume ein Jahr lang wachsen.",
+	"chart.consumptionEmissionsTons.descriptionText.xhain":
+		"Um die jährlichen Konsumemissionen von Xhain durch eigene Wälder zu kompensieren, wäre eine Waldfläche notwendig, die 6,5 mal so groß ist wie die derzeitige Waldfläche von ganz Berlin.",
 	"chart.consumptionEmissionsTons.millionUnit": "Mio.",
 	"chart.consumptionEmissionsTons.co2Unit": "Tonnen CO₂",
 	"chart.consumptionEmissionsTons.trees": "Bäume",

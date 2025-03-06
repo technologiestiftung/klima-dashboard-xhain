@@ -162,8 +162,10 @@ The lower the emissions factor, the more climate-friendly the energy source is. 
 		"In 2024, Ø 4.1 tons of CO₂ equivalent per year and person were caused by food and consumption. Even if emissions are largely generated outside the district boundaries, they are climate-relevant and can be reduced locally through the behavior of producers and consumers.",
 	"chart.consumptionEmissionsTons.keys.xhain": "Xhain",
 	"chart.consumptionEmissionsTons.keys.per_person": "Per person",
-	"chart.consumptionEmissionsTons.descriptionText":
+	"chart.consumptionEmissionsTons.descriptionText.per_person":
 		"To offset this amount, many trees must grow for a year",
+	"chart.consumptionEmissionsTons.descriptionText.xhain":
+		"To offset the annual consumption emissions of Xhain, a forest area would be needed that is 6.5 times larger than the current forest area of all of Berlin.",
 	"chart.consumptionEmissionsTons.millionUnit": "M.",
 	"chart.consumptionEmissionsTons.co2Unit": "Tons CO₂",
 	"chart.consumptionEmissionsTons.trees": "Trees",
