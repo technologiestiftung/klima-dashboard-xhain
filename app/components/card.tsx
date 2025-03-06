@@ -112,8 +112,6 @@ const Card: React.FC<CardProps> = ({ id }) => {
 		howToReachGoalsData[id as keyof typeof howToReachGoalsData] ||
 		consequencesData[id as keyof typeof consequencesData];
 
-	const chartKeys = Object.keys(data[0]);
-
 	return (
 		<figure className={`${size}`}>
 			<div
@@ -144,28 +142,6 @@ const Card: React.FC<CardProps> = ({ id }) => {
 							}}
 						/>
 					)}
-
-					<table className="sr-only flex">
-						<caption>{title}</caption>
-						<thead>
-							<tr>
-								{chartKeys.map((key) => (
-									// @ts-expect-error this is correct, but typescript can't infer the types.
-									<th key={key}>{i18n(`chart.${id}.keys.${key}`)}</th>
-								))}
-							</tr>
-						</thead>
-						<tbody>
-							{data.map((entry) => (
-								<tr key={JSON.stringify(entry)}>
-									{Object.keys(entry).map((key) => (
-										// @ts-expect-error this is correct, but typescript can't infer the types.
-										<td key={key}>{entry[key]}</td>
-									))}
-								</tr>
-							))}
-						</tbody>
-					</table>
 				</figcaption>
 				<div className="w-full overflow-hidden">
 					{Chart && <Chart />}

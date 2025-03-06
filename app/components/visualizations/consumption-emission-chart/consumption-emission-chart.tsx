@@ -12,7 +12,7 @@ interface RadioOption {
 }
 
 export const ConsumptionEmissionsChart: React.FC = () => {
-	const [selectedIndex, setSelectedIndex] = useState(0);
+	const [selectedIndex, setSelectedIndex] = useState(1);
 	const { consumptionEmissionsTons } = howXhainContributesData;
 
 	type OptionsKeys = keyof (typeof consumptionEmissionsTons)[0]; // "xhain" | "per_person"
@@ -42,20 +42,17 @@ export const ConsumptionEmissionsChart: React.FC = () => {
 		}
 	};
 
-	// Calculate the number of trees needed (80 trees per 1 ton of CO₂)
-	const treesNeeded = selectedValue * 80;
-
-	const formattedTreesValue =
-		treesNeeded >= 1_000_000
-			? `${(treesNeeded / 1_000_000).toFixed(0)} ${i18n("chart.consumptionEmissionsTons.millionUnit")}`
-			: treesNeeded.toString();
+	const graphicText =
+		selectedIndex === 0
+			? i18n("chart.consumptionEmissionsTons.descriptionText.xhain")
+			: i18n("chart.consumptionEmissionsTons.descriptionText.per_person");
 
 	return (
 		<div className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-0 items-center justify-items-center">
 			<div className="flex flex-col gap-4 mx-auto">
 				<RadioToggle
 					options={radioOptions}
-					defaultValue={radioOptions[0]?.value}
+					defaultValue={radioOptions[1]?.value}
 					onSelectionChange={handleSelectionChange}
 					radioID={"consumption-emission-chart-radio"}
 				/>
@@ -74,21 +71,15 @@ export const ConsumptionEmissionsChart: React.FC = () => {
 					</div>
 				</div>
 			</div>
-			<p className="max-w-60 lg:max-w-48 text-base leading-6 font-semibold lg:font-bold text-center">
-				{i18n("chart.consumptionEmissionsTons.descriptionText")}
+			<p className="lg:max-w-56 xl:max-w-none text-base leading-6 font-semibold lg:font-bold text-center">
+				{graphicText}
 			</p>
 			<div className="relative gap-9 mx-auto">
 				<img
 					src={greenEmissionTree}
-					alt={`${i18n("icon.alt")} ${i18n("chart.consumptionEmissionsTons.trees")}`}
-					className="w-full max-h-[205px] 2xl:max-h-none"
+					alt={`${i18n("icon.alt")} Emission`}
+					className="w-full max-h-[205px]"
 				/>
-				<div className="absolute w-full top-20 2xl:top-24 left-1.5 flex flex-col text-center text-3xl leading-9 lg:text-4xl lg:leading-10 font-bold text-xhain-blue-80">
-					{formattedTreesValue}
-					<span className="text-base leading-6 font-bold">
-						{i18n("chart.consumptionEmissionsTons.trees")}
-					</span>
-				</div>
 			</div>
 		</div>
 	);

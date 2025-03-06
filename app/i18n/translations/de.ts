@@ -66,7 +66,7 @@ export const de = {
 	"header.nav.dashboard": "Dashboard",
 	"header.nav.climateStrategies": "Klimakonzepte",
 	"header.nav.currentProjects": "Aktuelle Projekte",
-	"header.nav.about": "Über uns",
+	"header.nav.about": "Info",
 	"header.cta": "Jetzt aktiv werden",
 
 	/**
@@ -143,9 +143,6 @@ Zum Beispiel hat Strom aus Windkraft einen sehr niedrigen Emissionsfaktor, währ
 	"chart.thgSector2021Tons.legend.districtBuildings": "bezirkliche Gebäude",
 	"chart.thgSector2021Tons.legend.economy": "Wirtschaft",
 	"chart.thgSector2021Tons.legend.traffic": "Verkehr",
-	"chart.thgSector2021Tons.keys.sector": "Sektor",
-	"chart.thgSector2021Tons.keys.total_tons": "Summe in Tonnen THG",
-	"chart.thgSector2021Tons.keys.percentage": "Prozent",
 	"chart.thgSector2021Tons.infoDialog.learnMoreLink":
 		"/climate-strategies/#climate-concept-full",
 	"chart.thgSector2021Tons.infoDialog.description": `Obwohl die Haushalte einen deutlich größten Anteil am Energieverbrauch aufweisen (siehe Kachel Endenergieverbrauch nach Sektoren), verursacht die Wirtschaft ein wenig mehr Emissionen (43 %) als die privaten Haushalte (42 %). Dies liegt an den unterschiedlichen Emissionsfaktoren der Energieträger für Strom und Wärme.
@@ -161,8 +158,10 @@ Der Verkehr verursacht 14% der Emissionen. Weiterhin sind auch die bezirklichen 
 		"Im Jahr 2024 sind Ø 4,1 Tonnen CO₂-Äquivalent pro Jahr und Person durch Ernährung und Konsum verursacht worden. Auch wenn Emissionen größtenteils außerhalb der Bezirksgrenzen entstehen, sind sie klimarelevant und können durch das Verhalten von Produzenten und Konsumenten hier vor Ort reduziert werden.",
 	"chart.consumptionEmissionsTons.keys.xhain": "Xhain",
 	"chart.consumptionEmissionsTons.keys.per_person": "Pro Person",
-	"chart.consumptionEmissionsTons.descriptionText":
-		"Um diese Menge zu binden, müssen viele Bäume ein Jahr lang wachsen",
+	"chart.consumptionEmissionsTons.descriptionText.per_person":
+		"Um diese Menge zu binden, müssen viele Bäume ein Jahr lang wachsen.",
+	"chart.consumptionEmissionsTons.descriptionText.xhain":
+		"Um die jährlichen Konsumemissionen von Xhain durch eigene Wälder zu kompensieren, wäre eine Waldfläche notwendig, die 6,5 mal so groß ist wie die derzeitige Waldfläche von ganz Berlin.",
 	"chart.consumptionEmissionsTons.millionUnit": "Mio.",
 	"chart.consumptionEmissionsTons.co2Unit": "Tonnen CO₂",
 	"chart.consumptionEmissionsTons.trees": "Bäume",
@@ -198,10 +197,6 @@ Der Verkehr verursacht 14% der Emissionen. Weiterhin sind auch die bezirklichen 
 	"chart.eevTotalMwh.legend.heating": "Wärme",
 	"chart.eevTotalMwh.legend.electricity": "Strom",
 	"chart.eevTotalMwh.legend.fuels": "Kraftstoffe",
-	"chart.eevTotalMwh.keys.year": "Jahr",
-	"chart.eevTotalMwh.keys.heating_mwh": "Heizung in Megawattstunden",
-	"chart.eevTotalMwh.keys.electricity_mwh": "Strom in Megawattstunden",
-	"chart.eevTotalMwh.keys.fuels_mwh": "Kraftstoffe in Megawattstunden",
 	"chart.eevTotalMwh.infoDialog.learnMoreLink":
 		"/climate-strategies/#climate-concept-full",
 	"chart.eevTotalMwh.infoDialog.description": `Der größte Teil des Energieverbrauchs entsteht durch den Wärmebedarf, also insbesondere durch das Heizen von Gebäuden und die Aufbereitung von Warmwasser. Das macht aktuell 56,9 % des bezirklichen Energieverbrauchs aus. 32,3 % entfallen auf den Stromverbrauch, z. B. für Beleuchtung oder technische Geräte. Den kleinsten, aber dennoch relevanten Verbrauch verursachen die Kraftstoffen mit 10,8 %.
@@ -222,9 +217,6 @@ Somit ist es wichtig, alle Akteure - Bürger:innen, Unternehmen und öffentliche
 
 	"chart.heatingMix2021Summarized.title": "Wärmemix",
 	"chart.heatingMix2021Summarized.subtitle": "nach Energiequelle in %",
-	"chart.heatingMix2021Summarized.keys.source": "Quelle",
-	"chart.heatingMix2021Summarized.keys.percentage": "Prozent",
-	"chart.heatingMix2021Summarized.keys.total_mwh": "Summe in Megawattstunden",
 	"chart.heatingMix2021Summarized.description":
 		"Neben dem wärmbedingten Energieverbrauch bestimmten die genutzten Energiequellen, wie im Wärmemix dargestellt, unsere Klimabilanz maßgeblich.",
 	"chart.heatingMix2021Summarized.gas": "Erdgas",
@@ -247,11 +239,6 @@ Das bedeutet, dass die erdgasbasierte Versorgung durch erneuerbare Energien, wie
 	"chart.modalSplit2018.legend.bike": "Rad",
 	"chart.modalSplit2018.toggle.description":
 		"Vergleiche mit Berlins Modalsplit",
-	"chart.modalSplit2018.keys.area": "Fläche",
-	"chart.modalSplit2018.keys.miv": "Motorisierter Individualverkehr",
-	"chart.modalSplit2018.keys.oepnv": "Öffentlicher Personen-Nahverkehr",
-	"chart.modalSplit2018.keys.foot": "Fußgänger:innen",
-	"chart.modalSplit2018.keys.bike": "Fahradfahrende",
 	"chart.modalSplit2018.infoDialog.learnMoreLink":
 		"/climate-strategies/#mobility",
 	"chart.modalSplit2018.infoDialog.description": `Der Umweltverbund, d.h. Öffis, Rad- und Fußverkehr, macht in Berlin bereits einen hohen Anteil aus. Die Zahlen verdeutlichen das wir als Bezirk als Vorbild vorangehen, hier werden bereits 86,5 % der Wege mit umweltfreundlichen Verkehrsmitteln zurückgelegt. Dennoch hat der Verkehrssektor weiterhin erhebliche Auswirkungen auf unser Klima. Trotz des geringen MIV-Anteils von 13,5 % verursacht der Verkehr Emissionen in Höhe von 153.000 Tonnen CO₂-Äquivalenten pro Jahr und macht damit etwa 13,6 % der gesamten Emissionen des Bezirks im Jahr 2021 aus.
@@ -260,8 +247,6 @@ Nicht nur für den Klimaschutz, sondern auch für die Luft- und die Lärmbelastu
 
 	"chart.traffic2022Summarized.title": "Emissionen durch den Verkehr",
 	"chart.traffic2022Summarized.subtitle": "nach Bereich in %",
-	"chart.traffic2022Summarized.keys.sector": "Sektor",
-	"chart.traffic2022Summarized.keys.percentage_thg": "Prozent Treibhausgas",
 	"chart.traffic2022Summarized.infoDialog.learnMoreLink":
 		"/climate-strategies/#mobility",
 	"chart.traffic2022Summarized.infoDialog.description": `Im Rahmen der Klimabilanz sind alle Fahrten, welche in Xhain starten oder enden oder bei denen sowohl Start- und Ziel im Bezirk liegen berücksichtigt worden. Dazu gehören neben den Öffis auch ein geringer Anteil der Binnenschifffahrt. Nicht berücksichtigt sind z.B. Flugreisen der Bevölkerung oder der Tourist*innen, da der Flughafen außerhalb der Bezirksgrenze liegt.
@@ -270,8 +255,6 @@ Demnach gilt es den Motorisierten Individualverkehr zu reduzieren und zu elektri
 
 	"chart.restBudgetThgUntilYear.title": "Restbudget-Eimer",
 	"chart.restBudgetThgUntilYear.subtitle": "des 1,75 Grad Klimaziels",
-	"chart.restBudgetThgUntilYear.keys.year": "Jahr",
-	"chart.restBudgetThgUntilYear.keys.tons_co2": "CO₂ Budget",
 	"chart.restBudgetThgUntilYear.unit": "Mio. Tonnen",
 	"chart.restBudgetThgUntilYear.remainingBudget":
 		"Verbleibendes CO₂–Budget bis",
@@ -291,10 +274,6 @@ Um die Ziele von Paris lokal umzusetzen, wird der sogenannte Restbudget-Ansatz g
 	"chart.reductionPathScenario175Thg.title": "Klimaschutzszenario",
 	"chart.reductionPathScenario175Thg.subtitle":
 		"(1,75 Grad, 67 % Wahrscheinlichkeit) in Tonnen THG",
-	"chart.reductionPathScenario175Thg.keys.year": "Jahr",
-	"chart.reductionPathScenario175Thg.keys.goal_berlin_tons": "Ziel Land Berlin",
-	"chart.reductionPathScenario175Thg.keys.model_xhain_tons":
-		"Modellberechnung Xhain",
 	"chart.reductionPathScenario175Thg.legend.model": "Klimaschutzszenario Xhain",
 	"chart.reductionPathScenario175Thg.legend.goal": "Ziel Land Berlin",
 	"chart.reductionPathScenario175Thg.description":
@@ -339,8 +318,6 @@ Projektionen für die Zukunft sind schwieriger zu ermitteln und hängen von den 
 
 	"chart.mediumTemperature.title": "Mittlere Jahrestemperatur",
 	"chart.mediumTemperature.subtitle": "in Friedrichshain-Kreuzberg nach Phasen",
-	"chart.mediumTemperature.keys.time": "Zeit",
-	"chart.mediumTemperature.keys.celsius": "Temperatur in °C",
 	"chart.mediumTemperature.description":
 		"Die mittlere Jahrestemperatur bezieht sich auf den Durchschnittswert der Temperaturen über einen Zeitraum von 10 Jahren.",
 	"chart.mediumTemperature.current": "Heute",
@@ -370,8 +347,6 @@ Projektionen für die Zukunft sind schwieriger zu ermitteln und hängen von den 
 
 	"chart.precipitationMm.title": "Niederschläge",
 	"chart.precipitationMm.subtitle": "in Milliliter",
-	"chart.precipitationMm.keys.year": "Jahr",
-	"chart.precipitationMm.keys.rain": "Regen in Millimeter",
 	"chart.precipitationMm.description":
 		"Bei den Niederschlägen ist in Xhain bisher kein eindeutiger Trend zu erkennen. Die Grafik zeigt das exemplarisch für die Sommerniederschläge im Bezirk.",
 	"chart.precipitationMm.infoDialog.sourceTitle": "Quelle:",
@@ -552,16 +527,23 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 	/**
 	 * About Page
 	 */
-	"about.title": "Über uns",
-	"about.firstSectionTitle": "Berlin klimaneutral bis 2045",
-	"about.firstSectionDescription":
-		"Der Berliner Senat verfolgt das langfristige Ziel, Berlin bis zum Jahr 2045 zu einer klimaneutralen Stadt zu entwickeln und sich gleichzeitig an die unvermeidbaren Folgen des Klimawandels anzupassen.",
-	"about.secondSectionTitle": "Xhain geht als Vorbild voran",
-	"about.secondSectionDescription":
-		"Im Dezember 2024 hat das Bezirksamt das Klimaschutzkonzept und das Klimaanpassungskonzept beschlossen. Jetzt gilt es, darauf aufzubauen und konkrete  Projekte zielführend voranzubringen.",
-	"about.thirdSectionTitle": "Wer? Das Klimateam Xhain",
-	"about.thirdSectionDescription":
-		"Das vierköpfige Klimateam der Organisationseinheit „Klima und Internationales“ besteht aus zwei Klimaschutzmanagerinnen, einer Klimaanpassungsmanagerin und dem Klimabeauftragten. Gemeinsam unterstützen sie die Umsetzung klimawirksamer Maßnahmen. Gleichzeitig vermitteln und vernetzen sie die verschiedenen Akteursgruppen im Bezirk, wenn es um klimarelevante Fragen geht. Denn Klimaschutz und Klimaanpassung können nur gemeinsam gelingen!",
+	"about.title": "Info",
+	"about.firstSectionTitle": "Über das KlimaDashboard",
+	"about.firstSectionDescription": `
+	Der Berliner Senat verfoglt eine ambitionierte <a href='https://www.berlin.de/sen/uvk/klimaschutz/klimaschutzpolitik-in-berlin/ziele-und-grundlagen/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>Klimaschutzpolitik</a>: Berlin soll bis 2045 klimaneutral und an Klimawandelfolgen angepasst werden. Einige Bezirke haben daher begonnen konkrete Konzepte für Klimaschutz und -anpassung zu erarbeiten. So auch der Bezirk Friedrichshain-Kreuzberg (Xhain).  
+
+	Das KlimaDashboard gibt einen Überblick über die Ergebnisse der erarbeiteten Konzepte. Es macht aktuelle Klima- und Emissionsdaten sichtbar und zeigt, wo Handlungsbedarf besteht und wo bereits konkrete Aktivitäten im Klimabereich unternommen werden. 
+
+	Entwickelt wurde das KlimaDashboard in enger Zusammenarbeit zwischen dem bezirklichen Klimateam und dem <a href='https://citylab-berlin.org/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>CityLAB Berlin</a>. 
+		`,
+	"about.secondSectionTitle": "Über uns  ",
+	"about.secondSectionSubtitle.part1": "Das CityLAB Berlin",
+	"about.secondSectionDescription.part1": `
+	Das <a href='https://citylab-berlin.org/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>CityLAB</a> ist Berlins öffentliches Innovationslabor. An der Schnittstelle von Verwaltung, Wissenschaft, Wirtschaft und Zivilgesellschaft nutzen sie die Potenziale der Digitalisierung für eine gemeinwohlorientierte Stadtentwicklung – praxisnah und wirkungsorientiert. 
+
+	Das CityLAB wird betrieben durch die <a href='https://www.technologiestiftung-berlin.de/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>Technologiestiftung Berlin</a> und gefördert durch die <a href='https://www.berlin.de/rbmskzl/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>Berliner Senatskanzlei</a>.`,
+	"about.secondSectionSubtitle.part2": "Das Klimateam Xhain",
+	"about.secondSectionDescription.part2": `Das vierköpfige Klimateam der Organisationseinheit „<a href='https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/service-und-organisationseinheiten/klima-und-internationales/artikel.1408194.php' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>Klima und Internationales</a>“ unterstützt die Umsetzung klimawirksamer Maßnahmen. Gleichzeitig vermitteln und vernetzten sie die verschiedenen Akteursgruppen im Bezirk, wenn es um Fragen des Klimaschutzes und der Klimaanpassung geht.  `,
 	"about.actionCardTitle": `Fragen?<br/>Schreib dem Klimateam Xhain.`,
 	"about.actionCardEmail": "E-Mail ans Klimateam",
 
