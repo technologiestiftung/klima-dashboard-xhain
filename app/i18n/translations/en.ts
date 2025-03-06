@@ -68,7 +68,7 @@ export const en: typeof de = {
 	"header.nav.dashboard": "Dashboard",
 	"header.nav.climateStrategies": "Climate strategies",
 	"header.nav.currentProjects": "Current projects",
-	"header.nav.about": "About us",
+	"header.nav.about": "About",
 	"header.cta": "Take action now",
 
 	/**
@@ -559,15 +559,23 @@ For example, heavy rainfall events in June 2017 and July 2018 caused severe floo
 	/**
 	 * About Page
 	 */
-	"about.title": "Who we are",
-	"about.firstSectionTitle": "Berlin climate neutral by 2045",
-	"about.firstSectionDescription":
-		"The Berlin Senate aims to transform Berlin into a climate-neutral city by 2045, while simultaneously adapting to the unavoidable impacts of climate change.",
-	"about.secondSectionTitle": "Xhain is setting a good example",
-	"about.secondSectionDescription":
-		"In December 2024, the two climate strategies were politically approved. The task is now to use them as a basis to advance specific projects in a targeted manner.",
-	"about.thirdSectionTitle": "Who? The Xhain climate team",
-	"about.thirdSectionDescription": `The four-member climate team of the "Climate and International Affairs" unit consists of two climate mitigation managers, one climate adaptation manager, and the climate officer. Together, they support the implementation of climate-effective measures. At the same time, they facilitate communication and networking between various stakeholder groups in the district on matters related to climate efforts. After all, climate mitigation and climate adaptation can only succeed collectively!`,
+	"about.title": "About",
+	"about.firstSectionTitle": "About the climate dashboard",
+	"about.firstSectionDescription": `
+	The Berlin Senate is pursuing an ambitious <a href='https://www.berlin.de/sen/uvk/klimaschutz/klimaschutzpolitik-in-berlin/ziele-und-grundlagen/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>climate protection policy</a>: Berlin is to become climate-neutral and adapted to the effects of climate change by 2045. Some districts have therefore begun to develop concrete concepts for climate protection and adaptation. This includes the district of Friedrichshain-Kreuzberg (Xhain).   
+
+	The Climate Dashboard provides an overview of the results of the resulting concepts. It makes current climate and emissions data visible and shows where there is a need for action and where concrete climate-related activities are already being undertaken.  
+
+	The ClimateDashboard was developed in close cooperation between the district's climate team and <a href='https://citylab-berlin.org/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>CityLAB Berlin</a>.
+	`,
+	"about.secondSectionTitle": "About us",
+	"about.secondSectionSubtitle.part1": "The CityLAB Berlin",
+	"about.secondSectionDescription.part1": `
+	The <a href='https://citylab-berlin.org/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>CityLAB</a> is Berlin’s public innovation laboratory. At the interface between administration, academia, business and civil society, we tap into the potential of digitalization to promote urban development geared towards the common good – hands-on and impact-oriented. 
+
+The CityLAB is run by <a href='https://www.technologiestiftung-berlin.de/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>Technologiestiftung Berlin</a> and funded by the  und gefördert durch die <a href='https://www.berlin.de/rbmskzl/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>Berlin Senate Chancellery</a>.`,
+	"about.secondSectionSubtitle.part2": "The Xhain climate team",
+	"about.secondSectionDescription.part2": `The climate team of the unit "<a href='https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/service-und-organisationseinheiten/klima-und-internationales/artikel.1408194.php' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>Climate and International Affairs</a>" supports the implementation of climate-effective measures. At the same time, they facilitate communication and networking between various stakeholder groups in the district on matters related to climate efforts.`,
 	"about.actionCardTitle": `Questions?<br/>Write to the Xhain climate team.`,
 	"about.actionCardEmail": "E-Mail the climate team",
 

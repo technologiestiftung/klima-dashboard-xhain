@@ -66,7 +66,7 @@ export const de = {
 	"header.nav.dashboard": "Dashboard",
 	"header.nav.climateStrategies": "Klimakonzepte",
 	"header.nav.currentProjects": "Aktuelle Projekte",
-	"header.nav.about": "Über uns",
+	"header.nav.about": "Info",
 	"header.cta": "Jetzt aktiv werden",
 
 	/**
@@ -552,16 +552,23 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 	/**
 	 * About Page
 	 */
-	"about.title": "Über uns",
-	"about.firstSectionTitle": "Berlin klimaneutral bis 2045",
-	"about.firstSectionDescription":
-		"Der Berliner Senat verfolgt das langfristige Ziel, Berlin bis zum Jahr 2045 zu einer klimaneutralen Stadt zu entwickeln und sich gleichzeitig an die unvermeidbaren Folgen des Klimawandels anzupassen.",
-	"about.secondSectionTitle": "Xhain geht als Vorbild voran",
-	"about.secondSectionDescription":
-		"Im Dezember 2024 hat das Bezirksamt das Klimaschutzkonzept und das Klimaanpassungskonzept beschlossen. Jetzt gilt es, darauf aufzubauen und konkrete  Projekte zielführend voranzubringen.",
-	"about.thirdSectionTitle": "Wer? Das Klimateam Xhain",
-	"about.thirdSectionDescription":
-		"Das vierköpfige Klimateam der Organisationseinheit „Klima und Internationales“ besteht aus zwei Klimaschutzmanagerinnen, einer Klimaanpassungsmanagerin und dem Klimabeauftragten. Gemeinsam unterstützen sie die Umsetzung klimawirksamer Maßnahmen. Gleichzeitig vermitteln und vernetzen sie die verschiedenen Akteursgruppen im Bezirk, wenn es um klimarelevante Fragen geht. Denn Klimaschutz und Klimaanpassung können nur gemeinsam gelingen!",
+	"about.title": "Info",
+	"about.firstSectionTitle": "Über das KlimaDashboard",
+	"about.firstSectionDescription": `
+	Der Berliner Senat verfoglt eine ambitionierte <a href='https://www.berlin.de/sen/uvk/klimaschutz/klimaschutzpolitik-in-berlin/ziele-und-grundlagen/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>Klimaschutzpolitik</a>: Berlin soll bis 2045 klimaneutral und an Klimawandelfolgen angepasst werden. Einige Bezirke haben daher begonnen konkrete Konzepte für Klimaschutz und -anpassung zu erarbeiten. So auch der Bezirk Friedrichshain-Kreuzberg (Xhain).  
+
+	Das KlimaDashboard gibt einen Überblick über die Ergebnisse der erarbeiteten Konzepte. Es macht aktuelle Klima- und Emissionsdaten sichtbar und zeigt, wo Handlungsbedarf besteht und wo bereits konkrete Aktivitäten im Klimabereich unternommen werden. 
+
+	Entwickelt wurde das KlimaDashboard in enger Zusammenarbeit zwischen dem bezirklichen Klimateam und dem <a href='https://citylab-berlin.org/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>CityLAB Berlin</a>. 
+		`,
+	"about.secondSectionTitle": "Über uns  ",
+	"about.secondSectionSubtitle.part1": "Das CityLAB Berlin",
+	"about.secondSectionDescription.part1": `
+	Das <a href='https://citylab-berlin.org/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>CityLAB</a> ist Berlins öffentliches Innovationslabor. An der Schnittstelle von Verwaltung, Wissenschaft, Wirtschaft und Zivilgesellschaft nutzen sie die Potenziale der Digitalisierung für eine gemeinwohlorientierte Stadtentwicklung – praxisnah und wirkungsorientiert. 
+
+	Das CityLAB wird betrieben durch die <a href='https://www.technologiestiftung-berlin.de/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>Technologiestiftung Berlin</a> und gefördert durch die <a href='https://www.berlin.de/rbmskzl/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>Berliner Senatskanzlei</a>.`,
+	"about.secondSectionSubtitle.part2": "Das Klimateam Xhain",
+	"about.secondSectionDescription.part2": `Das vierköpfige Klimateam der Organisationseinheit „<a href='https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/service-und-organisationseinheiten/klima-und-internationales/artikel.1408194.php' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>Klima und Internationales</a>“ unterstützt die Umsetzung klimawirksamer Maßnahmen. Gleichzeitig vermitteln und vernetzten sie die verschiedenen Akteursgruppen im Bezirk, wenn es um Fragen des Klimaschutzes und der Klimaanpassung geht.  `,
 	"about.actionCardTitle": `Fragen?<br/>Schreib dem Klimateam Xhain.`,
 	"about.actionCardEmail": "E-Mail ans Klimateam",
 
