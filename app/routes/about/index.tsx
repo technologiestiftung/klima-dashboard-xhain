@@ -3,11 +3,11 @@ import { i18n } from "~/i18n/i18n-utils";
 export default function Index() {
 	const content = [
 		{
-			h4: i18n("about.secondSectionSubtitle.part1"),
+			h3: i18n("about.secondSectionSubtitle.part1"),
 			p: i18n("about.secondSectionDescription.part1"),
 		},
 		{
-			h4: i18n("about.secondSectionSubtitle.part2"),
+			h3: i18n("about.secondSectionSubtitle.part2"),
 			p: i18n("about.secondSectionDescription.part2"),
 		},
 	];
@@ -37,9 +37,9 @@ export default function Index() {
 						</h2>
 						{content.map((section, index) => (
 							<div key={index} className="flex flex-col gap-3 mb-8">
-								<h4 className="text-base leading-6 lg:text-xl lg:leading-7 font-bold">
-									{section.h4}
-								</h4>
+								<h3 className="text-base leading-6 lg:text-xl lg:leading-7 font-bold">
+									{section.h3}
+								</h3>
 								<p
 									className="text-base leading-6 lg:text-xl lg:leading-7 font-normal"
 									dangerouslySetInnerHTML={{
