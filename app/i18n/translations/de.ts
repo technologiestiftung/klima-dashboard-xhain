@@ -143,9 +143,6 @@ Zum Beispiel hat Strom aus Windkraft einen sehr niedrigen Emissionsfaktor, währ
 	"chart.thgSector2021Tons.legend.districtBuildings": "bezirkliche Gebäude",
 	"chart.thgSector2021Tons.legend.economy": "Wirtschaft",
 	"chart.thgSector2021Tons.legend.traffic": "Verkehr",
-	"chart.thgSector2021Tons.keys.sector": "Sektor",
-	"chart.thgSector2021Tons.keys.total_tons": "Summe in Tonnen THG",
-	"chart.thgSector2021Tons.keys.percentage": "Prozent",
 	"chart.thgSector2021Tons.infoDialog.learnMoreLink":
 		"/climate-strategies/#climate-concept-full",
 	"chart.thgSector2021Tons.infoDialog.description": `Obwohl die Haushalte einen deutlich größten Anteil am Energieverbrauch aufweisen (siehe Kachel Endenergieverbrauch nach Sektoren), verursacht die Wirtschaft ein wenig mehr Emissionen (43 %) als die privaten Haushalte (42 %). Dies liegt an den unterschiedlichen Emissionsfaktoren der Energieträger für Strom und Wärme.
@@ -200,10 +197,6 @@ Der Verkehr verursacht 14% der Emissionen. Weiterhin sind auch die bezirklichen 
 	"chart.eevTotalMwh.legend.heating": "Wärme",
 	"chart.eevTotalMwh.legend.electricity": "Strom",
 	"chart.eevTotalMwh.legend.fuels": "Kraftstoffe",
-	"chart.eevTotalMwh.keys.year": "Jahr",
-	"chart.eevTotalMwh.keys.heating_mwh": "Heizung in Megawattstunden",
-	"chart.eevTotalMwh.keys.electricity_mwh": "Strom in Megawattstunden",
-	"chart.eevTotalMwh.keys.fuels_mwh": "Kraftstoffe in Megawattstunden",
 	"chart.eevTotalMwh.infoDialog.learnMoreLink":
 		"/climate-strategies/#climate-concept-full",
 	"chart.eevTotalMwh.infoDialog.description": `Der größte Teil des Energieverbrauchs entsteht durch den Wärmebedarf, also insbesondere durch das Heizen von Gebäuden und die Aufbereitung von Warmwasser. Das macht aktuell 56,9 % des bezirklichen Energieverbrauchs aus. 32,3 % entfallen auf den Stromverbrauch, z. B. für Beleuchtung oder technische Geräte. Den kleinsten, aber dennoch relevanten Verbrauch verursachen die Kraftstoffen mit 10,8 %.
@@ -224,9 +217,6 @@ Somit ist es wichtig, alle Akteure - Bürger:innen, Unternehmen und öffentliche
 
 	"chart.heatingMix2021Summarized.title": "Wärmemix",
 	"chart.heatingMix2021Summarized.subtitle": "nach Energiequelle in %",
-	"chart.heatingMix2021Summarized.keys.source": "Quelle",
-	"chart.heatingMix2021Summarized.keys.percentage": "Prozent",
-	"chart.heatingMix2021Summarized.keys.total_mwh": "Summe in Megawattstunden",
 	"chart.heatingMix2021Summarized.description":
 		"Neben dem wärmbedingten Energieverbrauch bestimmten die genutzten Energiequellen, wie im Wärmemix dargestellt, unsere Klimabilanz maßgeblich.",
 	"chart.heatingMix2021Summarized.gas": "Erdgas",
@@ -249,11 +239,6 @@ Das bedeutet, dass die erdgasbasierte Versorgung durch erneuerbare Energien, wie
 	"chart.modalSplit2018.legend.bike": "Rad",
 	"chart.modalSplit2018.toggle.description":
 		"Vergleiche mit Berlins Modalsplit",
-	"chart.modalSplit2018.keys.area": "Fläche",
-	"chart.modalSplit2018.keys.miv": "Motorisierter Individualverkehr",
-	"chart.modalSplit2018.keys.oepnv": "Öffentlicher Personen-Nahverkehr",
-	"chart.modalSplit2018.keys.foot": "Fußgänger:innen",
-	"chart.modalSplit2018.keys.bike": "Fahradfahrende",
 	"chart.modalSplit2018.infoDialog.learnMoreLink":
 		"/climate-strategies/#mobility",
 	"chart.modalSplit2018.infoDialog.description": `Der Umweltverbund, d.h. Öffis, Rad- und Fußverkehr, macht in Berlin bereits einen hohen Anteil aus. Die Zahlen verdeutlichen das wir als Bezirk als Vorbild vorangehen, hier werden bereits 86,5 % der Wege mit umweltfreundlichen Verkehrsmitteln zurückgelegt. Dennoch hat der Verkehrssektor weiterhin erhebliche Auswirkungen auf unser Klima. Trotz des geringen MIV-Anteils von 13,5 % verursacht der Verkehr Emissionen in Höhe von 153.000 Tonnen CO₂-Äquivalenten pro Jahr und macht damit etwa 13,6 % der gesamten Emissionen des Bezirks im Jahr 2021 aus.
@@ -262,8 +247,6 @@ Nicht nur für den Klimaschutz, sondern auch für die Luft- und die Lärmbelastu
 
 	"chart.traffic2022Summarized.title": "Emissionen durch den Verkehr",
 	"chart.traffic2022Summarized.subtitle": "nach Bereich in %",
-	"chart.traffic2022Summarized.keys.sector": "Sektor",
-	"chart.traffic2022Summarized.keys.percentage_thg": "Prozent Treibhausgas",
 	"chart.traffic2022Summarized.infoDialog.learnMoreLink":
 		"/climate-strategies/#mobility",
 	"chart.traffic2022Summarized.infoDialog.description": `Im Rahmen der Klimabilanz sind alle Fahrten, welche in Xhain starten oder enden oder bei denen sowohl Start- und Ziel im Bezirk liegen berücksichtigt worden. Dazu gehören neben den Öffis auch ein geringer Anteil der Binnenschifffahrt. Nicht berücksichtigt sind z.B. Flugreisen der Bevölkerung oder der Tourist*innen, da der Flughafen außerhalb der Bezirksgrenze liegt.
@@ -272,8 +255,6 @@ Demnach gilt es den Motorisierten Individualverkehr zu reduzieren und zu elektri
 
 	"chart.restBudgetThgUntilYear.title": "Restbudget-Eimer",
 	"chart.restBudgetThgUntilYear.subtitle": "des 1,75 Grad Klimaziels",
-	"chart.restBudgetThgUntilYear.keys.year": "Jahr",
-	"chart.restBudgetThgUntilYear.keys.tons_co2": "CO₂ Budget",
 	"chart.restBudgetThgUntilYear.unit": "Mio. Tonnen",
 	"chart.restBudgetThgUntilYear.remainingBudget":
 		"Verbleibendes CO₂–Budget bis",
@@ -293,10 +274,6 @@ Um die Ziele von Paris lokal umzusetzen, wird der sogenannte Restbudget-Ansatz g
 	"chart.reductionPathScenario175Thg.title": "Klimaschutzszenario",
 	"chart.reductionPathScenario175Thg.subtitle":
 		"(1,75 Grad, 67 % Wahrscheinlichkeit) in Tonnen THG",
-	"chart.reductionPathScenario175Thg.keys.year": "Jahr",
-	"chart.reductionPathScenario175Thg.keys.goal_berlin_tons": "Ziel Land Berlin",
-	"chart.reductionPathScenario175Thg.keys.model_xhain_tons":
-		"Modellberechnung Xhain",
 	"chart.reductionPathScenario175Thg.legend.model": "Klimaschutzszenario Xhain",
 	"chart.reductionPathScenario175Thg.legend.goal": "Ziel Land Berlin",
 	"chart.reductionPathScenario175Thg.description":
@@ -341,8 +318,6 @@ Projektionen für die Zukunft sind schwieriger zu ermitteln und hängen von den 
 
 	"chart.mediumTemperature.title": "Mittlere Jahrestemperatur",
 	"chart.mediumTemperature.subtitle": "in Friedrichshain-Kreuzberg nach Phasen",
-	"chart.mediumTemperature.keys.time": "Zeit",
-	"chart.mediumTemperature.keys.celsius": "Temperatur in °C",
 	"chart.mediumTemperature.description":
 		"Die mittlere Jahrestemperatur bezieht sich auf den Durchschnittswert der Temperaturen über einen Zeitraum von 10 Jahren.",
 	"chart.mediumTemperature.current": "Heute",
@@ -372,8 +347,6 @@ Projektionen für die Zukunft sind schwieriger zu ermitteln und hängen von den 
 
 	"chart.precipitationMm.title": "Niederschläge",
 	"chart.precipitationMm.subtitle": "in Milliliter",
-	"chart.precipitationMm.keys.year": "Jahr",
-	"chart.precipitationMm.keys.rain": "Regen in Millimeter",
 	"chart.precipitationMm.description":
 		"Bei den Niederschlägen ist in Xhain bisher kein eindeutiger Trend zu erkennen. Die Grafik zeigt das exemplarisch für die Sommerniederschläge im Bezirk.",
 	"chart.precipitationMm.infoDialog.sourceTitle": "Quelle:",

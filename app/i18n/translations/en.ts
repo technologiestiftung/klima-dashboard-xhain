@@ -144,9 +144,6 @@ The lower the emissions factor, the more climate-friendly the energy source is. 
 	"chart.thgSector2021Tons.legend.districtBuildings": "district buildings",
 	"chart.thgSector2021Tons.legend.economy": "economy",
 	"chart.thgSector2021Tons.legend.traffic": "traffic",
-	"chart.thgSector2021Tons.keys.sector": "Sector",
-	"chart.thgSector2021Tons.keys.total_tons": "Sum in Tons of CO₂ equivalent",
-	"chart.thgSector2021Tons.keys.percentage": "Percentage",
 	"chart.thgSector2021Tons.infoDialog.learnMoreLink":
 		"/climate-strategies/#climate-concept-full",
 	"chart.thgSector2021Tons.infoDialog.description": `Although households account for a significantly larger share of energy consumption (see final energy consumption by sector), the economy generates slightly more emissions (43%) than private households (42%). 
@@ -196,10 +193,6 @@ Resource- efficient and local provision as well as the sustainable consumption o
 	"chart.eevTotalMwh.legend.heating": "Heating",
 	"chart.eevTotalMwh.legend.electricity": "Electricity",
 	"chart.eevTotalMwh.legend.fuels": "Fuels",
-	"chart.eevTotalMwh.keys.year": "Year",
-	"chart.eevTotalMwh.keys.heating_mwh": "Heating in Megawatt Hours",
-	"chart.eevTotalMwh.keys.electricity_mwh": "Electricity in Megawatt Hours",
-	"chart.eevTotalMwh.keys.fuels_mwh": "Fuels in Megawatt Hours",
 	"chart.eevTotalMwh.infoDialog.learnMoreLink":
 		"/climate-strategies/#climate-concept-full",
 	"chart.eevTotalMwh.infoDialog.description": `The major part of energy consumption is caused by heating, i.e. in particular the heating of buildings and the preparation of hot water. This currently accounts for 56.9% of the district's energy consumption. 32.3 % is accounted for by electricity consumption, e.g. for lighting or technical appliances. The smallest, but still relevant consumption is caused by fuels (10.8 %).
@@ -220,9 +213,6 @@ This highlights the importance of involving all stakeholders—residents, busine
 
 	"chart.heatingMix2021Summarized.title": "Heatmix",
 	"chart.heatingMix2021Summarized.subtitle": "by energy source in %",
-	"chart.heatingMix2021Summarized.keys.source": "Source",
-	"chart.heatingMix2021Summarized.keys.percentage": "Percentage",
-	"chart.heatingMix2021Summarized.keys.total_mwh": "Sum in Megawatt hours",
 	"chart.heatingMix2021Summarized.description":
 		"In addition to heating-related energy consumption, the energy sources used, as shown in the heat mix, play a key role in determining our climate balance.",
 	"chart.heatingMix2021Summarized.gas": "Natural gas",
@@ -245,11 +235,6 @@ This means that the natural gas-based supply must be replaced with renewable ene
 	"chart.modalSplit2018.legend.bike": "Bike",
 	"chart.modalSplit2018.toggle.description":
 		"Comparison with Berlin's Modalsplit",
-	"chart.modalSplit2018.keys.area": "Area",
-	"chart.modalSplit2018.keys.miv": "Motorized individual transport",
-	"chart.modalSplit2018.keys.oepnv": "Public transport",
-	"chart.modalSplit2018.keys.foot": "Pedestrians",
-	"chart.modalSplit2018.keys.bike": "Cyclists",
 	"chart.modalSplit2018.infoDialog.learnMoreLink":
 		"/climate-strategies/#mobility",
 	"chart.modalSplit2018.infoDialog.description": `The so-called “ Umweltverbund”, i.e. the combination of public transport, cycling and walking, already accounts for a high proportion in Berlin. The figures show that we as a district are leading by example, with 86.5% of journeys already being made by environmentally friendly means of transport. Nevertheless, the transport sector continues to have a significant impact on our climate. Despite the low proportion of 13.5 % accounted for by MIT, transport causes emissions of 153,000 tons of CO₂ equivalents per year and thus accounts for around 13.6 % of the district's total emissions in 2021.
@@ -258,9 +243,6 @@ Further efforts to reduce traffic emissions are important not only for climate p
 
 	"chart.traffic2022Summarized.title": "Transport related emissions",
 	"chart.traffic2022Summarized.subtitle": "by sector in %",
-	"chart.traffic2022Summarized.keys.sector": "Sector",
-	"chart.traffic2022Summarized.keys.percentage_thg":
-		"Greenhouse gas percentage",
 	"chart.traffic2022Summarized.infoDialog.learnMoreLink":
 		"/climate-strategies/#mobility",
 	"chart.traffic2022Summarized.infoDialog.description": `All journeys that start or end in Xhain or for which both the start and destination are in the district have been taken into account in the carbon balance. This includes public transport and a small proportion of inland waterway transport. Air travel by residents or tourists, for example, is not included, as the airport is located outside the district boundary.
@@ -270,8 +252,6 @@ Accordingly, the aim is to reduce and electrify motorized private transport and 
 	"chart.restBudgetThgUntilYear.title": "Remaining local carbon budget",
 	"chart.restBudgetThgUntilYear.subtitle":
 		"according to the 1,75-degree target",
-	"chart.restBudgetThgUntilYear.keys.year": "Year",
-	"chart.restBudgetThgUntilYear.keys.tons_co2": "CO₂ budget",
 	"chart.restBudgetThgUntilYear.unit": "M. tons",
 	"chart.restBudgetThgUntilYear.remainingBudget": "Remaining budget until",
 	"chart.restBudgetThgUntilYear.text": `Xhain's remaining CO₂ budget is only 12.2 million tons in total to keep global warming below 1.75°C.
@@ -292,10 +272,6 @@ To implement the Paris goals locally, Xhain uses the "remaining budget" approach
 	"chart.reductionPathScenario175Thg.title": "Climate protection scenario",
 	"chart.reductionPathScenario175Thg.subtitle":
 		"(1.75 degrees, 67 % probability) in tonnes of GHG",
-	"chart.reductionPathScenario175Thg.keys.year": "Year",
-	"chart.reductionPathScenario175Thg.keys.goal_berlin_tons": "Goal Berlin",
-	"chart.reductionPathScenario175Thg.keys.model_xhain_tons":
-		"Model calculation Xhain",
 	"chart.reductionPathScenario175Thg.legend.model":
 		"Climate protection scenario Xhain",
 	"chart.reductionPathScenario175Thg.legend.goal": "Climate targets for Berlin",
@@ -340,8 +316,6 @@ Projections for the future are more difficult to determine and depend on climate
 
 	"chart.mediumTemperature.title": "Average annual temperature",
 	"chart.mediumTemperature.subtitle": "in Friedrichshain-Kreuzberg by phases",
-	"chart.mediumTemperature.keys.time": "Zeit",
-	"chart.mediumTemperature.keys.celsius": "Temperatur in °C",
 	"chart.mediumTemperature.description":
 		"The mean annual temperature refers to the average temperature over a period of 10 years.",
 	"chart.mediumTemperature.current": "Today",
@@ -373,8 +347,6 @@ If greenhouse gas emissions continue to rise steadily (RCP 8.5 scenario), the av
 
 	"chart.precipitationMm.title": "Rainfall",
 	"chart.precipitationMm.subtitle": "in milliliters",
-	"chart.precipitationMm.keys.year": "Year",
-	"chart.precipitationMm.keys.rain": "Rainfall in milimeters",
 	"chart.precipitationMm.description":
 		"So far, there is no clear trend for precipitation in Xhain. The graph shows, as an example, the summer precipitation in the district.",
 	"chart.precipitationMm.infoDialog.sourceTitle": "Source:",
