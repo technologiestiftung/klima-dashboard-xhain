@@ -555,7 +555,6 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 	"footer.cardSubHeading": "Schreib uns!",
 	"footer.cardCtaButtonText": "E-Mail ans Klimateam",
 	"footer.cardCtaEmail": "klima_und_internationales@ba-fk.berlin.de",
-	"footer.bezirksamtXhainAltText": "bezirksamt xhain logo",
 	"footer.imprint": "Impressum",
 	"footer.privacy": "Datenschutz",
 	"footer.accessibility": "Erklärung zur Barrierefreiheit",

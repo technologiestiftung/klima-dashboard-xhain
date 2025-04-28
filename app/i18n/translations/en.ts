@@ -561,7 +561,6 @@ The CityLAB is run by <a href='https://www.technologiestiftung-berlin.de/' targe
 	"footer.cardSubHeading": "Write us!",
 	"footer.cardCtaButtonText": "E-Mail the climate team",
 	"footer.cardCtaEmail": "klima_und_internationales@ba-fk.berlin.de",
-	"footer.bezirksamtXhainAltText": "bezirksamt xhain logo",
 	"footer.imprint": "Imprint",
 	"footer.privacy": "Data privacy",
 	"footer.accessibility": "Accessibility statement",
