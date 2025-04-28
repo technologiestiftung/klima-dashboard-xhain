@@ -61,6 +61,7 @@ export const de = {
 	 * Header / Navigation
 	 */
 	"header.bezirksamtXhainAltText": "Zur Startseite",
+	"header.climateDashboard.title": "KlimaDashboard Xhain",
 	"header.burgerMenuAltText": "Menü öffnen",
 	"header.closeButtonAltText": "Menü schließen",
 	"header.nav.dashboard": "Dashboard",
@@ -600,8 +601,10 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 	"footer.feedbackLink":
 		"https://citylabberlin.typeform.com/to/kCdnCgvC#product_id=klimadashboardxhain",
 	"footer.projectOwnerLabel": "Ein Projekt der",
+	"footer.projectSupporter": "Unterstützt durch",
 	"footer.projectExecutionerLabel": "Gefördert durch",
 	"footer.cityLABLogoAltText": "Logo vom CityLAB Berlin",
+	"footer.xhainLogoAltText": "Logo vom Bezirksamt Friedrichshain-Kreuzberg",
 	"footer.tSBLogoAltText": "Logo der Technologiestiftung Berlin",
 	"footer.footerSenatskanzleiLogoAltText": "Logo der Senatskanzlei Berlin",
 
