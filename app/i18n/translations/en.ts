@@ -555,46 +555,6 @@ The CityLAB is run by <a href='https://www.technologiestiftung-berlin.de/' targe
 	"about.actionCardEmail": "E-Mail the climate team",
 
 	/**
-	 * Imprint & data privacy page
-	 */
-	"imprintPrivacy.title": "Imprint and data privacy",
-	"imprintPrivacy.imprint.heading": "District Office Friedrichshain-Kreuzberg",
-	"imprintPrivacy.imprint.description": `Department of Finance, Personnel, Economy, Culture, Diversity, and Climate  
-		Organizational Unit for Climate and International Affairs<br/><br/>
-		Frankfurter Allee 35/37<br/>
-		10247 Berlin<br/>
-		Germany<br/><br/>
-		E-Mail: <a
-			href="mailto: klima_und_internationales@ba-fk.berlin.de"
-			target="_blank"
-			rel="noopener noreferrer"
-			 class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'
-			>
-			klima_und_internationales@ba-fk.berlin.de</a><br/><br/>
-		Head of the Organizational Unit for Climate and International Affairs: Lennart Aldick`,
-	"imprintPrivacy.privacy.heading": "Data privacy",
-	"imprintPrivacy.privacy.description": `Data protection officer<br/>
-		Frankfurter Allee 35-37<br/>
-		10247 Berlin<br/>
-		E-Mail: <a
-			href="mailto: datenschutz@ba-fk.berlin.de"
-			target="_blank"
-			rel="noopener noreferrer"
-			class='underline underline-offset-4'
-			>
-			datenschutz@ba-fk.berlin.de</a>`,
-	"imprintPrivacy.disclaimer.heading": "Disclaimer",
-	"imprintPrivacy.disclaimer.description": `The content published on the website of the Friedrichshain-Kreuzberg District Office of Berlin has been researched with the utmost care. Nevertheless, the Bezirksamt Friedrichshain-Kreuzberg von Berlin cannot guarantee that the information provided is up-to-date, correct or complete. All information is provided without guarantee. Liability claims derived from the use of this information against the Friedrichshain-Kreuzberg District Office, the State of Berlin or the operator of 
-	“<a
-			href="https://www.berlin.de/"
-			target="_blank"
-			rel="noopener noreferrer"
-			class='underline underline-offset-4'
-		>berlin.de</a>” are excluded.`,
-	"imprintPrivacy.copyright.heading": "Copyright",
-	"imprintPrivacy.copyright.description": `The layout of the pages of the Friedrichshain-Kreuzberg District Office of Berlin, the graphics, photos, moving images, texts and the collection of articles used are protected by copyright. The use of the content is only permitted within the framework of the statutory provisions.`,
-
-	/**
 	 * Footer
 	 */
 	"footer.cardHeading":
@@ -602,8 +562,9 @@ The CityLAB is run by <a href='https://www.technologiestiftung-berlin.de/' targe
 	"footer.cardSubHeading": "Write us!",
 	"footer.cardCtaButtonText": "E-Mail the climate team",
 	"footer.cardCtaEmail": "klima_und_internationales@ba-fk.berlin.de",
-	"footer.bezirksamtXhainAltText": "bezirksamt xhain logo",
-	"footer.imprint": "Imprint and data privacy",
+	"footer.imprint": "Imprint",
+	"footer.privacy": "Data privacy",
+	"footer.accessibility": "Accessibility statement",
 	"footer.feedback": "Feedback",
 	"footer.feedbackLink":
 		"https://citylabberlin.typeform.com/to/wkhvLJyN#product_id=klimadashboardxhain",

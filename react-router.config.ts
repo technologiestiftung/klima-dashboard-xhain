@@ -12,8 +12,6 @@ export default {
 			"/en/current-projects/",
 			"/climate-strategies/",
 			"/en/climate-strategies/",
-			"/imprint-privacy/",
-			"/en/imprint-privacy/",
 		];
 	},
 } satisfies Config;
