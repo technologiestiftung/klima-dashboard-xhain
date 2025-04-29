@@ -531,7 +531,7 @@ Im Hinblick auf die Anzahl an Starkregentagen gibt es bisher auch keinen eindeut
 	"about.title": "Info",
 	"about.firstSectionTitle": "Über das KlimaDashboard",
 	"about.firstSectionDescription": `
-	Der Berliner Senat verfoglt eine ambitionierte <a href='https://www.berlin.de/sen/uvk/klimaschutz/klimaschutzpolitik-in-berlin/ziele-und-grundlagen/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>Klimaschutzpolitik</a>: Berlin soll bis 2045 klimaneutral und an Klimawandelfolgen angepasst werden. Einige Bezirke haben daher begonnen konkrete Konzepte für Klimaschutz und -anpassung zu erarbeiten. So auch der Bezirk Friedrichshain-Kreuzberg (Xhain).  
+	Der Berliner Senat verfolgt eine ambitionierte <a href='https://www.berlin.de/sen/uvk/klimaschutz/klimaschutzpolitik-in-berlin/ziele-und-grundlagen/' target='_blank' rel='noopener noreferrer' class='text-xhain-blue-50 underline underline-offset-4 hover:text-xhain-blue-60'>Klimaschutzpolitik</a>: Berlin soll bis 2045 klimaneutral und an Klimawandelfolgen angepasst werden. Einige Bezirke haben daher begonnen konkrete Konzepte für Klimaschutz und -anpassung zu erarbeiten. So auch der Bezirk Friedrichshain-Kreuzberg (Xhain).  
 
 	Das KlimaDashboard gibt einen Überblick über die Ergebnisse der erarbeiteten Konzepte. Es macht aktuelle Klima- und Emissionsdaten sichtbar und zeigt, wo Handlungsbedarf besteht und wo bereits konkrete Aktivitäten im Klimabereich unternommen werden. 
 
