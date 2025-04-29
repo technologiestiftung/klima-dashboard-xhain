@@ -63,6 +63,7 @@ export const en: typeof de = {
 	 * Header / Navigation
 	 */
 	"header.bezirksamtXhainAltText": "Go to homepage",
+	"header.climateDashboard.title": "KlimaDashboard Xhain",
 	"header.burgerMenuAltText": "Open menu",
 	"header.closeButtonAltText": "Close menu",
 	"header.nav.dashboard": "Dashboard",
@@ -607,8 +608,11 @@ The CityLAB is run by <a href='https://www.technologiestiftung-berlin.de/' targe
 	"footer.feedbackLink":
 		"https://citylabberlin.typeform.com/to/wkhvLJyN#product_id=klimadashboardxhain",
 	"footer.projectOwnerLabel": "A project of",
+	"footer.projectSupporter": "Supported by",
 	"footer.projectExecutionerLabel": "Implemented by",
 	"footer.cityLABLogoAltText": "Logo of the CityLAB Berlin",
+	"footer.xhainLogoAltText":
+		"Logo of the district office Friedrichshain-Kreuzberg",
 	"footer.tSBLogoAltText": "Logo of the Technology Foundation Berlin",
 	"footer.footerSenatskanzleiLogoAltText": "Logo of Berlin Senate Chancellery",
 

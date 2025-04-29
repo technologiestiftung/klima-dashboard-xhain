@@ -1,9 +1,7 @@
 import React from "react";
-import { i18n, buildLocalizedLink } from "~/i18n/i18n-utils";
+import { buildLocalizedLink, i18n } from "~/i18n/i18n-utils";
 import { Navigation } from "./navigation/navigation";
 import { useScrollDirection } from "~/hooks/use-scroll-direction";
-
-const xhainLogo = "/images/xhain-logo.svg";
 
 export const Header: React.FC = () => {
 	const scrollDirection = useScrollDirection();
@@ -18,12 +16,11 @@ export const Header: React.FC = () => {
         ${isHeaderVisible ? "translate-y-0" : "-translate-y-full"}
       `}
 		>
-			<a href={buildLocalizedLink("/")}>
-				<img
-					src={xhainLogo}
-					alt={i18n("header.bezirksamtXhainAltText")}
-					className="w-24 lg:w-32 py-3"
-				/>
+			<a
+				className="font-bold text-2xl leading-8 xl:text-3xl lg:leading-7 py-4 lg:py-6 flex self-end"
+				href={buildLocalizedLink("/")}
+			>
+				{i18n("header.climateDashboard.title")}
 			</a>
 			<Navigation />
 		</header>

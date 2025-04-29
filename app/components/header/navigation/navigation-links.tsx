@@ -9,10 +9,6 @@ const navLinks: {
 	labelKey: AvailableTranslations;
 	className?: string;
 }[] = [
-	{
-		path: "/",
-		labelKey: "header.nav.dashboard",
-	},
 	{ path: "/climate-strategies/", labelKey: "header.nav.climateStrategies" },
 	{ path: "/current-projects/", labelKey: "header.nav.currentProjects" },
 	{ path: "/about/", labelKey: "header.nav.about" },
