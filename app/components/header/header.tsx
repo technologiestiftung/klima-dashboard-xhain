@@ -17,7 +17,7 @@ export const Header: React.FC = () => {
       `}
 		>
 			<a
-				className="font-bold text-2xl leading-8 xl:text-3xl lg:leading-7 py-4 lg:py-6 flex self-end lg:self-center"
+				className="font-bold text-2xl leading-8 xl:text-3xl lg:leading-7 py-4 lg:py-4 flex self-end"
 				href={buildLocalizedLink("/")}
 			>
 				<img
