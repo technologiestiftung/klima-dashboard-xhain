@@ -30,9 +30,8 @@ export function RadioToggle<T extends string>({
 						name={radioID}
 						className="appearance-none opacity-0 w-0"
 						defaultChecked={defaultValue === value}
-						onClick={() => onSelectionChange(value)}
+						onChange={() => onSelectionChange(value)}
 					/>
-
 					{label}
 				</label>
 			))}
