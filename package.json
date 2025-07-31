@@ -17,17 +17,17 @@
 		"test:visual": "playwright test --config=tests/visual-regression/playwright.config.ts"
 	},
 	"dependencies": {
-		"@floating-ui/react": "0.27.4",
-		"@react-router/node": "7.1.1",
-		"@react-router/serve": "7.1.1",
+		"@floating-ui/react": "0.27.15",
+		"@react-router/node": "7.7.1",
+		"@react-router/serve": "7.7.1",
 		"d3": "7.9.0",
 		"date-fns": "4.1.0",
-		"isbot": "5.1.20",
-		"mapbox-gl": "3.9.4",
-		"react": "19.0.0",
-		"react-dom": "19.0.0",
-		"react-router": "7.1.1",
-		"zustand": "5.0.2"
+		"isbot": "5.1.29",
+		"mapbox-gl": "3.14.0",
+		"react": "19.1.1",
+		"react-dom": "19.1.1",
+		"react-router": "7.7.1",
+		"zustand": "5.0.7"
 	},
 	"devDependencies": {
 		"@axe-core/playwright": "4.10.1",
