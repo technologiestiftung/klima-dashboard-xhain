@@ -4,7 +4,9 @@ import { i18n } from "~/i18n/i18n-utils";
 export const FooterLogoBar: React.FC = () => {
 	return (
 		<div className="w-full flex flex-col justify-center items-center lg:flex-row py-10 md:py-12 lg:py-8 gap-12 lg:gap-[60px] bg-xhain-blue-10">
-			<div>
+			<div className="flex flex-col gap-y-4 sm:gap-y-3 items-center lg:items-start">
+				<div className="text-sm leading-5 font-normal" />
+
 				<a
 					href="https://citylab-berlin.org/de/start/"
 					target="_blank"
@@ -13,7 +15,7 @@ export const FooterLogoBar: React.FC = () => {
 					<img
 						src="https://logos.citylab-berlin.org/logo-citylab-color.svg"
 						alt={i18n("footer.cityLABLogoAltText")}
-						className="w-60"
+						className="w-32"
 					/>
 				</a>
 			</div>
